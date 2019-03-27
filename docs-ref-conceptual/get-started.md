@@ -11,7 +11,7 @@ This guide walks you through setting up a development environment. You will then
 ## Prerequisites
 
 - A direct, or indirect provider, enrollment into the Cloud Solution Provider program. If you do not have an active enrollment, [join the Cloud Solution Provider program](https://partner.microsoft.com/cloud-solution-provider/csp-enrollment).
-- [Java 8](https://developers.redhat.com/products/openjdk/download/)
+- [Java 7](https://developers.redhat.com/products/openjdk/download/)
 - [Maven 3](http://maven.apache.org/download.cgi)
 
 > [!NOTE]  
@@ -46,7 +46,7 @@ Perform the following to create the resource needed to perform app + user authen
 1. Open the [App management](https://partner.microsoft.com/pcv/apiintegration/appmanagement) feature of Partner Center.
 2. Click the *Register* link found under the *Native App* section.
 
-This will create a new Azure AD application that is configured for use with the Partner Center API. Use the information available after registering an application to create the credentials object. With this type of authentication you will need a class that implements *IAadLoginHandler* interface. You can reference the [AadUserLoginHandler](https://github.com/Microsoft/Partner-Center-Java-Samples/blob/master/src/main/java/com/microsoft/store/partnercenter/samples/AadUserLoginHandler.java) class as an example.
+This will create a new Azure AD application that is configured for use with the Partner Center API. Use the information available after registering an application to create the credentials object. With this type of authentication you will need a class that implements *IAadLoginHandler* interface. You can reference the [AadUserLoginHandler](https://github.com/Microsoft/Partner-Center-Java-Samples/blob/master/sdk/src/main/java/com/microsoft/store/partnercenter/samples/AadUserLoginHandler.java) class as an example.
 
 ```java
 AadLoginHandler loginHandler = new AadUserLoginHandler();
