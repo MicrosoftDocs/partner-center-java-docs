@@ -1,3 +1,9 @@
+---
+title:  Partner Center Java SDK | Microsoft Docs
+description: Getting started with the Partner Center Java SDK.
+ms.date: 03/27/2019
+---
+
 # Get started with development using the Partner Center SDK
 
 This guide walks you through setting up a development environment. You will then create a customer and an order to perform some basic tasks, like assigning licenses or querying Azure utilization records. When you are done, you will be ready to start using the SDK in your own Java applications.
@@ -74,7 +80,7 @@ This creates a basic Maven project under the `testPartnerApp` folder. Add the fo
 <dependency>
     <groupId>com.microsoft.store</groupId>
     <artifactId>partnercenter</artifactId>
-    <version>1.8.1</version>
+    <version>1.12.0</version>
 </dependency>
 ```
 

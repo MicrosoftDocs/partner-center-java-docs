@@ -1,19 +1,7 @@
 ---
-title:  Partner Center Java SDK Overview
+title:  Partner Center Java SDK Overview | Microsoft Docs
 description: Overview of the Partner Center Java SDK.
-services: partner-center
-documentationcenter: ''
-author: iswillia
-manager: lesliep
-editor: ''
-
-ms.service: partner-center
-ms.workload: partner-center
-ms.tgt_pltfrm: na
-ms.devlang: na
-ms.topic: hero-article
-ms.date: 10/23/2018
-ms.author: iswillia
+ms.date: 03/26/2019
 ---
 
 # Overview
@@ -30,7 +18,7 @@ Manage resources in Partner Center using the client library.
 <dependency>
     <groupId>com.microsoft.store</groupId>
     <artifactId>partnercenter</artifactId>
-    <version>1.8.1</version>
+    <version>1.12.0</version>
 </dependency>
 ```
 
