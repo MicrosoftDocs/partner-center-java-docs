@@ -1,0 +1,419 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  id: ISubscriptionCollection
+  parent: com.microsoft.store.partnercenter.subscriptions
+  children:
+  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byId(String)
+  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byOrder(String)
+  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner(String)
+  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get()
+  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.getUsageRecords()
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.yml
+  langs:
+  - java
+  name: ISubscriptionCollection
+  nameWithType: ISubscriptionCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionCollection.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionCollection.java
+    startLine: 17
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>Represents the behavior of the customer subscriptions as a whole. </p>"
+  syntax:
+    content: public interface ISubscriptionCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Subscription, ResourceCollection<Subscription>>
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byId(String)
+  id: byId(String)
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.yml
+  langs:
+  - java
+  name: byId(String subscriptionId)
+  nameWithType: ISubscriptionCollection.byId(String subscriptionId)
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byId(String subscriptionId)
+  overload: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionCollection.java
+    startLine: 34
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>Retrieves a specific customer subscription behavior.</p>\r\n<p></p>"
+  syntax:
+    content: public ISubscription byId(String subscriptionId)
+    parameters:
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>The subscription identifier </p>
+    return:
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscription
+      description: <p>The customer subscription. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byOrder(String)
+  id: byOrder(String)
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.yml
+  langs:
+  - java
+  name: byOrder(String orderId)
+  nameWithType: ISubscriptionCollection.byOrder(String orderId)
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byOrder(String orderId)
+  overload: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byOrder*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionCollection.java
+    startLine: 48
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>Groups customer subscriptions by an order.</p>\r\n<p></p>"
+  syntax:
+    content: public IEntireEntityCollectionRetrievalOperations<Subscription, ResourceCollection<Subscription>> byOrder(String orderId)
+    parameters:
+    - id: orderId
+      type: "26831127"
+      description: <p>The order id. </p>
+    return:
+      type: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptionb33c76fccom.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptione7daa122
+      description: <p>The order subscriptions operations. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner(String)
+  id: byPartner(String)
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.yml
+  langs:
+  - java
+  name: byPartner(String partnerId)
+  nameWithType: ISubscriptionCollection.byPartner(String partnerId)
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner(String partnerId)
+  overload: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionCollection.java
+    startLine: 56
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>Groups customer subscriptions by a partner.</p>\r\n<p></p>"
+  syntax:
+    content: public IEntireEntityCollectionRetrievalOperations<Subscription, ResourceCollection<Subscription>> byPartner(String partnerId)
+    parameters:
+    - id: partnerId
+      type: "26831127"
+      description: <p>The partner id. </p>
+    return:
+      type: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptionb33c76fccom.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptione7daa122
+      description: <p>The partner subscriptions operations. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: ISubscriptionCollection.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get()
+  overload: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionCollection.java
+    startLine: 40
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>Retrieves all subscriptions. </p>"
+  syntax:
+    content: public ResourceCollection<Subscription> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptiona08ddfce
+      description: <p>The subscriptions. </p>
+  overridden: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.getUsageRecords()
+  id: getUsageRecords()
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.yml
+  langs:
+  - java
+  name: getUsageRecords()
+  nameWithType: ISubscriptionCollection.getUsageRecords()
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.getUsageRecords()
+  overload: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.getUsageRecords*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionCollection.java
+    startLine: 26
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>Obtains the subscription usage records behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ISubscriptionMonthlyUsageRecordCollection getUsageRecords()
+    return:
+      type: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+      description: <p>The customer subscription usage record. </p>
+references:
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.getUsageRecords*
+  name: getUsageRecords
+  nameWithType: ISubscriptionCollection.getUsageRecords
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.getUsageRecords
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byId*
+  name: byId
+  nameWithType: ISubscriptionCollection.byId
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byId
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptiona08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+    name: Subscription
+    fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+    href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get*
+  name: get
+  nameWithType: ISubscriptionCollection.get
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptionb33c76fccom.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptione7daa122
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+    name: IEntireEntityCollectionRetrievalOperations
+    fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+    href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+    name: Subscription
+    fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+    href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  - name: ', '
+    fullName: ', '
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+    name: Subscription
+    fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+    href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  - name: '>>'
+    fullName: '>>'
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byOrder*
+  name: byOrder
+  nameWithType: ISubscriptionCollection.byOrder
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byOrder
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner*
+  name: byPartner
+  nameWithType: ISubscriptionCollection.byPartner
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponentString.yml
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+  type: Interface
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponentString extends IPartnerComponent<String>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  type: Interface
+  summary: "<p>A generic interface which represents operations for getting an entire collection of entities. The entity type.The entity collection type. </p>"
+  syntax:
+    content: public interface IEntireEntityCollectionRetrievalOperations<T,TResourceCollection extends ResourceCollection<T>>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+    - id: TResourceCollection
+      type: 5f968003
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.yml
+  name: SubscriptionCollectionOperations
+  nameWithType: SubscriptionCollectionOperations
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+  type: Class
+  summary: "<p>The customer subscriptions implementation. </p>"
+  syntax:
+    content: public class SubscriptionCollectionOperations
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.yml
+  name: ISubscriptionMonthlyUsageRecordCollection
+  nameWithType: ISubscriptionMonthlyUsageRecordCollection
+  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+  type: Interface
+  summary: "<p>Defines the behavior for a subscription's daily usage records. </p>"
+  syntax:
+    content: public interface ISubscriptionMonthlyUsageRecordCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords()
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.yml
+  name: getUsageRecords()
+  nameWithType: SubscriptionCollectionOperations.getUsageRecords()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords()
+  type: Method
+  summary: "<p>Obtains the subscription usage records behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ISubscriptionMonthlyUsageRecordCollection getUsageRecords()
+    return:
+      type: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+      description: <p>The customer subscription usage records. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscription
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscription.yml
+  name: ISubscription
+  nameWithType: ISubscription
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscription
+  type: Interface
+  summary: "<p>This interface defines the operations available on a customer's subscription. </p>"
+  syntax:
+    content: public interface ISubscription extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<Subscription>,IEntityPatchOperations<Subscription>
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId(String)
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.yml
+  name: byId(String subscriptionId)
+  nameWithType: SubscriptionCollectionOperations.byId(String subscriptionId)
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId(String subscriptionId)
+  type: Method
+  summary: "<p>Retrieves a specific customer subscription behavior.</p>\r\n<p></p>"
+  syntax:
+    content: public ISubscription byId(String subscriptionId)
+    parameters:
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>The subscription identifier </p>
+    return:
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscription
+      description: <p>The customer subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  name: Subscription
+  nameWithType: Subscription
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  type: Class
+  summary: "<p>The subscription resource represents the life cycle of a subscription and includes properties that define the states throughout the subscription life cycle </p>"
+  syntax:
+    content: public class Subscription
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: get()
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T, TResourceCollection extends ResourceCollection<T>.get()
+  type: Method
+  summary: "<p>Retrieves all entities.</p>\r\n<p></p>"
+  syntax:
+    content: public TResourceCollection get()
+    return:
+      type: 5f968003
+      description: <p>The entities. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.yml
+  name: get()
+  nameWithType: SubscriptionCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all subscriptions.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Subscription> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptiona08ddfce
+      description: <p>The subscriptions. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder(String)
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.yml
+  name: byOrder(String orderId)
+  nameWithType: SubscriptionCollectionOperations.byOrder(String orderId)
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder(String orderId)
+  type: Method
+  summary: "<p>Groups customer subscriptions by an order.</p>\r\n<p></p>"
+  syntax:
+    content: public IEntireEntityCollectionRetrievalOperations<Subscription, ResourceCollection<Subscription>> byOrder(String orderId)
+    parameters:
+    - id: orderId
+      type: "26831127"
+      description: <p>The order id. </p>
+    return:
+      type: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptionb33c76fccom.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptione7daa122
+      description: <p>The order subscriptions operations. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner(String)
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.yml
+  name: byPartner(String partnerId)
+  nameWithType: SubscriptionCollectionOperations.byPartner(String partnerId)
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner(String partnerId)
+  type: Method
+  summary: "<p>Groups customer subscriptions by a partner.</p>\r\n<p></p>"
+  syntax:
+    content: public IEntireEntityCollectionRetrievalOperations<Subscription, ResourceCollection<Subscription>> byPartner(String partnerId)
+    parameters:
+    - id: partnerId
+      type: "26831127"
+      description: <p>The partner id. </p>
+    return:
+      type: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptionb33c76fccom.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptione7daa122
+      description: <p>The partner subscriptions operations. </p>

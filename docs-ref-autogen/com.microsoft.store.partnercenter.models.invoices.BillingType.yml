@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingType
+  id: BillingType
+  parent: com.microsoft.store.partnercenter.models.invoices
+  children:
+  - com.microsoft.store.partnercenter.models.invoices.BillingType.BillingType(String)
+  - com.microsoft.store.partnercenter.models.invoices.BillingType.LICENSE
+  - com.microsoft.store.partnercenter.models.invoices.BillingType.NONE
+  - com.microsoft.store.partnercenter.models.invoices.BillingType.toString()
+  - com.microsoft.store.partnercenter.models.invoices.BillingType.USAGE
+  href: com.microsoft.store.partnercenter.models.invoices.BillingType.yml
+  langs:
+  - java
+  name: BillingType
+  nameWithType: BillingType
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingType.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingType.java
+    startLine: 10
+  package: com.microsoft.store.partnercenter.models.invoices
+  syntax:
+    content: public enum BillingType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<BillingType>
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingType.BillingType(String)
+  id: BillingType(String)
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingType
+  href: com.microsoft.store.partnercenter.models.invoices.BillingType.yml
+  langs:
+  - java
+  name: BillingType(String value)
+  nameWithType: BillingType.BillingType(String value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingType.BillingType(String value)
+  overload: com.microsoft.store.partnercenter.models.invoices.BillingType.BillingType*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingType.java
+    startLine: 29
+  package: com.microsoft.store.partnercenter.models.invoices
+  syntax:
+    content: public BillingType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingType.LICENSE
+  id: LICENSE
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingType
+  href: com.microsoft.store.partnercenter.models.invoices.BillingType.yml
+  langs:
+  - java
+  name: LICENSE
+  nameWithType: BillingType.LICENSE
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingType.LICENSE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingType.java
+    startLine: 25
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>The license based billing </p>"
+  syntax:
+    content: public LICENSE=("license")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingType.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingType
+  href: com.microsoft.store.partnercenter.models.invoices.BillingType.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: BillingType.NONE
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingType.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingType.java
+    startLine: 15
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>The way billing is processed for a subscription Indicates nothing - not set, used as an initializer </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingType.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingType
+  href: com.microsoft.store.partnercenter.models.invoices.BillingType.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: BillingType.toString()
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingType.toString()
+  overload: com.microsoft.store.partnercenter.models.invoices.BillingType.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingType.java
+    startLine: 41
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingType.USAGE
+  id: USAGE
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingType
+  href: com.microsoft.store.partnercenter.models.invoices.BillingType.yml
+  langs:
+  - java
+  name: USAGE
+  nameWithType: BillingType.USAGE
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingType.USAGE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingType.java
+    startLine: 20
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>The usage based billing </p>"
+  syntax:
+    content: public USAGE=("usage")
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingType.BillingType*
+  name: BillingType
+  nameWithType: BillingType.BillingType
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingType.BillingType
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingType.toString*
+  name: toString
+  nameWithType: BillingType.toString
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingType.toString
+  package: com.microsoft.store.partnercenter.models.invoices

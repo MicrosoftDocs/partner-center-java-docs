@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  id: BillingProvider
+  parent: com.microsoft.store.partnercenter.models.invoices
+  children:
+  - com.microsoft.store.partnercenter.models.invoices.BillingProvider.ALL
+  - com.microsoft.store.partnercenter.models.invoices.BillingProvider.AZURE
+  - com.microsoft.store.partnercenter.models.invoices.BillingProvider.BillingProvider(String)
+  - com.microsoft.store.partnercenter.models.invoices.BillingProvider.MARKETPLACE
+  - com.microsoft.store.partnercenter.models.invoices.BillingProvider.NONE
+  - com.microsoft.store.partnercenter.models.invoices.BillingProvider.OFFICE
+  - com.microsoft.store.partnercenter.models.invoices.BillingProvider.ONE_TIME
+  - com.microsoft.store.partnercenter.models.invoices.BillingProvider.toString()
+  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+  langs:
+  - java
+  name: BillingProvider
+  nameWithType: BillingProvider
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingProvider.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingProvider.java
+    startLine: 10
+  package: com.microsoft.store.partnercenter.models.invoices
+  syntax:
+    content: public enum BillingProvider
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<BillingProvider>
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider.ALL
+  id: ALL
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+  langs:
+  - java
+  name: ALL
+  nameWithType: BillingProvider.ALL
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider.ALL
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingProvider.java
+    startLine: 40
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Indicates that the provider is both first party and marketplace. </p>"
+  syntax:
+    content: public ALL=("all")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider.AZURE
+  id: AZURE
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+  langs:
+  - java
+  name: AZURE
+  nameWithType: BillingProvider.AZURE
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider.AZURE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingProvider.java
+    startLine: 25
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Bill is provided by Azure. Example: Azure Services. </p>"
+  syntax:
+    content: public AZURE=("azure")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider.BillingProvider(String)
+  id: BillingProvider(String)
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+  langs:
+  - java
+  name: BillingProvider(String value)
+  nameWithType: BillingProvider.BillingProvider(String value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider.BillingProvider(String value)
+  overload: com.microsoft.store.partnercenter.models.invoices.BillingProvider.BillingProvider*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingProvider.java
+    startLine: 44
+  package: com.microsoft.store.partnercenter.models.invoices
+  syntax:
+    content: public BillingProvider(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider.MARKETPLACE
+  id: MARKETPLACE
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+  langs:
+  - java
+  name: MARKETPLACE
+  nameWithType: BillingProvider.MARKETPLACE
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider.MARKETPLACE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingProvider.java
+    startLine: 35
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Indicates that the provider is marketplace . </p>"
+  syntax:
+    content: public MARKETPLACE=("marketplace")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: BillingProvider.NONE
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingProvider.java
+    startLine: 15
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Different providers of billing information Enum initializer </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider.OFFICE
+  id: OFFICE
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+  langs:
+  - java
+  name: OFFICE
+  nameWithType: BillingProvider.OFFICE
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider.OFFICE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingProvider.java
+    startLine: 20
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Bill is provided by Office. Example: O365, and In-tune. </p>"
+  syntax:
+    content: public OFFICE=("office")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider.ONE_TIME
+  id: ONE_TIME
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+  langs:
+  - java
+  name: ONE_TIME
+  nameWithType: BillingProvider.ONE_TIME
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider.ONE_TIME
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingProvider.java
+    startLine: 30
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Bill is provided for one time purchases. </p>"
+  syntax:
+    content: public ONE_TIME=("oneTime")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: BillingProvider.toString()
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider.toString()
+  overload: com.microsoft.store.partnercenter.models.invoices.BillingProvider.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingProvider.java
+    startLine: 56
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider.BillingProvider*
+  name: BillingProvider
+  nameWithType: BillingProvider.BillingProvider
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider.BillingProvider
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider.toString*
+  name: toString
+  nameWithType: BillingProvider.toString
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider.toString
+  package: com.microsoft.store.partnercenter.models.invoices

@@ -3,24 +3,24 @@ items:
 - uid: com.microsoft.store.partnercenter.devicesdeployment
   id: devicesdeployment
   children:
-  - com.microsoft.store.partnercenter.devicesdeployment._batch_job_status_collection_operations
-  - com.microsoft.store.partnercenter.devicesdeployment._batch_job_status_operations
-  - com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations
-  - com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_operations
-  - com.microsoft.store.partnercenter.devicesdeployment._customer_devices_collection_operations
-  - com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations
-  - com.microsoft.store.partnercenter.devicesdeployment._device_operations
-  - com.microsoft.store.partnercenter.devicesdeployment._devices_batch_collection_operations
-  - com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations
-  - com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status
-  - com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status_collection
-  - com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy
-  - com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection
-  - com.microsoft.store.partnercenter.devicesdeployment._i_customer_device_collection
-  - com.microsoft.store.partnercenter.devicesdeployment._i_device
-  - com.microsoft.store.partnercenter.devicesdeployment._i_device_collection
-  - com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch
-  - com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection
+  - com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations
+  - com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusOperations
+  - com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations
+  - com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyOperations
+  - com.microsoft.store.partnercenter.devicesdeployment.CustomerDevicesCollectionOperations
+  - com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations
+  - com.microsoft.store.partnercenter.devicesdeployment.DeviceOperations
+  - com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
+  - com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations
+  - com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
+  - com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+  - com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
+  - com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  - com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+  - com.microsoft.store.partnercenter.devicesdeployment.IDevice
+  - com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
+  - com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
+  - com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
   href: com.microsoft.store.partnercenter.devicesdeployment.yml
   langs:
   - java
@@ -38,183 +38,183 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.devicesdeployment
 references:
-- uid: com.microsoft.store.partnercenter.devicesdeployment._batch_job_status_collection_operations
+- uid: com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._batch_job_status_collection_operations.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations.yml
   name: BatchJobStatusCollectionOperations
   nameWithType: BatchJobStatusCollectionOperations
   fullName: com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations
   type: Class
-  summary: <p>Cart collection operations implementation class. </p>
+  summary: "<p>Cart collection operations implementation class. </p>"
   syntax:
     content: public class BatchJobStatusCollectionOperations extends BasePartnerComponentString implements IBatchJobStatusCollection
-- uid: com.microsoft.store.partnercenter.devicesdeployment._batch_job_status_operations
+- uid: com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusOperations
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._batch_job_status_operations.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusOperations.yml
   name: BatchJobStatusOperations
   nameWithType: BatchJobStatusOperations
   fullName: com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusOperations
   type: Class
-  summary: <p>Cart collection operations implementation class. </p>
+  summary: "<p>Cart collection operations implementation class. </p>"
   syntax:
     content: public class BatchJobStatusOperations extends BasePartnerComponent<Tuple<String, String>> implements IBatchJobStatus
-- uid: com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations
+- uid: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.yml
   name: ConfigurationPolicyCollectionOperations
   nameWithType: ConfigurationPolicyCollectionOperations
   fullName: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations
   type: Class
-  summary: <p>Implements operations that apply to configuration policy collections. </p>
+  summary: "<p>Implements operations that apply to configuration policy collections. </p>"
   syntax:
     content: public class ConfigurationPolicyCollectionOperations extends BasePartnerComponentString implements IConfigurationPolicyCollection
-- uid: com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_operations
+- uid: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyOperations
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_operations.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyOperations.yml
   name: ConfigurationPolicyOperations
   nameWithType: ConfigurationPolicyOperations
   fullName: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyOperations
   type: Class
-  summary: <p>Implements operations that apply to configuration policy. </p>
+  summary: "<p>Implements operations that apply to configuration policy. </p>"
   syntax:
     content: public class ConfigurationPolicyOperations extends BasePartnerComponent<Tuple<String, String>> implements IConfigurationPolicy
-- uid: com.microsoft.store.partnercenter.devicesdeployment._customer_devices_collection_operations
+- uid: com.microsoft.store.partnercenter.devicesdeployment.CustomerDevicesCollectionOperations
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._customer_devices_collection_operations.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.CustomerDevicesCollectionOperations.yml
   name: CustomerDevicesCollectionOperations
   nameWithType: CustomerDevicesCollectionOperations
   fullName: com.microsoft.store.partnercenter.devicesdeployment.CustomerDevicesCollectionOperations
   type: Class
-  summary: <p>Implements operations that apply to device collections. </p>
+  summary: "<p>Implements operations that apply to device collections. </p>"
   syntax:
     content: public class CustomerDevicesCollectionOperations extends BasePartnerComponentString implements ICustomerDeviceCollection
-- uid: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.yml
   name: DeviceCollectionOperations
   nameWithType: DeviceCollectionOperations
   fullName: com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations
   type: Class
-  summary: <p>Implements operations that apply to device collections. </p>
+  summary: "<p>Implements operations that apply to device collections. </p>"
   syntax:
     content: public class DeviceCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements IDeviceCollection
-- uid: com.microsoft.store.partnercenter.devicesdeployment._device_operations
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DeviceOperations
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._device_operations.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.DeviceOperations.yml
   name: DeviceOperations
   nameWithType: DeviceOperations
   fullName: com.microsoft.store.partnercenter.devicesdeployment.DeviceOperations
   type: Class
-  summary: <p>Implements operations that apply to a device. </p>
+  summary: "<p>Implements operations that apply to a device. </p>"
   syntax:
     content: public class DeviceOperations extends BasePartnerComponent<TripletTuple<String, String, String>> implements IDevice
-- uid: com.microsoft.store.partnercenter.devicesdeployment._devices_batch_collection_operations
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._devices_batch_collection_operations.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.yml
   name: DevicesBatchCollectionOperations
   nameWithType: DevicesBatchCollectionOperations
   fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
   type: Class
-  summary: <p>Implements operations that apply to devices batch collection. </p>
+  summary: "<p>Implements operations that apply to devices batch collection. </p>"
   syntax:
     content: public class DevicesBatchCollectionOperations extends BasePartnerComponentString implements IDevicesBatchCollection
-- uid: com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations.yml
   name: DevicesBatchOperations
   nameWithType: DevicesBatchOperations
   fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations
   type: Class
-  summary: <p>Represents the operations that apply to devices batch of the customer. </p>
+  summary: "<p>Represents the operations that apply to devices batch of the customer. </p>"
   syntax:
     content: public class DevicesBatchOperations extends BasePartnerComponent<Tuple<String, String>> implements IDevicesBatch
-- uid: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.yml
   name: IBatchJobStatus
   nameWithType: IBatchJobStatus
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
   type: Interface
-  summary: <p>Represents the operations that can be done on the partner's device. </p>
+  summary: "<p>Represents the operations that can be done on the partner's device. </p>"
   syntax:
     content: public interface IBatchJobStatus extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<BatchUploadDetails>
-- uid: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status_collection
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status_collection.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.yml
   name: IBatchJobStatusCollection
   nameWithType: IBatchJobStatusCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
   type: Interface
-  summary: <p>Represents the operations that can be done on the partner's batch upload status collection. </p>
+  summary: "<p>Represents the operations that can be done on the partner's batch upload status collection. </p>"
   syntax:
-    content: public interface IBatchJobStatusCollection extends IPartnerComponentString,IEntitySelector<IBatchJobStatus>
-- uid: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy
+    content: public interface IBatchJobStatusCollection extends IPartnerComponentString,IEntitySelector<String, IBatchJobStatus>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.yml
   name: IConfigurationPolicy
   nameWithType: IConfigurationPolicy
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
   type: Interface
-  summary: <p>Represents all the operations that can be done on a configuration policy. </p>
+  summary: "<p>Represents all the operations that can be done on a configuration policy. </p>"
   syntax:
     content: public interface IConfigurationPolicy extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<ConfigurationPolicy>,IEntityPatchOperations<ConfigurationPolicy>,IEntityDeleteOperations<ConfigurationPolicy>
-- uid: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.yml
   name: IConfigurationPolicyCollection
   nameWithType: IConfigurationPolicyCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
   type: Interface
-  summary: <p>RRepresents the operations that can be done on the partner's configuration policies. </p>
+  summary: "<p>RRepresents the operations that can be done on the partner's configuration policies. </p>"
   syntax:
-    content: public interface IConfigurationPolicyCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ConfigurationPolicy, ResourceCollection<ConfigurationPolicy>>,IEntityCreateOperations<ConfigurationPolicy, ConfigurationPolicy>,IEntitySelector<IConfigurationPolicy>
-- uid: com.microsoft.store.partnercenter.devicesdeployment._i_customer_device_collection
+    content: public interface IConfigurationPolicyCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ConfigurationPolicy, ResourceCollection<ConfigurationPolicy>>,IEntityCreateOperations<ConfigurationPolicy, ConfigurationPolicy>,IEntitySelector<String, IConfigurationPolicy>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._i_customer_device_collection.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.yml
   name: ICustomerDeviceCollection
   nameWithType: ICustomerDeviceCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
   type: Interface
-  summary: <p>Represents the operations that can be done on the partner's devices. </p>
+  summary: "<p>Represents the operations that can be done on the partner's devices. </p>"
   syntax:
     content: public interface ICustomerDeviceCollection extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.devicesdeployment._i_device
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevice
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._i_device.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevice.yml
   name: IDevice
   nameWithType: IDevice
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice
   type: Interface
-  summary: <p>Represents the operations that can be done on the partner's device. </p>
+  summary: "<p>Represents the operations that can be done on the partner's device. </p>"
   syntax:
     content: public interface IDevice extends IPartnerComponent<TripletTuple<String, String, String>>,IEntityDeleteOperations<Device>,IEntityPatchOperations<Device>
-- uid: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.yml
   name: IDeviceCollection
   nameWithType: IDeviceCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
   type: Interface
-  summary: <p>Represents the operations that can be done on the partner's devices. </p>
+  summary: "<p>Represents the operations that can be done on the partner's devices. </p>"
   syntax:
-    content: public interface IDeviceCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Device, ResourceCollection<Device>>,IEntityCreateOperations<List<Device>, String>,IEntitySelector<IDevice>
-- uid: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch
+    content: public interface IDeviceCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Device, ResourceCollection<Device>>,IEntityCreateOperations<List<Device>, String>,IEntitySelector<String, IDevice>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch.yml
   name: IDevicesBatch
   nameWithType: IDevicesBatch
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
   type: Interface
-  summary: <p>Represents the operations that can be done on the partner's devices batches. </p>
+  summary: "<p>Represents the operations that can be done on the partner's devices batches. </p>"
   syntax:
     content: public interface IDevicesBatch extends IPartnerComponent<Tuple<String, String>>
-- uid: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
   parent: com.microsoft.store.partnercenter.devicesdeployment
-  href: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection.yml
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.yml
   name: IDevicesBatchCollection
   nameWithType: IDevicesBatchCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
   type: Interface
-  summary: <p>Represents the operations that can be done on the partner's devices batches. </p>
+  summary: "<p>Represents the operations that can be done on the partner's devices batches. </p>"
   syntax:
-    content: public interface IDevicesBatchCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<DeviceBatch, ResourceCollection<DeviceBatch>>,IEntitySelector<IDevicesBatch>,IEntityCreateOperations<DeviceBatchCreationRequest, String>
+    content: public interface IDevicesBatchCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<DeviceBatch, ResourceCollection<DeviceBatch>>,IEntitySelector<String, IDevicesBatch>,IEntityCreateOperations<DeviceBatchCreationRequest, String>

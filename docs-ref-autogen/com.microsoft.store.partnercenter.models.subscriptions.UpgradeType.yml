@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType
+  id: UpgradeType
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  children:
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.NONE
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString()
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UPGRADE_ONLY
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UPGRADE_WITH_LICENSE_TRANSFER
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType(String)
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.yml
+  langs:
+  - java
+  name: UpgradeType
+  nameWithType: UpgradeType
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeType.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeType.java
+    startLine: 10
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public enum UpgradeType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<UpgradeType>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: UpgradeType.NONE
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeType.java
+    startLine: 15
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Represents a form of upgrade for a subscription Default value </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: UpgradeType.toString()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeType.java
+    startLine: 41
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UPGRADE_ONLY
+  id: UPGRADE_ONLY
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.yml
+  langs:
+  - java
+  name: UPGRADE_ONLY
+  nameWithType: UpgradeType.UPGRADE_ONLY
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UPGRADE_ONLY
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeType.java
+    startLine: 20
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Only subscription upgrade </p>"
+  syntax:
+    content: public UPGRADE_ONLY=("upgrade_only")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UPGRADE_WITH_LICENSE_TRANSFER
+  id: UPGRADE_WITH_LICENSE_TRANSFER
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.yml
+  langs:
+  - java
+  name: UPGRADE_WITH_LICENSE_TRANSFER
+  nameWithType: UpgradeType.UPGRADE_WITH_LICENSE_TRANSFER
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UPGRADE_WITH_LICENSE_TRANSFER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeType.java
+    startLine: 25
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Subscription upgrade and license transfer </p>"
+  syntax:
+    content: public UPGRADE_WITH_LICENSE_TRANSFER=("upgrade_with_license_transfer")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType(String)
+  id: UpgradeType(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.yml
+  langs:
+  - java
+  name: UpgradeType(String value)
+  nameWithType: UpgradeType.UpgradeType(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeType.java
+    startLine: 29
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public UpgradeType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType*
+  name: UpgradeType
+  nameWithType: UpgradeType.UpgradeType
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString*
+  name: toString
+  nameWithType: UpgradeType.toString
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString
+  package: com.microsoft.store.partnercenter.models.subscriptions

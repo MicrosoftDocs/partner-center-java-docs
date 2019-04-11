@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.users.UserDomainType
+  id: UserDomainType
+  parent: com.microsoft.store.partnercenter.models.users
+  children:
+  - com.microsoft.store.partnercenter.models.users.UserDomainType.FEDERATED
+  - com.microsoft.store.partnercenter.models.users.UserDomainType.MANAGED
+  - com.microsoft.store.partnercenter.models.users.UserDomainType.NONE
+  - com.microsoft.store.partnercenter.models.users.UserDomainType.toString()
+  - com.microsoft.store.partnercenter.models.users.UserDomainType.UserDomainType(String)
+  href: com.microsoft.store.partnercenter.models.users.UserDomainType.yml
+  langs:
+  - java
+  name: UserDomainType
+  nameWithType: UserDomainType
+  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/users/UserDomainType.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/UserDomainType.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Types of user domains supported. </p>"
+  syntax:
+    content: public enum UserDomainType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<UserDomainType>
+- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.FEDERATED
+  id: FEDERATED
+  parent: com.microsoft.store.partnercenter.models.users.UserDomainType
+  href: com.microsoft.store.partnercenter.models.users.UserDomainType.yml
+  langs:
+  - java
+  name: FEDERATED
+  nameWithType: UserDomainType.FEDERATED
+  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.FEDERATED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/UserDomainType.java
+    startLine: 31
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Federated domains don’t support mixed mode. Users created have to be linked to an on premises directory account with their immutable ids. </p>"
+  syntax:
+    content: public FEDERATED=("federated")
+- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.MANAGED
+  id: MANAGED
+  parent: com.microsoft.store.partnercenter.models.users.UserDomainType
+  href: com.microsoft.store.partnercenter.models.users.UserDomainType.yml
+  langs:
+  - java
+  name: MANAGED
+  nameWithType: UserDomainType.MANAGED
+  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.MANAGED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/UserDomainType.java
+    startLine: 24
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Password sync directories support mixed mode i.e. users that are cloud only or directory synced from an on premises directory. </p>"
+  syntax:
+    content: public MANAGED=("managed")
+- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.users.UserDomainType
+  href: com.microsoft.store.partnercenter.models.users.UserDomainType.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: UserDomainType.NONE
+  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/UserDomainType.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Default - None. </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.users.UserDomainType
+  href: com.microsoft.store.partnercenter.models.users.UserDomainType.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: UserDomainType.toString()
+  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.toString()
+  overload: com.microsoft.store.partnercenter.models.users.UserDomainType.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/UserDomainType.java
+    startLine: 47
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.UserDomainType(String)
+  id: UserDomainType(String)
+  parent: com.microsoft.store.partnercenter.models.users.UserDomainType
+  href: com.microsoft.store.partnercenter.models.users.UserDomainType.yml
+  langs:
+  - java
+  name: UserDomainType(String value)
+  nameWithType: UserDomainType.UserDomainType(String value)
+  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.UserDomainType(String value)
+  overload: com.microsoft.store.partnercenter.models.users.UserDomainType.UserDomainType*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/UserDomainType.java
+    startLine: 35
+  package: com.microsoft.store.partnercenter.models.users
+  syntax:
+    content: public UserDomainType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.UserDomainType*
+  name: UserDomainType
+  nameWithType: UserDomainType.UserDomainType
+  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.UserDomainType
+  package: com.microsoft.store.partnercenter.models.users
+- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.toString*
+  name: toString
+  nameWithType: UserDomainType.toString
+  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.toString
+  package: com.microsoft.store.partnercenter.models.users

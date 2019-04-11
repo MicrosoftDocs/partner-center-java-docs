@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.store.partnercenter.validations
   id: validations
   children:
-  - com.microsoft.store.partnercenter.validations._i_validation_operations
-  - com.microsoft.store.partnercenter.validations._validation_operations
+  - com.microsoft.store.partnercenter.validations.IValidationOperations
+  - com.microsoft.store.partnercenter.validations.ValidationOperations
   href: com.microsoft.store.partnercenter.validations.yml
   langs:
   - java
@@ -22,23 +22,23 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.validations
 references:
-- uid: com.microsoft.store.partnercenter.validations._i_validation_operations
+- uid: com.microsoft.store.partnercenter.validations.IValidationOperations
   parent: com.microsoft.store.partnercenter.validations
-  href: com.microsoft.store.partnercenter.validations._i_validation_operations.yml
+  href: com.microsoft.store.partnercenter.validations.IValidationOperations.yml
   name: IValidationOperations
   nameWithType: IValidationOperations
   fullName: com.microsoft.store.partnercenter.validations.IValidationOperations
   type: Interface
-  summary: <p>Represents the behavior of a validation operations. </p>
+  summary: "<p>Represents the behavior of a validation operations. </p>"
   syntax:
     content: public interface IValidationOperations extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.validations._validation_operations
+- uid: com.microsoft.store.partnercenter.validations.ValidationOperations
   parent: com.microsoft.store.partnercenter.validations
-  href: com.microsoft.store.partnercenter.validations._validation_operations.yml
+  href: com.microsoft.store.partnercenter.validations.ValidationOperations.yml
   name: ValidationOperations
   nameWithType: ValidationOperations
   fullName: com.microsoft.store.partnercenter.validations.ValidationOperations
   type: Class
-  summary: <p>The validations collection operations implementation. </p>
+  summary: "<p>The validations collection operations implementation. </p>"
   syntax:
     content: public class ValidationOperations extends BasePartnerComponentString implements IValidationOperations

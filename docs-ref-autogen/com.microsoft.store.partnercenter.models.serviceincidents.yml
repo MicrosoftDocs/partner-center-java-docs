@@ -3,12 +3,12 @@ items:
 - uid: com.microsoft.store.partnercenter.models.serviceincidents
   id: serviceincidents
   children:
-  - com.microsoft.store.partnercenter.models.serviceincidents._message_type
-  - com.microsoft.store.partnercenter.models.serviceincidents._service_incident_detail
-  - com.microsoft.store.partnercenter.models.serviceincidents._service_incident_history
-  - com.microsoft.store.partnercenter.models.serviceincidents._service_incident_search_field
-  - com.microsoft.store.partnercenter.models.serviceincidents._service_incident_status
-  - com.microsoft.store.partnercenter.models.serviceincidents._service_incidents
+  - com.microsoft.store.partnercenter.models.serviceincidents.MessageType
+  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail
+  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory
+  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
+  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentSearchField
+  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus
   href: com.microsoft.store.partnercenter.models.serviceincidents.yml
   langs:
   - java
@@ -26,63 +26,63 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.serviceincidents
 references:
-- uid: com.microsoft.store.partnercenter.models.serviceincidents._message_type
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
   parent: com.microsoft.store.partnercenter.models.serviceincidents
-  href: com.microsoft.store.partnercenter.models.serviceincidents._message_type.yml
+  href: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.yml
   name: MessageType
   nameWithType: MessageType
   fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
   type: Enum
-  summary: <p>Represents the status of partner center services. </p>
+  summary: "<p>Represents the status of partner center services. </p>"
   syntax:
     content: public enum MessageType
-- uid: com.microsoft.store.partnercenter.models.serviceincidents._service_incident_detail
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail
   parent: com.microsoft.store.partnercenter.models.serviceincidents
-  href: com.microsoft.store.partnercenter.models.serviceincidents._service_incident_detail.yml
+  href: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.yml
   name: ServiceIncidentDetail
   nameWithType: ServiceIncidentDetail
   fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail
   type: Class
-  summary: <p>Represents an office service health incident message. </p>
+  summary: "<p>Represents an office service health incident message. </p>"
   syntax:
     content: public class ServiceIncidentDetail
-- uid: com.microsoft.store.partnercenter.models.serviceincidents._service_incident_history
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory
   parent: com.microsoft.store.partnercenter.models.serviceincidents
-  href: com.microsoft.store.partnercenter.models.serviceincidents._service_incident_history.yml
+  href: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory.yml
   name: ServiceIncidentHistory
   nameWithType: ServiceIncidentHistory
   fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory
   type: Class
-  summary: <p>Represents the message history for service incident. * </p>
+  summary: "<p>Represents the message history for service incident. * </p>"
   syntax:
     content: public class ServiceIncidentHistory
-- uid: com.microsoft.store.partnercenter.models.serviceincidents._service_incidents
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
   parent: com.microsoft.store.partnercenter.models.serviceincidents
-  href: com.microsoft.store.partnercenter.models.serviceincidents._service_incidents.yml
+  href: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.yml
   name: ServiceIncidents
   nameWithType: ServiceIncidents
   fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
   type: Class
-  summary: <p>Represents a service incident. </p>
+  summary: "<p>Represents a service incident. </p>"
   syntax:
     content: public class ServiceIncidents
-- uid: com.microsoft.store.partnercenter.models.serviceincidents._service_incident_search_field
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentSearchField
   parent: com.microsoft.store.partnercenter.models.serviceincidents
-  href: com.microsoft.store.partnercenter.models.serviceincidents._service_incident_search_field.yml
+  href: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentSearchField.yml
   name: ServiceIncidentSearchField
   nameWithType: ServiceIncidentSearchField
   fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentSearchField
   type: Enum
-  summary: <p>Lists the supported service incident search fields. </p>
+  summary: "<p>Lists the supported service incident search fields. </p>"
   syntax:
     content: public enum ServiceIncidentSearchField
-- uid: com.microsoft.store.partnercenter.models.serviceincidents._service_incident_status
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus
   parent: com.microsoft.store.partnercenter.models.serviceincidents
-  href: com.microsoft.store.partnercenter.models.serviceincidents._service_incident_status.yml
+  href: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus.yml
   name: ServiceIncidentStatus
   nameWithType: ServiceIncidentStatus
   fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus
   type: Enum
-  summary: <p>Represents the status of partner center services. </p>
+  summary: "<p>Represents the status of partner center services. </p>"
   syntax:
     content: public enum ServiceIncidentStatus

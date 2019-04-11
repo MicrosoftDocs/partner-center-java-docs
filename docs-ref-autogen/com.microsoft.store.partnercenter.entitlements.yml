@@ -3,9 +3,10 @@ items:
 - uid: com.microsoft.store.partnercenter.entitlements
   id: entitlements
   children:
-  - com.microsoft.store.partnercenter.entitlements._entitlement_collection_by_entitlement_type_operations
-  - com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations
-  - com.microsoft.store.partnercenter.entitlements._i_entitlement_collection
+  - com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations
+  - com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations
+  - com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+  - com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType
   href: com.microsoft.store.partnercenter.entitlements.yml
   langs:
   - java
@@ -23,33 +24,43 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.entitlements
 references:
-- uid: com.microsoft.store.partnercenter.entitlements._entitlement_collection_by_entitlement_type_operations
+- uid: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations
   parent: com.microsoft.store.partnercenter.entitlements
-  href: com.microsoft.store.partnercenter.entitlements._entitlement_collection_by_entitlement_type_operations.yml
+  href: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations.yml
   name: EntitlementCollectionByEntitlementTypeOperations
   nameWithType: EntitlementCollectionByEntitlementTypeOperations
   fullName: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations
   type: Class
-  summary: <p>Entitlement collection by entitlement type operations class. </p>
+  summary: "<p>Entitlement collection by entitlement type operations class. </p>"
   syntax:
-    content: public class EntitlementCollectionByEntitlementTypeOperations extends BasePartnerComponent<Tuple<String, String>> implements IEntireEntityCollectionRetrievalOperations<Entitlement, ResourceCollection<Entitlement>>
-- uid: com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations
+    content: public class EntitlementCollectionByEntitlementTypeOperations extends BasePartnerComponent<Tuple<String, String>> implements IEntitlementCollectionByEntitlementType
+- uid: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations
   parent: com.microsoft.store.partnercenter.entitlements
-  href: com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations.yml
+  href: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations.yml
   name: EntitlementCollectionOperations
   nameWithType: EntitlementCollectionOperations
   fullName: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations
   type: Class
-  summary: <p>Entitlement collection operations implementation class. </p>
+  summary: "<p>Entitlement collection operations implementation class. </p>"
   syntax:
     content: public class EntitlementCollectionOperations extends BasePartnerComponentString implements IEntitlementCollection
-- uid: com.microsoft.store.partnercenter.entitlements._i_entitlement_collection
+- uid: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
   parent: com.microsoft.store.partnercenter.entitlements
-  href: com.microsoft.store.partnercenter.entitlements._i_entitlement_collection.yml
+  href: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.yml
   name: IEntitlementCollection
   nameWithType: IEntitlementCollection
   fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
   type: Interface
-  summary: <p>Holds operations that can be performed on entitlements associated to the customer based on the logged in partner. </p>
+  summary: "<p>Represents the operations that can be performed on entitlements associated to the customer based on the logged in partner. </p>"
   syntax:
     content: public interface IEntitlementCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Entitlement, ResourceCollection<Entitlement>>
+- uid: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType
+  parent: com.microsoft.store.partnercenter.entitlements
+  href: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.yml
+  name: IEntitlementCollectionByEntitlementType
+  nameWithType: IEntitlementCollectionByEntitlementType
+  fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType
+  type: Interface
+  summary: "<p>Represents the operations that can be performed on entitlements (by type) associated to the customer based on the logged in partner. </p>"
+  syntax:
+    content: public interface IEntitlementCollectionByEntitlementType extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Entitlement, ResourceCollection<Entitlement>>

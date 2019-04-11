@@ -3,11 +3,11 @@ items:
 - uid: com.microsoft.store.partnercenter.models.users
   id: users
   children:
-  - com.microsoft.store.partnercenter.models.users._customer_user
-  - com.microsoft.store.partnercenter.models.users._password_profile
-  - com.microsoft.store.partnercenter.models.users._user
-  - com.microsoft.store.partnercenter.models.users._user_domain_type
-  - com.microsoft.store.partnercenter.models.users._user_state
+  - com.microsoft.store.partnercenter.models.users.CustomerUser
+  - com.microsoft.store.partnercenter.models.users.PasswordProfile
+  - com.microsoft.store.partnercenter.models.users.User
+  - com.microsoft.store.partnercenter.models.users.UserDomainType
+  - com.microsoft.store.partnercenter.models.users.UserState
   href: com.microsoft.store.partnercenter.models.users.yml
   langs:
   - java
@@ -25,50 +25,50 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.users
 references:
-- uid: com.microsoft.store.partnercenter.models.users._customer_user
+- uid: com.microsoft.store.partnercenter.models.users.CustomerUser
   parent: com.microsoft.store.partnercenter.models.users
-  href: com.microsoft.store.partnercenter.models.users._customer_user.yml
+  href: com.microsoft.store.partnercenter.models.users.CustomerUser.yml
   name: CustomerUser
   nameWithType: CustomerUser
   fullName: com.microsoft.store.partnercenter.models.users.CustomerUser
   type: Class
   syntax:
     content: public class CustomerUser extends User
-- uid: com.microsoft.store.partnercenter.models.users._password_profile
+- uid: com.microsoft.store.partnercenter.models.users.PasswordProfile
   parent: com.microsoft.store.partnercenter.models.users
-  href: com.microsoft.store.partnercenter.models.users._password_profile.yml
+  href: com.microsoft.store.partnercenter.models.users.PasswordProfile.yml
   name: PasswordProfile
   nameWithType: PasswordProfile
   fullName: com.microsoft.store.partnercenter.models.users.PasswordProfile
   type: Class
   syntax:
     content: public class PasswordProfile
-- uid: com.microsoft.store.partnercenter.models.users._user
+- uid: com.microsoft.store.partnercenter.models.users.User
   parent: com.microsoft.store.partnercenter.models.users
-  href: com.microsoft.store.partnercenter.models.users._user.yml
+  href: com.microsoft.store.partnercenter.models.users.User.yml
   name: User
   nameWithType: User
   fullName: com.microsoft.store.partnercenter.models.users.User
   type: Class
   syntax:
     content: public class User extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.users._user_domain_type
+- uid: com.microsoft.store.partnercenter.models.users.UserDomainType
   parent: com.microsoft.store.partnercenter.models.users
-  href: com.microsoft.store.partnercenter.models.users._user_domain_type.yml
+  href: com.microsoft.store.partnercenter.models.users.UserDomainType.yml
   name: UserDomainType
   nameWithType: UserDomainType
   fullName: com.microsoft.store.partnercenter.models.users.UserDomainType
   type: Enum
-  summary: <p>Types of user domains supported. </p>
+  summary: "<p>Types of user domains supported. </p>"
   syntax:
     content: public enum UserDomainType
-- uid: com.microsoft.store.partnercenter.models.users._user_state
+- uid: com.microsoft.store.partnercenter.models.users.UserState
   parent: com.microsoft.store.partnercenter.models.users
-  href: com.microsoft.store.partnercenter.models.users._user_state.yml
+  href: com.microsoft.store.partnercenter.models.users.UserState.yml
   name: UserState
   nameWithType: UserState
   fullName: com.microsoft.store.partnercenter.models.users.UserState
   type: Enum
-  summary: <p>User state </p>
+  summary: "<p>User state </p>"
   syntax:
     content: public enum UserState

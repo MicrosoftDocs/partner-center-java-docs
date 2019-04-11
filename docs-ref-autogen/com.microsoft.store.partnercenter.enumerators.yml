@@ -3,13 +3,13 @@ items:
 - uid: com.microsoft.store.partnercenter.enumerators
   id: enumerators
   children:
-  - com.microsoft.store.partnercenter.enumerators._base_resource_collection_enumerator
-  - com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator
-  - com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator_container
-  - com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container
-  - com.microsoft.store.partnercenter.enumerators._index_based_collection_enumerator
-  - com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container
-  - com.microsoft.store.partnercenter.enumerators._utilization_collection_enumerator_container
+  - com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator
+  - com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator
+  - com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator
+  - com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
+  - com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer
+  - com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
+  - com.microsoft.store.partnercenter.enumerators.UtilizationCollectionEnumeratorContainer
   href: com.microsoft.store.partnercenter.enumerators.yml
   langs:
   - java
@@ -27,27 +27,27 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.enumerators
 references:
-- uid: com.microsoft.store.partnercenter.enumerators._base_resource_collection_enumerator
+- uid: com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator
   parent: com.microsoft.store.partnercenter.enumerators
-  href: com.microsoft.store.partnercenter.enumerators._base_resource_collection_enumerator.yml
+  href: com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.yml
   name: BaseResourceCollectionEnumerator<T>
   nameWithType: BaseResourceCollectionEnumerator<T>
   fullName: com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator<T>
   type: Class
-  summary: <p>Base implementation for resource collection enumerators. </p>
+  summary: "<p>Base implementation for resource collection enumerators. </p>"
   syntax:
     content: public class BaseResourceCollectionEnumerator<T extends ResourceBaseWithLinks<StandardResourceCollectionLinks>> extends BasePartnerComponentString implements IResourceCollectionEnumerator<T>
     typeParameters:
     - id: T
       type: 8ce1ecb9
-- uid: com.microsoft.store.partnercenter.enumerators._index_based_collection_enumerator
+- uid: com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator
   parent: com.microsoft.store.partnercenter.enumerators
-  href: com.microsoft.store.partnercenter.enumerators._index_based_collection_enumerator.yml
+  href: com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator.yml
   name: IndexBasedCollectionEnumerator<T,TResourceCollection>
   nameWithType: IndexBasedCollectionEnumerator<T,TResourceCollection>
   fullName: com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator<T,TResourceCollection>
   type: Class
-  summary: <p>Enumerator for index based pagination Index based - Paged query where index and page size is used. The type of resource /// The type of resource collection. </p>
+  summary: "<p>Enumerator for index based pagination Index based - Paged query where index and page size is used. The type of resource /// The type of resource collection. </p>"
   syntax:
     content: public class IndexBasedCollectionEnumerator<T extends ResourceBase,TResourceCollection extends ResourceCollection<T>> extends BaseResourceCollectionEnumerator<TResourceCollection>
     typeParameters:
@@ -55,56 +55,56 @@ references:
       type: 8ce1ecb9
     - id: TResourceCollection
       type: 5f968003
-- uid: com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator
+- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator
   parent: com.microsoft.store.partnercenter.enumerators
-  href: com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator.yml
+  href: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.yml
   name: IResourceCollectionEnumerator<T>
   nameWithType: IResourceCollectionEnumerator<T>
   fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>
   type: Interface
-  summary: <p>Provides resource collection enumeration capabilities. This interface can page through results and determines whether the current page is the first or last page or not. The enumeration result type. </p>
+  summary: "<p>Provides resource collection enumeration capabilities. This interface can page through results and determines whether the current page is the first or last page or not. The enumeration result type. </p>"
   syntax:
     content: public interface IResourceCollectionEnumerator<T extends ResourceBaseWithLinks<StandardResourceCollectionLinks>>
     typeParameters:
     - id: T
       type: 8ce1ecb9
-- uid: com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator_container
+- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
   parent: com.microsoft.store.partnercenter.enumerators
-  href: com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator_container.yml
+  href: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.yml
   name: IResourceCollectionEnumeratorContainer
   nameWithType: IResourceCollectionEnumeratorContainer
   fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
   type: Interface
-  summary: <p>Contains supported resource collection enumerators. </p>
+  summary: "<p>Contains supported resource collection enumerators. </p>"
   syntax:
     content: public interface IResourceCollectionEnumeratorContainer extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container
+- uid: com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer
   parent: com.microsoft.store.partnercenter.enumerators
-  href: com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container.yml
+  href: com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer.yml
   name: IUtilizationCollectionEnumeratorContainer
   nameWithType: IUtilizationCollectionEnumeratorContainer
   fullName: com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer
   type: Interface
-  summary: <p>Groups all supported utilization record enumerators for usage based subscriptions. </p>
+  summary: "<p>Groups all supported utilization record enumerators for usage based subscriptions. </p>"
   syntax:
     content: public interface IUtilizationCollectionEnumeratorContainer extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   parent: com.microsoft.store.partnercenter.enumerators
-  href: com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container.yml
+  href: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.yml
   name: ResourceCollectionEnumeratorContainer
   nameWithType: ResourceCollectionEnumeratorContainer
   fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   type: Class
-  summary: <p>Contains supported resource collection enumerators. </p>
+  summary: "<p>Contains supported resource collection enumerators. </p>"
   syntax:
     content: public class ResourceCollectionEnumeratorContainer extends BasePartnerComponentString implements IResourceCollectionEnumeratorContainer
-- uid: com.microsoft.store.partnercenter.enumerators._utilization_collection_enumerator_container
+- uid: com.microsoft.store.partnercenter.enumerators.UtilizationCollectionEnumeratorContainer
   parent: com.microsoft.store.partnercenter.enumerators
-  href: com.microsoft.store.partnercenter.enumerators._utilization_collection_enumerator_container.yml
+  href: com.microsoft.store.partnercenter.enumerators.UtilizationCollectionEnumeratorContainer.yml
   name: UtilizationCollectionEnumeratorContainer
   nameWithType: UtilizationCollectionEnumeratorContainer
   fullName: com.microsoft.store.partnercenter.enumerators.UtilizationCollectionEnumeratorContainer
   type: Class
-  summary: <p>Utilization collection enumerator container implementation class. </p>
+  summary: "<p>Utilization collection enumerator container implementation class. </p>"
   syntax:
     content: public class UtilizationCollectionEnumeratorContainer extends BasePartnerComponentString implements IUtilizationCollectionEnumeratorContainer

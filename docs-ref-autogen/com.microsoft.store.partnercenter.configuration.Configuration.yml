@@ -1,0 +1,408 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.configuration.Configuration
+  id: Configuration
+  parent: com.microsoft.store.partnercenter.configuration
+  children:
+  - com.microsoft.store.partnercenter.configuration.Configuration.getApis()
+  - com.microsoft.store.partnercenter.configuration.Configuration.getDefaultAuthenticationTokenExpiryBufferInSeconds()
+  - com.microsoft.store.partnercenter.configuration.Configuration.getDefaultLocale()
+  - com.microsoft.store.partnercenter.configuration.Configuration.getDefaultMaxRetryAttempts()
+  - com.microsoft.store.partnercenter.configuration.Configuration.getPartnerCenterClient()
+  - com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiRoot()
+  - com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiVersion()
+  - com.microsoft.store.partnercenter.configuration.Configuration.getSdkVersion()
+  - com.microsoft.store.partnercenter.configuration.Configuration.setDefaultAuthenticationTokenExpiryBufferInSeconds(int)
+  - com.microsoft.store.partnercenter.configuration.Configuration.setDefaultLocale(String)
+  - com.microsoft.store.partnercenter.configuration.Configuration.setDefaultMaxRetryAttempts(int)
+  - com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiRoot(String)
+  - com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiVersion(String)
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: Configuration
+  nameWithType: Configuration
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 15
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>A configuration holder that keeps a map of API's and some default configuration values </p>"
+  syntax:
+    content: public class Configuration
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getApis()
+  id: getApis()
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: getApis()
+  nameWithType: Configuration.getApis()
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getApis()
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.getApis*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 217
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Gets the available APIs.</p>\r\n<p></p>"
+  syntax:
+    content: public Map<String, Api> getApis()
+    return:
+      type: 26e49b00
+      description: <p>The available APIs. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultAuthenticationTokenExpiryBufferInSeconds()
+  id: getDefaultAuthenticationTokenExpiryBufferInSeconds()
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: getDefaultAuthenticationTokenExpiryBufferInSeconds()
+  nameWithType: Configuration.getDefaultAuthenticationTokenExpiryBufferInSeconds()
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultAuthenticationTokenExpiryBufferInSeconds()
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultAuthenticationTokenExpiryBufferInSeconds*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 177
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Gets the default authentication token expiry buffer in seconds.</p>\r\n<p></p>"
+  syntax:
+    content: public int getDefaultAuthenticationTokenExpiryBufferInSeconds()
+    return:
+      type: f75371fa
+      description: <p>The default authentication token expiry buffer in seconds. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultLocale()
+  id: getDefaultLocale()
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: getDefaultLocale()
+  nameWithType: Configuration.getDefaultLocale()
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultLocale()
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultLocale*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 197
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Gets the default locale.</p>\r\n<p></p>"
+  syntax:
+    content: public String getDefaultLocale()
+    return:
+      type: "26831127"
+      description: <p>The default locale. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultMaxRetryAttempts()
+  id: getDefaultMaxRetryAttempts()
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: getDefaultMaxRetryAttempts()
+  nameWithType: Configuration.getDefaultMaxRetryAttempts()
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultMaxRetryAttempts()
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultMaxRetryAttempts*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 157
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Gets the default max retry attempts.</p>\r\n<p></p>"
+  syntax:
+    content: public int getDefaultMaxRetryAttempts()
+    return:
+      type: f75371fa
+      description: <p>The default max retry attempts. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerCenterClient()
+  id: getPartnerCenterClient()
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: getPartnerCenterClient()
+  nameWithType: Configuration.getPartnerCenterClient()
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerCenterClient()
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerCenterClient*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 127
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Gets or sets the Partner Center client name.</p>\r\n<p></p>"
+  syntax:
+    content: public String getPartnerCenterClient()
+    return:
+      type: "26831127"
+      description: <p>The Partner Center client name. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiRoot()
+  id: getPartnerServiceApiRoot()
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: getPartnerServiceApiRoot()
+  nameWithType: Configuration.getPartnerServiceApiRoot()
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiRoot()
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiRoot*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 107
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Gets the partner service API root.</p>\r\n<p></p>"
+  syntax:
+    content: public String getPartnerServiceApiRoot()
+    return:
+      type: "26831127"
+      description: <p>The partner service API root. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiVersion()
+  id: getPartnerServiceApiVersion()
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: getPartnerServiceApiVersion()
+  nameWithType: Configuration.getPartnerServiceApiVersion()
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiVersion()
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiVersion*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 137
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Gets the partner service API version.</p>\r\n<p></p>"
+  syntax:
+    content: public String getPartnerServiceApiVersion()
+    return:
+      type: "26831127"
+      description: <p>The partner service API version. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getSdkVersion()
+  id: getSdkVersion()
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: getSdkVersion()
+  nameWithType: Configuration.getSdkVersion()
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getSdkVersion()
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.getSdkVersion*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 227
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Gets the SDK version.</p>\r\n<p></p>"
+  syntax:
+    content: public String getSdkVersion()
+    return:
+      type: "26831127"
+      description: <p>The version of the SDK. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultAuthenticationTokenExpiryBufferInSeconds(int)
+  id: setDefaultAuthenticationTokenExpiryBufferInSeconds(int)
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: setDefaultAuthenticationTokenExpiryBufferInSeconds(int value)
+  nameWithType: Configuration.setDefaultAuthenticationTokenExpiryBufferInSeconds(int value)
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultAuthenticationTokenExpiryBufferInSeconds(int value)
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultAuthenticationTokenExpiryBufferInSeconds*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 187
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Sets the default authentication token expiry buffer in seconds.</p>\r\n<p></p>"
+  syntax:
+    content: public void setDefaultAuthenticationTokenExpiryBufferInSeconds(int value)
+    parameters:
+    - id: value
+      type: f75371fa
+      description: <p>The default authentication token expiry buffer in seconds. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultLocale(String)
+  id: setDefaultLocale(String)
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: setDefaultLocale(String value)
+  nameWithType: Configuration.setDefaultLocale(String value)
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultLocale(String value)
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultLocale*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 207
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Sets the default locale.</p>\r\n<p></p>"
+  syntax:
+    content: public void setDefaultLocale(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The default locale. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultMaxRetryAttempts(int)
+  id: setDefaultMaxRetryAttempts(int)
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: setDefaultMaxRetryAttempts(int value)
+  nameWithType: Configuration.setDefaultMaxRetryAttempts(int value)
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultMaxRetryAttempts(int value)
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultMaxRetryAttempts*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 167
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Sets the default max retry attempts.</p>\r\n<p></p>"
+  syntax:
+    content: public void setDefaultMaxRetryAttempts(int value)
+    parameters:
+    - id: value
+      type: f75371fa
+      description: <p>The default max retry attempts. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiRoot(String)
+  id: setPartnerServiceApiRoot(String)
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: setPartnerServiceApiRoot(String value)
+  nameWithType: Configuration.setPartnerServiceApiRoot(String value)
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiRoot(String value)
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiRoot*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 117
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>The partner service API root.</p>\r\n<p></p>"
+  syntax:
+    content: public void setPartnerServiceApiRoot(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The partner service API root. </p>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiVersion(String)
+  id: setPartnerServiceApiVersion(String)
+  parent: com.microsoft.store.partnercenter.configuration.Configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  langs:
+  - java
+  name: setPartnerServiceApiVersion(String value)
+  nameWithType: Configuration.setPartnerServiceApiVersion(String value)
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiVersion(String value)
+  overload: com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiVersion*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/configuration/Configuration.java
+    startLine: 147
+  package: com.microsoft.store.partnercenter.configuration
+  summary: "<p>Sets the partner service API version.</p>\r\n<p></p>"
+  syntax:
+    content: public void setPartnerServiceApiVersion(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The partner service API version. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiRoot*
+  name: getPartnerServiceApiRoot
+  nameWithType: Configuration.getPartnerServiceApiRoot
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiRoot
+  package: com.microsoft.store.partnercenter.configuration
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiRoot*
+  name: setPartnerServiceApiRoot
+  nameWithType: Configuration.setPartnerServiceApiRoot
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiRoot
+  package: com.microsoft.store.partnercenter.configuration
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerCenterClient*
+  name: getPartnerCenterClient
+  nameWithType: Configuration.getPartnerCenterClient
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerCenterClient
+  package: com.microsoft.store.partnercenter.configuration
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiVersion*
+  name: getPartnerServiceApiVersion
+  nameWithType: Configuration.getPartnerServiceApiVersion
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getPartnerServiceApiVersion
+  package: com.microsoft.store.partnercenter.configuration
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiVersion*
+  name: setPartnerServiceApiVersion
+  nameWithType: Configuration.setPartnerServiceApiVersion
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiVersion
+  package: com.microsoft.store.partnercenter.configuration
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultMaxRetryAttempts*
+  name: getDefaultMaxRetryAttempts
+  nameWithType: Configuration.getDefaultMaxRetryAttempts
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultMaxRetryAttempts
+  package: com.microsoft.store.partnercenter.configuration
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultMaxRetryAttempts*
+  name: setDefaultMaxRetryAttempts
+  nameWithType: Configuration.setDefaultMaxRetryAttempts
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultMaxRetryAttempts
+  package: com.microsoft.store.partnercenter.configuration
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultAuthenticationTokenExpiryBufferInSeconds*
+  name: getDefaultAuthenticationTokenExpiryBufferInSeconds
+  nameWithType: Configuration.getDefaultAuthenticationTokenExpiryBufferInSeconds
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultAuthenticationTokenExpiryBufferInSeconds
+  package: com.microsoft.store.partnercenter.configuration
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultAuthenticationTokenExpiryBufferInSeconds*
+  name: setDefaultAuthenticationTokenExpiryBufferInSeconds
+  nameWithType: Configuration.setDefaultAuthenticationTokenExpiryBufferInSeconds
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultAuthenticationTokenExpiryBufferInSeconds
+  package: com.microsoft.store.partnercenter.configuration
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultLocale*
+  name: getDefaultLocale
+  nameWithType: Configuration.getDefaultLocale
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getDefaultLocale
+  package: com.microsoft.store.partnercenter.configuration
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultLocale*
+  name: setDefaultLocale
+  nameWithType: Configuration.setDefaultLocale
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.setDefaultLocale
+  package: com.microsoft.store.partnercenter.configuration
+- uid: 26e49b00
+  spec.java:
+  - name: Map<String, Api>
+    fullName: Map<String, Api>
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getApis*
+  name: getApis
+  nameWithType: Configuration.getApis
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getApis
+  package: com.microsoft.store.partnercenter.configuration
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.getSdkVersion*
+  name: getSdkVersion
+  nameWithType: Configuration.getSdkVersion
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration.getSdkVersion
+  package: com.microsoft.store.partnercenter.configuration

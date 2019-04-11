@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations
+  id: AzureRateCardOperations
+  parent: com.microsoft.store.partnercenter.ratecards
+  children:
+  - com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.AzureRateCardOperations(IPartner)
+  - com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.get(String,String)
+  - com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.getShared(String,String)
+  href: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.yml
+  langs:
+  - java
+  name: AzureRateCardOperations
+  nameWithType: AzureRateCardOperations
+  fullName: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/ratecards/AzureRateCardOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/ratecards/AzureRateCardOperations.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.ratecards
+  syntax:
+    content: public class AzureRateCardOperations extends BasePartnerComponentString implements IAzureRateCard
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.AzureRateCardOperations(IPartner)
+  id: AzureRateCardOperations(IPartner)
+  parent: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations
+  href: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.yml
+  langs:
+  - java
+  name: AzureRateCardOperations(IPartner rootPartnerOperations)
+  nameWithType: AzureRateCardOperations.AzureRateCardOperations(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.AzureRateCardOperations(IPartner rootPartnerOperations)
+  overload: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.AzureRateCardOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/ratecards/AzureRateCardOperations.java
+    startLine: 26
+  package: com.microsoft.store.partnercenter.ratecards
+  summary: "<p>Initializes a new instance of the \"AzureRateCardOperations\" class. </p>"
+  syntax:
+    content: public AzureRateCardOperations(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+- uid: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.get(String,String)
+  id: get(String,String)
+  parent: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations
+  href: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.yml
+  langs:
+  - java
+  name: get(String currency, String region)
+  nameWithType: AzureRateCardOperations.get(String currency, String region)
+  fullName: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.get(String currency, String region)
+  overload: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/ratecards/AzureRateCardOperations.java
+    startLine: 39
+  package: com.microsoft.store.partnercenter.ratecards
+  summary: "<p>Gets the Azure rate card which provides real-time prices for Azure offers. </p>"
+  syntax:
+    content: public AzureRateCard get(String currency, String region)
+    parameters:
+    - id: currency
+      type: "26831127"
+      description: <p>An optional three letter ISO code for the currency in which the resource rates will be provided. The default is the currency associated with the market in the partner's profile. </p>
+    - id: region
+      type: "26831127"
+      description: <p>An optional two-letter ISO country/region code that indicates the market where the offer is purchased. The default is the country/region code set in the partner profile. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+      description: <p>The Azure rate card for the partner. </p>
+  overridden: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get(String,String)
+- uid: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.getShared(String,String)
+  id: getShared(String,String)
+  parent: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations
+  href: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.yml
+  langs:
+  - java
+  name: getShared(String currency, String region)
+  nameWithType: AzureRateCardOperations.getShared(String currency, String region)
+  fullName: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.getShared(String currency, String region)
+  overload: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.getShared*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/ratecards/AzureRateCardOperations.java
+    startLine: 82
+  package: com.microsoft.store.partnercenter.ratecards
+  summary: "<p>Gets the Azure CSL rate card which provides real-time prices for Azure offers. </p>"
+  syntax:
+    content: public AzureRateCard getShared(String currency, String region)
+    parameters:
+    - id: currency
+      type: "26831127"
+      description: <p>An optional three letter ISO code for the currency in which the resource rates will be provided. The default is the currency associated with the market in the partner's profile. </p>
+    - id: region
+      type: "26831127"
+      description: <p>An optional two-letter ISO country/region code that indicates the market where the offer is purchased. The default is the country/region code set in the partner profile. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+      description: <p>The Azure rate card for the partner. </p>
+  overridden: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared(String,String)
+references:
+- uid: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.AzureRateCardOperations*
+  name: AzureRateCardOperations
+  nameWithType: AzureRateCardOperations.AzureRateCardOperations
+  fullName: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.AzureRateCardOperations
+  package: com.microsoft.store.partnercenter.ratecards
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.get*
+  name: get
+  nameWithType: AzureRateCardOperations.get
+  fullName: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.get
+  package: com.microsoft.store.partnercenter.ratecards
+- uid: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.getShared*
+  name: getShared
+  nameWithType: AzureRateCardOperations.getShared
+  fullName: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.getShared
+  package: com.microsoft.store.partnercenter.ratecards
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: "26831127"
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. The context is string type by default. </p>"
+  syntax:
+    content: public class BasePartnerComponentString
+- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+  parent: com.microsoft.store.partnercenter.ratecards
+  href: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.yml
+  name: IAzureRateCard
+  nameWithType: IAzureRateCard
+  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+  type: Interface
+  summary: "<p>Holds operations that apply to Azure rate card. </p>"
+  syntax:
+    content: public interface IAzureRateCard
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+  parent: com.microsoft.store.partnercenter.models.ratecards
+  href: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.yml
+  name: AzureRateCard
+  nameWithType: AzureRateCard
+  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+  type: Class
+  summary: "<p>Represents an offer term tied to an Azure rate card. </p>"
+  syntax:
+    content: public class AzureRateCard extends ResourceBase
+- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get(String,String)
+  parent: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+  href: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.yml
+  name: get(String currency, String region)
+  nameWithType: IAzureRateCard.get(String currency, String region)
+  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get(String currency, String region)
+  type: Method
+  summary: "<p>Gets the Azure rate card which provides real-time prices for Azure offers. </p>"
+  syntax:
+    content: public AzureRateCard get(String currency, String region)
+    parameters:
+    - id: currency
+      type: "26831127"
+      description: <p>An optional three letter ISO code for the currency in which the resource rates will be provided. The default is the currency associated with the market in the partner's profile. </p>
+    - id: region
+      type: "26831127"
+      description: <p>An optional two-letter ISO country/region code that indicates the market where the offer is purchased. The default is the country/region code set in the partner profile. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+      description: <p>The Azure rate card for the partner. </p>
+- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared(String,String)
+  parent: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+  href: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.yml
+  name: getShared(String currency, String region)
+  nameWithType: IAzureRateCard.getShared(String currency, String region)
+  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared(String currency, String region)
+  type: Method
+  summary: "<p>Gets the Azure CSL rate card which provides real-time prices for Azure offers. </p>"
+  syntax:
+    content: public AzureRateCard getShared(String currency, String region)
+    parameters:
+    - id: currency
+      type: "26831127"
+      description: <p>An optional three letter ISO code for the currency in which the resource rates will be provided. The default is the currency associated with the market in the partner's profile. </p>
+    - id: region
+      type: "26831127"
+      description: <p>An optional two-letter ISO country/region code that indicates the market where the offer is purchased. The default is the country/region code set in the partner profile. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+      description: <p>The Azure rate card for the partner. </p>

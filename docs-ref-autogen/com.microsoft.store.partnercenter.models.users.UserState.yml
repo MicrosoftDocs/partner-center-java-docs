@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.users.UserState
+  id: UserState
+  parent: com.microsoft.store.partnercenter.models.users
+  children:
+  - com.microsoft.store.partnercenter.models.users.UserState.ACTIVE
+  - com.microsoft.store.partnercenter.models.users.UserState.INACTIVE
+  - com.microsoft.store.partnercenter.models.users.UserState.toString()
+  - com.microsoft.store.partnercenter.models.users.UserState.UserState(String)
+  href: com.microsoft.store.partnercenter.models.users.UserState.yml
+  langs:
+  - java
+  name: UserState
+  nameWithType: UserState
+  fullName: com.microsoft.store.partnercenter.models.users.UserState
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/users/UserState.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/UserState.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>User state </p>"
+  syntax:
+    content: public enum UserState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<UserState>
+- uid: com.microsoft.store.partnercenter.models.users.UserState.ACTIVE
+  id: ACTIVE
+  parent: com.microsoft.store.partnercenter.models.users.UserState
+  href: com.microsoft.store.partnercenter.models.users.UserState.yml
+  langs:
+  - java
+  name: ACTIVE
+  nameWithType: UserState.ACTIVE
+  fullName: com.microsoft.store.partnercenter.models.users.UserState.ACTIVE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/UserState.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Active user. </p>"
+  syntax:
+    content: public ACTIVE=("active")
+- uid: com.microsoft.store.partnercenter.models.users.UserState.INACTIVE
+  id: INACTIVE
+  parent: com.microsoft.store.partnercenter.models.users.UserState
+  href: com.microsoft.store.partnercenter.models.users.UserState.yml
+  langs:
+  - java
+  name: INACTIVE
+  nameWithType: UserState.INACTIVE
+  fullName: com.microsoft.store.partnercenter.models.users.UserState.INACTIVE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/UserState.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Inactive user. </p>"
+  syntax:
+    content: public INACTIVE=("inactive")
+- uid: com.microsoft.store.partnercenter.models.users.UserState.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.users.UserState
+  href: com.microsoft.store.partnercenter.models.users.UserState.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: UserState.toString()
+  fullName: com.microsoft.store.partnercenter.models.users.UserState.toString()
+  overload: com.microsoft.store.partnercenter.models.users.UserState.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/UserState.java
+    startLine: 39
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+- uid: com.microsoft.store.partnercenter.models.users.UserState.UserState(String)
+  id: UserState(String)
+  parent: com.microsoft.store.partnercenter.models.users.UserState
+  href: com.microsoft.store.partnercenter.models.users.UserState.yml
+  langs:
+  - java
+  name: UserState(String value)
+  nameWithType: UserState.UserState(String value)
+  fullName: com.microsoft.store.partnercenter.models.users.UserState.UserState(String value)
+  overload: com.microsoft.store.partnercenter.models.users.UserState.UserState*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/UserState.java
+    startLine: 27
+  package: com.microsoft.store.partnercenter.models.users
+  syntax:
+    content: public UserState(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.users.UserState.UserState*
+  name: UserState
+  nameWithType: UserState.UserState
+  fullName: com.microsoft.store.partnercenter.models.users.UserState.UserState
+  package: com.microsoft.store.partnercenter.models.users
+- uid: com.microsoft.store.partnercenter.models.users.UserState.toString*
+  name: toString
+  nameWithType: UserState.toString
+  fullName: com.microsoft.store.partnercenter.models.users.UserState.toString
+  package: com.microsoft.store.partnercenter.models.users

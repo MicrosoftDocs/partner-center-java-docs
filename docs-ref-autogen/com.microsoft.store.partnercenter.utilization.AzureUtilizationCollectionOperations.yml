@@ -1,0 +1,345 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations
+  id: AzureUtilizationCollectionOperations
+  parent: com.microsoft.store.partnercenter.utilization
+  children:
+  - com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(IPartner,String,String)
+  - com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query(DateTime,DateTime,AzureUtilizationGranularity,boolean,int)
+  - com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek(String,SeekOperation)
+  href: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.yml
+  langs:
+  - java
+  name: AzureUtilizationCollectionOperations
+  nameWithType: AzureUtilizationCollectionOperations
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/utilization/AzureUtilizationCollectionOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/utilization/AzureUtilizationCollectionOperations.java
+    startLine: 29
+  package: com.microsoft.store.partnercenter.utilization
+  syntax:
+    content: public class AzureUtilizationCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements IAzureUtilizationCollection
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.IPartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(IPartner,String,String)
+  id: AzureUtilizationCollectionOperations(IPartner,String,String)
+  parent: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations
+  href: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.yml
+  langs:
+  - java
+  name: AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  nameWithType: AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  overload: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/utilization/AzureUtilizationCollectionOperations.java
+    startLine: 41
+  package: com.microsoft.store.partnercenter.utilization
+  summary: "<p>Initializes a new instance of the AzureUtilizationCollectionOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+    - id: customerId
+      type: "26831127"
+      description: <p>The customer identifier. </p>
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>The subscription identifier. </p>
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query(DateTime,DateTime,AzureUtilizationGranularity,boolean,int)
+  id: query(DateTime,DateTime,AzureUtilizationGranularity,boolean,int)
+  parent: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations
+  href: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.yml
+  langs:
+  - java
+  name: query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+  nameWithType: AzureUtilizationCollectionOperations.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+  overload: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/utilization/AzureUtilizationCollectionOperations.java
+    startLine: 68
+  package: com.microsoft.store.partnercenter.utilization
+  summary: "<p>Retrieves utilization records for the Azure subscription. </p>"
+  syntax:
+    content: public ResourceCollection<AzureUtilizationRecord> query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+    parameters:
+    - id: startTime
+      type: 230df18c
+      description: <p>The starting time of when the utilization was metered in the billing system. </p>
+    - id: endTime
+      type: 230df18c
+      description: <p>The ending time of when the utilization was metered in the billing system. </p>
+    - id: granularity
+      type: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+      description: <p>The resource usage time granularity. Can either be daily or hourly. Default is daily. </p>
+    - id: showDetails
+      type: 4fc6e284
+      description: <p>If set to true, the utilization records will be split by the resource instance levels. If set to false, the utilization records will be aggregated on the resource level. Default is true. </p>
+    - id: size
+      type: f75371fa
+      description: <p>An optional maximum number of records to return. The returned resource collection will specify a next link in case there were more utilization records available. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecorda08ddfce
+      description: <p>The Azure resource utilization for the subscription. </p>
+  overridden: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query(DateTime,DateTime,AzureUtilizationGranularity,boolean,int)
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek(String,SeekOperation)
+  id: seek(String,SeekOperation)
+  parent: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations
+  href: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.yml
+  langs:
+  - java
+  name: seek(String continuationToken, SeekOperation seekOperation)
+  nameWithType: AzureUtilizationCollectionOperations.seek(String continuationToken, SeekOperation seekOperation)
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek(String continuationToken, SeekOperation seekOperation)
+  overload: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/utilization/AzureUtilizationCollectionOperations.java
+    startLine: 147
+  package: com.microsoft.store.partnercenter.utilization
+  summary: "<p>Seeks pages of utilization for resources that belong to an Azure subscription owned by a customer of the partner. </p>"
+  syntax:
+    content: public ResourceCollection<AzureUtilizationRecord> seek(String continuationToken, SeekOperation seekOperation)
+    parameters:
+    - id: continuationToken
+      type: "26831127"
+      description: <p>The continuation token from the previous results. </p>
+    - id: seekOperation
+      type: com.microsoft.store.partnercenter.models.query.SeekOperation
+      description: <p>The seek operation to perform. Next is only supported. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecorda08ddfce
+      description: <p>The next page of utilization records. </p>
+  overridden: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek(String,SeekOperation)
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations*
+  name: AzureUtilizationCollectionOperations
+  nameWithType: AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations
+  package: com.microsoft.store.partnercenter.utilization
+- uid: 230df18c
+  spec.java:
+  - name: DateTime
+    fullName: DateTime
+- uid: 4fc6e284
+  spec.java:
+  - name: boolean
+    fullName: boolean
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecorda08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
+    name: AzureUtilizationRecord
+    fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
+    href: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query*
+  name: query
+  nameWithType: AzureUtilizationCollectionOperations.query
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query
+  package: com.microsoft.store.partnercenter.utilization
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek*
+  name: seek
+  nameWithType: AzureUtilizationCollectionOperations.seek
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek
+  package: com.microsoft.store.partnercenter.utilization
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent<TContext>
+  nameWithType: BasePartnerComponent<TContext>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. All components should inherit from this class. The context object type. </p>"
+  syntax:
+    content: public class BasePartnerComponent<TContext>
+    typeParameters:
+    - id: TContext
+      type: 473af9dd
+- uid: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
+  parent: com.microsoft.store.partnercenter.utilization
+  href: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.yml
+  name: IAzureUtilizationCollection
+  nameWithType: IAzureUtilizationCollection
+  fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
+  type: Interface
+  summary: "<p>Groups behavior related to Azure subscription utilization records. </p>"
+  syntax:
+    content: public interface IAzureUtilizationCollection
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
+  parent: com.microsoft.store.partnercenter.models.utilizations
+  href: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.yml
+  name: AzureUtilizationRecord
+  nameWithType: AzureUtilizationRecord
+  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
+  type: Class
+  summary: "<p>A utilization record for an Azure subscription resource. </p>"
+  syntax:
+    content: public class AzureUtilizationRecord
+- uid: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query(DateTime,DateTime,AzureUtilizationGranularity,boolean,int)
+  parent: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
+  href: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.yml
+  name: query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+  nameWithType: IAzureUtilizationCollection.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+  fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+  type: Method
+  summary: "<p>Retrieves utilization records for the Azure subscription. </p>"
+  syntax:
+    content: public ResourceCollection<AzureUtilizationRecord> query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+    parameters:
+    - id: startTime
+      type: 230df18c
+      description: <p>The starting time of when the utilization was metered in the billing system. </p>
+    - id: endTime
+      type: 230df18c
+      description: <p>The ending time of when the utilization was metered in the billing system. </p>
+    - id: granularity
+      type: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+      description: <p>The resource usage time granularity. Can either be daily or hourly. Default is daily. </p>
+    - id: showDetails
+      type: 4fc6e284
+      description: <p>If set to true, the utilization records will be split by the resource instance levels. If set to false, the utilization records will be aggregated on the resource level. Default is true. </p>
+    - id: size
+      type: f75371fa
+      description: <p>Maximum number of records to return. The returned resource collection will specify a next link in case there were more utilization records available. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecorda08ddfce
+      description: <p>The Azure resource utilization for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+  parent: com.microsoft.store.partnercenter.models.utilizations
+  href: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.yml
+  name: AzureUtilizationGranularity
+  nameWithType: AzureUtilizationGranularity
+  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+  type: Enum
+  summary: "<p>Lists the time granularity options for retrieving A subscription's azure utilization. </p>"
+  syntax:
+    content: public enum AzureUtilizationGranularity
+- uid: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek(String,SeekOperation)
+  parent: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
+  href: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.yml
+  name: seek(String continuationToken, SeekOperation seekOperation)
+  nameWithType: IAzureUtilizationCollection.seek(String continuationToken, SeekOperation seekOperation)
+  fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek(String continuationToken, SeekOperation seekOperation)
+  type: Method
+  summary: "<p>Seeks pages of of utilization for resources that belong to an Azure subscription owned by a customer of the partner. </p>"
+  syntax:
+    content: public ResourceCollection<AzureUtilizationRecord> seek(String continuationToken, SeekOperation seekOperation)
+    parameters:
+    - id: continuationToken
+      type: "26831127"
+      description: <p>The continuation token from the previous results. </p>
+    - id: seekOperation
+      type: com.microsoft.store.partnercenter.models.query.SeekOperation
+      description: <p>The seek operation to perform. Next is only supported. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecorda08ddfce
+      description: <p>The next page of utilization records. </p>
+- uid: com.microsoft.store.partnercenter.models.query.SeekOperation
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.SeekOperation.yml
+  name: SeekOperation
+  nameWithType: SeekOperation
+  fullName: com.microsoft.store.partnercenter.models.query.SeekOperation
+  type: Enum
+  syntax:
+    content: public enum SeekOperation

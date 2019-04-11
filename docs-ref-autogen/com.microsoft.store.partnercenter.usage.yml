@@ -3,24 +3,24 @@ items:
 - uid: com.microsoft.store.partnercenter.usage
   id: usage
   children:
-  - com.microsoft.store.partnercenter.usage._customer_usage_record_collection_operations
-  - com.microsoft.store.partnercenter.usage._customer_usage_spending_budget_operations
-  - com.microsoft.store.partnercenter.usage._customer_usage_summary_operations
-  - com.microsoft.store.partnercenter.usage._i_customer_usage_record_collection
-  - com.microsoft.store.partnercenter.usage._i_customer_usage_spending_budget
-  - com.microsoft.store.partnercenter.usage._i_customer_usage_summary
-  - com.microsoft.store.partnercenter.usage._i_partner_usage_summary
-  - com.microsoft.store.partnercenter.usage._i_resource_usage_record_collection
-  - com.microsoft.store.partnercenter.usage._i_subscription_daily_usage_record_collection
-  - com.microsoft.store.partnercenter.usage._i_subscription_monthly_usage_record_collection
-  - com.microsoft.store.partnercenter.usage._i_subscription_usage_record_collection
-  - com.microsoft.store.partnercenter.usage._i_subscription_usage_summary
-  - com.microsoft.store.partnercenter.usage._partner_usage_summary_operations
-  - com.microsoft.store.partnercenter.usage._resource_usage_record_collection_operations
-  - com.microsoft.store.partnercenter.usage._subscription_daily_usage_record_collection_operations
-  - com.microsoft.store.partnercenter.usage._subscription_monthly_usage_record_collection_operations
-  - com.microsoft.store.partnercenter.usage._subscription_usage_record_collection_operations
-  - com.microsoft.store.partnercenter.usage._subscription_usage_summary_operations
+  - com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations
+  - com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations
+  - com.microsoft.store.partnercenter.usage.CustomerUsageSummaryOperations
+  - com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+  - com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+  - com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
+  - com.microsoft.store.partnercenter.usage.IPartnerUsageSummary
+  - com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection
+  - com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection
+  - com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+  - com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
+  - com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary
+  - com.microsoft.store.partnercenter.usage.PartnerUsageSummaryOperations
+  - com.microsoft.store.partnercenter.usage.ResourceUsageRecordCollectionOperations
+  - com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations
+  - com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations
+  - com.microsoft.store.partnercenter.usage.SubscriptionUsageRecordCollectionOperations
+  - com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations
   href: com.microsoft.store.partnercenter.usage.yml
   langs:
   - java
@@ -38,183 +38,183 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.usage
 references:
-- uid: com.microsoft.store.partnercenter.usage._customer_usage_record_collection_operations
+- uid: com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._customer_usage_record_collection_operations.yml
+  href: com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.yml
   name: CustomerUsageRecordCollectionOperations
   nameWithType: CustomerUsageRecordCollectionOperations
   fullName: com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations
   type: Class
-  summary: <p>Implements operations related to a partner's customers usage record. </p>
+  summary: "<p>Implements operations related to a partner's customers usage record. </p>"
   syntax:
     content: public class CustomerUsageRecordCollectionOperations extends BasePartnerComponentString implements ICustomerUsageRecordCollection
-- uid: com.microsoft.store.partnercenter.usage._customer_usage_spending_budget_operations
+- uid: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._customer_usage_spending_budget_operations.yml
+  href: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.yml
   name: CustomerUsageSpendingBudgetOperations
   nameWithType: CustomerUsageSpendingBudgetOperations
   fullName: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations
   type: Class
-  summary: <p>This class implements the operations available on a customer's usage spending budget. </p>
+  summary: "<p>This class implements the operations available on a customer's usage spending budget. </p>"
   syntax:
     content: public class CustomerUsageSpendingBudgetOperations extends BasePartnerComponentString implements ICustomerUsageSpendingBudget
-- uid: com.microsoft.store.partnercenter.usage._customer_usage_summary_operations
+- uid: com.microsoft.store.partnercenter.usage.CustomerUsageSummaryOperations
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._customer_usage_summary_operations.yml
+  href: com.microsoft.store.partnercenter.usage.CustomerUsageSummaryOperations.yml
   name: CustomerUsageSummaryOperations
   nameWithType: CustomerUsageSummaryOperations
   fullName: com.microsoft.store.partnercenter.usage.CustomerUsageSummaryOperations
   type: Class
-  summary: <p>This class implements the operations for a customer's summary of usage-based subscriptions. </p>
+  summary: "<p>This class implements the operations for a customer's summary of usage-based subscriptions. </p>"
   syntax:
     content: public class CustomerUsageSummaryOperations extends BasePartnerComponentString implements ICustomerUsageSummary
-- uid: com.microsoft.store.partnercenter.usage._i_customer_usage_record_collection
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._i_customer_usage_record_collection.yml
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.yml
   name: ICustomerUsageRecordCollection
   nameWithType: ICustomerUsageRecordCollection
   fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
   type: Interface
-  summary: <p>Defines the behavior of a customer usage record collection operations. </p>
+  summary: "<p>Defines the behavior of a customer usage record collection operations. </p>"
   syntax:
     content: public interface ICustomerUsageRecordCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<CustomerMonthlyUsageRecord, ResourceCollection<CustomerMonthlyUsageRecord>>
-- uid: com.microsoft.store.partnercenter.usage._i_customer_usage_spending_budget
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._i_customer_usage_spending_budget.yml
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.yml
   name: ICustomerUsageSpendingBudget
   nameWithType: ICustomerUsageSpendingBudget
   fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
   type: Interface
-  summary: <p>This interface defines the operations available on a customer's usage spending budget. </p>
+  summary: "<p>This interface defines the operations available on a customer's usage spending budget. </p>"
   syntax:
     content: public interface ICustomerUsageSpendingBudget extends IPartnerComponentString,IEntityGetOperations<SpendingBudget>,IEntityPatchOperations<SpendingBudget>
-- uid: com.microsoft.store.partnercenter.usage._i_customer_usage_summary
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._i_customer_usage_summary.yml
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.yml
   name: ICustomerUsageSummary
   nameWithType: ICustomerUsageSummary
   fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
   type: Interface
-  summary: <p>This interface defines the operations available on a customer's usage summary. </p>
+  summary: "<p>This interface defines the operations available on a customer's usage summary. </p>"
   syntax:
     content: public interface ICustomerUsageSummary extends IPartnerComponentString,IEntityGetOperations<CustomerUsageSummary>
-- uid: com.microsoft.store.partnercenter.usage._i_partner_usage_summary
+- uid: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._i_partner_usage_summary.yml
+  href: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary.yml
   name: IPartnerUsageSummary
   nameWithType: IPartnerUsageSummary
   fullName: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary
   type: Interface
-  summary: <p>This interface defines the operations available on a partner's usage summary. </p>
+  summary: "<p>This interface defines the operations available on a partner's usage summary. </p>"
   syntax:
     content: public interface IPartnerUsageSummary extends IPartnerComponentString,IEntityGetOperations<PartnerUsageSummary>
-- uid: com.microsoft.store.partnercenter.usage._i_resource_usage_record_collection
+- uid: com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._i_resource_usage_record_collection.yml
+  href: com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection.yml
   name: IResourceUsageRecordCollection
   nameWithType: IResourceUsageRecordCollection
   fullName: com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection
   type: Interface
-  summary: <p>Defines the behavior for a subscription's resource usage records. </p>
+  summary: "<p>Defines the behavior for a subscription's resource usage records. </p>"
   syntax:
     content: public interface IResourceUsageRecordCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<AzureResourceMonthlyUsageRecord, ResourceCollection<AzureResourceMonthlyUsageRecord>>
-- uid: com.microsoft.store.partnercenter.usage._i_subscription_daily_usage_record_collection
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._i_subscription_daily_usage_record_collection.yml
+  href: com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection.yml
   name: ISubscriptionDailyUsageRecordCollection
   nameWithType: ISubscriptionDailyUsageRecordCollection
   fullName: com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection
   type: Interface
-  summary: <p>Defines the behavior for a subscription's daily usage records. </p>
+  summary: "<p>Defines the behavior for a subscription's daily usage records. </p>"
   syntax:
     content: public interface ISubscriptionDailyUsageRecordCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<SubscriptionDailyUsageRecord, ResourceCollection<SubscriptionDailyUsageRecord>>
-- uid: com.microsoft.store.partnercenter.usage._i_subscription_monthly_usage_record_collection
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._i_subscription_monthly_usage_record_collection.yml
+  href: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.yml
   name: ISubscriptionMonthlyUsageRecordCollection
   nameWithType: ISubscriptionMonthlyUsageRecordCollection
   fullName: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
   type: Interface
-  summary: <p>Defines the behavior for a subscription's daily usage records. </p>
+  summary: "<p>Defines the behavior for a subscription's daily usage records. </p>"
   syntax:
     content: public interface ISubscriptionMonthlyUsageRecordCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<SubscriptionMonthlyUsageRecord, ResourceCollection<SubscriptionMonthlyUsageRecord>>
-- uid: com.microsoft.store.partnercenter.usage._i_subscription_usage_record_collection
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._i_subscription_usage_record_collection.yml
+  href: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.yml
   name: ISubscriptionUsageRecordCollection
   nameWithType: ISubscriptionUsageRecordCollection
   fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
   type: Interface
-  summary: <p>Defines the behavior for a customer's subscription usage records. </p>
+  summary: "<p>Defines the behavior for a customer's subscription usage records. </p>"
   syntax:
     content: public interface ISubscriptionUsageRecordCollection extends IPartnerComponent<Tuple<String, String>>
-- uid: com.microsoft.store.partnercenter.usage._i_subscription_usage_summary
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._i_subscription_usage_summary.yml
+  href: com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary.yml
   name: ISubscriptionUsageSummary
   nameWithType: ISubscriptionUsageSummary
   fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary
   type: Interface
-  summary: <p>This interface defines the operations available on a customer's subscription usage summary. </p>
+  summary: "<p>This interface defines the operations available on a customer's subscription usage summary. </p>"
   syntax:
     content: public interface ISubscriptionUsageSummary extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<SubscriptionUsageSummary>
-- uid: com.microsoft.store.partnercenter.usage._partner_usage_summary_operations
+- uid: com.microsoft.store.partnercenter.usage.PartnerUsageSummaryOperations
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._partner_usage_summary_operations.yml
+  href: com.microsoft.store.partnercenter.usage.PartnerUsageSummaryOperations.yml
   name: PartnerUsageSummaryOperations
   nameWithType: PartnerUsageSummaryOperations
   fullName: com.microsoft.store.partnercenter.usage.PartnerUsageSummaryOperations
   type: Class
-  summary: <p>This class implements the operations available on a partner's usage summary. </p>
+  summary: "<p>This class implements the operations available on a partner's usage summary. </p>"
   syntax:
     content: public class PartnerUsageSummaryOperations extends BasePartnerComponentString implements IPartnerUsageSummary
-- uid: com.microsoft.store.partnercenter.usage._resource_usage_record_collection_operations
+- uid: com.microsoft.store.partnercenter.usage.ResourceUsageRecordCollectionOperations
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._resource_usage_record_collection_operations.yml
+  href: com.microsoft.store.partnercenter.usage.ResourceUsageRecordCollectionOperations.yml
   name: ResourceUsageRecordCollectionOperations
   nameWithType: ResourceUsageRecordCollectionOperations
   fullName: com.microsoft.store.partnercenter.usage.ResourceUsageRecordCollectionOperations
   type: Class
-  summary: <p>Implements operations related to a single subscription resource usage records. </p>
+  summary: "<p>Implements operations related to a single subscription resource usage records. </p>"
   syntax:
     content: public class ResourceUsageRecordCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements IResourceUsageRecordCollection
-- uid: com.microsoft.store.partnercenter.usage._subscription_daily_usage_record_collection_operations
+- uid: com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._subscription_daily_usage_record_collection_operations.yml
+  href: com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations.yml
   name: SubscriptionDailyUsageRecordCollectionOperations
   nameWithType: SubscriptionDailyUsageRecordCollectionOperations
   fullName: com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations
   type: Class
-  summary: <p>Implements operations related to a single subscription daily usage records. </p>
+  summary: "<p>Implements operations related to a single subscription daily usage records. </p>"
   syntax:
     content: public class SubscriptionDailyUsageRecordCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements ISubscriptionDailyUsageRecordCollection
-- uid: com.microsoft.store.partnercenter.usage._subscription_monthly_usage_record_collection_operations
+- uid: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._subscription_monthly_usage_record_collection_operations.yml
+  href: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.yml
   name: SubscriptionMonthlyUsageRecordCollectionOperations
   nameWithType: SubscriptionMonthlyUsageRecordCollectionOperations
   fullName: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations
   type: Class
-  summary: <p>Implements operations related to a single subscription monthly usage records. </p>
+  summary: "<p>Implements operations related to a single subscription monthly usage records. </p>"
   syntax:
     content: public class SubscriptionMonthlyUsageRecordCollectionOperations extends BasePartnerComponentString implements ISubscriptionMonthlyUsageRecordCollection
-- uid: com.microsoft.store.partnercenter.usage._subscription_usage_record_collection_operations
+- uid: com.microsoft.store.partnercenter.usage.SubscriptionUsageRecordCollectionOperations
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._subscription_usage_record_collection_operations.yml
+  href: com.microsoft.store.partnercenter.usage.SubscriptionUsageRecordCollectionOperations.yml
   name: SubscriptionUsageRecordCollectionOperations
   nameWithType: SubscriptionUsageRecordCollectionOperations
   fullName: com.microsoft.store.partnercenter.usage.SubscriptionUsageRecordCollectionOperations
   type: Class
-  summary: <p>Implements operations related to a single customer's subscription usage records. </p>
+  summary: "<p>Implements operations related to a single customer's subscription usage records. </p>"
   syntax:
     content: public class SubscriptionUsageRecordCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements ISubscriptionUsageRecordCollection
-- uid: com.microsoft.store.partnercenter.usage._subscription_usage_summary_operations
+- uid: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations
   parent: com.microsoft.store.partnercenter.usage
-  href: com.microsoft.store.partnercenter.usage._subscription_usage_summary_operations.yml
+  href: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.yml
   name: SubscriptionUsageSummaryOperations
   nameWithType: SubscriptionUsageSummaryOperations
   fullName: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations
   type: Class
-  summary: <p>This class implements the operations for a customer's subscription. </p>
+  summary: "<p>This class implements the operations for a customer's subscription. </p>"
   syntax:
     content: public class SubscriptionUsageSummaryOperations extends BasePartnerComponent<Tuple<String, String>> implements ISubscriptionUsageSummary

@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.store.partnercenter.configuration
   id: configuration
   children:
-  - com.microsoft.store.partnercenter.configuration._configuration
-  - com.microsoft.store.partnercenter.configuration._configuration._api
+  - com.microsoft.store.partnercenter.configuration.Configuration
+  - com.microsoft.store.partnercenter.configuration.Configuration.Api
   href: com.microsoft.store.partnercenter.configuration.yml
   langs:
   - java
@@ -22,19 +22,19 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.configuration
 references:
-- uid: com.microsoft.store.partnercenter.configuration._configuration
+- uid: com.microsoft.store.partnercenter.configuration.Configuration
   parent: com.microsoft.store.partnercenter.configuration
-  href: com.microsoft.store.partnercenter.configuration._configuration.yml
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
   name: Configuration
   nameWithType: Configuration
   fullName: com.microsoft.store.partnercenter.configuration.Configuration
   type: Class
-  summary: <p>A configuration holder that keeps a map of API's and some default configuration values </p>
+  summary: "<p>A configuration holder that keeps a map of API's and some default configuration values </p>"
   syntax:
     content: public class Configuration
-- uid: com.microsoft.store.partnercenter.configuration._configuration._api
+- uid: com.microsoft.store.partnercenter.configuration.Configuration.Api
   parent: com.microsoft.store.partnercenter.configuration
-  href: com.microsoft.store.partnercenter.configuration._configuration._api.yml
+  href: com.microsoft.store.partnercenter.configuration.Configuration.Api.yml
   name: Configuration.Api
   nameWithType: Configuration.Api
   fullName: com.microsoft.store.partnercenter.configuration.Configuration.Api

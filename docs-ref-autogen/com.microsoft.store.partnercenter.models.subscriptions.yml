@@ -3,23 +3,24 @@ items:
 - uid: com.microsoft.store.partnercenter.models.subscriptions
   id: subscriptions
   children:
-  - com.microsoft.store.partnercenter.models.subscriptions._conversion
-  - com.microsoft.store.partnercenter.models.subscriptions._conversion_error
-  - com.microsoft.store.partnercenter.models.subscriptions._conversion_error_code
-  - com.microsoft.store.partnercenter.models.subscriptions._conversion_result
-  - com.microsoft.store.partnercenter.models.subscriptions._provisioning_status
-  - com.microsoft.store.partnercenter.models.subscriptions._subscription
-  - com.microsoft.store.partnercenter.models.subscriptions._subscription_links
-  - com.microsoft.store.partnercenter.models.subscriptions._subscription_provisioning_status
-  - com.microsoft.store.partnercenter.models.subscriptions._subscription_registration_status
-  - com.microsoft.store.partnercenter.models.subscriptions._subscription_status
-  - com.microsoft.store.partnercenter.models.subscriptions._support_contact
-  - com.microsoft.store.partnercenter.models.subscriptions._upgrade
-  - com.microsoft.store.partnercenter.models.subscriptions._upgrade_error
-  - com.microsoft.store.partnercenter.models.subscriptions._upgrade_error_code
-  - com.microsoft.store.partnercenter.models.subscriptions._upgrade_result
-  - com.microsoft.store.partnercenter.models.subscriptions._upgrade_type
-  - com.microsoft.store.partnercenter.models.subscriptions._user_license_error
+  - com.microsoft.store.partnercenter.models.subscriptions.Conversion
+  - com.microsoft.store.partnercenter.models.subscriptions.ConversionError
+  - com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode
+  - com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
+  - com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
+  - com.microsoft.store.partnercenter.models.subscriptions.RefundOption
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks
+  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
+  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus
+  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  - com.microsoft.store.partnercenter.models.subscriptions.SupportContact
+  - com.microsoft.store.partnercenter.models.subscriptions.Upgrade
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeError
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeType
+  - com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError
   href: com.microsoft.store.partnercenter.models.subscriptions.yml
   langs:
   - java
@@ -37,170 +38,180 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.subscriptions
 references:
-- uid: com.microsoft.store.partnercenter.models.subscriptions._conversion
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._conversion.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.Conversion.yml
   name: Conversion
   nameWithType: Conversion
   fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion
   type: Class
-  summary: <p>Represents the conversion for a subscription from a trial offer to a paid offer. </p>
+  summary: "<p>Represents the conversion for a subscription from a trial offer to a paid offer. </p>"
   syntax:
     content: public class Conversion extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.subscriptions._conversion_error
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionError
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._conversion_error.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.ConversionError.yml
   name: ConversionError
   nameWithType: ConversionError
   fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionError
   type: Class
-  summary: <p>Represents an error for the trial subscription conversion result. </p>
+  summary: "<p>Represents an error for the trial subscription conversion result. </p>"
   syntax:
     content: public class ConversionError extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.subscriptions._conversion_error_code
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._conversion_error_code.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.yml
   name: ConversionErrorCode
   nameWithType: ConversionErrorCode
   fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode
   type: Enum
-  summary: <p>The type of errors that prevent trial subscription conversion from happening. </p>
+  summary: "<p>The type of errors that prevent trial subscription conversion from happening. </p>"
   syntax:
     content: public enum ConversionErrorCode
-- uid: com.microsoft.store.partnercenter.models.subscriptions._conversion_result
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._conversion_result.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.yml
   name: ConversionResult
   nameWithType: ConversionResult
   fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
   type: Class
-  summary: <p>Represents the result of performing a subscription conversion. </p>
+  summary: "<p>Represents the result of performing a subscription conversion. </p>"
   syntax:
     content: public class ConversionResult extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.subscriptions._provisioning_status
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._provisioning_status.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.yml
   name: ProvisioningStatus
   nameWithType: ProvisioningStatus
   fullName: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
   type: Enum
-  summary: <p>Lists the available status for a subscription provisioning status. </p>
+  summary: "<p>Lists the available status for a subscription provisioning status. </p>"
   syntax:
     content: public enum ProvisioningStatus
-- uid: com.microsoft.store.partnercenter.models.subscriptions._subscription
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._subscription.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.yml
+  name: RefundOption
+  nameWithType: RefundOption
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
+  type: Class
+  summary: "<p>Represents the refund option for a subscription. </p>"
+  syntax:
+    content: public class RefundOption
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
   name: Subscription
   nameWithType: Subscription
   fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription
   type: Class
-  summary: <p>The subscription resource represents the life cycle of a subscription and includes properties that define the states throughout the subscription life cycle </p>
+  summary: "<p>The subscription resource represents the life cycle of a subscription and includes properties that define the states throughout the subscription life cycle </p>"
   syntax:
     content: public class Subscription extends Contract
-- uid: com.microsoft.store.partnercenter.models.subscriptions._subscription_links
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._subscription_links.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks.yml
   name: SubscriptionLinks
   nameWithType: SubscriptionLinks
   fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks
   type: Class
-  summary: <p>Bundles links associated with a subscription. </p>
+  summary: "<p>Bundles links associated with a subscription. </p>"
   syntax:
     content: public class SubscriptionLinks extends StandardResourceLinks
-- uid: com.microsoft.store.partnercenter.models.subscriptions._subscription_provisioning_status
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._subscription_provisioning_status.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.yml
   name: SubscriptionProvisioningStatus
   nameWithType: SubscriptionProvisioningStatus
   fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
   type: Class
-  summary: <p>The subscription provisioning status details. </p>
+  summary: "<p>The subscription provisioning status details. </p>"
   syntax:
     content: public class SubscriptionProvisioningStatus extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.subscriptions._subscription_registration_status
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._subscription_registration_status.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.yml
   name: SubscriptionRegistrationStatus
   nameWithType: SubscriptionRegistrationStatus
   fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus
   type: Class
-  summary: <p>The subscription provisioning status details. </p>
+  summary: "<p>The subscription provisioning status details. </p>"
   syntax:
     content: public class SubscriptionRegistrationStatus extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.subscriptions._subscription_status
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._subscription_status.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.yml
   name: SubscriptionStatus
   nameWithType: SubscriptionStatus
   fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
   type: Enum
   syntax:
     content: public enum SubscriptionStatus
-- uid: com.microsoft.store.partnercenter.models.subscriptions._support_contact
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._support_contact.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.SupportContact.yml
   name: SupportContact
   nameWithType: SupportContact
   fullName: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
   type: Class
-  summary: <p>Represents a form of support contact for a customer's subscription. </p>
+  summary: "<p>Represents a form of support contact for a customer's subscription. </p>"
   syntax:
     content: public class SupportContact extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.subscriptions._upgrade
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._upgrade.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.Upgrade.yml
   name: Upgrade
   nameWithType: Upgrade
   fullName: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
   type: Class
-  summary: <p>Represents a form of upgrade for a subscription </p>
+  summary: "<p>Represents a form of upgrade for a subscription </p>"
   syntax:
     content: public class Upgrade extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.subscriptions._upgrade_error
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeError
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._upgrade_error.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeError.yml
   name: UpgradeError
   nameWithType: UpgradeError
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeError
   type: Class
-  summary: <p>Represents an error for subscription upgrade eligibility </p>
+  summary: "<p>Represents an error for subscription upgrade eligibility </p>"
   syntax:
     content: public class UpgradeError extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.subscriptions._upgrade_error_code
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._upgrade_error_code.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
   name: UpgradeErrorCode
   nameWithType: UpgradeErrorCode
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
   type: Enum
   syntax:
     content: public enum UpgradeErrorCode
-- uid: com.microsoft.store.partnercenter.models.subscriptions._upgrade_result
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._upgrade_result.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult.yml
   name: UpgradeResult
   nameWithType: UpgradeResult
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
   type: Class
-  summary: <p>Represents the result of performing a subscription Upgrade </p>
+  summary: "<p>Represents the result of performing a subscription Upgrade </p>"
   syntax:
     content: public class UpgradeResult extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.subscriptions._upgrade_type
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._upgrade_type.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.yml
   name: UpgradeType
   nameWithType: UpgradeType
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeType
   type: Enum
   syntax:
     content: public enum UpgradeType
-- uid: com.microsoft.store.partnercenter.models.subscriptions._user_license_error
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError
   parent: com.microsoft.store.partnercenter.models.subscriptions
-  href: com.microsoft.store.partnercenter.models.subscriptions._user_license_error.yml
+  href: com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.yml
   name: UserLicenseError
   nameWithType: UserLicenseError
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError
   type: Class
-  summary: <p>Represents a user and the services that had errors during license transfer. </p>
+  summary: "<p>Represents a user and the services that had errors during license transfer. </p>"
   syntax:
     content: public class UserLicenseError extends ResourceBase

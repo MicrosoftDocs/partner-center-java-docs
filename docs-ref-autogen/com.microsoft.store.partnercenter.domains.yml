@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.store.partnercenter.domains
   id: domains
   children:
-  - com.microsoft.store.partnercenter.domains._domain_collection_operations
-  - com.microsoft.store.partnercenter.domains._domain_operations
-  - com.microsoft.store.partnercenter.domains._i_domain
-  - com.microsoft.store.partnercenter.domains._i_domain_collection
+  - com.microsoft.store.partnercenter.domains.DomainCollectionOperations
+  - com.microsoft.store.partnercenter.domains.DomainOperations
+  - com.microsoft.store.partnercenter.domains.IDomain
+  - com.microsoft.store.partnercenter.domains.IDomainCollection
   href: com.microsoft.store.partnercenter.domains.yml
   langs:
   - java
@@ -24,36 +24,36 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.domains
 references:
-- uid: com.microsoft.store.partnercenter.domains._domain_collection_operations
+- uid: com.microsoft.store.partnercenter.domains.DomainCollectionOperations
   parent: com.microsoft.store.partnercenter.domains
-  href: com.microsoft.store.partnercenter.domains._domain_collection_operations.yml
+  href: com.microsoft.store.partnercenter.domains.DomainCollectionOperations.yml
   name: DomainCollectionOperations
   nameWithType: DomainCollectionOperations
   fullName: com.microsoft.store.partnercenter.domains.DomainCollectionOperations
   type: Class
   syntax:
     content: public class DomainCollectionOperations extends BasePartnerComponentString implements IDomainCollection
-- uid: com.microsoft.store.partnercenter.domains._domain_operations
+- uid: com.microsoft.store.partnercenter.domains.DomainOperations
   parent: com.microsoft.store.partnercenter.domains
-  href: com.microsoft.store.partnercenter.domains._domain_operations.yml
+  href: com.microsoft.store.partnercenter.domains.DomainOperations.yml
   name: DomainOperations
   nameWithType: DomainOperations
   fullName: com.microsoft.store.partnercenter.domains.DomainOperations
   type: Class
   syntax:
     content: public class DomainOperations extends BasePartnerComponentString implements IDomain
-- uid: com.microsoft.store.partnercenter.domains._i_domain
+- uid: com.microsoft.store.partnercenter.domains.IDomain
   parent: com.microsoft.store.partnercenter.domains
-  href: com.microsoft.store.partnercenter.domains._i_domain.yml
+  href: com.microsoft.store.partnercenter.domains.IDomain.yml
   name: IDomain
   nameWithType: IDomain
   fullName: com.microsoft.store.partnercenter.domains.IDomain
   type: Interface
   syntax:
     content: public interface IDomain extends IPartnerComponentString,IEntityExistsOperations
-- uid: com.microsoft.store.partnercenter.domains._i_domain_collection
+- uid: com.microsoft.store.partnercenter.domains.IDomainCollection
   parent: com.microsoft.store.partnercenter.domains
-  href: com.microsoft.store.partnercenter.domains._i_domain_collection.yml
+  href: com.microsoft.store.partnercenter.domains.IDomainCollection.yml
   name: IDomainCollection
   nameWithType: IDomainCollection
   fullName: com.microsoft.store.partnercenter.domains.IDomainCollection

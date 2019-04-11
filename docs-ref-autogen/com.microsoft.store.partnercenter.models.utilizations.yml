@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.store.partnercenter.models.utilizations
   id: utilizations
   children:
-  - com.microsoft.store.partnercenter.models.utilizations._azure_instance_data
-  - com.microsoft.store.partnercenter.models.utilizations._azure_resource
-  - com.microsoft.store.partnercenter.models.utilizations._azure_utilization_granularity
-  - com.microsoft.store.partnercenter.models.utilizations._azure_utilization_record
+  - com.microsoft.store.partnercenter.models.utilizations.AzureInstanceData
+  - com.microsoft.store.partnercenter.models.utilizations.AzureResource
+  - com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+  - com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
   href: com.microsoft.store.partnercenter.models.utilizations.yml
   langs:
   - java
@@ -24,42 +24,42 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.utilizations
 references:
-- uid: com.microsoft.store.partnercenter.models.utilizations._azure_instance_data
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureInstanceData
   parent: com.microsoft.store.partnercenter.models.utilizations
-  href: com.microsoft.store.partnercenter.models.utilizations._azure_instance_data.yml
+  href: com.microsoft.store.partnercenter.models.utilizations.AzureInstanceData.yml
   name: AzureInstanceData
   nameWithType: AzureInstanceData
   fullName: com.microsoft.store.partnercenter.models.utilizations.AzureInstanceData
   type: Class
   syntax:
     content: public class AzureInstanceData
-- uid: com.microsoft.store.partnercenter.models.utilizations._azure_resource
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureResource
   parent: com.microsoft.store.partnercenter.models.utilizations
-  href: com.microsoft.store.partnercenter.models.utilizations._azure_resource.yml
+  href: com.microsoft.store.partnercenter.models.utilizations.AzureResource.yml
   name: AzureResource
   nameWithType: AzureResource
   fullName: com.microsoft.store.partnercenter.models.utilizations.AzureResource
   type: Class
-  summary: <p>Represents an Azure resource being metered. </p>
+  summary: "<p>Represents an Azure resource being metered. </p>"
   syntax:
     content: public class AzureResource
-- uid: com.microsoft.store.partnercenter.models.utilizations._azure_utilization_granularity
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
   parent: com.microsoft.store.partnercenter.models.utilizations
-  href: com.microsoft.store.partnercenter.models.utilizations._azure_utilization_granularity.yml
+  href: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.yml
   name: AzureUtilizationGranularity
   nameWithType: AzureUtilizationGranularity
   fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
   type: Enum
-  summary: <p>Lists the time granularity options for retrieving A subscription's azure utilization. </p>
+  summary: "<p>Lists the time granularity options for retrieving A subscription's azure utilization. </p>"
   syntax:
     content: public enum AzureUtilizationGranularity
-- uid: com.microsoft.store.partnercenter.models.utilizations._azure_utilization_record
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
   parent: com.microsoft.store.partnercenter.models.utilizations
-  href: com.microsoft.store.partnercenter.models.utilizations._azure_utilization_record.yml
+  href: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.yml
   name: AzureUtilizationRecord
   nameWithType: AzureUtilizationRecord
   fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
   type: Class
-  summary: <p>A utilization record for an Azure subscription resource. </p>
+  summary: "<p>A utilization record for an Azure subscription resource. </p>"
   syntax:
     content: public class AzureUtilizationRecord extends ResourceBase

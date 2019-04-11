@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector
+  id: ICountrySelector
+  parent: com.microsoft.store.partnercenter.genericoperations
+  children:
+  - com.microsoft.store.partnercenter.genericoperations.ICountrySelector.byCountry(String)
+  href: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.yml
+  langs:
+  - java
+  name: ICountrySelector<TOperations>
+  nameWithType: ICountrySelector<TOperations>
+  fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector<TOperations>
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/genericoperations/ICountrySelector.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/genericoperations/ICountrySelector.java
+    startLine: 11
+  package: com.microsoft.store.partnercenter.genericoperations
+  summary: "<p>Returns operations interfaces based on the given country. </p>"
+  syntax:
+    content: public interface ICountrySelector<TOperations>
+    typeParameters:
+    - id: TOperations
+      type: a8070b06
+- uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.byCountry(String)
+  id: byCountry(String)
+  parent: com.microsoft.store.partnercenter.genericoperations.ICountrySelector
+  href: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.yml
+  langs:
+  - java
+  name: byCountry(String country)
+  nameWithType: ICountrySelector<TOperations>.byCountry(String country)
+  fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector<TOperations>.byCountry(String country)
+  overload: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.byCountry*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/genericoperations/ICountrySelector.java
+    startLine: 20
+  package: com.microsoft.store.partnercenter.genericoperations
+  summary: "<p>Customizes operations based on the given country.</p>\r\n<p></p>"
+  syntax:
+    content: public TOperations byCountry(String country)
+    parameters:
+    - id: country
+      type: "26831127"
+      description: <p>The country to be used by the returned operations.</p>
+    return:
+      type: a8070b06
+      description: <p>An operations interface customized for the provided country. </p>
+references:
+- uid: a8070b06
+  spec.java:
+  - name: TOperations
+    fullName: TOperations
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.byCountry*
+  name: byCountry
+  nameWithType: ICountrySelector<TOperations>.byCountry
+  fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector<TOperations>.byCountry
+  package: com.microsoft.store.partnercenter.genericoperations
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
+  parent: com.microsoft.store.partnercenter.countryvalidationrules
+  href: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.yml
+  name: ICountryValidationRulesCollection
+  nameWithType: ICountryValidationRulesCollection
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
+  type: Interface
+  summary: "<p>Interface and Template for Country-Specific Rules for Validation </p>"
+  syntax:
+    content: public interface ICountryValidationRulesCollection
+- uid: com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector.yml
+  name: OfferCategoryCountrySelector
+  nameWithType: OfferCategoryCountrySelector
+  fullName: com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector
+  type: Class
+  syntax:
+    content: public class OfferCategoryCountrySelector
+- uid: com.microsoft.store.partnercenter.offers.OfferCountrySelector
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.OfferCountrySelector.yml
+  name: OfferCountrySelector
+  nameWithType: OfferCountrySelector
+  fullName: com.microsoft.store.partnercenter.offers.OfferCountrySelector
+  type: Class
+  syntax:
+    content: public class OfferCountrySelector
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry(String)
+  parent: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
+  href: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.yml
+  name: byCountry(String country)
+  nameWithType: ICountryValidationRulesCollection.byCountry(String country)
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry(String country)
+  type: Method
+  summary: "<p>Obtains behavior for a specific country's validation rules.</p>\r\n<p></p>"
+  syntax:
+    content: public ICountryValidationRules byCountry(String country)
+    parameters:
+    - id: country
+      type: "26831127"
+      description: <p>The country's ISO2 code. </p>
+    return:
+      type: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
+      description: <p>The country validation rules operations. </p>
+- uid: com.microsoft.store.partnercenter.offers.OfferCountrySelector.byCountry(String)
+  parent: com.microsoft.store.partnercenter.offers.OfferCountrySelector
+  href: com.microsoft.store.partnercenter.offers.OfferCountrySelector.yml
+  name: byCountry(String country)
+  nameWithType: OfferCountrySelector.byCountry(String country)
+  fullName: com.microsoft.store.partnercenter.offers.OfferCountrySelector.byCountry(String country)
+  type: Method
+  summary: "<p>Scopes offers behavior to a specific country. </p>"
+  syntax:
+    content: public IOfferCollection byCountry(String country)
+    parameters:
+    - id: country
+      type: "26831127"
+    return:
+      type: com.microsoft.store.partnercenter.offers.IOfferCollection
+- uid: com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector.byCountry(String)
+  parent: com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector
+  href: com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector.yml
+  name: byCountry(String country)
+  nameWithType: OfferCategoryCountrySelector.byCountry(String country)
+  fullName: com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector.byCountry(String country)
+  type: Method
+  summary: "<p>Scopes offers behavior to a specific country. </p>"
+  syntax:
+    content: public IOfferCategoryCollection byCountry(String country)
+    parameters:
+    - id: country
+      type: "26831127"
+    return:
+      type: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations.byCountry(String)
+  parent: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations
+  href: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations.yml
+  name: byCountry(String country)
+  nameWithType: CountryValidationRulesCollectionOperations.byCountry(String country)
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations.byCountry(String country)
+  type: Method
+  summary: "<p>Obtains a specific behavior for country validation rules.</p>\r\n<p></p>"
+  syntax:
+    content: public ICountryValidationRules byCountry(String country)
+    parameters:
+    - id: country
+      type: "26831127"
+      description: <p>The country </p>
+    return:
+      type: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
+      description: <p>The country validation rules operations </p>

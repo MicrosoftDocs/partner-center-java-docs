@@ -1,0 +1,316 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.profiles.BillingProfileOperations
+  id: BillingProfileOperations
+  parent: com.microsoft.store.partnercenter.profiles
+  children:
+  - com.microsoft.store.partnercenter.profiles.BillingProfileOperations.BillingProfileOperations(IPartner)
+  - com.microsoft.store.partnercenter.profiles.BillingProfileOperations.get()
+  - com.microsoft.store.partnercenter.profiles.BillingProfileOperations.update(BillingProfile)
+  href: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.yml
+  langs:
+  - java
+  name: BillingProfileOperations
+  nameWithType: BillingProfileOperations
+  fullName: com.microsoft.store.partnercenter.profiles.BillingProfileOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java
+    startLine: 17
+  package: com.microsoft.store.partnercenter.profiles
+  summary: "<p>The partner billing profile operations implementation. </p>"
+  syntax:
+    content: public class BillingProfileOperations extends BasePartnerComponentString implements IBillingProfile
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations.update(T)
+- uid: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.BillingProfileOperations(IPartner)
+  id: BillingProfileOperations(IPartner)
+  parent: com.microsoft.store.partnercenter.profiles.BillingProfileOperations
+  href: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.yml
+  langs:
+  - java
+  name: BillingProfileOperations(IPartner rootPartnerOperations)
+  nameWithType: BillingProfileOperations.BillingProfileOperations(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.BillingProfileOperations(IPartner rootPartnerOperations)
+  overload: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.BillingProfileOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java
+    startLine: 26
+  package: com.microsoft.store.partnercenter.profiles
+  summary: "<p>Initializes a new instance of the BillingProfileOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public BillingProfileOperations(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+- uid: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.profiles.BillingProfileOperations
+  href: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: BillingProfileOperations.get()
+  fullName: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.get()
+  overload: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java
+    startLine: 37
+  package: com.microsoft.store.partnercenter.profiles
+  summary: "<p>Retrieves the partner billing profile.</p>\r\n<p></p>"
+  syntax:
+    content: public BillingProfile get()
+    return:
+      type: com.microsoft.store.partnercenter.models.partners.BillingProfile
+      description: <p>The partner billing profile. </p>
+  overridden: com.microsoft.store.partnercenter.profiles.IBillingProfile.get()
+- uid: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.update(BillingProfile)
+  id: update(BillingProfile)
+  parent: com.microsoft.store.partnercenter.profiles.BillingProfileOperations
+  href: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.yml
+  langs:
+  - java
+  name: update(BillingProfile updatePayload)
+  nameWithType: BillingProfileOperations.update(BillingProfile updatePayload)
+  fullName: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.update(BillingProfile updatePayload)
+  overload: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.update*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java
+    startLine: 52
+  package: com.microsoft.store.partnercenter.profiles
+  summary: "<p>Updates the partner billing profile.</p>\r\n<p></p>"
+  syntax:
+    content: public BillingProfile update(BillingProfile updatePayload)
+    parameters:
+    - id: updatePayload
+      type: com.microsoft.store.partnercenter.models.partners.BillingProfile
+      description: <p>Payload of the update request. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.partners.BillingProfile
+      description: <p>Updated partner billing profile. </p>
+  overridden: com.microsoft.store.partnercenter.profiles.IBillingProfile.update(BillingProfile)
+references:
+- uid: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.BillingProfileOperations*
+  name: BillingProfileOperations
+  nameWithType: BillingProfileOperations.BillingProfileOperations
+  fullName: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.BillingProfileOperations
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.get*
+  name: get
+  nameWithType: BillingProfileOperations.get
+  fullName: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.get
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.update*
+  name: update
+  nameWithType: BillingProfileOperations.update
+  fullName: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.update
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: "26831127"
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations.update(T)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations.yml
+  name: update(T entity)
+  nameWithType: IEntityUpdateOperations<T>.update(T entity)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>.update(T entity)
+  type: Method
+  summary: "<p>Updates an entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T update(T entity)
+    parameters:
+    - id: entity
+      type: 8ce1ecb9
+      description: <p>The entity information. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>The updated entity. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. The context is string type by default. </p>"
+  syntax:
+    content: public class BasePartnerComponentString extends BasePartnerComponent<String>
+- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile
+  parent: com.microsoft.store.partnercenter.profiles
+  href: com.microsoft.store.partnercenter.profiles.IBillingProfile.yml
+  name: IBillingProfile
+  nameWithType: IBillingProfile
+  fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile
+  type: Interface
+  summary: "<p>Encapsulates behavior of a partner billing profile. </p>"
+  syntax:
+    content: public interface IBillingProfile
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.models.partners.BillingProfile
+  parent: com.microsoft.store.partnercenter.models.partners
+  href: com.microsoft.store.partnercenter.models.partners.BillingProfile.yml
+  name: BillingProfile
+  nameWithType: BillingProfile
+  fullName: com.microsoft.store.partnercenter.models.partners.BillingProfile
+  type: Class
+  summary: "<p>Represents a partner's billing profile. </p>"
+  syntax:
+    content: public class BillingProfile extends ResourceBaseWithLinks<StandardResourceLinks>
+- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile.get()
+  parent: com.microsoft.store.partnercenter.profiles.IBillingProfile
+  href: com.microsoft.store.partnercenter.profiles.IBillingProfile.yml
+  name: get()
+  nameWithType: IBillingProfile.get()
+  fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile.get()
+  type: Method
+  summary: "<p>Retrieves a partner's billing profile. </p>"
+  syntax:
+    content: public BillingProfile get()
+    return:
+      type: com.microsoft.store.partnercenter.models.partners.BillingProfile
+      description: <p>The billing profile. </p>
+- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile.update(BillingProfile)
+  parent: com.microsoft.store.partnercenter.profiles.IBillingProfile
+  href: com.microsoft.store.partnercenter.profiles.IBillingProfile.yml
+  name: update(BillingProfile billingProfile)
+  nameWithType: IBillingProfile.update(BillingProfile billingProfile)
+  fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile.update(BillingProfile billingProfile)
+  type: Method
+  summary: "<p>Updates the partner's billing profile. </p>"
+  syntax:
+    content: public BillingProfile update(BillingProfile billingProfile)
+    parameters:
+    - id: billingProfile
+      type: com.microsoft.store.partnercenter.models.partners.BillingProfile
+      description: <p>The billing profile information. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.partners.BillingProfile
+      description: <p>The updated billing profile. </p>

@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
+  id: ProvisioningStatus
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  children:
+  - com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.FAILED
+  - com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.NONE
+  - com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.PENDING
+  - com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.ProvisioningStatus(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.SUCCESS
+  - com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.toString()
+  href: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.yml
+  langs:
+  - java
+  name: ProvisioningStatus
+  nameWithType: ProvisioningStatus
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ProvisioningStatus.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ProvisioningStatus.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Lists the available status for a subscription provisioning status. </p>"
+  syntax:
+    content: public enum ProvisioningStatus
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<ProvisioningStatus>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.FAILED
+  id: FAILED
+  parent: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.yml
+  langs:
+  - java
+  name: FAILED
+  nameWithType: ProvisioningStatus.FAILED
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.FAILED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ProvisioningStatus.java
+    startLine: 33
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Failed. </p>"
+  syntax:
+    content: public FAILED=("failed")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: ProvisioningStatus.NONE
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ProvisioningStatus.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>None. </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.PENDING
+  id: PENDING
+  parent: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.yml
+  langs:
+  - java
+  name: PENDING
+  nameWithType: ProvisioningStatus.PENDING
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.PENDING
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ProvisioningStatus.java
+    startLine: 28
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Pending. </p>"
+  syntax:
+    content: public PENDING=("pending")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.ProvisioningStatus(String)
+  id: ProvisioningStatus(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.yml
+  langs:
+  - java
+  name: ProvisioningStatus(String value)
+  nameWithType: ProvisioningStatus.ProvisioningStatus(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.ProvisioningStatus(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.ProvisioningStatus*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ProvisioningStatus.java
+    startLine: 37
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public ProvisioningStatus(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.SUCCESS
+  id: SUCCESS
+  parent: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.yml
+  langs:
+  - java
+  name: SUCCESS
+  nameWithType: ProvisioningStatus.SUCCESS
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.SUCCESS
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ProvisioningStatus.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Success. </p>"
+  syntax:
+    content: public SUCCESS=("success")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: ProvisioningStatus.toString()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.toString()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ProvisioningStatus.java
+    startLine: 49
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.ProvisioningStatus*
+  name: ProvisioningStatus
+  nameWithType: ProvisioningStatus.ProvisioningStatus
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.ProvisioningStatus
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.toString*
+  name: toString
+  nameWithType: ProvisioningStatus.toString
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.toString
+  package: com.microsoft.store.partnercenter.models.subscriptions

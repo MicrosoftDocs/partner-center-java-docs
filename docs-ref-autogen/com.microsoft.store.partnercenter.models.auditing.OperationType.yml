@@ -1,0 +1,809 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType
+  id: OperationType
+  parent: com.microsoft.store.partnercenter.models.auditing
+  children:
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.ADD_APPLICATION_CREDENTIAL
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.ADD_CUSTOMER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.CONVERT_TRIAL_SUBSCRIPTION
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_CUSTOMER_USER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_MPN_ASSOCIATION
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_ORDER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_PARTNER_RELATIONSHIP
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_PARTNER_USER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_REFERRAL
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.DELETE_CUSTOMER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.DELETE_CUSTOMER_USER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.GET_SOFTWARE_DOWNLOAD_LINK
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.GET_SOFTWARE_KEY
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.INCREASE_CREDIT_LIMIT
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.OperationType(String)
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.READY_INVOICE
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.REGISTER_APPLICATION
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.REMOVE_APPLICATION_CREDENTIAL
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.REMOVE_PARTNER_CUSTOMER_RELATIONSHIP
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.REMOVE_PARTNER_USER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.RESET_CUSTOMER_USER_PASSWORD
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.RESTORE_CUSTOMER_USER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.toString()
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UNDEFINED
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UNREGISTER_APPLICATION
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_BILLING_PROFILE
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_QUALIFICATION
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_USER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_USER_LICENSES
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_USER_PRINCIPAL_NAME
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_MPN_ASSOCIATION
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_ORDER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_PARTNER_USER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_REFERRAL
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_SFB_CUSTOMER_USER_LICENSES
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_SUBSCRIPTION
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_TRANSFER
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATECUSTOMERPARTNERCONTRACTCOMPANYNAME
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATECUSTOMERSPENDINGBUDGET
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.UPGRADE_SUBSCRIPTION
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: OperationType
+  nameWithType: OperationType
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Enumeration to represent type of operation being performed. </p>"
+  syntax:
+    content: public enum OperationType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<OperationType>
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.ADD_APPLICATION_CREDENTIAL
+  id: ADD_APPLICATION_CREDENTIAL
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: ADD_APPLICATION_CREDENTIAL
+  nameWithType: OperationType.ADD_APPLICATION_CREDENTIAL
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.ADD_APPLICATION_CREDENTIAL
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 153
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>An application credential was added. </p>"
+  syntax:
+    content: public ADD_APPLICATION_CREDENTIAL=("add_application_credential")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.ADD_CUSTOMER
+  id: ADD_CUSTOMER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: ADD_CUSTOMER
+  nameWithType: OperationType.ADD_CUSTOMER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.ADD_CUSTOMER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 43
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Adding a Customer </p>"
+  syntax:
+    content: public ADD_CUSTOMER=("add_customer")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.CONVERT_TRIAL_SUBSCRIPTION
+  id: CONVERT_TRIAL_SUBSCRIPTION
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: CONVERT_TRIAL_SUBSCRIPTION
+  nameWithType: OperationType.CONVERT_TRIAL_SUBSCRIPTION
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.CONVERT_TRIAL_SUBSCRIPTION
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 38
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Convert a trial subscription to a paid one. </p>"
+  syntax:
+    content: public CONVERT_TRIAL_SUBSCRIPTION=("convert_trial_subscription")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_CUSTOMER_USER
+  id: CREATE_CUSTOMER_USER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: CREATE_CUSTOMER_USER
+  nameWithType: OperationType.CREATE_CUSTOMER_USER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_CUSTOMER_USER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 83
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Creates a customer user. </p>"
+  syntax:
+    content: public CREATE_CUSTOMER_USER=("create_customer_user")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_MPN_ASSOCIATION
+  id: CREATE_MPN_ASSOCIATION
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: CREATE_MPN_ASSOCIATION
+  nameWithType: OperationType.CREATE_MPN_ASSOCIATION
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_MPN_ASSOCIATION
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 118
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Create MPN association. </p>"
+  syntax:
+    content: public CREATE_MPN_ASSOCIATION=("create_mpn_association")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_ORDER
+  id: CREATE_ORDER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: CREATE_ORDER
+  nameWithType: OperationType.CREATE_ORDER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_ORDER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 73
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Create a new order. </p>"
+  syntax:
+    content: public CREATE_ORDER=("create_order")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_PARTNER_RELATIONSHIP
+  id: CREATE_PARTNER_RELATIONSHIP
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: CREATE_PARTNER_RELATIONSHIP
+  nameWithType: OperationType.CREATE_PARTNER_RELATIONSHIP
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_PARTNER_RELATIONSHIP
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 138
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Creates a partner relationship. </p>"
+  syntax:
+    content: public CREATE_PARTNER_RELATIONSHIP=("create_partner_relationship")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_PARTNER_USER
+  id: CREATE_PARTNER_USER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: CREATE_PARTNER_USER
+  nameWithType: OperationType.CREATE_PARTNER_USER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_PARTNER_USER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 163
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Creates a partner user. </p>"
+  syntax:
+    content: public CREATE_PARTNER_USER=("create_partner_user")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_REFERRAL
+  id: CREATE_REFERRAL
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: CREATE_REFERRAL
+  nameWithType: OperationType.CREATE_REFERRAL
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_REFERRAL
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 178
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>A referral was created. </p>"
+  syntax:
+    content: public CREATE_REFERRAL=("create_referral")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.DELETE_CUSTOMER
+  id: DELETE_CUSTOMER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: DELETE_CUSTOMER
+  nameWithType: OperationType.DELETE_CUSTOMER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.DELETE_CUSTOMER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 63
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Deleting a customer. This only happens in the sandbox integration accounts. </p>"
+  syntax:
+    content: public DELETE_CUSTOMER=("delete_customer")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.DELETE_CUSTOMER_USER
+  id: DELETE_CUSTOMER_USER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: DELETE_CUSTOMER_USER
+  nameWithType: OperationType.DELETE_CUSTOMER_USER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.DELETE_CUSTOMER_USER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 88
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Deletes a customer user. </p>"
+  syntax:
+    content: public DELETE_CUSTOMER_USER=("delete_customer_user")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.GET_SOFTWARE_DOWNLOAD_LINK
+  id: GET_SOFTWARE_DOWNLOAD_LINK
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: GET_SOFTWARE_DOWNLOAD_LINK
+  nameWithType: OperationType.GET_SOFTWARE_DOWNLOAD_LINK
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.GET_SOFTWARE_DOWNLOAD_LINK
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 193
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>A link to the software download was obtained. </p>"
+  syntax:
+    content: public GET_SOFTWARE_DOWNLOAD_LINK=("get_software_download_link")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.GET_SOFTWARE_KEY
+  id: GET_SOFTWARE_KEY
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: GET_SOFTWARE_KEY
+  nameWithType: OperationType.GET_SOFTWARE_KEY
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.GET_SOFTWARE_KEY
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 188
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>A software key was obtained. </p>"
+  syntax:
+    content: public GET_SOFTWARE_KEY=("get_software_key")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.INCREASE_CREDIT_LIMIT
+  id: INCREASE_CREDIT_LIMIT
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: INCREASE_CREDIT_LIMIT
+  nameWithType: OperationType.INCREASE_CREDIT_LIMIT
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.INCREASE_CREDIT_LIMIT
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 198
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>The credit limit for the partner was increased. </p>"
+  syntax:
+    content: public INCREASE_CREDIT_LIMIT=("increase_credit_limit")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.OperationType(String)
+  id: OperationType(String)
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: OperationType(String value)
+  nameWithType: OperationType.OperationType(String value)
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.OperationType(String value)
+  overload: com.microsoft.store.partnercenter.models.auditing.OperationType.OperationType*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 207
+  package: com.microsoft.store.partnercenter.models.auditing
+  syntax:
+    content: public OperationType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.READY_INVOICE
+  id: READY_INVOICE
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: READY_INVOICE
+  nameWithType: OperationType.READY_INVOICE
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.READY_INVOICE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 203
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>An invoice is ready. </p>"
+  syntax:
+    content: public READY_INVOICE=("ready_invoice")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.REGISTER_APPLICATION
+  id: REGISTER_APPLICATION
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: REGISTER_APPLICATION
+  nameWithType: OperationType.REGISTER_APPLICATION
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.REGISTER_APPLICATION
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 143
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Add and registers an application. </p>"
+  syntax:
+    content: public REGISTER_APPLICATION=("register_application")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.REMOVE_APPLICATION_CREDENTIAL
+  id: REMOVE_APPLICATION_CREDENTIAL
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: REMOVE_APPLICATION_CREDENTIAL
+  nameWithType: OperationType.REMOVE_APPLICATION_CREDENTIAL
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.REMOVE_APPLICATION_CREDENTIAL
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 158
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>An application credential was removed. </p>"
+  syntax:
+    content: public REMOVE_APPLICATION_CREDENTIAL=("remove_application_credential")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.REMOVE_PARTNER_CUSTOMER_RELATIONSHIP
+  id: REMOVE_PARTNER_CUSTOMER_RELATIONSHIP
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: REMOVE_PARTNER_CUSTOMER_RELATIONSHIP
+  nameWithType: OperationType.REMOVE_PARTNER_CUSTOMER_RELATIONSHIP
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.REMOVE_PARTNER_CUSTOMER_RELATIONSHIP
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 68
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Remove Partner Customer relationship. </p>"
+  syntax:
+    content: public REMOVE_PARTNER_CUSTOMER_RELATIONSHIP=("remove_partner_customer_relationship")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.REMOVE_PARTNER_USER
+  id: REMOVE_PARTNER_USER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: REMOVE_PARTNER_USER
+  nameWithType: OperationType.REMOVE_PARTNER_USER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.REMOVE_PARTNER_USER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 173
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Removes a partner user. </p>"
+  syntax:
+    content: public REMOVE_PARTNER_USER=("remove_partner_user")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.RESET_CUSTOMER_USER_PASSWORD
+  id: RESET_CUSTOMER_USER_PASSWORD
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: RESET_CUSTOMER_USER_PASSWORD
+  nameWithType: OperationType.RESET_CUSTOMER_USER_PASSWORD
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.RESET_CUSTOMER_USER_PASSWORD
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 103
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Reset customer user password. </p>"
+  syntax:
+    content: public RESET_CUSTOMER_USER_PASSWORD=("reset_customer_user_password")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.RESTORE_CUSTOMER_USER
+  id: RESTORE_CUSTOMER_USER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: RESTORE_CUSTOMER_USER
+  nameWithType: OperationType.RESTORE_CUSTOMER_USER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.RESTORE_CUSTOMER_USER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 113
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Restore customer user. </p>"
+  syntax:
+    content: public RESTORE_CUSTOMER_USER=("restore_customer_user")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: OperationType.toString()
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.toString()
+  overload: com.microsoft.store.partnercenter.models.auditing.OperationType.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 219
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UNDEFINED
+  id: UNDEFINED
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UNDEFINED
+  nameWithType: OperationType.UNDEFINED
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UNDEFINED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>The undefined </p>"
+  syntax:
+    content: public UNDEFINED=("undefined")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UNREGISTER_APPLICATION
+  id: UNREGISTER_APPLICATION
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UNREGISTER_APPLICATION
+  nameWithType: OperationType.UNREGISTER_APPLICATION
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UNREGISTER_APPLICATION
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 148
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Unregisters an application. </p>"
+  syntax:
+    content: public UNREGISTER_APPLICATION=("unregister_application")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_BILLING_PROFILE
+  id: UPDATE_CUSTOMER_BILLING_PROFILE
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_CUSTOMER_BILLING_PROFILE
+  nameWithType: OperationType.UPDATE_CUSTOMER_BILLING_PROFILE
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_BILLING_PROFILE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 48
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Update a Customer Billing Profile </p>"
+  syntax:
+    content: public UPDATE_CUSTOMER_BILLING_PROFILE=("update_customer_billing_profile")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_QUALIFICATION
+  id: UPDATE_CUSTOMER_QUALIFICATION
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_CUSTOMER_QUALIFICATION
+  nameWithType: OperationType.UPDATE_CUSTOMER_QUALIFICATION
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_QUALIFICATION
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Update Customer Qualification </p>"
+  syntax:
+    content: public UPDATE_CUSTOMER_QUALIFICATION=("update_customer_qualification")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_USER
+  id: UPDATE_CUSTOMER_USER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_CUSTOMER_USER
+  nameWithType: OperationType.UPDATE_CUSTOMER_USER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_USER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 93
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Updates a customer user. </p>"
+  syntax:
+    content: public UPDATE_CUSTOMER_USER=("update_customer_user")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_USER_LICENSES
+  id: UPDATE_CUSTOMER_USER_LICENSES
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_CUSTOMER_USER_LICENSES
+  nameWithType: OperationType.UPDATE_CUSTOMER_USER_LICENSES
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_USER_LICENSES
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 98
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Updates a customer user licenses. </p>"
+  syntax:
+    content: public UPDATE_CUSTOMER_USER_LICENSES=("update_customer_user_licenses")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_USER_PRINCIPAL_NAME
+  id: UPDATE_CUSTOMER_USER_PRINCIPAL_NAME
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_CUSTOMER_USER_PRINCIPAL_NAME
+  nameWithType: OperationType.UPDATE_CUSTOMER_USER_PRINCIPAL_NAME
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_CUSTOMER_USER_PRINCIPAL_NAME
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 108
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Update customer user UPN. </p>"
+  syntax:
+    content: public UPDATE_CUSTOMER_USER_PRINCIPAL_NAME=("update_customer_user_principal_name")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_MPN_ASSOCIATION
+  id: UPDATE_MPN_ASSOCIATION
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_MPN_ASSOCIATION
+  nameWithType: OperationType.UPDATE_MPN_ASSOCIATION
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_MPN_ASSOCIATION
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 123
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Update MPN association. </p>"
+  syntax:
+    content: public UPDATE_MPN_ASSOCIATION=("update_mpn_association")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_ORDER
+  id: UPDATE_ORDER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_ORDER
+  nameWithType: OperationType.UPDATE_ORDER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_ORDER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 78
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Updates an existing order. </p>"
+  syntax:
+    content: public UPDATE_ORDER=("update_order")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_PARTNER_USER
+  id: UPDATE_PARTNER_USER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_PARTNER_USER
+  nameWithType: OperationType.UPDATE_PARTNER_USER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_PARTNER_USER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 168
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Updates a partner user. </p>"
+  syntax:
+    content: public UPDATE_PARTNER_USER=("update_partner_user")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_REFERRAL
+  id: UPDATE_REFERRAL
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_REFERRAL
+  nameWithType: OperationType.UPDATE_REFERRAL
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_REFERRAL
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 183
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>A referral was updated. </p>"
+  syntax:
+    content: public UPDATE_REFERRAL=("update_referral")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_SFB_CUSTOMER_USER_LICENSES
+  id: UPDATE_SFB_CUSTOMER_USER_LICENSES
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_SFB_CUSTOMER_USER_LICENSES
+  nameWithType: OperationType.UPDATE_SFB_CUSTOMER_USER_LICENSES
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_SFB_CUSTOMER_USER_LICENSES
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 128
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Updates a Sfb customer user licenses. </p>"
+  syntax:
+    content: public UPDATE_SFB_CUSTOMER_USER_LICENSES=("update_sfb_customer_user_licenses")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_SUBSCRIPTION
+  id: UPDATE_SUBSCRIPTION
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_SUBSCRIPTION
+  nameWithType: OperationType.UPDATE_SUBSCRIPTION
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_SUBSCRIPTION
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 28
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Updates an existing subscription. </p>"
+  syntax:
+    content: public UPDATE_SUBSCRIPTION=("update_subscription")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_TRANSFER
+  id: UPDATE_TRANSFER
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATE_TRANSFER
+  nameWithType: OperationType.UPDATE_TRANSFER
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATE_TRANSFER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 133
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Update transfer. </p>"
+  syntax:
+    content: public UPDATE_TRANSFER=("update_transfer")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATECUSTOMERPARTNERCONTRACTCOMPANYNAME
+  id: UPDATECUSTOMERPARTNERCONTRACTCOMPANYNAME
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATECUSTOMERPARTNERCONTRACTCOMPANYNAME
+  nameWithType: OperationType.UPDATECUSTOMERPARTNERCONTRACTCOMPANYNAME
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATECUSTOMERPARTNERCONTRACTCOMPANYNAME
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 53
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Update a Customer's Partner Contract Company Name </p>"
+  syntax:
+    content: public UPDATECUSTOMERPARTNERCONTRACTCOMPANYNAME=("update_customer_partner_contract_company_Name")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATECUSTOMERSPENDINGBUDGET
+  id: UPDATECUSTOMERSPENDINGBUDGET
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPDATECUSTOMERSPENDINGBUDGET
+  nameWithType: OperationType.UPDATECUSTOMERSPENDINGBUDGET
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPDATECUSTOMERSPENDINGBUDGET
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 58
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Updates a customer spending budget. </p>"
+  syntax:
+    content: public UPDATECUSTOMERSPENDINGBUDGET=("update_Customer_spending_budget")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.UPGRADE_SUBSCRIPTION
+  id: UPGRADE_SUBSCRIPTION
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: UPGRADE_SUBSCRIPTION
+  nameWithType: OperationType.UPGRADE_SUBSCRIPTION
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.UPGRADE_SUBSCRIPTION
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 33
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>Transition a subscription. </p>"
+  syntax:
+    content: public UPGRADE_SUBSCRIPTION=("upgrade_subscription")
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.OperationType*
+  name: OperationType
+  nameWithType: OperationType.OperationType
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.OperationType
+  package: com.microsoft.store.partnercenter.models.auditing
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.toString*
+  name: toString
+  nameWithType: OperationType.toString
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.toString
+  package: com.microsoft.store.partnercenter.models.auditing

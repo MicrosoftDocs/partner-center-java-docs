@@ -1,0 +1,327 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection
+  id: IOfferCollection
+  parent: com.microsoft.store.partnercenter.offers
+  children:
+  - com.microsoft.store.partnercenter.offers.IOfferCollection.byCategory(String)
+  - com.microsoft.store.partnercenter.offers.IOfferCollection.byId(String)
+  - com.microsoft.store.partnercenter.offers.IOfferCollection.get()
+  - com.microsoft.store.partnercenter.offers.IOfferCollection.get(int,int)
+  href: com.microsoft.store.partnercenter.offers.IOfferCollection.yml
+  langs:
+  - java
+  name: IOfferCollection
+  nameWithType: IOfferCollection
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCollection
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/offers/IOfferCollection.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/offers/IOfferCollection.java
+    startLine: 15
+  package: com.microsoft.store.partnercenter.offers
+  summary: "<p>Encapsulates the basic offers behavior. </p>"
+  syntax:
+    content: public interface IOfferCollection extends IPartnerComponentString
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection.byCategory(String)
+  id: byCategory(String)
+  parent: com.microsoft.store.partnercenter.offers.IOfferCollection
+  href: com.microsoft.store.partnercenter.offers.IOfferCollection.yml
+  langs:
+  - java
+  name: byCategory(String categoryId)
+  nameWithType: IOfferCollection.byCategory(String categoryId)
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCollection.byCategory(String categoryId)
+  overload: com.microsoft.store.partnercenter.offers.IOfferCollection.byCategory*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/offers/IOfferCollection.java
+    startLine: 50
+  package: com.microsoft.store.partnercenter.offers
+  summary: "<p>Retrieves the operations that can be applied on offers that belong to an offer category.</p>\r\n<p></p>"
+  syntax:
+    content: public ICategoryOffersCollection byCategory(String categoryId)
+    parameters:
+    - id: categoryId
+      type: "26831127"
+      description: <p>The offer category identifier.</p>
+    return:
+      type: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
+      description: <p>The category offers operations. </p>
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection.byId(String)
+  id: byId(String)
+  parent: com.microsoft.store.partnercenter.offers.IOfferCollection
+  href: com.microsoft.store.partnercenter.offers.IOfferCollection.yml
+  langs:
+  - java
+  name: byId(String offerId)
+  nameWithType: IOfferCollection.byId(String offerId)
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCollection.byId(String offerId)
+  overload: com.microsoft.store.partnercenter.offers.IOfferCollection.byId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/offers/IOfferCollection.java
+    startLine: 25
+  package: com.microsoft.store.partnercenter.offers
+  summary: "<p>Retrieves the operations tied with a specific offer.</p>\r\n<p></p>"
+  syntax:
+    content: public IOffer byId(String offerId)
+    parameters:
+    - id: offerId
+      type: "26831127"
+      description: <p>The offer id. </p>
+    return:
+      type: com.microsoft.store.partnercenter.offers.IOffer
+      description: <p>The offer operations. </p>
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.offers.IOfferCollection
+  href: com.microsoft.store.partnercenter.offers.IOfferCollection.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: IOfferCollection.get()
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCollection.get()
+  overload: com.microsoft.store.partnercenter.offers.IOfferCollection.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/offers/IOfferCollection.java
+    startLine: 32
+  package: com.microsoft.store.partnercenter.offers
+  summary: "<p>Retrieves all the offers for the provided country.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Offer> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.offers.Offera08ddfce
+      description: <p>The offers for the provided country. </p>
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection.get(int,int)
+  id: get(int,int)
+  parent: com.microsoft.store.partnercenter.offers.IOfferCollection
+  href: com.microsoft.store.partnercenter.offers.IOfferCollection.yml
+  langs:
+  - java
+  name: get(int offset, int size)
+  nameWithType: IOfferCollection.get(int offset, int size)
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCollection.get(int offset, int size)
+  overload: com.microsoft.store.partnercenter.offers.IOfferCollection.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/offers/IOfferCollection.java
+    startLine: 41
+  package: com.microsoft.store.partnercenter.offers
+  summary: "<p>Retrieves all the offers for the provided country.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Offer> get(int offset, int size)
+    parameters:
+    - id: offset
+      type: f75371fa
+      description: <p>The starting index </p>
+    - id: size
+      type: f75371fa
+      description: <p>The maximum number of offers to return. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.offers.Offera08ddfce
+      description: <p>The requested segment of the offers for the given country. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection.byId*
+  name: byId
+  nameWithType: IOfferCollection.byId
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCollection.byId
+  package: com.microsoft.store.partnercenter.offers
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.offers.Offera08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.offers.Offer
+    name: Offer
+    fullName: com.microsoft.store.partnercenter.models.offers.Offer
+    href: com.microsoft.store.partnercenter.models.offers.Offer.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection.get*
+  name: get
+  nameWithType: IOfferCollection.get
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCollection.get
+  package: com.microsoft.store.partnercenter.offers
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection.byCategory*
+  name: byCategory
+  nameWithType: IOfferCollection.byCategory
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCollection.byCategory
+  package: com.microsoft.store.partnercenter.offers
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponentString.yml
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+  type: Interface
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.offers.OfferCollectionOperations
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.yml
+  name: OfferCollectionOperations
+  nameWithType: OfferCollectionOperations
+  fullName: com.microsoft.store.partnercenter.offers.OfferCollectionOperations
+  type: Class
+  summary: "<p>Offer Collection operations implementation. </p>"
+  syntax:
+    content: public class OfferCollectionOperations
+- uid: com.microsoft.store.partnercenter.offers.IOffer
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.IOffer.yml
+  name: IOffer
+  nameWithType: IOffer
+  fullName: com.microsoft.store.partnercenter.offers.IOffer
+  type: Interface
+  summary: "<p>Holds operations that can be performed on a single offer. </p>"
+  syntax:
+    content: public interface IOffer extends IPartnerComponent<Tuple<String, String>>
+- uid: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.byId(String)
+  parent: com.microsoft.store.partnercenter.offers.OfferCollectionOperations
+  href: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.yml
+  name: byId(String offerId)
+  nameWithType: OfferCollectionOperations.byId(String offerId)
+  fullName: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.byId(String offerId)
+  type: Method
+  summary: "<p>Retrieves the operations tied with a specific offer.</p>\r\n<p></p>"
+  syntax:
+    content: public IOffer byId(String offerId)
+    parameters:
+    - id: offerId
+      type: "26831127"
+      description: <p>The offer id. </p>
+    return:
+      type: com.microsoft.store.partnercenter.offers.IOffer
+      description: <p>The offer operations. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.models.offers.Offer
+  parent: com.microsoft.store.partnercenter.models.offers
+  href: com.microsoft.store.partnercenter.models.offers.Offer.yml
+  name: Offer
+  nameWithType: Offer
+  fullName: com.microsoft.store.partnercenter.models.offers.Offer
+  type: Class
+  summary: "<p>Represents a form of product availability to customer </p>"
+  syntax:
+    content: public class Offer
+- uid: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.offers.OfferCollectionOperations
+  href: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.yml
+  name: get()
+  nameWithType: OfferCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the offers for the provided country.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Offer> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.offers.Offera08ddfce
+      description: <p>All offers for the provided country. </p>
+- uid: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.get(int,int)
+  parent: com.microsoft.store.partnercenter.offers.OfferCollectionOperations
+  href: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.yml
+  name: get(int offset, int size)
+  nameWithType: OfferCollectionOperations.get(int offset, int size)
+  fullName: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.get(int offset, int size)
+  type: Method
+  summary: "<p>Retrieves all the offers for the provided country.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Offer> get(int offset, int size)
+    parameters:
+    - id: offset
+      type: f75371fa
+      description: <p>The starting index. </p>
+    - id: size
+      type: f75371fa
+      description: <p>The maximum number of offers to return. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.offers.Offera08ddfce
+      description: <p>All offers for the provided country. </p>
+- uid: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.yml
+  name: ICategoryOffersCollection
+  nameWithType: ICategoryOffersCollection
+  fullName: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
+  type: Interface
+  syntax:
+    content: public interface ICategoryOffersCollection extends IPartnerComponent<Tuple<String, String>>,IEntityCollectionRetrievalOperations<Offer, ResourceCollection<Offer>>
+- uid: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.byCategory(String)
+  parent: com.microsoft.store.partnercenter.offers.OfferCollectionOperations
+  href: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.yml
+  name: byCategory(String categoryId)
+  nameWithType: OfferCollectionOperations.byCategory(String categoryId)
+  fullName: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.byCategory(String categoryId)
+  type: Method
+  summary: "<p>Retrieves the operations that can be applied on offers the belong to an offer category. </p>"
+  syntax:
+    content: public ICategoryOffersCollection byCategory(String categoryId)
+    parameters:
+    - id: categoryId
+      type: "26831127"
+      description: <p>The offer category Id. </p>
+    return:
+      type: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
+      description: <p>The category offers operations. </p>

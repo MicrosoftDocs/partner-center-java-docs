@@ -3,11 +3,14 @@ items:
 - uid: com.microsoft.store.partnercenter.models.orders
   id: orders
   children:
-  - com.microsoft.store.partnercenter.models.orders._order
-  - com.microsoft.store.partnercenter.models.orders._order_line_item
-  - com.microsoft.store.partnercenter.models.orders._order_line_item_links
-  - com.microsoft.store.partnercenter.models.orders._order_links
-  - com.microsoft.store.partnercenter.models.orders._quantity_provisioning_status
+  - com.microsoft.store.partnercenter.models.orders.Order
+  - com.microsoft.store.partnercenter.models.orders.OrderLineItem
+  - com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
+  - com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks
+  - com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus
+  - com.microsoft.store.partnercenter.models.orders.OrderLinks
+  - com.microsoft.store.partnercenter.models.orders.Pricing
+  - com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus
   href: com.microsoft.store.partnercenter.models.orders.yml
   langs:
   - java
@@ -25,53 +28,83 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.orders
 references:
-- uid: com.microsoft.store.partnercenter.models.orders._order
+- uid: com.microsoft.store.partnercenter.models.orders.Order
   parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders._order.yml
+  href: com.microsoft.store.partnercenter.models.orders.Order.yml
   name: Order
   nameWithType: Order
   fullName: com.microsoft.store.partnercenter.models.orders.Order
   type: Class
-  summary: <p>Order represents collection of information needed to purchase offers represented by each order line items. </p>
+  summary: "<p>Order represents collection of information needed to purchase offers represented by each order line items. </p>"
   syntax:
     content: public class Order extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.orders._order_line_item
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem
   parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders._order_line_item.yml
+  href: com.microsoft.store.partnercenter.models.orders.OrderLineItem.yml
   name: OrderLineItem
   nameWithType: OrderLineItem
   fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem
   type: Class
-  summary: <p>Order line item associates order information to a specific offer of a product </p>
+  summary: "<p>Order line item associates order information to a specific offer of a product </p>"
   syntax:
     content: public class OrderLineItem extends ResourceBaseWithLinks<OrderLineItemLinks>
-- uid: com.microsoft.store.partnercenter.models.orders._order_line_item_links
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
   parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders._order_line_item_links.yml
+  href: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.yml
+  name: OrderLineItemActivationLink
+  nameWithType: OrderLineItemActivationLink
+  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
+  type: Class
+  summary: "<p>Represents the activation link for the order line item. </p>"
+  syntax:
+    content: public class OrderLineItemActivationLink
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks
+  parent: com.microsoft.store.partnercenter.models.orders
+  href: com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks.yml
   name: OrderLineItemLinks
   nameWithType: OrderLineItemLinks
   fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks
   type: Class
-  summary: <p>Bundles the links for an order line item. </p>
+  summary: "<p>Bundles the links for an order line item. </p>"
   syntax:
     content: public class OrderLineItemLinks
-- uid: com.microsoft.store.partnercenter.models.orders._order_links
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus
   parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders._order_links.yml
+  href: com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus.yml
+  name: OrderLineItemProvisioningStatus
+  nameWithType: OrderLineItemProvisioningStatus
+  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus
+  type: Class
+  summary: "<p>Represents the order line item provisioning status. </p>"
+  syntax:
+    content: public class OrderLineItemProvisioningStatus extends ResourceBase
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLinks
+  parent: com.microsoft.store.partnercenter.models.orders
+  href: com.microsoft.store.partnercenter.models.orders.OrderLinks.yml
   name: OrderLinks
   nameWithType: OrderLinks
   fullName: com.microsoft.store.partnercenter.models.orders.OrderLinks
   type: Class
-  summary: <p>Bundles offer links. </p>
+  summary: "<p>Bundles offer links. </p>"
   syntax:
     content: public class OrderLinks extends StandardResourceLinks
-- uid: com.microsoft.store.partnercenter.models.orders._quantity_provisioning_status
+- uid: com.microsoft.store.partnercenter.models.orders.Pricing
   parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders._quantity_provisioning_status.yml
+  href: com.microsoft.store.partnercenter.models.orders.Pricing.yml
+  name: Pricing
+  nameWithType: Pricing
+  fullName: com.microsoft.store.partnercenter.models.orders.Pricing
+  type: Class
+  summary: "<p>Represents the pricing details for a line item. </p>"
+  syntax:
+    content: public class Pricing
+- uid: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus
+  parent: com.microsoft.store.partnercenter.models.orders
+  href: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.yml
   name: QuantityProvisioningStatus
   nameWithType: QuantityProvisioningStatus
   fullName: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus
   type: Class
-  summary: <p>Quantity Provisioning Status. </p>
+  summary: "<p>Quantity Provisioning Status. </p>"
   syntax:
     content: public class QuantityProvisioningStatus extends ResourceBase

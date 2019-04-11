@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  id: BillingCycleType
+  parent: com.microsoft.store.partnercenter.models.offers
+  children:
+  - com.microsoft.store.partnercenter.models.offers.BillingCycleType.ANNUAL
+  - com.microsoft.store.partnercenter.models.offers.BillingCycleType.BillingCycleType(String)
+  - com.microsoft.store.partnercenter.models.offers.BillingCycleType.MONTHLY
+  - com.microsoft.store.partnercenter.models.offers.BillingCycleType.NONE
+  - com.microsoft.store.partnercenter.models.offers.BillingCycleType.ONE_TIME
+  - com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString()
+  - com.microsoft.store.partnercenter.models.offers.BillingCycleType.UNKNOWN
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
+  langs:
+  - java
+  name: BillingCycleType
+  nameWithType: BillingCycleType
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/offers/BillingCycleType.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/offers/BillingCycleType.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.offers
+  summary: "<p>The way billing is processed for a subscription. </p>"
+  syntax:
+    content: public enum BillingCycleType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<BillingCycleType>
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType.ANNUAL
+  id: ANNUAL
+  parent: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
+  langs:
+  - java
+  name: ANNUAL
+  nameWithType: BillingCycleType.ANNUAL
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType.ANNUAL
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/offers/BillingCycleType.java
+    startLine: 28
+  package: com.microsoft.store.partnercenter.models.offers
+  summary: "<p>Indicates that the partner will be charged annually for the subscription. </p>"
+  syntax:
+    content: public ANNUAL=("annual")
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType.BillingCycleType(String)
+  id: BillingCycleType(String)
+  parent: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
+  langs:
+  - java
+  name: BillingCycleType(String value)
+  nameWithType: BillingCycleType.BillingCycleType(String value)
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType.BillingCycleType(String value)
+  overload: com.microsoft.store.partnercenter.models.offers.BillingCycleType.BillingCycleType*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/offers/BillingCycleType.java
+    startLine: 43
+  package: com.microsoft.store.partnercenter.models.offers
+  syntax:
+    content: public BillingCycleType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType.MONTHLY
+  id: MONTHLY
+  parent: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
+  langs:
+  - java
+  name: MONTHLY
+  nameWithType: BillingCycleType.MONTHLY
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType.MONTHLY
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/offers/BillingCycleType.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.models.offers
+  summary: "<p>Indicates that the partner will be charged monthly for the subscription </p>"
+  syntax:
+    content: public MONTHLY=("monthly")
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: BillingCycleType.NONE
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/offers/BillingCycleType.java
+    startLine: 33
+  package: com.microsoft.store.partnercenter.models.offers
+  summary: "<p>Indicates that the partner will be charged annually for the subscription. </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType.ONE_TIME
+  id: ONE_TIME
+  parent: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
+  langs:
+  - java
+  name: ONE_TIME
+  nameWithType: BillingCycleType.ONE_TIME
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType.ONE_TIME
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/offers/BillingCycleType.java
+    startLine: 39
+  package: com.microsoft.store.partnercenter.models.offers
+  summary: "<p>Indicates that the partner will be charged one-time This value does not apply to all products. </p>"
+  syntax:
+    content: public ONE_TIME=("one_time")
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: BillingCycleType.toString()
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString()
+  overload: com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/offers/BillingCycleType.java
+    startLine: 55
+  package: com.microsoft.store.partnercenter.models.offers
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType.UNKNOWN
+  id: UNKNOWN
+  parent: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
+  langs:
+  - java
+  name: UNKNOWN
+  nameWithType: BillingCycleType.UNKNOWN
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType.UNKNOWN
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/offers/BillingCycleType.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.models.offers
+  summary: "<p>Enum initializer </p>"
+  syntax:
+    content: public UNKNOWN=("unknown")
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType.BillingCycleType*
+  name: BillingCycleType
+  nameWithType: BillingCycleType.BillingCycleType
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType.BillingCycleType
+  package: com.microsoft.store.partnercenter.models.offers
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString*
+  name: toString
+  nameWithType: BillingCycleType.toString
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString
+  package: com.microsoft.store.partnercenter.models.offers

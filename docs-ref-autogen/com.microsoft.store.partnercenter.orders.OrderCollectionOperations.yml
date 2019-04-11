@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
+  id: OrderCollectionOperations
+  parent: com.microsoft.store.partnercenter.orders
+  children:
+  - com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byBillingCycleType(BillingCycleType)
+  - com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byId(String)
+  - com.microsoft.store.partnercenter.orders.OrderCollectionOperations.create(Order)
+  - com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get()
+  - com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get(Boolean)
+  - com.microsoft.store.partnercenter.orders.OrderCollectionOperations.OrderCollectionOperations(IPartner,String)
+  href: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.yml
+  langs:
+  - java
+  name: OrderCollectionOperations
+  nameWithType: OrderCollectionOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
+    startLine: 25
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Order collection operations implementation class. </p>"
+  syntax:
+    content: public class OrderCollectionOperations extends BasePartnerComponentString implements IOrderCollection
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)
+  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byBillingCycleType(BillingCycleType)
+  id: byBillingCycleType(BillingCycleType)
+  parent: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
+  href: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.yml
+  langs:
+  - java
+  name: byBillingCycleType(BillingCycleType billingCycleType)
+  nameWithType: OrderCollectionOperations.byBillingCycleType(BillingCycleType billingCycleType)
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byBillingCycleType(BillingCycleType billingCycleType)
+  overload: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byBillingCycleType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
+    startLine: 51
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Gets the order collection behavior given a billing cycle type.</p>\r\n<p></p>"
+  syntax:
+    content: public IOrderCollectionByBillingCycleType byBillingCycleType(BillingCycleType billingCycleType)
+    parameters:
+    - id: billingCycleType
+      type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+      description: <p>The billing cycle type. </p>
+    return:
+      type: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
+      description: <p>The order collection by billing cycle type. </p>
+  overridden: com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(BillingCycleType)
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byId(String)
+  id: byId(String)
+  parent: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
+  href: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.yml
+  langs:
+  - java
+  name: byId(String orderId)
+  nameWithType: OrderCollectionOperations.byId(String orderId)
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byId(String orderId)
+  overload: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
+    startLine: 66
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Get the order operations for the specified order.</p>\r\n<p></p>"
+  syntax:
+    content: public IOrder byId(String orderId)
+    parameters:
+    - id: orderId
+      type: "26831127"
+      description: <p>The order identifier. </p>
+    return:
+      type: com.microsoft.store.partnercenter.orders.IOrder
+      description: <p>The order operations. </p>
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.create(Order)
+  id: create(Order)
+  parent: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
+  href: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.yml
+  langs:
+  - java
+  name: create(Order newOrder)
+  nameWithType: OrderCollectionOperations.create(Order newOrder)
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.create(Order newOrder)
+  overload: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.create*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
+    startLine: 78
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Places a new order for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public Order create(Order newOrder)
+    parameters:
+    - id: newOrder
+      type: com.microsoft.store.partnercenter.models.orders.Order
+      description: <p>The new order. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.orders.Order
+      description: <p>The newly created order. </p>
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
+  href: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: OrderCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get()
+  overload: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
+    startLine: 100
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Retrieves all the orders the customer made.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Order> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.orders.Ordera08ddfce
+      description: <p>All the customer orders. </p>
+  overridden: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get(Boolean)
+  id: get(Boolean)
+  parent: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
+  href: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.yml
+  langs:
+  - java
+  name: get(Boolean includePrice)
+  nameWithType: OrderCollectionOperations.get(Boolean includePrice)
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get(Boolean includePrice)
+  overload: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
+    startLine: 111
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Gets a collection of orders.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Order> get(Boolean includePrice)
+    parameters:
+    - id: includePrice
+      type: 866c2227
+      description: <p>A flag indicating whether to include pricing details in the order information or not. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.orders.Ordera08ddfce
+      description: <p>The collection of orders including pricing details (based on access permissions) when requested. </p>
+  overridden: com.microsoft.store.partnercenter.orders.IOrderCollection.get(Boolean)
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.OrderCollectionOperations(IPartner,String)
+  id: OrderCollectionOperations(IPartner,String)
+  parent: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
+  href: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.yml
+  langs:
+  - java
+  name: OrderCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  nameWithType: OrderCollectionOperations.OrderCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.OrderCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  overload: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.OrderCollectionOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
+    startLine: 35
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Initializes a new instance of the OrderCollectionOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public OrderCollectionOperations(IPartner rootPartnerOperations, String customerId)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+    - id: customerId
+      type: "26831127"
+      description: <p>The customer tenant identifier. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.OrderCollectionOperations*
+  name: OrderCollectionOperations
+  nameWithType: OrderCollectionOperations.OrderCollectionOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.OrderCollectionOperations
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byBillingCycleType*
+  name: byBillingCycleType
+  nameWithType: OrderCollectionOperations.byBillingCycleType
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byBillingCycleType
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byId*
+  name: byId
+  nameWithType: OrderCollectionOperations.byId
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byId
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.create*
+  name: create
+  nameWithType: OrderCollectionOperations.create
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.create
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.orders.Ordera08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.orders.Order
+    name: Order
+    fullName: com.microsoft.store.partnercenter.models.orders.Order
+    href: com.microsoft.store.partnercenter.models.orders.Order.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get*
+  name: get
+  nameWithType: OrderCollectionOperations.get
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get
+  package: com.microsoft.store.partnercenter.orders
+- uid: 866c2227
+  spec.java:
+  - name: Boolean
+    fullName: Boolean
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: "26831127"
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
+  href: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.yml
+  name: byId(TTYpe id)
+  nameWithType: IEntitySelector<TTYpe,TEntity>.byId(TTYpe id)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe, TEntity>.byId(TTYpe id)
+  type: Method
+  summary: "<p>Retrieves the behavior for an entity using the entity's identifier. </p>"
+  syntax:
+    content: public TEntity byId(TTYpe id)
+    parameters:
+    - id: id
+      type: b03fbe7f
+      description: <p>The entity's identifier. </p>
+    return:
+      type: 830f062c
+      description: <p>The entity's behavior. </p>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.yml
+  name: create(T newEntity)
+  nameWithType: IEntityCreateOperations<T,T1>.create(T newEntity)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T, T1>.create(T newEntity)
+  type: Method
+  summary: "<p>Creates a new entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T1 create(T newEntity)
+    parameters:
+    - id: newEntity
+      type: 8ce1ecb9
+      description: <p>The new entity information. </p>
+    return:
+      type: ea9d49ce
+      description: <p>The entity information that was just created. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. The context is string type by default. </p>"
+  syntax:
+    content: public class BasePartnerComponentString extends BasePartnerComponent<String>
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollection
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderCollection.yml
+  name: IOrderCollection
+  nameWithType: IOrderCollection
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection
+  type: Interface
+  summary: "<p>Encapsulates customer orders behavior. </p>"
+  syntax:
+    content: public interface IOrderCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Order, ResourceCollection<Order>>,IEntityCreateOperations<Order, Order>,IEntitySelector<String, IOrder>
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType.yml
+  name: IOrderCollectionByBillingCycleType
+  nameWithType: IOrderCollectionByBillingCycleType
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
+  type: Interface
+  summary: "<p>Holds operations that can be performed on orders given a billing cycle type. </p>"
+  syntax:
+    content: public interface IOrderCollectionByBillingCycleType extends IPartnerComponent<Tuple<String, BillingCycleType>>,IEntireEntityCollectionRetrievalOperations<Order, ResourceCollection<Order>>
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(BillingCycleType)
+  parent: com.microsoft.store.partnercenter.orders.IOrderCollection
+  href: com.microsoft.store.partnercenter.orders.IOrderCollection.yml
+  name: byBillingCycleType(BillingCycleType billingCycleType)
+  nameWithType: IOrderCollection.byBillingCycleType(BillingCycleType billingCycleType)
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(BillingCycleType billingCycleType)
+  type: Method
+  summary: "<p>Gets the order collection behavior given a billing cycle type.</p>\r\n<p></p>"
+  syntax:
+    content: public IOrderCollectionByBillingCycleType byBillingCycleType(BillingCycleType billingCycleType)
+    parameters:
+    - id: billingCycleType
+      type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+      description: <p>The billing cycle type. </p>
+    return:
+      type: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
+      description: <p>The order collection by billing cycle type. </p>
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  parent: com.microsoft.store.partnercenter.models.offers
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
+  name: BillingCycleType
+  nameWithType: BillingCycleType
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  type: Enum
+  summary: "<p>The way billing is processed for a subscription. </p>"
+  syntax:
+    content: public enum BillingCycleType
+- uid: com.microsoft.store.partnercenter.orders.IOrder
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrder.yml
+  name: IOrder
+  nameWithType: IOrder
+  fullName: com.microsoft.store.partnercenter.orders.IOrder
+  type: Interface
+  summary: "<p>Encapsulates a customer order behavior. </p>"
+  syntax:
+    content: public interface IOrder extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<Order>,IEntityPatchOperations<Order>
+- uid: com.microsoft.store.partnercenter.models.orders.Order
+  parent: com.microsoft.store.partnercenter.models.orders
+  href: com.microsoft.store.partnercenter.models.orders.Order.yml
+  name: Order
+  nameWithType: Order
+  fullName: com.microsoft.store.partnercenter.models.orders.Order
+  type: Class
+  summary: "<p>Order represents collection of information needed to purchase offers represented by each order line items. </p>"
+  syntax:
+    content: public class Order extends ResourceBaseWithLinks<StandardResourceLinks>
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: get()
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T, TResourceCollection extends ResourceCollection<T>.get()
+  type: Method
+  summary: "<p>Retrieves all entities.</p>\r\n<p></p>"
+  syntax:
+    content: public TResourceCollection get()
+    return:
+      type: 5f968003
+      description: <p>The entities. </p>
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollection.get(Boolean)
+  parent: com.microsoft.store.partnercenter.orders.IOrderCollection
+  href: com.microsoft.store.partnercenter.orders.IOrderCollection.yml
+  name: get(Boolean includePrice)
+  nameWithType: IOrderCollection.get(Boolean includePrice)
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection.get(Boolean includePrice)
+  type: Method
+  summary: "<p>Gets a collection of orders.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Order> get(Boolean includePrice)
+    parameters:
+    - id: includePrice
+      type: 866c2227
+      description: <p>A flag indicating whether to include pricing details in the order information or not. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.orders.Ordera08ddfce
+      description: <p>The collection of orders including pricing details (based on access permissions) when requested. </p>

@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.partners.VettingVersion
+  id: VettingVersion
+  parent: com.microsoft.store.partnercenter.models.partners
+  children:
+  - com.microsoft.store.partnercenter.models.partners.VettingVersion.CURRENT
+  - com.microsoft.store.partnercenter.models.partners.VettingVersion.LAST_FINALIZED
+  - com.microsoft.store.partnercenter.models.partners.VettingVersion.NONE
+  - com.microsoft.store.partnercenter.models.partners.VettingVersion.toString()
+  - com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion(String)
+  href: com.microsoft.store.partnercenter.models.partners.VettingVersion.yml
+  langs:
+  - java
+  name: VettingVersion
+  nameWithType: VettingVersion
+  fullName: com.microsoft.store.partnercenter.models.partners.VettingVersion
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/partners/VettingVersion.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/partners/VettingVersion.java
+    startLine: 10
+  package: com.microsoft.store.partnercenter.models.partners
+  syntax:
+    content: public enum VettingVersion
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<VettingVersion>
+- uid: com.microsoft.store.partnercenter.models.partners.VettingVersion.CURRENT
+  id: CURRENT
+  parent: com.microsoft.store.partnercenter.models.partners.VettingVersion
+  href: com.microsoft.store.partnercenter.models.partners.VettingVersion.yml
+  langs:
+  - java
+  name: CURRENT
+  nameWithType: VettingVersion.CURRENT
+  fullName: com.microsoft.store.partnercenter.models.partners.VettingVersion.CURRENT
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/partners/VettingVersion.java
+    startLine: 21
+  package: com.microsoft.store.partnercenter.models.partners
+  summary: "<p>Latest vetting information: Will always get the latest vetting information no matter if it is vetted or not </p>"
+  syntax:
+    content: public CURRENT=("current")
+- uid: com.microsoft.store.partnercenter.models.partners.VettingVersion.LAST_FINALIZED
+  id: LAST_FINALIZED
+  parent: com.microsoft.store.partnercenter.models.partners.VettingVersion
+  href: com.microsoft.store.partnercenter.models.partners.VettingVersion.yml
+  langs:
+  - java
+  name: LAST_FINALIZED
+  nameWithType: VettingVersion.LAST_FINALIZED
+  fullName: com.microsoft.store.partnercenter.models.partners.VettingVersion.LAST_FINALIZED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/partners/VettingVersion.java
+    startLine: 27
+  package: com.microsoft.store.partnercenter.models.partners
+  summary: "<p>Latest finalized vetting information: Will return the latest vetting information that is either (Authorized or Rejected) </p>"
+  syntax:
+    content: public LAST_FINALIZED=("last_finalized")
+- uid: com.microsoft.store.partnercenter.models.partners.VettingVersion.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.partners.VettingVersion
+  href: com.microsoft.store.partnercenter.models.partners.VettingVersion.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: VettingVersion.NONE
+  fullName: com.microsoft.store.partnercenter.models.partners.VettingVersion.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/partners/VettingVersion.java
+    startLine: 15
+  package: com.microsoft.store.partnercenter.models.partners
+  summary: "<p>None vetting version </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.partners.VettingVersion.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.partners.VettingVersion
+  href: com.microsoft.store.partnercenter.models.partners.VettingVersion.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: VettingVersion.toString()
+  fullName: com.microsoft.store.partnercenter.models.partners.VettingVersion.toString()
+  overload: com.microsoft.store.partnercenter.models.partners.VettingVersion.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/partners/VettingVersion.java
+    startLine: 43
+  package: com.microsoft.store.partnercenter.models.partners
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+- uid: com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion(String)
+  id: VettingVersion(String)
+  parent: com.microsoft.store.partnercenter.models.partners.VettingVersion
+  href: com.microsoft.store.partnercenter.models.partners.VettingVersion.yml
+  langs:
+  - java
+  name: VettingVersion(String value)
+  nameWithType: VettingVersion.VettingVersion(String value)
+  fullName: com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion(String value)
+  overload: com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/partners/VettingVersion.java
+    startLine: 31
+  package: com.microsoft.store.partnercenter.models.partners
+  syntax:
+    content: public VettingVersion(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion*
+  name: VettingVersion
+  nameWithType: VettingVersion.VettingVersion
+  fullName: com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion
+  package: com.microsoft.store.partnercenter.models.partners
+- uid: com.microsoft.store.partnercenter.models.partners.VettingVersion.toString*
+  name: toString
+  nameWithType: VettingVersion.toString
+  fullName: com.microsoft.store.partnercenter.models.partners.VettingVersion.toString
+  package: com.microsoft.store.partnercenter.models.partners

@@ -3,17 +3,13 @@ items:
 - uid: com.microsoft.store.partnercenter.models.entitlements
   id: entitlements
   children:
-  - com.microsoft.store.partnercenter.models.entitlements._artifact
-  - com.microsoft.store.partnercenter.models.entitlements._artifact_type
-  - com.microsoft.store.partnercenter.models.entitlements._entitlement
-  - com.microsoft.store.partnercenter.models.entitlements._entitlement_type
-  - com.microsoft.store.partnercenter.models.entitlements._product_key_artifact
-  - com.microsoft.store.partnercenter.models.entitlements._product_key_artifact_details
-  - com.microsoft.store.partnercenter.models.entitlements._quantity_detail
-  - com.microsoft.store.partnercenter.models.entitlements._reference_order
-  - com.microsoft.store.partnercenter.models.entitlements._virtual_machine_rea73761bceff55919e65ee2b2a1f9685c
-  - com.microsoft.store.partnercenter.models.entitlements._virtual_machine_reservation
-  - com.microsoft.store.partnercenter.models.entitlements._virtual_machine_reserved_instance_artifact
+  - com.microsoft.store.partnercenter.models.entitlements.Artifact
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement
+  - com.microsoft.store.partnercenter.models.entitlements.QuantityDetail
+  - com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder
+  - com.microsoft.store.partnercenter.models.entitlements.Reservation
+  - com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
+  - com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails
   href: com.microsoft.store.partnercenter.models.entitlements.yml
   langs:
   - java
@@ -31,113 +27,73 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.entitlements
 references:
-- uid: com.microsoft.store.partnercenter.models.entitlements._artifact
+- uid: com.microsoft.store.partnercenter.models.entitlements.Artifact
   parent: com.microsoft.store.partnercenter.models.entitlements
-  href: com.microsoft.store.partnercenter.models.entitlements._artifact.yml
+  href: com.microsoft.store.partnercenter.models.entitlements.Artifact.yml
   name: Artifact
   nameWithType: Artifact
   fullName: com.microsoft.store.partnercenter.models.entitlements.Artifact
   type: Class
-  summary: <p>Class that represents an entitlement artifact. </p>
+  summary: "<p>Class that represents an entitlement artifact. </p>"
   syntax:
     content: public class Artifact extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.entitlements._artifact_type
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   parent: com.microsoft.store.partnercenter.models.entitlements
-  href: com.microsoft.store.partnercenter.models.entitlements._artifact_type.yml
-  name: ArtifactType
-  nameWithType: ArtifactType
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ArtifactType
-  type: Enum
-  summary: <p>List of entitlement artifact types. </p>
-  syntax:
-    content: public enum ArtifactType
-- uid: com.microsoft.store.partnercenter.models.entitlements._entitlement
-  parent: com.microsoft.store.partnercenter.models.entitlements
-  href: com.microsoft.store.partnercenter.models.entitlements._entitlement.yml
+  href: com.microsoft.store.partnercenter.models.entitlements.Entitlement.yml
   name: Entitlement
   nameWithType: Entitlement
   fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   type: Class
-  summary: <p>Class that represents an entitlement. </p>
+  summary: "<p>Class that represents an entitlement. </p>"
   syntax:
     content: public class Entitlement extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.entitlements._entitlement_type
+- uid: com.microsoft.store.partnercenter.models.entitlements.QuantityDetail
   parent: com.microsoft.store.partnercenter.models.entitlements
-  href: com.microsoft.store.partnercenter.models.entitlements._entitlement_type.yml
-  name: EntitlementType
-  nameWithType: EntitlementType
-  fullName: com.microsoft.store.partnercenter.models.entitlements.EntitlementType
-  type: Enum
-  summary: <p>List of entitlement artifact types. </p>
-  syntax:
-    content: public enum EntitlementType
-- uid: com.microsoft.store.partnercenter.models.entitlements._product_key_artifact
-  parent: com.microsoft.store.partnercenter.models.entitlements
-  href: com.microsoft.store.partnercenter.models.entitlements._product_key_artifact.yml
-  name: ProductKeyArtifact
-  nameWithType: ProductKeyArtifact
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ProductKeyArtifact
-  type: Class
-  summary: <p>Class that represents product key artifact. </p>
-  syntax:
-    content: public class ProductKeyArtifact extends Artifact
-- uid: com.microsoft.store.partnercenter.models.entitlements._product_key_artifact_details
-  parent: com.microsoft.store.partnercenter.models.entitlements
-  href: com.microsoft.store.partnercenter.models.entitlements._product_key_artifact_details.yml
-  name: ProductKeyArtifactDetails
-  nameWithType: ProductKeyArtifactDetails
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ProductKeyArtifactDetails
-  type: Class
-  summary: <p>Class that represents a product key artifact details. </p>
-  syntax:
-    content: public class ProductKeyArtifactDetails extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.entitlements._quantity_detail
-  parent: com.microsoft.store.partnercenter.models.entitlements
-  href: com.microsoft.store.partnercenter.models.entitlements._quantity_detail.yml
+  href: com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.yml
   name: QuantityDetail
   nameWithType: QuantityDetail
   fullName: com.microsoft.store.partnercenter.models.entitlements.QuantityDetail
   type: Class
-  summary: <p>Class that represents an Quantity Detail. </p>
+  summary: "<p>Class that represents an Quantity Detail. </p>"
   syntax:
     content: public class QuantityDetail
-- uid: com.microsoft.store.partnercenter.models.entitlements._reference_order
+- uid: com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder
   parent: com.microsoft.store.partnercenter.models.entitlements
-  href: com.microsoft.store.partnercenter.models.entitlements._reference_order.yml
+  href: com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.yml
   name: ReferenceOrder
   nameWithType: ReferenceOrder
   fullName: com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder
   type: Class
-  summary: <p>Class that represents an order linked to the entitlement. </p>
+  summary: "<p>Class that represents an order linked to the entitlement. </p>"
   syntax:
     content: public class ReferenceOrder extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.entitlements._virtual_machine_reservation
+- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation
   parent: com.microsoft.store.partnercenter.models.entitlements
-  href: com.microsoft.store.partnercenter.models.entitlements._virtual_machine_reservation.yml
-  name: VirtualMachineReservation
-  nameWithType: VirtualMachineReservation
-  fullName: com.microsoft.store.partnercenter.models.entitlements.VirtualMachineReservation
+  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+  name: Reservation
+  nameWithType: Reservation
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation
   type: Class
-  summary: <p>Class that represents a virtual machine reservation. </p>
+  summary: "<p>Class that represents a reservation. </p>"
   syntax:
-    content: public class VirtualMachineReservation extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.entitlements._virtual_machine_reserved_instance_artifact
+    content: public class Reservation extends ResourceBaseWithLinks<StandardResourceLinks>
+- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
   parent: com.microsoft.store.partnercenter.models.entitlements
-  href: com.microsoft.store.partnercenter.models.entitlements._virtual_machine_reserved_instance_artifact.yml
-  name: VirtualMachineReservedInstanceArtifact
-  nameWithType: VirtualMachineReservedInstanceArtifact
-  fullName: com.microsoft.store.partnercenter.models.entitlements.VirtualMachineReservedInstanceArtifact
+  href: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.yml
+  name: ReservedInstanceArtifact
+  nameWithType: ReservedInstanceArtifact
+  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
   type: Class
-  summary: <p>Class that represents virtual machine reserved instance artifact. </p>
+  summary: "<p>Class that represents reserved instance artifact. </p>"
   syntax:
-    content: public class VirtualMachineReservedInstanceArtifact extends Artifact
-- uid: com.microsoft.store.partnercenter.models.entitlements._virtual_machine_rea73761bceff55919e65ee2b2a1f9685c
+    content: public class ReservedInstanceArtifact extends Artifact
+- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails
   parent: com.microsoft.store.partnercenter.models.entitlements
-  href: com.microsoft.store.partnercenter.models.entitlements._virtual_machine_rea73761bceff55919e65ee2b2a1f9685c.yml
-  name: VirtualMachineReservedInstanceArtifactDetails
-  nameWithType: VirtualMachineReservedInstanceArtifactDetails
-  fullName: com.microsoft.store.partnercenter.models.entitlements.VirtualMachineReservedInstanceArtifactDetails
+  href: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails.yml
+  name: ReservedInstanceArtifactDetails
+  nameWithType: ReservedInstanceArtifactDetails
+  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails
   type: Class
-  summary: <p>Class that represents virtual machine reserved instance artifact details. </p>
+  summary: "<p>Class that represents reserved instance artifact. </p>"
   syntax:
-    content: public class VirtualMachineReservedInstanceArtifactDetails extends ResourceBaseWithLinks<StandardResourceLinks>
+    content: public class ReservedInstanceArtifactDetails extends ResourceBaseWithLinks<StandardResourceLinks>

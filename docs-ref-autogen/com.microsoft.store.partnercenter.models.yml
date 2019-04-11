@@ -3,23 +3,23 @@ items:
 - uid: com.microsoft.store.partnercenter.models
   id: models
   children:
-  - com.microsoft.store.partnercenter.models._address
-  - com.microsoft.store.partnercenter.models._api_fault
-  - com.microsoft.store.partnercenter.models._contact
-  - com.microsoft.store.partnercenter.models._contract
-  - com.microsoft.store.partnercenter.models._contract_type
-  - com.microsoft.store.partnercenter.models._link
-  - com.microsoft.store.partnercenter.models._profile
-  - com.microsoft.store.partnercenter.models._resource_attributes
-  - com.microsoft.store.partnercenter.models._resource_base
-  - com.microsoft.store.partnercenter.models._resource_base_with_links
-  - com.microsoft.store.partnercenter.models._resource_collection
-  - com.microsoft.store.partnercenter.models._resource_collection_with_links
-  - com.microsoft.store.partnercenter.models._secure_string
-  - com.microsoft.store.partnercenter.models._seek_based_resource_collection
-  - com.microsoft.store.partnercenter.models._standard_resource_collection_links
-  - com.microsoft.store.partnercenter.models._standard_resource_links
-  - com.microsoft.store.partnercenter.models._user_credentials
+  - com.microsoft.store.partnercenter.models.Address
+  - com.microsoft.store.partnercenter.models.ApiFault
+  - com.microsoft.store.partnercenter.models.Contact
+  - com.microsoft.store.partnercenter.models.Contract
+  - com.microsoft.store.partnercenter.models.ContractType
+  - com.microsoft.store.partnercenter.models.Link
+  - com.microsoft.store.partnercenter.models.Profile
+  - com.microsoft.store.partnercenter.models.ResourceAttributes
+  - com.microsoft.store.partnercenter.models.ResourceBase
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  - com.microsoft.store.partnercenter.models.ResourceCollection
+  - com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks
+  - com.microsoft.store.partnercenter.models.SecureString
+  - com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+  - com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks
+  - com.microsoft.store.partnercenter.models.StandardResourceLinks
+  - com.microsoft.store.partnercenter.models.UserCredentials
   href: com.microsoft.store.partnercenter.models.yml
   langs:
   - java
@@ -53,6 +53,14 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.store.partnercenter.models.analytics
+- uid: com.microsoft.store.partnercenter.models.applicationconsents
+  href: com.microsoft.store.partnercenter.models.applicationconsents.yml
+  name: com.microsoft.store.partnercenter.models.applicationconsents
+  nameWithType: com.microsoft.store.partnercenter.models.applicationconsents
+  fullName: com.microsoft.store.partnercenter.models.applicationconsents
+  type: Namespace
+  syntax:
+    content: package com.microsoft.store.partnercenter.models.applicationconsents
 - uid: com.microsoft.store.partnercenter.models.auditing
   href: com.microsoft.store.partnercenter.models.auditing.yml
   name: com.microsoft.store.partnercenter.models.auditing
@@ -261,6 +269,14 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.store.partnercenter.models.utils
+- uid: com.microsoft.store.partnercenter.models.validationcodes
+  href: com.microsoft.store.partnercenter.models.validationcodes.yml
+  name: com.microsoft.store.partnercenter.models.validationcodes
+  nameWithType: com.microsoft.store.partnercenter.models.validationcodes
+  fullName: com.microsoft.store.partnercenter.models.validationcodes
+  type: Namespace
+  syntax:
+    content: package com.microsoft.store.partnercenter.models.validationcodes
 - uid: com.microsoft.store.partnercenter.models.validations
   href: com.microsoft.store.partnercenter.models.validations.yml
   name: com.microsoft.store.partnercenter.models.validations
@@ -269,132 +285,132 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.store.partnercenter.models.validations
-- uid: com.microsoft.store.partnercenter.models._address
+- uid: com.microsoft.store.partnercenter.models.Address
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._address.yml
+  href: com.microsoft.store.partnercenter.models.Address.yml
   name: Address
   nameWithType: Address
   fullName: com.microsoft.store.partnercenter.models.Address
   type: Class
-  summary: <p>Represents Customer or partner's address </p>
+  summary: "<p>Represents Customer or partner's address </p>"
   syntax:
     content: public class Address
-- uid: com.microsoft.store.partnercenter.models._api_fault
+- uid: com.microsoft.store.partnercenter.models.ApiFault
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._api_fault.yml
+  href: com.microsoft.store.partnercenter.models.ApiFault.yml
   name: ApiFault
   nameWithType: ApiFault
   fullName: com.microsoft.store.partnercenter.models.ApiFault
   type: Class
-  summary: <p>Represents API failures. </p>
+  summary: "<p>Represents API failures. </p>"
   syntax:
     content: public class ApiFault extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models._contact
+- uid: com.microsoft.store.partnercenter.models.Contact
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._contact.yml
+  href: com.microsoft.store.partnercenter.models.Contact.yml
   name: Contact
   nameWithType: Contact
   fullName: com.microsoft.store.partnercenter.models.Contact
   type: Class
-  summary: <p>The contact. </p>
+  summary: "<p>The contact. </p>"
   syntax:
     content: public class Contact
-- uid: com.microsoft.store.partnercenter.models._contract
+- uid: com.microsoft.store.partnercenter.models.Contract
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._contract.yml
+  href: com.microsoft.store.partnercenter.models.Contract.yml
   name: Contract
   nameWithType: Contract
   fullName: com.microsoft.store.partnercenter.models.Contract
   type: Class
-  summary: <p>Base Contract </p>
+  summary: "<p>Base Contract </p>"
   syntax:
     content: public class Contract extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models._contract_type
+- uid: com.microsoft.store.partnercenter.models.ContractType
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._contract_type.yml
+  href: com.microsoft.store.partnercenter.models.ContractType.yml
   name: ContractType
   nameWithType: ContractType
   fullName: com.microsoft.store.partnercenter.models.ContractType
   type: Enum
   syntax:
     content: public enum ContractType
-- uid: com.microsoft.store.partnercenter.models._link
+- uid: com.microsoft.store.partnercenter.models.Link
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._link.yml
+  href: com.microsoft.store.partnercenter.models.Link.yml
   name: Link
   nameWithType: Link
   fullName: com.microsoft.store.partnercenter.models.Link
   type: Class
-  summary: <p>Link represents a URI and the HTTP method which indicates the desired action for accessing the resource. </p>
+  summary: "<p>Link represents a URI and the HTTP method which indicates the desired action for accessing the resource. </p>"
   syntax:
     content: public class Link
-- uid: com.microsoft.store.partnercenter.models._profile
+- uid: com.microsoft.store.partnercenter.models.Profile
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._profile.yml
+  href: com.microsoft.store.partnercenter.models.Profile.yml
   name: Profile<T>
   nameWithType: Profile<T>
   fullName: com.microsoft.store.partnercenter.models.Profile<T>
   type: Class
-  summary: <p>Common profile template profile type </p>
+  summary: "<p>Common profile template profile type </p>"
   syntax:
     content: public class Profile<T> extends ResourceBase
     typeParameters:
     - id: T
       type: 8ce1ecb9
-- uid: com.microsoft.store.partnercenter.models._resource_attributes
+- uid: com.microsoft.store.partnercenter.models.ResourceAttributes
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._resource_attributes.yml
+  href: com.microsoft.store.partnercenter.models.ResourceAttributes.yml
   name: ResourceAttributes
   nameWithType: ResourceAttributes
   fullName: com.microsoft.store.partnercenter.models.ResourceAttributes
   type: Class
-  summary: <p>Refers to the common object attributes </p>
+  summary: "<p>Refers to the common object attributes </p>"
   syntax:
     content: public class ResourceAttributes
-- uid: com.microsoft.store.partnercenter.models._resource_base
+- uid: com.microsoft.store.partnercenter.models.ResourceBase
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._resource_base.yml
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
   name: ResourceBase
   nameWithType: ResourceBase
   fullName: com.microsoft.store.partnercenter.models.ResourceBase
   type: Class
-  summary: <p>Base class for resources </p>
+  summary: "<p>Base class for resources </p>"
   syntax:
     content: public class ResourceBase
-- uid: com.microsoft.store.partnercenter.models._resource_base_with_links
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._resource_base_with_links.yml
+  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
   name: ResourceBaseWithLinks<TLinks>
   nameWithType: ResourceBaseWithLinks<TLinks>
   fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>
   type: Class
-  summary: <p>Base class for resources </p>
+  summary: "<p>Base class for resources </p>"
   syntax:
     content: public class ResourceBaseWithLinks<TLinks> extends ResourceBase
     typeParameters:
     - id: TLinks
       type: 694adf1c
-- uid: com.microsoft.store.partnercenter.models._resource_collection
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._resource_collection.yml
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
   name: ResourceCollection<TResource>
   nameWithType: ResourceCollection<TResource>
   fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
   type: Class
-  summary: <p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
   syntax:
     content: public class ResourceCollection<TResource> extends ResourceCollectionWithLinks<TResource, StandardResourceCollectionLinks>
     typeParameters:
     - id: TResource
       type: 2e0a99c8
-- uid: com.microsoft.store.partnercenter.models._resource_collection_with_links
+- uid: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._resource_collection_with_links.yml
+  href: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.yml
   name: ResourceCollectionWithLinks<TResource,TLinks>
   nameWithType: ResourceCollectionWithLinks<TResource,TLinks>
   fullName: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,TLinks>
   type: Class
-  summary: <p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
   syntax:
     content: public class ResourceCollectionWithLinks<TResource,TLinks> extends ResourceBaseWithLinks<TLinks>
     typeParameters:
@@ -402,55 +418,55 @@ references:
       type: 2e0a99c8
     - id: TLinks
       type: 694adf1c
-- uid: com.microsoft.store.partnercenter.models._secure_string
+- uid: com.microsoft.store.partnercenter.models.SecureString
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._secure_string.yml
+  href: com.microsoft.store.partnercenter.models.SecureString.yml
   name: SecureString
   nameWithType: SecureString
   fullName: com.microsoft.store.partnercenter.models.SecureString
   type: Class
   syntax:
     content: public class SecureString
-- uid: com.microsoft.store.partnercenter.models._seek_based_resource_collection
+- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._seek_based_resource_collection.yml
+  href: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.yml
   name: SeekBasedResourceCollection<T>
   nameWithType: SeekBasedResourceCollection<T>
   fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<T>
   type: Class
-  summary: <p>Paged Resource Collection Type of objects in collection </p>
+  summary: "<p>Paged Resource Collection Type of objects in collection </p>"
   syntax:
     content: public class SeekBasedResourceCollection<T> extends ResourceCollection<T>
     typeParameters:
     - id: T
       type: 8ce1ecb9
-- uid: com.microsoft.store.partnercenter.models._standard_resource_collection_links
+- uid: com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._standard_resource_collection_links.yml
+  href: com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.yml
   name: StandardResourceCollectionLinks
   nameWithType: StandardResourceCollectionLinks
   fullName: com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks
   type: Class
-  summary: <p>Represents the links associated with a resource. </p>
+  summary: "<p>Represents the links associated with a resource. </p>"
   syntax:
     content: public class StandardResourceCollectionLinks extends StandardResourceLinks
-- uid: com.microsoft.store.partnercenter.models._standard_resource_links
+- uid: com.microsoft.store.partnercenter.models.StandardResourceLinks
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._standard_resource_links.yml
+  href: com.microsoft.store.partnercenter.models.StandardResourceLinks.yml
   name: StandardResourceLinks
   nameWithType: StandardResourceLinks
   fullName: com.microsoft.store.partnercenter.models.StandardResourceLinks
   type: Class
-  summary: <p>Represents the links associated with a resource. </p>
+  summary: "<p>Represents the links associated with a resource. </p>"
   syntax:
     content: public class StandardResourceLinks
-- uid: com.microsoft.store.partnercenter.models._user_credentials
+- uid: com.microsoft.store.partnercenter.models.UserCredentials
   parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models._user_credentials.yml
+  href: com.microsoft.store.partnercenter.models.UserCredentials.yml
   name: UserCredentials
   nameWithType: UserCredentials
   fullName: com.microsoft.store.partnercenter.models.UserCredentials
   type: Class
-  summary: <p>UserName and Password Credentials </p>
+  summary: "<p>UserName and Password Credentials </p>"
   syntax:
     content: public class UserCredentials

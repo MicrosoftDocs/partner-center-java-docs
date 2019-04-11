@@ -3,15 +3,15 @@ items:
 - uid: com.microsoft.store.partnercenter.models.servicerequests
   id: servicerequests
   children:
-  - com.microsoft.store.partnercenter.models.servicerequests._file_info
-  - com.microsoft.store.partnercenter.models.servicerequests._service_request
-  - com.microsoft.store.partnercenter.models.servicerequests._service_request_contact
-  - com.microsoft.store.partnercenter.models.servicerequests._service_request_note
-  - com.microsoft.store.partnercenter.models.servicerequests._service_request_organization
-  - com.microsoft.store.partnercenter.models.servicerequests._service_request_search_field
-  - com.microsoft.store.partnercenter.models.servicerequests._service_request_severity
-  - com.microsoft.store.partnercenter.models.servicerequests._service_request_status
-  - com.microsoft.store.partnercenter.models.servicerequests._support_topic
+  - com.microsoft.store.partnercenter.models.servicerequests.FileInfo
+  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest
+  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestContact
+  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote
+  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization
+  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSearchField
+  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSeverity
+  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestStatus
+  - com.microsoft.store.partnercenter.models.servicerequests.SupportTopic
   href: com.microsoft.store.partnercenter.models.servicerequests.yml
   langs:
   - java
@@ -29,91 +29,91 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.servicerequests
 references:
-- uid: com.microsoft.store.partnercenter.models.servicerequests._file_info
+- uid: com.microsoft.store.partnercenter.models.servicerequests.FileInfo
   parent: com.microsoft.store.partnercenter.models.servicerequests
-  href: com.microsoft.store.partnercenter.models.servicerequests._file_info.yml
+  href: com.microsoft.store.partnercenter.models.servicerequests.FileInfo.yml
   name: FileInfo
   nameWithType: FileInfo
   fullName: com.microsoft.store.partnercenter.models.servicerequests.FileInfo
   type: Class
-  summary: <p>Represents a File Information </p>
+  summary: "<p>Represents a File Information </p>"
   syntax:
     content: public class FileInfo
-- uid: com.microsoft.store.partnercenter.models.servicerequests._service_request
+- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest
   parent: com.microsoft.store.partnercenter.models.servicerequests
-  href: com.microsoft.store.partnercenter.models.servicerequests._service_request.yml
+  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.yml
   name: ServiceRequest
   nameWithType: ServiceRequest
   fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest
   type: Class
-  summary: <p>Represents a Service Request </p>
+  summary: "<p>Represents a Service Request </p>"
   syntax:
     content: public class ServiceRequest extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.servicerequests._service_request_contact
+- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestContact
   parent: com.microsoft.store.partnercenter.models.servicerequests
-  href: com.microsoft.store.partnercenter.models.servicerequests._service_request_contact.yml
+  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestContact.yml
   name: ServiceRequestContact
   nameWithType: ServiceRequestContact
   fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestContact
   type: Class
-  summary: <p>Represents a Contact Profile </p>
+  summary: "<p>Represents a Contact Profile </p>"
   syntax:
     content: public class ServiceRequestContact
-- uid: com.microsoft.store.partnercenter.models.servicerequests._service_request_note
+- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote
   parent: com.microsoft.store.partnercenter.models.servicerequests
-  href: com.microsoft.store.partnercenter.models.servicerequests._service_request_note.yml
+  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.yml
   name: ServiceRequestNote
   nameWithType: ServiceRequestNote
   fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote
   type: Class
-  summary: <p>Represents a Service Request Note class </p>
+  summary: "<p>Represents a Service Request Note class </p>"
   syntax:
     content: public class ServiceRequestNote
-- uid: com.microsoft.store.partnercenter.models.servicerequests._service_request_organization
+- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization
   parent: com.microsoft.store.partnercenter.models.servicerequests
-  href: com.microsoft.store.partnercenter.models.servicerequests._service_request_organization.yml
+  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.yml
   name: ServiceRequestOrganization
   nameWithType: ServiceRequestOrganization
   fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization
   type: Class
-  summary: <p>Represents an Organization profile </p>
+  summary: "<p>Represents an Organization profile </p>"
   syntax:
     content: public class ServiceRequestOrganization
-- uid: com.microsoft.store.partnercenter.models.servicerequests._service_request_search_field
+- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSearchField
   parent: com.microsoft.store.partnercenter.models.servicerequests
-  href: com.microsoft.store.partnercenter.models.servicerequests._service_request_search_field.yml
+  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSearchField.yml
   name: ServiceRequestSearchField
   nameWithType: ServiceRequestSearchField
   fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSearchField
   type: Enum
-  summary: <p>Lists the supported service request search fields </p>
+  summary: "<p>Lists the supported service request search fields </p>"
   syntax:
     content: public enum ServiceRequestSearchField
-- uid: com.microsoft.store.partnercenter.models.servicerequests._service_request_severity
+- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSeverity
   parent: com.microsoft.store.partnercenter.models.servicerequests
-  href: com.microsoft.store.partnercenter.models.servicerequests._service_request_severity.yml
+  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSeverity.yml
   name: ServiceRequestSeverity
   nameWithType: ServiceRequestSeverity
   fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSeverity
   type: Enum
   syntax:
     content: public enum ServiceRequestSeverity
-- uid: com.microsoft.store.partnercenter.models.servicerequests._service_request_status
+- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestStatus
   parent: com.microsoft.store.partnercenter.models.servicerequests
-  href: com.microsoft.store.partnercenter.models.servicerequests._service_request_status.yml
+  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestStatus.yml
   name: ServiceRequestStatus
   nameWithType: ServiceRequestStatus
   fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestStatus
   type: Enum
   syntax:
     content: public enum ServiceRequestStatus
-- uid: com.microsoft.store.partnercenter.models.servicerequests._support_topic
+- uid: com.microsoft.store.partnercenter.models.servicerequests.SupportTopic
   parent: com.microsoft.store.partnercenter.models.servicerequests
-  href: com.microsoft.store.partnercenter.models.servicerequests._support_topic.yml
+  href: com.microsoft.store.partnercenter.models.servicerequests.SupportTopic.yml
   name: SupportTopic
   nameWithType: SupportTopic
   fullName: com.microsoft.store.partnercenter.models.servicerequests.SupportTopic
   type: Class
-  summary: <p>Represents a Service Request Support Topic Info class </p>
+  summary: "<p>Represents a Service Request Support Topic Info class </p>"
   syntax:
     content: public class SupportTopic extends ResourceBase

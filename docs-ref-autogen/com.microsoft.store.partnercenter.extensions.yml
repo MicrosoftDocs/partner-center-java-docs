@@ -3,12 +3,12 @@ items:
 - uid: com.microsoft.store.partnercenter.extensions
   id: extensions
   children:
-  - com.microsoft.store.partnercenter.extensions._application_partner_credentials
-  - com.microsoft.store.partnercenter.extensions._base_partner_credentials
-  - com.microsoft.store.partnercenter.extensions._extensions_operations
-  - com.microsoft.store.partnercenter.extensions._i_extensions
-  - com.microsoft.store.partnercenter.extensions._partner_credentials
-  - com.microsoft.store.partnercenter.extensions._user_partner_credentials
+  - com.microsoft.store.partnercenter.extensions.ApplicationPartnerCredentials
+  - com.microsoft.store.partnercenter.extensions.BasePartnerCredentials
+  - com.microsoft.store.partnercenter.extensions.ExtensionsOperations
+  - com.microsoft.store.partnercenter.extensions.IExtensions
+  - com.microsoft.store.partnercenter.extensions.PartnerCredentials
+  - com.microsoft.store.partnercenter.extensions.UserPartnerCredentials
   href: com.microsoft.store.partnercenter.extensions.yml
   langs:
   - java
@@ -34,63 +34,63 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.store.partnercenter.extensions.products
-- uid: com.microsoft.store.partnercenter.extensions._application_partner_credentials
+- uid: com.microsoft.store.partnercenter.extensions.ApplicationPartnerCredentials
   parent: com.microsoft.store.partnercenter.extensions
-  href: com.microsoft.store.partnercenter.extensions._application_partner_credentials.yml
+  href: com.microsoft.store.partnercenter.extensions.ApplicationPartnerCredentials.yml
   name: ApplicationPartnerCredentials
   nameWithType: ApplicationPartnerCredentials
   fullName: com.microsoft.store.partnercenter.extensions.ApplicationPartnerCredentials
   type: Class
-  summary: <p>Partner service credentials based on Azure Active Directory application credentials. </p>
+  summary: "<p>Partner service credentials based on Azure Active Directory application credentials. </p>"
   syntax:
     content: public class ApplicationPartnerCredentials extends BasePartnerCredentials
-- uid: com.microsoft.store.partnercenter.extensions._base_partner_credentials
+- uid: com.microsoft.store.partnercenter.extensions.BasePartnerCredentials
   parent: com.microsoft.store.partnercenter.extensions
-  href: com.microsoft.store.partnercenter.extensions._base_partner_credentials.yml
+  href: com.microsoft.store.partnercenter.extensions.BasePartnerCredentials.yml
   name: BasePartnerCredentials
   nameWithType: BasePartnerCredentials
   fullName: com.microsoft.store.partnercenter.extensions.BasePartnerCredentials
   type: Class
-  summary: <p>A base implementation for partner credentials. </p>
+  summary: "<p>A base implementation for partner credentials. </p>"
   syntax:
     content: public class BasePartnerCredentials implements IPartnerCredentials
-- uid: com.microsoft.store.partnercenter.extensions._extensions_operations
+- uid: com.microsoft.store.partnercenter.extensions.ExtensionsOperations
   parent: com.microsoft.store.partnercenter.extensions
-  href: com.microsoft.store.partnercenter.extensions._extensions_operations.yml
+  href: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.yml
   name: ExtensionsOperations
   nameWithType: ExtensionsOperations
   fullName: com.microsoft.store.partnercenter.extensions.ExtensionsOperations
   type: Class
-  summary: <p>Extensions operations implementation. </p>
+  summary: "<p>Extensions operations implementation. </p>"
   syntax:
     content: public class ExtensionsOperations extends BasePartnerComponentString implements IExtensions
-- uid: com.microsoft.store.partnercenter.extensions._i_extensions
+- uid: com.microsoft.store.partnercenter.extensions.IExtensions
   parent: com.microsoft.store.partnercenter.extensions
-  href: com.microsoft.store.partnercenter.extensions._i_extensions.yml
+  href: com.microsoft.store.partnercenter.extensions.IExtensions.yml
   name: IExtensions
   nameWithType: IExtensions
   fullName: com.microsoft.store.partnercenter.extensions.IExtensions
   type: Interface
-  summary: <p>Holds operations that extend another set of operations. </p>
+  summary: "<p>Holds operations that extend another set of operations. </p>"
   syntax:
     content: public interface IExtensions extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.extensions._partner_credentials
+- uid: com.microsoft.store.partnercenter.extensions.PartnerCredentials
   parent: com.microsoft.store.partnercenter.extensions
-  href: com.microsoft.store.partnercenter.extensions._partner_credentials.yml
+  href: com.microsoft.store.partnercenter.extensions.PartnerCredentials.yml
   name: PartnerCredentials
   nameWithType: PartnerCredentials
   fullName: com.microsoft.store.partnercenter.extensions.PartnerCredentials
   type: Class
-  summary: <p>The third party partner credentials. Use to generate the credentials. </p>
+  summary: "<p>The third party partner credentials. Use to generate the credentials. </p>"
   syntax:
     content: public class PartnerCredentials
-- uid: com.microsoft.store.partnercenter.extensions._user_partner_credentials
+- uid: com.microsoft.store.partnercenter.extensions.UserPartnerCredentials
   parent: com.microsoft.store.partnercenter.extensions
-  href: com.microsoft.store.partnercenter.extensions._user_partner_credentials.yml
+  href: com.microsoft.store.partnercenter.extensions.UserPartnerCredentials.yml
   name: UserPartnerCredentials
   nameWithType: UserPartnerCredentials
   fullName: com.microsoft.store.partnercenter.extensions.UserPartnerCredentials
   type: Class
-  summary: <p>Partner service credentials based on Azure Active Directory user credentials. </p>
+  summary: "<p>Partner service credentials based on Azure Active Directory user credentials. </p>"
   syntax:
     content: public class UserPartnerCredentials extends BasePartnerCredentials

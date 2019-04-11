@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
+  id: CustomerPartnerRelationship
+  parent: com.microsoft.store.partnercenter.models.customers
+  children:
+  - com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.ADVISOR
+  - com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.CustomerPartnerRelationship(String)
+  - com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.MICROSOFT_SUPPORT
+  - com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.NONE
+  - com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.RESELLER
+  - com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.SYNDICATION
+  - com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.toString()
+  - com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.UNKNWON
+  href: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.yml
+  langs:
+  - java
+  name: CustomerPartnerRelationship
+  nameWithType: CustomerPartnerRelationship
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerPartnerRelationship.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerPartnerRelationship.java
+    startLine: 10
+  package: com.microsoft.store.partnercenter.models.customers
+  syntax:
+    content: public enum CustomerPartnerRelationship
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<CustomerPartnerRelationship>
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.ADVISOR
+  id: ADVISOR
+  parent: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
+  href: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.yml
+  langs:
+  - java
+  name: ADVISOR
+  nameWithType: CustomerPartnerRelationship.ADVISOR
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.ADVISOR
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerPartnerRelationship.java
+    startLine: 30
+  package: com.microsoft.store.partnercenter.models.customers
+  summary: "<p>The advisor relationship </p>"
+  syntax:
+    content: public ADVISOR=("advisor")
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.CustomerPartnerRelationship(String)
+  id: CustomerPartnerRelationship(String)
+  parent: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
+  href: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.yml
+  langs:
+  - java
+  name: CustomerPartnerRelationship(String value)
+  nameWithType: CustomerPartnerRelationship.CustomerPartnerRelationship(String value)
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.CustomerPartnerRelationship(String value)
+  overload: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.CustomerPartnerRelationship*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerPartnerRelationship.java
+    startLine: 44
+  package: com.microsoft.store.partnercenter.models.customers
+  syntax:
+    content: public CustomerPartnerRelationship(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.MICROSOFT_SUPPORT
+  id: MICROSOFT_SUPPORT
+  parent: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
+  href: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.yml
+  langs:
+  - java
+  name: MICROSOFT_SUPPORT
+  nameWithType: CustomerPartnerRelationship.MICROSOFT_SUPPORT
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.MICROSOFT_SUPPORT
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerPartnerRelationship.java
+    startLine: 40
+  package: com.microsoft.store.partnercenter.models.customers
+  summary: "<p>Indicates that the partner is a Microsoft Support agent for the customer. </p>"
+  syntax:
+    content: public MICROSOFT_SUPPORT=("microsoftSupport")
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
+  href: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: CustomerPartnerRelationship.NONE
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerPartnerRelationship.java
+    startLine: 20
+  package: com.microsoft.store.partnercenter.models.customers
+  summary: "<p>None. Used to remove reseller relationship between the customer and partner. </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.RESELLER
+  id: RESELLER
+  parent: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
+  href: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.yml
+  langs:
+  - java
+  name: RESELLER
+  nameWithType: CustomerPartnerRelationship.RESELLER
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.RESELLER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerPartnerRelationship.java
+    startLine: 25
+  package: com.microsoft.store.partnercenter.models.customers
+  summary: "<p>The reseller relationship </p>"
+  syntax:
+    content: public RESELLER=("reseller")
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.SYNDICATION
+  id: SYNDICATION
+  parent: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
+  href: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.yml
+  langs:
+  - java
+  name: SYNDICATION
+  nameWithType: CustomerPartnerRelationship.SYNDICATION
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.SYNDICATION
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerPartnerRelationship.java
+    startLine: 35
+  package: com.microsoft.store.partnercenter.models.customers
+  summary: "<p>Indicates that the partner is a syndication partner of the customer. </p>"
+  syntax:
+    content: public SYNDICATION=("syndication")
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
+  href: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: CustomerPartnerRelationship.toString()
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.toString()
+  overload: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerPartnerRelationship.java
+    startLine: 56
+  package: com.microsoft.store.partnercenter.models.customers
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.UNKNWON
+  id: UNKNWON
+  parent: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
+  href: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.yml
+  langs:
+  - java
+  name: UNKNWON
+  nameWithType: CustomerPartnerRelationship.UNKNWON
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.UNKNWON
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerPartnerRelationship.java
+    startLine: 15
+  package: com.microsoft.store.partnercenter.models.customers
+  summary: "<p>Unknown. Used for initialization. </p>"
+  syntax:
+    content: public UNKNWON=("unknown")
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.CustomerPartnerRelationship*
+  name: CustomerPartnerRelationship
+  nameWithType: CustomerPartnerRelationship.CustomerPartnerRelationship
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.CustomerPartnerRelationship
+  package: com.microsoft.store.partnercenter.models.customers
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.toString*
+  name: toString
+  nameWithType: CustomerPartnerRelationship.toString
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.toString
+  package: com.microsoft.store.partnercenter.models.customers

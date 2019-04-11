@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.applicationconsents
+  id: applicationconsents
+  children:
+  - com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent
+  - com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant
+  href: com.microsoft.store.partnercenter.models.applicationconsents.yml
+  langs:
+  - java
+  name: com.microsoft.store.partnercenter.models.applicationconsents
+  nameWithType: com.microsoft.store.partnercenter.models.applicationconsents
+  fullName: com.microsoft.store.partnercenter.models.applicationconsents
+  type: Namespace
+  source:
+    remote:
+      path: src/main/java/com/microsoft/store/partnercenter/models/applicationconsents/ApplicationConsent.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/applicationconsents/ApplicationConsent.java
+    startLine: 6
+  syntax:
+    content: package com.microsoft.store.partnercenter.models.applicationconsents
+references:
+- uid: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent
+  parent: com.microsoft.store.partnercenter.models.applicationconsents
+  href: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.yml
+  name: ApplicationConsent
+  nameWithType: ApplicationConsent
+  fullName: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent
+  type: Class
+  summary: "<p>The ApplicationConsent resource. Represents the enabled consents for an application. </p>"
+  syntax:
+    content: public class ApplicationConsent extends ResourceBase
+- uid: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant
+  parent: com.microsoft.store.partnercenter.models.applicationconsents
+  href: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.yml
+  name: ApplicationGrant
+  nameWithType: ApplicationGrant
+  fullName: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant
+  type: Class
+  summary: "<p>The ApplicationGrant resource. Represents the grants wich enabled consents for an application. </p>"
+  syntax:
+    content: public class ApplicationGrant

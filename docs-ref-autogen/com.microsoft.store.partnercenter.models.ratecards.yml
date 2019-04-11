@@ -3,9 +3,9 @@ items:
 - uid: com.microsoft.store.partnercenter.models.ratecards
   id: ratecards
   children:
-  - com.microsoft.store.partnercenter.models.ratecards._azure_meter
-  - com.microsoft.store.partnercenter.models.ratecards._azure_offer_term
-  - com.microsoft.store.partnercenter.models.ratecards._azure_rate_card
+  - com.microsoft.store.partnercenter.models.ratecards.AzureMeter
+  - com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm
+  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
   href: com.microsoft.store.partnercenter.models.ratecards.yml
   langs:
   - java
@@ -23,33 +23,33 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.ratecards
 references:
-- uid: com.microsoft.store.partnercenter.models.ratecards._azure_meter
+- uid: com.microsoft.store.partnercenter.models.ratecards.AzureMeter
   parent: com.microsoft.store.partnercenter.models.ratecards
-  href: com.microsoft.store.partnercenter.models.ratecards._azure_meter.yml
+  href: com.microsoft.store.partnercenter.models.ratecards.AzureMeter.yml
   name: AzureMeter
   nameWithType: AzureMeter
   fullName: com.microsoft.store.partnercenter.models.ratecards.AzureMeter
   type: Class
-  summary: <p>Represents a record of operation performed by a Partner user or application </p>
+  summary: "<p>Represents a record of operation performed by a Partner user or application </p>"
   syntax:
     content: public class AzureMeter extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.ratecards._azure_offer_term
+- uid: com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm
   parent: com.microsoft.store.partnercenter.models.ratecards
-  href: com.microsoft.store.partnercenter.models.ratecards._azure_offer_term.yml
+  href: com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.yml
   name: AzureOfferTerm
   nameWithType: AzureOfferTerm
   fullName: com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm
   type: Class
-  summary: <p>Represents an offer term tied to an Azure rate card. </p>
+  summary: "<p>Represents an offer term tied to an Azure rate card. </p>"
   syntax:
     content: public class AzureOfferTerm extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.ratecards._azure_rate_card
+- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
   parent: com.microsoft.store.partnercenter.models.ratecards
-  href: com.microsoft.store.partnercenter.models.ratecards._azure_rate_card.yml
+  href: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.yml
   name: AzureRateCard
   nameWithType: AzureRateCard
   fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
   type: Class
-  summary: <p>Represents an offer term tied to an Azure rate card. </p>
+  summary: "<p>Represents an offer term tied to an Azure rate card. </p>"
   syntax:
     content: public class AzureRateCard extends ResourceBase

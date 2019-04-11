@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.store.partnercenter.qualification
   id: qualification
   children:
-  - com.microsoft.store.partnercenter.qualification._customer_qualification_operations
-  - com.microsoft.store.partnercenter.qualification._i_customer_qualification
+  - com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations
+  - com.microsoft.store.partnercenter.qualification.ICustomerQualification
   href: com.microsoft.store.partnercenter.qualification.yml
   langs:
   - java
@@ -22,19 +22,19 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.qualification
 references:
-- uid: com.microsoft.store.partnercenter.qualification._customer_qualification_operations
+- uid: com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations
   parent: com.microsoft.store.partnercenter.qualification
-  href: com.microsoft.store.partnercenter.qualification._customer_qualification_operations.yml
+  href: com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations.yml
   name: CustomerQualificationOperations
   nameWithType: CustomerQualificationOperations
   fullName: com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations
   type: Class
-  summary: <p>This class implements the operations available on a customer's qualification. </p>
+  summary: "<p>This class implements the operations available on a customer's qualification. </p>"
   syntax:
     content: public class CustomerQualificationOperations extends BasePartnerComponentString implements ICustomerQualification
-- uid: com.microsoft.store.partnercenter.qualification._i_customer_qualification
+- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification
   parent: com.microsoft.store.partnercenter.qualification
-  href: com.microsoft.store.partnercenter.qualification._i_customer_qualification.yml
+  href: com.microsoft.store.partnercenter.qualification.ICustomerQualification.yml
   name: ICustomerQualification
   nameWithType: ICustomerQualification
   fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification

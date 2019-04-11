@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations
+  id: EstimateCollectionOperations
+  parent: com.microsoft.store.partnercenter.invoices
+  children:
+  - com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.EstimateCollectionOperations(IPartner)
+  - com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.getLinks()
+  href: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.yml
+  langs:
+  - java
+  name: EstimateCollectionOperations
+  nameWithType: EstimateCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/invoices/EstimateCollectionOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/EstimateCollectionOperations.java
+    startLine: 14
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Defines the operations available for estimate collection. </p>"
+  syntax:
+    content: public class EstimateCollectionOperations extends BasePartnerComponentString implements IEstimateCollection
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.EstimateCollectionOperations(IPartner)
+  id: EstimateCollectionOperations(IPartner)
+  parent: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.yml
+  langs:
+  - java
+  name: EstimateCollectionOperations(IPartner rootPartnerOperations)
+  nameWithType: EstimateCollectionOperations.EstimateCollectionOperations(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.EstimateCollectionOperations(IPartner rootPartnerOperations)
+  overload: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.EstimateCollectionOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/EstimateCollectionOperations.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Initializes a new instance of the EstimateCollectionOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public EstimateCollectionOperations(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+- uid: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.getLinks()
+  id: getLinks()
+  parent: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.yml
+  langs:
+  - java
+  name: getLinks()
+  nameWithType: EstimateCollectionOperations.getLinks()
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.getLinks()
+  overload: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.getLinks*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/EstimateCollectionOperations.java
+    startLine: 34
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Gets the estimate links of the recon line items.</p>\r\n<p></p>"
+  syntax:
+    content: public IEstimateLink getLinks()
+    return:
+      type: com.microsoft.store.partnercenter.invoices.IEstimateLink
+      description: <p>The estimate links of the recon line items. </p>
+  overridden: com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks()
+references:
+- uid: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.EstimateCollectionOperations*
+  name: EstimateCollectionOperations
+  nameWithType: EstimateCollectionOperations.EstimateCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.EstimateCollectionOperations
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.getLinks*
+  name: getLinks
+  nameWithType: EstimateCollectionOperations.getLinks
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.getLinks
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: "26831127"
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. The context is string type by default. </p>"
+  syntax:
+    content: public class BasePartnerComponentString extends BasePartnerComponent<String>
+- uid: com.microsoft.store.partnercenter.invoices.IEstimateCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IEstimateCollection.yml
+  name: IEstimateCollection
+  nameWithType: IEstimateCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IEstimateCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's estimate collection. </p>"
+  syntax:
+    content: public interface IEstimateCollection
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.invoices.IEstimateLink
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IEstimateLink.yml
+  name: IEstimateLink
+  nameWithType: IEstimateLink
+  fullName: com.microsoft.store.partnercenter.invoices.IEstimateLink
+  type: Interface
+  summary: "<p>Represents the operations available to an estimate link. </p>"
+  syntax:
+    content: public interface IEstimateLink
+- uid: com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks()
+  parent: com.microsoft.store.partnercenter.invoices.IEstimateCollection
+  href: com.microsoft.store.partnercenter.invoices.IEstimateCollection.yml
+  name: getLinks()
+  nameWithType: IEstimateCollection.getLinks()
+  fullName: com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks()
+  type: Method
+  summary: "<p>Gets the estimate links for the recon line items.</p>\r\n<p></p>"
+  syntax:
+    content: public IEstimateLink getLinks()
+    return:
+      type: com.microsoft.store.partnercenter.invoices.IEstimateLink
+      description: <p>The estimate links for the recon line items. </p>

@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
+  id: LicenseGroupId
+  parent: com.microsoft.store.partnercenter.models.licenses
+  children:
+  - com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP1
+  - com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP2
+  - com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId(String)
+  - com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE
+  - com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()
+  href: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.yml
+  langs:
+  - java
+  name: LicenseGroupId
+  nameWithType: LicenseGroupId
+  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseGroupId.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseGroupId.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.licenses
+  summary: "<p>License Group Id. </p>"
+  syntax:
+    content: public enum LicenseGroupId
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<LicenseGroupId>
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP1
+  id: GROUP1
+  parent: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
+  href: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.yml
+  langs:
+  - java
+  name: GROUP1
+  nameWithType: LicenseGroupId.GROUP1
+  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP1
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseGroupId.java
+    startLine: 24
+  package: com.microsoft.store.partnercenter.models.licenses
+  summary: "<p>Azure Active Directory This indicates that product SKU is managed by Azure AD. </p>"
+  syntax:
+    content: public GROUP1=("group1")
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP2
+  id: GROUP2
+  parent: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
+  href: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.yml
+  langs:
+  - java
+  name: GROUP2
+  nameWithType: LicenseGroupId.GROUP2
+  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP2
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseGroupId.java
+    startLine: 29
+  package: com.microsoft.store.partnercenter.models.licenses
+  summary: "<p>Store for Business This indicates that product SKU is not managed by Azure AD. </p>"
+  syntax:
+    content: public GROUP2=("group2")
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId(String)
+  id: LicenseGroupId(String)
+  parent: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
+  href: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.yml
+  langs:
+  - java
+  name: LicenseGroupId(String value)
+  nameWithType: LicenseGroupId.LicenseGroupId(String value)
+  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId(String value)
+  overload: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseGroupId.java
+    startLine: 33
+  package: com.microsoft.store.partnercenter.models.licenses
+  syntax:
+    content: public LicenseGroupId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
+  href: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: LicenseGroupId.NONE
+  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseGroupId.java
+    startLine: 19
+  package: com.microsoft.store.partnercenter.models.licenses
+  summary: "<p>Indicates nothing - no type, used as an initializer. If any invalid value is passed, then it will be defaulted to this. </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
+  href: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: LicenseGroupId.toString()
+  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()
+  overload: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseGroupId.java
+    startLine: 45
+  package: com.microsoft.store.partnercenter.models.licenses
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId*
+  name: LicenseGroupId
+  nameWithType: LicenseGroupId.LicenseGroupId
+  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString*
+  name: toString
+  nameWithType: LicenseGroupId.toString
+  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString
+  package: com.microsoft.store.partnercenter.models.licenses

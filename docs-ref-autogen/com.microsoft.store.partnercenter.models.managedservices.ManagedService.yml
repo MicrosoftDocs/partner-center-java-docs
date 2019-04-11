@@ -1,0 +1,375 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  id: ManagedService
+  parent: com.microsoft.store.partnercenter.models.managedservices
+  children:
+  - com.microsoft.store.partnercenter.models.managedservices.ManagedService.getGroupName()
+  - com.microsoft.store.partnercenter.models.managedservices.ManagedService.getId()
+  - com.microsoft.store.partnercenter.models.managedservices.ManagedService.getLinks()
+  - com.microsoft.store.partnercenter.models.managedservices.ManagedService.getName()
+  - com.microsoft.store.partnercenter.models.managedservices.ManagedService.ManagedService()
+  - com.microsoft.store.partnercenter.models.managedservices.ManagedService.setGroupName(String)
+  - com.microsoft.store.partnercenter.models.managedservices.ManagedService.setId(String)
+  - com.microsoft.store.partnercenter.models.managedservices.ManagedService.setLinks(ManagedServiceLinks)
+  - com.microsoft.store.partnercenter.models.managedservices.ManagedService.setName(String)
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedService.yml
+  langs:
+  - java
+  name: ManagedService
+  nameWithType: ManagedService
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/managedservices/ManagedService.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/managedservices/ManagedService.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.managedservices
+  summary: "<p>Partner managed services (AOBO links) for customers </p>"
+  syntax:
+    content: public class ManagedService extends ResourceBaseWithLinks<ManagedServiceLinks>
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.ResourceBase
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(String)
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getGroupName()
+  id: getGroupName()
+  parent: com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedService.yml
+  langs:
+  - java
+  name: getGroupName()
+  nameWithType: ManagedService.getGroupName()
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getGroupName()
+  overload: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getGroupName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/managedservices/ManagedService.java
+    startLine: 59
+  package: com.microsoft.store.partnercenter.models.managedservices
+  syntax:
+    content: public String getGroupName()
+    return:
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getId()
+  id: getId()
+  parent: com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedService.yml
+  langs:
+  - java
+  name: getId()
+  nameWithType: ManagedService.getId()
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getId()
+  overload: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/managedservices/ManagedService.java
+    startLine: 29
+  package: com.microsoft.store.partnercenter.models.managedservices
+  syntax:
+    content: public String getId()
+    return:
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getLinks()
+  id: getLinks()
+  parent: com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedService.yml
+  langs:
+  - java
+  name: getLinks()
+  nameWithType: ManagedService.getLinks()
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getLinks()
+  overload: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getLinks*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/managedservices/ManagedService.java
+    startLine: 75
+  package: com.microsoft.store.partnercenter.models.managedservices
+  syntax:
+    content: public ManagedServiceLinks getLinks()
+    return:
+      type: com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getName()
+  id: getName()
+  parent: com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedService.yml
+  langs:
+  - java
+  name: getName()
+  nameWithType: ManagedService.getName()
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getName()
+  overload: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/managedservices/ManagedService.java
+    startLine: 44
+  package: com.microsoft.store.partnercenter.models.managedservices
+  syntax:
+    content: public String getName()
+    return:
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.ManagedService()
+  id: ManagedService()
+  parent: com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedService.yml
+  langs:
+  - java
+  name: ManagedService()
+  nameWithType: ManagedService.ManagedService()
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.ManagedService()
+  overload: com.microsoft.store.partnercenter.models.managedservices.ManagedService.ManagedService*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/managedservices/ManagedService.java
+    startLine: 19
+  package: com.microsoft.store.partnercenter.models.managedservices
+  summary: "<p>Initializes a new instance of the ManagedService class. </p>"
+  syntax:
+    content: public ManagedService()
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setGroupName(String)
+  id: setGroupName(String)
+  parent: com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedService.yml
+  langs:
+  - java
+  name: setGroupName(String value)
+  nameWithType: ManagedService.setGroupName(String value)
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setGroupName(String value)
+  overload: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setGroupName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/managedservices/ManagedService.java
+    startLine: 64
+  package: com.microsoft.store.partnercenter.models.managedservices
+  syntax:
+    content: public void setGroupName(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setId(String)
+  id: setId(String)
+  parent: com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedService.yml
+  langs:
+  - java
+  name: setId(String value)
+  nameWithType: ManagedService.setId(String value)
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setId(String value)
+  overload: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/managedservices/ManagedService.java
+    startLine: 34
+  package: com.microsoft.store.partnercenter.models.managedservices
+  syntax:
+    content: public void setId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setLinks(ManagedServiceLinks)
+  id: setLinks(ManagedServiceLinks)
+  parent: com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedService.yml
+  langs:
+  - java
+  name: setLinks(ManagedServiceLinks value)
+  nameWithType: ManagedService.setLinks(ManagedServiceLinks value)
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setLinks(ManagedServiceLinks value)
+  overload: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setLinks*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/managedservices/ManagedService.java
+    startLine: 81
+  package: com.microsoft.store.partnercenter.models.managedservices
+  syntax:
+    content: public void setLinks(ManagedServiceLinks value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setName(String)
+  id: setName(String)
+  parent: com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedService.yml
+  langs:
+  - java
+  name: setName(String value)
+  nameWithType: ManagedService.setName(String value)
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setName(String value)
+  overload: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/managedservices/ManagedService.java
+    startLine: 49
+  package: com.microsoft.store.partnercenter.models.managedservices
+  syntax:
+    content: public void setName(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+references:
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.ManagedService*
+  name: ManagedService
+  nameWithType: ManagedService.ManagedService
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.ManagedService
+  package: com.microsoft.store.partnercenter.models.managedservices
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getId*
+  name: getId
+  nameWithType: ManagedService.getId
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getId
+  package: com.microsoft.store.partnercenter.models.managedservices
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setId*
+  name: setId
+  nameWithType: ManagedService.setId
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setId
+  package: com.microsoft.store.partnercenter.models.managedservices
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getName*
+  name: getName
+  nameWithType: ManagedService.getName
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getName
+  package: com.microsoft.store.partnercenter.models.managedservices
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setName*
+  name: setName
+  nameWithType: ManagedService.setName
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setName
+  package: com.microsoft.store.partnercenter.models.managedservices
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getGroupName*
+  name: getGroupName
+  nameWithType: ManagedService.getGroupName
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getGroupName
+  package: com.microsoft.store.partnercenter.models.managedservices
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setGroupName*
+  name: setGroupName
+  nameWithType: ManagedService.setGroupName
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setGroupName
+  package: com.microsoft.store.partnercenter.models.managedservices
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getLinks*
+  name: getLinks
+  nameWithType: ManagedService.getLinks
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.getLinks
+  package: com.microsoft.store.partnercenter.models.managedservices
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setLinks*
+  name: setLinks
+  nameWithType: ManagedService.setLinks
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService.setLinks
+  package: com.microsoft.store.partnercenter.models.managedservices
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: getAttributes()
+  nameWithType: ResourceBase.getAttributes()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  type: Method
+  summary: "<p>Gets the attributes.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceAttributes getAttributes()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceAttributes
+      description: <p>The resource attributes. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: ResourceBase()
+  nameWithType: ResourceBase.ResourceBase()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBase class. </p>"
+  syntax:
+    content: protected ResourceBase()
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: ResourceBase(String objectType)
+  nameWithType: ResourceBase.ResourceBase(String objectType)
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String objectType)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBase class.</p>\r\n<p></p>"
+  syntax:
+    content: protected ResourceBase(String objectType)
+    parameters:
+    - id: objectType
+      type: "26831127"
+      description: <p>Type of the object. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(String)
+  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
+  name: ResourceBaseWithLinks(String objectType)
+  nameWithType: ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks(String objectType)
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks(String objectType)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBaseWithLinks class.</p>\r\n<p></p>"
+  syntax:
+    content: protected ResourceBaseWithLinks(String objectType)
+    parameters:
+    - id: objectType
+      type: "26831127"
+      description: <p>Type of the object. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()
+  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
+  name: ResourceBaseWithLinks()
+  nameWithType: ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBaseWithLinks class. </p>"
+  syntax:
+    content: protected ResourceBaseWithLinks()
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
+  name: setLinks(TLinks value)
+  nameWithType: ResourceBaseWithLinks<TLinks>.setLinks(TLinks value)
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.setLinks(TLinks value)
+  type: Method
+  summary: "<p>Sets the links.</p>\r\n<p></p>"
+  syntax:
+    content: public void setLinks(TLinks value)
+    parameters:
+    - id: value
+      type: 694adf1c
+      description: <p>The links. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
+  name: ResourceBaseWithLinks<TLinks>
+  nameWithType: ResourceBaseWithLinks<TLinks>
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>
+  type: Class
+  summary: "<p>Base class for resources </p>"
+  syntax:
+    content: public class ResourceBaseWithLinks<TLinks>
+    typeParameters:
+    - id: TLinks
+      type: 694adf1c
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks
+  parent: com.microsoft.store.partnercenter.models.managedservices
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.yml
+  name: ManagedServiceLinks
+  nameWithType: ManagedServiceLinks
+  fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks
+  type: Class
+  summary: "<p>Bundles a Managed service links. </p>"
+  syntax:
+    content: public class ManagedServiceLinks

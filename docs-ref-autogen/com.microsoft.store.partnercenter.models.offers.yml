@@ -3,11 +3,11 @@ items:
 - uid: com.microsoft.store.partnercenter.models.offers
   id: offers
   children:
-  - com.microsoft.store.partnercenter.models.offers._billing_cycle_type
-  - com.microsoft.store.partnercenter.models.offers._offer
-  - com.microsoft.store.partnercenter.models.offers._offer_category
-  - com.microsoft.store.partnercenter.models.offers._offer_links
-  - com.microsoft.store.partnercenter.models.offers._product
+  - com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  - com.microsoft.store.partnercenter.models.offers.Offer
+  - com.microsoft.store.partnercenter.models.offers.OfferCategory
+  - com.microsoft.store.partnercenter.models.offers.OfferLinks
+  - com.microsoft.store.partnercenter.models.offers.Product
   href: com.microsoft.store.partnercenter.models.offers.yml
   langs:
   - java
@@ -25,53 +25,53 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.offers
 references:
-- uid: com.microsoft.store.partnercenter.models.offers._billing_cycle_type
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType
   parent: com.microsoft.store.partnercenter.models.offers
-  href: com.microsoft.store.partnercenter.models.offers._billing_cycle_type.yml
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
   name: BillingCycleType
   nameWithType: BillingCycleType
   fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType
   type: Enum
-  summary: <p>The way billing is processed for a subscription. </p>
+  summary: "<p>The way billing is processed for a subscription. </p>"
   syntax:
     content: public enum BillingCycleType
-- uid: com.microsoft.store.partnercenter.models.offers._offer
+- uid: com.microsoft.store.partnercenter.models.offers.Offer
   parent: com.microsoft.store.partnercenter.models.offers
-  href: com.microsoft.store.partnercenter.models.offers._offer.yml
+  href: com.microsoft.store.partnercenter.models.offers.Offer.yml
   name: Offer
   nameWithType: Offer
   fullName: com.microsoft.store.partnercenter.models.offers.Offer
   type: Class
-  summary: <p>Represents a form of product availability to customer </p>
+  summary: "<p>Represents a form of product availability to customer </p>"
   syntax:
     content: public class Offer extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.offers._offer_category
+- uid: com.microsoft.store.partnercenter.models.offers.OfferCategory
   parent: com.microsoft.store.partnercenter.models.offers
-  href: com.microsoft.store.partnercenter.models.offers._offer_category.yml
+  href: com.microsoft.store.partnercenter.models.offers.OfferCategory.yml
   name: OfferCategory
   nameWithType: OfferCategory
   fullName: com.microsoft.store.partnercenter.models.offers.OfferCategory
   type: Class
-  summary: <p>Represents offer's category. Also contains the category ranking for priority over other offer categories for the same product line </p>
+  summary: "<p>Represents offer's category. Also contains the category ranking for priority over other offer categories for the same product line </p>"
   syntax:
     content: public class OfferCategory extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.offers._offer_links
+- uid: com.microsoft.store.partnercenter.models.offers.OfferLinks
   parent: com.microsoft.store.partnercenter.models.offers
-  href: com.microsoft.store.partnercenter.models.offers._offer_links.yml
+  href: com.microsoft.store.partnercenter.models.offers.OfferLinks.yml
   name: OfferLinks
   nameWithType: OfferLinks
   fullName: com.microsoft.store.partnercenter.models.offers.OfferLinks
   type: Class
-  summary: <p>Bundles offer links. </p>
+  summary: "<p>Bundles offer links. </p>"
   syntax:
     content: public class OfferLinks extends StandardResourceLinks
-- uid: com.microsoft.store.partnercenter.models.offers._product
+- uid: com.microsoft.store.partnercenter.models.offers.Product
   parent: com.microsoft.store.partnercenter.models.offers
-  href: com.microsoft.store.partnercenter.models.offers._product.yml
+  href: com.microsoft.store.partnercenter.models.offers.Product.yml
   name: Product
   nameWithType: Product
   fullName: com.microsoft.store.partnercenter.models.offers.Product
   type: Class
-  summary: <p>A product tied to an offer. </p>
+  summary: "<p>A product tied to an offer. </p>"
   syntax:
     content: public class Product

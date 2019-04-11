@@ -1,0 +1,395 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection
+  id: IAvailabilityCollection
+  parent: com.microsoft.store.partnercenter.products
+  children:
+  - com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(String)
+  - com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(String)
+  - com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()
+  href: com.microsoft.store.partnercenter.products.IAvailabilityCollection.yml
+  langs:
+  - java
+  name: IAvailabilityCollection
+  nameWithType: IAvailabilityCollection
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/products/IAvailabilityCollection.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/products/IAvailabilityCollection.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.products
+  summary: "<p>Holds operations that can be performed on availabilities. </p>"
+  syntax:
+    content: public interface IAvailabilityCollection extends IPartnerComponent<TripletTuple<String, String, String>>,IEntireEntityCollectionRetrievalOperations<Availability, ResourceCollection<Availability>>,IEntitySelector<String, IAvailability>
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(String)
+  id: byId(String)
+  parent: com.microsoft.store.partnercenter.products.IAvailabilityCollection
+  href: com.microsoft.store.partnercenter.products.IAvailabilityCollection.yml
+  langs:
+  - java
+  name: byId(String availabilityId)
+  nameWithType: IAvailabilityCollection.byId(String availabilityId)
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(String availabilityId)
+  overload: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/products/IAvailabilityCollection.java
+    startLine: 28
+  package: com.microsoft.store.partnercenter.products
+  summary: "<p>Retrieves the operations tied with a specific availability.</p>\r\n<p></p>"
+  syntax:
+    content: public IAvailability byId(String availabilityId)
+    parameters:
+    - id: availabilityId
+      type: "26831127"
+      description: <p>Identifier for the availability. </p>
+    return:
+      type: com.microsoft.store.partnercenter.products.IAvailability
+      description: <p>The availability operations. </p>
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(String)
+  id: byTargetSegment(String)
+  parent: com.microsoft.store.partnercenter.products.IAvailabilityCollection
+  href: com.microsoft.store.partnercenter.products.IAvailabilityCollection.yml
+  langs:
+  - java
+  name: byTargetSegment(String targetSegment)
+  nameWithType: IAvailabilityCollection.byTargetSegment(String targetSegment)
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(String targetSegment)
+  overload: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/products/IAvailabilityCollection.java
+    startLine: 36
+  package: com.microsoft.store.partnercenter.products
+  summary: "<p>Retrieves the operations that can be applied on availabilities filtered by a specific target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public IAvailabilityCollectionByTargetSegment byTargetSegment(String targetSegment)
+    parameters:
+    - id: targetSegment
+      type: "26831127"
+      description: <p>The availability segment filter. </p>
+    return:
+      type: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment
+      description: <p>The availability collection operations by target segment. </p>
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.products.IAvailabilityCollection
+  href: com.microsoft.store.partnercenter.products.IAvailabilityCollection.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: IAvailabilityCollection.get()
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()
+  overload: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/products/IAvailabilityCollection.java
+    startLine: 43
+  package: com.microsoft.store.partnercenter.products
+  summary: "<p>Retrieves all the availabilities for the provided SKU.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Availability> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Availabilitya08ddfce
+      description: <p>The availabilities for the provided SKU. </p>
+  overridden: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId*
+  name: byId
+  nameWithType: IAvailabilityCollection.byId
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId
+  package: com.microsoft.store.partnercenter.products
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment*
+  name: byTargetSegment
+  nameWithType: IAvailabilityCollection.byTargetSegment
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment
+  package: com.microsoft.store.partnercenter.products
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Availabilitya08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.products.Availability
+    name: Availability
+    fullName: com.microsoft.store.partnercenter.models.products.Availability
+    href: com.microsoft.store.partnercenter.models.products.Availability.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get*
+  name: get
+  nameWithType: IAvailabilityCollection.get
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get
+  package: com.microsoft.store.partnercenter.products
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
+  href: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.yml
+  name: byId(TTYpe id)
+  nameWithType: IEntitySelector<TTYpe,TEntity>.byId(TTYpe id)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe, TEntity>.byId(TTYpe id)
+  type: Method
+  summary: "<p>Retrieves the behavior for an entity using the entity's identifier. </p>"
+  syntax:
+    content: public TEntity byId(TTYpe id)
+    parameters:
+    - id: id
+      type: b03fbe7f
+      description: <p>The entity's identifier. </p>
+    return:
+      type: 830f062c
+      description: <p>The entity's behavior. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: IPartnerComponent<TContext>
+  nameWithType: IPartnerComponent<TContext>
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>
+  type: Interface
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponent<TContext>
+    typeParameters:
+    - id: TContext
+      type: 473af9dd
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  type: Interface
+  summary: "<p>A generic interface which represents operations for getting an entire collection of entities. The entity type.The entity collection type. </p>"
+  syntax:
+    content: public interface IEntireEntityCollectionRetrievalOperations<T,TResourceCollection extends ResourceCollection<T>>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+    - id: TResourceCollection
+      type: 5f968003
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.yml
+  name: IEntitySelector<TTYpe,TEntity>
+  nameWithType: IEntitySelector<TTYpe,TEntity>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe,TEntity>
+  type: Interface
+  syntax:
+    content: public interface IEntitySelector<TTYpe,TEntity>
+    typeParameters:
+    - id: TTYpe
+      type: b03fbe7f
+    - id: TEntity
+      type: 830f062c
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations
+  parent: com.microsoft.store.partnercenter.customers.products
+  href: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.yml
+  name: CustomerAvailabilityCollectionOperations
+  nameWithType: CustomerAvailabilityCollectionOperations
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations
+  type: Class
+  summary: "<p>Holds operations that can be performed on products that apply to a given customer. </p>"
+  syntax:
+    content: public class CustomerAvailabilityCollectionOperations extends BasePartnerComponent<TripletTuple<String, String, String>> implements IAvailabilityCollection
+- uid: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.yml
+  name: AvailabilityCollectionOperations
+  nameWithType: AvailabilityCollectionOperations
+  fullName: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations
+  type: Class
+  summary: "<p>Availabilities implementation class </p>"
+  syntax:
+    content: public class AvailabilityCollectionOperations extends BasePartnerComponent<TripletTuple<String, String, String>> implements IAvailabilityCollection
+- uid: com.microsoft.store.partnercenter.products.IAvailability
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.IAvailability.yml
+  name: IAvailability
+  nameWithType: IAvailability
+  fullName: com.microsoft.store.partnercenter.products.IAvailability
+  type: Interface
+  summary: "<p>Holds operations that can be performed on availabilities. </p>"
+  syntax:
+    content: public interface IAvailability extends IPartnerComponent<QuadrupleTuple<String, String, String, String>>,IEntityGetOperations<Availability>
+- uid: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.byId(String)
+  parent: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations
+  href: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.yml
+  name: byId(String availabilityId)
+  nameWithType: AvailabilityCollectionOperations.byId(String availabilityId)
+  fullName: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.byId(String availabilityId)
+  type: Method
+  summary: "<p>Retrieves the operations tied with a specific availability.</p>\r\n<p></p>"
+  syntax:
+    content: public IAvailability byId(String availabilityId)
+    parameters:
+    - id: availabilityId
+      type: "26831127"
+      description: <p>Identifier for the availability. </p>
+    return:
+      type: com.microsoft.store.partnercenter.products.IAvailability
+      description: <p>The availability operations. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.byId(String)
+  parent: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations
+  href: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.yml
+  name: byId(String availabilityId)
+  nameWithType: CustomerAvailabilityCollectionOperations.byId(String availabilityId)
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.byId(String availabilityId)
+  type: Method
+  summary: "<p>Retrieves the operations tied with a specific availability.</p>\r\n<p></p>"
+  syntax:
+    content: public IAvailability byId(String availabilityId)
+    parameters:
+    - id: availabilityId
+      type: "26831127"
+      description: <p>Identifier for the availability. </p>
+    return:
+      type: com.microsoft.store.partnercenter.products.IAvailability
+      description: <p>The availability operations. </p>
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment.yml
+  name: IAvailabilityCollectionByTargetSegment
+  nameWithType: IAvailabilityCollectionByTargetSegment
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment
+  type: Interface
+  summary: "<p>Holds operations that can be performed on availabilities for a specific target segment. </p>"
+  syntax:
+    content: public interface IAvailabilityCollectionByTargetSegment
+- uid: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.byTargetSegment(String)
+  parent: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations
+  href: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.yml
+  name: byTargetSegment(String targetSegment)
+  nameWithType: AvailabilityCollectionOperations.byTargetSegment(String targetSegment)
+  fullName: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.byTargetSegment(String targetSegment)
+  type: Method
+  summary: "<p>Retrieves the operations that can be applied on availabilities filtered by a specific target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public IAvailabilityCollectionByTargetSegment byTargetSegment(String targetSegment)
+    parameters:
+    - id: targetSegment
+      type: "26831127"
+      description: <p>The availability segment filter. </p>
+    return:
+      type: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment
+      description: <p>The availability collection operations by target segment. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.byTargetSegment(String)
+  parent: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations
+  href: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.yml
+  name: byTargetSegment(String targetSegment)
+  nameWithType: CustomerAvailabilityCollectionOperations.byTargetSegment(String targetSegment)
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.byTargetSegment(String targetSegment)
+  type: Method
+  summary: "<p>Retrieves the operations that can be applied on availabilities filtered by a specific target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public IAvailabilityCollectionByTargetSegment byTargetSegment(String targetSegment)
+    parameters:
+    - id: targetSegment
+      type: "26831127"
+      description: <p>The availability segment filter. </p>
+    return:
+      type: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment
+      description: <p>The availability collection operations by target segment. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.models.products.Availability
+  parent: com.microsoft.store.partnercenter.models.products
+  href: com.microsoft.store.partnercenter.models.products.Availability.yml
+  name: Availability
+  nameWithType: Availability
+  fullName: com.microsoft.store.partnercenter.models.products.Availability
+  type: Class
+  summary: "<p>Represents a partner's billing profile. </p>"
+  syntax:
+    content: public class Availability extends ResourceBaseWithLinks<StandardResourceLinks>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: get()
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T, TResourceCollection extends ResourceCollection<T>.get()
+  type: Method
+  summary: "<p>Retrieves all entities.</p>\r\n<p></p>"
+  syntax:
+    content: public TResourceCollection get()
+    return:
+      type: 5f968003
+      description: <p>The entities. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations
+  href: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerAvailabilityCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the availabilities for the provided SKU.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Availability> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Availabilitya08ddfce
+      description: <p>The availabilities for the provided SKU. </p>
+- uid: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations
+  href: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.yml
+  name: get()
+  nameWithType: AvailabilityCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the availabilities for the provided SKU.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Availability> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Availabilitya08ddfce
+      description: <p>The availabilities for the provided SKU. </p>

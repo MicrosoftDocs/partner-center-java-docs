@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.applicationconsents
+  id: applicationconsents
+  children:
+  - com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations
+  - com.microsoft.store.partnercenter.applicationconsents.CustomerApplicationConsentCollectionOperations
+  - com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
+  - com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  href: com.microsoft.store.partnercenter.applicationconsents.yml
+  langs:
+  - java
+  name: com.microsoft.store.partnercenter.applicationconsents
+  nameWithType: com.microsoft.store.partnercenter.applicationconsents
+  fullName: com.microsoft.store.partnercenter.applicationconsents
+  type: Namespace
+  source:
+    remote:
+      path: src/main/java/com/microsoft/store/partnercenter/applicationconsents/ApplicationConsentOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/applicationconsents/ApplicationConsentOperations.java
+    startLine: 6
+  syntax:
+    content: package com.microsoft.store.partnercenter.applicationconsents
+references:
+- uid: com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations
+  parent: com.microsoft.store.partnercenter.applicationconsents
+  href: com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations.yml
+  name: ApplicationConsentOperations
+  nameWithType: ApplicationConsentOperations
+  fullName: com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations
+  type: Class
+  syntax:
+    content: public class ApplicationConsentOperations extends BasePartnerComponent<Tuple<String, String>> implements IApplicationConsent
+- uid: com.microsoft.store.partnercenter.applicationconsents.CustomerApplicationConsentCollectionOperations
+  parent: com.microsoft.store.partnercenter.applicationconsents
+  href: com.microsoft.store.partnercenter.applicationconsents.CustomerApplicationConsentCollectionOperations.yml
+  name: CustomerApplicationConsentCollectionOperations
+  nameWithType: CustomerApplicationConsentCollectionOperations
+  fullName: com.microsoft.store.partnercenter.applicationconsents.CustomerApplicationConsentCollectionOperations
+  type: Class
+  summary: "<p>Implements the operations on an Application consent collection. </p>"
+  syntax:
+    content: public class CustomerApplicationConsentCollectionOperations extends BasePartnerComponent<String> implements ICustomerApplicationConsentCollection
+- uid: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
+  parent: com.microsoft.store.partnercenter.applicationconsents
+  href: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.yml
+  name: IApplicationConsent
+  nameWithType: IApplicationConsent
+  fullName: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
+  type: Interface
+  summary: "<p>Represents an application consent </p>"
+  syntax:
+    content: public interface IApplicationConsent extends IPartnerComponent<Tuple<String, String>>,IEntityDeleteOperations<ApplicationConsent>
+- uid: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  parent: com.microsoft.store.partnercenter.applicationconsents
+  href: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.yml
+  name: ICustomerApplicationConsentCollection
+  nameWithType: ICustomerApplicationConsentCollection
+  fullName: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the ApplicationConsent collection. </p>"
+  syntax:
+    content: public interface ICustomerApplicationConsentCollection extends IPartnerComponentString,IEntitySelector<String, IApplicationConsent>,IEntityCreateOperations<ApplicationConsent, ApplicationConsent>

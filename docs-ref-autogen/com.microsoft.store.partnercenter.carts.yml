@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.store.partnercenter.carts
   id: carts
   children:
-  - com.microsoft.store.partnercenter.carts._cart_collection_operations
-  - com.microsoft.store.partnercenter.carts._cart_operations
-  - com.microsoft.store.partnercenter.carts._i_cart
-  - com.microsoft.store.partnercenter.carts._i_cart_collection
+  - com.microsoft.store.partnercenter.carts.CartCollectionOperations
+  - com.microsoft.store.partnercenter.carts.CartOperations
+  - com.microsoft.store.partnercenter.carts.ICart
+  - com.microsoft.store.partnercenter.carts.ICartCollection
   href: com.microsoft.store.partnercenter.carts.yml
   langs:
   - java
@@ -24,43 +24,43 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.carts
 references:
-- uid: com.microsoft.store.partnercenter.carts._cart_collection_operations
+- uid: com.microsoft.store.partnercenter.carts.CartCollectionOperations
   parent: com.microsoft.store.partnercenter.carts
-  href: com.microsoft.store.partnercenter.carts._cart_collection_operations.yml
+  href: com.microsoft.store.partnercenter.carts.CartCollectionOperations.yml
   name: CartCollectionOperations
   nameWithType: CartCollectionOperations
   fullName: com.microsoft.store.partnercenter.carts.CartCollectionOperations
   type: Class
-  summary: <p>Cart collection operations implementation class. </p>
+  summary: "<p>Cart collection operations implementation class. </p>"
   syntax:
     content: public class CartCollectionOperations extends BasePartnerComponentString implements ICartCollection
-- uid: com.microsoft.store.partnercenter.carts._cart_operations
+- uid: com.microsoft.store.partnercenter.carts.CartOperations
   parent: com.microsoft.store.partnercenter.carts
-  href: com.microsoft.store.partnercenter.carts._cart_operations.yml
+  href: com.microsoft.store.partnercenter.carts.CartOperations.yml
   name: CartOperations
   nameWithType: CartOperations
   fullName: com.microsoft.store.partnercenter.carts.CartOperations
   type: Class
-  summary: <p>Cart collection operations implementation class. </p>
+  summary: "<p>Cart collection operations implementation class. </p>"
   syntax:
     content: public class CartOperations extends BasePartnerComponent<Tuple<String, String>> implements ICart
-- uid: com.microsoft.store.partnercenter.carts._i_cart
+- uid: com.microsoft.store.partnercenter.carts.ICart
   parent: com.microsoft.store.partnercenter.carts
-  href: com.microsoft.store.partnercenter.carts._i_cart.yml
+  href: com.microsoft.store.partnercenter.carts.ICart.yml
   name: ICart
   nameWithType: ICart
   fullName: com.microsoft.store.partnercenter.carts.ICart
   type: Interface
-  summary: <p>Encapsulates a customer cart behavior. </p>
+  summary: "<p>Encapsulates a customer cart behavior. </p>"
   syntax:
     content: public interface ICart extends IPartnerComponent<Tuple<String, String>>,IEntityPutOperations<Cart>,IEntityGetOperations<Cart>
-- uid: com.microsoft.store.partnercenter.carts._i_cart_collection
+- uid: com.microsoft.store.partnercenter.carts.ICartCollection
   parent: com.microsoft.store.partnercenter.carts
-  href: com.microsoft.store.partnercenter.carts._i_cart_collection.yml
+  href: com.microsoft.store.partnercenter.carts.ICartCollection.yml
   name: ICartCollection
   nameWithType: ICartCollection
   fullName: com.microsoft.store.partnercenter.carts.ICartCollection
   type: Interface
-  summary: <p>Encapsulates a customer cart behavior. </p>
+  summary: "<p>Encapsulates a customer cart behavior. </p>"
   syntax:
-    content: public interface ICartCollection extends IPartnerComponentString,IEntityCreateOperations<Cart, Cart>,IEntitySelector<ICart>
+    content: public interface ICartCollection extends IPartnerComponentString,IEntityCreateOperations<Cart, Cart>,IEntitySelector<String, ICart>

@@ -3,18 +3,18 @@ items:
 - uid: com.microsoft.store.partnercenter.profiles
   id: profiles
   children:
-  - com.microsoft.store.partnercenter.profiles._billing_profile_operations
-  - com.microsoft.store.partnercenter.profiles._i_billing_profile
-  - com.microsoft.store.partnercenter.profiles._i_legal_business_profile
-  - com.microsoft.store.partnercenter.profiles._i_mpn_profile
-  - com.microsoft.store.partnercenter.profiles._i_organization_profile
-  - com.microsoft.store.partnercenter.profiles._i_partner_profile_collection
-  - com.microsoft.store.partnercenter.profiles._i_support_profile
-  - com.microsoft.store.partnercenter.profiles._legal_business_profile_operations
-  - com.microsoft.store.partnercenter.profiles._mpn_profile_operations
-  - com.microsoft.store.partnercenter.profiles._organization_profile_operations
-  - com.microsoft.store.partnercenter.profiles._partner_profile_collection_operations
-  - com.microsoft.store.partnercenter.profiles._support_profile_operations
+  - com.microsoft.store.partnercenter.profiles.BillingProfileOperations
+  - com.microsoft.store.partnercenter.profiles.IBillingProfile
+  - com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
+  - com.microsoft.store.partnercenter.profiles.IMpnProfile
+  - com.microsoft.store.partnercenter.profiles.IOrganizationProfile
+  - com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
+  - com.microsoft.store.partnercenter.profiles.ISupportProfile
+  - com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations
+  - com.microsoft.store.partnercenter.profiles.MpnProfileOperations
+  - com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations
+  - com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations
+  - com.microsoft.store.partnercenter.profiles.SupportProfileOperations
   href: com.microsoft.store.partnercenter.profiles.yml
   langs:
   - java
@@ -32,123 +32,123 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.profiles
 references:
-- uid: com.microsoft.store.partnercenter.profiles._billing_profile_operations
+- uid: com.microsoft.store.partnercenter.profiles.BillingProfileOperations
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._billing_profile_operations.yml
+  href: com.microsoft.store.partnercenter.profiles.BillingProfileOperations.yml
   name: BillingProfileOperations
   nameWithType: BillingProfileOperations
   fullName: com.microsoft.store.partnercenter.profiles.BillingProfileOperations
   type: Class
-  summary: <p>The partner billing profile operations implementation. </p>
+  summary: "<p>The partner billing profile operations implementation. </p>"
   syntax:
     content: public class BillingProfileOperations extends BasePartnerComponentString implements IBillingProfile
-- uid: com.microsoft.store.partnercenter.profiles._i_billing_profile
+- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._i_billing_profile.yml
+  href: com.microsoft.store.partnercenter.profiles.IBillingProfile.yml
   name: IBillingProfile
   nameWithType: IBillingProfile
   fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile
   type: Interface
-  summary: <p>Encapsulates behavior of a partner billing profile. </p>
+  summary: "<p>Encapsulates behavior of a partner billing profile. </p>"
   syntax:
     content: public interface IBillingProfile extends IPartnerComponentString,IEntityGetOperations<BillingProfile>,IEntityUpdateOperations<BillingProfile>
-- uid: com.microsoft.store.partnercenter.profiles._i_legal_business_profile
+- uid: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._i_legal_business_profile.yml
+  href: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.yml
   name: ILegalBusinessProfile
   nameWithType: ILegalBusinessProfile
   fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
   type: Interface
-  summary: <p>Encapsulates behavior of a legal business profile. </p>
+  summary: "<p>Encapsulates behavior of a legal business profile. </p>"
   syntax:
     content: public interface ILegalBusinessProfile extends IPartnerComponentString,IEntityGetOperations<LegalBusinessProfile>,IEntityUpdateOperations<LegalBusinessProfile>
-- uid: com.microsoft.store.partnercenter.profiles._i_mpn_profile
+- uid: com.microsoft.store.partnercenter.profiles.IMpnProfile
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._i_mpn_profile.yml
+  href: com.microsoft.store.partnercenter.profiles.IMpnProfile.yml
   name: IMpnProfile
   nameWithType: IMpnProfile
   fullName: com.microsoft.store.partnercenter.profiles.IMpnProfile
   type: Interface
-  summary: <p>Operations for MpnProfile </p>
+  summary: "<p>Operations for MpnProfile </p>"
   syntax:
     content: public interface IMpnProfile extends IPartnerComponentString,IEntityGetOperations<MpnProfile>
-- uid: com.microsoft.store.partnercenter.profiles._i_organization_profile
+- uid: com.microsoft.store.partnercenter.profiles.IOrganizationProfile
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._i_organization_profile.yml
+  href: com.microsoft.store.partnercenter.profiles.IOrganizationProfile.yml
   name: IOrganizationProfile
   nameWithType: IOrganizationProfile
   fullName: com.microsoft.store.partnercenter.profiles.IOrganizationProfile
   type: Interface
-  summary: <p>Encapsulates behavior of a organization profile. </p>
+  summary: "<p>Encapsulates behavior of a organization profile. </p>"
   syntax:
     content: public interface IOrganizationProfile extends IPartnerComponentString,IEntityGetOperations<OrganizationProfile>,IEntityUpdateOperations<OrganizationProfile>
-- uid: com.microsoft.store.partnercenter.profiles._i_partner_profile_collection
+- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._i_partner_profile_collection.yml
+  href: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.yml
   name: IPartnerProfileCollection
   nameWithType: IPartnerProfileCollection
   fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
   type: Interface
-  summary: <p>Represents the behavior of a partner's profiles. </p>
+  summary: "<p>Represents the behavior of a partner's profiles. </p>"
   syntax:
     content: public interface IPartnerProfileCollection extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.profiles._i_support_profile
+- uid: com.microsoft.store.partnercenter.profiles.ISupportProfile
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._i_support_profile.yml
+  href: com.microsoft.store.partnercenter.profiles.ISupportProfile.yml
   name: ISupportProfile
   nameWithType: ISupportProfile
   fullName: com.microsoft.store.partnercenter.profiles.ISupportProfile
   type: Interface
-  summary: <p>Encapsulates behavior of a partner support profile. </p>
+  summary: "<p>Encapsulates behavior of a partner support profile. </p>"
   syntax:
     content: public interface ISupportProfile extends IPartnerComponentString,IEntityGetOperations<SupportProfile>,IEntityUpdateOperations<SupportProfile>
-- uid: com.microsoft.store.partnercenter.profiles._legal_business_profile_operations
+- uid: com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._legal_business_profile_operations.yml
+  href: com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations.yml
   name: LegalBusinessProfileOperations
   nameWithType: LegalBusinessProfileOperations
   fullName: com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations
   type: Class
-  summary: <p>The legal business profile operations implementation. </p>
+  summary: "<p>The legal business profile operations implementation. </p>"
   syntax:
     content: public class LegalBusinessProfileOperations extends BasePartnerComponentString implements ILegalBusinessProfile
-- uid: com.microsoft.store.partnercenter.profiles._mpn_profile_operations
+- uid: com.microsoft.store.partnercenter.profiles.MpnProfileOperations
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._mpn_profile_operations.yml
+  href: com.microsoft.store.partnercenter.profiles.MpnProfileOperations.yml
   name: MpnProfileOperations
   nameWithType: MpnProfileOperations
   fullName: com.microsoft.store.partnercenter.profiles.MpnProfileOperations
   type: Class
-  summary: <p>Class which contains operations for Partner Network Profile </p>
+  summary: "<p>Class which contains operations for Partner Network Profile </p>"
   syntax:
     content: public class MpnProfileOperations extends BasePartnerComponentString implements IMpnProfile
-- uid: com.microsoft.store.partnercenter.profiles._organization_profile_operations
+- uid: com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._organization_profile_operations.yml
+  href: com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations.yml
   name: OrganizationProfileOperations
   nameWithType: OrganizationProfileOperations
   fullName: com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations
   type: Class
-  summary: <p>The organization profile operations implementation. </p>
+  summary: "<p>The organization profile operations implementation. </p>"
   syntax:
     content: public class OrganizationProfileOperations extends BasePartnerComponentString implements IOrganizationProfile
-- uid: com.microsoft.store.partnercenter.profiles._partner_profile_collection_operations
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._partner_profile_collection_operations.yml
+  href: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.yml
   name: PartnerProfileCollectionOperations
   nameWithType: PartnerProfileCollectionOperations
   fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations
   type: Class
-  summary: <p>The partner profile collection operations implementation. </p>
+  summary: "<p>The partner profile collection operations implementation. </p>"
   syntax:
     content: public class PartnerProfileCollectionOperations extends BasePartnerComponentString implements IPartnerProfileCollection
-- uid: com.microsoft.store.partnercenter.profiles._support_profile_operations
+- uid: com.microsoft.store.partnercenter.profiles.SupportProfileOperations
   parent: com.microsoft.store.partnercenter.profiles
-  href: com.microsoft.store.partnercenter.profiles._support_profile_operations.yml
+  href: com.microsoft.store.partnercenter.profiles.SupportProfileOperations.yml
   name: SupportProfileOperations
   nameWithType: SupportProfileOperations
   fullName: com.microsoft.store.partnercenter.profiles.SupportProfileOperations
   type: Class
-  summary: <p>The partner support profile operations implementation. </p>
+  summary: "<p>The partner support profile operations implementation. </p>"
   syntax:
     content: public class SupportProfileOperations extends BasePartnerComponentString implements ISupportProfile

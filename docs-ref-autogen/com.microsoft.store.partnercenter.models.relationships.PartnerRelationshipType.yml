@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
+  id: PartnerRelationshipType
+  parent: com.microsoft.store.partnercenter.models.relationships
+  children:
+  - com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.IS_INDIRECT_CLOUD_SOLUTION_PROVIDER_OF
+  - com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.IS_INDIRECT_RESELLER_OF
+  - com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.PartnerRelationshipType(String)
+  - com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.toString()
+  href: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.yml
+  langs:
+  - java
+  name: PartnerRelationshipType
+  nameWithType: PartnerRelationshipType
+  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/relationships/PartnerRelationshipType.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/relationships/PartnerRelationshipType.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.relationships
+  summary: "<p>The types of relationships between partners for two tier partner scenario. </p>"
+  syntax:
+    content: public enum PartnerRelationshipType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<PartnerRelationshipType>
+- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.IS_INDIRECT_CLOUD_SOLUTION_PROVIDER_OF
+  id: IS_INDIRECT_CLOUD_SOLUTION_PROVIDER_OF
+  parent: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
+  href: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.yml
+  langs:
+  - java
+  name: IS_INDIRECT_CLOUD_SOLUTION_PROVIDER_OF
+  nameWithType: PartnerRelationshipType.IS_INDIRECT_CLOUD_SOLUTION_PROVIDER_OF
+  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.IS_INDIRECT_CLOUD_SOLUTION_PROVIDER_OF
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/relationships/PartnerRelationshipType.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.models.relationships
+  summary: "<p>Is indirect cloud solution provider of. </p>"
+  syntax:
+    content: public IS_INDIRECT_CLOUD_SOLUTION_PROVIDER_OF=("is_indirect_cloud_solution_provider_of")
+- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.IS_INDIRECT_RESELLER_OF
+  id: IS_INDIRECT_RESELLER_OF
+  parent: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
+  href: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.yml
+  langs:
+  - java
+  name: IS_INDIRECT_RESELLER_OF
+  nameWithType: PartnerRelationshipType.IS_INDIRECT_RESELLER_OF
+  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.IS_INDIRECT_RESELLER_OF
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/relationships/PartnerRelationshipType.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.models.relationships
+  summary: "<p>Is indirect reseller of. </p>"
+  syntax:
+    content: public IS_INDIRECT_RESELLER_OF=("is_indirect_reseller_of")
+- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.PartnerRelationshipType(String)
+  id: PartnerRelationshipType(String)
+  parent: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
+  href: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.yml
+  langs:
+  - java
+  name: PartnerRelationshipType(String value)
+  nameWithType: PartnerRelationshipType.PartnerRelationshipType(String value)
+  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.PartnerRelationshipType(String value)
+  overload: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.PartnerRelationshipType*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/relationships/PartnerRelationshipType.java
+    startLine: 27
+  package: com.microsoft.store.partnercenter.models.relationships
+  syntax:
+    content: public PartnerRelationshipType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
+  href: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: PartnerRelationshipType.toString()
+  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.toString()
+  overload: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/relationships/PartnerRelationshipType.java
+    startLine: 39
+  package: com.microsoft.store.partnercenter.models.relationships
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.PartnerRelationshipType*
+  name: PartnerRelationshipType
+  nameWithType: PartnerRelationshipType.PartnerRelationshipType
+  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.PartnerRelationshipType
+  package: com.microsoft.store.partnercenter.models.relationships
+- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.toString*
+  name: toString
+  nameWithType: PartnerRelationshipType.toString
+  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.toString
+  package: com.microsoft.store.partnercenter.models.relationships

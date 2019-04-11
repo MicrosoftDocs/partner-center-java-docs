@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType
+  id: DocumentType
+  parent: com.microsoft.store.partnercenter.models.invoices
+  children:
+  - com.microsoft.store.partnercenter.models.invoices.DocumentType.ADJUSTMENT_NOTE
+  - com.microsoft.store.partnercenter.models.invoices.DocumentType.DocumentType(String)
+  - com.microsoft.store.partnercenter.models.invoices.DocumentType.INVOICE
+  - com.microsoft.store.partnercenter.models.invoices.DocumentType.NONE
+  - com.microsoft.store.partnercenter.models.invoices.DocumentType.toString()
+  - com.microsoft.store.partnercenter.models.invoices.DocumentType.VOID_NOTE
+  href: com.microsoft.store.partnercenter.models.invoices.DocumentType.yml
+  langs:
+  - java
+  name: DocumentType
+  nameWithType: DocumentType
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/invoices/DocumentType.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/DocumentType.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Different providers of billing information. </p>"
+  syntax:
+    content: public enum DocumentType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<DocumentType>
+- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.ADJUSTMENT_NOTE
+  id: ADJUSTMENT_NOTE
+  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
+  href: com.microsoft.store.partnercenter.models.invoices.DocumentType.yml
+  langs:
+  - java
+  name: ADJUSTMENT_NOTE
+  nameWithType: DocumentType.ADJUSTMENT_NOTE
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.ADJUSTMENT_NOTE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/DocumentType.java
+    startLine: 33
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Indicates that document type is an adjustment note. </p>"
+  syntax:
+    content: public ADJUSTMENT_NOTE=("adjustment_note")
+- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.DocumentType(String)
+  id: DocumentType(String)
+  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
+  href: com.microsoft.store.partnercenter.models.invoices.DocumentType.yml
+  langs:
+  - java
+  name: DocumentType(String value)
+  nameWithType: DocumentType.DocumentType(String value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.DocumentType(String value)
+  overload: com.microsoft.store.partnercenter.models.invoices.DocumentType.DocumentType*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/DocumentType.java
+    startLine: 37
+  package: com.microsoft.store.partnercenter.models.invoices
+  syntax:
+    content: public DocumentType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.INVOICE
+  id: INVOICE
+  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
+  href: com.microsoft.store.partnercenter.models.invoices.DocumentType.yml
+  langs:
+  - java
+  name: INVOICE
+  nameWithType: DocumentType.INVOICE
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.INVOICE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/DocumentType.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Indicates that document type is an invoice. </p>"
+  syntax:
+    content: public INVOICE=("invoice")
+- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
+  href: com.microsoft.store.partnercenter.models.invoices.DocumentType.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: DocumentType.NONE
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/DocumentType.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Value if not set. </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
+  href: com.microsoft.store.partnercenter.models.invoices.DocumentType.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: DocumentType.toString()
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString()
+  overload: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/DocumentType.java
+    startLine: 49
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.VOID_NOTE
+  id: VOID_NOTE
+  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
+  href: com.microsoft.store.partnercenter.models.invoices.DocumentType.yml
+  langs:
+  - java
+  name: VOID_NOTE
+  nameWithType: DocumentType.VOID_NOTE
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.VOID_NOTE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/DocumentType.java
+    startLine: 28
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Indicates that document type is an void note. </p>"
+  syntax:
+    content: public VOID_NOTE=("void_note")
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.DocumentType*
+  name: DocumentType
+  nameWithType: DocumentType.DocumentType
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.DocumentType
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString*
+  name: toString
+  nameWithType: DocumentType.toString
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString
+  package: com.microsoft.store.partnercenter.models.invoices

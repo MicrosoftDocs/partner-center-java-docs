@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
+  id: IInvoiceSummaryCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  children:
+  - com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.get()
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.yml
+  langs:
+  - java
+  name: IInvoiceSummaryCollection
+  nameWithType: IInvoiceSummaryCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceSummaryCollection.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceSummaryCollection.java
+    startLine: 16
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Represents all the operations that can be done on invoice summary collection. </p>"
+  syntax:
+    content: public interface IInvoiceSummaryCollection extends IPartnerComponentString,IEntityGetOperations<ResourceCollection<InvoiceSummary>>
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: IInvoiceSummaryCollection.get()
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.get()
+  overload: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceSummaryCollection.java
+    startLine: 22
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Retrieves the invoice summary collection. This operation is currently only supported for user based credentials. </p>"
+  syntax:
+    content: public ResourceCollection<InvoiceSummary> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.invoices.InvoiceSummarya08ddfce
+  overridden: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()
+references:
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.invoices.InvoiceSummarya08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
+    name: InvoiceSummary
+    fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
+    href: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.get*
+  name: get
+  nameWithType: IInvoiceSummaryCollection.get
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.get
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponentString.yml
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+  type: Interface
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.yml
+  name: IEntityGetOperations<T>
+  nameWithType: IEntityGetOperations<T>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>
+  type: Interface
+  summary: "<p>Groups operations for getting a single entity. The entity type. </p>"
+  syntax:
+    content: public interface IEntityGetOperations<T>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.yml
+  name: InvoiceSummaryCollectionOperations
+  nameWithType: InvoiceSummaryCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
+  type: Class
+  summary: "<p>Represents the operations that can be done on invoice summary collection. </p>"
+  syntax:
+    content: public class InvoiceSummaryCollectionOperations
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.yml
+  name: InvoiceSummary
+  nameWithType: InvoiceSummary
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
+  type: Class
+  summary: "<p>Represent the current balance based on Partner's monthly bills. </p>"
+  syntax:
+    content: public class InvoiceSummary
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.yml
+  name: get()
+  nameWithType: IEntityGetOperations<T>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>.get()
+  type: Method
+  summary: "<p>Retrieves an entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T get()
+    return:
+      type: 8ce1ecb9
+      description: <p>The entity. </p>
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.yml
+  name: get()
+  nameWithType: InvoiceSummaryCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves the invoice summary collection. This operation is currently only supported for user based credentials. </p>"
+  syntax:
+    content: public ResourceCollection<InvoiceSummary> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.invoices.InvoiceSummarya08ddfce

@@ -3,10 +3,11 @@ items:
 - uid: com.microsoft.store.partnercenter.utils
   id: utils
   children:
-  - com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer
-  - com.microsoft.store.partnercenter.utils._parameter_validator
-  - com.microsoft.store.partnercenter.utils._string_helper
-  - com.microsoft.store.partnercenter.utils._uri_deserializer
+  - com.microsoft.store.partnercenter.utils.ArtifactDeserializer
+  - com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer
+  - com.microsoft.store.partnercenter.utils.ParameterValidator
+  - com.microsoft.store.partnercenter.utils.StringHelper
+  - com.microsoft.store.partnercenter.utils.UriDeserializer
   href: com.microsoft.store.partnercenter.utils.yml
   langs:
   - java
@@ -16,44 +17,53 @@ items:
   type: Namespace
   source:
     remote:
-      path: src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java
+      path: src/main/java/com/microsoft/store/partnercenter/utils/ArtifactDeserializer.java
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java
+    path: src/main/java/com/microsoft/store/partnercenter/utils/ArtifactDeserializer.java
     startLine: 6
   syntax:
     content: package com.microsoft.store.partnercenter.utils
 references:
-- uid: com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer
+- uid: com.microsoft.store.partnercenter.utils.ArtifactDeserializer
   parent: com.microsoft.store.partnercenter.utils
-  href: com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer.yml
+  href: com.microsoft.store.partnercenter.utils.ArtifactDeserializer.yml
+  name: ArtifactDeserializer
+  nameWithType: ArtifactDeserializer
+  fullName: com.microsoft.store.partnercenter.utils.ArtifactDeserializer
+  type: Class
+  syntax:
+    content: public class ArtifactDeserializer
+- uid: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer
+  parent: com.microsoft.store.partnercenter.utils
+  href: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.yml
   name: InvoiceLineItemDeserializer
   nameWithType: InvoiceLineItemDeserializer
   fullName: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer
   type: Class
   syntax:
     content: public class InvoiceLineItemDeserializer
-- uid: com.microsoft.store.partnercenter.utils._parameter_validator
+- uid: com.microsoft.store.partnercenter.utils.ParameterValidator
   parent: com.microsoft.store.partnercenter.utils
-  href: com.microsoft.store.partnercenter.utils._parameter_validator.yml
+  href: com.microsoft.store.partnercenter.utils.ParameterValidator.yml
   name: ParameterValidator
   nameWithType: ParameterValidator
   fullName: com.microsoft.store.partnercenter.utils.ParameterValidator
   type: Class
   syntax:
     content: public class ParameterValidator
-- uid: com.microsoft.store.partnercenter.utils._string_helper
+- uid: com.microsoft.store.partnercenter.utils.StringHelper
   parent: com.microsoft.store.partnercenter.utils
-  href: com.microsoft.store.partnercenter.utils._string_helper.yml
+  href: com.microsoft.store.partnercenter.utils.StringHelper.yml
   name: StringHelper
   nameWithType: StringHelper
   fullName: com.microsoft.store.partnercenter.utils.StringHelper
   type: Class
   syntax:
     content: public class StringHelper
-- uid: com.microsoft.store.partnercenter.utils._uri_deserializer
+- uid: com.microsoft.store.partnercenter.utils.UriDeserializer
   parent: com.microsoft.store.partnercenter.utils
-  href: com.microsoft.store.partnercenter.utils._uri_deserializer.yml
+  href: com.microsoft.store.partnercenter.utils.UriDeserializer.yml
   name: UriDeserializer
   nameWithType: UriDeserializer
   fullName: com.microsoft.store.partnercenter.utils.UriDeserializer

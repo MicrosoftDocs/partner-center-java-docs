@@ -3,13 +3,13 @@ items:
 - uid: com.microsoft.store.partnercenter.models.carts
   id: carts
   children:
-  - com.microsoft.store.partnercenter.models.carts._cart
-  - com.microsoft.store.partnercenter.models.carts._cart_checkout_result
-  - com.microsoft.store.partnercenter.models.carts._cart_error
-  - com.microsoft.store.partnercenter.models.carts._cart_error_code
-  - com.microsoft.store.partnercenter.models.carts._cart_line_item
-  - com.microsoft.store.partnercenter.models.carts._order_error
-  - com.microsoft.store.partnercenter.models.carts._participant_type
+  - com.microsoft.store.partnercenter.models.carts.Cart
+  - com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
+  - com.microsoft.store.partnercenter.models.carts.CartError
+  - com.microsoft.store.partnercenter.models.carts.CartErrorCode
+  - com.microsoft.store.partnercenter.models.carts.CartLineItem
+  - com.microsoft.store.partnercenter.models.carts.OrderError
+  - com.microsoft.store.partnercenter.models.carts.ParticipantType
   href: com.microsoft.store.partnercenter.models.carts.yml
   langs:
   - java
@@ -27,73 +27,73 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.carts
 references:
-- uid: com.microsoft.store.partnercenter.models.carts._cart
+- uid: com.microsoft.store.partnercenter.models.carts.Cart
   parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts._cart.yml
+  href: com.microsoft.store.partnercenter.models.carts.Cart.yml
   name: Cart
   nameWithType: Cart
   fullName: com.microsoft.store.partnercenter.models.carts.Cart
   type: Class
-  summary: <p>This class represents a model of a cart object. </p>
+  summary: "<p>This class represents a model of a cart object. </p>"
   syntax:
     content: public class Cart extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.carts._cart_checkout_result
+- uid: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
   parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts._cart_checkout_result.yml
+  href: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.yml
   name: CartCheckoutResult
   nameWithType: CartCheckoutResult
   fullName: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
   type: Class
-  summary: <p>Represents a result of a cart checkout. </p>
+  summary: "<p>Represents a result of a cart checkout. </p>"
   syntax:
     content: public class CartCheckoutResult extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.carts._cart_error
+- uid: com.microsoft.store.partnercenter.models.carts.CartError
   parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts._cart_error.yml
+  href: com.microsoft.store.partnercenter.models.carts.CartError.yml
   name: CartError
   nameWithType: CartError
   fullName: com.microsoft.store.partnercenter.models.carts.CartError
   type: Class
-  summary: <p>Represents an error associated to a cart line item. </p>
+  summary: "<p>Represents an error associated to a cart line item. </p>"
   syntax:
     content: public class CartError extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.carts._cart_error_code
+- uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode
   parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts._cart_error_code.yml
+  href: com.microsoft.store.partnercenter.models.carts.CartErrorCode.yml
   name: CartErrorCode
   nameWithType: CartErrorCode
   fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode
   type: Enum
-  summary: <p>Types of cart error code. </p>
+  summary: "<p>Types of cart error code. </p>"
   syntax:
     content: public enum CartErrorCode
-- uid: com.microsoft.store.partnercenter.models.carts._cart_line_item
+- uid: com.microsoft.store.partnercenter.models.carts.CartLineItem
   parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts._cart_line_item.yml
+  href: com.microsoft.store.partnercenter.models.carts.CartLineItem.yml
   name: CartLineItem
   nameWithType: CartLineItem
   fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem
   type: Class
-  summary: <p>Represents a line item on a cart. </p>
+  summary: "<p>Represents a line item on a cart. </p>"
   syntax:
     content: public class CartLineItem
-- uid: com.microsoft.store.partnercenter.models.carts._order_error
+- uid: com.microsoft.store.partnercenter.models.carts.OrderError
   parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts._order_error.yml
+  href: com.microsoft.store.partnercenter.models.carts.OrderError.yml
   name: OrderError
   nameWithType: OrderError
   fullName: com.microsoft.store.partnercenter.models.carts.OrderError
   type: Class
-  summary: <p>Represents an error with an order. </p>
+  summary: "<p>Represents an error with an order. </p>"
   syntax:
     content: public class OrderError extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.carts._participant_type
+- uid: com.microsoft.store.partnercenter.models.carts.ParticipantType
   parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts._participant_type.yml
+  href: com.microsoft.store.partnercenter.models.carts.ParticipantType.yml
   name: ParticipantType
   nameWithType: ParticipantType
   fullName: com.microsoft.store.partnercenter.models.carts.ParticipantType
   type: Enum
-  summary: <p>Types of Participants </p>
+  summary: "<p>Types of Participants </p>"
   syntax:
     content: public enum ParticipantType

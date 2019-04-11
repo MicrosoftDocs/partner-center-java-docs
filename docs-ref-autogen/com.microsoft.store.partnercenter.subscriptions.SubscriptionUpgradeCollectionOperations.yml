@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
+  id: SubscriptionUpgradeCollectionOperations
+  parent: com.microsoft.store.partnercenter.subscriptions
+  children:
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create(Upgrade)
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations(IPartner,String,String)
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.yml
+  langs:
+  - java
+  name: SubscriptionUpgradeCollectionOperations
+  nameWithType: SubscriptionUpgradeCollectionOperations
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>The customer subscription upgrade implementation. </p>"
+  syntax:
+    content: public class SubscriptionUpgradeCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements ISubscriptionUpgradeCollection
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.IPartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create(Upgrade)
+  id: create(Upgrade)
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.yml
+  langs:
+  - java
+  name: create(Upgrade subscriptionUpgrade)
+  nameWithType: SubscriptionUpgradeCollectionOperations.create(Upgrade subscriptionUpgrade)
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create(Upgrade subscriptionUpgrade)
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java
+    startLine: 74
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>Performs a subscription upgrade.</p>\r\n<p></p>"
+  syntax:
+    content: public UpgradeResult create(Upgrade subscriptionUpgrade)
+    parameters:
+    - id: subscriptionUpgrade
+      type: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
+      description: <p>The subscription upgrade to perform. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
+      description: <p>The subscription upgrade result. </p>
+  overridden: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(Upgrade)
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: SubscriptionUpgradeCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java
+    startLine: 56
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>Retrieves all subscription upgrades.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Upgrade> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Upgradea08ddfce
+      description: <p>The subscription upgrades. </p>
+  overridden: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations(IPartner,String,String)
+  id: SubscriptionUpgradeCollectionOperations(IPartner,String,String)
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.yml
+  langs:
+  - java
+  name: SubscriptionUpgradeCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  nameWithType: SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java
+    startLine: 34
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>Initializes a new instance of the SubscriptionUpgradeCollectionOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public SubscriptionUpgradeCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+    - id: customerId
+      type: "26831127"
+      description: <p>The customer Id to whom the subscriptions belong. </p>
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>The subscription Id where the upgrade is occurring. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations*
+  name: SubscriptionUpgradeCollectionOperations
+  nameWithType: SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Upgradea08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
+    name: Upgrade
+    fullName: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
+    href: com.microsoft.store.partnercenter.models.subscriptions.Upgrade.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get*
+  name: get
+  nameWithType: SubscriptionUpgradeCollectionOperations.get
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create*
+  name: create
+  nameWithType: SubscriptionUpgradeCollectionOperations.create
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.yml
+  name: create(T newEntity)
+  nameWithType: IEntityCreateOperations<T,T1>.create(T newEntity)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T, T1>.create(T newEntity)
+  type: Method
+  summary: "<p>Creates a new entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T1 create(T newEntity)
+    parameters:
+    - id: newEntity
+      type: 8ce1ecb9
+      description: <p>The new entity information. </p>
+    return:
+      type: ea9d49ce
+      description: <p>The entity information that was just created. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent<TContext>
+  nameWithType: BasePartnerComponent<TContext>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. All components should inherit from this class. The context object type. </p>"
+  syntax:
+    content: public class BasePartnerComponent<TContext> implements IPartnerComponent<TContext>
+    typeParameters:
+    - id: TContext
+      type: 473af9dd
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.yml
+  name: ISubscriptionUpgradeCollection
+  nameWithType: ISubscriptionUpgradeCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+  type: Interface
+  summary: "<p>This interface defines the upgrade operations available on a customer's subscription. </p>"
+  syntax:
+    content: public interface ISubscriptionUpgradeCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Upgrade, ResourceCollection<Upgrade>>,IEntityCreateOperations<Upgrade, UpgradeResult>
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource> extends ResourceCollectionWithLinks<TResource, StandardResourceCollectionLinks>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  href: com.microsoft.store.partnercenter.models.subscriptions.Upgrade.yml
+  name: Upgrade
+  nameWithType: Upgrade
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
+  type: Class
+  summary: "<p>Represents a form of upgrade for a subscription </p>"
+  syntax:
+    content: public class Upgrade
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.yml
+  name: get()
+  nameWithType: ISubscriptionUpgradeCollection.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()
+  type: Method
+  summary: "<p>Retrieves all subscription upgrades. </p>"
+  syntax:
+    content: public ResourceCollection<Upgrade> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Upgradea08ddfce
+      description: <p>The subscription upgrades. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult.yml
+  name: UpgradeResult
+  nameWithType: UpgradeResult
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
+  type: Class
+  summary: "<p>Represents the result of performing a subscription Upgrade </p>"
+  syntax:
+    content: public class UpgradeResult
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(Upgrade)
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.yml
+  name: create(Upgrade upgrade)
+  nameWithType: ISubscriptionUpgradeCollection.create(Upgrade upgrade)
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(Upgrade upgrade)
+  type: Method
+  summary: "<p>Submits a subscription upgrade.</p>\r\n<p></p>"
+  syntax:
+    content: public UpgradeResult create(Upgrade upgrade)
+    parameters:
+    - id: upgrade
+      type: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
+      description: <p>The new subscription upgrade information. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
+      description: <p>The subscription upgrade results. </p>

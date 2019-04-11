@@ -1,0 +1,810 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  id: IPartnerServiceClient
+  parent: com.microsoft.store.partnercenter.network
+  children:
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient.delete(IPartner,TypeReference<T>,String)
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner,TypeReference<T>,Link)
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner,TypeReference<T>,String)
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner,TypeReference<T>,String,Collection<KeyValuePair<String, String>>)
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner,TypeReference<T>,String,Map<String, String>,Collection<KeyValuePair<String, String>>)
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient.getFileContents(IPartner,String,String)
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient.head(IPartner,TypeReference<T>,String)
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient.patch(IPartner,TypeReference<U>,String,T)
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient.post(IPartner,TypeReference<U>,String,T)
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient.post(IPartner,TypeReference<U>,String,T,Collection<KeyValuePair<String, String>>)
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient.put(IPartner,TypeReference<U>,String,T)
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: IPartnerServiceClient
+  nameWithType: IPartnerServiceClient
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 17
+  package: com.microsoft.store.partnercenter.network
+  syntax:
+    content: public interface IPartnerServiceClient
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.delete(IPartner,TypeReference<T>,String)
+  id: delete(IPartner,TypeReference<T>,String)
+  parent: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: delete(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  nameWithType: IPartnerServiceClient.delete(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.delete(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  overload: com.microsoft.store.partnercenter.network.IPartnerServiceClient.delete*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 148
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Executes a DELETE operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> void delete(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address fo the request. </p>
+    return:
+      type: ebc69c11
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner,TypeReference<T>,Link)
+  id: get(IPartner,TypeReference<T>,Link)
+  parent: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: get(IPartner rootPartnerOperations, TypeReference<T> responseType, Link link)
+  nameWithType: IPartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, Link link)
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, Link link)
+  overload: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 28
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Executes a GET operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> T get(IPartner rootPartnerOperations, TypeReference<T> responseType, Link link)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: link
+      type: com.microsoft.store.partnercenter.models.Link
+      description: <p>A link object that represents the action for accessing the resource. </p>
+    return:
+      type: "34698212"
+      description: <p>The response from the GET operation. </p>
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner,TypeReference<T>,String)
+  id: get(IPartner,TypeReference<T>,String)
+  parent: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  nameWithType: IPartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  overload: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 39
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Executes a GET operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> T get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    return:
+      type: "34698212"
+      description: <p>The response from the GET operation. </p>
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner,TypeReference<T>,String,Collection<KeyValuePair<String, String>>)
+  id: get(IPartner,TypeReference<T>,String,Collection<KeyValuePair<String, String>>)
+  parent: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Collection<KeyValuePair<String, String>> parameters)
+  nameWithType: IPartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Collection<KeyValuePair<String, String>> parameters)
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Collection<KeyValuePair<String, String>> parameters)
+  overload: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 64
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Executes a GET operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> T get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Collection<KeyValuePair<String, String>> parameters)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    - id: parameters
+      type: 12ebb11acom.microsoft.store.partnercenter.models.utils.KeyValuePaire53f4a45
+      description: <p>Parameters to be added to the request. </p>
+    return:
+      type: "34698212"
+      description: <p>The response from the GET operation. </p>
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner,TypeReference<T>,String,Map<String, String>,Collection<KeyValuePair<String, String>>)
+  id: get(IPartner,TypeReference<T>,String,Map<String, String>,Collection<KeyValuePair<String, String>>)
+  parent: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Map<String, String> headers, Collection<KeyValuePair<String, String>> parameters)
+  nameWithType: IPartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Map<String, String> headers, Collection<KeyValuePair<String, String>> parameters)
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Map<String, String> headers, Collection<KeyValuePair<String, String>> parameters)
+  overload: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 52
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Executes a GET operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> T get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Map<String, String> headers, Collection<KeyValuePair<String, String>> parameters)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    - id: headers
+      type: 689c8cb5
+      description: <p>Headers to be added to the request. </p>
+    - id: parameters
+      type: 12ebb11acom.microsoft.store.partnercenter.models.utils.KeyValuePaire53f4a45
+      description: <p>Parameters to be added to the request. </p>
+    return:
+      type: "34698212"
+      description: <p>The response from the GET operation. </p>
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.getFileContents(IPartner,String,String)
+  id: getFileContents(IPartner,String,String)
+  parent: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: getFileContents(IPartner rootPartnerOperations, String relativeUri, String acceptType)
+  nameWithType: IPartnerServiceClient.getFileContents(IPartner rootPartnerOperations, String relativeUri, String acceptType)
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.getFileContents(IPartner rootPartnerOperations, String relativeUri, String acceptType)
+  overload: com.microsoft.store.partnercenter.network.IPartnerServiceClient.getFileContents*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 74
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Executes a file content request against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public InputStream getFileContents(IPartner rootPartnerOperations, String relativeUri, String acceptType)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    - id: acceptType
+      type: "26831127"
+      description: <p>The value for the accept type header. </p>
+    return:
+      type: 76fcb9b7
+      description: <p>The response from the file content request. </p>
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.head(IPartner,TypeReference<T>,String)
+  id: head(IPartner,TypeReference<T>,String)
+  parent: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: head(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  nameWithType: IPartnerServiceClient.head(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.head(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  overload: com.microsoft.store.partnercenter.network.IPartnerServiceClient.head*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 85
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Executes a HEAD operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> T head(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    return:
+      type: "34698212"
+      description: <p>The response from the HEAD operation. </p>
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.patch(IPartner,TypeReference<U>,String,T)
+  id: patch(IPartner,TypeReference<U>,String,T)
+  parent: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: patch(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  nameWithType: IPartnerServiceClient.patch(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.patch(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  overload: com.microsoft.store.partnercenter.network.IPartnerServiceClient.patch*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 98
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Executes a PATCH operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T, U> U patch(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dd5815c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    - id: content
+      type: 8ce1ecb9
+      description: <p>The content for the body of the request. </p>
+    return:
+      type: 9f11cecb
+      description: <p>The response from the PATCH operation. </p>
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.post(IPartner,TypeReference<U>,String,T)
+  id: post(IPartner,TypeReference<U>,String,T)
+  parent: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  nameWithType: IPartnerServiceClient.post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  overload: com.microsoft.store.partnercenter.network.IPartnerServiceClient.post*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 111
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Executes a POST operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T, U> U post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dd5815c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address fo the request. </p>
+    - id: content
+      type: 8ce1ecb9
+      description: <p>The conent for the body of the request. </p>
+    return:
+      type: 9f11cecb
+      description: <p>The response from the POST operation. </p>
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.post(IPartner,TypeReference<U>,String,T,Collection<KeyValuePair<String, String>>)
+  id: post(IPartner,TypeReference<U>,String,T,Collection<KeyValuePair<String, String>>)
+  parent: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content, Collection<KeyValuePair<String, String>> parameters)
+  nameWithType: IPartnerServiceClient.post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content, Collection<KeyValuePair<String, String>> parameters)
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content, Collection<KeyValuePair<String, String>> parameters)
+  overload: com.microsoft.store.partnercenter.network.IPartnerServiceClient.post*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 125
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Executes a POST operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T, U> U post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content, Collection<KeyValuePair<String, String>> parameters)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dd5815c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address fo the request. </p>
+    - id: content
+      type: 8ce1ecb9
+      description: <p>The conent for the body of the request. </p>
+    - id: parameters
+      type: 12ebb11acom.microsoft.store.partnercenter.models.utils.KeyValuePaire53f4a45
+      description: <p>Parameters to be added to the reqest. </p>
+    return:
+      type: 9f11cecb
+      description: <p>The response from the POST operation. </p>
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.put(IPartner,TypeReference<U>,String,T)
+  id: put(IPartner,TypeReference<U>,String,T)
+  parent: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  langs:
+  - java
+  name: put(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  nameWithType: IPartnerServiceClient.put(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.put(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  overload: com.microsoft.store.partnercenter.network.IPartnerServiceClient.put*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceClient.java
+    startLine: 138
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Executes a PUT operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T, U> U put(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dd5815c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address fo the request. </p>
+    - id: content
+      type: 8ce1ecb9
+      description: <p>The conent for the body of the request. </p>
+    return:
+      type: 9f11cecb
+      description: <p>The response from the PUT operation. </p>
+references:
+- uid: 2dc6c36c
+  spec.java:
+  - name: TypeReference<T>
+    fullName: TypeReference<T>
+- uid: "34698212"
+  spec.java:
+  - name: <T> T
+    fullName: <T> T
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get*
+  name: get
+  nameWithType: IPartnerServiceClient.get
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.get
+  package: com.microsoft.store.partnercenter.network
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 689c8cb5
+  spec.java:
+  - name: Map<String, String>
+    fullName: Map<String, String>
+- uid: 12ebb11acom.microsoft.store.partnercenter.models.utils.KeyValuePaire53f4a45
+  spec.java:
+  - name: Collection<
+    fullName: Collection<
+  - uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair
+    name: KeyValuePair
+    fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair
+    href: com.microsoft.store.partnercenter.models.utils.KeyValuePair.yml
+  - name: <String, String>>
+    fullName: <String, String>>
+- uid: 76fcb9b7
+  spec.java:
+  - name: InputStream
+    fullName: InputStream
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.getFileContents*
+  name: getFileContents
+  nameWithType: IPartnerServiceClient.getFileContents
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.getFileContents
+  package: com.microsoft.store.partnercenter.network
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.head*
+  name: head
+  nameWithType: IPartnerServiceClient.head
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.head
+  package: com.microsoft.store.partnercenter.network
+- uid: 2dd5815c
+  spec.java:
+  - name: TypeReference<U>
+    fullName: TypeReference<U>
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
+- uid: 9f11cecb
+  spec.java:
+  - name: <T, U> U
+    fullName: <T, U> U
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.patch*
+  name: patch
+  nameWithType: IPartnerServiceClient.patch
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.patch
+  package: com.microsoft.store.partnercenter.network
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.post*
+  name: post
+  nameWithType: IPartnerServiceClient.post
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.post
+  package: com.microsoft.store.partnercenter.network
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.put*
+  name: put
+  nameWithType: IPartnerServiceClient.put
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.put
+  package: com.microsoft.store.partnercenter.network
+- uid: ebc69c11
+  spec.java:
+  - name: <T> void
+    fullName: <T> void
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient.delete*
+  name: delete
+  nameWithType: IPartnerServiceClient.delete
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient.delete
+  package: com.microsoft.store.partnercenter.network
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  parent: com.microsoft.store.partnercenter.network
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: PartnerServiceClient
+  nameWithType: PartnerServiceClient
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  type: Class
+  syntax:
+    content: public class PartnerServiceClient
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient.get(IPartner,TypeReference<T>,Link)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: get(IPartner rootPartnerOperations, TypeReference<T> responseType, Link link)
+  nameWithType: PartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, Link link)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, Link link)
+  type: Method
+  summary: "<p>Executes a GET operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> T get(IPartner rootPartnerOperations, TypeReference<T> responseType, Link link)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: link
+      type: com.microsoft.store.partnercenter.models.Link
+      description: <p>A link object that represents the action for accessing the resource. </p>
+    return:
+      type: "34698212"
+      description: <p>The response from the GET operation. </p>
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.models.Link
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  name: Link
+  nameWithType: Link
+  fullName: com.microsoft.store.partnercenter.models.Link
+  type: Class
+  summary: "<p>Link represents a URI and the HTTP method which indicates the desired action for accessing the resource. </p>"
+  syntax:
+    content: public class Link
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient.get(IPartner,TypeReference<T>,String)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  nameWithType: PartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  type: Method
+  summary: "<p>Executes a GET operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> T get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    return:
+      type: "34698212"
+      description: <p>The response from the GET operation. </p>
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient.get(IPartner,TypeReference<T>,String,Map<String, String>,Collection<KeyValuePair<String, String>>)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Map<String, String> headers, Collection<KeyValuePair<String, String>> parameters)
+  nameWithType: PartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Map<String, String> headers, Collection<KeyValuePair<String, String>> parameters)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Map<String, String> headers, Collection<KeyValuePair<String, String>> parameters)
+  type: Method
+  summary: "<p>Executes a GET operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> T get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Map<String, String> headers, Collection<KeyValuePair<String, String>> parameters)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    - id: headers
+      type: 689c8cb5
+      description: <p>Headers to be added to the request. </p>
+    - id: parameters
+      type: 12ebb11acom.microsoft.store.partnercenter.models.utils.KeyValuePaire53f4a45
+      description: <p>Parameters to be added to the request. </p>
+    return:
+      type: "34698212"
+      description: <p>The response from the GET operation. </p>
+- uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair
+  parent: com.microsoft.store.partnercenter.models.utils
+  href: com.microsoft.store.partnercenter.models.utils.KeyValuePair.yml
+  name: KeyValuePair<K,V>
+  nameWithType: KeyValuePair<K,V>
+  fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>
+  type: Class
+  syntax:
+    content: public class KeyValuePair<K,V>
+    typeParameters:
+    - id: K
+      type: a1c6f3a5
+    - id: V
+      type: 0a560652
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient.get(IPartner,TypeReference<T>,String,Collection<KeyValuePair<String, String>>)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Collection<KeyValuePair<String, String>> parameters)
+  nameWithType: PartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Collection<KeyValuePair<String, String>> parameters)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient.get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Collection<KeyValuePair<String, String>> parameters)
+  type: Method
+  summary: "<p>Executes a GET operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> T get(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri, Collection<KeyValuePair<String, String>> parameters)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    - id: parameters
+      type: 12ebb11acom.microsoft.store.partnercenter.models.utils.KeyValuePaire53f4a45
+      description: <p>Parameters to be added to the request. </p>
+    return:
+      type: "34698212"
+      description: <p>The response from the GET operation. </p>
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient.getFileContents(IPartner,String,String)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: getFileContents(IPartner rootPartnerOperations, String relativeUri, String acceptType)
+  nameWithType: PartnerServiceClient.getFileContents(IPartner rootPartnerOperations, String relativeUri, String acceptType)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient.getFileContents(IPartner rootPartnerOperations, String relativeUri, String acceptType)
+  type: Method
+  summary: "<p>Executes a file content request against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public InputStream getFileContents(IPartner rootPartnerOperations, String relativeUri, String acceptType)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    - id: acceptType
+      type: "26831127"
+      description: <p>The value for the accept type header. </p>
+    return:
+      type: 76fcb9b7
+      description: <p>The response from the file content request. </p>
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient.head(IPartner,TypeReference<T>,String)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: head(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  nameWithType: PartnerServiceClient.head(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient.head(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  type: Method
+  summary: "<p>Executes a HEAD operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> T head(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    return:
+      type: "34698212"
+      description: <p>The response from the HEAD operation. </p>
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient.patch(IPartner,TypeReference<U>,String,T)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: patch(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  nameWithType: PartnerServiceClient.patch(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient.patch(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  type: Method
+  summary: "<p>Executes a PATCH operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T, U> U patch(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dd5815c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address of the request. </p>
+    - id: content
+      type: 8ce1ecb9
+      description: <p>The content for the body of the request. </p>
+    return:
+      type: 9f11cecb
+      description: <p>The response from the PATCH operation. </p>
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient.post(IPartner,TypeReference<U>,String,T)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  nameWithType: PartnerServiceClient.post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient.post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  type: Method
+  summary: "<p>Executes a POST operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T, U> U post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dd5815c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address fo the request. </p>
+    - id: content
+      type: 8ce1ecb9
+      description: <p>The conent for the body of the request. </p>
+    return:
+      type: 9f11cecb
+      description: <p>The response from the POST operation. </p>
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient.post(IPartner,TypeReference<U>,String,T,Collection<KeyValuePair<String, String>>)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content, Collection<KeyValuePair<String, String>> parameters)
+  nameWithType: PartnerServiceClient.post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content, Collection<KeyValuePair<String, String>> parameters)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient.post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content, Collection<KeyValuePair<String, String>> parameters)
+  type: Method
+  summary: "<p>Executes a POST operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T, U> U post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content, Collection<KeyValuePair<String, String>> parameters)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dd5815c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address fo the request. </p>
+    - id: content
+      type: 8ce1ecb9
+      description: <p>The conent for the body of the request. </p>
+    - id: parameters
+      type: 12ebb11acom.microsoft.store.partnercenter.models.utils.KeyValuePaire53f4a45
+      description: <p>Parameters to be added to the reqest. </p>
+    return:
+      type: 9f11cecb
+      description: <p>The response from the POST operation. </p>
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient.put(IPartner,TypeReference<U>,String,T)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: put(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  nameWithType: PartnerServiceClient.put(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient.put(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+  type: Method
+  summary: "<p>Executes a PUT operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T, U> U put(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dd5815c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address fo the request. </p>
+    - id: content
+      type: 8ce1ecb9
+      description: <p>The conent for the body of the request. </p>
+    return:
+      type: 9f11cecb
+      description: <p>The response from the POST operation. </p>
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient.delete(IPartner,TypeReference<T>,String)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceClient
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: delete(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  nameWithType: PartnerServiceClient.delete(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient.delete(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+  type: Method
+  summary: "<p>Executes a DELETE operation against the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public <T> void delete(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>An instance of the partner operations. </p>
+    - id: responseType
+      type: 2dc6c36c
+      description: <p>The type of object to be returned. </p>
+    - id: relativeUri
+      type: "26831127"
+      description: <p>The relative address fo the request. </p>
+    return:
+      type: ebc69c11

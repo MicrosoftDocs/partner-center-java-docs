@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.domains.IDomain
+  id: IDomain
+  parent: com.microsoft.store.partnercenter.domains
+  children:
+  - com.microsoft.store.partnercenter.domains.IDomain.exists()
+  href: com.microsoft.store.partnercenter.domains.IDomain.yml
+  langs:
+  - java
+  name: IDomain
+  nameWithType: IDomain
+  fullName: com.microsoft.store.partnercenter.domains.IDomain
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/domains/IDomain.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/domains/IDomain.java
+    startLine: 11
+  package: com.microsoft.store.partnercenter.domains
+  syntax:
+    content: public interface IDomain extends IPartnerComponentString,IEntityExistsOperations
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.domains.IDomain.exists()
+  id: exists()
+  parent: com.microsoft.store.partnercenter.domains.IDomain
+  href: com.microsoft.store.partnercenter.domains.IDomain.yml
+  langs:
+  - java
+  name: exists()
+  nameWithType: IDomain.exists()
+  fullName: com.microsoft.store.partnercenter.domains.IDomain.exists()
+  overload: com.microsoft.store.partnercenter.domains.IDomain.exists*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/domains/IDomain.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.domains
+  summary: "<p>Checks if the domain is available or not.</p>\r\n<p></p>"
+  syntax:
+    content: public boolean exists()
+    return:
+      type: 4fc6e284
+      description: <p>true if the domain exists, false otherwise. </p>
+  overridden: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists()
+references:
+- uid: 4fc6e284
+  spec.java:
+  - name: boolean
+    fullName: boolean
+- uid: com.microsoft.store.partnercenter.domains.IDomain.exists*
+  name: exists
+  nameWithType: IDomain.exists
+  fullName: com.microsoft.store.partnercenter.domains.IDomain.exists
+  package: com.microsoft.store.partnercenter.domains
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponentString.yml
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+  type: Interface
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.yml
+  name: IEntityExistsOperations
+  nameWithType: IEntityExistsOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
+  type: Interface
+  syntax:
+    content: public interface IEntityExistsOperations
+- uid: com.microsoft.store.partnercenter.domains.DomainOperations
+  parent: com.microsoft.store.partnercenter.domains
+  href: com.microsoft.store.partnercenter.domains.DomainOperations.yml
+  name: DomainOperations
+  nameWithType: DomainOperations
+  fullName: com.microsoft.store.partnercenter.domains.DomainOperations
+  type: Class
+  syntax:
+    content: public class DomainOperations extends BasePartnerComponentString implements IDomain
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.yml
+  name: exists()
+  nameWithType: IEntityExistsOperations.exists()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists()
+  type: Method
+  summary: "<p>Checks if an entity exists or not.</p>\r\n<p></p>"
+  syntax:
+    content: public boolean exists()
+    return:
+      type: 4fc6e284
+      description: <p>A value indicating whether the entity exists or not. </p>
+- uid: com.microsoft.store.partnercenter.domains.DomainOperations.exists()
+  parent: com.microsoft.store.partnercenter.domains.DomainOperations
+  href: com.microsoft.store.partnercenter.domains.DomainOperations.yml
+  name: exists()
+  nameWithType: DomainOperations.exists()
+  fullName: com.microsoft.store.partnercenter.domains.DomainOperations.exists()
+  type: Method
+  summary: "<p>Checks the availability of a domain.</p>\r\n<p></p>"
+  syntax:
+    content: public boolean exists()
+    return:
+      type: 4fc6e284
+      description: <p>A boolean value to indicate if the domain is available. </p>

@@ -3,14 +3,14 @@ items:
 - uid: com.microsoft.store.partnercenter.models.licenses
   id: licenses
   children:
-  - com.microsoft.store.partnercenter.models.licenses._license
-  - com.microsoft.store.partnercenter.models.licenses._license_assignment
-  - com.microsoft.store.partnercenter.models.licenses._license_group_id
-  - com.microsoft.store.partnercenter.models.licenses._license_update
-  - com.microsoft.store.partnercenter.models.licenses._license_warning
-  - com.microsoft.store.partnercenter.models.licenses._product_sku
-  - com.microsoft.store.partnercenter.models.licenses._service_plan
-  - com.microsoft.store.partnercenter.models.licenses._subscribed_sku
+  - com.microsoft.store.partnercenter.models.licenses.License
+  - com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
+  - com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
+  - com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
+  - com.microsoft.store.partnercenter.models.licenses.LicenseWarning
+  - com.microsoft.store.partnercenter.models.licenses.ProductSku
+  - com.microsoft.store.partnercenter.models.licenses.ServicePlan
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   href: com.microsoft.store.partnercenter.models.licenses.yml
   langs:
   - java
@@ -28,82 +28,82 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.licenses
 references:
-- uid: com.microsoft.store.partnercenter.models.licenses._license
+- uid: com.microsoft.store.partnercenter.models.licenses.License
   parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses._license.yml
+  href: com.microsoft.store.partnercenter.models.licenses.License.yml
   name: License
   nameWithType: License
   fullName: com.microsoft.store.partnercenter.models.licenses.License
   type: Class
-  summary: <p>Model for user licenses assigned to a user. </p>
+  summary: "<p>Model for user licenses assigned to a user. </p>"
   syntax:
     content: public class License extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.licenses._license_assignment
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
   parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses._license_assignment.yml
+  href: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.yml
   name: LicenseAssignment
   nameWithType: LicenseAssignment
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
   type: Class
-  summary: <p>Model for licenses and service plans to be assigned to a user. </p>
+  summary: "<p>Model for licenses and service plans to be assigned to a user. </p>"
   syntax:
     content: public class LicenseAssignment
-- uid: com.microsoft.store.partnercenter.models.licenses._license_group_id
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
   parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses._license_group_id.yml
+  href: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.yml
   name: LicenseGroupId
   nameWithType: LicenseGroupId
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
   type: Enum
-  summary: <p>License Group Id. </p>
+  summary: "<p>License Group Id. </p>"
   syntax:
     content: public enum LicenseGroupId
-- uid: com.microsoft.store.partnercenter.models.licenses._license_update
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
   parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses._license_update.yml
+  href: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.yml
   name: LicenseUpdate
   nameWithType: LicenseUpdate
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
   type: Class
-  summary: <p>Model for assigning and removing licenses to user. </p>
+  summary: "<p>Model for assigning and removing licenses to user. </p>"
   syntax:
     content: public class LicenseUpdate extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.licenses._license_warning
+- uid: com.microsoft.store.partnercenter.models.licenses.LicenseWarning
   parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses._license_warning.yml
+  href: com.microsoft.store.partnercenter.models.licenses.LicenseWarning.yml
   name: LicenseWarning
   nameWithType: LicenseWarning
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseWarning
   type: Class
-  summary: <p>Model for license warnings. </p>
+  summary: "<p>Model for license warnings. </p>"
   syntax:
     content: public class LicenseWarning
-- uid: com.microsoft.store.partnercenter.models.licenses._product_sku
+- uid: com.microsoft.store.partnercenter.models.licenses.ProductSku
   parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses._product_sku.yml
+  href: com.microsoft.store.partnercenter.models.licenses.ProductSku.yml
   name: ProductSku
   nameWithType: ProductSku
   fullName: com.microsoft.store.partnercenter.models.licenses.ProductSku
   type: Class
-  summary: <p>Model for product details. </p>
+  summary: "<p>Model for product details. </p>"
   syntax:
     content: public class ProductSku
-- uid: com.microsoft.store.partnercenter.models.licenses._service_plan
+- uid: com.microsoft.store.partnercenter.models.licenses.ServicePlan
   parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses._service_plan.yml
+  href: com.microsoft.store.partnercenter.models.licenses.ServicePlan.yml
   name: ServicePlan
   nameWithType: ServicePlan
   fullName: com.microsoft.store.partnercenter.models.licenses.ServicePlan
   type: Class
   syntax:
     content: public class ServicePlan
-- uid: com.microsoft.store.partnercenter.models.licenses._subscribed_sku
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses._subscribed_sku.yml
+  href: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.yml
   name: SubscribedSku
   nameWithType: SubscribedSku
   fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   type: Class
-  summary: <p>Model for subscribed products owned by a tenant. </p>
+  summary: "<p>Model for subscribed products owned by a tenant. </p>"
   syntax:
     content: public class SubscribedSku extends ResourceBase

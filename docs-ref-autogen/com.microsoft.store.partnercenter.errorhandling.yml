@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.store.partnercenter.errorhandling
   id: errorhandling
   children:
-  - com.microsoft.store.partnercenter.errorhandling._default_partner_service_error_handler
-  - com.microsoft.store.partnercenter.errorhandling._i_failed_partner_service_response_handler
+  - com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler
+  - com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
   href: com.microsoft.store.partnercenter.errorhandling.yml
   langs:
   - java
@@ -22,23 +22,23 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.errorhandling
 references:
-- uid: com.microsoft.store.partnercenter.errorhandling._default_partner_service_error_handler
+- uid: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler
   parent: com.microsoft.store.partnercenter.errorhandling
-  href: com.microsoft.store.partnercenter.errorhandling._default_partner_service_error_handler.yml
+  href: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.yml
   name: DefaultPartnerServiceErrorHandler
   nameWithType: DefaultPartnerServiceErrorHandler
   fullName: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler
   type: Class
-  summary: <p>The default handling policy for failed partner service responses. </p>
+  summary: "<p>The default handling policy for failed partner service responses. </p>"
   syntax:
     content: public class DefaultPartnerServiceErrorHandler implements IFailedPartnerServiceResponseHandler
-- uid: com.microsoft.store.partnercenter.errorhandling._i_failed_partner_service_response_handler
+- uid: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
   parent: com.microsoft.store.partnercenter.errorhandling
-  href: com.microsoft.store.partnercenter.errorhandling._i_failed_partner_service_response_handler.yml
+  href: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.yml
   name: IFailedPartnerServiceResponseHandler
   nameWithType: IFailedPartnerServiceResponseHandler
   fullName: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
   type: Interface
-  summary: <p>Defines behavior for handling non successful responses from the partner service. </p>
+  summary: "<p>Defines behavior for handling non successful responses from the partner service. </p>"
   syntax:
     content: public interface IFailedPartnerServiceResponseHandler

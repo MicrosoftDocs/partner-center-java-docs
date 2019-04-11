@@ -3,12 +3,12 @@ items:
 - uid: com.microsoft.store.partnercenter.models.customers
   id: customers
   children:
-  - com.microsoft.store.partnercenter.models.customers._customer
-  - com.microsoft.store.partnercenter.models.customers._customer_billing_profile
-  - com.microsoft.store.partnercenter.models.customers._customer_company_profile
-  - com.microsoft.store.partnercenter.models.customers._customer_partner_relationship
-  - com.microsoft.store.partnercenter.models.customers._customer_qualification
-  - com.microsoft.store.partnercenter.models.customers._customer_search_field
+  - com.microsoft.store.partnercenter.models.customers.Customer
+  - com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile
+  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
+  - com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
+  - com.microsoft.store.partnercenter.models.customers.CustomerQualification
+  - com.microsoft.store.partnercenter.models.customers.CustomerSearchField
   href: com.microsoft.store.partnercenter.models.customers.yml
   langs:
   - java
@@ -26,62 +26,62 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.customers
 references:
-- uid: com.microsoft.store.partnercenter.models.customers._customer
+- uid: com.microsoft.store.partnercenter.models.customers.Customer
   parent: com.microsoft.store.partnercenter.models.customers
-  href: com.microsoft.store.partnercenter.models.customers._customer.yml
+  href: com.microsoft.store.partnercenter.models.customers.Customer.yml
   name: Customer
   nameWithType: Customer
   fullName: com.microsoft.store.partnercenter.models.customers.Customer
   type: Class
-  summary: <p>Base customer profile for both Company, Billing profiles </p>
+  summary: "<p>Base customer profile for both Company, Billing profiles </p>"
   syntax:
     content: public class Customer extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.customers._customer_billing_profile
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile
   parent: com.microsoft.store.partnercenter.models.customers
-  href: com.microsoft.store.partnercenter.models.customers._customer_billing_profile.yml
+  href: com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile.yml
   name: CustomerBillingProfile
   nameWithType: CustomerBillingProfile
   fullName: com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile
   type: Class
-  summary: <p>Customer billing profile </p>
+  summary: "<p>Customer billing profile </p>"
   syntax:
     content: public class CustomerBillingProfile extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
   parent: com.microsoft.store.partnercenter.models.customers
-  href: com.microsoft.store.partnercenter.models.customers._customer_company_profile.yml
+  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
   name: CustomerCompanyProfile
   nameWithType: CustomerCompanyProfile
   fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
   type: Class
-  summary: <p>Customer company profile </p>
+  summary: "<p>Customer company profile </p>"
   syntax:
     content: public class CustomerCompanyProfile extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.customers._customer_partner_relationship
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
   parent: com.microsoft.store.partnercenter.models.customers
-  href: com.microsoft.store.partnercenter.models.customers._customer_partner_relationship.yml
+  href: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.yml
   name: CustomerPartnerRelationship
   nameWithType: CustomerPartnerRelationship
   fullName: com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship
   type: Enum
   syntax:
     content: public enum CustomerPartnerRelationship
-- uid: com.microsoft.store.partnercenter.models.customers._customer_qualification
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerQualification
   parent: com.microsoft.store.partnercenter.models.customers
-  href: com.microsoft.store.partnercenter.models.customers._customer_qualification.yml
+  href: com.microsoft.store.partnercenter.models.customers.CustomerQualification.yml
   name: CustomerQualification
   nameWithType: CustomerQualification
   fullName: com.microsoft.store.partnercenter.models.customers.CustomerQualification
   type: Enum
-  summary: <p>When a partner creates a new customer by default the customer is assigned "CustomerQualification.None". If the partner validates that the customer belongs to Education segment they can set the qualification of the Customer to "CustomerQualification.Education". This operation is irreversible and the partner will not be allowed to override the customer qualification once set. </p>
+  summary: "<p>When a partner creates a new customer by default the customer is assigned \"CustomerQualification.None\". If the partner validates that the customer belongs to Education segment they can set the qualification of the Customer to \"CustomerQualification.Education\". This operation is irreversible and the partner will not be allowed to override the customer qualification once set. </p>"
   syntax:
     content: public enum CustomerQualification
-- uid: com.microsoft.store.partnercenter.models.customers._customer_search_field
+- uid: com.microsoft.store.partnercenter.models.customers.CustomerSearchField
   parent: com.microsoft.store.partnercenter.models.customers
-  href: com.microsoft.store.partnercenter.models.customers._customer_search_field.yml
+  href: com.microsoft.store.partnercenter.models.customers.CustomerSearchField.yml
   name: CustomerSearchField
   nameWithType: CustomerSearchField
   fullName: com.microsoft.store.partnercenter.models.customers.CustomerSearchField
   type: Enum
-  summary: <p>List of search fields for customer search </p>
+  summary: "<p>List of search fields for customer search </p>"
   syntax:
     content: public enum CustomerSearchField

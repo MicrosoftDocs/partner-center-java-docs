@@ -1,0 +1,420 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
+  id: DevicesBatchCollectionOperations
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  children:
+  - com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId(String)
+  - com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create(DeviceBatchCreationRequest)
+  - com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations(IPartner,String)
+  - com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get()
+  href: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.yml
+  langs:
+  - java
+  name: DevicesBatchCollectionOperations
+  nameWithType: DevicesBatchCollectionOperations
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchCollectionOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchCollectionOperations.java
+    startLine: 24
+  package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: "<p>Implements operations that apply to devices batch collection. </p>"
+  syntax:
+    content: public class DevicesBatchCollectionOperations extends BasePartnerComponentString implements IDevicesBatchCollection
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)
+  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId(String)
+  id: byId(String)
+  parent: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
+  href: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.yml
+  langs:
+  - java
+  name: byId(String deviceBatchId)
+  nameWithType: DevicesBatchCollectionOperations.byId(String deviceBatchId)
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId(String deviceBatchId)
+  overload: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchCollectionOperations.java
+    startLine: 48
+  package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: "<p>Retrieves a specific customer devices batch behavior.</p>\r\n<p></p>"
+  syntax:
+    content: public IDevicesBatch byId(String deviceBatchId)
+    parameters:
+    - id: deviceBatchId
+      type: "26831127"
+      description: <p>The devices batch identifier. </p>
+    return:
+      type: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
+      description: <p>The devices batch behavior. </p>
+  overridden: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(String)
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create(DeviceBatchCreationRequest)
+  id: create(DeviceBatchCreationRequest)
+  parent: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
+  href: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.yml
+  langs:
+  - java
+  name: create(DeviceBatchCreationRequest newDeviceBatch)
+  nameWithType: DevicesBatchCollectionOperations.create(DeviceBatchCreationRequest newDeviceBatch)
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create(DeviceBatchCreationRequest newDeviceBatch)
+  overload: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchCollectionOperations.java
+    startLine: 59
+  package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: "<p>Creates a new devices batch along with the devices.</p>\r\n<p></p>"
+  syntax:
+    content: public String create(DeviceBatchCreationRequest newDeviceBatch)
+    parameters:
+    - id: newDeviceBatch
+      type: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest
+      description: <p>The new devices batch. </p>
+    return:
+      type: "26831127"
+      description: <p>The location which indicates the URL of the API to query for status of the create request. </p>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations(IPartner,String)
+  id: DevicesBatchCollectionOperations(IPartner,String)
+  parent: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
+  href: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.yml
+  langs:
+  - java
+  name: DevicesBatchCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  nameWithType: DevicesBatchCollectionOperations.DevicesBatchCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  overload: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchCollectionOperations.java
+    startLine: 34
+  package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: "<p>Initializes a new instance of the DevicesBatchOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public DevicesBatchCollectionOperations(IPartner rootPartnerOperations, String customerId)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+    - id: customerId
+      type: "26831127"
+      description: <p>Identifier for the customer. </p>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
+  href: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: DevicesBatchCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get()
+  overload: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchCollectionOperations.java
+    startLine: 77
+  package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: "<p>Retrieves all devices batches.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<DeviceBatch> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatcha08ddfce
+      description: <p>All of the device batches. </p>
+  overridden: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations*
+  name: DevicesBatchCollectionOperations
+  nameWithType: DevicesBatchCollectionOperations.DevicesBatchCollectionOperations
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations
+  package: com.microsoft.store.partnercenter.devicesdeployment
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId*
+  name: byId
+  nameWithType: DevicesBatchCollectionOperations.byId
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId
+  package: com.microsoft.store.partnercenter.devicesdeployment
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create*
+  name: create
+  nameWithType: DevicesBatchCollectionOperations.create
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create
+  package: com.microsoft.store.partnercenter.devicesdeployment
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatcha08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
+    name: DeviceBatch
+    fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
+    href: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get*
+  name: get
+  nameWithType: DevicesBatchCollectionOperations.get
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get
+  package: com.microsoft.store.partnercenter.devicesdeployment
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: "26831127"
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
+  href: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.yml
+  name: byId(TTYpe id)
+  nameWithType: IEntitySelector<TTYpe,TEntity>.byId(TTYpe id)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe, TEntity>.byId(TTYpe id)
+  type: Method
+  summary: "<p>Retrieves the behavior for an entity using the entity's identifier. </p>"
+  syntax:
+    content: public TEntity byId(TTYpe id)
+    parameters:
+    - id: id
+      type: b03fbe7f
+      description: <p>The entity's identifier. </p>
+    return:
+      type: 830f062c
+      description: <p>The entity's behavior. </p>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.yml
+  name: create(T newEntity)
+  nameWithType: IEntityCreateOperations<T,T1>.create(T newEntity)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T, T1>.create(T newEntity)
+  type: Method
+  summary: "<p>Creates a new entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T1 create(T newEntity)
+    parameters:
+    - id: newEntity
+      type: 8ce1ecb9
+      description: <p>The new entity information. </p>
+    return:
+      type: ea9d49ce
+      description: <p>The entity information that was just created. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. The context is string type by default. </p>"
+  syntax:
+    content: public class BasePartnerComponentString extends BasePartnerComponent<String>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.yml
+  name: IDevicesBatchCollection
+  nameWithType: IDevicesBatchCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's devices batches. </p>"
+  syntax:
+    content: public interface IDevicesBatchCollection
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch.yml
+  name: IDevicesBatch
+  nameWithType: IDevicesBatch
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's devices batches. </p>"
+  syntax:
+    content: public interface IDevicesBatch
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(String)
+  parent: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.yml
+  name: byId(String deviceBatchId)
+  nameWithType: IDevicesBatchCollection.byId(String deviceBatchId)
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(String deviceBatchId)
+  type: Method
+  summary: "<p>Retrieves a specific customer devices batch behavior.</p>\r\n<p></p>"
+  syntax:
+    content: public IDevicesBatch byId(String deviceBatchId)
+    parameters:
+    - id: deviceBatchId
+      type: "26831127"
+      description: <p>The devices batch id </p>
+    return:
+      type: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
+      description: <p>The devices batch behavior. </p>
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.yml
+  name: DeviceBatchCreationRequest
+  nameWithType: DeviceBatchCreationRequest
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest
+  type: Class
+  summary: "<p>Represents a devices batch creation model. </p>"
+  syntax:
+    content: public class DeviceBatchCreationRequest extends ResourceBase
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch.yml
+  name: DeviceBatch
+  nameWithType: DeviceBatch
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
+  type: Class
+  summary: "<p>Represents a devices batch associated with a customer. </p>"
+  syntax:
+    content: public class DeviceBatch extends StandardResourceLinks
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()
+  parent: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.yml
+  name: get()
+  nameWithType: IDevicesBatchCollection.get()
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()
+  type: Method
+  summary: "<p>Retrieves all devices batches.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<DeviceBatch> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatcha08ddfce
+      description: <p>All of the device batches. </p>

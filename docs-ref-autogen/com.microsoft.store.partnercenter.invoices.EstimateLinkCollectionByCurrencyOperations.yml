@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations
+  id: EstimateLinkCollectionByCurrencyOperations
+  parent: com.microsoft.store.partnercenter.invoices
+  children:
+  - com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.EstimateLinkCollectionByCurrencyOperations(IPartner,String)
+  - com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.get()
+  href: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.yml
+  langs:
+  - java
+  name: EstimateLinkCollectionByCurrencyOperations
+  nameWithType: EstimateLinkCollectionByCurrencyOperations
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/invoices/EstimateLinkCollectionByCurrencyOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/EstimateLinkCollectionByCurrencyOperations.java
+    startLine: 22
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Represents the operations available on an estimate link collection by currency. </p>"
+  syntax:
+    content: public class EstimateLinkCollectionByCurrencyOperations extends BasePartnerComponentString implements IEstimateLinkCollectionByCurrency
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.EstimateLinkCollectionByCurrencyOperations(IPartner,String)
+  id: EstimateLinkCollectionByCurrencyOperations(IPartner,String)
+  parent: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations
+  href: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.yml
+  langs:
+  - java
+  name: EstimateLinkCollectionByCurrencyOperations(IPartner rootPartnerOperations, String currencyCode)
+  nameWithType: EstimateLinkCollectionByCurrencyOperations.EstimateLinkCollectionByCurrencyOperations(IPartner rootPartnerOperations, String currencyCode)
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.EstimateLinkCollectionByCurrencyOperations(IPartner rootPartnerOperations, String currencyCode)
+  overload: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.EstimateLinkCollectionByCurrencyOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/EstimateLinkCollectionByCurrencyOperations.java
+    startLine: 32
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Initializes a new instance of the EstimateLinkCollectionByCurrencyOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public EstimateLinkCollectionByCurrencyOperations(IPartner rootPartnerOperations, String currencyCode)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+    - id: currencyCode
+      type: "26831127"
+      description: <p>The currency code. </p>
+- uid: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations
+  href: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: EstimateLinkCollectionByCurrencyOperations.get()
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.get()
+  overload: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/EstimateLinkCollectionByCurrencyOperations.java
+    startLine: 46
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Gets the estimate link resource collection.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<EstimateLink> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.invoices.EstimateLinka08ddfce
+      description: <p>The estimate link resource collection </p>
+  overridden: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.EstimateLinkCollectionByCurrencyOperations*
+  name: EstimateLinkCollectionByCurrencyOperations
+  nameWithType: EstimateLinkCollectionByCurrencyOperations.EstimateLinkCollectionByCurrencyOperations
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.EstimateLinkCollectionByCurrencyOperations
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.invoices.EstimateLinka08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink
+    name: EstimateLink
+    fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink
+    href: com.microsoft.store.partnercenter.models.invoices.EstimateLink.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.get*
+  name: get
+  nameWithType: EstimateLinkCollectionByCurrencyOperations.get
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.get
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: "26831127"
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. The context is string type by default. </p>"
+  syntax:
+    content: public class BasePartnerComponentString extends BasePartnerComponent<String>
+- uid: com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency.yml
+  name: IEstimateLinkCollectionByCurrency
+  nameWithType: IEstimateLinkCollectionByCurrency
+  fullName: com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency
+  type: Interface
+  summary: "<p>Holds operations that can be performed on estimate link collection that belong to a given currency. </p>"
+  syntax:
+    content: public interface IEstimateLinkCollectionByCurrency
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.EstimateLink.yml
+  name: EstimateLink
+  nameWithType: EstimateLink
+  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink
+  type: Class
+  summary: "<p>Represents a URI and the HTTP method which indicates the desired action for accessing the resource. </p>"
+  syntax:
+    content: public class EstimateLink
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.yml
+  name: get()
+  nameWithType: IEntityGetOperations<T>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>.get()
+  type: Method
+  summary: "<p>Retrieves an entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T get()
+    return:
+      type: 8ce1ecb9
+      description: <p>The entity. </p>

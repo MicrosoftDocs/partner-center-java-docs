@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+  id: IEntityCreateOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  children:
+  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.yml
+  langs:
+  - java
+  name: IEntityCreateOperations<T,T1>
+  nameWithType: IEntityCreateOperations<T,T1>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T,T1>
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntityCreateOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntityCreateOperations.java
+    startLine: 11
+  package: com.microsoft.store.partnercenter.genericoperations
+  summary: "<p>Groups operations for creating a single entity. The entity type request.The entity type response. </p>"
+  syntax:
+    content: public interface IEntityCreateOperations<T,T1>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+    - id: T1
+      type: ea9d49ce
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  id: create(T)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.yml
+  langs:
+  - java
+  name: create(T newEntity)
+  nameWithType: IEntityCreateOperations<T,T1>.create(T newEntity)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T, T1>.create(T newEntity)
+  overload: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntityCreateOperations.java
+    startLine: 19
+  package: com.microsoft.store.partnercenter.genericoperations
+  summary: "<p>Creates a new entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T1 create(T newEntity)
+    parameters:
+    - id: newEntity
+      type: 8ce1ecb9
+      description: <p>The new entity information. </p>
+    return:
+      type: ea9d49ce
+      description: <p>The entity information that was just created. </p>
+references:
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
+- uid: ea9d49ce
+  spec.java:
+  - name: T1
+    fullName: T1
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create*
+  name: create
+  nameWithType: IEntityCreateOperations<T,T1>.create
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T, T1>.create
+  package: com.microsoft.store.partnercenter.genericoperations
+- uid: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  parent: com.microsoft.store.partnercenter.applicationconsents
+  href: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.yml
+  name: ICustomerApplicationConsentCollection
+  nameWithType: ICustomerApplicationConsentCollection
+  fullName: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the ApplicationConsent collection. </p>"
+  syntax:
+    content: public interface ICustomerApplicationConsentCollection extends IPartnerComponentString,IEntitySelector<String, IApplicationConsent>,IEntityCreateOperations<ApplicationConsent, ApplicationConsent>
+- uid: com.microsoft.store.partnercenter.carts.ICartCollection
+  parent: com.microsoft.store.partnercenter.carts
+  href: com.microsoft.store.partnercenter.carts.ICartCollection.yml
+  name: ICartCollection
+  nameWithType: ICartCollection
+  fullName: com.microsoft.store.partnercenter.carts.ICartCollection
+  type: Interface
+  summary: "<p>Encapsulates a customer cart behavior. </p>"
+  syntax:
+    content: public interface ICartCollection extends IPartnerComponentString,IEntityCreateOperations<Cart, Cart>,IEntitySelector<String, ICart>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.yml
+  name: IUserMemberCollection
+  nameWithType: IUserMemberCollection
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
+  type: Interface
+  summary: "<p>Interface for Managing User Membership in Directory Roles </p>"
+  syntax:
+    content: public interface IUserMemberCollection
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  parent: com.microsoft.store.partnercenter.customers
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
+  name: ICustomerCollection
+  nameWithType: ICustomerCollection
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the partner customers. </p>"
+  syntax:
+    content: public interface ICustomerCollection extends IPartnerComponentString,IEntityCreateOperations<Customer, Customer>,IEntireEntityCollectionRetrievalOperations<Customer, SeekBasedResourceCollection<Customer>>
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  parent: com.microsoft.store.partnercenter.customerusers
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.yml
+  name: ICustomerUserCollection
+  nameWithType: ICustomerUserCollection
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customers users </p>"
+  syntax:
+    content: public interface ICustomerUserCollection extends IPartnerComponentString,IEntityCreateOperations<CustomerUser, CustomerUser>,IEntireEntityCollectionRetrievalOperations<CustomerUser, SeekBasedResourceCollection<CustomerUser>>
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates
+  parent: com.microsoft.store.partnercenter.customerusers
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.yml
+  name: ICustomerUserLicenseUpdates
+  nameWithType: ICustomerUserLicenseUpdates
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates
+  type: Interface
+  summary: "<p>Represents the behavior of the customers user's directory roles. </p>"
+  syntax:
+    content: public interface ICustomerUserLicenseUpdates extends IPartnerComponent<Tuple<String, String>>,IEntityCreateOperations<LicenseUpdate, LicenseUpdate>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.yml
+  name: IConfigurationPolicyCollection
+  nameWithType: IConfigurationPolicyCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  type: Interface
+  summary: "<p>RRepresents the operations that can be done on the partner's configuration policies. </p>"
+  syntax:
+    content: public interface IConfigurationPolicyCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ConfigurationPolicy, ResourceCollection<ConfigurationPolicy>>,IEntityCreateOperations<ConfigurationPolicy, ConfigurationPolicy>,IEntitySelector<String, IConfigurationPolicy>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.yml
+  name: IDeviceCollection
+  nameWithType: IDeviceCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's devices. </p>"
+  syntax:
+    content: public interface IDeviceCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Device, ResourceCollection<Device>>,IEntityCreateOperations<List<Device>, String>,IEntitySelector<String, IDevice>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.yml
+  name: IDevicesBatchCollection
+  nameWithType: IDevicesBatchCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's devices batches. </p>"
+  syntax:
+    content: public interface IDevicesBatchCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<DeviceBatch, ResourceCollection<DeviceBatch>>,IEntitySelector<String, IDevicesBatch>,IEntityCreateOperations<DeviceBatchCreationRequest, String>
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollection
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderCollection.yml
+  name: IOrderCollection
+  nameWithType: IOrderCollection
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection
+  type: Interface
+  summary: "<p>Encapsulates customer orders behavior. </p>"
+  syntax:
+    content: public interface IOrderCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection.yml
+  name: ISubscriptionConversionCollection
+  nameWithType: ISubscriptionConversionCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
+  type: Interface
+  summary: "<p>This interface defines the conversion operations available on a customer's trial subscription. </p>"
+  syntax:
+    content: public interface ISubscriptionConversionCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.yml
+  name: ISubscriptionUpgradeCollection
+  nameWithType: ISubscriptionUpgradeCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+  type: Interface
+  summary: "<p>This interface defines the upgrade operations available on a customer's subscription. </p>"
+  syntax:
+    content: public interface ISubscriptionUpgradeCollection

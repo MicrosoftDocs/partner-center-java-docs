@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.carts.ICartCollection
+  id: ICartCollection
+  parent: com.microsoft.store.partnercenter.carts
+  children:
+  - com.microsoft.store.partnercenter.carts.ICartCollection.byId(String)
+  href: com.microsoft.store.partnercenter.carts.ICartCollection.yml
+  langs:
+  - java
+  name: ICartCollection
+  nameWithType: ICartCollection
+  fullName: com.microsoft.store.partnercenter.carts.ICartCollection
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/carts/ICartCollection.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/carts/ICartCollection.java
+    startLine: 16
+  package: com.microsoft.store.partnercenter.carts
+  summary: "<p>Encapsulates a customer cart behavior. </p>"
+  syntax:
+    content: public interface ICartCollection extends IPartnerComponentString,IEntityCreateOperations<Cart, Cart>,IEntitySelector<String, ICart>
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)
+  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.carts.ICartCollection.byId(String)
+  id: byId(String)
+  parent: com.microsoft.store.partnercenter.carts.ICartCollection
+  href: com.microsoft.store.partnercenter.carts.ICartCollection.yml
+  langs:
+  - java
+  name: byId(String cartId)
+  nameWithType: ICartCollection.byId(String cartId)
+  fullName: com.microsoft.store.partnercenter.carts.ICartCollection.byId(String cartId)
+  overload: com.microsoft.store.partnercenter.carts.ICartCollection.byId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/carts/ICartCollection.java
+    startLine: 26
+  package: com.microsoft.store.partnercenter.carts
+  summary: "<p>Obtains a specific cart behavior.</p>\r\n<p></p>"
+  syntax:
+    content: public ICart byId(String cartId)
+    parameters:
+    - id: cartId
+      type: "26831127"
+      description: <p>Identifier for the cart. </p>
+    return:
+      type: com.microsoft.store.partnercenter.carts.ICart
+      description: <p>The available cart operations. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.carts.ICartCollection.byId*
+  name: byId
+  nameWithType: ICartCollection.byId
+  fullName: com.microsoft.store.partnercenter.carts.ICartCollection.byId
+  package: com.microsoft.store.partnercenter.carts
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
+  href: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.yml
+  name: byId(TTYpe id)
+  nameWithType: IEntitySelector<TTYpe,TEntity>.byId(TTYpe id)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe, TEntity>.byId(TTYpe id)
+  type: Method
+  summary: "<p>Retrieves the behavior for an entity using the entity's identifier. </p>"
+  syntax:
+    content: public TEntity byId(TTYpe id)
+    parameters:
+    - id: id
+      type: b03fbe7f
+      description: <p>The entity's identifier. </p>
+    return:
+      type: 830f062c
+      description: <p>The entity's behavior. </p>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.yml
+  name: create(T newEntity)
+  nameWithType: IEntityCreateOperations<T,T1>.create(T newEntity)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T, T1>.create(T newEntity)
+  type: Method
+  summary: "<p>Creates a new entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T1 create(T newEntity)
+    parameters:
+    - id: newEntity
+      type: 8ce1ecb9
+      description: <p>The new entity information. </p>
+    return:
+      type: ea9d49ce
+      description: <p>The entity information that was just created. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponentString.yml
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+  type: Interface
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.yml
+  name: IEntityCreateOperations<T,T1>
+  nameWithType: IEntityCreateOperations<T,T1>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T,T1>
+  type: Interface
+  summary: "<p>Groups operations for creating a single entity. The entity type request.The entity type response. </p>"
+  syntax:
+    content: public interface IEntityCreateOperations<T,T1>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+    - id: T1
+      type: ea9d49ce
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.yml
+  name: IEntitySelector<TTYpe,TEntity>
+  nameWithType: IEntitySelector<TTYpe,TEntity>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe,TEntity>
+  type: Interface
+  syntax:
+    content: public interface IEntitySelector<TTYpe,TEntity>
+    typeParameters:
+    - id: TTYpe
+      type: b03fbe7f
+    - id: TEntity
+      type: 830f062c
+- uid: com.microsoft.store.partnercenter.carts.CartCollectionOperations
+  parent: com.microsoft.store.partnercenter.carts
+  href: com.microsoft.store.partnercenter.carts.CartCollectionOperations.yml
+  name: CartCollectionOperations
+  nameWithType: CartCollectionOperations
+  fullName: com.microsoft.store.partnercenter.carts.CartCollectionOperations
+  type: Class
+  summary: "<p>Cart collection operations implementation class. </p>"
+  syntax:
+    content: public class CartCollectionOperations extends BasePartnerComponentString implements ICartCollection
+- uid: com.microsoft.store.partnercenter.carts.ICart
+  parent: com.microsoft.store.partnercenter.carts
+  href: com.microsoft.store.partnercenter.carts.ICart.yml
+  name: ICart
+  nameWithType: ICart
+  fullName: com.microsoft.store.partnercenter.carts.ICart
+  type: Interface
+  summary: "<p>Encapsulates a customer cart behavior. </p>"
+  syntax:
+    content: public interface ICart extends IPartnerComponent<Tuple<String, String>>,IEntityPutOperations<Cart>,IEntityGetOperations<Cart>
+- uid: com.microsoft.store.partnercenter.carts.CartCollectionOperations.byId(String)
+  parent: com.microsoft.store.partnercenter.carts.CartCollectionOperations
+  href: com.microsoft.store.partnercenter.carts.CartCollectionOperations.yml
+  name: byId(String cartId)
+  nameWithType: CartCollectionOperations.byId(String cartId)
+  fullName: com.microsoft.store.partnercenter.carts.CartCollectionOperations.byId(String cartId)
+  type: Method
+  summary: "<p>Obtains a specific cart behavior.</p>\r\n<p></p>"
+  syntax:
+    content: public ICart byId(String cartId)
+    parameters:
+    - id: cartId
+      type: "26831127"
+      description: <p>Identifier for the cart. </p>
+    return:
+      type: com.microsoft.store.partnercenter.carts.ICart
+      description: <p>The available cart operations. </p>

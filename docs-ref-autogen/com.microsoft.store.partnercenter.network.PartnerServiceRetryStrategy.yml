@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
+  id: PartnerServiceRetryStrategy
+  parent: com.microsoft.store.partnercenter.network
+  children:
+  - com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int)
+  - com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,Response)
+  href: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.yml
+  langs:
+  - java
+  name: PartnerServiceRetryStrategy
+  nameWithType: PartnerServiceRetryStrategy
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceRetryStrategy.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceRetryStrategy.java
+    startLine: 19
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Represents a retry strategy that determines the number of retry attempts and the interval between retries. </p>"
+  syntax: &o1
+    content: public class PartnerServiceRetryStrategy
+  inheritance:
+  - java.lang.Object
+  - RetryStrategy
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int)
+  id: PartnerServiceRetryStrategy(int)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
+  href: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.yml
+  langs:
+  - java
+  name: PartnerServiceRetryStrategy(int maxRetryAttempts)
+  nameWithType: PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int maxRetryAttempts)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int maxRetryAttempts)
+  overload: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceRetryStrategy.java
+    startLine: 48
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Initializes a new instance of the <xref uid=\"com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy\" data-throw-if-not-resolved=\"false\">PartnerServiceRetryStrategy</xref> class.</p>\r\n<p></p>"
+  syntax:
+    content: public PartnerServiceRetryStrategy(int maxRetryAttempts)
+    parameters:
+    - id: maxRetryAttempts
+      type: f75371fa
+      description: <p>The maximum number of retry attempts. </p>
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,Response)
+  id: shouldRetry(int,Response)
+  parent: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
+  href: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.yml
+  langs:
+  - java
+  name: shouldRetry(int retryCount, Response response)
+  nameWithType: PartnerServiceRetryStrategy.shouldRetry(int retryCount, Response response)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int retryCount, Response response)
+  overload: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceRetryStrategy.java
+    startLine: 64
+  package: com.microsoft.store.partnercenter.network
+  summary: "<p>Returns if a request should be retried based on the retry count, current response, and the current strategy.</p>\r\n<p></p>"
+  syntax:
+    content: public boolean shouldRetry(int retryCount, Response response)
+    parameters:
+    - id: retryCount
+      type: f75371fa
+      description: <p>The current retry attempt count. </p>
+    - id: response
+      type: e9d34ed6
+      description: <p>The exception that caused the retry conditions to occur. </p>
+    return:
+      type: 4fc6e284
+      description: <p>true if the request should be retried; false otherwise. </p>
+references:
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy*
+  name: PartnerServiceRetryStrategy
+  nameWithType: PartnerServiceRetryStrategy.PartnerServiceRetryStrategy
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy
+  package: com.microsoft.store.partnercenter.network
+- uid: e9d34ed6
+  spec.java:
+  - name: Response
+    fullName: Response
+- uid: 4fc6e284
+  spec.java:
+  - name: boolean
+    fullName: boolean
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry*
+  name: shouldRetry
+  nameWithType: PartnerServiceRetryStrategy.shouldRetry
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry
+  package: com.microsoft.store.partnercenter.network
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
+  parent: com.microsoft.store.partnercenter.network
+  href: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.yml
+  name: PartnerServiceRetryStrategy
+  nameWithType: PartnerServiceRetryStrategy
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
+  type: Class
+  summary: "<p>Represents a retry strategy that determines the number of retry attempts and the interval between retries. </p>"
+  syntax: *o1

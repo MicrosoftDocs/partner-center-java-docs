@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+  id: AzureUtilizationGranularity
+  parent: com.microsoft.store.partnercenter.models.utilizations
+  children:
+  - com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.AzureUtilizationGranularity(String)
+  - com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.DAILY
+  - com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.HOURLY
+  - com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString()
+  href: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.yml
+  langs:
+  - java
+  name: AzureUtilizationGranularity
+  nameWithType: AzureUtilizationGranularity
+  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationGranularity.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationGranularity.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.utilizations
+  summary: "<p>Lists the time granularity options for retrieving A subscription's azure utilization. </p>"
+  syntax:
+    content: public enum AzureUtilizationGranularity
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<AzureUtilizationGranularity>
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.AzureUtilizationGranularity(String)
+  id: AzureUtilizationGranularity(String)
+  parent: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+  href: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.yml
+  langs:
+  - java
+  name: AzureUtilizationGranularity(String value)
+  nameWithType: AzureUtilizationGranularity.AzureUtilizationGranularity(String value)
+  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.AzureUtilizationGranularity(String value)
+  overload: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.AzureUtilizationGranularity*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationGranularity.java
+    startLine: 27
+  package: com.microsoft.store.partnercenter.models.utilizations
+  syntax:
+    content: public AzureUtilizationGranularity(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.DAILY
+  id: DAILY
+  parent: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+  href: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.yml
+  langs:
+  - java
+  name: DAILY
+  nameWithType: AzureUtilizationGranularity.DAILY
+  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.DAILY
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationGranularity.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.models.utilizations
+  summary: "<p>Daily utilization. </p>"
+  syntax:
+    content: public DAILY=("daily")
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.HOURLY
+  id: HOURLY
+  parent: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+  href: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.yml
+  langs:
+  - java
+  name: HOURLY
+  nameWithType: AzureUtilizationGranularity.HOURLY
+  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.HOURLY
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationGranularity.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.models.utilizations
+  summary: "<p>Hourly utilization. </p>"
+  syntax:
+    content: public HOURLY=("hourly")
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+  href: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: AzureUtilizationGranularity.toString()
+  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString()
+  overload: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationGranularity.java
+    startLine: 39
+  package: com.microsoft.store.partnercenter.models.utilizations
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.AzureUtilizationGranularity*
+  name: AzureUtilizationGranularity
+  nameWithType: AzureUtilizationGranularity.AzureUtilizationGranularity
+  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.AzureUtilizationGranularity
+  package: com.microsoft.store.partnercenter.models.utilizations
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString*
+  name: toString
+  nameWithType: AzureUtilizationGranularity.toString
+  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString
+  package: com.microsoft.store.partnercenter.models.utilizations

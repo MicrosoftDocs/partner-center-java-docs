@@ -3,22 +3,22 @@ items:
 - uid: com.microsoft.store.partnercenter.offers
   id: offers
   children:
-  - com.microsoft.store.partnercenter.offers._category_offers_collection_operations
-  - com.microsoft.store.partnercenter.offers._customer_offer_category_collection_operations
-  - com.microsoft.store.partnercenter.offers._customer_offer_collection_operations
-  - com.microsoft.store.partnercenter.offers._i_category_offers_collection
-  - com.microsoft.store.partnercenter.offers._i_customer_offer_category_collection
-  - com.microsoft.store.partnercenter.offers._i_customer_offer_collection
-  - com.microsoft.store.partnercenter.offers._i_offer
-  - com.microsoft.store.partnercenter.offers._i_offer_add_ons
-  - com.microsoft.store.partnercenter.offers._i_offer_category_collection
-  - com.microsoft.store.partnercenter.offers._i_offer_collection
-  - com.microsoft.store.partnercenter.offers._offer_add_ons_operations
-  - com.microsoft.store.partnercenter.offers._offer_category_collection_operations
-  - com.microsoft.store.partnercenter.offers._offer_category_country_selector
-  - com.microsoft.store.partnercenter.offers._offer_collection_operations
-  - com.microsoft.store.partnercenter.offers._offer_country_selector
-  - com.microsoft.store.partnercenter.offers._offer_operations
+  - com.microsoft.store.partnercenter.offers.CategoryOffersCollectionOperations
+  - com.microsoft.store.partnercenter.offers.CustomerOfferCategoryCollectionOperations
+  - com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations
+  - com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
+  - com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+  - com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+  - com.microsoft.store.partnercenter.offers.IOffer
+  - com.microsoft.store.partnercenter.offers.IOfferAddOns
+  - com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
+  - com.microsoft.store.partnercenter.offers.IOfferCollection
+  - com.microsoft.store.partnercenter.offers.OfferAddOnsOperations
+  - com.microsoft.store.partnercenter.offers.OfferCategoryCollectionOperations
+  - com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector
+  - com.microsoft.store.partnercenter.offers.OfferCollectionOperations
+  - com.microsoft.store.partnercenter.offers.OfferCountrySelector
+  - com.microsoft.store.partnercenter.offers.OfferOperations
   href: com.microsoft.store.partnercenter.offers.yml
   langs:
   - java
@@ -36,156 +36,156 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.offers
 references:
-- uid: com.microsoft.store.partnercenter.offers._category_offers_collection_operations
+- uid: com.microsoft.store.partnercenter.offers.CategoryOffersCollectionOperations
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._category_offers_collection_operations.yml
+  href: com.microsoft.store.partnercenter.offers.CategoryOffersCollectionOperations.yml
   name: CategoryOffersCollectionOperations
   nameWithType: CategoryOffersCollectionOperations
   fullName: com.microsoft.store.partnercenter.offers.CategoryOffersCollectionOperations
   type: Class
   syntax:
     content: public class CategoryOffersCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements ICategoryOffersCollection
-- uid: com.microsoft.store.partnercenter.offers._customer_offer_category_collection_operations
+- uid: com.microsoft.store.partnercenter.offers.CustomerOfferCategoryCollectionOperations
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._customer_offer_category_collection_operations.yml
+  href: com.microsoft.store.partnercenter.offers.CustomerOfferCategoryCollectionOperations.yml
   name: CustomerOfferCategoryCollectionOperations
   nameWithType: CustomerOfferCategoryCollectionOperations
   fullName: com.microsoft.store.partnercenter.offers.CustomerOfferCategoryCollectionOperations
   type: Class
   syntax:
     content: public class CustomerOfferCategoryCollectionOperations extends BasePartnerComponentString implements ICustomerOfferCategoryCollection
-- uid: com.microsoft.store.partnercenter.offers._customer_offer_collection_operations
+- uid: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._customer_offer_collection_operations.yml
+  href: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.yml
   name: CustomerOfferCollectionOperations
   nameWithType: CustomerOfferCollectionOperations
   fullName: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations
   type: Class
-  summary: <p>Customer Offer operations implementation class. </p>
+  summary: "<p>Customer Offer operations implementation class. </p>"
   syntax:
     content: public class CustomerOfferCollectionOperations extends BasePartnerComponentString implements ICustomerOfferCollection
-- uid: com.microsoft.store.partnercenter.offers._i_category_offers_collection
+- uid: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._i_category_offers_collection.yml
+  href: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.yml
   name: ICategoryOffersCollection
   nameWithType: ICategoryOffersCollection
   fullName: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
   type: Interface
   syntax:
     content: public interface ICategoryOffersCollection extends IPartnerComponent<Tuple<String, String>>,IEntityCollectionRetrievalOperations<Offer, ResourceCollection<Offer>>
-- uid: com.microsoft.store.partnercenter.offers._i_customer_offer_category_collection
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._i_customer_offer_category_collection.yml
+  href: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection.yml
   name: ICustomerOfferCategoryCollection
   nameWithType: ICustomerOfferCategoryCollection
   fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
   type: Interface
   syntax:
     content: public interface ICustomerOfferCategoryCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<OfferCategory, ResourceCollection<OfferCategory>>
-- uid: com.microsoft.store.partnercenter.offers._i_customer_offer_collection
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._i_customer_offer_collection.yml
+  href: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.yml
   name: ICustomerOfferCollection
   nameWithType: ICustomerOfferCollection
   fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
   type: Interface
   syntax:
     content: public interface ICustomerOfferCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Offer, ResourceCollection<Offer>>
-- uid: com.microsoft.store.partnercenter.offers._i_offer
+- uid: com.microsoft.store.partnercenter.offers.IOffer
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._i_offer.yml
+  href: com.microsoft.store.partnercenter.offers.IOffer.yml
   name: IOffer
   nameWithType: IOffer
   fullName: com.microsoft.store.partnercenter.offers.IOffer
   type: Interface
-  summary: <p>Holds operations that can be performed on a single offer. </p>
+  summary: "<p>Holds operations that can be performed on a single offer. </p>"
   syntax:
     content: public interface IOffer extends IPartnerComponent<Tuple<String, String>>
-- uid: com.microsoft.store.partnercenter.offers._i_offer_add_ons
+- uid: com.microsoft.store.partnercenter.offers.IOfferAddOns
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._i_offer_add_ons.yml
+  href: com.microsoft.store.partnercenter.offers.IOfferAddOns.yml
   name: IOfferAddOns
   nameWithType: IOfferAddOns
   fullName: com.microsoft.store.partnercenter.offers.IOfferAddOns
   type: Interface
-  summary: <p>Defines the behavior of an offer's add-ons. </p>
+  summary: "<p>Defines the behavior of an offer's add-ons. </p>"
   syntax:
     content: public interface IOfferAddOns extends IPartnerComponent<Tuple<String, String>>,IEntityCollectionRetrievalOperations<Offer, ResourceCollection<Offer>>
-- uid: com.microsoft.store.partnercenter.offers._i_offer_category_collection
+- uid: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._i_offer_category_collection.yml
+  href: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection.yml
   name: IOfferCategoryCollection
   nameWithType: IOfferCategoryCollection
   fullName: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
   type: Interface
-  summary: <p>Represents the behavior of offer categories available to partners. </p>
+  summary: "<p>Represents the behavior of offer categories available to partners. </p>"
   syntax:
     content: public interface IOfferCategoryCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<OfferCategory, ResourceCollection<OfferCategory>>
-- uid: com.microsoft.store.partnercenter.offers._i_offer_collection
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._i_offer_collection.yml
+  href: com.microsoft.store.partnercenter.offers.IOfferCollection.yml
   name: IOfferCollection
   nameWithType: IOfferCollection
   fullName: com.microsoft.store.partnercenter.offers.IOfferCollection
   type: Interface
-  summary: <p>Encapsulates the basic offers behavior. </p>
+  summary: "<p>Encapsulates the basic offers behavior. </p>"
   syntax:
     content: public interface IOfferCollection extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.offers._offer_add_ons_operations
+- uid: com.microsoft.store.partnercenter.offers.OfferAddOnsOperations
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._offer_add_ons_operations.yml
+  href: com.microsoft.store.partnercenter.offers.OfferAddOnsOperations.yml
   name: OfferAddOnsOperations
   nameWithType: OfferAddOnsOperations
   fullName: com.microsoft.store.partnercenter.offers.OfferAddOnsOperations
   type: Class
-  summary: <p>Implements offer add-ons behavior. </p>
+  summary: "<p>Implements offer add-ons behavior. </p>"
   syntax:
     content: public class OfferAddOnsOperations extends BasePartnerComponent<Tuple<String, String>> implements IOfferAddOns
-- uid: com.microsoft.store.partnercenter.offers._offer_category_collection_operations
+- uid: com.microsoft.store.partnercenter.offers.OfferCategoryCollectionOperations
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._offer_category_collection_operations.yml
+  href: com.microsoft.store.partnercenter.offers.OfferCategoryCollectionOperations.yml
   name: OfferCategoryCollectionOperations
   nameWithType: OfferCategoryCollectionOperations
   fullName: com.microsoft.store.partnercenter.offers.OfferCategoryCollectionOperations
   type: Class
-  summary: <p>Offers categories implementation. </p>
+  summary: "<p>Offers categories implementation. </p>"
   syntax:
     content: public class OfferCategoryCollectionOperations extends BasePartnerComponentString implements IOfferCategoryCollection
-- uid: com.microsoft.store.partnercenter.offers._offer_category_country_selector
+- uid: com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._offer_category_country_selector.yml
+  href: com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector.yml
   name: OfferCategoryCountrySelector
   nameWithType: OfferCategoryCountrySelector
   fullName: com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector
   type: Class
   syntax:
     content: public class OfferCategoryCountrySelector extends BasePartnerComponentString implements ICountrySelector<IOfferCategoryCollection>
-- uid: com.microsoft.store.partnercenter.offers._offer_collection_operations
+- uid: com.microsoft.store.partnercenter.offers.OfferCollectionOperations
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._offer_collection_operations.yml
+  href: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.yml
   name: OfferCollectionOperations
   nameWithType: OfferCollectionOperations
   fullName: com.microsoft.store.partnercenter.offers.OfferCollectionOperations
   type: Class
-  summary: <p>Offer Collection operations implementation. </p>
+  summary: "<p>Offer Collection operations implementation. </p>"
   syntax:
     content: public class OfferCollectionOperations extends BasePartnerComponentString implements IOfferCollection
-- uid: com.microsoft.store.partnercenter.offers._offer_country_selector
+- uid: com.microsoft.store.partnercenter.offers.OfferCountrySelector
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._offer_country_selector.yml
+  href: com.microsoft.store.partnercenter.offers.OfferCountrySelector.yml
   name: OfferCountrySelector
   nameWithType: OfferCountrySelector
   fullName: com.microsoft.store.partnercenter.offers.OfferCountrySelector
   type: Class
   syntax:
     content: public class OfferCountrySelector extends BasePartnerComponentString implements ICountrySelector<IOfferCollection>
-- uid: com.microsoft.store.partnercenter.offers._offer_operations
+- uid: com.microsoft.store.partnercenter.offers.OfferOperations
   parent: com.microsoft.store.partnercenter.offers
-  href: com.microsoft.store.partnercenter.offers._offer_operations.yml
+  href: com.microsoft.store.partnercenter.offers.OfferOperations.yml
   name: OfferOperations
   nameWithType: OfferOperations
   fullName: com.microsoft.store.partnercenter.offers.OfferOperations
   type: Class
-  summary: <p>Single offer operations implementation. </p>
+  summary: "<p>Single offer operations implementation. </p>"
   syntax:
     content: public class OfferOperations extends BasePartnerComponent<Tuple<String, String>> implements IOffer

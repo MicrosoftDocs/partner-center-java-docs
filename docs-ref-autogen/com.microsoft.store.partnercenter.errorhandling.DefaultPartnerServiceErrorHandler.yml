@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler
+  id: DefaultPartnerServiceErrorHandler
+  parent: com.microsoft.store.partnercenter.errorhandling
+  children:
+  - com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(Response)
+  - com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(Response,IRequestContext)
+  href: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.yml
+  langs:
+  - java
+  name: DefaultPartnerServiceErrorHandler
+  nameWithType: DefaultPartnerServiceErrorHandler
+  fullName: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/errorhandling/DefaultPartnerServiceErrorHandler.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/errorhandling/DefaultPartnerServiceErrorHandler.java
+    startLine: 25
+  package: com.microsoft.store.partnercenter.errorhandling
+  summary: "<p>The default handling policy for failed partner service responses. </p>"
+  syntax:
+    content: public class DefaultPartnerServiceErrorHandler implements IFailedPartnerServiceResponseHandler
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
+- uid: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(Response)
+  id: handleFailedResponse(Response)
+  parent: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler
+  href: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.yml
+  langs:
+  - java
+  name: handleFailedResponse(Response response)
+  nameWithType: DefaultPartnerServiceErrorHandler.handleFailedResponse(Response response)
+  fullName: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(Response response)
+  overload: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/errorhandling/DefaultPartnerServiceErrorHandler.java
+    startLine: 35
+  package: com.microsoft.store.partnercenter.errorhandling
+  summary: "<p>Handles failed partner service responses.</p>\r\n<p></p>"
+  syntax:
+    content: public PartnerException handleFailedResponse(Response response)
+    parameters:
+    - id: response
+      type: e9d34ed6
+      description: <p>The partner service response. </p>
+    return:
+      type: com.microsoft.store.partnercenter.exception.PartnerException
+      description: <p>The exception to throw. </p>
+  overridden: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(Response)
+- uid: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(Response,IRequestContext)
+  id: handleFailedResponse(Response,IRequestContext)
+  parent: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler
+  href: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.yml
+  langs:
+  - java
+  name: handleFailedResponse(Response response, IRequestContext context)
+  nameWithType: DefaultPartnerServiceErrorHandler.handleFailedResponse(Response response, IRequestContext context)
+  fullName: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(Response response, IRequestContext context)
+  overload: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/errorhandling/DefaultPartnerServiceErrorHandler.java
+    startLine: 48
+  package: com.microsoft.store.partnercenter.errorhandling
+  summary: "<p>Handles failed partner service responses.</p>\r\n<p></p>"
+  syntax:
+    content: public PartnerException handleFailedResponse(Response response, IRequestContext context)
+    parameters:
+    - id: response
+      type: e9d34ed6
+      description: <p>The partner service response. </p>
+    - id: context
+      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+      description: <p>An optional partner context. </p>
+    return:
+      type: com.microsoft.store.partnercenter.exception.PartnerException
+      description: <p>The exception to throw. </p>
+  overridden: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(Response,IRequestContext)
+references:
+- uid: e9d34ed6
+  spec.java:
+  - name: Response
+    fullName: Response
+- uid: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse*
+  name: handleFailedResponse
+  nameWithType: DefaultPartnerServiceErrorHandler.handleFailedResponse
+  fullName: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse
+  package: com.microsoft.store.partnercenter.errorhandling
+- uid: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
+  parent: com.microsoft.store.partnercenter.errorhandling
+  href: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.yml
+  name: IFailedPartnerServiceResponseHandler
+  nameWithType: IFailedPartnerServiceResponseHandler
+  fullName: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
+  type: Interface
+  summary: "<p>Defines behavior for handling non successful responses from the partner service. </p>"
+  syntax:
+    content: public interface IFailedPartnerServiceResponseHandler
+- uid: com.microsoft.store.partnercenter.exception.PartnerException
+  parent: com.microsoft.store.partnercenter.exception
+  href: com.microsoft.store.partnercenter.exception.PartnerException.yml
+  name: PartnerException
+  nameWithType: PartnerException
+  fullName: com.microsoft.store.partnercenter.exception.PartnerException
+  type: Class
+  summary: "<p>The standard exception thrown by the partner SDK. This pertains to errors accessing the partner service. Other standard exceptions such as null argument exceptions will also be thrown in case of malformed input. </p>"
+  syntax:
+    content: public class PartnerException
+- uid: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(Response)
+  parent: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
+  href: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.yml
+  name: handleFailedResponse(Response response)
+  nameWithType: IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response)
+  fullName: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response)
+  type: Method
+  summary: "<p>Handles failed partner service responses.</p>\r\n<p></p>"
+  syntax:
+    content: public PartnerException handleFailedResponse(Response response)
+    parameters:
+    - id: response
+      type: e9d34ed6
+      description: <p>The partner service response. </p>
+    return:
+      type: com.microsoft.store.partnercenter.exception.PartnerException
+      description: <p>The exception to throw. </p>
+- uid: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(Response,IRequestContext)
+  parent: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
+  href: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.yml
+  name: handleFailedResponse(Response response, IRequestContext context)
+  nameWithType: IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response, IRequestContext context)
+  fullName: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response, IRequestContext context)
+  type: Method
+  summary: "<p>Handles failed partner service responses.</p>\r\n<p></p>"
+  syntax:
+    content: public PartnerException handleFailedResponse(Response response, IRequestContext context)
+    parameters:
+    - id: response
+      type: e9d34ed6
+      description: <p>The partner service response. </p>
+    - id: context
+      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+      description: <p>The reqeust context. </p>
+    return:
+      type: com.microsoft.store.partnercenter.exception.PartnerException
+      description: <p>The exception to throw. </p>
+- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+  parent: com.microsoft.store.partnercenter.requestcontext
+  href: com.microsoft.store.partnercenter.requestcontext.IRequestContext.yml
+  name: IRequestContext
+  nameWithType: IRequestContext
+  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+  type: Interface
+  summary: "<p>Bundles context information which is amended to the partner SDK operations. </p>"
+  syntax:
+    content: public interface IRequestContext
+- uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
+  parent: com.microsoft.store.partnercenter.exception
+  href: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.yml
+  name: PartnerErrorCategory
+  nameWithType: PartnerErrorCategory
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
+  type: Enum
+  syntax:
+    content: public enum PartnerErrorCategory

@@ -1,0 +1,403 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations
+  id: OrderOperations
+  parent: com.microsoft.store.partnercenter.orders
+  children:
+  - com.microsoft.store.partnercenter.orders.OrderOperations.get()
+  - com.microsoft.store.partnercenter.orders.OrderOperations.get(Boolean)
+  - com.microsoft.store.partnercenter.orders.OrderOperations.getOrderLineItems()
+  - com.microsoft.store.partnercenter.orders.OrderOperations.getProvisioningStatus()
+  - com.microsoft.store.partnercenter.orders.OrderOperations.OrderOperations(IPartner,String,String)
+  - com.microsoft.store.partnercenter.orders.OrderOperations.patch(Order)
+  href: com.microsoft.store.partnercenter.orders.OrderOperations.yml
+  langs:
+  - java
+  name: OrderOperations
+  nameWithType: OrderOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
+    startLine: 24
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Order operations implementation class. </p>"
+  syntax:
+    content: public class OrderOperations extends BasePartnerComponent<Tuple<String, String>> implements IOrder
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.IPartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.orders.OrderOperations
+  href: com.microsoft.store.partnercenter.orders.OrderOperations.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: OrderOperations.get()
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations.get()
+  overload: com.microsoft.store.partnercenter.orders.OrderOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
+    startLine: 56
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Gets the order information.</p>\r\n<p></p>"
+  syntax:
+    content: public Order get()
+    return:
+      type: com.microsoft.store.partnercenter.models.orders.Order
+      description: <p>The customer order. </p>
+  overridden: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations.get(Boolean)
+  id: get(Boolean)
+  parent: com.microsoft.store.partnercenter.orders.OrderOperations
+  href: com.microsoft.store.partnercenter.orders.OrderOperations.yml
+  langs:
+  - java
+  name: get(Boolean includePrice)
+  nameWithType: OrderOperations.get(Boolean includePrice)
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations.get(Boolean includePrice)
+  overload: com.microsoft.store.partnercenter.orders.OrderOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
+    startLine: 68
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Gets the order information.</p>\r\n<p></p>"
+  syntax:
+    content: public Order get(Boolean includePrice)
+    parameters:
+    - id: includePrice
+      type: 866c2227
+      description: <p>A flag indicating whether to include pricing details in the order information or not. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.orders.Order
+      description: <p>The order information including pricing details (based on access permissions) when requested. </p>
+  overridden: com.microsoft.store.partnercenter.orders.IOrder.get(Boolean)
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations.getOrderLineItems()
+  id: getOrderLineItems()
+  parent: com.microsoft.store.partnercenter.orders.OrderOperations
+  href: com.microsoft.store.partnercenter.orders.OrderOperations.yml
+  langs:
+  - java
+  name: getOrderLineItems()
+  nameWithType: OrderOperations.getOrderLineItems()
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations.getOrderLineItems()
+  overload: com.microsoft.store.partnercenter.orders.OrderOperations.getOrderLineItems*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
+    startLine: 97
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Gets line item collection operations.</p>\r\n<p></p>"
+  syntax:
+    content: public IOrderLineItemCollection getOrderLineItems()
+    return:
+      type: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
+      description: <p>The line item collection operations. </p>
+  overridden: com.microsoft.store.partnercenter.orders.IOrder.getOrderLineItems()
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations.getProvisioningStatus()
+  id: getProvisioningStatus()
+  parent: com.microsoft.store.partnercenter.orders.OrderOperations
+  href: com.microsoft.store.partnercenter.orders.OrderOperations.yml
+  langs:
+  - java
+  name: getProvisioningStatus()
+  nameWithType: OrderOperations.getProvisioningStatus()
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations.getProvisioningStatus()
+  overload: com.microsoft.store.partnercenter.orders.OrderOperations.getProvisioningStatus*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
+    startLine: 111
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Gets the order provisioning status operations.</p>\r\n<p></p>"
+  syntax:
+    content: public IOrderProvisioningStatus getProvisioningStatus()
+    return:
+      type: com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus
+      description: <p>The order provisioning status operations. </p>
+  overridden: com.microsoft.store.partnercenter.orders.IOrder.getProvisioningStatus()
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations.OrderOperations(IPartner,String,String)
+  id: OrderOperations(IPartner,String,String)
+  parent: com.microsoft.store.partnercenter.orders.OrderOperations
+  href: com.microsoft.store.partnercenter.orders.OrderOperations.yml
+  langs:
+  - java
+  name: OrderOperations(IPartner rootPartnerOperations, String customerId, String orderId)
+  nameWithType: OrderOperations.OrderOperations(IPartner rootPartnerOperations, String customerId, String orderId)
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations.OrderOperations(IPartner rootPartnerOperations, String customerId, String orderId)
+  overload: com.microsoft.store.partnercenter.orders.OrderOperations.OrderOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
+    startLine: 35
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Initializes a new instance of the OrderOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public OrderOperations(IPartner rootPartnerOperations, String customerId, String orderId)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+    - id: customerId
+      type: "26831127"
+      description: <p>The customer identifier. </p>
+    - id: orderId
+      type: "26831127"
+      description: <p>The order identifier. </p>
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations.patch(Order)
+  id: patch(Order)
+  parent: com.microsoft.store.partnercenter.orders.OrderOperations
+  href: com.microsoft.store.partnercenter.orders.OrderOperations.yml
+  langs:
+  - java
+  name: patch(Order order)
+  nameWithType: OrderOperations.patch(Order order)
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations.patch(Order order)
+  overload: com.microsoft.store.partnercenter.orders.OrderOperations.patch*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
+    startLine: 126
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Updates a customer order.</p>\r\n<p></p>"
+  syntax:
+    content: public Order patch(Order order)
+    parameters:
+    - id: order
+      type: com.microsoft.store.partnercenter.models.orders.Order
+      description: <p>The order to update. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.orders.Order
+      description: <p>The updated order. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations.OrderOperations*
+  name: OrderOperations
+  nameWithType: OrderOperations.OrderOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations.OrderOperations
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations.get*
+  name: get
+  nameWithType: OrderOperations.get
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations.get
+  package: com.microsoft.store.partnercenter.orders
+- uid: 866c2227
+  spec.java:
+  - name: Boolean
+    fullName: Boolean
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations.getOrderLineItems*
+  name: getOrderLineItems
+  nameWithType: OrderOperations.getOrderLineItems
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations.getOrderLineItems
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations.getProvisioningStatus*
+  name: getProvisioningStatus
+  nameWithType: OrderOperations.getProvisioningStatus
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations.getProvisioningStatus
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations.patch*
+  name: patch
+  nameWithType: OrderOperations.patch
+  fullName: com.microsoft.store.partnercenter.orders.OrderOperations.patch
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.yml
+  name: patch(T entity)
+  nameWithType: IEntityPatchOperations<T>.patch(T entity)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T extends ResourceBase>.patch(T entity)
+  type: Method
+  summary: "<p>Patches an entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T patch(T entity)
+    parameters:
+    - id: entity
+      type: 8ce1ecb9
+      description: <p>The entity information. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>The updated entity. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent<TContext>
+  nameWithType: BasePartnerComponent<TContext>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. All components should inherit from this class. The context object type. </p>"
+  syntax:
+    content: public class BasePartnerComponent<TContext> implements IPartnerComponent<TContext>
+    typeParameters:
+    - id: TContext
+      type: 473af9dd
+- uid: com.microsoft.store.partnercenter.orders.IOrder
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrder.yml
+  name: IOrder
+  nameWithType: IOrder
+  fullName: com.microsoft.store.partnercenter.orders.IOrder
+  type: Interface
+  summary: "<p>Encapsulates a customer order behavior. </p>"
+  syntax:
+    content: public interface IOrder extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<Order>,IEntityPatchOperations<Order>
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.models.orders.Order
+  parent: com.microsoft.store.partnercenter.models.orders
+  href: com.microsoft.store.partnercenter.models.orders.Order.yml
+  name: Order
+  nameWithType: Order
+  fullName: com.microsoft.store.partnercenter.models.orders.Order
+  type: Class
+  summary: "<p>Order represents collection of information needed to purchase offers represented by each order line items. </p>"
+  syntax:
+    content: public class Order extends ResourceBaseWithLinks<StandardResourceLinks>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.yml
+  name: get()
+  nameWithType: IEntityGetOperations<T>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>.get()
+  type: Method
+  summary: "<p>Retrieves an entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T get()
+    return:
+      type: 8ce1ecb9
+      description: <p>The entity. </p>
+- uid: com.microsoft.store.partnercenter.orders.IOrder.get(Boolean)
+  parent: com.microsoft.store.partnercenter.orders.IOrder
+  href: com.microsoft.store.partnercenter.orders.IOrder.yml
+  name: get(Boolean includePrice)
+  nameWithType: IOrder.get(Boolean includePrice)
+  fullName: com.microsoft.store.partnercenter.orders.IOrder.get(Boolean includePrice)
+  type: Method
+  summary: "<p>Gets the order information.</p>\r\n<p></p>"
+  syntax:
+    content: public Order get(Boolean includePrice)
+    parameters:
+    - id: includePrice
+      type: 866c2227
+      description: <p>A flag indicating whether to include pricing details in the order information or not. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.orders.Order
+      description: <p>The order information including pricing details (based on access permissions) when requested. </p>
+- uid: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection.yml
+  name: IOrderLineItemCollection
+  nameWithType: IOrderLineItemCollection
+  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
+  type: Interface
+  summary: "<p>Represents the available order line item collection operations. </p>"
+  syntax:
+    content: public interface IOrderLineItemCollection extends IPartnerComponent<Tuple<String, String>>,IEntitySelector<Integer, IOrderLineItem>
+- uid: com.microsoft.store.partnercenter.orders.IOrder.getOrderLineItems()
+  parent: com.microsoft.store.partnercenter.orders.IOrder
+  href: com.microsoft.store.partnercenter.orders.IOrder.yml
+  name: getOrderLineItems()
+  nameWithType: IOrder.getOrderLineItems()
+  fullName: com.microsoft.store.partnercenter.orders.IOrder.getOrderLineItems()
+  type: Method
+  summary: "<p>Gets the line item collection operations.</p>\r\n<p></p>"
+  syntax:
+    content: public IOrderLineItemCollection getOrderLineItems()
+    return:
+      type: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
+      description: <p>The line item collection operations. </p>
+- uid: com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus.yml
+  name: IOrderProvisioningStatus
+  nameWithType: IOrderProvisioningStatus
+  fullName: com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus
+  type: Interface
+  summary: "<p>Represents the operations that apply Order provisioning status. </p>"
+  syntax:
+    content: public interface IOrderProvisioningStatus extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<OrderLineItemProvisioningStatus, ResourceCollection<OrderLineItemProvisioningStatus>>
+- uid: com.microsoft.store.partnercenter.orders.IOrder.getProvisioningStatus()
+  parent: com.microsoft.store.partnercenter.orders.IOrder
+  href: com.microsoft.store.partnercenter.orders.IOrder.yml
+  name: getProvisioningStatus()
+  nameWithType: IOrder.getProvisioningStatus()
+  fullName: com.microsoft.store.partnercenter.orders.IOrder.getProvisioningStatus()
+  type: Method
+  summary: "<p>Gets the order provisioning status operations.</p>\r\n<p></p>"
+  syntax:
+    content: public IOrderProvisioningStatus getProvisioningStatus()
+    return:
+      type: com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus
+      description: <p>The order provisioning status operations. </p>

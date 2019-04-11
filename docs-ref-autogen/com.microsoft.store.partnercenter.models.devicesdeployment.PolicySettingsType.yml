@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  id: PolicySettingsType
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment
+  children:
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType(String)
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.yml
+  langs:
+  - java
+  name: PolicySettingsType
+  nameWithType: PolicySettingsType
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicySettingsType.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicySettingsType.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Represents the settings for an OOBE(Out of box experience) policy. </p>"
+  syntax:
+    content: public enum PolicySettingsType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<PolicySettingsType>
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None
+  id: None
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.yml
+  langs:
+  - java
+  name: None
+  nameWithType: PolicySettingsType.None
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicySettingsType.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Default value for policy settings. </p>"
+  syntax:
+    content: public None=("none")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN
+  id: OOBE_USER_NOT_LOCAL_ADMIN
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.yml
+  langs:
+  - java
+  name: OOBE_USER_NOT_LOCAL_ADMIN
+  nameWithType: PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicySettingsType.java
+    startLine: 28
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>OOBE(Out of box experience) user will not be a local admin on the configured device. </p>"
+  syntax:
+    content: public OOBE_USER_NOT_LOCAL_ADMIN=("oobe_user_not_local_admin")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType(String)
+  id: PolicySettingsType(String)
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.yml
+  langs:
+  - java
+  name: PolicySettingsType(String value)
+  nameWithType: PolicySettingsType.PolicySettingsType(String value)
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType(String value)
+  overload: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicySettingsType.java
+    startLine: 47
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  syntax:
+    content: public PolicySettingsType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS
+  id: REMOVE_OEM_PREINSTALLS
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.yml
+  langs:
+  - java
+  name: REMOVE_OEM_PREINSTALLS
+  nameWithType: PolicySettingsType.REMOVE_OEM_PREINSTALLS
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicySettingsType.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Remove OEM Pre-installs. </p>"
+  syntax:
+    content: public REMOVE_OEM_PREINSTALLS=("remove_oem_preinstalls")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA
+  id: SKIP_EULA
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.yml
+  langs:
+  - java
+  name: SKIP_EULA
+  nameWithType: PolicySettingsType.SKIP_EULA
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicySettingsType.java
+    startLine: 43
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Skip EULA settings. </p>"
+  syntax:
+    content: public SKIP_EULA=("skip_eula")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS
+  id: SKIP_EXPRESS_SETTINGS
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.yml
+  langs:
+  - java
+  name: SKIP_EXPRESS_SETTINGS
+  nameWithType: PolicySettingsType.SKIP_EXPRESS_SETTINGS
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicySettingsType.java
+    startLine: 33
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Skip express settings. </p>"
+  syntax:
+    content: public SKIP_EXPRESS_SETTINGS=("skip_express_settings")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION
+  id: SKIP_OEM_REGISTRATION
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.yml
+  langs:
+  - java
+  name: SKIP_OEM_REGISTRATION
+  nameWithType: PolicySettingsType.SKIP_OEM_REGISTRATION
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicySettingsType.java
+    startLine: 38
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Skip OEM registration settings. </p>"
+  syntax:
+    content: public SKIP_OEM_REGISTRATION=("skip_oem_registration")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: PolicySettingsType.toString()
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()
+  overload: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicySettingsType.java
+    startLine: 59
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType*
+  name: PolicySettingsType
+  nameWithType: PolicySettingsType.PolicySettingsType
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString*
+  name: toString
+  nameWithType: PolicySettingsType.toString
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString
+  package: com.microsoft.store.partnercenter.models.devicesdeployment

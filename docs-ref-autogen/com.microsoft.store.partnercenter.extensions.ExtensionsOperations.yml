@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.extensions.ExtensionsOperations
+  id: ExtensionsOperations
+  parent: com.microsoft.store.partnercenter.extensions
+  children:
+  - com.microsoft.store.partnercenter.extensions.ExtensionsOperations.ExtensionsOperations(IPartner)
+  - com.microsoft.store.partnercenter.extensions.ExtensionsOperations.getProduct()
+  href: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.yml
+  langs:
+  - java
+  name: ExtensionsOperations
+  nameWithType: ExtensionsOperations
+  fullName: com.microsoft.store.partnercenter.extensions.ExtensionsOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/extensions/ExtensionsOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/extensions/ExtensionsOperations.java
+    startLine: 16
+  package: com.microsoft.store.partnercenter.extensions
+  summary: "<p>Extensions operations implementation. </p>"
+  syntax:
+    content: public class ExtensionsOperations extends BasePartnerComponentString implements IExtensions
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.ExtensionsOperations(IPartner)
+  id: ExtensionsOperations(IPartner)
+  parent: com.microsoft.store.partnercenter.extensions.ExtensionsOperations
+  href: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.yml
+  langs:
+  - java
+  name: ExtensionsOperations(IPartner rootPartnerOperations)
+  nameWithType: ExtensionsOperations.ExtensionsOperations(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.ExtensionsOperations(IPartner rootPartnerOperations)
+  overload: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.ExtensionsOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/extensions/ExtensionsOperations.java
+    startLine: 29
+  package: com.microsoft.store.partnercenter.extensions
+  summary: "<p>Initializes a new instance of the ProductExtensionsOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public ExtensionsOperations(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+- uid: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.getProduct()
+  id: getProduct()
+  parent: com.microsoft.store.partnercenter.extensions.ExtensionsOperations
+  href: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.yml
+  langs:
+  - java
+  name: getProduct()
+  nameWithType: ExtensionsOperations.getProduct()
+  fullName: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.getProduct()
+  overload: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.getProduct*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/extensions/ExtensionsOperations.java
+    startLine: 38
+  package: com.microsoft.store.partnercenter.extensions
+  summary: "<p>Retrieves the product extension operations.</p>\r\n<p></p>"
+  syntax:
+    content: public IProductExtensions getProduct()
+    return:
+      type: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
+      description: <p>The product extensions operations. </p>
+  overridden: com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()
+references:
+- uid: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.ExtensionsOperations*
+  name: ExtensionsOperations
+  nameWithType: ExtensionsOperations.ExtensionsOperations
+  fullName: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.ExtensionsOperations
+  package: com.microsoft.store.partnercenter.extensions
+- uid: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.getProduct*
+  name: getProduct
+  nameWithType: ExtensionsOperations.getProduct
+  fullName: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.getProduct
+  package: com.microsoft.store.partnercenter.extensions
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: "26831127"
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. The context is string type by default. </p>"
+  syntax:
+    content: public class BasePartnerComponentString extends BasePartnerComponent<String>
+- uid: com.microsoft.store.partnercenter.extensions.IExtensions
+  parent: com.microsoft.store.partnercenter.extensions
+  href: com.microsoft.store.partnercenter.extensions.IExtensions.yml
+  name: IExtensions
+  nameWithType: IExtensions
+  fullName: com.microsoft.store.partnercenter.extensions.IExtensions
+  type: Interface
+  summary: "<p>Holds operations that extend another set of operations. </p>"
+  syntax:
+    content: public interface IExtensions
+- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
+  parent: com.microsoft.store.partnercenter.extensions.products
+  href: com.microsoft.store.partnercenter.extensions.products.IProductExtensions.yml
+  name: IProductExtensions
+  nameWithType: IProductExtensions
+  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
+  type: Interface
+  summary: "<p>Holds extension operations for products. </p>"
+  syntax:
+    content: public interface IProductExtensions
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()
+  parent: com.microsoft.store.partnercenter.extensions.IExtensions
+  href: com.microsoft.store.partnercenter.extensions.IExtensions.yml
+  name: getProduct()
+  nameWithType: IExtensions.getProduct()
+  fullName: com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()
+  type: Method
+  summary: "<p>Retrieves the product extension operations.</p>\r\n<p></p>"
+  syntax:
+    content: public IProductExtensions getProduct()
+    return:
+      type: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
+      description: <p>The product extensions operations. </p>

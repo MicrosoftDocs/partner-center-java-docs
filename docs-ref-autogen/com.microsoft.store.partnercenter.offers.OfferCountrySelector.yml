@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.offers.OfferCountrySelector
+  id: OfferCountrySelector
+  parent: com.microsoft.store.partnercenter.offers
+  children:
+  - com.microsoft.store.partnercenter.offers.OfferCountrySelector.byCountry(String)
+  - com.microsoft.store.partnercenter.offers.OfferCountrySelector.OfferCountrySelector(IPartner)
+  href: com.microsoft.store.partnercenter.offers.OfferCountrySelector.yml
+  langs:
+  - java
+  name: OfferCountrySelector
+  nameWithType: OfferCountrySelector
+  fullName: com.microsoft.store.partnercenter.offers.OfferCountrySelector
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/offers/OfferCountrySelector.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/offers/OfferCountrySelector.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.offers
+  syntax:
+    content: public class OfferCountrySelector extends BasePartnerComponentString implements ICountrySelector<IOfferCollection>
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.offers.OfferCountrySelector.byCountry(String)
+  id: byCountry(String)
+  parent: com.microsoft.store.partnercenter.offers.OfferCountrySelector
+  href: com.microsoft.store.partnercenter.offers.OfferCountrySelector.yml
+  langs:
+  - java
+  name: byCountry(String country)
+  nameWithType: OfferCountrySelector.byCountry(String country)
+  fullName: com.microsoft.store.partnercenter.offers.OfferCountrySelector.byCountry(String country)
+  overload: com.microsoft.store.partnercenter.offers.OfferCountrySelector.byCountry*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/offers/OfferCountrySelector.java
+    startLine: 31
+  package: com.microsoft.store.partnercenter.offers
+  summary: "<p>Scopes offers behavior to a specific country. </p>"
+  syntax:
+    content: public IOfferCollection byCountry(String country)
+    parameters:
+    - id: country
+      type: "26831127"
+    return:
+      type: com.microsoft.store.partnercenter.offers.IOfferCollection
+  overridden: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.byCountry(String)
+- uid: com.microsoft.store.partnercenter.offers.OfferCountrySelector.OfferCountrySelector(IPartner)
+  id: OfferCountrySelector(IPartner)
+  parent: com.microsoft.store.partnercenter.offers.OfferCountrySelector
+  href: com.microsoft.store.partnercenter.offers.OfferCountrySelector.yml
+  langs:
+  - java
+  name: OfferCountrySelector(IPartner rootPartnerOperations)
+  nameWithType: OfferCountrySelector.OfferCountrySelector(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.offers.OfferCountrySelector.OfferCountrySelector(IPartner rootPartnerOperations)
+  overload: com.microsoft.store.partnercenter.offers.OfferCountrySelector.OfferCountrySelector*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/offers/OfferCountrySelector.java
+    startLine: 22
+  package: com.microsoft.store.partnercenter.offers
+  summary: "<p>Initializes a new instance of the OfferCountrySelector class. </p>"
+  syntax:
+    content: public OfferCountrySelector(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+references:
+- uid: com.microsoft.store.partnercenter.offers.OfferCountrySelector.OfferCountrySelector*
+  name: OfferCountrySelector
+  nameWithType: OfferCountrySelector.OfferCountrySelector
+  fullName: com.microsoft.store.partnercenter.offers.OfferCountrySelector.OfferCountrySelector
+  package: com.microsoft.store.partnercenter.offers
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.offers.OfferCountrySelector.byCountry*
+  name: byCountry
+  nameWithType: OfferCountrySelector.byCountry
+  fullName: com.microsoft.store.partnercenter.offers.OfferCountrySelector.byCountry
+  package: com.microsoft.store.partnercenter.offers
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: "26831127"
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. The context is string type by default. </p>"
+  syntax:
+    content: public class BasePartnerComponentString extends BasePartnerComponent<String>
+- uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.yml
+  name: ICountrySelector<TOperations>
+  nameWithType: ICountrySelector<TOperations>
+  fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector<TOperations>
+  type: Interface
+  summary: "<p>Returns operations interfaces based on the given country. </p>"
+  syntax:
+    content: public interface ICountrySelector<TOperations>
+    typeParameters:
+    - id: TOperations
+      type: a8070b06
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.IOfferCollection.yml
+  name: IOfferCollection
+  nameWithType: IOfferCollection
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCollection
+  type: Interface
+  summary: "<p>Encapsulates the basic offers behavior. </p>"
+  syntax:
+    content: public interface IOfferCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.byCountry(String)
+  parent: com.microsoft.store.partnercenter.genericoperations.ICountrySelector
+  href: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.yml
+  name: byCountry(String country)
+  nameWithType: ICountrySelector<TOperations>.byCountry(String country)
+  fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector<TOperations>.byCountry(String country)
+  type: Method
+  summary: "<p>Customizes operations based on the given country.</p>\r\n<p></p>"
+  syntax:
+    content: public TOperations byCountry(String country)
+    parameters:
+    - id: country
+      type: "26831127"
+      description: <p>The country to be used by the returned operations.</p>
+    return:
+      type: a8070b06
+      description: <p>An operations interface customized for the provided country. </p>

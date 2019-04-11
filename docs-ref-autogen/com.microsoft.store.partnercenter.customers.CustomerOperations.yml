@@ -1,0 +1,1580 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations
+  id: CustomerOperations
+  parent: com.microsoft.store.partnercenter.customers
+  children:
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations(IPartner,String)
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.delete()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.get()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers()
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: CustomerOperations
+  nameWithType: CustomerOperations
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 70
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Implements a single customer operations. </p>"
+  syntax:
+    content: public class CustomerOperations extends BasePartnerComponentString implements ICustomer
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  - com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations(IPartner,String)
+  id: CustomerOperations(IPartner,String)
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: CustomerOperations(IPartner rootPartnerOperations, String customerId)
+  nameWithType: CustomerOperations.CustomerOperations(IPartner rootPartnerOperations, String customerId)
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations(IPartner rootPartnerOperations, String customerId)
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 207
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Initializes a new instance of the CustomerOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public CustomerOperations(IPartner rootPartnerOperations, String customerId)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+    - id: customerId
+      type: "26831127"
+      description: <p>The customer identifier. </p>
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.delete()
+  id: delete()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: delete()
+  nameWithType: CustomerOperations.delete()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.delete()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.delete*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 610
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Deletes the customer from a testing in production account. This only works for customer in the integration sandbox. </p>"
+  syntax:
+    content: public void delete()
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.delete()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: CustomerOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.get()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 596
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Retrieves information of a specific customer.</p>\r\n<p></p>"
+  syntax:
+    content: public Customer get()
+    return:
+      type: com.microsoft.store.partnercenter.models.customers.Customer
+      description: <p>The customer object. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.get()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements()
+  id: getAgreements()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getAgreements()
+  nameWithType: CustomerOperations.getAgreements()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 223
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the accepted agreements for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerAgreementCollection getAgreements()
+    return:
+      type: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+      description: <p>The customer accepted agreements. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getAgreements()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics()
+  id: getAnalytics()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getAnalytics()
+  nameWithType: CustomerOperations.getAnalytics()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 554
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the customer level analytics collection object. </p>"
+  syntax:
+    content: public ICustomerAnalyticsCollection getAnalytics()
+    return:
+      type: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getAnalytics()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents()
+  id: getApplicationConsents()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getApplicationConsents()
+  nameWithType: CustomerOperations.getApplicationConsents()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 239
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the application consents for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerApplicationConsentCollection getApplicationConsents()
+    return:
+      type: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+      description: <p>The customer application consents. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getApplicationConsents()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus()
+  id: getBatchUploadStatus()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getBatchUploadStatus()
+  nameWithType: CustomerOperations.getBatchUploadStatus()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 528
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the devices batch upload job status behavior of the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IBatchJobStatusCollection getBatchUploadStatus()
+    return:
+      type: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+      description: <p>The device batch upload job status beavior of the customer. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getBatchUploadStatus()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts()
+  id: getCarts()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getCarts()
+  nameWithType: CustomerOperations.getCarts()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 448
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Gets the cart behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICartCollection getCarts()
+    return:
+      type: com.microsoft.store.partnercenter.carts.ICartCollection
+      description: <p>The customer carts. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getCarts()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies()
+  id: getConfigurationPolicies()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getConfigurationPolicies()
+  nameWithType: CustomerOperations.getConfigurationPolicies()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 580
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the configuration policies behavior for the customer. </p>"
+  syntax:
+    content: public IConfigurationPolicyCollection getConfigurationPolicies()
+    return:
+      type: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getConfigurationPolicies()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches()
+  id: getDeviceBatches()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getDeviceBatches()
+  nameWithType: CustomerOperations.getDeviceBatches()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 496
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the devices batches behavior of the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IDevicesBatchCollection getDeviceBatches()
+    return:
+      type: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+      description: <p>The devices batches behavior of the customer. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getDeviceBatches()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy()
+  id: getDevicePolicy()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getDevicePolicy()
+  nameWithType: CustomerOperations.getDevicePolicy()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 512
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the device policy behavior of the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerDeviceCollection getDevicePolicy()
+    return:
+      type: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+      description: <p>The device policy behavior of the customer. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getDevicePolicy()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles()
+  id: getDirectoryRoles()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getDirectoryRoles()
+  nameWithType: CustomerOperations.getDirectoryRoles()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 416
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the Customer qualification. </p>"
+  syntax:
+    content: public IDirectoryRoleCollection getDirectoryRoles()
+    return:
+      type: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getDirectoryRoles()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements()
+  id: getEntitlements()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getEntitlements()
+  nameWithType: CustomerOperations.getEntitlements()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 567
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the entitlement collection object. </p>"
+  syntax:
+    content: public IEntitlementCollection getEntitlements()
+    return:
+      type: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getEntitlements()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices()
+  id: getManagedServices()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getManagedServices()
+  nameWithType: CustomerOperations.getManagedServices()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 314
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the managed services behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IManagedServiceCollection getManagedServices()
+    return:
+      type: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+      description: <p>The customer managed services operations. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getManagedServices()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories()
+  id: getOfferCategories()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getOfferCategories()
+  nameWithType: CustomerOperations.getOfferCategories()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 328
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the Offer Categories behavior for the customer. </p>"
+  syntax:
+    content: public ICustomerOfferCategoryCollection getOfferCategories()
+    return:
+      type: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getOfferCategories()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers()
+  id: getOffers()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getOffers()
+  nameWithType: CustomerOperations.getOffers()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 341
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the Offers behavior for the customer. </p>"
+  syntax:
+    content: public ICustomerOfferCollection getOffers()
+    return:
+      type: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getOffers()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders()
+  id: getOrders()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getOrders()
+  nameWithType: CustomerOperations.getOrders()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 255
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Gets the orders behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IOrderCollection getOrders()
+    return:
+      type: com.microsoft.store.partnercenter.orders.IOrderCollection
+      description: <p>The customer orders. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getOrders()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts()
+  id: getProducts()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getProducts()
+  nameWithType: CustomerOperations.getProducts()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 464
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Gets the cart behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerProductCollection getProducts()
+    return:
+      type: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection
+      description: <p>The customer carts. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getProducts()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles()
+  id: getProfiles()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getProfiles()
+  nameWithType: CustomerOperations.getProfiles()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 271
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the profiles behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerProfileCollection getProfiles()
+    return:
+      type: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
+      description: <p>The customer profiles. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getProfiles()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification()
+  id: getQualification()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getQualification()
+  nameWithType: CustomerOperations.getQualification()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 386
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the Customer qualification. </p>"
+  syntax:
+    content: public ICustomerQualification getQualification()
+    return:
+      type: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getQualification()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships()
+  id: getRelationships()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getRelationships()
+  nameWithType: CustomerOperations.getRelationships()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 541
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the relationship collection behavior for the customer. </p>"
+  syntax:
+    content: public ICustomerRelationshipCollection getRelationships()
+    return:
+      type: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getRelationships()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts()
+  id: getServiceCosts()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getServiceCosts()
+  nameWithType: CustomerOperations.getServiceCosts()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 480
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Gets the cart behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerServiceCostsCollection getServiceCosts()
+    return:
+      type: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
+      description: <p>The customer carts. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getServiceCosts()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests()
+  id: getServiceRequests()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getServiceRequests()
+  nameWithType: CustomerOperations.getServiceRequests()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 298
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the service requests behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IServiceRequestCollection getServiceRequests()
+    return:
+      type: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+      description: <p>The customer service request operations. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getServiceRequests()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus()
+  id: getSubscribedSkus()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getSubscribedSkus()
+  nameWithType: CustomerOperations.getSubscribedSkus()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 432
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the subscribed skus for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerSubscribedSkuCollection getSubscribedSkus()
+    return:
+      type: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+      description: <p>The customer usage spending budget operations. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getSubscribedSkus()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions()
+  id: getSubscriptions()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getSubscriptions()
+  nameWithType: CustomerOperations.getSubscriptions()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 282
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Gets the subscriptions behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ISubscriptionCollection getSubscriptions()
+    return:
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+      description: <p>The subscriptions behavior for the customer. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getSubscriptions()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget()
+  id: getUsageBudget()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getUsageBudget()
+  nameWithType: CustomerOperations.getUsageBudget()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 372
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the usage spending budget behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerUsageSpendingBudget getUsageBudget()
+    return:
+      type: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+      description: <p>The customer usage spending budget operations. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getUsageBudget()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary()
+  id: getUsageSummary()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getUsageSummary()
+  nameWithType: CustomerOperations.getUsageSummary()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 356
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the customer usage summary behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerUsageSummary getUsageSummary()
+    return:
+      type: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
+      description: <p>The customer usage summary operations. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getUsageSummary()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers()
+  id: getUsers()
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: getUsers()
+  nameWithType: CustomerOperations.getUsers()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 402
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Obtains the users for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerUserCollection getUsers()
+    return:
+      type: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+      description: <p>The customer usage spending budget operations. </p>
+  overridden: com.microsoft.store.partnercenter.customers.ICustomer.getUsers()
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations*
+  name: CustomerOperations
+  nameWithType: CustomerOperations.CustomerOperations
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements*
+  name: getAgreements
+  nameWithType: CustomerOperations.getAgreements
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents*
+  name: getApplicationConsents
+  nameWithType: CustomerOperations.getApplicationConsents
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders*
+  name: getOrders
+  nameWithType: CustomerOperations.getOrders
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles*
+  name: getProfiles
+  nameWithType: CustomerOperations.getProfiles
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions*
+  name: getSubscriptions
+  nameWithType: CustomerOperations.getSubscriptions
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests*
+  name: getServiceRequests
+  nameWithType: CustomerOperations.getServiceRequests
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices*
+  name: getManagedServices
+  nameWithType: CustomerOperations.getManagedServices
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories*
+  name: getOfferCategories
+  nameWithType: CustomerOperations.getOfferCategories
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers*
+  name: getOffers
+  nameWithType: CustomerOperations.getOffers
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary*
+  name: getUsageSummary
+  nameWithType: CustomerOperations.getUsageSummary
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget*
+  name: getUsageBudget
+  nameWithType: CustomerOperations.getUsageBudget
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification*
+  name: getQualification
+  nameWithType: CustomerOperations.getQualification
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers*
+  name: getUsers
+  nameWithType: CustomerOperations.getUsers
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles*
+  name: getDirectoryRoles
+  nameWithType: CustomerOperations.getDirectoryRoles
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus*
+  name: getSubscribedSkus
+  nameWithType: CustomerOperations.getSubscribedSkus
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts*
+  name: getCarts
+  nameWithType: CustomerOperations.getCarts
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts*
+  name: getProducts
+  nameWithType: CustomerOperations.getProducts
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts*
+  name: getServiceCosts
+  nameWithType: CustomerOperations.getServiceCosts
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches*
+  name: getDeviceBatches
+  nameWithType: CustomerOperations.getDeviceBatches
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy*
+  name: getDevicePolicy
+  nameWithType: CustomerOperations.getDevicePolicy
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus*
+  name: getBatchUploadStatus
+  nameWithType: CustomerOperations.getBatchUploadStatus
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships*
+  name: getRelationships
+  nameWithType: CustomerOperations.getRelationships
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics*
+  name: getAnalytics
+  nameWithType: CustomerOperations.getAnalytics
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements*
+  name: getEntitlements
+  nameWithType: CustomerOperations.getEntitlements
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies*
+  name: getConfigurationPolicies
+  nameWithType: CustomerOperations.getConfigurationPolicies
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.get*
+  name: get
+  nameWithType: CustomerOperations.get
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.get
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.delete*
+  name: delete
+  nameWithType: CustomerOperations.delete
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.delete
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponentString
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: "26831127"
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. The context is string type by default. </p>"
+  syntax:
+    content: public class BasePartnerComponentString extends BasePartnerComponent<String>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer
+  parent: com.microsoft.store.partnercenter.customers
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: ICustomer
+  nameWithType: ICustomer
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer
+  type: Interface
+  summary: "<p>Groups operations that can be performed on a single partner customer. </p>"
+  syntax:
+    content: public interface ICustomer
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.yml
+  name: ISubscriptionCollection
+  nameWithType: ISubscriptionCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customer subscriptions as a whole. </p>"
+  syntax:
+    content: public interface ISubscriptionCollection
+- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+  parent: com.microsoft.store.partnercenter.agreements
+  href: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.yml
+  name: ICustomerAgreementCollection
+  nameWithType: ICustomerAgreementCollection
+  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the Agreement collection. </p>"
+  syntax:
+    content: public interface ICustomerAgreementCollection
+- uid: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  parent: com.microsoft.store.partnercenter.applicationconsents
+  href: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.yml
+  name: ICustomerApplicationConsentCollection
+  nameWithType: ICustomerApplicationConsentCollection
+  fullName: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the ApplicationConsent collection. </p>"
+  syntax:
+    content: public interface ICustomerApplicationConsentCollection
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollection
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderCollection.yml
+  name: IOrderCollection
+  nameWithType: IOrderCollection
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection
+  type: Interface
+  summary: "<p>Encapsulates customer orders behavior. </p>"
+  syntax:
+    content: public interface IOrderCollection
+- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
+  parent: com.microsoft.store.partnercenter.customers.profiles
+  href: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.yml
+  name: ICustomerProfileCollection
+  nameWithType: ICustomerProfileCollection
+  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
+  type: Interface
+  summary: "<p>Represents customer profiles behavior. </p>"
+  syntax:
+    content: public interface ICustomerProfileCollection
+- uid: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+  parent: com.microsoft.store.partnercenter.servicerequests
+  href: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.yml
+  name: IServiceRequestCollection
+  nameWithType: IServiceRequestCollection
+  fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+  type: Interface
+  summary: "<p>Represents the behavior of service requests. </p>"
+  syntax:
+    content: public interface IServiceRequestCollection
+- uid: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+  parent: com.microsoft.store.partnercenter.managedservices
+  href: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection.yml
+  name: IManagedServiceCollection
+  nameWithType: IManagedServiceCollection
+  fullName: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+  type: Interface
+  summary: "<p>Holds the customer's managed services operations. </p>"
+  syntax:
+    content: public interface IManagedServiceCollection
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.yml
+  name: ICustomerOfferCollection
+  nameWithType: ICustomerOfferCollection
+  fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+  type: Interface
+  syntax:
+    content: public interface ICustomerOfferCollection
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection.yml
+  name: ICustomerOfferCategoryCollection
+  nameWithType: ICustomerOfferCategoryCollection
+  fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+  type: Interface
+  syntax:
+    content: public interface ICustomerOfferCategoryCollection
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.yml
+  name: ICustomerUsageSummary
+  nameWithType: ICustomerUsageSummary
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
+  type: Interface
+  summary: "<p>This interface defines the operations available on a customer's usage summary. </p>"
+  syntax:
+    content: public interface ICustomerUsageSummary
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.yml
+  name: ICustomerUsageSpendingBudget
+  nameWithType: ICustomerUsageSpendingBudget
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+  type: Interface
+  summary: "<p>This interface defines the operations available on a customer's usage spending budget. </p>"
+  syntax:
+    content: public interface ICustomerUsageSpendingBudget
+- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+  parent: com.microsoft.store.partnercenter.qualification
+  href: com.microsoft.store.partnercenter.qualification.ICustomerQualification.yml
+  name: ICustomerQualification
+  nameWithType: ICustomerQualification
+  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+  type: Interface
+  syntax:
+    content: public interface ICustomerQualification
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  parent: com.microsoft.store.partnercenter.customerusers
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.yml
+  name: ICustomerUserCollection
+  nameWithType: ICustomerUserCollection
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customers users </p>"
+  syntax:
+    content: public interface ICustomerUserCollection
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.yml
+  name: IDirectoryRoleCollection
+  nameWithType: IDirectoryRoleCollection
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+  type: Interface
+  summary: "<p>Interface for Directory Roles Collection </p>"
+  syntax:
+    content: public interface IDirectoryRoleCollection
+- uid: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+  parent: com.microsoft.store.partnercenter.subscribedskus
+  href: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.yml
+  name: ICustomerSubscribedSkuCollection
+  nameWithType: ICustomerSubscribedSkuCollection
+  fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customers users </p>"
+  syntax:
+    content: public interface ICustomerSubscribedSkuCollection
+- uid: com.microsoft.store.partnercenter.carts.ICartCollection
+  parent: com.microsoft.store.partnercenter.carts
+  href: com.microsoft.store.partnercenter.carts.ICartCollection.yml
+  name: ICartCollection
+  nameWithType: ICartCollection
+  fullName: com.microsoft.store.partnercenter.carts.ICartCollection
+  type: Interface
+  summary: "<p>Encapsulates a customer cart behavior. </p>"
+  syntax:
+    content: public interface ICartCollection
+- uid: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection
+  parent: com.microsoft.store.partnercenter.customers.products
+  href: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection.yml
+  name: ICustomerProductCollection
+  nameWithType: ICustomerProductCollection
+  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection
+  type: Interface
+  summary: "<p>Holds operations that can be performed on products that apply to a given customer. </p>"
+  syntax:
+    content: public interface ICustomerProductCollection
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
+  parent: com.microsoft.store.partnercenter.customers.servicecosts
+  href: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.yml
+  name: ICustomerServiceCostsCollection
+  nameWithType: ICustomerServiceCostsCollection
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
+  type: Interface
+  summary: "<p>Holds customer service costs behavior. </p>"
+  syntax:
+    content: public interface ICustomerServiceCostsCollection
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.yml
+  name: IDevicesBatchCollection
+  nameWithType: IDevicesBatchCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's devices batches. </p>"
+  syntax:
+    content: public interface IDevicesBatchCollection
+- uid: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.yml
+  name: ICustomerDeviceCollection
+  nameWithType: ICustomerDeviceCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's devices. </p>"
+  syntax:
+    content: public interface ICustomerDeviceCollection
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.yml
+  name: IBatchJobStatusCollection
+  nameWithType: IBatchJobStatusCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's batch upload status collection. </p>"
+  syntax:
+    content: public interface IBatchJobStatusCollection
+- uid: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+  parent: com.microsoft.store.partnercenter.relationships
+  href: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.yml
+  name: ICustomerRelationshipCollection
+  nameWithType: ICustomerRelationshipCollection
+  fullName: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+  type: Interface
+  summary: "<p>For two-tier partner scenarios, holds the operations for retrieving partner relationships of a customer with respect to the logged in partner. </p>"
+  syntax:
+    content: public interface ICustomerRelationshipCollection
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection.yml
+  name: ICustomerAnalyticsCollection
+  nameWithType: ICustomerAnalyticsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
+  type: Interface
+  summary: "<p>Holds operations that apply to customer analytics collection. </p>"
+  syntax:
+    content: public interface ICustomerAnalyticsCollection
+- uid: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+  parent: com.microsoft.store.partnercenter.entitlements
+  href: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.yml
+  name: IEntitlementCollection
+  nameWithType: IEntitlementCollection
+  fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be performed on entitlements associated to the customer based on the logged in partner. </p>"
+  syntax:
+    content: public interface IEntitlementCollection
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.yml
+  name: IConfigurationPolicyCollection
+  nameWithType: IConfigurationPolicyCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  type: Interface
+  summary: "<p>RRepresents the operations that can be done on the partner's configuration policies. </p>"
+  syntax:
+    content: public interface IConfigurationPolicyCollection
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getAgreements()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getAgreements()
+  nameWithType: ICustomer.getAgreements()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getAgreements()
+  type: Method
+  summary: "<p>Gets the agreements behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerAgreementCollection getAgreements()
+    return:
+      type: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+      description: <p>The customer agreements. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getApplicationConsents()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getApplicationConsents()
+  nameWithType: ICustomer.getApplicationConsents()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getApplicationConsents()
+  type: Method
+  summary: "<p>Gets the application consent behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerApplicationConsentCollection getApplicationConsents()
+    return:
+      type: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+      description: <p>The customer application consents. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getOrders()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getOrders()
+  nameWithType: ICustomer.getOrders()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getOrders()
+  type: Method
+  summary: "<p>Gets the orders behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IOrderCollection getOrders()
+    return:
+      type: com.microsoft.store.partnercenter.orders.IOrderCollection
+      description: <p>The order behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getProfiles()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getProfiles()
+  nameWithType: ICustomer.getProfiles()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getProfiles()
+  type: Method
+  summary: "<p>Gets the profiles behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerProfileCollection getProfiles()
+    return:
+      type: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
+      description: <p>The profiles behavior for the customer </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getSubscriptions()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getSubscriptions()
+  nameWithType: ICustomer.getSubscriptions()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getSubscriptions()
+  type: Method
+  summary: "<p>Gets the subscriptions behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ISubscriptionCollection getSubscriptions()
+    return:
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+      description: <p>The subscriptions behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getServiceRequests()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getServiceRequests()
+  nameWithType: ICustomer.getServiceRequests()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getServiceRequests()
+  type: Method
+  summary: "<p>Gets the service requests behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IServiceRequestCollection getServiceRequests()
+    return:
+      type: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+      description: <p>The service requests behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getManagedServices()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getManagedServices()
+  nameWithType: ICustomer.getManagedServices()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getManagedServices()
+  type: Method
+  summary: "<p>Gets the managed services behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IManagedServiceCollection getManagedServices()
+    return:
+      type: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+      description: <p>The managed services behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getOfferCategories()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getOfferCategories()
+  nameWithType: ICustomer.getOfferCategories()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getOfferCategories()
+  type: Method
+  summary: "<p>Gets the offer categories behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerOfferCategoryCollection getOfferCategories()
+    return:
+      type: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+      description: <p>The offer categories behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getOffers()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getOffers()
+  nameWithType: ICustomer.getOffers()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getOffers()
+  type: Method
+  summary: "<p>Gets the offers behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerOfferCollection getOffers()
+    return:
+      type: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+      description: <p>The offers behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getUsageSummary()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getUsageSummary()
+  nameWithType: ICustomer.getUsageSummary()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getUsageSummary()
+  type: Method
+  summary: "<p>Gets the customer usage summary behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerUsageSummary getUsageSummary()
+    return:
+      type: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
+      description: <p>The customer usage summary behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getUsageBudget()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getUsageBudget()
+  nameWithType: ICustomer.getUsageBudget()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getUsageBudget()
+  type: Method
+  summary: "<p>Gets the usage spending budget behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerUsageSpendingBudget getUsageBudget()
+    return:
+      type: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+      description: <p>The usage spending budget behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getQualification()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getQualification()
+  nameWithType: ICustomer.getQualification()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getQualification()
+  type: Method
+  summary: "<p>Gets the qualification behavior of the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerQualification getQualification()
+    return:
+      type: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+      description: <p>The qualification behavior of the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getUsers()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getUsers()
+  nameWithType: ICustomer.getUsers()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getUsers()
+  type: Method
+  summary: "<p>Gets the users behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerUserCollection getUsers()
+    return:
+      type: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+      description: <p>The users behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getDirectoryRoles()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getDirectoryRoles()
+  nameWithType: ICustomer.getDirectoryRoles()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getDirectoryRoles()
+  type: Method
+  summary: "<p>Gets the directory role behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IDirectoryRoleCollection getDirectoryRoles()
+    return:
+      type: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+      description: <p>The directory role behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getSubscribedSkus()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getSubscribedSkus()
+  nameWithType: ICustomer.getSubscribedSkus()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getSubscribedSkus()
+  type: Method
+  summary: "<p>Gets the directory role behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerSubscribedSkuCollection getSubscribedSkus()
+    return:
+      type: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+      description: <p>The directory role behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getCarts()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getCarts()
+  nameWithType: ICustomer.getCarts()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getCarts()
+  type: Method
+  summary: "<p>Gets the Cart collection behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICartCollection getCarts()
+    return:
+      type: com.microsoft.store.partnercenter.carts.ICartCollection
+      description: <p>The Cart collection behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getProducts()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getProducts()
+  nameWithType: ICustomer.getProducts()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getProducts()
+  type: Method
+  summary: "<p>Gets the products behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerProductCollection getProducts()
+    return:
+      type: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection
+      description: <p>The products behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getServiceCosts()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getServiceCosts()
+  nameWithType: ICustomer.getServiceCosts()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getServiceCosts()
+  type: Method
+  summary: "<p>Gets the service costs behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerServiceCostsCollection getServiceCosts()
+    return:
+      type: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
+      description: <p>The service costs behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getDeviceBatches()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getDeviceBatches()
+  nameWithType: ICustomer.getDeviceBatches()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getDeviceBatches()
+  type: Method
+  summary: "<p>Gets the devices batch behavior of the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IDevicesBatchCollection getDeviceBatches()
+    return:
+      type: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+      description: <p>The devices batch behavior of the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getDevicePolicy()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getDevicePolicy()
+  nameWithType: ICustomer.getDevicePolicy()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getDevicePolicy()
+  type: Method
+  summary: "<p>Gets the device policy behavior of the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerDeviceCollection getDevicePolicy()
+    return:
+      type: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+      description: <p>The device policy behavior of the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getBatchUploadStatus()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getBatchUploadStatus()
+  nameWithType: ICustomer.getBatchUploadStatus()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getBatchUploadStatus()
+  type: Method
+  summary: "<p>Gets the devices batch upload status behavior of the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IBatchJobStatusCollection getBatchUploadStatus()
+    return:
+      type: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+      description: <p>The devices batch upload status behavior of the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getRelationships()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getRelationships()
+  nameWithType: ICustomer.getRelationships()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getRelationships()
+  type: Method
+  summary: "<p>Gets the relationship collection behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerRelationshipCollection getRelationships()
+    return:
+      type: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+      description: <p>The relationship collection behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getAnalytics()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getAnalytics()
+  nameWithType: ICustomer.getAnalytics()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getAnalytics()
+  type: Method
+  summary: "<p>Gets the analytics collection behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerAnalyticsCollection getAnalytics()
+    return:
+      type: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
+      description: <p>The analytics collection behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getEntitlements()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getEntitlements()
+  nameWithType: ICustomer.getEntitlements()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getEntitlements()
+  type: Method
+  summary: "<p>Gets the entitlement collection behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IEntitlementCollection getEntitlements()
+    return:
+      type: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+      description: <p>The entitlement collection behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.getConfigurationPolicies()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: getConfigurationPolicies()
+  nameWithType: ICustomer.getConfigurationPolicies()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.getConfigurationPolicies()
+  type: Method
+  summary: "<p>Gets the configuration policies behavior for the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public IConfigurationPolicyCollection getConfigurationPolicies()
+    return:
+      type: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+      description: <p>The configuration policies behavior for the customer. </p>
+- uid: com.microsoft.store.partnercenter.models.customers.Customer
+  parent: com.microsoft.store.partnercenter.models.customers
+  href: com.microsoft.store.partnercenter.models.customers.Customer.yml
+  name: Customer
+  nameWithType: Customer
+  fullName: com.microsoft.store.partnercenter.models.customers.Customer
+  type: Class
+  summary: "<p>Base customer profile for both Company, Billing profiles </p>"
+  syntax:
+    content: public class Customer extends ResourceBaseWithLinks<StandardResourceLinks>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.get()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: get()
+  nameWithType: ICustomer.get()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.get()
+  type: Method
+  summary: "<p>Retrieves the customer information.</p>\r\n<p></p>"
+  syntax:
+    content: public Customer get()
+    return:
+      type: com.microsoft.store.partnercenter.models.customers.Customer
+      description: <p>The customer information. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer.delete()
+  parent: com.microsoft.store.partnercenter.customers.ICustomer
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: delete()
+  nameWithType: ICustomer.delete()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer.delete()
+  type: Method
+  summary: "<p>Deletes the customer from a testing in production account. This won't work for real accounts. </p>"
+  syntax:
+    content: public void delete()

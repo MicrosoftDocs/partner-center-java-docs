@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.store.partnercenter.countryvalidationrules
   id: countryvalidationrules
   children:
-  - com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_collection_operations
-  - com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_operations
-  - com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules
-  - com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules_collection
+  - com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations
+  - com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesOperations
+  - com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
+  - com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
   href: com.microsoft.store.partnercenter.countryvalidationrules.yml
   langs:
   - java
@@ -24,43 +24,43 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.countryvalidationrules
 references:
-- uid: com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_collection_operations
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations
   parent: com.microsoft.store.partnercenter.countryvalidationrules
-  href: com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_collection_operations.yml
+  href: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations.yml
   name: CountryValidationRulesCollectionOperations
   nameWithType: CountryValidationRulesCollectionOperations
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations
   type: Class
-  summary: <p>Implementation of Country Rules Validation </p>
+  summary: "<p>Implementation of Country Rules Validation </p>"
   syntax:
     content: public class CountryValidationRulesCollectionOperations extends BasePartnerComponentString implements ICountryValidationRulesCollection
-- uid: com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_operations
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesOperations
   parent: com.microsoft.store.partnercenter.countryvalidationrules
-  href: com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_operations.yml
+  href: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesOperations.yml
   name: CountryValidationRulesOperations
   nameWithType: CountryValidationRulesOperations
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesOperations
   type: Class
-  summary: <p>The country validation rules operations implementation. </p>
+  summary: "<p>The country validation rules operations implementation. </p>"
   syntax:
     content: public class CountryValidationRulesOperations extends BasePartnerComponentString implements ICountryValidationRules
-- uid: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
   parent: com.microsoft.store.partnercenter.countryvalidationrules
-  href: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules.yml
+  href: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.yml
   name: ICountryValidationRules
   nameWithType: ICountryValidationRules
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
   type: Interface
-  summary: <p>Represents the behavior of a specific country validation rules. </p>
+  summary: "<p>Represents the behavior of a specific country validation rules. </p>"
   syntax:
     content: public interface ICountryValidationRules extends IPartnerComponentString,IEntityGetOperations<CountryValidationRules>
-- uid: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules_collection
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
   parent: com.microsoft.store.partnercenter.countryvalidationrules
-  href: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules_collection.yml
+  href: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.yml
   name: ICountryValidationRulesCollection
   nameWithType: ICountryValidationRulesCollection
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
   type: Interface
-  summary: <p>Interface and Template for Country-Specific Rules for Validation </p>
+  summary: "<p>Interface and Template for Country-Specific Rules for Validation </p>"
   syntax:
     content: public interface ICountryValidationRulesCollection extends IPartnerComponentString,ICountrySelector<ICountryValidationRules>

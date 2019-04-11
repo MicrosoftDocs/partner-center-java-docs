@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment
+  id: ISkuCollectionByTargetSegment
+  parent: com.microsoft.store.partnercenter.products
+  children:
+  - com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get()
+  href: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.yml
+  langs:
+  - java
+  name: ISkuCollectionByTargetSegment
+  nameWithType: ISkuCollectionByTargetSegment
+  fullName: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/products/ISkuCollectionByTargetSegment.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/products/ISkuCollectionByTargetSegment.java
+    startLine: 17
+  package: com.microsoft.store.partnercenter.products
+  summary: "<p>Holds operations that can be performed on skus from a specific target segment. </p>"
+  syntax:
+    content: public interface ISkuCollectionByTargetSegment extends IPartnerComponent<TripletTuple<String, String, String>>,IEntireEntityCollectionRetrievalOperations<Sku, ResourceCollection<Sku>>
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment
+  href: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: ISkuCollectionByTargetSegment.get()
+  fullName: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get()
+  overload: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/products/ISkuCollectionByTargetSegment.java
+    startLine: 26
+  package: com.microsoft.store.partnercenter.products
+  summary: "<p>Retrieves all the skus for the provided product and target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Sku> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Skua08ddfce
+      description: <p>The SKUs for the provided product and target segment. </p>
+  overridden: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+references:
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Skua08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.products.Sku
+    name: Sku
+    fullName: com.microsoft.store.partnercenter.models.products.Sku
+    href: com.microsoft.store.partnercenter.models.products.Sku.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get*
+  name: get
+  nameWithType: ISkuCollectionByTargetSegment.get
+  fullName: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get
+  package: com.microsoft.store.partnercenter.products
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: IPartnerComponent<TContext>
+  nameWithType: IPartnerComponent<TContext>
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>
+  type: Interface
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponent<TContext>
+    typeParameters:
+    - id: TContext
+      type: 473af9dd
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  type: Interface
+  summary: "<p>A generic interface which represents operations for getting an entire collection of entities. The entity type.The entity collection type. </p>"
+  syntax:
+    content: public interface IEntireEntityCollectionRetrievalOperations<T,TResourceCollection extends ResourceCollection<T>>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+    - id: TResourceCollection
+      type: 5f968003
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations
+  parent: com.microsoft.store.partnercenter.customers.products
+  href: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.yml
+  name: CustomerSkuCollectionByTargetSegmentOperations
+  nameWithType: CustomerSkuCollectionByTargetSegmentOperations
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations
+  type: Class
+  summary: "<p>Implementation of customer sku collection operations by target segment. </p>"
+  syntax:
+    content: public class CustomerSkuCollectionByTargetSegmentOperations extends BasePartnerComponent<TripletTuple<String, String, String>> implements ISkuCollectionByTargetSegment
+- uid: com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations.yml
+  name: SkuCollectionByTargetSegmentOperations
+  nameWithType: SkuCollectionByTargetSegmentOperations
+  fullName: com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations
+  type: Class
+  summary: "<p>Sku Collection operations implementation. </p>"
+  syntax:
+    content: public class SkuCollectionByTargetSegmentOperations
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.models.products.Sku
+  parent: com.microsoft.store.partnercenter.models.products
+  href: com.microsoft.store.partnercenter.models.products.Sku.yml
+  name: Sku
+  nameWithType: Sku
+  fullName: com.microsoft.store.partnercenter.models.products.Sku
+  type: Class
+  summary: "<p>Class that represents a sku. </p>"
+  syntax:
+    content: public class Sku
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: get()
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T, TResourceCollection extends ResourceCollection<T>.get()
+  type: Method
+  summary: "<p>Retrieves all entities.</p>\r\n<p></p>"
+  syntax:
+    content: public TResourceCollection get()
+    return:
+      type: 5f968003
+      description: <p>The entities. </p>
+- uid: com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations.get()
+  parent: com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations
+  href: com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations.yml
+  name: get()
+  nameWithType: SkuCollectionByTargetSegmentOperations.get()
+  fullName: com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the skus for the provided product and target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Sku> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Skua08ddfce
+      description: <p>The SKUs for the provided product and target segment. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.get()
+  parent: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations
+  href: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.yml
+  name: get()
+  nameWithType: CustomerSkuCollectionByTargetSegmentOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the SKUs for the provided product.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Sku> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Skua08ddfce
+      description: <p>The SKUs for the provided product. </p>

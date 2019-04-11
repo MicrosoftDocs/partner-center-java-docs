@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.store.partnercenter.models.utils
   id: utils
   children:
-  - com.microsoft.store.partnercenter.models.utils._key_value_pair
-  - com.microsoft.store.partnercenter.models.utils._quadruple_tuple
-  - com.microsoft.store.partnercenter.models.utils._triplet_tuple
-  - com.microsoft.store.partnercenter.models.utils._tuple
+  - com.microsoft.store.partnercenter.models.utils.KeyValuePair
+  - com.microsoft.store.partnercenter.models.utils.QuadrupleTuple
+  - com.microsoft.store.partnercenter.models.utils.TripletTuple
+  - com.microsoft.store.partnercenter.models.utils.Tuple
   href: com.microsoft.store.partnercenter.models.utils.yml
   langs:
   - java
@@ -24,9 +24,9 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.utils
 references:
-- uid: com.microsoft.store.partnercenter.models.utils._key_value_pair
+- uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair
   parent: com.microsoft.store.partnercenter.models.utils
-  href: com.microsoft.store.partnercenter.models.utils._key_value_pair.yml
+  href: com.microsoft.store.partnercenter.models.utils.KeyValuePair.yml
   name: KeyValuePair<K,V>
   nameWithType: KeyValuePair<K,V>
   fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>
@@ -38,9 +38,9 @@ references:
       type: a1c6f3a5
     - id: V
       type: 0a560652
-- uid: com.microsoft.store.partnercenter.models.utils._quadruple_tuple
+- uid: com.microsoft.store.partnercenter.models.utils.QuadrupleTuple
   parent: com.microsoft.store.partnercenter.models.utils
-  href: com.microsoft.store.partnercenter.models.utils._quadruple_tuple.yml
+  href: com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.yml
   name: QuadrupleTuple<T1,T2,T3,T4>
   nameWithType: QuadrupleTuple<T1,T2,T3,T4>
   fullName: com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<T1,T2,T3,T4>
@@ -56,9 +56,9 @@ references:
       type: e92ab054
     - id: T4
       type: 21b77ff4
-- uid: com.microsoft.store.partnercenter.models.utils._triplet_tuple
+- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
   parent: com.microsoft.store.partnercenter.models.utils
-  href: com.microsoft.store.partnercenter.models.utils._triplet_tuple.yml
+  href: com.microsoft.store.partnercenter.models.utils.TripletTuple.yml
   name: TripletTuple<T1,T2,T3>
   nameWithType: TripletTuple<T1,T2,T3>
   fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple<T1,T2,T3>
@@ -72,9 +72,9 @@ references:
       type: 6ac4d271
     - id: T3
       type: e92ab054
-- uid: com.microsoft.store.partnercenter.models.utils._tuple
+- uid: com.microsoft.store.partnercenter.models.utils.Tuple
   parent: com.microsoft.store.partnercenter.models.utils
-  href: com.microsoft.store.partnercenter.models.utils._tuple.yml
+  href: com.microsoft.store.partnercenter.models.utils.Tuple.yml
   name: Tuple<T1,T2>
   nameWithType: Tuple<T1,T2>
   fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>

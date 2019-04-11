@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+  id: BillingPeriod
+  parent: com.microsoft.store.partnercenter.models.invoices
+  children:
+  - com.microsoft.store.partnercenter.models.invoices.BillingPeriod.BillingPeriod(String)
+  - com.microsoft.store.partnercenter.models.invoices.BillingPeriod.Current
+  - com.microsoft.store.partnercenter.models.invoices.BillingPeriod.NONE
+  - com.microsoft.store.partnercenter.models.invoices.BillingPeriod.PREVIOUS
+  - com.microsoft.store.partnercenter.models.invoices.BillingPeriod.toString()
+  href: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.yml
+  langs:
+  - java
+  name: BillingPeriod
+  nameWithType: BillingPeriod
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingPeriod.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingPeriod.java
+    startLine: 10
+  package: com.microsoft.store.partnercenter.models.invoices
+  syntax:
+    content: public enum BillingPeriod
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<BillingPeriod>
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.BillingPeriod(String)
+  id: BillingPeriod(String)
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+  href: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.yml
+  langs:
+  - java
+  name: BillingPeriod(String value)
+  nameWithType: BillingPeriod.BillingPeriod(String value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.BillingPeriod(String value)
+  overload: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.BillingPeriod*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingPeriod.java
+    startLine: 29
+  package: com.microsoft.store.partnercenter.models.invoices
+  syntax:
+    content: public BillingPeriod(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.Current
+  id: Current
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+  href: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.yml
+  langs:
+  - java
+  name: Current
+  nameWithType: BillingPeriod.Current
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.Current
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingPeriod.java
+    startLine: 20
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>The current period that is ongoing. </p>"
+  syntax:
+    content: public Current=("current")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+  href: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: BillingPeriod.NONE
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingPeriod.java
+    startLine: 15
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Default period, does not mean anything. </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.PREVIOUS
+  id: PREVIOUS
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+  href: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.yml
+  langs:
+  - java
+  name: PREVIOUS
+  nameWithType: BillingPeriod.PREVIOUS
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.PREVIOUS
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingPeriod.java
+    startLine: 25
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>The previous period. </p>"
+  syntax:
+    content: public PREVIOUS=("previous")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+  href: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: BillingPeriod.toString()
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.toString()
+  overload: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingPeriod.java
+    startLine: 41
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.BillingPeriod*
+  name: BillingPeriod
+  nameWithType: BillingPeriod.BillingPeriod
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.BillingPeriod
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.toString*
+  name: toString
+  nameWithType: BillingPeriod.toString
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.toString
+  package: com.microsoft.store.partnercenter.models.invoices

@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.store.partnercenter.managedservices
   id: managedservices
   children:
-  - com.microsoft.store.partnercenter.managedservices._i_managed_service_collection
-  - com.microsoft.store.partnercenter.managedservices._managed_service_collection_operations
+  - com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+  - com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations
   href: com.microsoft.store.partnercenter.managedservices.yml
   langs:
   - java
@@ -22,23 +22,23 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.managedservices
 references:
-- uid: com.microsoft.store.partnercenter.managedservices._i_managed_service_collection
+- uid: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
   parent: com.microsoft.store.partnercenter.managedservices
-  href: com.microsoft.store.partnercenter.managedservices._i_managed_service_collection.yml
+  href: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection.yml
   name: IManagedServiceCollection
   nameWithType: IManagedServiceCollection
   fullName: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
   type: Interface
-  summary: <p>Holds the customer's managed services operations. </p>
+  summary: "<p>Holds the customer's managed services operations. </p>"
   syntax:
     content: public interface IManagedServiceCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ManagedService, ResourceCollection<ManagedService>>
-- uid: com.microsoft.store.partnercenter.managedservices._managed_service_collection_operations
+- uid: com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations
   parent: com.microsoft.store.partnercenter.managedservices
-  href: com.microsoft.store.partnercenter.managedservices._managed_service_collection_operations.yml
+  href: com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations.yml
   name: ManagedServiceCollectionOperations
   nameWithType: ManagedServiceCollectionOperations
   fullName: com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations
   type: Class
-  summary: <p>Implements a customer's managed services operations. </p>
+  summary: "<p>Implements a customer's managed services operations. </p>"
   syntax:
     content: public class ManagedServiceCollectionOperations extends BasePartnerComponentString implements IManagedServiceCollection

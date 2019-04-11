@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+  id: InvoiceLineItem
+  parent: com.microsoft.store.partnercenter.models.invoices
+  children:
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()
+  href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.yml
+  langs:
+  - java
+  name: InvoiceLineItem
+  nameWithType: InvoiceLineItem
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceLineItem.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceLineItem.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Represents a line item on an invoice. </p>"
+  syntax:
+    content: public class InvoiceLineItem extends ResourceBase
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.ResourceBase
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()
+  id: getBillingProvider()
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+  href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.yml
+  langs:
+  - java
+  name: getBillingProvider()
+  nameWithType: InvoiceLineItem.getBillingProvider()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceLineItem.java
+    startLine: 28
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Gets the billing provider.</p>\r\n<p></p>"
+  syntax:
+    content: public abstract BillingProvider getBillingProvider()
+    return:
+      type: 13c86962com.microsoft.store.partnercenter.models.invoices.BillingProvider
+      description: <p>The billing provider. </p>
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()
+  id: getInvoiceLineItemType()
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+  href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.yml
+  langs:
+  - java
+  name: getInvoiceLineItemType()
+  nameWithType: InvoiceLineItem.getInvoiceLineItemType()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceLineItem.java
+    startLine: 21
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: "<p>Gets the type of invoice line item.</p>\r\n<p></p>"
+  syntax:
+    content: public abstract InvoiceLineItemType getInvoiceLineItemType()
+    return:
+      type: 13c86962com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+      description: <p>The type of invoice line item. </p>
+references:
+- uid: 13c86962com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+  spec.java:
+  - name: 'abstract '
+    fullName: 'abstract '
+  - uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+    name: InvoiceLineItemType
+    fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+    href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.yml
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType*
+  name: getInvoiceLineItemType
+  nameWithType: InvoiceLineItem.getInvoiceLineItemType
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: 13c86962com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  spec.java:
+  - name: 'abstract '
+    fullName: 'abstract '
+  - uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+    name: BillingProvider
+    fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+    href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider*
+  name: getBillingProvider
+  nameWithType: InvoiceLineItem.getBillingProvider
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: getAttributes()
+  nameWithType: ResourceBase.getAttributes()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  type: Method
+  summary: "<p>Gets the attributes.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceAttributes getAttributes()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceAttributes
+      description: <p>The resource attributes. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: ResourceBase()
+  nameWithType: ResourceBase.ResourceBase()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBase class. </p>"
+  syntax:
+    content: protected ResourceBase()
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: ResourceBase(String objectType)
+  nameWithType: ResourceBase.ResourceBase(String objectType)
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String objectType)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBase class.</p>\r\n<p></p>"
+  syntax:
+    content: protected ResourceBase(String objectType)
+    parameters:
+    - id: objectType
+      type: "26831127"
+      description: <p>Type of the object. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBase
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: ResourceBase
+  nameWithType: ResourceBase
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase
+  type: Class
+  summary: "<p>Base class for resources </p>"
+  syntax:
+    content: public class ResourceBase
+- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.yml
+  name: BaseUsageBasedLineItem
+  nameWithType: BaseUsageBasedLineItem
+  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem
+  type: Class
+  summary: "<p>Represents common properties for Usage based invoice line items </p>"
+  syntax:
+    content: public class BaseUsageBasedLineItem extends InvoiceLineItem
+- uid: com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem.yml
+  name: DailyRatedUsageLineItem
+  nameWithType: DailyRatedUsageLineItem
+  fullName: com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem
+  type: Class
+  summary: "<p>Represents unbilled, billed recon line items for daily rated usage. </p>"
+  syntax:
+    content: public class DailyRatedUsageLineItem extends InvoiceLineItem
+- uid: com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem.yml
+  name: LicenseBasedLineItem
+  nameWithType: LicenseBasedLineItem
+  fullName: com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem
+  type: Class
+  summary: "<p>Represents an invoice billing line item for licensed based subscriptions </p>"
+  syntax:
+    content: public class LicenseBasedLineItem
+- uid: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.yml
+  name: OneTimeInvoiceLineItem
+  nameWithType: OneTimeInvoiceLineItem
+  fullName: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem
+  type: Class
+  summary: "<p>Represents an invoice billing line item for OneTime purchases. </p>"
+  syntax:
+    content: public class OneTimeInvoiceLineItem
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.yml
+  name: InvoiceLineItemType
+  nameWithType: InvoiceLineItemType
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+  type: Enum
+  syntax:
+    content: public enum InvoiceLineItemType
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+  name: BillingProvider
+  nameWithType: BillingProvider
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  type: Enum
+  syntax:
+    content: public enum BillingProvider

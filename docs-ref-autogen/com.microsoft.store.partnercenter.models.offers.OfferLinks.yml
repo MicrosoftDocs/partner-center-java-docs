@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.offers.OfferLinks
+  id: OfferLinks
+  parent: com.microsoft.store.partnercenter.models.offers
+  children:
+  - com.microsoft.store.partnercenter.models.offers.OfferLinks.getLearnMore()
+  - com.microsoft.store.partnercenter.models.offers.OfferLinks.setLearnMore(Link)
+  href: com.microsoft.store.partnercenter.models.offers.OfferLinks.yml
+  langs:
+  - java
+  name: OfferLinks
+  nameWithType: OfferLinks
+  fullName: com.microsoft.store.partnercenter.models.offers.OfferLinks
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/offers/OfferLinks.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/offers/OfferLinks.java
+    startLine: 14
+  package: com.microsoft.store.partnercenter.models.offers
+  summary: "<p>Bundles offer links. </p>"
+  syntax:
+    content: public class OfferLinks extends StandardResourceLinks
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.StandardResourceLinks
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.models.StandardResourceLinks.getSelf()
+  - com.microsoft.store.partnercenter.models.StandardResourceLinks.setSelf(Link)
+- uid: com.microsoft.store.partnercenter.models.offers.OfferLinks.getLearnMore()
+  id: getLearnMore()
+  parent: com.microsoft.store.partnercenter.models.offers.OfferLinks
+  href: com.microsoft.store.partnercenter.models.offers.OfferLinks.yml
+  langs:
+  - java
+  name: getLearnMore()
+  nameWithType: OfferLinks.getLearnMore()
+  fullName: com.microsoft.store.partnercenter.models.offers.OfferLinks.getLearnMore()
+  overload: com.microsoft.store.partnercenter.models.offers.OfferLinks.getLearnMore*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/offers/OfferLinks.java
+    startLine: 22
+  package: com.microsoft.store.partnercenter.models.offers
+  syntax:
+    content: public Link getLearnMore()
+    return:
+      type: com.microsoft.store.partnercenter.models.Link
+- uid: com.microsoft.store.partnercenter.models.offers.OfferLinks.setLearnMore(Link)
+  id: setLearnMore(Link)
+  parent: com.microsoft.store.partnercenter.models.offers.OfferLinks
+  href: com.microsoft.store.partnercenter.models.offers.OfferLinks.yml
+  langs:
+  - java
+  name: setLearnMore(Link value)
+  nameWithType: OfferLinks.setLearnMore(Link value)
+  fullName: com.microsoft.store.partnercenter.models.offers.OfferLinks.setLearnMore(Link value)
+  overload: com.microsoft.store.partnercenter.models.offers.OfferLinks.setLearnMore*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/offers/OfferLinks.java
+    startLine: 27
+  package: com.microsoft.store.partnercenter.models.offers
+  syntax:
+    content: public void setLearnMore(Link value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.Link
+references:
+- uid: com.microsoft.store.partnercenter.models.offers.OfferLinks.getLearnMore*
+  name: getLearnMore
+  nameWithType: OfferLinks.getLearnMore
+  fullName: com.microsoft.store.partnercenter.models.offers.OfferLinks.getLearnMore
+  package: com.microsoft.store.partnercenter.models.offers
+- uid: com.microsoft.store.partnercenter.models.offers.OfferLinks.setLearnMore*
+  name: setLearnMore
+  nameWithType: OfferLinks.setLearnMore
+  fullName: com.microsoft.store.partnercenter.models.offers.OfferLinks.setLearnMore
+  package: com.microsoft.store.partnercenter.models.offers
+- uid: com.microsoft.store.partnercenter.models.StandardResourceLinks.getSelf()
+  parent: com.microsoft.store.partnercenter.models.StandardResourceLinks
+  href: com.microsoft.store.partnercenter.models.StandardResourceLinks.yml
+  name: getSelf()
+  nameWithType: StandardResourceLinks.getSelf()
+  fullName: com.microsoft.store.partnercenter.models.StandardResourceLinks.getSelf()
+  type: Method
+  syntax:
+    content: public Link getSelf()
+    return:
+      type: com.microsoft.store.partnercenter.models.Link
+- uid: com.microsoft.store.partnercenter.models.StandardResourceLinks.setSelf(Link)
+  parent: com.microsoft.store.partnercenter.models.StandardResourceLinks
+  href: com.microsoft.store.partnercenter.models.StandardResourceLinks.yml
+  name: setSelf(Link value)
+  nameWithType: StandardResourceLinks.setSelf(Link value)
+  fullName: com.microsoft.store.partnercenter.models.StandardResourceLinks.setSelf(Link value)
+  type: Method
+  syntax:
+    content: public void setSelf(Link value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.Link
+- uid: com.microsoft.store.partnercenter.models.StandardResourceLinks
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.StandardResourceLinks.yml
+  name: StandardResourceLinks
+  nameWithType: StandardResourceLinks
+  fullName: com.microsoft.store.partnercenter.models.StandardResourceLinks
+  type: Class
+  summary: "<p>Represents the links associated with a resource. </p>"
+  syntax:
+    content: public class StandardResourceLinks
+- uid: com.microsoft.store.partnercenter.models.Link
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  name: Link
+  nameWithType: Link
+  fullName: com.microsoft.store.partnercenter.models.Link
+  type: Class
+  summary: "<p>Link represents a URI and the HTTP method which indicates the desired action for accessing the resource. </p>"
+  syntax:
+    content: public class Link

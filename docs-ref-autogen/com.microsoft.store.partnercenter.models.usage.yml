@@ -3,16 +3,16 @@ items:
 - uid: com.microsoft.store.partnercenter.models.usage
   id: usage
   children:
-  - com.microsoft.store.partnercenter.models.usage._azure_resource_monthly_usage_record
-  - com.microsoft.store.partnercenter.models.usage._customer_monthly_usage_record
-  - com.microsoft.store.partnercenter.models.usage._customer_usage_summary
-  - com.microsoft.store.partnercenter.models.usage._partner_usage_summary
-  - com.microsoft.store.partnercenter.models.usage._spending_budget
-  - com.microsoft.store.partnercenter.models.usage._subscription_daily_usage_record
-  - com.microsoft.store.partnercenter.models.usage._subscription_monthly_usage_record
-  - com.microsoft.store.partnercenter.models.usage._subscription_usage_summary
-  - com.microsoft.store.partnercenter.models.usage._usage_record_base
-  - com.microsoft.store.partnercenter.models.usage._usage_summary_base
+  - com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord
+  - com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord
+  - com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary
+  - com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary
+  - com.microsoft.store.partnercenter.models.usage.SpendingBudget
+  - com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord
+  - com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
+  - com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase
+  - com.microsoft.store.partnercenter.models.usage.UsageSummaryBase
   href: com.microsoft.store.partnercenter.models.usage.yml
   langs:
   - java
@@ -30,103 +30,103 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.usage
 references:
-- uid: com.microsoft.store.partnercenter.models.usage._azure_resource_monthly_usage_record
+- uid: com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord
   parent: com.microsoft.store.partnercenter.models.usage
-  href: com.microsoft.store.partnercenter.models.usage._azure_resource_monthly_usage_record.yml
+  href: com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.yml
   name: AzureResourceMonthlyUsageRecord
   nameWithType: AzureResourceMonthlyUsageRecord
   fullName: com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord
   type: Class
-  summary: <p>This class defines the monthly usage record for an Azure subscription resource </p>
+  summary: "<p>This class defines the monthly usage record for an Azure subscription resource </p>"
   syntax:
     content: public class AzureResourceMonthlyUsageRecord extends UsageRecordBase
-- uid: com.microsoft.store.partnercenter.models.usage._customer_monthly_usage_record
+- uid: com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord
   parent: com.microsoft.store.partnercenter.models.usage
-  href: com.microsoft.store.partnercenter.models.usage._customer_monthly_usage_record.yml
+  href: com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.yml
   name: CustomerMonthlyUsageRecord
   nameWithType: CustomerMonthlyUsageRecord
   fullName: com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord
   type: Class
-  summary: <p>This class defines the monthly usage record of a customer for all its subscriptions. </p>
+  summary: "<p>This class defines the monthly usage record of a customer for all its subscriptions. </p>"
   syntax:
     content: public class CustomerMonthlyUsageRecord extends UsageRecordBase
-- uid: com.microsoft.store.partnercenter.models.usage._customer_usage_summary
+- uid: com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary
   parent: com.microsoft.store.partnercenter.models.usage
-  href: com.microsoft.store.partnercenter.models.usage._customer_usage_summary.yml
+  href: com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.yml
   name: CustomerUsageSummary
   nameWithType: CustomerUsageSummary
   fullName: com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary
   type: Class
-  summary: <p>This class defines the usage summary for a specific customer. </p>
+  summary: "<p>This class defines the usage summary for a specific customer. </p>"
   syntax:
     content: public class CustomerUsageSummary extends UsageSummaryBase
-- uid: com.microsoft.store.partnercenter.models.usage._partner_usage_summary
+- uid: com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary
   parent: com.microsoft.store.partnercenter.models.usage
-  href: com.microsoft.store.partnercenter.models.usage._partner_usage_summary.yml
+  href: com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.yml
   name: PartnerUsageSummary
   nameWithType: PartnerUsageSummary
   fullName: com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary
   type: Class
-  summary: <p>This class defines the usage summary of a partner for all its customers with an Azure subscription </p>
+  summary: "<p>This class defines the usage summary of a partner for all its customers with an Azure subscription </p>"
   syntax:
     content: public class PartnerUsageSummary extends UsageSummaryBase
-- uid: com.microsoft.store.partnercenter.models.usage._spending_budget
+- uid: com.microsoft.store.partnercenter.models.usage.SpendingBudget
   parent: com.microsoft.store.partnercenter.models.usage
-  href: com.microsoft.store.partnercenter.models.usage._spending_budget.yml
+  href: com.microsoft.store.partnercenter.models.usage.SpendingBudget.yml
   name: SpendingBudget
   nameWithType: SpendingBudget
   fullName: com.microsoft.store.partnercenter.models.usage.SpendingBudget
   type: Class
-  summary: <p>The spending budget allocated to the customer by the partner. </p>
+  summary: "<p>The spending budget allocated to the customer by the partner. </p>"
   syntax:
     content: public class SpendingBudget extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.usage._subscription_daily_usage_record
+- uid: com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord
   parent: com.microsoft.store.partnercenter.models.usage
-  href: com.microsoft.store.partnercenter.models.usage._subscription_daily_usage_record.yml
+  href: com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.yml
   name: SubscriptionDailyUsageRecord
   nameWithType: SubscriptionDailyUsageRecord
   fullName: com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord
   type: Class
-  summary: <p>This class defines the daily usage record of a specific subscription. </p>
+  summary: "<p>This class defines the daily usage record of a specific subscription. </p>"
   syntax:
     content: public class SubscriptionDailyUsageRecord extends UsageRecordBase
-- uid: com.microsoft.store.partnercenter.models.usage._subscription_monthly_usage_record
+- uid: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
   parent: com.microsoft.store.partnercenter.models.usage
-  href: com.microsoft.store.partnercenter.models.usage._subscription_monthly_usage_record.yml
+  href: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.yml
   name: SubscriptionMonthlyUsageRecord
   nameWithType: SubscriptionMonthlyUsageRecord
   fullName: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
   type: Class
-  summary: <p>The class defines the monthly usage record of a subscription. </p>
+  summary: "<p>The class defines the monthly usage record of a subscription. </p>"
   syntax:
     content: public class SubscriptionMonthlyUsageRecord extends UsageRecordBase
-- uid: com.microsoft.store.partnercenter.models.usage._subscription_usage_summary
+- uid: com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary
   parent: com.microsoft.store.partnercenter.models.usage
-  href: com.microsoft.store.partnercenter.models.usage._subscription_usage_summary.yml
+  href: com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.yml
   name: SubscriptionUsageSummary
   nameWithType: SubscriptionUsageSummary
   fullName: com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary
   type: Class
-  summary: <p>This class defines the usage summary for a specific subscription. </p>
+  summary: "<p>This class defines the usage summary for a specific subscription. </p>"
   syntax:
     content: public class SubscriptionUsageSummary extends UsageSummaryBase
-- uid: com.microsoft.store.partnercenter.models.usage._usage_record_base
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase
   parent: com.microsoft.store.partnercenter.models.usage
-  href: com.microsoft.store.partnercenter.models.usage._usage_record_base.yml
+  href: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.yml
   name: UsageRecordBase
   nameWithType: UsageRecordBase
   fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase
   type: Class
-  summary: <p>This class defines the common properties for all usage records. </p>
+  summary: "<p>This class defines the common properties for all usage records. </p>"
   syntax:
     content: public class UsageRecordBase extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.usage._usage_summary_base
+- uid: com.microsoft.store.partnercenter.models.usage.UsageSummaryBase
   parent: com.microsoft.store.partnercenter.models.usage
-  href: com.microsoft.store.partnercenter.models.usage._usage_summary_base.yml
+  href: com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.yml
   name: UsageSummaryBase
   nameWithType: UsageSummaryBase
   fullName: com.microsoft.store.partnercenter.models.usage.UsageSummaryBase
   type: Class
-  summary: <p>This class defines the common properties for all usage summary </p>
+  summary: "<p>This class defines the common properties for all usage summary </p>"
   syntax:
     content: public class UsageSummaryBase extends ResourceBaseWithLinks<StandardResourceLinks>

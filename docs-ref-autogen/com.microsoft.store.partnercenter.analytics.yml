@@ -3,22 +3,22 @@ items:
 - uid: com.microsoft.store.partnercenter.analytics
   id: analytics
   children:
-  - com.microsoft.store.partnercenter.analytics._customer_analytics_collection_operations
-  - com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations
-  - com.microsoft.store.partnercenter.analytics._customer_licenses_deployment_insights_collection_operations
-  - com.microsoft.store.partnercenter.analytics._customer_licenses_usage_insights_collection_operations
-  - com.microsoft.store.partnercenter.analytics._i_customer_analytics_collection
-  - com.microsoft.store.partnercenter.analytics._i_customer_licenses_analytics_collection
-  - com.microsoft.store.partnercenter.analytics._i_customer_licenses_deployment_insights_collection
-  - com.microsoft.store.partnercenter.analytics._i_customer_licenses_usage_insights_collection
-  - com.microsoft.store.partnercenter.analytics._i_partner_analytics_collection
-  - com.microsoft.store.partnercenter.analytics._i_partner_licenses_analytics_collection
-  - com.microsoft.store.partnercenter.analytics._i_partner_licenses_deployment_insights_collection
-  - com.microsoft.store.partnercenter.analytics._i_partner_licenses_usage_insights_collection
-  - com.microsoft.store.partnercenter.analytics._partner_analytics_collection_operations
-  - com.microsoft.store.partnercenter.analytics._partner_licenses_analytics_collection_operations
-  - com.microsoft.store.partnercenter.analytics._partner_licenses_deployment_insights_collection_operations
-  - com.microsoft.store.partnercenter.analytics._partner_licenses_usage_insights_collection_operations
+  - com.microsoft.store.partnercenter.analytics.CustomerAnalyticsCollectionOperations
+  - com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations
+  - com.microsoft.store.partnercenter.analytics.CustomerLicensesDeploymentInsightsCollectionOperations
+  - com.microsoft.store.partnercenter.analytics.CustomerLicensesUsageInsightsCollectionOperations
+  - com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
+  - com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection
+  - com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection
+  - com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection
+  - com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
+  - com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
+  - com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection
+  - com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
+  - com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations
+  - com.microsoft.store.partnercenter.analytics.PartnerLicensesAnalyticsCollectionOperations
+  - com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations
+  - com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations
   href: com.microsoft.store.partnercenter.analytics.yml
   langs:
   - java
@@ -36,163 +36,163 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.analytics
 references:
-- uid: com.microsoft.store.partnercenter.analytics._customer_analytics_collection_operations
+- uid: com.microsoft.store.partnercenter.analytics.CustomerAnalyticsCollectionOperations
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._customer_analytics_collection_operations.yml
+  href: com.microsoft.store.partnercenter.analytics.CustomerAnalyticsCollectionOperations.yml
   name: CustomerAnalyticsCollectionOperations
   nameWithType: CustomerAnalyticsCollectionOperations
   fullName: com.microsoft.store.partnercenter.analytics.CustomerAnalyticsCollectionOperations
   type: Class
-  summary: <p>Implements the operations on a Customer analytics collection. </p>
+  summary: "<p>Implements the operations on a Customer analytics collection. </p>"
   syntax:
     content: public class CustomerAnalyticsCollectionOperations extends BasePartnerComponentString implements ICustomerAnalyticsCollection
-- uid: com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations
+- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations.yml
+  href: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.yml
   name: CustomerLicensesAnalyticsCollectionOperations
   nameWithType: CustomerLicensesAnalyticsCollectionOperations
   fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations
   type: Class
-  summary: <p>Implements the operations on a customer licenses analytics collection. </p>
+  summary: "<p>Implements the operations on a customer licenses analytics collection. </p>"
   syntax:
     content: public class CustomerLicensesAnalyticsCollectionOperations extends BasePartnerComponentString implements ICustomerLicensesAnalyticsCollection
-- uid: com.microsoft.store.partnercenter.analytics._customer_licenses_deployment_insights_collection_operations
+- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesDeploymentInsightsCollectionOperations
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._customer_licenses_deployment_insights_collection_operations.yml
+  href: com.microsoft.store.partnercenter.analytics.CustomerLicensesDeploymentInsightsCollectionOperations.yml
   name: CustomerLicensesDeploymentInsightsCollectionOperations
   nameWithType: CustomerLicensesDeploymentInsightsCollectionOperations
   fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesDeploymentInsightsCollectionOperations
   type: Class
-  summary: <p>Implements the operations on customer licenses deployment insights collection. </p>
+  summary: "<p>Implements the operations on customer licenses deployment insights collection. </p>"
   syntax:
     content: public class CustomerLicensesDeploymentInsightsCollectionOperations extends BasePartnerComponentString implements ICustomerLicensesDeploymentInsightsCollection
-- uid: com.microsoft.store.partnercenter.analytics._customer_licenses_usage_insights_collection_operations
+- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesUsageInsightsCollectionOperations
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._customer_licenses_usage_insights_collection_operations.yml
+  href: com.microsoft.store.partnercenter.analytics.CustomerLicensesUsageInsightsCollectionOperations.yml
   name: CustomerLicensesUsageInsightsCollectionOperations
   nameWithType: CustomerLicensesUsageInsightsCollectionOperations
   fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesUsageInsightsCollectionOperations
   type: Class
-  summary: <p>Implements the operations on customer licenses usage insights collection. </p>
+  summary: "<p>Implements the operations on customer licenses usage insights collection. </p>"
   syntax:
     content: public class CustomerLicensesUsageInsightsCollectionOperations extends BasePartnerComponentString implements ICustomerLicensesUsageInsightsCollection
-- uid: com.microsoft.store.partnercenter.analytics._i_customer_analytics_collection
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._i_customer_analytics_collection.yml
+  href: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection.yml
   name: ICustomerAnalyticsCollection
   nameWithType: ICustomerAnalyticsCollection
   fullName: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
   type: Interface
-  summary: <p>Holds operations that apply to customer analytics collection. </p>
+  summary: "<p>Holds operations that apply to customer analytics collection. </p>"
   syntax:
     content: public interface ICustomerAnalyticsCollection extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.analytics._i_customer_licenses_analytics_collection
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._i_customer_licenses_analytics_collection.yml
+  href: com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection.yml
   name: ICustomerLicensesAnalyticsCollection
   nameWithType: ICustomerLicensesAnalyticsCollection
   fullName: com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection
   type: Interface
-  summary: <p>Encapsulates collection of customer level analytics. </p>
+  summary: "<p>Encapsulates collection of customer level analytics. </p>"
   syntax:
     content: public interface ICustomerLicensesAnalyticsCollection extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.analytics._i_customer_licenses_deployment_insights_collection
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._i_customer_licenses_deployment_insights_collection.yml
+  href: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection.yml
   name: ICustomerLicensesDeploymentInsightsCollection
   nameWithType: ICustomerLicensesDeploymentInsightsCollection
   fullName: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection
   type: Interface
-  summary: <p>Encapsulates the operations on the customer's licenses' deployment insights collection. </p>
+  summary: "<p>Encapsulates the operations on the customer's licenses' deployment insights collection. </p>"
   syntax:
     content: public interface ICustomerLicensesDeploymentInsightsCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<CustomerLicensesDeploymentInsights, ResourceCollection<CustomerLicensesDeploymentInsights>>
-- uid: com.microsoft.store.partnercenter.analytics._i_customer_licenses_usage_insights_collection
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._i_customer_licenses_usage_insights_collection.yml
+  href: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection.yml
   name: ICustomerLicensesUsageInsightsCollection
   nameWithType: ICustomerLicensesUsageInsightsCollection
   fullName: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection
   type: Interface
-  summary: <p>Encapsulates the operations on the customer's licenses' usage insights collection. </p>
+  summary: "<p>Encapsulates the operations on the customer's licenses' usage insights collection. </p>"
   syntax:
     content: public interface ICustomerLicensesUsageInsightsCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<CustomerLicensesUsageInsights, ResourceCollection<CustomerLicensesUsageInsights>>
-- uid: com.microsoft.store.partnercenter.analytics._i_partner_analytics_collection
+- uid: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._i_partner_analytics_collection.yml
+  href: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection.yml
   name: IPartnerAnalyticsCollection
   nameWithType: IPartnerAnalyticsCollection
   fullName: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
   type: Interface
-  summary: <p>Encapsulates collection of partner's analytics. </p>
+  summary: "<p>Encapsulates collection of partner's analytics. </p>"
   syntax:
     content: public interface IPartnerAnalyticsCollection extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.analytics._i_partner_licenses_analytics_collection
+- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._i_partner_licenses_analytics_collection.yml
+  href: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.yml
   name: IPartnerLicensesAnalyticsCollection
   nameWithType: IPartnerLicensesAnalyticsCollection
   fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
   type: Interface
-  summary: <p>Encapsulates collection of partner level licenses' analytics. </p>
+  summary: "<p>Encapsulates collection of partner level licenses' analytics. </p>"
   syntax:
     content: public interface IPartnerLicensesAnalyticsCollection extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.analytics._i_partner_licenses_deployment_insights_collection
+- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._i_partner_licenses_deployment_insights_collection.yml
+  href: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection.yml
   name: IPartnerLicensesDeploymentInsightsCollection
   nameWithType: IPartnerLicensesDeploymentInsightsCollection
   fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection
   type: Interface
-  summary: <p>Encapsulates the operations on the partner's licenses' deployment insights collection. </p>
+  summary: "<p>Encapsulates the operations on the partner's licenses' deployment insights collection. </p>"
   syntax:
     content: public interface IPartnerLicensesDeploymentInsightsCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<PartnerLicensesDeploymentInsights, ResourceCollection<PartnerLicensesDeploymentInsights>>
-- uid: com.microsoft.store.partnercenter.analytics._i_partner_licenses_usage_insights_collection
+- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._i_partner_licenses_usage_insights_collection.yml
+  href: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection.yml
   name: IPartnerLicensesUsageInsightsCollection
   nameWithType: IPartnerLicensesUsageInsightsCollection
   fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
   type: Interface
-  summary: <p>Encapsulates the operations on the partner's licenses' usage insights collection. </p>
+  summary: "<p>Encapsulates the operations on the partner's licenses' usage insights collection. </p>"
   syntax:
     content: public interface IPartnerLicensesUsageInsightsCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<PartnerLicensesUsageInsights, ResourceCollection<PartnerLicensesUsageInsights>>
-- uid: com.microsoft.store.partnercenter.analytics._partner_analytics_collection_operations
+- uid: com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._partner_analytics_collection_operations.yml
+  href: com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations.yml
   name: PartnerAnalyticsCollectionOperations
   nameWithType: PartnerAnalyticsCollectionOperations
   fullName: com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations
   type: Class
-  summary: <p>Implements the operations on partner analytics collection. </p>
+  summary: "<p>Implements the operations on partner analytics collection. </p>"
   syntax:
     content: public class PartnerAnalyticsCollectionOperations extends BasePartnerComponentString implements IPartnerAnalyticsCollection
-- uid: com.microsoft.store.partnercenter.analytics._partner_licenses_analytics_collection_operations
+- uid: com.microsoft.store.partnercenter.analytics.PartnerLicensesAnalyticsCollectionOperations
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._partner_licenses_analytics_collection_operations.yml
+  href: com.microsoft.store.partnercenter.analytics.PartnerLicensesAnalyticsCollectionOperations.yml
   name: PartnerLicensesAnalyticsCollectionOperations
   nameWithType: PartnerLicensesAnalyticsCollectionOperations
   fullName: com.microsoft.store.partnercenter.analytics.PartnerLicensesAnalyticsCollectionOperations
   type: Class
-  summary: <p>Implements the operations on a customer licenses analytics collection. </p>
+  summary: "<p>Implements the operations on a customer licenses analytics collection. </p>"
   syntax:
     content: public class PartnerLicensesAnalyticsCollectionOperations extends BasePartnerComponentString implements IPartnerLicensesAnalyticsCollection
-- uid: com.microsoft.store.partnercenter.analytics._partner_licenses_deployment_insights_collection_operations
+- uid: com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._partner_licenses_deployment_insights_collection_operations.yml
+  href: com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.yml
   name: PartnerLicensesDeploymentInsightsCollectionOperations
   nameWithType: PartnerLicensesDeploymentInsightsCollectionOperations
   fullName: com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations
   type: Class
-  summary: <p>Implements the operations on partner licenses deployment insights collection. </p>
+  summary: "<p>Implements the operations on partner licenses deployment insights collection. </p>"
   syntax:
     content: public class PartnerLicensesDeploymentInsightsCollectionOperations extends BasePartnerComponentString implements IPartnerLicensesDeploymentInsightsCollection
-- uid: com.microsoft.store.partnercenter.analytics._partner_licenses_usage_insights_collection_operations
+- uid: com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations
   parent: com.microsoft.store.partnercenter.analytics
-  href: com.microsoft.store.partnercenter.analytics._partner_licenses_usage_insights_collection_operations.yml
+  href: com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations.yml
   name: PartnerLicensesUsageInsightsCollectionOperations
   nameWithType: PartnerLicensesUsageInsightsCollectionOperations
   fullName: com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations
   type: Class
-  summary: <p>Implements the operations on partner licenses usage insights collection. </p>
+  summary: "<p>Implements the operations on partner licenses usage insights collection. </p>"
   syntax:
     content: public class PartnerLicensesUsageInsightsCollectionOperations extends BasePartnerComponentString implements IPartnerLicensesUsageInsightsCollection

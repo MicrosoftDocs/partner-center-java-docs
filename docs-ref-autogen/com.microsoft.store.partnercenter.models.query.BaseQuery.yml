@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery
+  id: BaseQuery
+  parent: com.microsoft.store.partnercenter.models.query
+  children:
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(Object)
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.getType()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(FieldFilter)
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(SeekOperation)
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(Sort)
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(Object)
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: BaseQuery
+  nameWithType: BaseQuery
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 15
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>The base class which all queries should derive from. This class does not support any query capabilities except for the token by default. Therefore, implementation classes will pick and choose what to support. </p>"
+  syntax:
+    content: public class BaseQuery implements IQuery
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.query.IQuery
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()
+  id: BaseQuery()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: BaseQuery()
+  nameWithType: BaseQuery.BaseQuery()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 21
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Initializes a new instance of the BaseQuery class. </p>"
+  syntax:
+    content: protected BaseQuery()
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(Object)
+  id: BaseQuery(Object)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: BaseQuery(Object token)
+  nameWithType: BaseQuery.BaseQuery(Object token)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(Object token)
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 32
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Initializes a new instance of the BaseQuery class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BaseQuery(Object token)
+    parameters:
+    - id: token
+      type: "79317049"
+      description: <p>The query token. </p>
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()
+  id: getFilter()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: getFilter()
+  nameWithType: BaseQuery.getFilter()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 49
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Gets or sets the query filter. </p>"
+  syntax:
+    content: public FieldFilter getFilter()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.getFilter()
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
+  id: getIndex()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: getIndex()
+  nameWithType: BaseQuery.getIndex()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 75
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Gets or sets the result starting index. </p>"
+  syntax:
+    content: public int getIndex()
+    return:
+      type: f75371fa
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.getIndex()
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
+  id: getPageSize()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: getPageSize()
+  nameWithType: BaseQuery.getPageSize()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 88
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Gets or sets the results page size. </p>"
+  syntax:
+    content: public int getPageSize()
+    return:
+      type: f75371fa
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.getPageSize()
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
+  id: getSeekOperation()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: getSeekOperation()
+  nameWithType: BaseQuery.getSeekOperation()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 116
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Gets or sets the seek operation that needs to be performed. </p>"
+  syntax:
+    content: public SeekOperation getSeekOperation()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.SeekOperation
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.getSeekOperation()
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()
+  id: getSort()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: getSort()
+  nameWithType: BaseQuery.getSort()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 62
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Gets or sets the query sorting options. </p>"
+  syntax:
+    content: public Sort getSort()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.sort.Sort
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.getSort()
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
+  id: getToken()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: getToken()
+  nameWithType: BaseQuery.getToken()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 103
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Gets the query token. The token may hold context used to represent current state with back end services.</p>\r\n<p></p>"
+  syntax:
+    content: public Object getToken()
+    return:
+      type: "79317049"
+      description: <p>The query token. </p>
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.getToken()
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getType()
+  id: getType()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: getType()
+  nameWithType: BaseQuery.getType()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getType()
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 41
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Gets the query type. </p>"
+  syntax:
+    content: public QueryType getType()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.QueryType
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.getType()
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(FieldFilter)
+  id: setFilter(FieldFilter)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: setFilter(FieldFilter value)
+  nameWithType: BaseQuery.setFilter(FieldFilter value)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(FieldFilter value)
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 54
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>The query filter.</p>\r\n<p></p>"
+  syntax:
+    content: public void setFilter(FieldFilter value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+      description: <p>The query filter. </p>
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.setFilter(FieldFilter)
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
+  id: setIndex(int)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: setIndex(int value)
+  nameWithType: BaseQuery.setIndex(int value)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int value)
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 80
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Sets the result starting index.</p>\r\n<p></p>"
+  syntax:
+    content: public void setIndex(int value)
+    parameters:
+    - id: value
+      type: f75371fa
+      description: <p>The result starting index. </p>
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.setIndex(int)
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
+  id: setPageSize(int)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: setPageSize(int value)
+  nameWithType: BaseQuery.setPageSize(int value)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int value)
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 93
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Sets the results page size.</p>\r\n<p></p>"
+  syntax:
+    content: public void setPageSize(int value)
+    parameters:
+    - id: value
+      type: f75371fa
+      description: <p>The results page size. </p>
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.setPageSize(int)
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(SeekOperation)
+  id: setSeekOperation(SeekOperation)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: setSeekOperation(SeekOperation value)
+  nameWithType: BaseQuery.setSeekOperation(SeekOperation value)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(SeekOperation value)
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 121
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Sets the seek operation that needs to be performed.</p>\r\n<p></p>"
+  syntax:
+    content: public void setSeekOperation(SeekOperation value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.query.SeekOperation
+      description: <p>The seek operation that needs to be performed. </p>
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.setSeekOperation(SeekOperation)
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(Sort)
+  id: setSort(Sort)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: setSort(Sort value)
+  nameWithType: BaseQuery.setSort(Sort value)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(Sort value)
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 67
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Sets the query sorting options.</p>\r\n<p></p>"
+  syntax:
+    content: public void setSort(Sort value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.query.sort.Sort
+      description: <p>The query sorting options. </p>
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.setSort(Sort)
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(Object)
+  id: setToken(Object)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  langs:
+  - java
+  name: setToken(Object value)
+  nameWithType: BaseQuery.setToken(Object value)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(Object value)
+  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/BaseQuery.java
+    startLine: 108
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Sets the query token.</p>\r\n<p></p>"
+  syntax:
+    content: public void setToken(Object value)
+    parameters:
+    - id: value
+      type: "79317049"
+      description: <p>The query token. </p>
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.setToken(Object)
+references:
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery*
+  name: BaseQuery
+  nameWithType: BaseQuery.BaseQuery
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery
+  package: com.microsoft.store.partnercenter.models.query
+- uid: "79317049"
+  spec.java:
+  - name: Object
+    fullName: Object
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getType*
+  name: getType
+  nameWithType: BaseQuery.getType
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getType
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter*
+  name: getFilter
+  nameWithType: BaseQuery.getFilter
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter*
+  name: setFilter
+  nameWithType: BaseQuery.setFilter
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort*
+  name: getSort
+  nameWithType: BaseQuery.getSort
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort*
+  name: setSort
+  nameWithType: BaseQuery.setSort
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort
+  package: com.microsoft.store.partnercenter.models.query
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex*
+  name: getIndex
+  nameWithType: BaseQuery.getIndex
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex*
+  name: setIndex
+  nameWithType: BaseQuery.setIndex
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize*
+  name: getPageSize
+  nameWithType: BaseQuery.getPageSize
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize*
+  name: setPageSize
+  nameWithType: BaseQuery.setPageSize
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken*
+  name: getToken
+  nameWithType: BaseQuery.getToken
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken*
+  name: setToken
+  nameWithType: BaseQuery.setToken
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation*
+  name: getSeekOperation
+  nameWithType: BaseQuery.getSeekOperation
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation*
+  name: setSeekOperation
+  nameWithType: BaseQuery.setSeekOperation
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.IQuery
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: IQuery
+  nameWithType: IQuery
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery
+  type: Interface
+  summary: "<p>Represents a query on an entity. All different queries should implement this contract. </p>"
+  syntax:
+    content: public interface IQuery
+- uid: com.microsoft.store.partnercenter.models.query.CountQuery
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.CountQuery.yml
+  name: CountQuery
+  nameWithType: CountQuery
+  fullName: com.microsoft.store.partnercenter.models.query.CountQuery
+  type: Class
+  summary: "<p>A query that returns the number of entities that may optionally fit a filter. </p>"
+  syntax:
+    content: public class CountQuery
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.SimpleQuery.yml
+  name: SimpleQuery
+  nameWithType: SimpleQuery
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  type: Class
+  summary: "<p>A standard query that returns entities according to sort and filter options (Does not do paging). </p>"
+  syntax:
+    content: public class SimpleQuery
+- uid: com.microsoft.store.partnercenter.models.query.QueryType
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.QueryType.yml
+  name: QueryType
+  nameWithType: QueryType
+  fullName: com.microsoft.store.partnercenter.models.query.QueryType
+  type: Enum
+  syntax:
+    content: public enum QueryType
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.getType()
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: getType()
+  nameWithType: IQuery.getType()
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.getType()
+  type: Method
+  summary: "<p>Gets the query type.</p>\r\n<p></p>"
+  syntax:
+    content: public QueryType getType()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.QueryType
+      description: <p>The query type. </p>
+- uid: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+  parent: com.microsoft.store.partnercenter.models.query.filters
+  href: com.microsoft.store.partnercenter.models.query.filters.FieldFilter.yml
+  name: FieldFilter
+  nameWithType: FieldFilter
+  fullName: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+  type: Class
+  summary: "<p>A base class that represents a filter applied to a field. </p>"
+  syntax:
+    content: public class FieldFilter
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.getFilter()
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: getFilter()
+  nameWithType: IQuery.getFilter()
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.getFilter()
+  type: Method
+  summary: "<p>Gets the query filter.</p>\r\n<p></p>"
+  syntax:
+    content: public FieldFilter getFilter()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+      description: <p>The query filter. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.setFilter(FieldFilter)
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: setFilter(FieldFilter value)
+  nameWithType: IQuery.setFilter(FieldFilter value)
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.setFilter(FieldFilter value)
+  type: Method
+  summary: "<p>The query filter.</p>\r\n<p></p>"
+  syntax:
+    content: public void setFilter(FieldFilter value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+      description: <p>The query filter. </p>
+- uid: com.microsoft.store.partnercenter.models.query.sort.Sort
+  parent: com.microsoft.store.partnercenter.models.query.sort
+  href: com.microsoft.store.partnercenter.models.query.sort.Sort.yml
+  name: Sort
+  nameWithType: Sort
+  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort
+  type: Class
+  summary: "<p>Specifies sort field and direction. </p>"
+  syntax:
+    content: public class Sort
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.getSort()
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: getSort()
+  nameWithType: IQuery.getSort()
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.getSort()
+  type: Method
+  summary: "<p>Gets the query sorting options.</p>\r\n<p></p>"
+  syntax:
+    content: public Sort getSort()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.sort.Sort
+      description: <p>The query sorting options. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.setSort(Sort)
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: setSort(Sort value)
+  nameWithType: IQuery.setSort(Sort value)
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.setSort(Sort value)
+  type: Method
+  summary: "<p>Sets the query sorting options.</p>\r\n<p></p>"
+  syntax:
+    content: public void setSort(Sort value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.query.sort.Sort
+      description: <p>The query sorting options. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.getIndex()
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: getIndex()
+  nameWithType: IQuery.getIndex()
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.getIndex()
+  type: Method
+  summary: "<p>Gets the result starting index.</p>\r\n<p></p>"
+  syntax:
+    content: public int getIndex()
+    return:
+      type: f75371fa
+      description: <p>The result starting index. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.setIndex(int)
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: setIndex(int value)
+  nameWithType: IQuery.setIndex(int value)
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.setIndex(int value)
+  type: Method
+  summary: "<p>Sets the result starting index.</p>\r\n<p></p>"
+  syntax:
+    content: public void setIndex(int value)
+    parameters:
+    - id: value
+      type: f75371fa
+      description: <p>The result starting index. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.getPageSize()
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: getPageSize()
+  nameWithType: IQuery.getPageSize()
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.getPageSize()
+  type: Method
+  summary: "<p>Gets the results page size.</p>\r\n<p></p>"
+  syntax:
+    content: public int getPageSize()
+    return:
+      type: f75371fa
+      description: <p>The result page size. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.setPageSize(int)
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: setPageSize(int value)
+  nameWithType: IQuery.setPageSize(int value)
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.setPageSize(int value)
+  type: Method
+  summary: "<p>Sets the results page size.</p>\r\n<p></p>"
+  syntax:
+    content: public void setPageSize(int value)
+    parameters:
+    - id: value
+      type: f75371fa
+      description: <p>The results page size. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.getToken()
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: getToken()
+  nameWithType: IQuery.getToken()
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.getToken()
+  type: Method
+  summary: "<p>Gets the query token. The token may hold context used to represent current state with back end services.</p>\r\n<p></p>"
+  syntax:
+    content: public Object getToken()
+    return:
+      type: "79317049"
+      description: <p>The query token. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.setToken(Object)
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: setToken(Object value)
+  nameWithType: IQuery.setToken(Object value)
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.setToken(Object value)
+  type: Method
+  summary: "<p>Sets the query token.</p>\r\n<p></p>"
+  syntax:
+    content: public void setToken(Object value)
+    parameters:
+    - id: value
+      type: "79317049"
+      description: <p>The query token. </p>
+- uid: com.microsoft.store.partnercenter.models.query.SeekOperation
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.SeekOperation.yml
+  name: SeekOperation
+  nameWithType: SeekOperation
+  fullName: com.microsoft.store.partnercenter.models.query.SeekOperation
+  type: Enum
+  syntax:
+    content: public enum SeekOperation
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.getSeekOperation()
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: getSeekOperation()
+  nameWithType: IQuery.getSeekOperation()
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.getSeekOperation()
+  type: Method
+  summary: "<p>Gets or sets the seek operation that needs to be performed.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekOperation getSeekOperation()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.SeekOperation
+      description: <p>The seek operation that needs to be performed. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.setSeekOperation(SeekOperation)
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: setSeekOperation(SeekOperation value)
+  nameWithType: IQuery.setSeekOperation(SeekOperation value)
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.setSeekOperation(SeekOperation value)
+  type: Method
+  summary: "<p>Sets the seek operation that needs to be performed.</p>\r\n<p></p>"
+  syntax:
+    content: public void setSeekOperation(SeekOperation value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.query.SeekOperation
+      description: <p>The seek operation that needs to be performed. </p>

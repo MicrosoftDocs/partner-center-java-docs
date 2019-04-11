@@ -1,0 +1,1609 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  id: Subscription
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  children:
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getActions()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getAutoRenewEnabled()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingCycle()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingType()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCommitmentEndDate()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getContractType()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCreationDate()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEffectiveStartDate()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEntitlementId()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getFriendlyName()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getHasPurchasableAddOns()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getId()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsMicrosoftProduct()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsTrial()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getLinks()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferId()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferName()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getParentSubscriptionId()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPartnerId()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPublisherName()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getQuantity()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRefundOptions()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getStatus()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getSuspensionReasons()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getTermDuration()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getUnitType()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setAutoRenewEnabled(boolean)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingCycle(BillingCycleType)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingType(BillingType)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCommitmentEndDate(DateTime)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setContractType(ContractType)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCreationDate(DateTime)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEffectiveStartDate(DateTime)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEntitlementId(final String)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setFriendlyName(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setId(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setIsMicrosoftProduct(boolean)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setLinks(SubscriptionLinks)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferId(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferName(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setParentSubscriptionId(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPartnerId(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPublisherName(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setQuantity(int)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRefundOptions(Iterable<RefundOption>)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setStatus(SubscriptionStatus)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setSuspensionReasons(Iterable<String>)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setTermDuration(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setUnitType(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.Subscription()
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: Subscription
+  nameWithType: Subscription
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 21
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>The subscription resource represents the life cycle of a subscription and includes properties that define the states throughout the subscription life cycle </p>"
+  syntax:
+    content: public class Subscription extends Contract
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.ResourceBase
+  - com.microsoft.store.partnercenter.models.Contract
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.models.Contract.Contract()
+  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  - com.microsoft.store.partnercenter.models.Contract.getOrderId()
+  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
+  - com.microsoft.store.partnercenter.models.Contract.setOrderId(String)
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getActions()
+  id: getActions()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getActions()
+  nameWithType: Subscription.getActions()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getActions()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getActions*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 136
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the available actions for the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public Iterable<String> getActions()
+    return:
+      type: a111923c
+      description: <p>The available actions for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getAutoRenewEnabled()
+  id: getAutoRenewEnabled()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getAutoRenewEnabled()
+  nameWithType: Subscription.getAutoRenewEnabled()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getAutoRenewEnabled()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getAutoRenewEnabled*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 473
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public boolean getAutoRenewEnabled()
+    return:
+      type: 4fc6e284
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingCycle()
+  id: getBillingCycle()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getBillingCycle()
+  nameWithType: Subscription.getBillingCycle()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingCycle()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingCycle*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 346
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the billing cycle type for the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public BillingCycleType getBillingCycle()
+    return:
+      type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+      description: <p>The billing cycle type </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingType()
+  id: getBillingType()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getBillingType()
+  nameWithType: Subscription.getBillingType()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingType()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 488
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public BillingType getBillingType()
+    return:
+      type: com.microsoft.store.partnercenter.models.invoices.BillingType
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCommitmentEndDate()
+  id: getCommitmentEndDate()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getCommitmentEndDate()
+  nameWithType: Subscription.getCommitmentEndDate()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCommitmentEndDate()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCommitmentEndDate*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 442
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public DateTime getCommitmentEndDate()
+    return:
+      type: 230df18c
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getContractType()
+  id: getContractType()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getContractType()
+  nameWithType: Subscription.getContractType()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getContractType()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getContractType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 517
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the type of contract </p>"
+  syntax:
+    content: public ContractType getContractType()
+    return:
+      type: com.microsoft.store.partnercenter.models.ContractType
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCreationDate()
+  id: getCreationDate()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getCreationDate()
+  nameWithType: Subscription.getCreationDate()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCreationDate()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCreationDate*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 146
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the date and time when the subscription was created.</p>\r\n<p></p>"
+  syntax:
+    content: public DateTime getCreationDate()
+    return:
+      type: 230df18c
+      description: <p>The date and time when the subscription was created. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEffectiveStartDate()
+  id: getEffectiveStartDate()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getEffectiveStartDate()
+  nameWithType: Subscription.getEffectiveStartDate()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEffectiveStartDate()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEffectiveStartDate*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 425
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public DateTime getEffectiveStartDate()
+    return:
+      type: 230df18c
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEntitlementId()
+  id: getEntitlementId()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getEntitlementId()
+  nameWithType: Subscription.getEntitlementId()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEntitlementId()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEntitlementId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 326
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the entitlement identifier for the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public String getEntitlementId()
+    return:
+      type: "26831127"
+      description: <p>The entitlement identifier for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getFriendlyName()
+  id: getFriendlyName()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getFriendlyName()
+  nameWithType: Subscription.getFriendlyName()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getFriendlyName()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getFriendlyName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 166
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the friendly name for the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public String getFriendlyName()
+    return:
+      type: "26831127"
+      description: <p>The friendly name for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getHasPurchasableAddOns()
+  id: getHasPurchasableAddOns()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getHasPurchasableAddOns()
+  nameWithType: Subscription.getHasPurchasableAddOns()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getHasPurchasableAddOns()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getHasPurchasableAddOns*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 186
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets a flag indicating whether or not the subscription has purchasable addons.</p>\r\n<p></p>"
+  syntax:
+    content: public Boolean getHasPurchasableAddOns()
+    return:
+      type: 866c2227
+      description: <p>A flag indicating whether or not the subscription has purchasable addons. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getId()
+  id: getId()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getId()
+  nameWithType: Subscription.getId()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getId()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 196
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the subscription identifier.</p>\r\n<p></p>"
+  syntax:
+    content: public String getId()
+    return:
+      type: "26831127"
+      description: <p>The identifier for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsMicrosoftProduct()
+  id: getIsMicrosoftProduct()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getIsMicrosoftProduct()
+  nameWithType: Subscription.getIsMicrosoftProduct()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsMicrosoftProduct()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsMicrosoftProduct*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 216
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets a flag indicating whether gets or sets the value indicating that the subscription is a Microsoft product.</p>\r\n<p></p>"
+  syntax:
+    content: public boolean getIsMicrosoftProduct()
+    return:
+      type: 4fc6e284
+      description: <p>A flag indicating whether gets or sets the value indicating that the subscription is a Microsoft product. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsTrial()
+  id: getIsTrial()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getIsTrial()
+  nameWithType: Subscription.getIsTrial()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsTrial()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsTrial*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 236
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets a flag indicating whether or not the subscription is a trial.</p>\r\n<p></p>"
+  syntax:
+    content: public boolean getIsTrial()
+    return:
+      type: 4fc6e284
+      description: <p>A flag indicating whether or not the subscription is a trial. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getLinks()
+  id: getLinks()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getLinks()
+  nameWithType: Subscription.getLinks()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getLinks()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getLinks*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 535
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public SubscriptionLinks getLinks()
+    return:
+      type: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferId()
+  id: getOfferId()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getOfferId()
+  nameWithType: Subscription.getOfferId()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferId()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 246
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the offer identifier that created the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public String getOfferId()
+    return:
+      type: "26831127"
+      description: <p>The offer identifier that created the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferName()
+  id: getOfferName()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getOfferName()
+  nameWithType: Subscription.getOfferName()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferName()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 266
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Get the name of the offer that created the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public String getOfferName()
+    return:
+      type: "26831127"
+      description: <p>The name of the offer that created the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getParentSubscriptionId()
+  id: getParentSubscriptionId()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getParentSubscriptionId()
+  nameWithType: Subscription.getParentSubscriptionId()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getParentSubscriptionId()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getParentSubscriptionId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 286
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the parent subscription identifier for the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public String getParentSubscriptionId()
+    return:
+      type: "26831127"
+      description: <p>The parent subscription identifier for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPartnerId()
+  id: getPartnerId()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getPartnerId()
+  nameWithType: Subscription.getPartnerId()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPartnerId()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPartnerId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 503
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public String getPartnerId()
+    return:
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPublisherName()
+  id: getPublisherName()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getPublisherName()
+  nameWithType: Subscription.getPublisherName()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPublisherName()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPublisherName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 306
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the name of the publisher.</p>\r\n<p></p>"
+  syntax:
+    content: public String getPublisherName()
+    return:
+      type: "26831127"
+      description: <p>The name of the publisher. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getQuantity()
+  id: getQuantity()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getQuantity()
+  nameWithType: Subscription.getQuantity()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getQuantity()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getQuantity*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 364
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the quantity for the subscription. In the case of seat based billing, this value is the seat count.</p>\r\n<p></p>"
+  syntax:
+    content: public int getQuantity()
+    return:
+      type: f75371fa
+      description: <p>The quantity for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRefundOptions()
+  id: getRefundOptions()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getRefundOptions()
+  nameWithType: Subscription.getRefundOptions()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRefundOptions()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRefundOptions*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 565
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the refund options for this subscription if applicable.</p>\r\n<p></p>"
+  syntax:
+    content: public Iterable<RefundOption> getRefundOptions()
+    return:
+      type: 2a13b5a5com.microsoft.store.partnercenter.models.subscriptions.RefundOptiona08ddfce
+      description: <p>The refund options for this subscription if applicable. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getStatus()
+  id: getStatus()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getStatus()
+  nameWithType: Subscription.getStatus()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getStatus()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getStatus*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 458
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public SubscriptionStatus getStatus()
+    return:
+      type: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getSuspensionReasons()
+  id: getSuspensionReasons()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getSuspensionReasons()
+  nameWithType: Subscription.getSuspensionReasons()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getSuspensionReasons()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getSuspensionReasons*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 550
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public Iterable<String> getSuspensionReasons()
+    return:
+      type: a111923c
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getTermDuration()
+  id: getTermDuration()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getTermDuration()
+  nameWithType: Subscription.getTermDuration()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getTermDuration()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getTermDuration*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 384
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the ISO 8601 representation of the term's duration. The current supported values are P1M (1 month), P1Y (1 year) and P3Y (3 years).</p>\r\n<p></p>"
+  syntax:
+    content: public String getTermDuration()
+    return:
+      type: "26831127"
+      description: <p>The ISO 8601 representation of the term's duration. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getUnitType()
+  id: getUnitType()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getUnitType()
+  nameWithType: Subscription.getUnitType()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getUnitType()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getUnitType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 404
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the units defining the quantity for the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public String getUnitType()
+    return:
+      type: "26831127"
+      description: <p>The units defining the quantity for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setAutoRenewEnabled(boolean)
+  id: setAutoRenewEnabled(boolean)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setAutoRenewEnabled(boolean value)
+  nameWithType: Subscription.setAutoRenewEnabled(boolean value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setAutoRenewEnabled(boolean value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setAutoRenewEnabled*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 478
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public void setAutoRenewEnabled(boolean value)
+    parameters:
+    - id: value
+      type: 4fc6e284
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingCycle(BillingCycleType)
+  id: setBillingCycle(BillingCycleType)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setBillingCycle(BillingCycleType billingCycle)
+  nameWithType: Subscription.setBillingCycle(BillingCycleType billingCycle)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingCycle(BillingCycleType billingCycle)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingCycle*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 355
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the billing cycle type for the subscription</p>\r\n<p></p>"
+  syntax:
+    content: public void setBillingCycle(BillingCycleType billingCycle)
+    parameters:
+    - id: billingCycle
+      type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+      description: <p>The billing cycle type for the subscription </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingType(BillingType)
+  id: setBillingType(BillingType)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setBillingType(BillingType value)
+  nameWithType: Subscription.setBillingType(BillingType value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingType(BillingType value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 493
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public void setBillingType(BillingType value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.invoices.BillingType
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCommitmentEndDate(DateTime)
+  id: setCommitmentEndDate(DateTime)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setCommitmentEndDate(DateTime value)
+  nameWithType: Subscription.setCommitmentEndDate(DateTime value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCommitmentEndDate(DateTime value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCommitmentEndDate*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 448
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public void setCommitmentEndDate(DateTime value)
+    parameters:
+    - id: value
+      type: 230df18c
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setContractType(ContractType)
+  id: setContractType(ContractType)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setContractType(ContractType type)
+  nameWithType: Subscription.setContractType(ContractType type)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setContractType(ContractType type)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setContractType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 522
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public void setContractType(ContractType type)
+    parameters:
+    - id: type
+      type: com.microsoft.store.partnercenter.models.ContractType
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCreationDate(DateTime)
+  id: setCreationDate(DateTime)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setCreationDate(DateTime value)
+  nameWithType: Subscription.setCreationDate(DateTime value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCreationDate(DateTime value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCreationDate*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 156
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the date and time when the subscription was created.</p>\r\n<p></p>"
+  syntax:
+    content: public void setCreationDate(DateTime value)
+    parameters:
+    - id: value
+      type: 230df18c
+      description: <p>The date and time when the subscription was created. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEffectiveStartDate(DateTime)
+  id: setEffectiveStartDate(DateTime)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setEffectiveStartDate(DateTime value)
+  nameWithType: Subscription.setEffectiveStartDate(DateTime value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEffectiveStartDate(DateTime value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEffectiveStartDate*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 431
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public void setEffectiveStartDate(DateTime value)
+    parameters:
+    - id: value
+      type: 230df18c
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEntitlementId(final String)
+  id: setEntitlementId(final String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setEntitlementId(final String value)
+  nameWithType: Subscription.setEntitlementId(final String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEntitlementId(final String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEntitlementId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 336
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the entitlement identifier for the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public void setEntitlementId(final String value)
+    parameters:
+    - id: value
+      type: 3d93591e
+      description: <p>The entitlement identifier for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setFriendlyName(String)
+  id: setFriendlyName(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setFriendlyName(String value)
+  nameWithType: Subscription.setFriendlyName(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setFriendlyName(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setFriendlyName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 176
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the friendly name for the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public void setFriendlyName(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The friendly name for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setId(String)
+  id: setId(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setId(String value)
+  nameWithType: Subscription.setId(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setId(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 206
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the identifier for the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public void setId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The identifier for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setIsMicrosoftProduct(boolean)
+  id: setIsMicrosoftProduct(boolean)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setIsMicrosoftProduct(boolean value)
+  nameWithType: Subscription.setIsMicrosoftProduct(boolean value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setIsMicrosoftProduct(boolean value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setIsMicrosoftProduct*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 226
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets a flag indicating whether gets or sets the value indicating that the subscription is a Microsoft product.</p>\r\n<p></p>"
+  syntax:
+    content: public void setIsMicrosoftProduct(boolean value)
+    parameters:
+    - id: value
+      type: 4fc6e284
+      description: <p>A flag indicating whether gets or sets the value indicating that the subscription is a Microsoft product. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setLinks(SubscriptionLinks)
+  id: setLinks(SubscriptionLinks)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setLinks(SubscriptionLinks value)
+  nameWithType: Subscription.setLinks(SubscriptionLinks value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setLinks(SubscriptionLinks value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setLinks*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 540
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public void setLinks(SubscriptionLinks value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferId(String)
+  id: setOfferId(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setOfferId(String value)
+  nameWithType: Subscription.setOfferId(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferId(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 256
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the offer identifier that created the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public void setOfferId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The offer identifier that created the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferName(String)
+  id: setOfferName(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setOfferName(String value)
+  nameWithType: Subscription.setOfferName(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferName(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 276
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the name of the offer that created the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public void setOfferName(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The name of the offer that created the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setParentSubscriptionId(String)
+  id: setParentSubscriptionId(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setParentSubscriptionId(String value)
+  nameWithType: Subscription.setParentSubscriptionId(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setParentSubscriptionId(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setParentSubscriptionId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 296
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the parent subscription identifier for the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public void setParentSubscriptionId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The parent subscription identifier for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPartnerId(String)
+  id: setPartnerId(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setPartnerId(String value)
+  nameWithType: Subscription.setPartnerId(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPartnerId(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPartnerId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 508
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public void setPartnerId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPublisherName(String)
+  id: setPublisherName(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setPublisherName(String value)
+  nameWithType: Subscription.setPublisherName(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPublisherName(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPublisherName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 316
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the name of the publisher.</p>\r\n<p></p>"
+  syntax:
+    content: public void setPublisherName(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The name of the publisher. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setQuantity(int)
+  id: setQuantity(int)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setQuantity(int value)
+  nameWithType: Subscription.setQuantity(int value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setQuantity(int value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setQuantity*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 374
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the quantity for the subscription. In the case of seat based billing, this value is the seat count.</p>\r\n<p></p>"
+  syntax:
+    content: public void setQuantity(int value)
+    parameters:
+    - id: value
+      type: f75371fa
+      description: <p>The quantity for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRefundOptions(Iterable<RefundOption>)
+  id: setRefundOptions(Iterable<RefundOption>)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setRefundOptions(Iterable<RefundOption> value)
+  nameWithType: Subscription.setRefundOptions(Iterable<RefundOption> value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRefundOptions(Iterable<RefundOption> value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRefundOptions*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 575
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the refund options for this subscription if applicable.</p>\r\n<p></p>"
+  syntax:
+    content: public void setRefundOptions(Iterable<RefundOption> value)
+    parameters:
+    - id: value
+      type: 2a13b5a5com.microsoft.store.partnercenter.models.subscriptions.RefundOptiona08ddfce
+      description: <p>The refund options for this subscription if applicable. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setStatus(SubscriptionStatus)
+  id: setStatus(SubscriptionStatus)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setStatus(SubscriptionStatus value)
+  nameWithType: Subscription.setStatus(SubscriptionStatus value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setStatus(SubscriptionStatus value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setStatus*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 463
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public void setStatus(SubscriptionStatus value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setSuspensionReasons(Iterable<String>)
+  id: setSuspensionReasons(Iterable<String>)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setSuspensionReasons(Iterable<String> value)
+  nameWithType: Subscription.setSuspensionReasons(Iterable<String> value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setSuspensionReasons(Iterable<String> value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setSuspensionReasons*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 555
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public void setSuspensionReasons(Iterable<String> value)
+    parameters:
+    - id: value
+      type: a111923c
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setTermDuration(String)
+  id: setTermDuration(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setTermDuration(String value)
+  nameWithType: Subscription.setTermDuration(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setTermDuration(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setTermDuration*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 394
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the ISO 8601 representation of the term's duration. The current supported values are P1M (1 month), P1Y (1 year) and P3Y (3 years).</p>\r\n<p></p>"
+  syntax:
+    content: public void setTermDuration(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The ISO 8601 representation of the term's duration. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setUnitType(String)
+  id: setUnitType(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setUnitType(String value)
+  nameWithType: Subscription.setUnitType(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setUnitType(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setUnitType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 414
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the units defining the quantity for the subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public void setUnitType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The units defining the quantity for the subscription. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.Subscription()
+  id: Subscription()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: Subscription()
+  nameWithType: Subscription.Subscription()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.Subscription()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.Subscription*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 126
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Initializes a new instance of the subscription class. </p>"
+  syntax:
+    content: public Subscription()
+references:
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.Subscription*
+  name: Subscription
+  nameWithType: Subscription.Subscription
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.Subscription
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: a111923c
+  spec.java:
+  - name: Iterable<String>
+    fullName: Iterable<String>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getActions*
+  name: getActions
+  nameWithType: Subscription.getActions
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getActions
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: 230df18c
+  spec.java:
+  - name: DateTime
+    fullName: DateTime
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCreationDate*
+  name: getCreationDate
+  nameWithType: Subscription.getCreationDate
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCreationDate
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCreationDate*
+  name: setCreationDate
+  nameWithType: Subscription.setCreationDate
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCreationDate
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getFriendlyName*
+  name: getFriendlyName
+  nameWithType: Subscription.getFriendlyName
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getFriendlyName
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setFriendlyName*
+  name: setFriendlyName
+  nameWithType: Subscription.setFriendlyName
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setFriendlyName
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: 866c2227
+  spec.java:
+  - name: Boolean
+    fullName: Boolean
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getHasPurchasableAddOns*
+  name: getHasPurchasableAddOns
+  nameWithType: Subscription.getHasPurchasableAddOns
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getHasPurchasableAddOns
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getId*
+  name: getId
+  nameWithType: Subscription.getId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getId
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setId*
+  name: setId
+  nameWithType: Subscription.setId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setId
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: 4fc6e284
+  spec.java:
+  - name: boolean
+    fullName: boolean
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsMicrosoftProduct*
+  name: getIsMicrosoftProduct
+  nameWithType: Subscription.getIsMicrosoftProduct
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsMicrosoftProduct
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setIsMicrosoftProduct*
+  name: setIsMicrosoftProduct
+  nameWithType: Subscription.setIsMicrosoftProduct
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setIsMicrosoftProduct
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsTrial*
+  name: getIsTrial
+  nameWithType: Subscription.getIsTrial
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getIsTrial
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferId*
+  name: getOfferId
+  nameWithType: Subscription.getOfferId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferId
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferId*
+  name: setOfferId
+  nameWithType: Subscription.setOfferId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferId
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferName*
+  name: getOfferName
+  nameWithType: Subscription.getOfferName
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferName
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferName*
+  name: setOfferName
+  nameWithType: Subscription.setOfferName
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferName
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getParentSubscriptionId*
+  name: getParentSubscriptionId
+  nameWithType: Subscription.getParentSubscriptionId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getParentSubscriptionId
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setParentSubscriptionId*
+  name: setParentSubscriptionId
+  nameWithType: Subscription.setParentSubscriptionId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setParentSubscriptionId
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPublisherName*
+  name: getPublisherName
+  nameWithType: Subscription.getPublisherName
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPublisherName
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPublisherName*
+  name: setPublisherName
+  nameWithType: Subscription.setPublisherName
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPublisherName
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEntitlementId*
+  name: getEntitlementId
+  nameWithType: Subscription.getEntitlementId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEntitlementId
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEntitlementId*
+  name: setEntitlementId
+  nameWithType: Subscription.setEntitlementId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEntitlementId
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingCycle*
+  name: getBillingCycle
+  nameWithType: Subscription.getBillingCycle
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingCycle
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingCycle*
+  name: setBillingCycle
+  nameWithType: Subscription.setBillingCycle
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingCycle
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getQuantity*
+  name: getQuantity
+  nameWithType: Subscription.getQuantity
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getQuantity
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setQuantity*
+  name: setQuantity
+  nameWithType: Subscription.setQuantity
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setQuantity
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getTermDuration*
+  name: getTermDuration
+  nameWithType: Subscription.getTermDuration
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getTermDuration
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setTermDuration*
+  name: setTermDuration
+  nameWithType: Subscription.setTermDuration
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setTermDuration
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getUnitType*
+  name: getUnitType
+  nameWithType: Subscription.getUnitType
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getUnitType
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setUnitType*
+  name: setUnitType
+  nameWithType: Subscription.setUnitType
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setUnitType
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEffectiveStartDate*
+  name: getEffectiveStartDate
+  nameWithType: Subscription.getEffectiveStartDate
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEffectiveStartDate
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEffectiveStartDate*
+  name: setEffectiveStartDate
+  nameWithType: Subscription.setEffectiveStartDate
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEffectiveStartDate
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCommitmentEndDate*
+  name: getCommitmentEndDate
+  nameWithType: Subscription.getCommitmentEndDate
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCommitmentEndDate
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCommitmentEndDate*
+  name: setCommitmentEndDate
+  nameWithType: Subscription.setCommitmentEndDate
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCommitmentEndDate
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getStatus*
+  name: getStatus
+  nameWithType: Subscription.getStatus
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getStatus
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setStatus*
+  name: setStatus
+  nameWithType: Subscription.setStatus
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setStatus
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getAutoRenewEnabled*
+  name: getAutoRenewEnabled
+  nameWithType: Subscription.getAutoRenewEnabled
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getAutoRenewEnabled
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setAutoRenewEnabled*
+  name: setAutoRenewEnabled
+  nameWithType: Subscription.setAutoRenewEnabled
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setAutoRenewEnabled
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingType*
+  name: getBillingType
+  nameWithType: Subscription.getBillingType
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingType
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingType*
+  name: setBillingType
+  nameWithType: Subscription.setBillingType
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingType
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPartnerId*
+  name: getPartnerId
+  nameWithType: Subscription.getPartnerId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPartnerId
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPartnerId*
+  name: setPartnerId
+  nameWithType: Subscription.setPartnerId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPartnerId
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getContractType*
+  name: getContractType
+  nameWithType: Subscription.getContractType
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getContractType
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setContractType*
+  name: setContractType
+  nameWithType: Subscription.setContractType
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setContractType
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getLinks*
+  name: getLinks
+  nameWithType: Subscription.getLinks
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getLinks
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setLinks*
+  name: setLinks
+  nameWithType: Subscription.setLinks
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setLinks
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getSuspensionReasons*
+  name: getSuspensionReasons
+  nameWithType: Subscription.getSuspensionReasons
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getSuspensionReasons
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setSuspensionReasons*
+  name: setSuspensionReasons
+  nameWithType: Subscription.setSuspensionReasons
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setSuspensionReasons
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: 2a13b5a5com.microsoft.store.partnercenter.models.subscriptions.RefundOptiona08ddfce
+  spec.java:
+  - name: Iterable<
+    fullName: Iterable<
+  - uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
+    name: RefundOption
+    fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
+    href: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRefundOptions*
+  name: getRefundOptions
+  nameWithType: Subscription.getRefundOptions
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRefundOptions
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRefundOptions*
+  name: setRefundOptions
+  nameWithType: Subscription.setRefundOptions
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRefundOptions
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.Contract.Contract()
+  parent: com.microsoft.store.partnercenter.models.Contract
+  href: com.microsoft.store.partnercenter.models.Contract.yml
+  name: Contract()
+  nameWithType: Contract.Contract()
+  fullName: com.microsoft.store.partnercenter.models.Contract.Contract()
+  type: Constructor
+  syntax:
+    content: protected Contract()
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: getAttributes()
+  nameWithType: ResourceBase.getAttributes()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  type: Method
+  summary: "<p>Gets the attributes.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceAttributes getAttributes()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceAttributes
+      description: <p>The resource attributes. </p>
+- uid: com.microsoft.store.partnercenter.models.Contract.getOrderId()
+  parent: com.microsoft.store.partnercenter.models.Contract
+  href: com.microsoft.store.partnercenter.models.Contract.yml
+  name: getOrderId()
+  nameWithType: Contract.getOrderId()
+  fullName: com.microsoft.store.partnercenter.models.Contract.getOrderId()
+  type: Method
+  summary: "<p>Gets the order identifier.</p>\r\n<p></p>"
+  syntax:
+    content: public String getOrderId()
+    return:
+      type: "26831127"
+      description: <p>The order identifier. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: ResourceBase()
+  nameWithType: ResourceBase.ResourceBase()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBase class. </p>"
+  syntax:
+    content: protected ResourceBase()
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: ResourceBase(String objectType)
+  nameWithType: ResourceBase.ResourceBase(String objectType)
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String objectType)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBase class.</p>\r\n<p></p>"
+  syntax:
+    content: protected ResourceBase(String objectType)
+    parameters:
+    - id: objectType
+      type: "26831127"
+      description: <p>Type of the object. </p>
+- uid: com.microsoft.store.partnercenter.models.Contract.setOrderId(String)
+  parent: com.microsoft.store.partnercenter.models.Contract
+  href: com.microsoft.store.partnercenter.models.Contract.yml
+  name: setOrderId(String value)
+  nameWithType: Contract.setOrderId(String value)
+  fullName: com.microsoft.store.partnercenter.models.Contract.setOrderId(String value)
+  type: Method
+  summary: "<p>Sets the order identifier.</p>\r\n<p></p>"
+  syntax:
+    content: public void setOrderId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The order identifier. </p>
+- uid: com.microsoft.store.partnercenter.models.Contract
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.Contract.yml
+  name: Contract
+  nameWithType: Contract
+  fullName: com.microsoft.store.partnercenter.models.Contract
+  type: Class
+  summary: "<p>Base Contract </p>"
+  syntax:
+    content: public class Contract extends ResourceBase
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  parent: com.microsoft.store.partnercenter.models.offers
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
+  name: BillingCycleType
+  nameWithType: BillingCycleType
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  type: Enum
+  summary: "<p>The way billing is processed for a subscription. </p>"
+  syntax:
+    content: public enum BillingCycleType
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  href: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.yml
+  name: RefundOption
+  nameWithType: RefundOption
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
+  type: Class
+  summary: "<p>Represents the refund option for a subscription. </p>"
+  syntax:
+    content: public class RefundOption
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.yml
+  name: SubscriptionStatus
+  nameWithType: SubscriptionStatus
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  type: Enum
+  syntax:
+    content: public enum SubscriptionStatus
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.NONE
+  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.yml
+  name: NONE
+  nameWithType: SubscriptionStatus.NONE
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.NONE
+  type: Field
+  summary: "<p>Enum representing the available states for a subscription Indicates nothing - no status, used as an initializer </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingType
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.BillingType.yml
+  name: BillingType
+  nameWithType: BillingType
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingType
+  type: Enum
+  syntax:
+    content: public enum BillingType
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks.yml
+  name: SubscriptionLinks
+  nameWithType: SubscriptionLinks
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks
+  type: Class
+  summary: "<p>Bundles links associated with a subscription. </p>"
+  syntax:
+    content: public class SubscriptionLinks
+- uid: com.microsoft.store.partnercenter.models.ContractType
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ContractType.yml
+  name: ContractType
+  nameWithType: ContractType
+  fullName: com.microsoft.store.partnercenter.models.ContractType
+  type: Enum
+  syntax:
+    content: public enum ContractType

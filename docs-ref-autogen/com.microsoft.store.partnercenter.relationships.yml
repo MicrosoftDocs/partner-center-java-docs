@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.store.partnercenter.relationships
   id: relationships
   children:
-  - com.microsoft.store.partnercenter.relationships._customer_relationship_collection_operations
-  - com.microsoft.store.partnercenter.relationships._i_customer_relationship_collection
-  - com.microsoft.store.partnercenter.relationships._i_relationship_collection
-  - com.microsoft.store.partnercenter.relationships._relationship_collection_operations
+  - com.microsoft.store.partnercenter.relationships.CustomerRelationshipCollectionOperations
+  - com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+  - com.microsoft.store.partnercenter.relationships.IRelationshipCollection
+  - com.microsoft.store.partnercenter.relationships.RelationshipCollectionOperations
   href: com.microsoft.store.partnercenter.relationships.yml
   langs:
   - java
@@ -24,43 +24,43 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.relationships
 references:
-- uid: com.microsoft.store.partnercenter.relationships._customer_relationship_collection_operations
+- uid: com.microsoft.store.partnercenter.relationships.CustomerRelationshipCollectionOperations
   parent: com.microsoft.store.partnercenter.relationships
-  href: com.microsoft.store.partnercenter.relationships._customer_relationship_collection_operations.yml
+  href: com.microsoft.store.partnercenter.relationships.CustomerRelationshipCollectionOperations.yml
   name: CustomerRelationshipCollectionOperations
   nameWithType: CustomerRelationshipCollectionOperations
   fullName: com.microsoft.store.partnercenter.relationships.CustomerRelationshipCollectionOperations
   type: Class
-  summary: <p>For two-tier partner scenarios, holds the operations for retrieving partner relationships of a customer with respect to the logged in partner. </p>
+  summary: "<p>For two-tier partner scenarios, holds the operations for retrieving partner relationships of a customer with respect to the logged in partner. </p>"
   syntax:
     content: public class CustomerRelationshipCollectionOperations extends BasePartnerComponentString implements ICustomerRelationshipCollection
-- uid: com.microsoft.store.partnercenter.relationships._i_customer_relationship_collection
+- uid: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
   parent: com.microsoft.store.partnercenter.relationships
-  href: com.microsoft.store.partnercenter.relationships._i_customer_relationship_collection.yml
+  href: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.yml
   name: ICustomerRelationshipCollection
   nameWithType: ICustomerRelationshipCollection
   fullName: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
   type: Interface
-  summary: <p>For two-tier partner scenarios, holds the operations for retrieving partner relationships of a customer with respect to the logged in partner. </p>
+  summary: "<p>For two-tier partner scenarios, holds the operations for retrieving partner relationships of a customer with respect to the logged in partner. </p>"
   syntax:
     content: public interface ICustomerRelationshipCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<PartnerRelationship, ResourceCollection<PartnerRelationship>>
-- uid: com.microsoft.store.partnercenter.relationships._i_relationship_collection
+- uid: com.microsoft.store.partnercenter.relationships.IRelationshipCollection
   parent: com.microsoft.store.partnercenter.relationships
-  href: com.microsoft.store.partnercenter.relationships._i_relationship_collection.yml
+  href: com.microsoft.store.partnercenter.relationships.IRelationshipCollection.yml
   name: IRelationshipCollection
   nameWithType: IRelationshipCollection
   fullName: com.microsoft.store.partnercenter.relationships.IRelationshipCollection
   type: Interface
-  summary: <p>This interface represents the operations that can be done on a partner's relationships. </p>
+  summary: "<p>This interface represents the operations that can be done on a partner's relationships. </p>"
   syntax:
     content: public interface IRelationshipCollection extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.relationships._relationship_collection_operations
+- uid: com.microsoft.store.partnercenter.relationships.RelationshipCollectionOperations
   parent: com.microsoft.store.partnercenter.relationships
-  href: com.microsoft.store.partnercenter.relationships._relationship_collection_operations.yml
+  href: com.microsoft.store.partnercenter.relationships.RelationshipCollectionOperations.yml
   name: RelationshipCollectionOperations
   nameWithType: RelationshipCollectionOperations
   fullName: com.microsoft.store.partnercenter.relationships.RelationshipCollectionOperations
   type: Class
-  summary: <p>The relationship collection implementation. </p>
+  summary: "<p>The relationship collection implementation. </p>"
   syntax:
     content: public class RelationshipCollectionOperations extends BasePartnerComponentString implements IRelationshipCollection

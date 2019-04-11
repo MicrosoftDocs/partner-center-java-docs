@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  id: SubscriptionStatus
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  children:
+  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.ACTIVE
+  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.DELETED
+  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.NONE
+  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.SubscriptionStatus(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.SUSPENDED
+  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.toString()
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.yml
+  langs:
+  - java
+  name: SubscriptionStatus
+  nameWithType: SubscriptionStatus
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/SubscriptionStatus.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/SubscriptionStatus.java
+    startLine: 10
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public enum SubscriptionStatus
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<SubscriptionStatus>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.ACTIVE
+  id: ACTIVE
+  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.yml
+  langs:
+  - java
+  name: ACTIVE
+  nameWithType: SubscriptionStatus.ACTIVE
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.ACTIVE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/SubscriptionStatus.java
+    startLine: 20
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Subscription state: Active </p>"
+  syntax:
+    content: public ACTIVE=("active")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.DELETED
+  id: DELETED
+  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.yml
+  langs:
+  - java
+  name: DELETED
+  nameWithType: SubscriptionStatus.DELETED
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.DELETED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/SubscriptionStatus.java
+    startLine: 30
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Subscription state: Deleted </p>"
+  syntax:
+    content: public DELETED=("deleted")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: SubscriptionStatus.NONE
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/SubscriptionStatus.java
+    startLine: 15
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Enum representing the available states for a subscription Indicates nothing - no status, used as an initializer </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.SubscriptionStatus(String)
+  id: SubscriptionStatus(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.yml
+  langs:
+  - java
+  name: SubscriptionStatus(String value)
+  nameWithType: SubscriptionStatus.SubscriptionStatus(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.SubscriptionStatus(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.SubscriptionStatus*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/SubscriptionStatus.java
+    startLine: 34
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public SubscriptionStatus(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.SUSPENDED
+  id: SUSPENDED
+  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.yml
+  langs:
+  - java
+  name: SUSPENDED
+  nameWithType: SubscriptionStatus.SUSPENDED
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.SUSPENDED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/SubscriptionStatus.java
+    startLine: 25
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Subscription state: Suspended </p>"
+  syntax:
+    content: public SUSPENDED=("suspended")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus
+  href: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: SubscriptionStatus.toString()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.toString()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/SubscriptionStatus.java
+    startLine: 46
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.SubscriptionStatus*
+  name: SubscriptionStatus
+  nameWithType: SubscriptionStatus.SubscriptionStatus
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.SubscriptionStatus
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.toString*
+  name: toString
+  nameWithType: SubscriptionStatus.toString
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.toString
+  package: com.microsoft.store.partnercenter.models.subscriptions

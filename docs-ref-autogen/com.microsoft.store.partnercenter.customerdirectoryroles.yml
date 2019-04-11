@@ -3,14 +3,14 @@ items:
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles
   id: customerdirectoryroles
   children:
-  - com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations
-  - com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations
-  - com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role
-  - com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection
-  - com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member
-  - com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection
-  - com.microsoft.store.partnercenter.customerdirectoryroles._user_member_collection_operations
-  - com.microsoft.store.partnercenter.customerdirectoryroles._user_member_operations
+  - com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations
+  - com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleOperations
+  - com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole
+  - com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+  - com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
+  - com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
+  - com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
+  - com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations
   href: com.microsoft.store.partnercenter.customerdirectoryroles.yml
   langs:
   - java
@@ -28,89 +28,83 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.customerdirectoryroles
 references:
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations
   parent: com.microsoft.store.partnercenter.customerdirectoryroles
-  href: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations.yml
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations.yml
   name: DirectoryRoleCollectionOperations
   nameWithType: DirectoryRoleCollectionOperations
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations
   type: Class
-  summary: <p>DirectoryRoleCollectionOperations </p>
+  summary: "<p>DirectoryRoleCollectionOperations </p>"
   syntax:
     content: public class DirectoryRoleCollectionOperations extends BasePartnerComponentString implements IDirectoryRoleCollection
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleOperations
   parent: com.microsoft.store.partnercenter.customerdirectoryroles
-  href: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations.yml
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleOperations.yml
   name: DirectoryRoleOperations
   nameWithType: DirectoryRoleOperations
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleOperations
   type: Class
-  summary: <p>DirectoryRoleOperations </p>
+  summary: "<p>DirectoryRoleOperations </p>"
   syntax:
     content: public class DirectoryRoleOperations extends BasePartnerComponent<Tuple<String, String>> implements IDirectoryRole
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole
   parent: com.microsoft.store.partnercenter.customerdirectoryroles
-  href: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role.yml
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.yml
   name: IDirectoryRole
   nameWithType: IDirectoryRole
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole
   type: Interface
-  summary: <p>Represents a Directory Role </p>
+  summary: "<p>Represents a Directory Role </p>"
   syntax:
     content: public interface IDirectoryRole extends IPartnerComponent<Tuple<String, String>>
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
   parent: com.microsoft.store.partnercenter.customerdirectoryroles
-  href: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection.yml
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.yml
   name: IDirectoryRoleCollection
   nameWithType: IDirectoryRoleCollection
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
   type: Interface
-  summary: <p>Interface for Directory Roles Collection </p>
+  summary: "<p>Interface for Directory Roles Collection </p>"
   syntax:
-    content: public interface IDirectoryRoleCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<DirectoryRole, ResourceCollection<DirectoryRole>>,IEntitySelector<IDirectoryRole>
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member
+    content: public interface IDirectoryRoleCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<DirectoryRole, ResourceCollection<DirectoryRole>>,IEntitySelector<String, IDirectoryRole>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
   parent: com.microsoft.store.partnercenter.customerdirectoryroles
-  href: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member.yml
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.yml
   name: IUserMember
   nameWithType: IUserMember
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
   type: Interface
-  summary: <p>Represents a Directory User </p>
+  summary: "<p>Represents a Directory User </p>"
   syntax:
     content: public interface IUserMember extends IPartnerComponent<TripletTuple<String, String, String>>,IEntityDeleteOperations<UserMember>
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
   parent: com.microsoft.store.partnercenter.customerdirectoryroles
-  href: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection.yml
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.yml
   name: IUserMemberCollection
   nameWithType: IUserMemberCollection
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
   type: Interface
-  summary: <p>Interface for Managing User Membership in Directory Roles </p>
+  summary: "<p>Interface for Managing User Membership in Directory Roles </p>"
   syntax:
-    content: public interface IUserMemberCollection extends IPartnerComponent<Tuple<String, String>>,IEntityCreateOperations<UserMember, UserMember>,IEntireEntityCollectionRetrievalOperations<UserMember, SeekBasedResourceCollection<UserMember>>,IEntitySelector<IUserMember>
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles._user_member_collection_operations
+    content: public interface IUserMemberCollection extends IPartnerComponent<Tuple<String, String>>,IEntityCreateOperations<UserMember, UserMember>,IEntireEntityCollectionRetrievalOperations<UserMember, SeekBasedResourceCollection<UserMember>>,IEntitySelector<String, IUserMember>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
   parent: com.microsoft.store.partnercenter.customerdirectoryroles
-  href: com.microsoft.store.partnercenter.customerdirectoryroles._user_member_collection_operations.yml
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.yml
   name: UserMemberCollectionOperations
   nameWithType: UserMemberCollectionOperations
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
   type: Class
-  summary: >-
-    <p>UserMemberCollectionOperations</p>
-
-    <p>Used for managing membership and access to directory roles. </p>
+  summary: "<p>UserMemberCollectionOperations</p>\r\n<p>Used for managing membership and access to directory roles. </p>"
   syntax:
     content: public class UserMemberCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements IUserMemberCollection
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles._user_member_operations
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations
   parent: com.microsoft.store.partnercenter.customerdirectoryroles
-  href: com.microsoft.store.partnercenter.customerdirectoryroles._user_member_operations.yml
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.yml
   name: UserMemberOperations
   nameWithType: UserMemberOperations
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations
   type: Class
-  summary: >-
-    <p>Implementation of Member Operations</p>
-
-    <p>Use for management of directory roles and memberships </p>
+  summary: "<p>Implementation of Member Operations</p>\r\n<p>Use for management of directory roles and memberships </p>"
   syntax:
     content: public class UserMemberOperations extends BasePartnerComponent<TripletTuple<String, String, String>> implements IUserMember

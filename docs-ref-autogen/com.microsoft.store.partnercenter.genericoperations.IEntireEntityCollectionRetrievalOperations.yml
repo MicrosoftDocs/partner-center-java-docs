@@ -1,0 +1,1711 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  id: IEntireEntityCollectionRetrievalOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  children:
+  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  langs:
+  - java
+  name: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntireEntityCollectionRetrievalOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntireEntityCollectionRetrievalOperations.java
+    startLine: 14
+  package: com.microsoft.store.partnercenter.genericoperations
+  summary: "<p>A generic interface which represents operations for getting an entire collection of entities. The entity type.The entity collection type. </p>"
+  syntax:
+    content: public interface IEntireEntityCollectionRetrievalOperations<T,TResourceCollection extends ResourceCollection<T>>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+    - id: TResourceCollection
+      type: 5f968003
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T, TResourceCollection extends ResourceCollection<T>.get()
+  overload: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntireEntityCollectionRetrievalOperations.java
+    startLine: 21
+  package: com.microsoft.store.partnercenter.genericoperations
+  summary: "<p>Retrieves all entities.</p>\r\n<p></p>"
+  syntax:
+    content: public TResourceCollection get()
+    return:
+      type: 5f968003
+      description: <p>The entities. </p>
+references:
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
+- uid: 5f968003
+  spec.java:
+  - name: TResourceCollection
+    fullName: TResourceCollection
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get*
+  name: get
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T, TResourceCollection extends ResourceCollection<T>.get
+  package: com.microsoft.store.partnercenter.genericoperations
+- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+  parent: com.microsoft.store.partnercenter.agreements
+  href: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.yml
+  name: ICustomerAgreementCollection
+  nameWithType: ICustomerAgreementCollection
+  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the Agreement collection. </p>"
+  syntax:
+    content: public interface ICustomerAgreementCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Agreement, ResourceCollection<Agreement>>
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection.yml
+  name: ICustomerLicensesDeploymentInsightsCollection
+  nameWithType: ICustomerLicensesDeploymentInsightsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the customer's licenses' deployment insights collection. </p>"
+  syntax:
+    content: public interface ICustomerLicensesDeploymentInsightsCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<CustomerLicensesDeploymentInsights, ResourceCollection<CustomerLicensesDeploymentInsights>>
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection.yml
+  name: ICustomerLicensesUsageInsightsCollection
+  nameWithType: ICustomerLicensesUsageInsightsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the customer's licenses' usage insights collection. </p>"
+  syntax:
+    content: public interface ICustomerLicensesUsageInsightsCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<CustomerLicensesUsageInsights, ResourceCollection<CustomerLicensesUsageInsights>>
+- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection.yml
+  name: IPartnerLicensesDeploymentInsightsCollection
+  nameWithType: IPartnerLicensesDeploymentInsightsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the partner's licenses' deployment insights collection. </p>"
+  syntax:
+    content: public interface IPartnerLicensesDeploymentInsightsCollection
+- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection.yml
+  name: IPartnerLicensesUsageInsightsCollection
+  nameWithType: IPartnerLicensesUsageInsightsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the partner's licenses' usage insights collection. </p>"
+  syntax:
+    content: public interface IPartnerLicensesUsageInsightsCollection
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.yml
+  name: IDirectoryRoleCollection
+  nameWithType: IDirectoryRoleCollection
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+  type: Interface
+  summary: "<p>Interface for Directory Roles Collection </p>"
+  syntax:
+    content: public interface IDirectoryRoleCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<DirectoryRole, ResourceCollection<DirectoryRole>>,IEntitySelector<String, IDirectoryRole>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.yml
+  name: IUserMemberCollection
+  nameWithType: IUserMemberCollection
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
+  type: Interface
+  summary: "<p>Interface for Managing User Membership in Directory Roles </p>"
+  syntax:
+    content: public interface IUserMemberCollection
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  parent: com.microsoft.store.partnercenter.customers
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
+  name: ICustomerCollection
+  nameWithType: ICustomerCollection
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the partner customers. </p>"
+  syntax:
+    content: public interface ICustomerCollection extends IPartnerComponentString,IEntityCreateOperations<Customer, Customer>,IEntireEntityCollectionRetrievalOperations<Customer, SeekBasedResourceCollection<Customer>>
+- uid: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView
+  parent: com.microsoft.store.partnercenter.customers.products
+  href: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.yml
+  name: ICustomerProductCollectionByTargetView
+  nameWithType: ICustomerProductCollectionByTargetView
+  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView
+  type: Interface
+  summary: "<p>Holds operations that can be performed on products in a given catalog view that apply to a given customer. </p>"
+  syntax:
+    content: public interface ICustomerProductCollectionByTargetView extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Product, ResourceCollection<Product>>
+- uid: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment
+  parent: com.microsoft.store.partnercenter.customers.products
+  href: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment.yml
+  name: ICustomerProductCollectionByTargetViewByTargetSegment
+  nameWithType: ICustomerProductCollectionByTargetViewByTargetSegment
+  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment
+  type: Interface
+  summary: "<p>Holds operations that can be performed on products in a given catalog view and that apply to a given customer, filtered by target segment. </p>"
+  syntax:
+    content: public interface ICustomerProductCollectionByTargetViewByTargetSegment extends IPartnerComponent<TripletTuple<String, String, String>>,IEntireEntityCollectionRetrievalOperations<Product, ResourceCollection<Product>>
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection
+  parent: com.microsoft.store.partnercenter.customers.servicecosts
+  href: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection.yml
+  name: IServiceCostLineItemsCollection
+  nameWithType: IServiceCostLineItemsCollection
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customer service cost line items as a whole. </p>"
+  syntax:
+    content: public interface IServiceCostLineItemsCollection
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  parent: com.microsoft.store.partnercenter.customerusers
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.yml
+  name: ICustomerUserCollection
+  nameWithType: ICustomerUserCollection
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customers users </p>"
+  syntax:
+    content: public interface ICustomerUserCollection extends IPartnerComponentString,IEntityCreateOperations<CustomerUser, CustomerUser>,IEntireEntityCollectionRetrievalOperations<CustomerUser, SeekBasedResourceCollection<CustomerUser>>
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection
+  parent: com.microsoft.store.partnercenter.customerusers
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.yml
+  name: ICustomerUserLicenseCollection
+  nameWithType: ICustomerUserLicenseCollection
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customers user's directory roles. </p>"
+  syntax:
+    content: public interface ICustomerUserLicenseCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<License, ResourceCollection<License>>
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection
+  parent: com.microsoft.store.partnercenter.customerusers
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection.yml
+  name: ICustomerUserRoleCollection
+  nameWithType: ICustomerUserRoleCollection
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customers user's directory roles. </p>"
+  syntax:
+    content: public interface ICustomerUserRoleCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<DirectoryRole, ResourceCollection<DirectoryRole>>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.yml
+  name: IConfigurationPolicyCollection
+  nameWithType: IConfigurationPolicyCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  type: Interface
+  summary: "<p>RRepresents the operations that can be done on the partner's configuration policies. </p>"
+  syntax:
+    content: public interface IConfigurationPolicyCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ConfigurationPolicy, ResourceCollection<ConfigurationPolicy>>,IEntityCreateOperations<ConfigurationPolicy, ConfigurationPolicy>,IEntitySelector<String, IConfigurationPolicy>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.yml
+  name: IDeviceCollection
+  nameWithType: IDeviceCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's devices. </p>"
+  syntax:
+    content: public interface IDeviceCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Device, ResourceCollection<Device>>,IEntityCreateOperations<List<Device>, String>,IEntitySelector<String, IDevice>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.yml
+  name: IDevicesBatchCollection
+  nameWithType: IDevicesBatchCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's devices batches. </p>"
+  syntax:
+    content: public interface IDevicesBatchCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<DeviceBatch, ResourceCollection<DeviceBatch>>,IEntitySelector<String, IDevicesBatch>,IEntityCreateOperations<DeviceBatchCreationRequest, String>
+- uid: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+  parent: com.microsoft.store.partnercenter.entitlements
+  href: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.yml
+  name: IEntitlementCollection
+  nameWithType: IEntitlementCollection
+  fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be performed on entitlements associated to the customer based on the logged in partner. </p>"
+  syntax:
+    content: public interface IEntitlementCollection
+- uid: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType
+  parent: com.microsoft.store.partnercenter.entitlements
+  href: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.yml
+  name: IEntitlementCollectionByEntitlementType
+  nameWithType: IEntitlementCollectionByEntitlementType
+  fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType
+  type: Interface
+  summary: "<p>Represents the operations that can be performed on entitlements (by type) associated to the customer based on the logged in partner. </p>"
+  syntax:
+    content: public interface IEntitlementCollectionByEntitlementType
+- uid: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection.yml
+  name: IReconLineItemCollection
+  nameWithType: IReconLineItemCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
+  syntax:
+    content: public interface IReconLineItemCollection
+- uid: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+  parent: com.microsoft.store.partnercenter.managedservices
+  href: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection.yml
+  name: IManagedServiceCollection
+  nameWithType: IManagedServiceCollection
+  fullName: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+  type: Interface
+  summary: "<p>Holds the customer's managed services operations. </p>"
+  syntax:
+    content: public interface IManagedServiceCollection
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection.yml
+  name: ICustomerOfferCategoryCollection
+  nameWithType: ICustomerOfferCategoryCollection
+  fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+  type: Interface
+  syntax:
+    content: public interface ICustomerOfferCategoryCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<OfferCategory, ResourceCollection<OfferCategory>>
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.yml
+  name: ICustomerOfferCollection
+  nameWithType: ICustomerOfferCollection
+  fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+  type: Interface
+  syntax:
+    content: public interface ICustomerOfferCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Offer, ResourceCollection<Offer>>
+- uid: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection.yml
+  name: IOfferCategoryCollection
+  nameWithType: IOfferCategoryCollection
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
+  type: Interface
+  summary: "<p>Represents the behavior of offer categories available to partners. </p>"
+  syntax:
+    content: public interface IOfferCategoryCollection
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollection
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderCollection.yml
+  name: IOrderCollection
+  nameWithType: IOrderCollection
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection
+  type: Interface
+  summary: "<p>Encapsulates customer orders behavior. </p>"
+  syntax:
+    content: public interface IOrderCollection
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType.yml
+  name: IOrderCollectionByBillingCycleType
+  nameWithType: IOrderCollectionByBillingCycleType
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
+  type: Interface
+  summary: "<p>Holds operations that can be performed on orders given a billing cycle type. </p>"
+  syntax:
+    content: public interface IOrderCollectionByBillingCycleType
+- uid: com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus.yml
+  name: IOrderProvisioningStatus
+  nameWithType: IOrderProvisioningStatus
+  fullName: com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus
+  type: Interface
+  summary: "<p>Represents the operations that apply Order provisioning status. </p>"
+  syntax:
+    content: public interface IOrderProvisioningStatus
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.IAvailabilityCollection.yml
+  name: IAvailabilityCollection
+  nameWithType: IAvailabilityCollection
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection
+  type: Interface
+  summary: "<p>Holds operations that can be performed on availabilities. </p>"
+  syntax:
+    content: public interface IAvailabilityCollection extends IPartnerComponent<TripletTuple<String, String, String>>,IEntireEntityCollectionRetrievalOperations<Availability, ResourceCollection<Availability>>,IEntitySelector<String, IAvailability>
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment.yml
+  name: IAvailabilityCollectionByTargetSegment
+  nameWithType: IAvailabilityCollectionByTargetSegment
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment
+  type: Interface
+  summary: "<p>Holds operations that can be performed on availabilities for a specific target segment. </p>"
+  syntax:
+    content: public interface IAvailabilityCollectionByTargetSegment extends IPartnerComponent<QuadrupleTuple<String, String, String, String>>,IEntireEntityCollectionRetrievalOperations<Availability, ResourceCollection<Availability>>
+- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.yml
+  name: IProductCollectionByCountryByTargetView
+  nameWithType: IProductCollectionByCountryByTargetView
+  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView
+  type: Interface
+  summary: "<p>Holds operations that can be performed on products that belong to a given country and a catalog view. </p>"
+  syntax:
+    content: public interface IProductCollectionByCountryByTargetView
+- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment.yml
+  name: IProductCollectionByCountryByTargetViewByTargetSegment
+  nameWithType: IProductCollectionByCountryByTargetViewByTargetSegment
+  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment
+  type: Interface
+  summary: "<p>Holds operations that can be performed on products that belong to a given country, a catalog view and a specific target segment. </p>"
+  syntax:
+    content: public interface IProductCollectionByCountryByTargetViewByTargetSegment
+- uid: com.microsoft.store.partnercenter.products.ISkuCollection
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.ISkuCollection.yml
+  name: ISkuCollection
+  nameWithType: ISkuCollection
+  fullName: com.microsoft.store.partnercenter.products.ISkuCollection
+  type: Interface
+  summary: "<p>Holds operations that can be performed on SKUs. </p>"
+  syntax:
+    content: public interface ISkuCollection
+- uid: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.yml
+  name: ISkuCollectionByTargetSegment
+  nameWithType: ISkuCollectionByTargetSegment
+  fullName: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment
+  type: Interface
+  summary: "<p>Holds operations that can be performed on skus from a specific target segment. </p>"
+  syntax:
+    content: public interface ISkuCollectionByTargetSegment
+- uid: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+  parent: com.microsoft.store.partnercenter.relationships
+  href: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.yml
+  name: ICustomerRelationshipCollection
+  nameWithType: ICustomerRelationshipCollection
+  fullName: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+  type: Interface
+  summary: "<p>For two-tier partner scenarios, holds the operations for retrieving partner relationships of a customer with respect to the logged in partner. </p>"
+  syntax:
+    content: public interface ICustomerRelationshipCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<PartnerRelationship, ResourceCollection<PartnerRelationship>>
+- uid: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+  parent: com.microsoft.store.partnercenter.serviceincidents
+  href: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.yml
+  name: IServiceIncidentCollection
+  nameWithType: IServiceIncidentCollection
+  fullName: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+  type: Interface
+  syntax:
+    content: public interface IServiceIncidentCollection
+- uid: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+  parent: com.microsoft.store.partnercenter.servicerequests
+  href: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.yml
+  name: IServiceRequestCollection
+  nameWithType: IServiceRequestCollection
+  fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+  type: Interface
+  summary: "<p>Represents the behavior of service requests. </p>"
+  syntax:
+    content: public interface IServiceRequestCollection
+- uid: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection
+  parent: com.microsoft.store.partnercenter.servicerequests
+  href: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.yml
+  name: ISupportTopicsCollection
+  nameWithType: ISupportTopicsCollection
+  fullName: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection
+  type: Interface
+  summary: "<p>Represents the behavior of support topics. Support Topics operations are localizable. </p>"
+  syntax:
+    content: public interface ISupportTopicsCollection
+- uid: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+  parent: com.microsoft.store.partnercenter.subscribedskus
+  href: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.yml
+  name: ICustomerSubscribedSkuCollection
+  nameWithType: ICustomerSubscribedSkuCollection
+  fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customers users </p>"
+  syntax:
+    content: public interface ICustomerSubscribedSkuCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<SubscribedSku, ResourceCollection<SubscribedSku>>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.yml
+  name: ISubscriptionAddOnCollection
+  nameWithType: ISubscriptionAddOnCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
+  type: Interface
+  summary: "<p>Defines the behavior for a subscription's add-ons. </p>"
+  syntax:
+    content: public interface ISubscriptionAddOnCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.yml
+  name: ISubscriptionCollection
+  nameWithType: ISubscriptionCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customer subscriptions as a whole. </p>"
+  syntax:
+    content: public interface ISubscriptionCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection.yml
+  name: ISubscriptionConversionCollection
+  nameWithType: ISubscriptionConversionCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
+  type: Interface
+  summary: "<p>This interface defines the conversion operations available on a customer's trial subscription. </p>"
+  syntax:
+    content: public interface ISubscriptionConversionCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.yml
+  name: ISubscriptionUpgradeCollection
+  nameWithType: ISubscriptionUpgradeCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+  type: Interface
+  summary: "<p>This interface defines the upgrade operations available on a customer's subscription. </p>"
+  syntax:
+    content: public interface ISubscriptionUpgradeCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations.yml
+  name: OrderSubscriptionCollectionOperations
+  nameWithType: OrderSubscriptionCollectionOperations
+  fullName: com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations
+  type: Class
+  summary: "<p>Implements getting customer subscriptions for a given order. </p>"
+  syntax:
+    content: public class OrderSubscriptionCollectionOperations
+- uid: com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations.yml
+  name: PartnerSubscriptionCollectionOperations
+  nameWithType: PartnerSubscriptionCollectionOperations
+  fullName: com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations
+  type: Class
+  summary: "<p>Implements customer subscription operations grouped by a Microsoft partner. </p>"
+  syntax:
+    content: public class PartnerSubscriptionCollectionOperations
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.yml
+  name: ICustomerUsageRecordCollection
+  nameWithType: ICustomerUsageRecordCollection
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+  type: Interface
+  summary: "<p>Defines the behavior of a customer usage record collection operations. </p>"
+  syntax:
+    content: public interface ICustomerUsageRecordCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<CustomerMonthlyUsageRecord, ResourceCollection<CustomerMonthlyUsageRecord>>
+- uid: com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection.yml
+  name: IResourceUsageRecordCollection
+  nameWithType: IResourceUsageRecordCollection
+  fullName: com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection
+  type: Interface
+  summary: "<p>Defines the behavior for a subscription's resource usage records. </p>"
+  syntax:
+    content: public interface IResourceUsageRecordCollection
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection.yml
+  name: ISubscriptionDailyUsageRecordCollection
+  nameWithType: ISubscriptionDailyUsageRecordCollection
+  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection
+  type: Interface
+  summary: "<p>Defines the behavior for a subscription's daily usage records. </p>"
+  syntax:
+    content: public interface ISubscriptionDailyUsageRecordCollection
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.yml
+  name: ISubscriptionMonthlyUsageRecordCollection
+  nameWithType: ISubscriptionMonthlyUsageRecordCollection
+  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+  type: Interface
+  summary: "<p>Defines the behavior for a subscription's daily usage records. </p>"
+  syntax:
+    content: public interface ISubscriptionMonthlyUsageRecordCollection
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.get()
+  parent: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+  href: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.yml
+  name: get()
+  nameWithType: ICustomerOfferCollection.get()
+  fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.get()
+  type: Method
+  summary: "<p>Retrieves all the offers for the provided Customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Offer> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.offers.Offera08ddfce
+      description: <p>The offers for the provided customer. </p>
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection.get()
+  parent: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+  href: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection.yml
+  name: get()
+  nameWithType: ICustomerOfferCategoryCollection.get()
+  fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection.get()
+  type: Method
+  summary: "<p>Retrieves all the offer categories for the provided customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<OfferCategory> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.offers.OfferCategorya08ddfce
+      description: <p>The offer categories for the provided customer. </p>
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.get()
+  parent: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+  href: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.yml
+  name: get()
+  nameWithType: ISubscriptionMonthlyUsageRecordCollection.get()
+  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.get()
+  type: Method
+  summary: "<p>Retrieves the customer's subscription usage records. </p>"
+  syntax:
+    content: public ResourceCollection<SubscriptionMonthlyUsageRecord> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecorda08ddfce
+      description: <p>The customer's subscription usage records. </p>
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get()
+  parent: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.yml
+  name: get()
+  nameWithType: ICustomerUsageRecordCollection.get()
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get()
+  type: Method
+  summary: "<p>Retrieves all customer usage records. </p>"
+  syntax:
+    content: public ResourceCollection<CustomerMonthlyUsageRecord> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecorda08ddfce
+      description: <p>The customer usage records. </p>
+- uid: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.get()
+  parent: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection
+  href: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.yml
+  name: get()
+  nameWithType: ISupportTopicsCollection.get()
+  fullName: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.get()
+  type: Method
+  summary: "<p>Retrieves all the support topics. </p>"
+  syntax:
+    content: public ResourceCollection<SupportTopic> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.servicerequests.SupportTopica08ddfce
+      description: <p>The support topics. </p>
+- uid: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection.get()
+  parent: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
+  href: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection.yml
+  name: get()
+  nameWithType: IOfferCategoryCollection.get()
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection.get()
+  type: Method
+  summary: "<p>Retrieves all offer categories available to the partner for the provided country.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<OfferCategory> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.offers.OfferCategorya08ddfce
+      description: <p>All offer categories for the provided country. </p>
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection.get()
+  parent: com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection
+  href: com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection.yml
+  name: get()
+  nameWithType: ISubscriptionDailyUsageRecordCollection.get()
+  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection.get()
+  type: Method
+  summary: "<p>Retrieves the subscription's daily usage records. </p>"
+  syntax:
+    content: public ResourceCollection<SubscriptionDailyUsageRecord> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecorda08ddfce
+      description: <p>The subscription's daily usage records. </p>
+- uid: com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection.get()
+  parent: com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection
+  href: com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection.yml
+  name: get()
+  nameWithType: IResourceUsageRecordCollection.get()
+  fullName: com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection.get()
+  type: Method
+  summary: "<p>Retrieves the subscription's resource usage records. </p>"
+  syntax:
+    content: public ResourceCollection<AzureResourceMonthlyUsageRecord> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecorda08ddfce
+      description: <p>The subscription's resource usage records. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.yml
+  name: get()
+  nameWithType: ISubscriptionAddOnCollection.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.get()
+  type: Method
+  summary: "<p>Retrieves all subscription add-ons. </p>"
+  syntax:
+    content: public ResourceCollection<Subscription> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptiona08ddfce
+      description: <p>The subscription add-ons. </p>
+- uid: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.get()
+  parent: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+  href: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.yml
+  name: get()
+  nameWithType: ICustomerRelationshipCollection.get()
+  fullName: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.get()
+  type: Method
+  summary: "<p>Retrieves all the partner relationships associated to the customer based on the logged in partner.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<PartnerRelationship> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipa08ddfce
+      description: <p>The partner relationships. </p>
+- uid: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection.get()
+  parent: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+  href: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection.yml
+  name: get()
+  nameWithType: IManagedServiceCollection.get()
+  fullName: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection.get()
+  type: Method
+  summary: "<p>Retrieves all managed services. This operation is currently only supported for user based credentials.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<ManagedService> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.managedservices.ManagedServicea08ddfce
+      description: <p>The managed services. </p>
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection.get()
+  parent: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection
+  href: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection.yml
+  name: get()
+  nameWithType: IServiceCostLineItemsCollection.get()
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection.get()
+  type: Method
+  summary: "<p>Retrieves a customer's service cost line items.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<ServiceCostLineItem> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItema08ddfce
+      description: <p>The service cost line items. </p>
+- uid: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get()
+  parent: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment
+  href: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.yml
+  name: get()
+  nameWithType: ISkuCollectionByTargetSegment.get()
+  fullName: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get()
+  type: Method
+  summary: "<p>Retrieves all the skus for the provided product and target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Sku> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Skua08ddfce
+      description: <p>The SKUs for the provided product and target segment. </p>
+- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment.get()
+  parent: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment
+  href: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment.yml
+  name: get()
+  nameWithType: IProductCollectionByCountryByTargetViewByTargetSegment.get()
+  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment.get()
+  type: Method
+  summary: "<p>Retrieves all the products in the given country, catalog view and target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Product> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Producta08ddfce
+      description: <p>The products in the given country, catalog view and target segment. </p>
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment.get()
+  parent: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment
+  href: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment.yml
+  name: get()
+  nameWithType: IAvailabilityCollectionByTargetSegment.get()
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment.get()
+  type: Method
+  summary: "<p>Retrieves all the availabilities for the provided SKU on a specific target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Availability> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Availabilitya08ddfce
+      description: <p>The availability for the provided SKU on a specific target segment. </p>
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType.get()
+  parent: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
+  href: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType.yml
+  name: get()
+  nameWithType: IOrderCollectionByBillingCycleType.get()
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType.get()
+  type: Method
+  summary: "<p>Gets all customer orders.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Order> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.orders.Ordera08ddfce
+      description: <p>The customer orders. </p>
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection.get()
+  parent: com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection.yml
+  name: get()
+  nameWithType: ICustomerUserRoleCollection.get()
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection.get()
+  type: Method
+  summary: "<p>Gets the customer user's directory roles.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<DirectoryRole> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.roles.DirectoryRolea08ddfce
+      description: <p>The customer user's directory roles. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment.get()
+  parent: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment
+  href: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment.yml
+  name: get()
+  nameWithType: ICustomerProductCollectionByTargetViewByTargetSegment.get()
+  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment.get()
+  type: Method
+  summary: "<p>Retrieves all the products in a given catalog view and that apply to a given customer, filtered by target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Product> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Producta08ddfce
+      description: <p>The products in a given catalog view and that apply to a given customer, filtered by target segment. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.get()
+  parent: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView
+  href: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.yml
+  name: get()
+  nameWithType: ICustomerProductCollectionByTargetView.get()
+  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.get()
+  type: Method
+  summary: "<p>Retrieves all the products in a given catalog view that apply to a given customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Product> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Producta08ddfce
+      description: <p>The products in a given catalog view that apply to a given customer. </p>
+- uid: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get()
+  parent: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+  href: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.yml
+  name: get()
+  nameWithType: ICustomerSubscribedSkuCollection.get()
+  fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get()
+  type: Method
+  summary: "<p>Retrieves all the customer subscribed products.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<SubscribedSku> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.licenses.SubscribedSkua08ddfce
+      description: <p>All the customer subscribed products. </p>
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get()
+  parent: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.yml
+  name: get()
+  nameWithType: ICustomerUserLicenseCollection.get()
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get()
+  type: Method
+  summary: "<p>Retrieves the assigned licenses to a customer user.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<License> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.licenses.Licensea08ddfce
+      description: <p>The customer user's directory roles. </p>
+- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get()
+  parent: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView
+  href: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.yml
+  name: get()
+  nameWithType: IProductCollectionByCountryByTargetView.get()
+  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get()
+  type: Method
+  summary: "<p>Retrieves all the products in the given country and catalog view.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Product> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Producta08ddfce
+      description: <p>The products in the given country and catalog view. </p>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.get()
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.yml
+  name: get()
+  nameWithType: IDirectoryRoleCollection.get()
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.get()
+  type: Method
+  summary: "<p>Retrieves all customer directory roles. </p>"
+  syntax:
+    content: public ResourceCollection<DirectoryRole> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.roles.DirectoryRolea08ddfce
+      description: <p>All the customer directory roles. </p>
+- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()
+  parent: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+  href: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.yml
+  name: get()
+  nameWithType: ICustomerAgreementCollection.get()
+  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()
+  type: Method
+  summary: "<p>Retrieves all agreements.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Agreement> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.agreements.Agreementa08ddfce
+      description: <p>The agreements. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection.yml
+  name: get()
+  nameWithType: ISubscriptionConversionCollection.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection.get()
+  type: Method
+  summary: "<p>Retrieves all conversions for the trial subscription. </p>"
+  syntax:
+    content: public ResourceCollection<Conversion> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Conversiona08ddfce
+      description: <p>The subscription conversions. </p>
+- uid: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.get()
+  parent: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+  href: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.yml
+  name: get()
+  nameWithType: IServiceRequestCollection.get()
+  fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.get()
+  type: Method
+  summary: "<p>Retrieves all service requests. </p>"
+  syntax:
+    content: public ResourceCollection<ServiceRequest> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.servicerequests.ServiceRequesta08ddfce
+      description: <p>The service requests. </p>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.get()
+  parent: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  href: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.yml
+  name: get()
+  nameWithType: IConfigurationPolicyCollection.get()
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.get()
+  type: Method
+  summary: "<p>Retrieves all configuration policies.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<ConfigurationPolicy> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicya08ddfce
+      description: <p>The collection of configuration policies. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.yml
+  name: get()
+  nameWithType: ISubscriptionUpgradeCollection.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()
+  type: Method
+  summary: "<p>Retrieves all subscription upgrades. </p>"
+  syntax:
+    content: public ResourceCollection<Upgrade> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Upgradea08ddfce
+      description: <p>The subscription upgrades. </p>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()
+  parent: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.yml
+  name: get()
+  nameWithType: IDevicesBatchCollection.get()
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()
+  type: Method
+  summary: "<p>Retrieves all devices batches.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<DeviceBatch> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatcha08ddfce
+      description: <p>All of the device batches. </p>
+- uid: com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations
+  href: com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerUsageRecordCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves the collection of customer monthly usage records for a partner.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<CustomerMonthlyUsageRecord> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecorda08ddfce
+      description: <p>The collection of customer monthly usage records. </p>
+- uid: com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations
+  href: com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.yml
+  name: get()
+  nameWithType: SupportTopicsCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.get()
+  type: Method
+  summary: "<p>Gets a collection of available support topics to create service request.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<SupportTopic> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.servicerequests.SupportTopica08ddfce
+      description: <p>Collection of Support Topic Info. </p>
+- uid: com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations
+  href: com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations.yml
+  name: get()
+  nameWithType: PartnerLicensesUsageInsightsCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves the collection of partner's licenses' usage insights.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<PartnerLicensesUsageInsights> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsightsa08ddfce
+      description: <p>Collection of the partner's licenses' usage insights.. </p>
+- uid: com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations
+  href: com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.yml
+  name: get()
+  nameWithType: PartnerLicensesDeploymentInsightsCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves the collection of partner's licenses' deployment insights.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<PartnerLicensesDeploymentInsights> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsightsa08ddfce
+      description: <p>Collection of partner's licenses' deployment insights. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.yml
+  name: get()
+  nameWithType: ISubscriptionCollection.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get()
+  type: Method
+  summary: "<p>Retrieves all subscriptions. </p>"
+  syntax:
+    content: public ResourceCollection<Subscription> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptiona08ddfce
+      description: <p>The subscriptions. </p>
+- uid: com.microsoft.store.partnercenter.products.ISkuCollection.get()
+  parent: com.microsoft.store.partnercenter.products.ISkuCollection
+  href: com.microsoft.store.partnercenter.products.ISkuCollection.yml
+  name: get()
+  nameWithType: ISkuCollection.get()
+  fullName: com.microsoft.store.partnercenter.products.ISkuCollection.get()
+  type: Method
+  summary: "<p>Retrieves all the SKUs for the provided product.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Sku> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Skua08ddfce
+      description: <p>The SKUs for the provided product. </p>
+- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()
+  parent: com.microsoft.store.partnercenter.products.IAvailabilityCollection
+  href: com.microsoft.store.partnercenter.products.IAvailabilityCollection.yml
+  name: get()
+  nameWithType: IAvailabilityCollection.get()
+  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()
+  type: Method
+  summary: "<p>Retrieves all the availabilities for the provided SKU.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Availability> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Availabilitya08ddfce
+      description: <p>The availabilities for the provided SKU. </p>
+- uid: com.microsoft.store.partnercenter.offers.CustomerOfferCategoryCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.offers.CustomerOfferCategoryCollectionOperations
+  href: com.microsoft.store.partnercenter.offers.CustomerOfferCategoryCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerOfferCategoryCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.offers.CustomerOfferCategoryCollectionOperations.get()
+  type: Method
+  summary: "<p>Gets the offer categories available to customer from partner.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<OfferCategory> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.offers.OfferCategorya08ddfce
+      description: <p>The offer categories available to customer from partner. </p>
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations
+  href: com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerUserRoleCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.get()
+  type: Method
+  summary: "<p>Gets the customer user's directory roles.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<DirectoryRole> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.roles.DirectoryRolea08ddfce
+      description: <p>The customer user's directory roles. </p>
+- uid: com.microsoft.store.partnercenter.relationships.CustomerRelationshipCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.relationships.CustomerRelationshipCollectionOperations
+  href: com.microsoft.store.partnercenter.relationships.CustomerRelationshipCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerRelationshipCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.relationships.CustomerRelationshipCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the partner relationships associated to the customer based on the logged in partner.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<PartnerRelationship> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipa08ddfce
+      description: <p>The partner relationships. </p>
+- uid: com.microsoft.store.partnercenter.offers.OfferCategoryCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.offers.OfferCategoryCollectionOperations
+  href: com.microsoft.store.partnercenter.offers.OfferCategoryCollectionOperations.yml
+  name: get()
+  nameWithType: OfferCategoryCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.offers.OfferCategoryCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all offer categories available to the partner for the provided country.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<OfferCategory> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.offers.OfferCategorya08ddfce
+      description: <p>All offer categories for the provided country. </p>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.get()
+  parent: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.yml
+  name: get()
+  nameWithType: IDeviceCollection.get()
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.get()
+  type: Method
+  summary: "<p>Retrieves all devices.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Device> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.devicesdeployment.Devicea08ddfce
+      description: <p>All of the devices. </p>
+- uid: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations
+  href: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.yml
+  name: get()
+  nameWithType: SubscriptionMonthlyUsageRecordCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves the subscription monthly usage records.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<SubscriptionMonthlyUsageRecord> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecorda08ddfce
+      description: <p>Collection of subscription monthly usage records. </p>
+- uid: com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations
+  href: com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerSubscribedSkuCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the customer subscribed products.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<SubscribedSku> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.licenses.SubscribedSkua08ddfce
+      description: <p>All the customer subscribed products. </p>
+- uid: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations
+  href: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerOfferCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get()
+  type: Method
+  summary: "<p>Gets the offers available to customer from partner. </p>"
+  syntax:
+    content: public ResourceCollection<Offer> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.offers.Offera08ddfce
+- uid: com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations
+  href: com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations.yml
+  name: get()
+  nameWithType: ManagedServiceCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations.get()
+  type: Method
+  summary: "<p>Gets managed services for a customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<ManagedService> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.managedservices.ManagedServicea08ddfce
+      description: <p>The customer's managed services. </p>
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get()
+  parent: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations
+  href: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.yml
+  name: get()
+  nameWithType: ServiceCostLineItemsOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get()
+  type: Method
+  summary: "<p>Retrieves a customer's service cost line items.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<ServiceCostLineItem> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItema08ddfce
+      description: <p>The service cost line items. </p>
+- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesUsageInsightsCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.analytics.CustomerLicensesUsageInsightsCollectionOperations
+  href: com.microsoft.store.partnercenter.analytics.CustomerLicensesUsageInsightsCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerLicensesUsageInsightsCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesUsageInsightsCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves the collection of customer's licenses' deployment insights.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<CustomerLicensesUsageInsights> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.analytics.CustomerLicensesUsageInsightsa08ddfce
+      description: <p>Collection of customer licenses deployment insights. </p>
+- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesDeploymentInsightsCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.analytics.CustomerLicensesDeploymentInsightsCollectionOperations
+  href: com.microsoft.store.partnercenter.analytics.CustomerLicensesDeploymentInsightsCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerLicensesDeploymentInsightsCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesDeploymentInsightsCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves the collection of customer's licenses' deployment insights.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<CustomerLicensesDeploymentInsights> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.analytics.CustomerLicensesDeploymentInsightsa08ddfce
+      description: <p>Collection of customer licenses deployment insights. </p>
+- uid: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
+  href: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.yml
+  name: get()
+  nameWithType: ServiceIncidentCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.get()
+  type: Method
+  summary: "<p>Gets the list of service incidents. </p>"
+  syntax:
+    content: public ResourceCollection<ServiceIncidents> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentsa08ddfce
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection.get()
+  parent: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
+  name: get()
+  nameWithType: ICustomerCollection.get()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.get()
+  type: Method
+  summary: "<p>Retrieves all the partner's customers.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekBasedResourceCollection<Customer> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.customers.Customera08ddfce
+      description: <p>The partner's customers. </p>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get()
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.yml
+  name: get()
+  nameWithType: IUserMemberCollection.get()
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get()
+  type: Method
+  summary: "<p>Gets all the user members of a customer directory role. </p>"
+  syntax:
+    content: public SeekBasedResourceCollection<UserMember> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.roles.UserMembera08ddfce
+      description: <p>The directory role user memberships. </p>
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get()
+  parent: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations
+  href: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.yml
+  name: get()
+  nameWithType: OrderCollectionByBillingCycleTypeOperations.get()
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the orders the customer made.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Order> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.orders.Ordera08ddfce
+      description: <p>All the customer orders. </p>
+- uid: com.microsoft.store.partnercenter.orders.OrderProvisioningStatusOperations.get()
+  parent: com.microsoft.store.partnercenter.orders.OrderProvisioningStatusOperations
+  href: com.microsoft.store.partnercenter.orders.OrderProvisioningStatusOperations.yml
+  name: get()
+  nameWithType: OrderProvisioningStatusOperations.get()
+  fullName: com.microsoft.store.partnercenter.orders.OrderProvisioningStatusOperations.get()
+  type: Method
+  summary: "<p>Gets the order provisioning status.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<OrderLineItemProvisioningStatus> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatusa08ddfce
+      description: <p>The provisioning status for the order. </p>
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations
+  href: com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerUserLicenseCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves the assigned licenses to a customer user.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<License> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.licenses.Licensea08ddfce
+      description: <p>The customer user's directory roles. </p>
+- uid: com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations
+  href: com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations.yml
+  name: get()
+  nameWithType: SubscriptionDailyUsageRecordCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves the subscription daily usage records.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<SubscriptionDailyUsageRecord> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecorda08ddfce
+      description: <p>Collection of subscription daily usage records. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations.yml
+  name: get()
+  nameWithType: SubscriptionAddOnCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves the add-on subscriptions.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Subscription> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptiona08ddfce
+      description: <p>Collection of add-on subscriptions. </p>
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get()
+  parent: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.yml
+  name: get()
+  nameWithType: ICustomerUserCollection.get()
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get()
+  type: Method
+  summary: "<p>Retrieves all the customer users.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekBasedResourceCollection<CustomerUser> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.users.CustomerUsera08ddfce
+      description: <p>All the customer users. </p>
+- uid: com.microsoft.store.partnercenter.usage.ResourceUsageRecordCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.usage.ResourceUsageRecordCollectionOperations
+  href: com.microsoft.store.partnercenter.usage.ResourceUsageRecordCollectionOperations.yml
+  name: get()
+  nameWithType: ResourceUsageRecordCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.usage.ResourceUsageRecordCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves the subscription usage records.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<AzureResourceMonthlyUsageRecord> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecorda08ddfce
+      description: <p>Collection of subscription usage records. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.yml
+  name: get()
+  nameWithType: SubscriptionUpgradeCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all subscription upgrades.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Upgrade> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Upgradea08ddfce
+      description: <p>The subscription upgrades. </p>
+- uid: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations.get()
+  parent: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations
+  href: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations.yml
+  name: get()
+  nameWithType: EntitlementCollectionByEntitlementTypeOperations.get()
+  fullName: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations.get()
+  type: Method
+  summary: "<p>Gets an entitlement collection with the given entitlement type.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Entitlement> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.entitlements.Entitlementa08ddfce
+      description: <p>The collection of entitlements corresponding to a specific entitlement type for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.get()
+  parent: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations
+  href: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.yml
+  name: get()
+  nameWithType: CustomerProductCollectionByTargetViewOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the products in a given catalog view that apply to a given customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Product> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Producta08ddfce
+      description: <p>The products in a given catalog view that apply to a given customer. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations.yml
+  name: get()
+  nameWithType: OrderSubscriptionCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations.get()
+  type: Method
+  summary: "<p>Gets the subscriptions for the given order.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Subscription> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptiona08ddfce
+      description: <p>The order subscriptions. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations.yml
+  name: get()
+  nameWithType: PartnerSubscriptionCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations.get()
+  type: Method
+  summary: "<p>Gets the subscriptions for the given partner.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Subscription> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptiona08ddfce
+      description: <p>The partner subscriptions. </p>
+- uid: com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewByTargetSegmentOperations.get()
+  parent: com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewByTargetSegmentOperations
+  href: com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewByTargetSegmentOperations.yml
+  name: get()
+  nameWithType: ProductCollectionByCountryByTargetViewByTargetSegmentOperations.get()
+  fullName: com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewByTargetSegmentOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the products in the given country, catalog view and target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Product> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Producta08ddfce
+      description: <p>The products in the given country, catalog view and target segment. </p>
+- uid: com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations.get()
+  parent: com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations
+  href: com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations.yml
+  name: get()
+  nameWithType: SkuCollectionByTargetSegmentOperations.get()
+  fullName: com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the skus for the provided product and target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Sku> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Skua08ddfce
+      description: <p>The SKUs for the provided product and target segment. </p>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations.yml
+  name: get()
+  nameWithType: DirectoryRoleCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all customer directory roles.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<DirectoryRole> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.roles.DirectoryRolea08ddfce
+      description: <p>All the customer directory roles. </p>
+- uid: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations
+  href: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations.yml
+  name: get()
+  nameWithType: EntitlementCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations.get()
+  type: Method
+  summary: "<p>Gets the entitlements for a customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Entitlement> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.entitlements.Entitlementa08ddfce
+      description: <p>The collection of entitlements for the customer. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.get()
+  parent: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations
+  href: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.yml
+  name: get()
+  nameWithType: CustomerSkuCollectionByTargetSegmentOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the SKUs for the provided product.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Sku> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Skua08ddfce
+      description: <p>The SKUs for the provided product. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByTargetSegmentOperations.get()
+  parent: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByTargetSegmentOperations
+  href: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByTargetSegmentOperations.yml
+  name: get()
+  nameWithType: CustomerProductCollectionByTargetViewByTargetSegmentOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByTargetSegmentOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the products in a given catalog view and that apply to a given customer, filtered by target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Product> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Producta08ddfce
+      description: <p>The products in a given catalog view and that apply to a given customer, filtered by target segment. </p>
+- uid: com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations.get()
+  parent: com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations
+  href: com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations.yml
+  name: get()
+  nameWithType: ProductCollectionByCountryByTargetViewOperations.get()
+  fullName: com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the products in the given country, catalog view and target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Product> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Producta08ddfce
+      description: <p>The products in the given country, catalog view and target segment. </p>
+- uid: com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.get()
+  parent: com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations
+  href: com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.yml
+  name: get()
+  nameWithType: AvailabilityCollectionByTargetSegmentOperations.get()
+  fullName: com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the availabilities for the provided SKU on a specific target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Availability> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Availabilitya08ddfce
+      description: <p>The availability for the provided SKU on a specific target segment. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.yml
+  name: get()
+  nameWithType: SubscriptionConversionCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all conversions for the trial subscription. </p>"
+  syntax:
+    content: public ResourceCollection<Conversion> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Conversiona08ddfce
+      description: <p>The subscription conversions. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionByTargetSegmentOperations.get()
+  parent: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionByTargetSegmentOperations
+  href: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionByTargetSegmentOperations.yml
+  name: get()
+  nameWithType: CustomerAvailabilityCollectionByTargetSegmentOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionByTargetSegmentOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the availabilities for the provided sku on a specific target segment.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Availability> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Availabilitya08ddfce
+      description: <p>The availability for the provided sku on a specific target segment. </p>
+- uid: com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations
+  href: com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerAgreementCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all agreements.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Agreement> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.agreements.Agreementa08ddfce
+      description: <p>A collection of all agreements. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations
+  href: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerAvailabilityCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the availabilities for the provided SKU.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Availability> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Availabilitya08ddfce
+      description: <p>The availabilities for the provided SKU. </p>
+- uid: com.microsoft.store.partnercenter.products.SkuCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.products.SkuCollectionOperations
+  href: com.microsoft.store.partnercenter.products.SkuCollectionOperations.yml
+  name: get()
+  nameWithType: SkuCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.products.SkuCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the SKUs for the provided product.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Sku> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Skua08ddfce
+      description: <p>The SKUs for the provided product. </p>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
+  href: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.yml
+  name: get()
+  nameWithType: DevicesBatchCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all devices batches.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<DeviceBatch> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatcha08ddfce
+      description: <p>All of the device batches. </p>
+- uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations
+  href: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerSkuCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the SKUs for the provided product.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Sku> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Skua08ddfce
+      description: <p>The SKUs for the provided product. </p>
+- uid: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations
+  href: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.yml
+  name: get()
+  nameWithType: AvailabilityCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the availabilities for the provided SKU.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Availability> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.products.Availabilitya08ddfce
+      description: <p>The availabilities for the provided SKU. </p>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations
+  href: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.yml
+  name: get()
+  nameWithType: ConfigurationPolicyCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all configuration policies.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<ConfigurationPolicy> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicya08ddfce
+      description: <p>The collection of configuration policies. </p>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations
+  href: com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.yml
+  name: get()
+  nameWithType: DeviceCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all devices.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Device> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.devicesdeployment.Devicea08ddfce
+      description: <p>All of the devices. </p>
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations
+  href: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerUsersCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the customer users.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekBasedResourceCollection<CustomerUser> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.users.CustomerUsera08ddfce
+      description: <p>All the customer users. </p>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.yml
+  name: get()
+  nameWithType: UserMemberCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get()
+  type: Method
+  summary: "<p>Gets all the user members of a customer directory role.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekBasedResourceCollection<UserMember> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.roles.UserMembera08ddfce
+      description: <p>The directory role user memberships. </p>
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
+  href: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.yml
+  name: get()
+  nameWithType: OrderCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all the orders the customer made.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Order> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.orders.Ordera08ddfce
+      description: <p>All the customer orders. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.yml
+  name: get()
+  nameWithType: SubscriptionCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all subscriptions.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<Subscription> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptiona08ddfce
+      description: <p>The subscriptions. </p>
+- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
+  name: get()
+  nameWithType: ReconLineItemCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get()
+  type: Method
+  summary: "<p>Gets the recon line items collection of the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekBasedResourceCollection<InvoiceLineItem> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.invoices.InvoiceLineItema08ddfce
+      description: <p>The collection of recon line items. </p>
+- uid: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all customers associated to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekBasedResourceCollection<Customer> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.customers.Customera08ddfce
+      description: <p>All customers. </p>
+- uid: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations
+  href: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.yml
+  name: get()
+  nameWithType: PartnerServiceRequestCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves Service Requests associated to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<ServiceRequest> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.servicerequests.ServiceRequesta08ddfce
+      description: <p>A collection of service requests. </p>
+- uid: com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations
+  href: com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerServiceRequestCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves Service Requests associated to the customer.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<ServiceRequest> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.servicerequests.ServiceRequesta08ddfce
+      description: <p>A collection of service requests </p>

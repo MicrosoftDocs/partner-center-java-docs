@@ -1,0 +1,513 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  id: SimpleQuery
+  parent: com.microsoft.store.partnercenter.models.query
+  children:
+  - com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter()
+  - com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort()
+  - com.microsoft.store.partnercenter.models.query.SimpleQuery.getType()
+  - com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(FieldFilter)
+  - com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort(Sort)
+  - com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery()
+  - com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery(Object)
+  - com.microsoft.store.partnercenter.models.query.SimpleQuery.toString()
+  href: com.microsoft.store.partnercenter.models.query.SimpleQuery.yml
+  langs:
+  - java
+  name: SimpleQuery
+  nameWithType: SimpleQuery
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java
+    startLine: 14
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>A standard query that returns entities according to sort and filter options (Does not do paging). </p>"
+  syntax:
+    content: public class SimpleQuery extends BaseQuery
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.query.IQuery
+  - com.microsoft.store.partnercenter.models.query.BaseQuery
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(Object)
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(SeekOperation)
+  - com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(Object)
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter()
+  id: getFilter()
+  parent: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  href: com.microsoft.store.partnercenter.models.query.SimpleQuery.yml
+  langs:
+  - java
+  name: getFilter()
+  nameWithType: SimpleQuery.getFilter()
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter()
+  overload: com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java
+    startLine: 43
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Gets the query filter.</p>\r\n<p></p>"
+  syntax:
+    content: public FieldFilter getFilter()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+      description: <p>The query filter. </p>
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.getFilter()
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort()
+  id: getSort()
+  parent: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  href: com.microsoft.store.partnercenter.models.query.SimpleQuery.yml
+  langs:
+  - java
+  name: getSort()
+  nameWithType: SimpleQuery.getSort()
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort()
+  overload: com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java
+    startLine: 58
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Gets the query sorting options.</p>\r\n<p></p>"
+  syntax:
+    content: public Sort getSort()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.sort.Sort
+      description: <p>The query sorting options. </p>
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.getSort()
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.getType()
+  id: getType()
+  parent: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  href: com.microsoft.store.partnercenter.models.query.SimpleQuery.yml
+  langs:
+  - java
+  name: getType()
+  nameWithType: SimpleQuery.getType()
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.getType()
+  overload: com.microsoft.store.partnercenter.models.query.SimpleQuery.getType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java
+    startLine: 32
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Gets the query type. </p>"
+  syntax:
+    content: public QueryType getType()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.QueryType
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.getType()
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(FieldFilter)
+  id: setFilter(FieldFilter)
+  parent: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  href: com.microsoft.store.partnercenter.models.query.SimpleQuery.yml
+  langs:
+  - java
+  name: setFilter(FieldFilter value)
+  nameWithType: SimpleQuery.setFilter(FieldFilter value)
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(FieldFilter value)
+  overload: com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java
+    startLine: 48
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>The query filter.</p>\r\n<p></p>"
+  syntax:
+    content: public void setFilter(FieldFilter value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+      description: <p>The query filter. </p>
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.setFilter(FieldFilter)
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort(Sort)
+  id: setSort(Sort)
+  parent: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  href: com.microsoft.store.partnercenter.models.query.SimpleQuery.yml
+  langs:
+  - java
+  name: setSort(Sort value)
+  nameWithType: SimpleQuery.setSort(Sort value)
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort(Sort value)
+  overload: com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java
+    startLine: 63
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Sets the query sorting options.</p>\r\n<p></p>"
+  syntax:
+    content: public void setSort(Sort value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.query.sort.Sort
+      description: <p>The query sorting options. </p>
+  overridden: com.microsoft.store.partnercenter.models.query.IQuery.setSort(Sort)
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery()
+  id: SimpleQuery()
+  parent: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  href: com.microsoft.store.partnercenter.models.query.SimpleQuery.yml
+  langs:
+  - java
+  name: SimpleQuery()
+  nameWithType: SimpleQuery.SimpleQuery()
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery()
+  overload: com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java
+    startLine: 17
+  package: com.microsoft.store.partnercenter.models.query
+  syntax:
+    content: protected SimpleQuery()
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery(Object)
+  id: SimpleQuery(Object)
+  parent: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  href: com.microsoft.store.partnercenter.models.query.SimpleQuery.yml
+  langs:
+  - java
+  name: SimpleQuery(Object token)
+  nameWithType: SimpleQuery.SimpleQuery(Object token)
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery(Object token)
+  overload: com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.models.query
+  syntax:
+    content: protected SimpleQuery(Object token)
+    parameters:
+    - id: token
+      type: "79317049"
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.query.SimpleQuery
+  href: com.microsoft.store.partnercenter.models.query.SimpleQuery.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: SimpleQuery.toString()
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.toString()
+  overload: com.microsoft.store.partnercenter.models.query.SimpleQuery.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java
+    startLine: 73
+  package: com.microsoft.store.partnercenter.models.query
+  summary: "<p>Returns a string representation of the query.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string representation of the query. </p>
+references:
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery*
+  name: SimpleQuery
+  nameWithType: SimpleQuery.SimpleQuery
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery
+  package: com.microsoft.store.partnercenter.models.query
+- uid: "79317049"
+  spec.java:
+  - name: Object
+    fullName: Object
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.getType*
+  name: getType
+  nameWithType: SimpleQuery.getType
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.getType
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter*
+  name: getFilter
+  nameWithType: SimpleQuery.getFilter
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter*
+  name: setFilter
+  nameWithType: SimpleQuery.setFilter
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort*
+  name: getSort
+  nameWithType: SimpleQuery.getSort
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort*
+  name: setSort
+  nameWithType: SimpleQuery.setSort
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort
+  package: com.microsoft.store.partnercenter.models.query
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery.toString*
+  name: toString
+  nameWithType: SimpleQuery.toString
+  fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery.toString
+  package: com.microsoft.store.partnercenter.models.query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  name: BaseQuery()
+  nameWithType: BaseQuery.BaseQuery()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BaseQuery class. </p>"
+  syntax:
+    content: protected BaseQuery()
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(Object)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  name: BaseQuery(Object token)
+  nameWithType: BaseQuery.BaseQuery(Object token)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(Object token)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BaseQuery class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BaseQuery(Object token)
+    parameters:
+    - id: token
+      type: "79317049"
+      description: <p>The query token. </p>
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  name: getIndex()
+  nameWithType: BaseQuery.getIndex()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
+  type: Method
+  summary: "<p>Gets or sets the result starting index. </p>"
+  syntax:
+    content: public int getIndex()
+    return:
+      type: f75371fa
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  name: getPageSize()
+  nameWithType: BaseQuery.getPageSize()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
+  type: Method
+  summary: "<p>Gets or sets the results page size. </p>"
+  syntax:
+    content: public int getPageSize()
+    return:
+      type: f75371fa
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  name: getSeekOperation()
+  nameWithType: BaseQuery.getSeekOperation()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
+  type: Method
+  summary: "<p>Gets or sets the seek operation that needs to be performed. </p>"
+  syntax:
+    content: public SeekOperation getSeekOperation()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.SeekOperation
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  name: getToken()
+  nameWithType: BaseQuery.getToken()
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
+  type: Method
+  summary: "<p>Gets the query token. The token may hold context used to represent current state with back end services.</p>\r\n<p></p>"
+  syntax:
+    content: public Object getToken()
+    return:
+      type: "79317049"
+      description: <p>The query token. </p>
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  name: setIndex(int value)
+  nameWithType: BaseQuery.setIndex(int value)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int value)
+  type: Method
+  summary: "<p>Sets the result starting index.</p>\r\n<p></p>"
+  syntax:
+    content: public void setIndex(int value)
+    parameters:
+    - id: value
+      type: f75371fa
+      description: <p>The result starting index. </p>
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  name: setPageSize(int value)
+  nameWithType: BaseQuery.setPageSize(int value)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int value)
+  type: Method
+  summary: "<p>Sets the results page size.</p>\r\n<p></p>"
+  syntax:
+    content: public void setPageSize(int value)
+    parameters:
+    - id: value
+      type: f75371fa
+      description: <p>The results page size. </p>
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(SeekOperation)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  name: setSeekOperation(SeekOperation value)
+  nameWithType: BaseQuery.setSeekOperation(SeekOperation value)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(SeekOperation value)
+  type: Method
+  summary: "<p>Sets the seek operation that needs to be performed.</p>\r\n<p></p>"
+  syntax:
+    content: public void setSeekOperation(SeekOperation value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.query.SeekOperation
+      description: <p>The seek operation that needs to be performed. </p>
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(Object)
+  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  name: setToken(Object value)
+  nameWithType: BaseQuery.setToken(Object value)
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(Object value)
+  type: Method
+  summary: "<p>Sets the query token.</p>\r\n<p></p>"
+  syntax:
+    content: public void setToken(Object value)
+    parameters:
+    - id: value
+      type: "79317049"
+      description: <p>The query token. </p>
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
+  name: BaseQuery
+  nameWithType: BaseQuery
+  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery
+  type: Class
+  summary: "<p>The base class which all queries should derive from. This class does not support any query capabilities except for the token by default. Therefore, implementation classes will pick and choose what to support. </p>"
+  syntax:
+    content: public class BaseQuery implements IQuery
+- uid: com.microsoft.store.partnercenter.models.query.IndexedQuery
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.IndexedQuery.yml
+  name: IndexedQuery
+  nameWithType: IndexedQuery
+  fullName: com.microsoft.store.partnercenter.models.query.IndexedQuery
+  type: Class
+  summary: "<p>A query that supports pagination. Use this for huge datasets. </p>"
+  syntax:
+    content: public class IndexedQuery extends SimpleQuery
+- uid: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+  parent: com.microsoft.store.partnercenter.models.query.filters
+  href: com.microsoft.store.partnercenter.models.query.filters.FieldFilter.yml
+  name: FieldFilter
+  nameWithType: FieldFilter
+  fullName: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+  type: Class
+  summary: "<p>A base class that represents a filter applied to a field. </p>"
+  syntax:
+    content: public class FieldFilter
+- uid: com.microsoft.store.partnercenter.models.query.sort.Sort
+  parent: com.microsoft.store.partnercenter.models.query.sort
+  href: com.microsoft.store.partnercenter.models.query.sort.Sort.yml
+  name: Sort
+  nameWithType: Sort
+  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort
+  type: Class
+  summary: "<p>Specifies sort field and direction. </p>"
+  syntax:
+    content: public class Sort
+- uid: com.microsoft.store.partnercenter.models.query.QueryType
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.QueryType.yml
+  name: QueryType
+  nameWithType: QueryType
+  fullName: com.microsoft.store.partnercenter.models.query.QueryType
+  type: Enum
+  syntax:
+    content: public enum QueryType
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.getType()
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: getType()
+  nameWithType: IQuery.getType()
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.getType()
+  type: Method
+  summary: "<p>Gets the query type.</p>\r\n<p></p>"
+  syntax:
+    content: public QueryType getType()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.QueryType
+      description: <p>The query type. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.getFilter()
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: getFilter()
+  nameWithType: IQuery.getFilter()
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.getFilter()
+  type: Method
+  summary: "<p>Gets the query filter.</p>\r\n<p></p>"
+  syntax:
+    content: public FieldFilter getFilter()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+      description: <p>The query filter. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.setFilter(FieldFilter)
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: setFilter(FieldFilter value)
+  nameWithType: IQuery.setFilter(FieldFilter value)
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.setFilter(FieldFilter value)
+  type: Method
+  summary: "<p>The query filter.</p>\r\n<p></p>"
+  syntax:
+    content: public void setFilter(FieldFilter value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
+      description: <p>The query filter. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.getSort()
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: getSort()
+  nameWithType: IQuery.getSort()
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.getSort()
+  type: Method
+  summary: "<p>Gets the query sorting options.</p>\r\n<p></p>"
+  syntax:
+    content: public Sort getSort()
+    return:
+      type: com.microsoft.store.partnercenter.models.query.sort.Sort
+      description: <p>The query sorting options. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery.setSort(Sort)
+  parent: com.microsoft.store.partnercenter.models.query.IQuery
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: setSort(Sort value)
+  nameWithType: IQuery.setSort(Sort value)
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery.setSort(Sort value)
+  type: Method
+  summary: "<p>Sets the query sorting options.</p>\r\n<p></p>"
+  syntax:
+    content: public void setSort(Sort value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.query.sort.Sort
+      description: <p>The query sorting options. </p>

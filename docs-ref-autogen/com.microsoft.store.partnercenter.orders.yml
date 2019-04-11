@@ -3,12 +3,20 @@ items:
 - uid: com.microsoft.store.partnercenter.orders
   id: orders
   children:
-  - com.microsoft.store.partnercenter.orders._i_order
-  - com.microsoft.store.partnercenter.orders._i_order_collection
-  - com.microsoft.store.partnercenter.orders._i_order_collection_by_billing_cycle_type
-  - com.microsoft.store.partnercenter.orders._order_collection_by_billing_cycle_type_operations
-  - com.microsoft.store.partnercenter.orders._order_collection_operations
-  - com.microsoft.store.partnercenter.orders._order_operations
+  - com.microsoft.store.partnercenter.orders.IOrder
+  - com.microsoft.store.partnercenter.orders.IOrderCollection
+  - com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
+  - com.microsoft.store.partnercenter.orders.IOrderLineItem
+  - com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+  - com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
+  - com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus
+  - com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations
+  - com.microsoft.store.partnercenter.orders.OrderCollectionOperations
+  - com.microsoft.store.partnercenter.orders.OrderLineItemActivationLinkOperations
+  - com.microsoft.store.partnercenter.orders.OrderLineItemCollectionOperations
+  - com.microsoft.store.partnercenter.orders.OrderLineItemOperations
+  - com.microsoft.store.partnercenter.orders.OrderOperations
+  - com.microsoft.store.partnercenter.orders.OrderProvisioningStatusOperations
   href: com.microsoft.store.partnercenter.orders.yml
   langs:
   - java
@@ -26,63 +34,143 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.orders
 references:
-- uid: com.microsoft.store.partnercenter.orders._i_order
+- uid: com.microsoft.store.partnercenter.orders.IOrder
   parent: com.microsoft.store.partnercenter.orders
-  href: com.microsoft.store.partnercenter.orders._i_order.yml
+  href: com.microsoft.store.partnercenter.orders.IOrder.yml
   name: IOrder
   nameWithType: IOrder
   fullName: com.microsoft.store.partnercenter.orders.IOrder
   type: Interface
-  summary: <p>Encapsulates a customer order behavior. </p>
+  summary: "<p>Encapsulates a customer order behavior. </p>"
   syntax:
     content: public interface IOrder extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<Order>,IEntityPatchOperations<Order>
-- uid: com.microsoft.store.partnercenter.orders._i_order_collection
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollection
   parent: com.microsoft.store.partnercenter.orders
-  href: com.microsoft.store.partnercenter.orders._i_order_collection.yml
+  href: com.microsoft.store.partnercenter.orders.IOrderCollection.yml
   name: IOrderCollection
   nameWithType: IOrderCollection
   fullName: com.microsoft.store.partnercenter.orders.IOrderCollection
   type: Interface
-  summary: <p>Encapsulates customer orders behavior. </p>
+  summary: "<p>Encapsulates customer orders behavior. </p>"
   syntax:
-    content: public interface IOrderCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Order, ResourceCollection<Order>>,IEntityCreateOperations<Order, Order>,IEntitySelector<IOrder>
-- uid: com.microsoft.store.partnercenter.orders._i_order_collection_by_billing_cycle_type
+    content: public interface IOrderCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Order, ResourceCollection<Order>>,IEntityCreateOperations<Order, Order>,IEntitySelector<String, IOrder>
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
   parent: com.microsoft.store.partnercenter.orders
-  href: com.microsoft.store.partnercenter.orders._i_order_collection_by_billing_cycle_type.yml
+  href: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType.yml
   name: IOrderCollectionByBillingCycleType
   nameWithType: IOrderCollectionByBillingCycleType
   fullName: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
   type: Interface
-  summary: <p>Holds operations that can be performed on orders given a billing cycle type. </p>
+  summary: "<p>Holds operations that can be performed on orders given a billing cycle type. </p>"
   syntax:
     content: public interface IOrderCollectionByBillingCycleType extends IPartnerComponent<Tuple<String, BillingCycleType>>,IEntireEntityCollectionRetrievalOperations<Order, ResourceCollection<Order>>
-- uid: com.microsoft.store.partnercenter.orders._order_collection_by_billing_cycle_type_operations
+- uid: com.microsoft.store.partnercenter.orders.IOrderLineItem
   parent: com.microsoft.store.partnercenter.orders
-  href: com.microsoft.store.partnercenter.orders._order_collection_by_billing_cycle_type_operations.yml
+  href: com.microsoft.store.partnercenter.orders.IOrderLineItem.yml
+  name: IOrderLineItem
+  nameWithType: IOrderLineItem
+  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItem
+  type: Interface
+  summary: "<p>Represents the available order line item operations. </p>"
+  syntax:
+    content: public interface IOrderLineItem extends IPartnerComponent<TripletTuple<String, String, Integer>>
+- uid: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink.yml
+  name: IOrderLineItemActivationLink
+  nameWithType: IOrderLineItemActivationLink
+  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+  type: Interface
+  summary: "<p>Represents the customer order line item activation link operations. </p>"
+  syntax:
+    content: public interface IOrderLineItemActivationLink extends IPartnerComponent<TripletTuple<String, String, Integer>>,IEntityGetOperations<ResourceCollection<OrderLineItemActivationLink>>
+- uid: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection.yml
+  name: IOrderLineItemCollection
+  nameWithType: IOrderLineItemCollection
+  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
+  type: Interface
+  summary: "<p>Represents the available order line item collection operations. </p>"
+  syntax:
+    content: public interface IOrderLineItemCollection extends IPartnerComponent<Tuple<String, String>>,IEntitySelector<Integer, IOrderLineItem>
+- uid: com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus.yml
+  name: IOrderProvisioningStatus
+  nameWithType: IOrderProvisioningStatus
+  fullName: com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus
+  type: Interface
+  summary: "<p>Represents the operations that apply Order provisioning status. </p>"
+  syntax:
+    content: public interface IOrderProvisioningStatus extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<OrderLineItemProvisioningStatus, ResourceCollection<OrderLineItemProvisioningStatus>>
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.yml
   name: OrderCollectionByBillingCycleTypeOperations
   nameWithType: OrderCollectionByBillingCycleTypeOperations
   fullName: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations
   type: Class
-  summary: <p>Order collection by billing cycle type operations implementation class. </p>
+  summary: "<p>Order collection by billing cycle type operations implementation class. </p>"
   syntax:
     content: public class OrderCollectionByBillingCycleTypeOperations extends BasePartnerComponent<Tuple<String, BillingCycleType>> implements IOrderCollectionByBillingCycleType
-- uid: com.microsoft.store.partnercenter.orders._order_collection_operations
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
   parent: com.microsoft.store.partnercenter.orders
-  href: com.microsoft.store.partnercenter.orders._order_collection_operations.yml
+  href: com.microsoft.store.partnercenter.orders.OrderCollectionOperations.yml
   name: OrderCollectionOperations
   nameWithType: OrderCollectionOperations
   fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
   type: Class
-  summary: <p>Order collection operations implementation class. </p>
+  summary: "<p>Order collection operations implementation class. </p>"
   syntax:
     content: public class OrderCollectionOperations extends BasePartnerComponentString implements IOrderCollection
-- uid: com.microsoft.store.partnercenter.orders._order_operations
+- uid: com.microsoft.store.partnercenter.orders.OrderLineItemActivationLinkOperations
   parent: com.microsoft.store.partnercenter.orders
-  href: com.microsoft.store.partnercenter.orders._order_operations.yml
+  href: com.microsoft.store.partnercenter.orders.OrderLineItemActivationLinkOperations.yml
+  name: OrderLineItemActivationLinkOperations
+  nameWithType: OrderLineItemActivationLinkOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderLineItemActivationLinkOperations
+  type: Class
+  summary: "<p>Order collection operations implementation class. </p>"
+  syntax:
+    content: public class OrderLineItemActivationLinkOperations extends BasePartnerComponent<TripletTuple<String, String, Integer>> implements IOrderLineItemActivationLink
+- uid: com.microsoft.store.partnercenter.orders.OrderLineItemCollectionOperations
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.OrderLineItemCollectionOperations.yml
+  name: OrderLineItemCollectionOperations
+  nameWithType: OrderLineItemCollectionOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderLineItemCollectionOperations
+  type: Class
+  summary: "<p>Implements the order collection operations. </p>"
+  syntax:
+    content: public class OrderLineItemCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements IOrderLineItemCollection
+- uid: com.microsoft.store.partnercenter.orders.OrderLineItemOperations
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.yml
+  name: OrderLineItemOperations
+  nameWithType: OrderLineItemOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderLineItemOperations
+  type: Class
+  summary: "<p>Implements the order collection operations. </p>"
+  syntax:
+    content: public class OrderLineItemOperations extends BasePartnerComponent<TripletTuple<String, String, Integer>> implements IOrderLineItem
+- uid: com.microsoft.store.partnercenter.orders.OrderOperations
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.OrderOperations.yml
   name: OrderOperations
   nameWithType: OrderOperations
   fullName: com.microsoft.store.partnercenter.orders.OrderOperations
   type: Class
-  summary: <p>Order operations implementation class. </p>
+  summary: "<p>Order operations implementation class. </p>"
   syntax:
     content: public class OrderOperations extends BasePartnerComponent<Tuple<String, String>> implements IOrder
+- uid: com.microsoft.store.partnercenter.orders.OrderProvisioningStatusOperations
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.OrderProvisioningStatusOperations.yml
+  name: OrderProvisioningStatusOperations
+  nameWithType: OrderProvisioningStatusOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderProvisioningStatusOperations
+  type: Class
+  summary: "<p>Implements operations that apply to order provisioning status. </p>"
+  syntax:
+    content: public class OrderProvisioningStatusOperations extends BasePartnerComponent<Tuple<String, String>> implements IOrderProvisioningStatus

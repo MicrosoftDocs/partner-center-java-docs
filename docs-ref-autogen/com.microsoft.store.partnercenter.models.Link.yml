@@ -1,0 +1,320 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.Link
+  id: Link
+  parent: com.microsoft.store.partnercenter.models
+  children:
+  - com.microsoft.store.partnercenter.models.Link.getHeaders()
+  - com.microsoft.store.partnercenter.models.Link.getMethod()
+  - com.microsoft.store.partnercenter.models.Link.getUri()
+  - com.microsoft.store.partnercenter.models.Link.Link()
+  - com.microsoft.store.partnercenter.models.Link.Link(URI)
+  - com.microsoft.store.partnercenter.models.Link.Link(URI,String,Collection<KeyValuePair<String, String>>)
+  - com.microsoft.store.partnercenter.models.Link.Link(URI,String)
+  - com.microsoft.store.partnercenter.models.Link.setHeaders(Collection<KeyValuePair<String, String>>)
+  - com.microsoft.store.partnercenter.models.Link.setMethod(String)
+  - com.microsoft.store.partnercenter.models.Link.setUri(URI)
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  langs:
+  - java
+  name: Link
+  nameWithType: Link
+  fullName: com.microsoft.store.partnercenter.models.Link
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+    startLine: 19
+  package: com.microsoft.store.partnercenter.models
+  summary: "<p>Link represents a URI and the HTTP method which indicates the desired action for accessing the resource. </p>"
+  syntax:
+    content: public class Link
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.store.partnercenter.models.Link.getHeaders()
+  id: getHeaders()
+  parent: com.microsoft.store.partnercenter.models.Link
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  langs:
+  - java
+  name: getHeaders()
+  nameWithType: Link.getHeaders()
+  fullName: com.microsoft.store.partnercenter.models.Link.getHeaders()
+  overload: com.microsoft.store.partnercenter.models.Link.getHeaders*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+    startLine: 90
+  package: com.microsoft.store.partnercenter.models
+  syntax:
+    content: public Collection<KeyValuePair<String, String>> getHeaders()
+    return:
+      type: 12ebb11acom.microsoft.store.partnercenter.models.utils.KeyValuePaire53f4a45
+- uid: com.microsoft.store.partnercenter.models.Link.getMethod()
+  id: getMethod()
+  parent: com.microsoft.store.partnercenter.models.Link
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  langs:
+  - java
+  name: getMethod()
+  nameWithType: Link.getMethod()
+  fullName: com.microsoft.store.partnercenter.models.Link.getMethod()
+  overload: com.microsoft.store.partnercenter.models.Link.getMethod*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+    startLine: 75
+  package: com.microsoft.store.partnercenter.models
+  syntax:
+    content: public String getMethod()
+    return:
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.Link.getUri()
+  id: getUri()
+  parent: com.microsoft.store.partnercenter.models.Link
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  langs:
+  - java
+  name: getUri()
+  nameWithType: Link.getUri()
+  fullName: com.microsoft.store.partnercenter.models.Link.getUri()
+  overload: com.microsoft.store.partnercenter.models.Link.getUri*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+    startLine: 60
+  package: com.microsoft.store.partnercenter.models
+  syntax:
+    content: public URI getUri()
+    return:
+      type: "62304784"
+- uid: com.microsoft.store.partnercenter.models.Link.Link()
+  id: Link()
+  parent: com.microsoft.store.partnercenter.models.Link
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  langs:
+  - java
+  name: Link()
+  nameWithType: Link.Link()
+  fullName: com.microsoft.store.partnercenter.models.Link.Link()
+  overload: com.microsoft.store.partnercenter.models.Link.Link*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+    startLine: 21
+  package: com.microsoft.store.partnercenter.models
+  syntax:
+    content: public Link()
+- uid: com.microsoft.store.partnercenter.models.Link.Link(URI)
+  id: Link(URI)
+  parent: com.microsoft.store.partnercenter.models.Link
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  langs:
+  - java
+  name: Link(URI uri)
+  nameWithType: Link.Link(URI uri)
+  fullName: com.microsoft.store.partnercenter.models.Link.Link(URI uri)
+  overload: com.microsoft.store.partnercenter.models.Link.Link*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+    startLine: 30
+  package: com.microsoft.store.partnercenter.models
+  summary: "<p>Initializes a new instance of the Link class.</p>\r\n<p></p>"
+  syntax:
+    content: public Link(URI uri)
+    parameters:
+    - id: uri
+      type: "62304784"
+      description: <p>The URI. </p>
+- uid: com.microsoft.store.partnercenter.models.Link.Link(URI,String,Collection<KeyValuePair<String, String>>)
+  id: Link(URI,String,Collection<KeyValuePair<String, String>>)
+  parent: com.microsoft.store.partnercenter.models.Link
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  langs:
+  - java
+  name: Link(URI uri, String method, Collection<KeyValuePair<String, String>> headers)
+  nameWithType: Link.Link(URI uri, String method, Collection<KeyValuePair<String, String>> headers)
+  fullName: com.microsoft.store.partnercenter.models.Link.Link(URI uri, String method, Collection<KeyValuePair<String, String>> headers)
+  overload: com.microsoft.store.partnercenter.models.Link.Link*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+    startLine: 42
+  package: com.microsoft.store.partnercenter.models
+  summary: "<p>Initializes a new instance of the Link class.</p>\r\n<p></p>"
+  syntax:
+    content: public Link(URI uri, String method, Collection<KeyValuePair<String, String>> headers)
+    parameters:
+    - id: uri
+      type: "62304784"
+      description: <p>The URI. </p>
+    - id: method
+      type: "26831127"
+      description: <p>The HTTP method. </p>
+    - id: headers
+      type: 12ebb11acom.microsoft.store.partnercenter.models.utils.KeyValuePaire53f4a45
+      description: <p>Optional HTTP headers. </p>
+- uid: com.microsoft.store.partnercenter.models.Link.Link(URI,String)
+  id: Link(URI,String)
+  parent: com.microsoft.store.partnercenter.models.Link
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  langs:
+  - java
+  name: Link(URI uri, String string)
+  nameWithType: Link.Link(URI uri, String string)
+  fullName: com.microsoft.store.partnercenter.models.Link.Link(URI uri, String string)
+  overload: com.microsoft.store.partnercenter.models.Link.Link*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+    startLine: 49
+  package: com.microsoft.store.partnercenter.models
+  syntax:
+    content: public Link(URI uri, String string)
+    parameters:
+    - id: uri
+      type: "62304784"
+    - id: string
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.Link.setHeaders(Collection<KeyValuePair<String, String>>)
+  id: setHeaders(Collection<KeyValuePair<String, String>>)
+  parent: com.microsoft.store.partnercenter.models.Link
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  langs:
+  - java
+  name: setHeaders(Collection<KeyValuePair<String, String>> value)
+  nameWithType: Link.setHeaders(Collection<KeyValuePair<String, String>> value)
+  fullName: com.microsoft.store.partnercenter.models.Link.setHeaders(Collection<KeyValuePair<String, String>> value)
+  overload: com.microsoft.store.partnercenter.models.Link.setHeaders*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+    startLine: 95
+  package: com.microsoft.store.partnercenter.models
+  syntax:
+    content: public void setHeaders(Collection<KeyValuePair<String, String>> value)
+    parameters:
+    - id: value
+      type: 12ebb11acom.microsoft.store.partnercenter.models.utils.KeyValuePaire53f4a45
+- uid: com.microsoft.store.partnercenter.models.Link.setMethod(String)
+  id: setMethod(String)
+  parent: com.microsoft.store.partnercenter.models.Link
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  langs:
+  - java
+  name: setMethod(String value)
+  nameWithType: Link.setMethod(String value)
+  fullName: com.microsoft.store.partnercenter.models.Link.setMethod(String value)
+  overload: com.microsoft.store.partnercenter.models.Link.setMethod*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+    startLine: 80
+  package: com.microsoft.store.partnercenter.models
+  syntax:
+    content: public void setMethod(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.Link.setUri(URI)
+  id: setUri(URI)
+  parent: com.microsoft.store.partnercenter.models.Link
+  href: com.microsoft.store.partnercenter.models.Link.yml
+  langs:
+  - java
+  name: setUri(URI value)
+  nameWithType: Link.setUri(URI value)
+  fullName: com.microsoft.store.partnercenter.models.Link.setUri(URI value)
+  overload: com.microsoft.store.partnercenter.models.Link.setUri*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/Link.java
+    startLine: 65
+  package: com.microsoft.store.partnercenter.models
+  syntax:
+    content: public void setUri(URI value)
+    parameters:
+    - id: value
+      type: "62304784"
+references:
+- uid: com.microsoft.store.partnercenter.models.Link.Link*
+  name: Link
+  nameWithType: Link.Link
+  fullName: com.microsoft.store.partnercenter.models.Link.Link
+  package: com.microsoft.store.partnercenter.models
+- uid: "62304784"
+  spec.java:
+  - name: URI
+    fullName: URI
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 12ebb11acom.microsoft.store.partnercenter.models.utils.KeyValuePaire53f4a45
+  spec.java:
+  - name: Collection<
+    fullName: Collection<
+  - uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair
+    name: KeyValuePair
+    fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair
+    href: com.microsoft.store.partnercenter.models.utils.KeyValuePair.yml
+  - name: <String, String>>
+    fullName: <String, String>>
+- uid: com.microsoft.store.partnercenter.models.Link.getUri*
+  name: getUri
+  nameWithType: Link.getUri
+  fullName: com.microsoft.store.partnercenter.models.Link.getUri
+  package: com.microsoft.store.partnercenter.models
+- uid: com.microsoft.store.partnercenter.models.Link.setUri*
+  name: setUri
+  nameWithType: Link.setUri
+  fullName: com.microsoft.store.partnercenter.models.Link.setUri
+  package: com.microsoft.store.partnercenter.models
+- uid: com.microsoft.store.partnercenter.models.Link.getMethod*
+  name: getMethod
+  nameWithType: Link.getMethod
+  fullName: com.microsoft.store.partnercenter.models.Link.getMethod
+  package: com.microsoft.store.partnercenter.models
+- uid: com.microsoft.store.partnercenter.models.Link.setMethod*
+  name: setMethod
+  nameWithType: Link.setMethod
+  fullName: com.microsoft.store.partnercenter.models.Link.setMethod
+  package: com.microsoft.store.partnercenter.models
+- uid: com.microsoft.store.partnercenter.models.Link.getHeaders*
+  name: getHeaders
+  nameWithType: Link.getHeaders
+  fullName: com.microsoft.store.partnercenter.models.Link.getHeaders
+  package: com.microsoft.store.partnercenter.models
+- uid: com.microsoft.store.partnercenter.models.Link.setHeaders*
+  name: setHeaders
+  nameWithType: Link.setHeaders
+  fullName: com.microsoft.store.partnercenter.models.Link.setHeaders
+  package: com.microsoft.store.partnercenter.models
+- uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair
+  parent: com.microsoft.store.partnercenter.models.utils
+  href: com.microsoft.store.partnercenter.models.utils.KeyValuePair.yml
+  name: KeyValuePair<K,V>
+  nameWithType: KeyValuePair<K,V>
+  fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>
+  type: Class
+  syntax:
+    content: public class KeyValuePair<K,V>
+    typeParameters:
+    - id: K
+      type: a1c6f3a5
+    - id: V
+      type: 0a560652

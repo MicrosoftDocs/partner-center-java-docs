@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  id: UpgradeErrorCode
+  parent: com.microsoft.store.partnercenter.models.subscriptions
+  children:
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONCURRENCY_CONFLICTS
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONFLICTING_SERVICE_TYPES
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.OTHER
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString()
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.UpgradeErrorCode(String)
+  - com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.USER_CONTEXT_REQUIRED
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: UpgradeErrorCode
+  nameWithType: UpgradeErrorCode
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 10
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public enum UpgradeErrorCode
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<UpgradeErrorCode>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONCURRENCY_CONFLICTS
+  id: CONCURRENCY_CONFLICTS
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: CONCURRENCY_CONFLICTS
+  nameWithType: UpgradeErrorCode.CONCURRENCY_CONFLICTS
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONCURRENCY_CONFLICTS
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 35
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Upgrade cannot be performed due to concurrent subscription restrictions. </p>"
+  syntax:
+    content: public CONCURRENCY_CONFLICTS=("ConcurrencyConflicts")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONFLICTING_SERVICE_TYPES
+  id: CONFLICTING_SERVICE_TYPES
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: CONFLICTING_SERVICE_TYPES
+  nameWithType: UpgradeErrorCode.CONFLICTING_SERVICE_TYPES
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONFLICTING_SERVICE_TYPES
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 30
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Upgrade cannot be performed because of conflicting source service types. </p>"
+  syntax:
+    content: public CONFLICTING_SERVICE_TYPES=("ConflictingServiceTypes")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED
+  id: DELEGATED_ADMIN_PERMISSIONS_DISABLED
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: DELEGATED_ADMIN_PERMISSIONS_DISABLED
+  nameWithType: UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 20
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Upgrade cannot be performed because administrative permissions have been removed. </p>"
+  syntax:
+    content: public DELEGATED_ADMIN_PERMISSIONS_DISABLED=("DelegatedAdminPermissionsDisabled")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.OTHER
+  id: OTHER
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: OTHER
+  nameWithType: UpgradeErrorCode.OTHER
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.OTHER
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 15
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>The type of errors that prevent subscription upgrading from happening General error. </p>"
+  syntax:
+    content: public OTHER=("Other")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT
+  id: SUBSCRIPTION_ADD_ONS_PRESENT
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: SUBSCRIPTION_ADD_ONS_PRESENT
+  nameWithType: UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 45
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Upgrade cannot be performed because the source subscription has previously purchased add-ons. </p>"
+  syntax:
+    content: public SUBSCRIPTION_ADD_ONS_PRESENT=("SubscriptionAddOnsPresent")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
+  id: SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
+  nameWithType: UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 50
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Upgrade cannot be performed because the source subscription does not have upgrade paths. </p>"
+  syntax:
+    content: public SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS=("SubscriptionDoesNotHaveAnyUpgradePaths")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED
+  id: SUBSCRIPTION_NOT_PROVISIONED
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: SUBSCRIPTION_NOT_PROVISIONED
+  nameWithType: UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 61
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>The subscription is not provisioned yet. Happens when the order is still being processed. Eventually the subscription ill be provisioned and an entitlement is created. </p>"
+  syntax:
+    content: public SUBSCRIPTION_NOT_PROVISIONED=("SubscriptionNotProvisioned")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE
+  id: SUBSCRIPTION_STATUS_NOT_ACTIVE
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: SUBSCRIPTION_STATUS_NOT_ACTIVE
+  nameWithType: UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 25
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Upgrade cannot be performed because the subscription status is suspended or deleted. </p>"
+  syntax:
+    content: public SUBSCRIPTION_STATUS_NOT_ACTIVE=("SubscriptionStatusNotActive")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
+  id: SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
+  nameWithType: UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 55
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Upgrade cannot be performed because the specified upgrade path is not an available upgrade path. </p>"
+  syntax:
+    content: public SUBSCRIPTION_TARGET_OFFER_NOT_FOUND=("SubscriptionTargetOfferNotFound")
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: UpgradeErrorCode.toString()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 77
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.UpgradeErrorCode(String)
+  id: UpgradeErrorCode(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: UpgradeErrorCode(String value)
+  nameWithType: UpgradeErrorCode.UpgradeErrorCode(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.UpgradeErrorCode(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.UpgradeErrorCode*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 65
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  syntax:
+    content: public UpgradeErrorCode(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.USER_CONTEXT_REQUIRED
+  id: USER_CONTEXT_REQUIRED
+  parent: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
+  href: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.yml
+  langs:
+  - java
+  name: USER_CONTEXT_REQUIRED
+  nameWithType: UpgradeErrorCode.USER_CONTEXT_REQUIRED
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.USER_CONTEXT_REQUIRED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/UpgradeErrorCode.java
+    startLine: 40
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Upgrade cannot be performed because the current request is using app context. </p>"
+  syntax:
+    content: public USER_CONTEXT_REQUIRED=("UserContextRequired")
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.UpgradeErrorCode*
+  name: UpgradeErrorCode
+  nameWithType: UpgradeErrorCode.UpgradeErrorCode
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.UpgradeErrorCode
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString*
+  name: toString
+  nameWithType: UpgradeErrorCode.toString
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString
+  package: com.microsoft.store.partnercenter.models.subscriptions

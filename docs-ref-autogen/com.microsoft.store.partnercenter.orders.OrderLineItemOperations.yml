@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.orders.OrderLineItemOperations
+  id: OrderLineItemOperations
+  parent: com.microsoft.store.partnercenter.orders
+  children:
+  - com.microsoft.store.partnercenter.orders.OrderLineItemOperations.getActivationLink()
+  - com.microsoft.store.partnercenter.orders.OrderLineItemOperations.OrderLineItemOperations(IPartner,String,String,int)
+  href: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.yml
+  langs:
+  - java
+  name: OrderLineItemOperations
+  nameWithType: OrderLineItemOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderLineItemOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/orders/OrderLineItemOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderLineItemOperations.java
+    startLine: 16
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Implements the order collection operations. </p>"
+  syntax:
+    content: public class OrderLineItemOperations extends BasePartnerComponent<TripletTuple<String, String, Integer>> implements IOrderLineItem
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.IPartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.getActivationLink()
+  id: getActivationLink()
+  parent: com.microsoft.store.partnercenter.orders.OrderLineItemOperations
+  href: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.yml
+  langs:
+  - java
+  name: getActivationLink()
+  nameWithType: OrderLineItemOperations.getActivationLink()
+  fullName: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.getActivationLink()
+  overload: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.getActivationLink*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderLineItemOperations.java
+    startLine: 48
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Gets the available customer order line item activation link operations.</p>\r\n<p></p>"
+  syntax:
+    content: public IOrderLineItemActivationLink getActivationLink()
+    return:
+      type: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+      description: <p>The available customer order line item activation link operations. </p>
+  overridden: com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()
+- uid: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.OrderLineItemOperations(IPartner,String,String,int)
+  id: OrderLineItemOperations(IPartner,String,String,int)
+  parent: com.microsoft.store.partnercenter.orders.OrderLineItemOperations
+  href: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.yml
+  langs:
+  - java
+  name: OrderLineItemOperations(IPartner rootPartnerOperations, String customerId, String orderId, int lineItemNumber)
+  nameWithType: OrderLineItemOperations.OrderLineItemOperations(IPartner rootPartnerOperations, String customerId, String orderId, int lineItemNumber)
+  fullName: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.OrderLineItemOperations(IPartner rootPartnerOperations, String customerId, String orderId, int lineItemNumber)
+  overload: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.OrderLineItemOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/orders/OrderLineItemOperations.java
+    startLine: 28
+  package: com.microsoft.store.partnercenter.orders
+  summary: "<p>Initializes a new instance of the OrderLineItemOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public OrderLineItemOperations(IPartner rootPartnerOperations, String customerId, String orderId, int lineItemNumber)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+    - id: customerId
+      type: "26831127"
+      description: <p>The customer identifier. </p>
+    - id: orderId
+      type: "26831127"
+      description: <p>The order identifier. </p>
+    - id: lineItemNumber
+      type: f75371fa
+      description: <p>The line item number. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.OrderLineItemOperations*
+  name: OrderLineItemOperations
+  nameWithType: OrderLineItemOperations.OrderLineItemOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.OrderLineItemOperations
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.getActivationLink*
+  name: getActivationLink
+  nameWithType: OrderLineItemOperations.getActivationLink
+  fullName: com.microsoft.store.partnercenter.orders.OrderLineItemOperations.getActivationLink
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent<TContext>
+  nameWithType: BasePartnerComponent<TContext>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. All components should inherit from this class. The context object type. </p>"
+  syntax:
+    content: public class BasePartnerComponent<TContext> implements IPartnerComponent<TContext>
+    typeParameters:
+    - id: TContext
+      type: 473af9dd
+- uid: com.microsoft.store.partnercenter.orders.IOrderLineItem
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderLineItem.yml
+  name: IOrderLineItem
+  nameWithType: IOrderLineItem
+  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItem
+  type: Interface
+  summary: "<p>Represents the available order line item operations. </p>"
+  syntax:
+    content: public interface IOrderLineItem extends IPartnerComponent<TripletTuple<String, String, Integer>>
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink.yml
+  name: IOrderLineItemActivationLink
+  nameWithType: IOrderLineItemActivationLink
+  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+  type: Interface
+  summary: "<p>Represents the customer order line item activation link operations. </p>"
+  syntax:
+    content: public interface IOrderLineItemActivationLink extends IPartnerComponent<TripletTuple<String, String, Integer>>,IEntityGetOperations<ResourceCollection<OrderLineItemActivationLink>>
+- uid: com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()
+  parent: com.microsoft.store.partnercenter.orders.IOrderLineItem
+  href: com.microsoft.store.partnercenter.orders.IOrderLineItem.yml
+  name: getActivationLink()
+  nameWithType: IOrderLineItem.getActivationLink()
+  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()
+  type: Method
+  summary: "<p>Gets the available customer order line item activation link operations.</p>\r\n<p></p>"
+  syntax:
+    content: public IOrderLineItemActivationLink getActivationLink()
+    return:
+      type: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+      description: <p>The available customer order line item activation link operations. </p>

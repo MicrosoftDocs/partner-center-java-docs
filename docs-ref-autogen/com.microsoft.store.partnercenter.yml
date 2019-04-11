@@ -3,18 +3,18 @@ items:
 - uid: com.microsoft.store.partnercenter
   id: partnercenter
   children:
-  - com.microsoft.store.partnercenter._aggregate_partner_operations
-  - com.microsoft.store.partnercenter._authentication_token
-  - com.microsoft.store.partnercenter._base_partner_component
-  - com.microsoft.store.partnercenter._base_partner_component_string
-  - com.microsoft.store.partnercenter._i_aad_login_handler
-  - com.microsoft.store.partnercenter._i_aggregate_partner
-  - com.microsoft.store.partnercenter._i_partner
-  - com.microsoft.store.partnercenter._i_partner_component
-  - com.microsoft.store.partnercenter._i_partner_component_string
-  - com.microsoft.store.partnercenter._i_partner_credentials
-  - com.microsoft.store.partnercenter._partner_operations
-  - com.microsoft.store.partnercenter._partner_service
+  - com.microsoft.store.partnercenter.AggregatePartnerOperations
+  - com.microsoft.store.partnercenter.AuthenticationToken
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  - com.microsoft.store.partnercenter.IAadLoginHandler
+  - com.microsoft.store.partnercenter.IAggregatePartner
+  - com.microsoft.store.partnercenter.IPartner
+  - com.microsoft.store.partnercenter.IPartnerComponent
+  - com.microsoft.store.partnercenter.IPartnerComponentString
+  - com.microsoft.store.partnercenter.IPartnerCredentials
+  - com.microsoft.store.partnercenter.PartnerOperations
+  - com.microsoft.store.partnercenter.PartnerService
   href: com.microsoft.store.partnercenter.yml
   langs:
   - java
@@ -48,6 +48,14 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.store.partnercenter.analytics
+- uid: com.microsoft.store.partnercenter.applicationconsents
+  href: com.microsoft.store.partnercenter.applicationconsents.yml
+  name: com.microsoft.store.partnercenter.applicationconsents
+  nameWithType: com.microsoft.store.partnercenter.applicationconsents
+  fullName: com.microsoft.store.partnercenter.applicationconsents
+  type: Namespace
+  syntax:
+    content: package com.microsoft.store.partnercenter.applicationconsents
 - uid: com.microsoft.store.partnercenter.auditrecords
   href: com.microsoft.store.partnercenter.auditrecords.yml
   name: com.microsoft.store.partnercenter.auditrecords
@@ -288,14 +296,6 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.store.partnercenter.requestcontext
-- uid: com.microsoft.store.partnercenter.retries
-  href: com.microsoft.store.partnercenter.retries.yml
-  name: com.microsoft.store.partnercenter.retries
-  nameWithType: com.microsoft.store.partnercenter.retries
-  fullName: com.microsoft.store.partnercenter.retries
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter.retries
 - uid: com.microsoft.store.partnercenter.serviceincidents
   href: com.microsoft.store.partnercenter.serviceincidents.yml
   name: com.microsoft.store.partnercenter.serviceincidents
@@ -360,129 +360,129 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.store.partnercenter.validations
-- uid: com.microsoft.store.partnercenter._aggregate_partner_operations
+- uid: com.microsoft.store.partnercenter.AggregatePartnerOperations
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._aggregate_partner_operations.yml
+  href: com.microsoft.store.partnercenter.AggregatePartnerOperations.yml
   name: AggregatePartnerOperations
   nameWithType: AggregatePartnerOperations
   fullName: com.microsoft.store.partnercenter.AggregatePartnerOperations
   type: Class
-  summary: <p>Aggregate partner implementation. </p>
+  summary: "<p>Aggregate partner implementation. </p>"
   syntax:
     content: public class AggregatePartnerOperations extends PartnerOperations implements IAggregatePartner
-- uid: com.microsoft.store.partnercenter._authentication_token
+- uid: com.microsoft.store.partnercenter.AuthenticationToken
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._authentication_token.yml
+  href: com.microsoft.store.partnercenter.AuthenticationToken.yml
   name: AuthenticationToken
   nameWithType: AuthenticationToken
   fullName: com.microsoft.store.partnercenter.AuthenticationToken
   type: Class
-  summary: <p>Represents an authentication token for a resource. </p>
+  summary: "<p>Represents an authentication token for a resource. </p>"
   syntax:
     content: public class AuthenticationToken
-- uid: com.microsoft.store.partnercenter._base_partner_component
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._base_partner_component.yml
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
   name: BasePartnerComponent<TContext>
   nameWithType: BasePartnerComponent<TContext>
   fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>
   type: Class
-  summary: <p>Holds common partner component properties and behavior. All components should inherit from this class. The context object type. </p>
+  summary: "<p>Holds common partner component properties and behavior. All components should inherit from this class. The context object type. </p>"
   syntax:
     content: public class BasePartnerComponent<TContext> implements IPartnerComponent<TContext>
     typeParameters:
     - id: TContext
       type: 473af9dd
-- uid: com.microsoft.store.partnercenter._base_partner_component_string
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._base_partner_component_string.yml
+  href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml
   name: BasePartnerComponentString
   nameWithType: BasePartnerComponentString
   fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
   type: Class
-  summary: <p>Holds common partner component properties and behavior. The context is string type by default. </p>
+  summary: "<p>Holds common partner component properties and behavior. The context is string type by default. </p>"
   syntax:
     content: public class BasePartnerComponentString extends BasePartnerComponent<String>
-- uid: com.microsoft.store.partnercenter._i_aad_login_handler
+- uid: com.microsoft.store.partnercenter.IAadLoginHandler
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._i_aad_login_handler.yml
+  href: com.microsoft.store.partnercenter.IAadLoginHandler.yml
   name: IAadLoginHandler
   nameWithType: IAadLoginHandler
   fullName: com.microsoft.store.partnercenter.IAadLoginHandler
   type: Interface
-  summary: <p>Represents the interface for Azure Active Directory Hanlder </p>
+  summary: "<p>Represents the interface for Azure Active Directory Hanlder </p>"
   syntax:
     content: public interface IAadLoginHandler
-- uid: com.microsoft.store.partnercenter._i_aggregate_partner
+- uid: com.microsoft.store.partnercenter.IAggregatePartner
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._i_aggregate_partner.yml
+  href: com.microsoft.store.partnercenter.IAggregatePartner.yml
   name: IAggregatePartner
   nameWithType: IAggregatePartner
   fullName: com.microsoft.store.partnercenter.IAggregatePartner
   type: Interface
-  summary: <p>A partner operations interface which can be used to generate scoped partner operations that use a specific partner context. </p>
+  summary: "<p>A partner operations interface which can be used to generate scoped partner operations that use a specific partner context. </p>"
   syntax:
     content: public interface IAggregatePartner extends IPartner
-- uid: com.microsoft.store.partnercenter._i_partner
+- uid: com.microsoft.store.partnercenter.IPartner
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._i_partner.yml
+  href: com.microsoft.store.partnercenter.IPartner.yml
   name: IPartner
   nameWithType: IPartner
   fullName: com.microsoft.store.partnercenter.IPartner
   type: Interface
-  summary: <p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
   syntax:
     content: public interface IPartner
-- uid: com.microsoft.store.partnercenter._i_partner_component
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._i_partner_component.yml
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
   name: IPartnerComponent<TContext>
   nameWithType: IPartnerComponent<TContext>
   fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>
   type: Interface
-  summary: <p>Represents a partner SDK component. The type of the component's context object. </p>
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
   syntax:
     content: public interface IPartnerComponent<TContext>
     typeParameters:
     - id: TContext
       type: 473af9dd
-- uid: com.microsoft.store.partnercenter._i_partner_component_string
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._i_partner_component_string.yml
+  href: com.microsoft.store.partnercenter.IPartnerComponentString.yml
   name: IPartnerComponentString
   nameWithType: IPartnerComponentString
   fullName: com.microsoft.store.partnercenter.IPartnerComponentString
   type: Interface
-  summary: <p>Represents a partner SDK component. The type of the component's context object. </p>
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
   syntax:
     content: public interface IPartnerComponentString extends IPartnerComponent<String>
-- uid: com.microsoft.store.partnercenter._i_partner_credentials
+- uid: com.microsoft.store.partnercenter.IPartnerCredentials
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._i_partner_credentials.yml
+  href: com.microsoft.store.partnercenter.IPartnerCredentials.yml
   name: IPartnerCredentials
   nameWithType: IPartnerCredentials
   fullName: com.microsoft.store.partnercenter.IPartnerCredentials
   type: Interface
-  summary: <p>The credentials needed to access the partner service. </p>
+  summary: "<p>The credentials needed to access the partner service. </p>"
   syntax:
     content: public interface IPartnerCredentials
-- uid: com.microsoft.store.partnercenter._partner_operations
+- uid: com.microsoft.store.partnercenter.PartnerOperations
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._partner_operations.yml
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
   name: PartnerOperations
   nameWithType: PartnerOperations
   fullName: com.microsoft.store.partnercenter.PartnerOperations
   type: Class
-  summary: <p>The partner implementation class. </p>
+  summary: "<p>The partner implementation class. </p>"
   syntax:
     content: public class PartnerOperations implements IPartner
-- uid: com.microsoft.store.partnercenter._partner_service
+- uid: com.microsoft.store.partnercenter.PartnerService
   parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter._partner_service.yml
+  href: com.microsoft.store.partnercenter.PartnerService.yml
   name: PartnerService
   nameWithType: PartnerService
   fullName: com.microsoft.store.partnercenter.PartnerService
   type: Class
-  summary: <p>This class contains the partner SDK properties and acts as the main entry point to create partners. </p>
+  summary: "<p>This class contains the partner SDK properties and acts as the main entry point to create partners. </p>"
   syntax:
     content: public class PartnerService

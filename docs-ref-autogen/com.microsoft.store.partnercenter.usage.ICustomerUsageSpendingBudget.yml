@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+  id: ICustomerUsageSpendingBudget
+  parent: com.microsoft.store.partnercenter.usage
+  children:
+  - com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()
+  - com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(SpendingBudget)
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.yml
+  langs:
+  - java
+  name: ICustomerUsageSpendingBudget
+  nameWithType: ICustomerUsageSpendingBudget
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/usage/ICustomerUsageSpendingBudget.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/usage/ICustomerUsageSpendingBudget.java
+    startLine: 16
+  package: com.microsoft.store.partnercenter.usage
+  summary: "<p>This interface defines the operations available on a customer's usage spending budget. </p>"
+  syntax:
+    content: public interface ICustomerUsageSpendingBudget extends IPartnerComponentString,IEntityGetOperations<SpendingBudget>,IEntityPatchOperations<SpendingBudget>
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: ICustomerUsageSpendingBudget.get()
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()
+  overload: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/usage/ICustomerUsageSpendingBudget.java
+    startLine: 24
+  package: com.microsoft.store.partnercenter.usage
+  summary: "<p>Retrieves the customer's usage spending budget. </p>"
+  syntax:
+    content: public SpendingBudget get()
+    return:
+      type: com.microsoft.store.partnercenter.models.usage.SpendingBudget
+      description: <p>The customer's usage spending budget. </p>
+  overridden: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(SpendingBudget)
+  id: patch(SpendingBudget)
+  parent: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.yml
+  langs:
+  - java
+  name: patch(SpendingBudget spendingBudget)
+  nameWithType: ICustomerUsageSpendingBudget.patch(SpendingBudget spendingBudget)
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(SpendingBudget spendingBudget)
+  overload: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/usage/ICustomerUsageSpendingBudget.java
+    startLine: 33
+  package: com.microsoft.store.partnercenter.usage
+  summary: "<p>Patches the customer's usage spending budget.</p>\r\n<p></p>"
+  syntax:
+    content: public SpendingBudget patch(SpendingBudget spendingBudget)
+    parameters:
+    - id: spendingBudget
+      type: com.microsoft.store.partnercenter.models.usage.SpendingBudget
+      description: <p>The new customer's usage spending budget.</p>
+    return:
+      type: com.microsoft.store.partnercenter.models.usage.SpendingBudget
+      description: <p>The updated customer's usage spending budget. </p>
+references:
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get*
+  name: get
+  nameWithType: ICustomerUsageSpendingBudget.get
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get
+  package: com.microsoft.store.partnercenter.usage
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch*
+  name: patch
+  nameWithType: ICustomerUsageSpendingBudget.patch
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch
+  package: com.microsoft.store.partnercenter.usage
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.yml
+  name: patch(T entity)
+  nameWithType: IEntityPatchOperations<T>.patch(T entity)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T extends ResourceBase>.patch(T entity)
+  type: Method
+  summary: "<p>Patches an entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T patch(T entity)
+    parameters:
+    - id: entity
+      type: 8ce1ecb9
+      description: <p>The entity information. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>The updated entity. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponentString.yml
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+  type: Interface
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.yml
+  name: IEntityGetOperations<T>
+  nameWithType: IEntityGetOperations<T>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>
+  type: Interface
+  summary: "<p>Groups operations for getting a single entity. The entity type. </p>"
+  syntax:
+    content: public interface IEntityGetOperations<T>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.yml
+  name: IEntityPatchOperations<T>
+  nameWithType: IEntityPatchOperations<T>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>
+  type: Interface
+  summary: "<p>Groups operations for getting a single entity. The entity type. </p>"
+  syntax:
+    content: public interface IEntityPatchOperations<T extends ResourceBase>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+- uid: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.yml
+  name: CustomerUsageSpendingBudgetOperations
+  nameWithType: CustomerUsageSpendingBudgetOperations
+  fullName: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations
+  type: Class
+  summary: "<p>This class implements the operations available on a customer's usage spending budget. </p>"
+  syntax:
+    content: public class CustomerUsageSpendingBudgetOperations extends BasePartnerComponentString implements ICustomerUsageSpendingBudget
+- uid: com.microsoft.store.partnercenter.models.usage.SpendingBudget
+  parent: com.microsoft.store.partnercenter.models.usage
+  href: com.microsoft.store.partnercenter.models.usage.SpendingBudget.yml
+  name: SpendingBudget
+  nameWithType: SpendingBudget
+  fullName: com.microsoft.store.partnercenter.models.usage.SpendingBudget
+  type: Class
+  summary: "<p>The spending budget allocated to the customer by the partner. </p>"
+  syntax:
+    content: public class SpendingBudget
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.yml
+  name: get()
+  nameWithType: IEntityGetOperations<T>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>.get()
+  type: Method
+  summary: "<p>Retrieves an entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T get()
+    return:
+      type: 8ce1ecb9
+      description: <p>The entity. </p>
+- uid: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.get()
+  parent: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations
+  href: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.yml
+  name: get()
+  nameWithType: CustomerUsageSpendingBudgetOperations.get()
+  fullName: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.get()
+  type: Method
+  summary: "<p>Gets the usage spending budget allocated to a customer by the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public SpendingBudget get()
+    return:
+      type: com.microsoft.store.partnercenter.models.usage.SpendingBudget
+      description: <p>The customer usage spending budget. </p>
+- uid: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.patch(SpendingBudget)
+  parent: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations
+  href: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.yml
+  name: patch(SpendingBudget usageSpendingBudget)
+  nameWithType: CustomerUsageSpendingBudgetOperations.patch(SpendingBudget usageSpendingBudget)
+  fullName: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.patch(SpendingBudget usageSpendingBudget)
+  type: Method
+  summary: "<p>Patches the usage spending budget allocated to a customer by the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public SpendingBudget patch(SpendingBudget usageSpendingBudget)
+    parameters:
+    - id: usageSpendingBudget
+      type: com.microsoft.store.partnercenter.models.usage.SpendingBudget
+      description: <p>The new customer usage spending budget. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.usage.SpendingBudget
+      description: <p>The updated customer usage spending budget. </p>

@@ -3,12 +3,12 @@ items:
 - uid: com.microsoft.store.partnercenter.models.analytics
   id: analytics
   children:
-  - com.microsoft.store.partnercenter.models.analytics._customer_licenses_deployment_insights
-  - com.microsoft.store.partnercenter.models.analytics._customer_licenses_insights_base
-  - com.microsoft.store.partnercenter.models.analytics._customer_licenses_usage_insights
-  - com.microsoft.store.partnercenter.models.analytics._licenses_insights_base
-  - com.microsoft.store.partnercenter.models.analytics._partner_licenses_deployment_insights
-  - com.microsoft.store.partnercenter.models.analytics._partner_licenses_usage_insights
+  - com.microsoft.store.partnercenter.models.analytics.CustomerLicensesDeploymentInsights
+  - com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase
+  - com.microsoft.store.partnercenter.models.analytics.CustomerLicensesUsageInsights
+  - com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase
+  - com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights
+  - com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
   href: com.microsoft.store.partnercenter.models.analytics.yml
   langs:
   - java
@@ -26,63 +26,63 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.analytics
 references:
-- uid: com.microsoft.store.partnercenter.models.analytics._customer_licenses_deployment_insights
+- uid: com.microsoft.store.partnercenter.models.analytics.CustomerLicensesDeploymentInsights
   parent: com.microsoft.store.partnercenter.models.analytics
-  href: com.microsoft.store.partnercenter.models.analytics._customer_licenses_deployment_insights.yml
+  href: com.microsoft.store.partnercenter.models.analytics.CustomerLicensesDeploymentInsights.yml
   name: CustomerLicensesDeploymentInsights
   nameWithType: CustomerLicensesDeploymentInsights
   fullName: com.microsoft.store.partnercenter.models.analytics.CustomerLicensesDeploymentInsights
   type: Class
-  summary: <p>Holds analytics information about deployment of licenses at the customer level. </p>
+  summary: "<p>Holds analytics information about deployment of licenses at the customer level. </p>"
   syntax:
     content: public class CustomerLicensesDeploymentInsights extends CustomerLicensesInsightsBase
-- uid: com.microsoft.store.partnercenter.models.analytics._customer_licenses_insights_base
+- uid: com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase
   parent: com.microsoft.store.partnercenter.models.analytics
-  href: com.microsoft.store.partnercenter.models.analytics._customer_licenses_insights_base.yml
+  href: com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.yml
   name: CustomerLicensesInsightsBase
   nameWithType: CustomerLicensesInsightsBase
   fullName: com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase
   type: Class
-  summary: <p>Class that represents the currency related information. </p>
+  summary: "<p>Class that represents the currency related information. </p>"
   syntax:
     content: public class CustomerLicensesInsightsBase
-- uid: com.microsoft.store.partnercenter.models.analytics._customer_licenses_usage_insights
+- uid: com.microsoft.store.partnercenter.models.analytics.CustomerLicensesUsageInsights
   parent: com.microsoft.store.partnercenter.models.analytics
-  href: com.microsoft.store.partnercenter.models.analytics._customer_licenses_usage_insights.yml
+  href: com.microsoft.store.partnercenter.models.analytics.CustomerLicensesUsageInsights.yml
   name: CustomerLicensesUsageInsights
   nameWithType: CustomerLicensesUsageInsights
   fullName: com.microsoft.store.partnercenter.models.analytics.CustomerLicensesUsageInsights
   type: Class
-  summary: <p>SDK business object model for Insights of license usage at customer level. </p>
+  summary: "<p>SDK business object model for Insights of license usage at customer level. </p>"
   syntax:
     content: public class CustomerLicensesUsageInsights
-- uid: com.microsoft.store.partnercenter.models.analytics._licenses_insights_base
+- uid: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase
   parent: com.microsoft.store.partnercenter.models.analytics
-  href: com.microsoft.store.partnercenter.models.analytics._licenses_insights_base.yml
+  href: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.yml
   name: LicensesInsightsBase
   nameWithType: LicensesInsightsBase
   fullName: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase
   type: Class
-  summary: <p>Encapsulation of common properties of all licenses' insights. </p>
+  summary: "<p>Encapsulation of common properties of all licenses' insights. </p>"
   syntax:
     content: public class LicensesInsightsBase extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.analytics._partner_licenses_deployment_insights
+- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights
   parent: com.microsoft.store.partnercenter.models.analytics
-  href: com.microsoft.store.partnercenter.models.analytics._partner_licenses_deployment_insights.yml
+  href: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.yml
   name: PartnerLicensesDeploymentInsights
   nameWithType: PartnerLicensesDeploymentInsights
   fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights
   type: Class
-  summary: <p>Holds the analytics information about the deployment of all customers' licenses of the given partner. </p>
+  summary: "<p>Holds the analytics information about the deployment of all customers' licenses of the given partner. </p>"
   syntax:
     content: public class PartnerLicensesDeploymentInsights extends LicensesInsightsBase
-- uid: com.microsoft.store.partnercenter.models.analytics._partner_licenses_usage_insights
+- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
   parent: com.microsoft.store.partnercenter.models.analytics
-  href: com.microsoft.store.partnercenter.models.analytics._partner_licenses_usage_insights.yml
+  href: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.yml
   name: PartnerLicensesUsageInsights
   nameWithType: PartnerLicensesUsageInsights
   fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
   type: Class
-  summary: <p>Holds the analytics information about the usage of all the customers' licenses of the given partner. </p>
+  summary: "<p>Holds the analytics information about the usage of all the customers' licenses of the given partner. </p>"
   syntax:
     content: public class PartnerLicensesUsageInsights extends LicensesInsightsBase

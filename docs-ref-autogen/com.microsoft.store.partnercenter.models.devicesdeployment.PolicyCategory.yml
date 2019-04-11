@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory
+  id: PolicyCategory
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment
+  children:
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.NONE
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.OOBE
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.PolicyCategory(String)
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.toString()
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.yml
+  langs:
+  - java
+  name: PolicyCategory
+  nameWithType: PolicyCategory
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicyCategory.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicyCategory.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Represents the policy type that can be assigned to a device. </p>"
+  syntax:
+    content: public enum PolicyCategory
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<PolicyCategory>
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.NONE
+  id: NONE
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.yml
+  langs:
+  - java
+  name: NONE
+  nameWithType: PolicyCategory.NONE
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.NONE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicyCategory.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Default settings for the policy. </p>"
+  syntax:
+    content: public NONE=("none")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.OOBE
+  id: OOBE
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.yml
+  langs:
+  - java
+  name: OOBE
+  nameWithType: PolicyCategory.OOBE
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.OOBE
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicyCategory.java
+    startLine: 24
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>OOBE - Out of box experience policy setting. </p>"
+  syntax:
+    content: public OOBE=("o_o_b_e")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.PolicyCategory(String)
+  id: PolicyCategory(String)
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.yml
+  langs:
+  - java
+  name: PolicyCategory(String value)
+  nameWithType: PolicyCategory.PolicyCategory(String value)
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.PolicyCategory(String value)
+  overload: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.PolicyCategory*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicyCategory.java
+    startLine: 28
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  syntax:
+    content: public PolicyCategory(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: PolicyCategory.toString()
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.toString()
+  overload: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/PolicyCategory.java
+    startLine: 40
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.PolicyCategory*
+  name: PolicyCategory
+  nameWithType: PolicyCategory.PolicyCategory
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.PolicyCategory
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.toString*
+  name: toString
+  nameWithType: PolicyCategory.toString
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.toString
+  package: com.microsoft.store.partnercenter.models.devicesdeployment

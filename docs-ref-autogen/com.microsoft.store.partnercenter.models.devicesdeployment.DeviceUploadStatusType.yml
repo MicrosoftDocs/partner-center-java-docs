@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType
+  id: DeviceUploadStatusType
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment
+  children:
+  - com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.DeviceUploadStatusType(String)
+  - com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.FINISHED
+  - com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.FINISHED_WITH_ERRORS
+  - com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.PROCESSING
+  - com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.QUEUED
+  - com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString()
+  - com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.UNKNOWN
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.yml
+  langs:
+  - java
+  name: DeviceUploadStatusType
+  nameWithType: DeviceUploadStatusType
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/DeviceUploadStatusType.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/DeviceUploadStatusType.java
+    startLine: 13
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Devices Batch upload status. </p>"
+  syntax:
+    content: public enum DeviceUploadStatusType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<DeviceUploadStatusType>
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.DeviceUploadStatusType(String)
+  id: DeviceUploadStatusType(String)
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.yml
+  langs:
+  - java
+  name: DeviceUploadStatusType(String value)
+  nameWithType: DeviceUploadStatusType.DeviceUploadStatusType(String value)
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.DeviceUploadStatusType(String value)
+  overload: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.DeviceUploadStatusType*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/DeviceUploadStatusType.java
+    startLine: 42
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  syntax:
+    content: public DeviceUploadStatusType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.FINISHED
+  id: FINISHED
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.yml
+  langs:
+  - java
+  name: FINISHED
+  nameWithType: DeviceUploadStatusType.FINISHED
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.FINISHED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/DeviceUploadStatusType.java
+    startLine: 33
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Batch is complete. </p>"
+  syntax:
+    content: public FINISHED=("finished")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.FINISHED_WITH_ERRORS
+  id: FINISHED_WITH_ERRORS
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.yml
+  langs:
+  - java
+  name: FINISHED_WITH_ERRORS
+  nameWithType: DeviceUploadStatusType.FINISHED_WITH_ERRORS
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.FINISHED_WITH_ERRORS
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/DeviceUploadStatusType.java
+    startLine: 38
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Batch is complete with an error. </p>"
+  syntax:
+    content: public FINISHED_WITH_ERRORS=("finished_with_errors")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.PROCESSING
+  id: PROCESSING
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.yml
+  langs:
+  - java
+  name: PROCESSING
+  nameWithType: DeviceUploadStatusType.PROCESSING
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.PROCESSING
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/DeviceUploadStatusType.java
+    startLine: 28
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Batch is processing. </p>"
+  syntax:
+    content: public PROCESSING=("processing")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.QUEUED
+  id: QUEUED
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.yml
+  langs:
+  - java
+  name: QUEUED
+  nameWithType: DeviceUploadStatusType.QUEUED
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.QUEUED
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/DeviceUploadStatusType.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Batch is queued. </p>"
+  syntax:
+    content: public QUEUED=("queued")
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString()
+  id: toString()
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.yml
+  langs:
+  - java
+  name: toString()
+  nameWithType: DeviceUploadStatusType.toString()
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString()
+  overload: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/DeviceUploadStatusType.java
+    startLine: 54
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+      description: <p>A string that represents this object. </p>
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.UNKNOWN
+  id: UNKNOWN
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType
+  href: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.yml
+  langs:
+  - java
+  name: UNKNOWN
+  nameWithType: DeviceUploadStatusType.UNKNOWN
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.UNKNOWN
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/DeviceUploadStatusType.java
+    startLine: 18
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: "<p>Should never happen. </p>"
+  syntax:
+    content: public UNKNOWN=("unknown")
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.DeviceUploadStatusType*
+  name: DeviceUploadStatusType
+  nameWithType: DeviceUploadStatusType.DeviceUploadStatusType
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.DeviceUploadStatusType
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString*
+  name: toString
+  nameWithType: DeviceUploadStatusType.toString
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString
+  package: com.microsoft.store.partnercenter.models.devicesdeployment

@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.store.partnercenter.customers
   id: customers
   children:
-  - com.microsoft.store.partnercenter.customers._customer_collection_operations
-  - com.microsoft.store.partnercenter.customers._customer_operations
-  - com.microsoft.store.partnercenter.customers._i_customer
-  - com.microsoft.store.partnercenter.customers._i_customer_collection
+  - com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
+  - com.microsoft.store.partnercenter.customers.CustomerOperations
+  - com.microsoft.store.partnercenter.customers.ICustomer
+  - com.microsoft.store.partnercenter.customers.ICustomerCollection
   href: com.microsoft.store.partnercenter.customers.yml
   langs:
   - java
@@ -48,43 +48,43 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.store.partnercenter.customers.servicecosts
-- uid: com.microsoft.store.partnercenter.customers._customer_collection_operations
+- uid: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
   parent: com.microsoft.store.partnercenter.customers
-  href: com.microsoft.store.partnercenter.customers._customer_collection_operations.yml
+  href: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.yml
   name: CustomerCollectionOperations
   nameWithType: CustomerCollectionOperations
   fullName: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
   type: Class
-  summary: <p>The partner customers implementation. </p>
+  summary: "<p>The partner customers implementation. </p>"
   syntax:
     content: public class CustomerCollectionOperations extends BasePartnerComponentString implements ICustomerCollection
-- uid: com.microsoft.store.partnercenter.customers._customer_operations
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations
   parent: com.microsoft.store.partnercenter.customers
-  href: com.microsoft.store.partnercenter.customers._customer_operations.yml
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
   name: CustomerOperations
   nameWithType: CustomerOperations
   fullName: com.microsoft.store.partnercenter.customers.CustomerOperations
   type: Class
-  summary: <p>Implements a single customer operations. </p>
+  summary: "<p>Implements a single customer operations. </p>"
   syntax:
     content: public class CustomerOperations extends BasePartnerComponentString implements ICustomer
-- uid: com.microsoft.store.partnercenter.customers._i_customer
+- uid: com.microsoft.store.partnercenter.customers.ICustomer
   parent: com.microsoft.store.partnercenter.customers
-  href: com.microsoft.store.partnercenter.customers._i_customer.yml
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
   name: ICustomer
   nameWithType: ICustomer
   fullName: com.microsoft.store.partnercenter.customers.ICustomer
   type: Interface
-  summary: <p>Groups operations that can be performed on a single partner customer. </p>
+  summary: "<p>Groups operations that can be performed on a single partner customer. </p>"
   syntax:
     content: public interface ICustomer extends IPartnerComponentString,IEntityGetOperations<Customer>,IEntityDeleteOperations<Customer>
-- uid: com.microsoft.store.partnercenter.customers._i_customer_collection
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection
   parent: com.microsoft.store.partnercenter.customers
-  href: com.microsoft.store.partnercenter.customers._i_customer_collection.yml
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
   name: ICustomerCollection
   nameWithType: ICustomerCollection
   fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection
   type: Interface
-  summary: <p>Represents the behavior of the partner customers. </p>
+  summary: "<p>Represents the behavior of the partner customers. </p>"
   syntax:
     content: public interface ICustomerCollection extends IPartnerComponentString,IEntityCreateOperations<Customer, Customer>,IEntireEntityCollectionRetrievalOperations<Customer, SeekBasedResourceCollection<Customer>>

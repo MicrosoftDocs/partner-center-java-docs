@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.store.partnercenter.auditrecords
   id: auditrecords
   children:
-  - com.microsoft.store.partnercenter.auditrecords._audit_records_collection
-  - com.microsoft.store.partnercenter.auditrecords._i_audit_records_collection
+  - com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection
+  - com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
   href: com.microsoft.store.partnercenter.auditrecords.yml
   langs:
   - java
@@ -22,30 +22,23 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.auditrecords
 references:
-- uid: com.microsoft.store.partnercenter.auditrecords._audit_records_collection
+- uid: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection
   parent: com.microsoft.store.partnercenter.auditrecords
-  href: com.microsoft.store.partnercenter.auditrecords._audit_records_collection.yml
+  href: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.yml
   name: AuditRecordsCollection
   nameWithType: AuditRecordsCollection
   fullName: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection
   type: Class
-  summary: >-
-    <p>An Implementation of<code>IAuditRecordsCollection 
-
-        </code> for handling common partner component properties and behavior.</p>
-
-    <p>See parent class<code>BasePartnerComponentString 
-
-        </code> for additional details. </p>
+  summary: "<p>An Implementation of<code>IAuditRecordsCollection \r\n    </code> for handling common partner component properties and behavior.</p>\r\n<p>See parent class<code>BasePartnerComponentString \r\n    </code> for additional details. </p>"
   syntax:
     content: public class AuditRecordsCollection extends BasePartnerComponentString implements IAuditRecordsCollection
-- uid: com.microsoft.store.partnercenter.auditrecords._i_audit_records_collection
+- uid: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
   parent: com.microsoft.store.partnercenter.auditrecords
-  href: com.microsoft.store.partnercenter.auditrecords._i_audit_records_collection.yml
+  href: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection.yml
   name: IAuditRecordsCollection
   nameWithType: IAuditRecordsCollection
   fullName: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
   type: Interface
-  summary: <p>Represents the operations that can be done on partners audit collection. </p>
+  summary: "<p>Represents the operations that can be done on partners audit collection. </p>"
   syntax:
     content: public interface IAuditRecordsCollection extends IPartnerComponentString

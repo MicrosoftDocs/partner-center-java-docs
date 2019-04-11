@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.store.partnercenter.network
   id: network
   children:
-  - com.microsoft.store.partnercenter.network._http_status_code
-  - com.microsoft.store.partnercenter.network._i_partner_service_proxy
-  - com.microsoft.store.partnercenter.network._partner_service_proxy
-  - com.microsoft.store.partnercenter.network._retryable_http_call
+  - com.microsoft.store.partnercenter.network.HttpStatusCode
+  - com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  - com.microsoft.store.partnercenter.network.PartnerServiceClient
+  - com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
   href: com.microsoft.store.partnercenter.network.yml
   langs:
   - java
@@ -24,52 +24,40 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.network
 references:
-- uid: com.microsoft.store.partnercenter.network._http_status_code
+- uid: com.microsoft.store.partnercenter.network.HttpStatusCode
   parent: com.microsoft.store.partnercenter.network
-  href: com.microsoft.store.partnercenter.network._http_status_code.yml
+  href: com.microsoft.store.partnercenter.network.HttpStatusCode.yml
   name: HttpStatusCode
   nameWithType: HttpStatusCode
   fullName: com.microsoft.store.partnercenter.network.HttpStatusCode
   type: Class
   syntax:
     content: public class HttpStatusCode
-- uid: com.microsoft.store.partnercenter.network._i_partner_service_proxy
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient
   parent: com.microsoft.store.partnercenter.network
-  href: com.microsoft.store.partnercenter.network._i_partner_service_proxy.yml
-  name: IPartnerServiceProxy<TRequest,TResponse>
-  nameWithType: IPartnerServiceProxy<TRequest,TResponse>
-  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceProxy<TRequest,TResponse>
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  name: IPartnerServiceClient
+  nameWithType: IPartnerServiceClient
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient
   type: Interface
-  summary: <p>This interface acts as a mediator between the SDK and the partner API service. It automatically adds customer HTTP headers and allows configuring them before executing the requests. It also handles responses in a standard manner. The type of content that will be passed to the partner service API.The type of response produced from the partner service API. </p>
   syntax:
-    content: public interface IPartnerServiceProxy<TRequest,TResponse> extends IPartnerComponentString
-    typeParameters:
-    - id: TRequest
-      type: f54aec72
-    - id: TResponse
-      type: 01bfb3bf
-- uid: com.microsoft.store.partnercenter.network._partner_service_proxy
+    content: public interface IPartnerServiceClient
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient
   parent: com.microsoft.store.partnercenter.network
-  href: com.microsoft.store.partnercenter.network._partner_service_proxy.yml
-  name: PartnerServiceProxy<TRequest,TResponse>
-  nameWithType: PartnerServiceProxy<TRequest,TResponse>
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceProxy<TRequest,TResponse>
+  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
+  name: PartnerServiceClient
+  nameWithType: PartnerServiceClient
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient
   type: Class
-  summary: <p>An implementation of the partner service proxy which automatically serializes request content into JSON payload and deserializes the response from JSON into the given response type. The type of content that will be passed to the partner service API.The type of response produced from the partner service API. </p>
   syntax:
-    content: public class PartnerServiceProxy<TRequest,TResponse> extends BasePartnerComponentString implements IPartnerServiceProxy<TRequest, TResponse>
-    typeParameters:
-    - id: TRequest
-      type: f54aec72
-    - id: TResponse
-      type: 01bfb3bf
-- uid: com.microsoft.store.partnercenter.network._retryable_http_call
+    content: public class PartnerServiceClient implements IPartnerServiceClient
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
   parent: com.microsoft.store.partnercenter.network
-  href: com.microsoft.store.partnercenter.network._retryable_http_call.yml
-  name: RetryableHttpCall
-  nameWithType: RetryableHttpCall
-  fullName: com.microsoft.store.partnercenter.network.RetryableHttpCall
+  href: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.yml
+  name: PartnerServiceRetryStrategy
+  nameWithType: PartnerServiceRetryStrategy
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
   type: Class
-  summary: <p>Implements retryable HTTP calls. Use this class with the retry policy you need to implement HTTP call retries. </p>
+  summary: "<p>Represents a retry strategy that determines the number of retry attempts and the interval between retries. </p>"
   syntax:
-    content: public class RetryableHttpCall implements IRetryableOperation<CloseableHttpResponse>
+    content: public class PartnerServiceRetryStrategy

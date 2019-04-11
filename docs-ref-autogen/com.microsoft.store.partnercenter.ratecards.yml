@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.store.partnercenter.ratecards
   id: ratecards
   children:
-  - com.microsoft.store.partnercenter.ratecards._azure_rate_card_operations
-  - com.microsoft.store.partnercenter.ratecards._i_azure_rate_card
-  - com.microsoft.store.partnercenter.ratecards._i_rate_card_collection
-  - com.microsoft.store.partnercenter.ratecards._rate_card_collection_operations
+  - com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations
+  - com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+  - com.microsoft.store.partnercenter.ratecards.IRateCardCollection
+  - com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations
   href: com.microsoft.store.partnercenter.ratecards.yml
   langs:
   - java
@@ -24,38 +24,38 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.ratecards
 references:
-- uid: com.microsoft.store.partnercenter.ratecards._azure_rate_card_operations
+- uid: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations
   parent: com.microsoft.store.partnercenter.ratecards
-  href: com.microsoft.store.partnercenter.ratecards._azure_rate_card_operations.yml
+  href: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.yml
   name: AzureRateCardOperations
   nameWithType: AzureRateCardOperations
   fullName: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations
   type: Class
   syntax:
     content: public class AzureRateCardOperations extends BasePartnerComponentString implements IAzureRateCard
-- uid: com.microsoft.store.partnercenter.ratecards._i_azure_rate_card
+- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
   parent: com.microsoft.store.partnercenter.ratecards
-  href: com.microsoft.store.partnercenter.ratecards._i_azure_rate_card.yml
+  href: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.yml
   name: IAzureRateCard
   nameWithType: IAzureRateCard
   fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
   type: Interface
-  summary: <p>Holds operations that apply to Azure rate card. </p>
+  summary: "<p>Holds operations that apply to Azure rate card. </p>"
   syntax:
     content: public interface IAzureRateCard extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.ratecards._i_rate_card_collection
+- uid: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
   parent: com.microsoft.store.partnercenter.ratecards
-  href: com.microsoft.store.partnercenter.ratecards._i_rate_card_collection.yml
+  href: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.yml
   name: IRateCardCollection
   nameWithType: IRateCardCollection
   fullName: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
   type: Interface
-  summary: <p>Holds operations that apply to rate cards. </p>
+  summary: "<p>Holds operations that apply to rate cards. </p>"
   syntax:
     content: public interface IRateCardCollection extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.ratecards._rate_card_collection_operations
+- uid: com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations
   parent: com.microsoft.store.partnercenter.ratecards
-  href: com.microsoft.store.partnercenter.ratecards._rate_card_collection_operations.yml
+  href: com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.yml
   name: RateCardCollectionOperations
   nameWithType: RateCardCollectionOperations
   fullName: com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations

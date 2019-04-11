@@ -3,20 +3,36 @@ items:
 - uid: com.microsoft.store.partnercenter.invoices
   id: invoices
   children:
-  - com.microsoft.store.partnercenter.invoices._i_invoice
-  - com.microsoft.store.partnercenter.invoices._i_invoice_collection
-  - com.microsoft.store.partnercenter.invoices._i_invoice_documents
-  - com.microsoft.store.partnercenter.invoices._i_invoice_line_item_collection
-  - com.microsoft.store.partnercenter.invoices._i_invoice_statement
-  - com.microsoft.store.partnercenter.invoices._i_invoice_summary
-  - com.microsoft.store.partnercenter.invoices._i_invoice_summary_collection
-  - com.microsoft.store.partnercenter.invoices._invoice_collection
-  - com.microsoft.store.partnercenter.invoices._invoice_documents_operations
-  - com.microsoft.store.partnercenter.invoices._invoice_line_item_collection_operations
-  - com.microsoft.store.partnercenter.invoices._invoice_operations
-  - com.microsoft.store.partnercenter.invoices._invoice_statement_operations
-  - com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations
-  - com.microsoft.store.partnercenter.invoices._invoice_summary_operations
+  - com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations
+  - com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations
+  - com.microsoft.store.partnercenter.invoices.EstimateLinkOperations
+  - com.microsoft.store.partnercenter.invoices.IEstimateCollection
+  - com.microsoft.store.partnercenter.invoices.IEstimateLink
+  - com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency
+  - com.microsoft.store.partnercenter.invoices.IInvoice
+  - com.microsoft.store.partnercenter.invoices.IInvoiceCollection
+  - com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
+  - com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
+  - com.microsoft.store.partnercenter.invoices.IInvoiceStatement
+  - com.microsoft.store.partnercenter.invoices.IInvoiceSummary
+  - com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
+  - com.microsoft.store.partnercenter.invoices.InvoiceCollection
+  - com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations
+  - com.microsoft.store.partnercenter.invoices.InvoiceLineItemCollectionOperations
+  - com.microsoft.store.partnercenter.invoices.InvoiceOperations
+  - com.microsoft.store.partnercenter.invoices.InvoiceStatementOperations
+  - com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
+  - com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations
+  - com.microsoft.store.partnercenter.invoices.IReceipt
+  - com.microsoft.store.partnercenter.invoices.IReceiptCollection
+  - com.microsoft.store.partnercenter.invoices.IReceiptDocuments
+  - com.microsoft.store.partnercenter.invoices.IReceiptStatement
+  - com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  - com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations
+  - com.microsoft.store.partnercenter.invoices.ReceiptDocumentsOperations
+  - com.microsoft.store.partnercenter.invoices.ReceiptOperations
+  - com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations
+  - com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
   href: com.microsoft.store.partnercenter.invoices.yml
   langs:
   - java
@@ -26,144 +42,300 @@ items:
   type: Namespace
   source:
     remote:
-      path: src/main/java/com/microsoft/store/partnercenter/invoices/IInvoice.java
+      path: src/main/java/com/microsoft/store/partnercenter/invoices/EstimateCollectionOperations.java
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/invoices/IInvoice.java
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/EstimateCollectionOperations.java
     startLine: 6
   syntax:
     content: package com.microsoft.store.partnercenter.invoices
 references:
-- uid: com.microsoft.store.partnercenter.invoices._i_invoice
+- uid: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._i_invoice.yml
+  href: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.yml
+  name: EstimateCollectionOperations
+  nameWithType: EstimateCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations
+  type: Class
+  summary: "<p>Defines the operations available for estimate collection. </p>"
+  syntax:
+    content: public class EstimateCollectionOperations extends BasePartnerComponentString implements IEstimateCollection
+- uid: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.yml
+  name: EstimateLinkCollectionByCurrencyOperations
+  nameWithType: EstimateLinkCollectionByCurrencyOperations
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations
+  type: Class
+  summary: "<p>Represents the operations available on an estimate link collection by currency. </p>"
+  syntax:
+    content: public class EstimateLinkCollectionByCurrencyOperations extends BasePartnerComponentString implements IEstimateLinkCollectionByCurrency
+- uid: com.microsoft.store.partnercenter.invoices.EstimateLinkOperations
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.EstimateLinkOperations.yml
+  name: EstimateLinkOperations
+  nameWithType: EstimateLinkOperations
+  fullName: com.microsoft.store.partnercenter.invoices.EstimateLinkOperations
+  type: Class
+  summary: "<p>Represents the operations that can be done on the partner's estimate collection. </p>"
+  syntax:
+    content: public class EstimateLinkOperations extends BasePartnerComponentString implements IEstimateLink
+- uid: com.microsoft.store.partnercenter.invoices.IEstimateCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IEstimateCollection.yml
+  name: IEstimateCollection
+  nameWithType: IEstimateCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IEstimateCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's estimate collection. </p>"
+  syntax:
+    content: public interface IEstimateCollection extends IPartnerComponent<String>
+- uid: com.microsoft.store.partnercenter.invoices.IEstimateLink
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IEstimateLink.yml
+  name: IEstimateLink
+  nameWithType: IEstimateLink
+  fullName: com.microsoft.store.partnercenter.invoices.IEstimateLink
+  type: Interface
+  summary: "<p>Represents the operations available to an estimate link. </p>"
+  syntax:
+    content: public interface IEstimateLink
+- uid: com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency.yml
+  name: IEstimateLinkCollectionByCurrency
+  nameWithType: IEstimateLinkCollectionByCurrency
+  fullName: com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency
+  type: Interface
+  summary: "<p>Holds operations that can be performed on estimate link collection that belong to a given currency. </p>"
+  syntax:
+    content: public interface IEstimateLinkCollectionByCurrency extends IPartnerComponent<String>,IEntityGetOperations<ResourceCollection<EstimateLink>>
+- uid: com.microsoft.store.partnercenter.invoices.IInvoice
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IInvoice.yml
   name: IInvoice
   nameWithType: IInvoice
   fullName: com.microsoft.store.partnercenter.invoices.IInvoice
   type: Interface
-  summary: <p>Represents all the operations that can be done on an invoice </p>
+  summary: "<p>Represents all the operations that can be done on an invoice </p>"
   syntax:
     content: public interface IInvoice extends IPartnerComponentString,IEntityGetOperations<Invoice>
-- uid: com.microsoft.store.partnercenter.invoices._i_invoice_collection
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceCollection
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._i_invoice_collection.yml
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceCollection.yml
   name: IInvoiceCollection
   nameWithType: IInvoiceCollection
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceCollection
   type: Interface
-  summary: <p>Represents the operations that can be done on Partner's invoices </p>
+  summary: "<p>Represents the operations that can be done on Partner's invoices </p>"
   syntax:
-    content: public interface IInvoiceCollection extends IPartnerComponentString,IEntityCollectionRetrievalOperations<Invoice, ResourceCollection<Invoice>>,IEntitySelector<IInvoice>
-- uid: com.microsoft.store.partnercenter.invoices._i_invoice_documents
+    content: public interface IInvoiceCollection extends IPartnerComponentString,IEntityCollectionRetrievalOperations<Invoice, ResourceCollection<Invoice>>,IEntitySelector<String, IInvoice>
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._i_invoice_documents.yml
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.yml
   name: IInvoiceDocuments
   nameWithType: IInvoiceDocuments
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
   type: Interface
   syntax:
     content: public interface IInvoiceDocuments extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.invoices._i_invoice_line_item_collection
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._i_invoice_line_item_collection.yml
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.yml
   name: IInvoiceLineItemCollection
   nameWithType: IInvoiceLineItemCollection
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
   type: Interface
   syntax:
     content: public interface IInvoiceLineItemCollection extends IPartnerComponentString,IEntityCollectionRetrievalOperations<InvoiceLineItem, ResourceCollection<InvoiceLineItem>>
-- uid: com.microsoft.store.partnercenter.invoices._i_invoice_statement
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._i_invoice_statement.yml
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceStatement.yml
   name: IInvoiceStatement
   nameWithType: IInvoiceStatement
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
   type: Interface
-  summary: <p>Represents the operations available to an invoice statement. </p>
+  summary: "<p>Represents the operations available to an invoice statement. </p>"
   syntax:
     content: public interface IInvoiceStatement extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.invoices._i_invoice_summary
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummary
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._i_invoice_summary.yml
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceSummary.yml
   name: IInvoiceSummary
   nameWithType: IInvoiceSummary
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummary
   type: Interface
   syntax:
     content: public interface IInvoiceSummary extends IPartnerComponentString,IEntityGetOperations<InvoiceSummary>
-- uid: com.microsoft.store.partnercenter.invoices._i_invoice_summary_collection
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._i_invoice_summary_collection.yml
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.yml
   name: IInvoiceSummaryCollection
   nameWithType: IInvoiceSummaryCollection
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
   type: Interface
-  summary: <p>Represents all the operations that can be done on invoice summary collection. </p>
+  summary: "<p>Represents all the operations that can be done on invoice summary collection. </p>"
   syntax:
     content: public interface IInvoiceSummaryCollection extends IPartnerComponentString,IEntityGetOperations<ResourceCollection<InvoiceSummary>>
-- uid: com.microsoft.store.partnercenter.invoices._invoice_collection
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceCollection
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._invoice_collection.yml
+  href: com.microsoft.store.partnercenter.invoices.InvoiceCollection.yml
   name: InvoiceCollection
   nameWithType: InvoiceCollection
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceCollection
   type: Class
-  summary: <p>Represents the operations that can be done on Partner's invoices </p>
+  summary: "<p>Represents the operations that can be done on Partner's invoices </p>"
   syntax:
     content: public class InvoiceCollection extends BasePartnerComponentString implements IInvoiceCollection
-- uid: com.microsoft.store.partnercenter.invoices._invoice_documents_operations
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._invoice_documents_operations.yml
+  href: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.yml
   name: InvoiceDocumentsOperations
   nameWithType: InvoiceDocumentsOperations
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations
   type: Class
   syntax:
     content: public class InvoiceDocumentsOperations extends BasePartnerComponentString implements IInvoiceDocuments
-- uid: com.microsoft.store.partnercenter.invoices._invoice_line_item_collection_operations
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceLineItemCollectionOperations
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._invoice_line_item_collection_operations.yml
+  href: com.microsoft.store.partnercenter.invoices.InvoiceLineItemCollectionOperations.yml
   name: InvoiceLineItemCollectionOperations
   nameWithType: InvoiceLineItemCollectionOperations
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceLineItemCollectionOperations
   type: Class
   syntax:
     content: public class InvoiceLineItemCollectionOperations extends BasePartnerComponentString implements IInvoiceLineItemCollection
-- uid: com.microsoft.store.partnercenter.invoices._invoice_operations
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._invoice_operations.yml
+  href: com.microsoft.store.partnercenter.invoices.InvoiceOperations.yml
   name: InvoiceOperations
   nameWithType: InvoiceOperations
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations
   type: Class
-  summary: <p>Operations available for the reseller's invoice. </p>
+  summary: "<p>Operations available for the reseller's invoice. </p>"
   syntax:
     content: public class InvoiceOperations extends BasePartnerComponentString implements IInvoice
-- uid: com.microsoft.store.partnercenter.invoices._invoice_statement_operations
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceStatementOperations
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._invoice_statement_operations.yml
+  href: com.microsoft.store.partnercenter.invoices.InvoiceStatementOperations.yml
   name: InvoiceStatementOperations
   nameWithType: InvoiceStatementOperations
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceStatementOperations
   type: Class
   syntax:
     content: public class InvoiceStatementOperations extends BasePartnerComponentString implements IInvoiceStatement
-- uid: com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations.yml
+  href: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.yml
   name: InvoiceSummaryCollectionOperations
   nameWithType: InvoiceSummaryCollectionOperations
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
   type: Class
-  summary: <p>Represents the operations that can be done on invoice summary collection. </p>
+  summary: "<p>Represents the operations that can be done on invoice summary collection. </p>"
   syntax:
     content: public class InvoiceSummaryCollectionOperations extends BasePartnerComponentString implements IInvoiceSummaryCollection
-- uid: com.microsoft.store.partnercenter.invoices._invoice_summary_operations
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices._invoice_summary_operations.yml
+  href: com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations.yml
   name: InvoiceSummaryOperations
   nameWithType: InvoiceSummaryOperations
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations
   type: Class
   syntax:
     content: public class InvoiceSummaryOperations extends BasePartnerComponentString implements IInvoiceSummary
+- uid: com.microsoft.store.partnercenter.invoices.IReceipt
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IReceipt.yml
+  name: IReceipt
+  nameWithType: IReceipt
+  fullName: com.microsoft.store.partnercenter.invoices.IReceipt
+  type: Interface
+  summary: "<p>Represents the available receipt operations. </p>"
+  syntax:
+    content: public interface IReceipt extends IPartnerComponent<Tuple<String, String>>
+- uid: com.microsoft.store.partnercenter.invoices.IReceiptCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IReceiptCollection.yml
+  name: IReceiptCollection
+  nameWithType: IReceiptCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReceiptCollection
+  type: Interface
+  summary: "<p>Represents the available operations for receipts. </p>"
+  syntax:
+    content: public interface IReceiptCollection extends IPartnerComponentString,IEntitySelector<String, IReceipt>
+- uid: com.microsoft.store.partnercenter.invoices.IReceiptDocuments
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IReceiptDocuments.yml
+  name: IReceiptDocuments
+  nameWithType: IReceiptDocuments
+  fullName: com.microsoft.store.partnercenter.invoices.IReceiptDocuments
+  type: Interface
+  summary: "<p>Represents the operations available on receipt documents. </p>"
+  syntax:
+    content: public interface IReceiptDocuments extends IPartnerComponent<Tuple<String, String>>
+- uid: com.microsoft.store.partnercenter.invoices.IReceiptStatement
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IReceiptStatement.yml
+  name: IReceiptStatement
+  nameWithType: IReceiptStatement
+  fullName: com.microsoft.store.partnercenter.invoices.IReceiptStatement
+  type: Interface
+  summary: "<p>Represents the operations available to an invoice receipt statement. </p>"
+  syntax:
+    content: public interface IReceiptStatement extends IPartnerComponent<Tuple<String, String>>
+- uid: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection.yml
+  name: IReconLineItemCollection
+  nameWithType: IReconLineItemCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
+  syntax:
+    content: public interface IReconLineItemCollection extends IPartnerComponent<String>,IEntireEntityCollectionRetrievalOperations<InvoiceLineItem, SeekBasedResourceCollection<InvoiceLineItem>>
+- uid: com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.yml
+  name: ReceiptCollectionOperations
+  nameWithType: ReceiptCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations
+  type: Class
+  syntax:
+    content: public class ReceiptCollectionOperations extends BasePartnerComponentString implements IReceiptCollection
+- uid: com.microsoft.store.partnercenter.invoices.ReceiptDocumentsOperations
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.ReceiptDocumentsOperations.yml
+  name: ReceiptDocumentsOperations
+  nameWithType: ReceiptDocumentsOperations
+  fullName: com.microsoft.store.partnercenter.invoices.ReceiptDocumentsOperations
+  type: Class
+  syntax:
+    content: public class ReceiptDocumentsOperations extends BasePartnerComponent<Tuple<String, String>> implements IReceiptDocuments
+- uid: com.microsoft.store.partnercenter.invoices.ReceiptOperations
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.ReceiptOperations.yml
+  name: ReceiptOperations
+  nameWithType: ReceiptOperations
+  fullName: com.microsoft.store.partnercenter.invoices.ReceiptOperations
+  type: Class
+  syntax:
+    content: public class ReceiptOperations extends BasePartnerComponent<Tuple<String, String>> implements IReceipt
+- uid: com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations.yml
+  name: ReceiptStatementOperations
+  nameWithType: ReceiptStatementOperations
+  fullName: com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations
+  type: Class
+  syntax:
+    content: public class ReceiptStatementOperations extends BasePartnerComponent<Tuple<String, String>> implements IReceiptStatement
+- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
+  name: ReconLineItemCollectionOperations
+  nameWithType: ReconLineItemCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  type: Class
+  summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
+  syntax:
+    content: public class ReconLineItemCollectionOperations extends BasePartnerComponent<String> implements IReconLineItemCollection

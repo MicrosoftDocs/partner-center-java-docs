@@ -3,9 +3,9 @@ items:
 - uid: com.microsoft.store.partnercenter.models.agreements
   id: agreements
   children:
-  - com.microsoft.store.partnercenter.models.agreements._agreement
-  - com.microsoft.store.partnercenter.models.agreements._agreement_meta_data
-  - com.microsoft.store.partnercenter.models.agreements._agreement_type
+  - com.microsoft.store.partnercenter.models.agreements.Agreement
+  - com.microsoft.store.partnercenter.models.agreements.AgreementMetaData
+  - com.microsoft.store.partnercenter.models.agreements.AgreementType
   href: com.microsoft.store.partnercenter.models.agreements.yml
   langs:
   - java
@@ -23,33 +23,33 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.agreements
 references:
-- uid: com.microsoft.store.partnercenter.models.agreements._agreement
+- uid: com.microsoft.store.partnercenter.models.agreements.Agreement
   parent: com.microsoft.store.partnercenter.models.agreements
-  href: com.microsoft.store.partnercenter.models.agreements._agreement.yml
+  href: com.microsoft.store.partnercenter.models.agreements.Agreement.yml
   name: Agreement
   nameWithType: Agreement
   fullName: com.microsoft.store.partnercenter.models.agreements.Agreement
   type: Class
-  summary: <p>The Agreement resource. Represents the details of certification provided by the partner. </p>
+  summary: "<p>The Agreement resource. Represents the details of certification provided by the partner. </p>"
   syntax:
     content: public class Agreement extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.agreements._agreement_meta_data
+- uid: com.microsoft.store.partnercenter.models.agreements.AgreementMetaData
   parent: com.microsoft.store.partnercenter.models.agreements
-  href: com.microsoft.store.partnercenter.models.agreements._agreement_meta_data.yml
+  href: com.microsoft.store.partnercenter.models.agreements.AgreementMetaData.yml
   name: AgreementMetaData
   nameWithType: AgreementMetaData
   fullName: com.microsoft.store.partnercenter.models.agreements.AgreementMetaData
   type: Class
-  summary: <p>The AgreementMetaData provides metadata about the agreement type that partner can provide confirmation of customer acceptance. </p>
+  summary: "<p>The AgreementMetaData provides metadata about the agreement type that partner can provide confirmation of customer acceptance. </p>"
   syntax:
     content: public class AgreementMetaData
-- uid: com.microsoft.store.partnercenter.models.agreements._agreement_type
+- uid: com.microsoft.store.partnercenter.models.agreements.AgreementType
   parent: com.microsoft.store.partnercenter.models.agreements
-  href: com.microsoft.store.partnercenter.models.agreements._agreement_type.yml
+  href: com.microsoft.store.partnercenter.models.agreements.AgreementType.yml
   name: AgreementType
   nameWithType: AgreementType
   fullName: com.microsoft.store.partnercenter.models.agreements.AgreementType
   type: Enum
-  summary: <p>Enumeration to represent type of Agreements </p>
+  summary: "<p>Enumeration to represent type of Agreements </p>"
   syntax:
     content: public enum AgreementType

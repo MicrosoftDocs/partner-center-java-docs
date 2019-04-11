@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.store.partnercenter.models.query.sort
   id: sort
   children:
-  - com.microsoft.store.partnercenter.models.query.sort._sort
-  - com.microsoft.store.partnercenter.models.query.sort._sort_direction
+  - com.microsoft.store.partnercenter.models.query.sort.Sort
+  - com.microsoft.store.partnercenter.models.query.sort.SortDirection
   href: com.microsoft.store.partnercenter.models.query.sort.yml
   langs:
   - java
@@ -22,19 +22,19 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.query.sort
 references:
-- uid: com.microsoft.store.partnercenter.models.query.sort._sort
+- uid: com.microsoft.store.partnercenter.models.query.sort.Sort
   parent: com.microsoft.store.partnercenter.models.query.sort
-  href: com.microsoft.store.partnercenter.models.query.sort._sort.yml
+  href: com.microsoft.store.partnercenter.models.query.sort.Sort.yml
   name: Sort
   nameWithType: Sort
   fullName: com.microsoft.store.partnercenter.models.query.sort.Sort
   type: Class
-  summary: <p>Specifies sort field and direction. </p>
+  summary: "<p>Specifies sort field and direction. </p>"
   syntax:
     content: public class Sort
-- uid: com.microsoft.store.partnercenter.models.query.sort._sort_direction
+- uid: com.microsoft.store.partnercenter.models.query.sort.SortDirection
   parent: com.microsoft.store.partnercenter.models.query.sort
-  href: com.microsoft.store.partnercenter.models.query.sort._sort_direction.yml
+  href: com.microsoft.store.partnercenter.models.query.sort.SortDirection.yml
   name: SortDirection
   nameWithType: SortDirection
   fullName: com.microsoft.store.partnercenter.models.query.sort.SortDirection

@@ -1,0 +1,505 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.PartnerService
+  id: PartnerService
+  parent: com.microsoft.store.partnercenter
+  children:
+  - com.microsoft.store.partnercenter.PartnerService.clearProxyOptions()
+  - com.microsoft.store.partnercenter.PartnerService.createPartnerOperations(IPartnerCredentials)
+  - com.microsoft.store.partnercenter.PartnerService.getApiRootUrl()
+  - com.microsoft.store.partnercenter.PartnerService.getApplicationName()
+  - com.microsoft.store.partnercenter.PartnerService.getConfiguration()
+  - com.microsoft.store.partnercenter.PartnerService.getFactory()
+  - com.microsoft.store.partnercenter.PartnerService.getInstance()
+  - com.microsoft.store.partnercenter.PartnerService.getPartnerServiceApiVersion()
+  - com.microsoft.store.partnercenter.PartnerService.getProxyHostName()
+  - com.microsoft.store.partnercenter.PartnerService.getProxyPort()
+  - com.microsoft.store.partnercenter.PartnerService.getRefreshCredentialsHandler()
+  - com.microsoft.store.partnercenter.PartnerService.getSdkVersion()
+  - com.microsoft.store.partnercenter.PartnerService.setApiRootUrl(String)
+  - com.microsoft.store.partnercenter.PartnerService.setProxyOptions(String,Integer)
+  - com.microsoft.store.partnercenter.PartnerService.setRefreshCredentialsHandler(IPartnerCredentials)
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: PartnerService
+  nameWithType: PartnerService
+  fullName: com.microsoft.store.partnercenter.PartnerService
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter
+  summary: "<p>This class contains the partner SDK properties and acts as the main entry point to create partners. </p>"
+  syntax: &o1
+    content: public class PartnerService
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.store.partnercenter.PartnerService.clearProxyOptions()
+  id: clearProxyOptions()
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: clearProxyOptions()
+  nameWithType: PartnerService.clearProxyOptions()
+  fullName: com.microsoft.store.partnercenter.PartnerService.clearProxyOptions()
+  overload: com.microsoft.store.partnercenter.PartnerService.clearProxyOptions*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 195
+  package: com.microsoft.store.partnercenter
+  syntax:
+    content: public void clearProxyOptions()
+- uid: com.microsoft.store.partnercenter.PartnerService.createPartnerOperations(IPartnerCredentials)
+  id: createPartnerOperations(IPartnerCredentials)
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: createPartnerOperations(IPartnerCredentials credentials)
+  nameWithType: PartnerService.createPartnerOperations(IPartnerCredentials credentials)
+  fullName: com.microsoft.store.partnercenter.PartnerService.createPartnerOperations(IPartnerCredentials credentials)
+  overload: com.microsoft.store.partnercenter.PartnerService.createPartnerOperations*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 207
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Creates a <xref uid=\"com.microsoft.store.partnercenter.IPartner\" data-throw-if-not-resolved=\"false\">IPartner</xref> instance and configures it using the provided partner credentials.</p>\r\n<p></p>"
+  syntax:
+    content: public IAggregatePartner createPartnerOperations(IPartnerCredentials credentials)
+    parameters:
+    - id: credentials
+      type: com.microsoft.store.partnercenter.IPartnerCredentials
+      description: <p>The partner credentials. </p>
+    return:
+      type: com.microsoft.store.partnercenter.IAggregatePartner
+      description: <p>A configured partner operations object. </p>
+- uid: com.microsoft.store.partnercenter.PartnerService.getApiRootUrl()
+  id: getApiRootUrl()
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: getApiRootUrl()
+  nameWithType: PartnerService.getApiRootUrl()
+  fullName: com.microsoft.store.partnercenter.PartnerService.getApiRootUrl()
+  overload: com.microsoft.store.partnercenter.PartnerService.getApiRootUrl*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 67
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the API root URL.</p>\r\n<p></p>"
+  syntax:
+    content: public String getApiRootUrl()
+    return:
+      type: "26831127"
+      description: <p>The API root URL. </p>
+- uid: com.microsoft.store.partnercenter.PartnerService.getApplicationName()
+  id: getApplicationName()
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: getApplicationName()
+  nameWithType: PartnerService.getApplicationName()
+  fullName: com.microsoft.store.partnercenter.PartnerService.getApplicationName()
+  overload: com.microsoft.store.partnercenter.PartnerService.getApplicationName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 106
+  package: com.microsoft.store.partnercenter
+  syntax:
+    content: public String getApplicationName()
+    return:
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.PartnerService.getConfiguration()
+  id: getConfiguration()
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: getConfiguration()
+  nameWithType: PartnerService.getConfiguration()
+  fullName: com.microsoft.store.partnercenter.PartnerService.getConfiguration()
+  overload: com.microsoft.store.partnercenter.PartnerService.getConfiguration*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 124
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the partner service configuration.</p>\r\n<p></p>"
+  syntax:
+    content: public Configuration getConfiguration()
+    return:
+      type: com.microsoft.store.partnercenter.configuration.Configuration
+      description: <p>The partner service configuration. </p>
+- uid: com.microsoft.store.partnercenter.PartnerService.getFactory()
+  id: getFactory()
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: getFactory()
+  nameWithType: PartnerService.getFactory()
+  fullName: com.microsoft.store.partnercenter.PartnerService.getFactory()
+  overload: com.microsoft.store.partnercenter.PartnerService.getFactory*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 136
+  package: com.microsoft.store.partnercenter
+  syntax:
+    content: public IPartnerFactory getFactory()
+    return:
+      type: com.microsoft.store.partnercenter.factory.IPartnerFactory
+- uid: com.microsoft.store.partnercenter.PartnerService.getInstance()
+  id: getInstance()
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: getInstance()
+  nameWithType: PartnerService.getInstance()
+  fullName: com.microsoft.store.partnercenter.PartnerService.getInstance()
+  overload: com.microsoft.store.partnercenter.PartnerService.getInstance*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 55
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets an instance of the partner service.</p>\r\n<p></p>"
+  syntax:
+    content: public static PartnerService getInstance()
+    return:
+      type: com.microsoft.store.partnercenter.PartnerService
+      description: <p>An instance of the partner service. </p>
+- uid: com.microsoft.store.partnercenter.PartnerService.getPartnerServiceApiVersion()
+  id: getPartnerServiceApiVersion()
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: getPartnerServiceApiVersion()
+  nameWithType: PartnerService.getPartnerServiceApiVersion()
+  fullName: com.microsoft.store.partnercenter.PartnerService.getPartnerServiceApiVersion()
+  overload: com.microsoft.store.partnercenter.PartnerService.getPartnerServiceApiVersion*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 89
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the partner service API version.</p>\r\n<p></p>"
+  syntax:
+    content: public String getPartnerServiceApiVersion()
+    return:
+      type: "26831127"
+      description: <p>The partner service API version. </p>
+- uid: com.microsoft.store.partnercenter.PartnerService.getProxyHostName()
+  id: getProxyHostName()
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: getProxyHostName()
+  nameWithType: PartnerService.getProxyHostName()
+  fullName: com.microsoft.store.partnercenter.PartnerService.getProxyHostName()
+  overload: com.microsoft.store.partnercenter.PartnerService.getProxyHostName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 160
+  package: com.microsoft.store.partnercenter
+  syntax:
+    content: public String getProxyHostName()
+    return:
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.PartnerService.getProxyPort()
+  id: getProxyPort()
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: getProxyPort()
+  nameWithType: PartnerService.getProxyPort()
+  fullName: com.microsoft.store.partnercenter.PartnerService.getProxyPort()
+  overload: com.microsoft.store.partnercenter.PartnerService.getProxyPort*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 167
+  package: com.microsoft.store.partnercenter
+  syntax:
+    content: public Integer getProxyPort()
+    return:
+      type: 08effaa0
+- uid: com.microsoft.store.partnercenter.PartnerService.getRefreshCredentialsHandler()
+  id: getRefreshCredentialsHandler()
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: getRefreshCredentialsHandler()
+  nameWithType: PartnerService.getRefreshCredentialsHandler()
+  fullName: com.microsoft.store.partnercenter.PartnerService.getRefreshCredentialsHandler()
+  overload: com.microsoft.store.partnercenter.PartnerService.getRefreshCredentialsHandler*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 148
+  package: com.microsoft.store.partnercenter
+  syntax:
+    content: public IPartnerCredentials getRefreshCredentialsHandler()
+    return:
+      type: com.microsoft.store.partnercenter.IPartnerCredentials
+- uid: com.microsoft.store.partnercenter.PartnerService.getSdkVersion()
+  id: getSdkVersion()
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: getSdkVersion()
+  nameWithType: PartnerService.getSdkVersion()
+  fullName: com.microsoft.store.partnercenter.PartnerService.getSdkVersion()
+  overload: com.microsoft.store.partnercenter.PartnerService.getSdkVersion*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 179
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the SDK version.</p>\r\n<p></p>"
+  syntax:
+    content: public String getSdkVersion()
+    return:
+      type: "26831127"
+      description: <p>The SDK version. </p>
+- uid: com.microsoft.store.partnercenter.PartnerService.setApiRootUrl(String)
+  id: setApiRootUrl(String)
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: setApiRootUrl(String value)
+  nameWithType: PartnerService.setApiRootUrl(String value)
+  fullName: com.microsoft.store.partnercenter.PartnerService.setApiRootUrl(String value)
+  overload: com.microsoft.store.partnercenter.PartnerService.setApiRootUrl*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 77
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Sets the API root URL.</p>\r\n<p></p>"
+  syntax:
+    content: public void setApiRootUrl(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The API root URL. </p>
+- uid: com.microsoft.store.partnercenter.PartnerService.setProxyOptions(String,Integer)
+  id: setProxyOptions(String,Integer)
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: setProxyOptions(String hostName, Integer port)
+  nameWithType: PartnerService.setProxyOptions(String hostName, Integer port)
+  fullName: com.microsoft.store.partnercenter.PartnerService.setProxyOptions(String hostName, Integer port)
+  overload: com.microsoft.store.partnercenter.PartnerService.setProxyOptions*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 184
+  package: com.microsoft.store.partnercenter
+  syntax:
+    content: public void setProxyOptions(String hostName, Integer port)
+    parameters:
+    - id: hostName
+      type: "26831127"
+    - id: port
+      type: 08effaa0
+- uid: com.microsoft.store.partnercenter.PartnerService.setRefreshCredentialsHandler(IPartnerCredentials)
+  id: setRefreshCredentialsHandler(IPartnerCredentials)
+  parent: com.microsoft.store.partnercenter.PartnerService
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  langs:
+  - java
+  name: setRefreshCredentialsHandler(IPartnerCredentials partnerCredentials)
+  nameWithType: PartnerService.setRefreshCredentialsHandler(IPartnerCredentials partnerCredentials)
+  fullName: com.microsoft.store.partnercenter.PartnerService.setRefreshCredentialsHandler(IPartnerCredentials partnerCredentials)
+  overload: com.microsoft.store.partnercenter.PartnerService.setRefreshCredentialsHandler*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/PartnerService.java
+    startLine: 153
+  package: com.microsoft.store.partnercenter
+  syntax:
+    content: public void setRefreshCredentialsHandler(IPartnerCredentials partnerCredentials)
+    parameters:
+    - id: partnerCredentials
+      type: com.microsoft.store.partnercenter.IPartnerCredentials
+references:
+- uid: com.microsoft.store.partnercenter.PartnerService.getInstance*
+  name: getInstance
+  nameWithType: PartnerService.getInstance
+  fullName: com.microsoft.store.partnercenter.PartnerService.getInstance
+  package: com.microsoft.store.partnercenter
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.PartnerService.getApiRootUrl*
+  name: getApiRootUrl
+  nameWithType: PartnerService.getApiRootUrl
+  fullName: com.microsoft.store.partnercenter.PartnerService.getApiRootUrl
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.setApiRootUrl*
+  name: setApiRootUrl
+  nameWithType: PartnerService.setApiRootUrl
+  fullName: com.microsoft.store.partnercenter.PartnerService.setApiRootUrl
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.getPartnerServiceApiVersion*
+  name: getPartnerServiceApiVersion
+  nameWithType: PartnerService.getPartnerServiceApiVersion
+  fullName: com.microsoft.store.partnercenter.PartnerService.getPartnerServiceApiVersion
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.getApplicationName*
+  name: getApplicationName
+  nameWithType: PartnerService.getApplicationName
+  fullName: com.microsoft.store.partnercenter.PartnerService.getApplicationName
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.getConfiguration*
+  name: getConfiguration
+  nameWithType: PartnerService.getConfiguration
+  fullName: com.microsoft.store.partnercenter.PartnerService.getConfiguration
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.getFactory*
+  name: getFactory
+  nameWithType: PartnerService.getFactory
+  fullName: com.microsoft.store.partnercenter.PartnerService.getFactory
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.getRefreshCredentialsHandler*
+  name: getRefreshCredentialsHandler
+  nameWithType: PartnerService.getRefreshCredentialsHandler
+  fullName: com.microsoft.store.partnercenter.PartnerService.getRefreshCredentialsHandler
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.setRefreshCredentialsHandler*
+  name: setRefreshCredentialsHandler
+  nameWithType: PartnerService.setRefreshCredentialsHandler
+  fullName: com.microsoft.store.partnercenter.PartnerService.setRefreshCredentialsHandler
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.getProxyHostName*
+  name: getProxyHostName
+  nameWithType: PartnerService.getProxyHostName
+  fullName: com.microsoft.store.partnercenter.PartnerService.getProxyHostName
+  package: com.microsoft.store.partnercenter
+- uid: 08effaa0
+  spec.java:
+  - name: Integer
+    fullName: Integer
+- uid: com.microsoft.store.partnercenter.PartnerService.getProxyPort*
+  name: getProxyPort
+  nameWithType: PartnerService.getProxyPort
+  fullName: com.microsoft.store.partnercenter.PartnerService.getProxyPort
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.getSdkVersion*
+  name: getSdkVersion
+  nameWithType: PartnerService.getSdkVersion
+  fullName: com.microsoft.store.partnercenter.PartnerService.getSdkVersion
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.setProxyOptions*
+  name: setProxyOptions
+  nameWithType: PartnerService.setProxyOptions
+  fullName: com.microsoft.store.partnercenter.PartnerService.setProxyOptions
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.clearProxyOptions*
+  name: clearProxyOptions
+  nameWithType: PartnerService.clearProxyOptions
+  fullName: com.microsoft.store.partnercenter.PartnerService.clearProxyOptions
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService.createPartnerOperations*
+  name: createPartnerOperations
+  nameWithType: PartnerService.createPartnerOperations
+  fullName: com.microsoft.store.partnercenter.PartnerService.createPartnerOperations
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.PartnerService
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.PartnerService.yml
+  name: PartnerService
+  nameWithType: PartnerService
+  fullName: com.microsoft.store.partnercenter.PartnerService
+  type: Class
+  summary: "<p>This class contains the partner SDK properties and acts as the main entry point to create partners. </p>"
+  syntax: *o1
+- uid: com.microsoft.store.partnercenter.configuration.Configuration
+  parent: com.microsoft.store.partnercenter.configuration
+  href: com.microsoft.store.partnercenter.configuration.Configuration.yml
+  name: Configuration
+  nameWithType: Configuration
+  fullName: com.microsoft.store.partnercenter.configuration.Configuration
+  type: Class
+  summary: "<p>A configuration holder that keeps a map of API's and some default configuration values </p>"
+  syntax:
+    content: public class Configuration
+- uid: com.microsoft.store.partnercenter.factory.IPartnerFactory
+  parent: com.microsoft.store.partnercenter.factory
+  href: com.microsoft.store.partnercenter.factory.IPartnerFactory.yml
+  name: IPartnerFactory
+  nameWithType: IPartnerFactory
+  fullName: com.microsoft.store.partnercenter.factory.IPartnerFactory
+  type: Interface
+  summary: "<p>Creates instances of <xref uid=\"com.microsoft.store.partnercenter.IPartner\" data-throw-if-not-resolved=\"false\">com.microsoft.store.partnercenter.IPartner</xref>. </p>"
+  syntax:
+    content: public interface IPartnerFactory
+- uid: com.microsoft.store.partnercenter.IPartnerCredentials
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerCredentials.yml
+  name: IPartnerCredentials
+  nameWithType: IPartnerCredentials
+  fullName: com.microsoft.store.partnercenter.IPartnerCredentials
+  type: Interface
+  summary: "<p>The credentials needed to access the partner service. </p>"
+  syntax:
+    content: public interface IPartnerCredentials
+- uid: com.microsoft.store.partnercenter.IAggregatePartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IAggregatePartner.yml
+  name: IAggregatePartner
+  nameWithType: IAggregatePartner
+  fullName: com.microsoft.store.partnercenter.IAggregatePartner
+  type: Interface
+  summary: "<p>A partner operations interface which can be used to generate scoped partner operations that use a specific partner context. </p>"
+  syntax:
+    content: public interface IAggregatePartner extends IPartner
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner

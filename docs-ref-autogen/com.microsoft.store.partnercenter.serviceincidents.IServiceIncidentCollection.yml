@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+  id: IServiceIncidentCollection
+  parent: com.microsoft.store.partnercenter.serviceincidents
+  children:
+  - com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.get(IQuery)
+  href: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.yml
+  langs:
+  - java
+  name: IServiceIncidentCollection
+  nameWithType: IServiceIncidentCollection
+  fullName: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/serviceincidents/IServiceIncidentCollection.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/serviceincidents/IServiceIncidentCollection.java
+    startLine: 14
+  package: com.microsoft.store.partnercenter.serviceincidents
+  syntax:
+    content: public interface IServiceIncidentCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ServiceIncidents, ResourceCollection<ServiceIncidents>>
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.get(IQuery)
+  id: get(IQuery)
+  parent: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+  href: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.yml
+  langs:
+  - java
+  name: get(IQuery serviceIncidentsQuery)
+  nameWithType: IServiceIncidentCollection.get(IQuery serviceIncidentsQuery)
+  fullName: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.get(IQuery serviceIncidentsQuery)
+  overload: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/serviceincidents/IServiceIncidentCollection.java
+    startLine: 23
+  package: com.microsoft.store.partnercenter.serviceincidents
+  summary: "<p>Retrieves all service incidents.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<ServiceIncidents> get(IQuery serviceIncidentsQuery)
+    parameters:
+    - id: serviceIncidentsQuery
+      type: com.microsoft.store.partnercenter.models.query.IQuery
+      description: <p>A query to retrieve service incidents based on the active status. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentsa08ddfce
+      description: <p>The list of service incidents. </p>
+references:
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentsa08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+    href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
+    name: ServiceIncidents
+    fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
+    href: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.get*
+  name: get
+  nameWithType: IServiceIncidentCollection.get
+  fullName: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.get
+  package: com.microsoft.store.partnercenter.serviceincidents
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: get()
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T, TResourceCollection extends ResourceCollection<T>.get()
+  type: Method
+  summary: "<p>Retrieves all entities.</p>\r\n<p></p>"
+  syntax:
+    content: public TResourceCollection get()
+    return:
+      type: 5f968003
+      description: <p>The entities. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponentString.yml
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+  type: Interface
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponentString extends IPartnerComponent<String>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  type: Interface
+  summary: "<p>A generic interface which represents operations for getting an entire collection of entities. The entity type.The entity collection type. </p>"
+  syntax:
+    content: public interface IEntireEntityCollectionRetrievalOperations<T,TResourceCollection extends ResourceCollection<T>>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+    - id: TResourceCollection
+      type: 5f968003
+- uid: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
+  parent: com.microsoft.store.partnercenter.serviceincidents
+  href: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.yml
+  name: ServiceIncidentCollectionOperations
+  nameWithType: ServiceIncidentCollectionOperations
+  fullName: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
+  type: Class
+  summary: "<p>Service incident collection operations implementation class. </p>"
+  syntax:
+    content: public class ServiceIncidentCollectionOperations
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceCollection.yml
+  name: ResourceCollection<TResource>
+  nameWithType: ResourceCollection<TResource>
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  type: Class
+  summary: "<p>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </p>"
+  syntax:
+    content: public class ResourceCollection<TResource>
+    typeParameters:
+    - id: TResource
+      type: 2e0a99c8
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
+  parent: com.microsoft.store.partnercenter.models.serviceincidents
+  href: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.yml
+  name: ServiceIncidents
+  nameWithType: ServiceIncidents
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
+  type: Class
+  summary: "<p>Represents a service incident. </p>"
+  syntax:
+    content: public class ServiceIncidents
+- uid: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.get(IQuery)
+  parent: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
+  href: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.yml
+  name: get(IQuery serviceIncidentsQuery)
+  nameWithType: ServiceIncidentCollectionOperations.get(IQuery serviceIncidentsQuery)
+  fullName: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.get(IQuery serviceIncidentsQuery)
+  type: Method
+  summary: "<p>Retrieves all service incidents.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<ServiceIncidents> get(IQuery serviceIncidentsQuery)
+    parameters:
+    - id: serviceIncidentsQuery
+      type: com.microsoft.store.partnercenter.models.query.IQuery
+      description: <p>A query to retrieve service incidents based on the active status. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentsa08ddfce
+      description: <p>The list of service incidents. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: IQuery
+  nameWithType: IQuery
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery
+  type: Interface
+  summary: "<p>Represents a query on an entity. All different queries should implement this contract. </p>"
+  syntax:
+    content: public interface IQuery

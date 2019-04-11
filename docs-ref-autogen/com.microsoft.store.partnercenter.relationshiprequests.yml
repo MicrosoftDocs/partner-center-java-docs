@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.store.partnercenter.relationshiprequests
   id: relationshiprequests
   children:
-  - com.microsoft.store.partnercenter.relationshiprequests._customer_relationship_request_operations
-  - com.microsoft.store.partnercenter.relationshiprequests._i_customer_relationship_request
+  - com.microsoft.store.partnercenter.relationshiprequests.CustomerRelationshipRequestOperations
+  - com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
   href: com.microsoft.store.partnercenter.relationshiprequests.yml
   langs:
   - java
@@ -22,23 +22,23 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.relationshiprequests
 references:
-- uid: com.microsoft.store.partnercenter.relationshiprequests._customer_relationship_request_operations
+- uid: com.microsoft.store.partnercenter.relationshiprequests.CustomerRelationshipRequestOperations
   parent: com.microsoft.store.partnercenter.relationshiprequests
-  href: com.microsoft.store.partnercenter.relationshiprequests._customer_relationship_request_operations.yml
+  href: com.microsoft.store.partnercenter.relationshiprequests.CustomerRelationshipRequestOperations.yml
   name: CustomerRelationshipRequestOperations
   nameWithType: CustomerRelationshipRequestOperations
   fullName: com.microsoft.store.partnercenter.relationshiprequests.CustomerRelationshipRequestOperations
   type: Class
-  summary: <p>Customer relationship request implementation class. </p>
+  summary: "<p>Customer relationship request implementation class. </p>"
   syntax:
     content: public class CustomerRelationshipRequestOperations extends BasePartnerComponentString implements ICustomerRelationshipRequest
-- uid: com.microsoft.store.partnercenter.relationshiprequests._i_customer_relationship_request
+- uid: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
   parent: com.microsoft.store.partnercenter.relationshiprequests
-  href: com.microsoft.store.partnercenter.relationshiprequests._i_customer_relationship_request.yml
+  href: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.yml
   name: ICustomerRelationshipRequest
   nameWithType: ICustomerRelationshipRequest
   fullName: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
   type: Interface
-  summary: <p>Holds operations that apply to customer relationship requests. </p>
+  summary: "<p>Holds operations that apply to customer relationship requests. </p>"
   syntax:
     content: public interface ICustomerRelationshipRequest extends IPartnerComponentString,IEntityGetOperations<CustomerRelationshipRequest>

@@ -3,15 +3,15 @@ items:
 - uid: com.microsoft.store.partnercenter.models.query
   id: query
   children:
-  - com.microsoft.store.partnercenter.models.query._base_query
-  - com.microsoft.store.partnercenter.models.query._count_query
-  - com.microsoft.store.partnercenter.models.query._i_query
-  - com.microsoft.store.partnercenter.models.query._indexed_query
-  - com.microsoft.store.partnercenter.models.query._query_factory
-  - com.microsoft.store.partnercenter.models.query._query_type
-  - com.microsoft.store.partnercenter.models.query._seek_operation
-  - com.microsoft.store.partnercenter.models.query._seek_query
-  - com.microsoft.store.partnercenter.models.query._simple_query
+  - com.microsoft.store.partnercenter.models.query.BaseQuery
+  - com.microsoft.store.partnercenter.models.query.CountQuery
+  - com.microsoft.store.partnercenter.models.query.IndexedQuery
+  - com.microsoft.store.partnercenter.models.query.IQuery
+  - com.microsoft.store.partnercenter.models.query.QueryFactory
+  - com.microsoft.store.partnercenter.models.query.QueryType
+  - com.microsoft.store.partnercenter.models.query.SeekOperation
+  - com.microsoft.store.partnercenter.models.query.SeekQuery
+  - com.microsoft.store.partnercenter.models.query.SimpleQuery
   href: com.microsoft.store.partnercenter.models.query.yml
   langs:
   - java
@@ -45,91 +45,91 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.store.partnercenter.models.query.sort
-- uid: com.microsoft.store.partnercenter.models.query._base_query
+- uid: com.microsoft.store.partnercenter.models.query.BaseQuery
   parent: com.microsoft.store.partnercenter.models.query
-  href: com.microsoft.store.partnercenter.models.query._base_query.yml
+  href: com.microsoft.store.partnercenter.models.query.BaseQuery.yml
   name: BaseQuery
   nameWithType: BaseQuery
   fullName: com.microsoft.store.partnercenter.models.query.BaseQuery
   type: Class
-  summary: <p>The base class which all queries should derive from. This class does not support any query capabilities except for the token by default. Therefore, implementation classes will pick and choose what to support. </p>
+  summary: "<p>The base class which all queries should derive from. This class does not support any query capabilities except for the token by default. Therefore, implementation classes will pick and choose what to support. </p>"
   syntax:
     content: public class BaseQuery implements IQuery
-- uid: com.microsoft.store.partnercenter.models.query._count_query
+- uid: com.microsoft.store.partnercenter.models.query.CountQuery
   parent: com.microsoft.store.partnercenter.models.query
-  href: com.microsoft.store.partnercenter.models.query._count_query.yml
+  href: com.microsoft.store.partnercenter.models.query.CountQuery.yml
   name: CountQuery
   nameWithType: CountQuery
   fullName: com.microsoft.store.partnercenter.models.query.CountQuery
   type: Class
-  summary: <p>A query that returns the number of entities that may optionally fit a filter. </p>
+  summary: "<p>A query that returns the number of entities that may optionally fit a filter. </p>"
   syntax:
     content: public class CountQuery extends BaseQuery
-- uid: com.microsoft.store.partnercenter.models.query._indexed_query
+- uid: com.microsoft.store.partnercenter.models.query.IndexedQuery
   parent: com.microsoft.store.partnercenter.models.query
-  href: com.microsoft.store.partnercenter.models.query._indexed_query.yml
+  href: com.microsoft.store.partnercenter.models.query.IndexedQuery.yml
   name: IndexedQuery
   nameWithType: IndexedQuery
   fullName: com.microsoft.store.partnercenter.models.query.IndexedQuery
   type: Class
-  summary: <p>A query that supports pagination. Use this for huge datasets. </p>
+  summary: "<p>A query that supports pagination. Use this for huge datasets. </p>"
   syntax:
     content: public class IndexedQuery extends SimpleQuery
-- uid: com.microsoft.store.partnercenter.models.query._i_query
+- uid: com.microsoft.store.partnercenter.models.query.IQuery
   parent: com.microsoft.store.partnercenter.models.query
-  href: com.microsoft.store.partnercenter.models.query._i_query.yml
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
   name: IQuery
   nameWithType: IQuery
   fullName: com.microsoft.store.partnercenter.models.query.IQuery
   type: Interface
-  summary: <p>Represents a query on an entity. All different queries should implement this contract. </p>
+  summary: "<p>Represents a query on an entity. All different queries should implement this contract. </p>"
   syntax:
     content: public interface IQuery
-- uid: com.microsoft.store.partnercenter.models.query._query_factory
+- uid: com.microsoft.store.partnercenter.models.query.QueryFactory
   parent: com.microsoft.store.partnercenter.models.query
-  href: com.microsoft.store.partnercenter.models.query._query_factory.yml
+  href: com.microsoft.store.partnercenter.models.query.QueryFactory.yml
   name: QueryFactory
   nameWithType: QueryFactory
   fullName: com.microsoft.store.partnercenter.models.query.QueryFactory
   type: Class
-  summary: <p>Creates new instances of IQuery objects. </p>
+  summary: "<p>Creates new instances of IQuery objects. </p>"
   syntax:
     content: public class QueryFactory
-- uid: com.microsoft.store.partnercenter.models.query._query_type
+- uid: com.microsoft.store.partnercenter.models.query.QueryType
   parent: com.microsoft.store.partnercenter.models.query
-  href: com.microsoft.store.partnercenter.models.query._query_type.yml
+  href: com.microsoft.store.partnercenter.models.query.QueryType.yml
   name: QueryType
   nameWithType: QueryType
   fullName: com.microsoft.store.partnercenter.models.query.QueryType
   type: Enum
   syntax:
     content: public enum QueryType
-- uid: com.microsoft.store.partnercenter.models.query._seek_operation
+- uid: com.microsoft.store.partnercenter.models.query.SeekOperation
   parent: com.microsoft.store.partnercenter.models.query
-  href: com.microsoft.store.partnercenter.models.query._seek_operation.yml
+  href: com.microsoft.store.partnercenter.models.query.SeekOperation.yml
   name: SeekOperation
   nameWithType: SeekOperation
   fullName: com.microsoft.store.partnercenter.models.query.SeekOperation
   type: Enum
   syntax:
     content: public enum SeekOperation
-- uid: com.microsoft.store.partnercenter.models.query._seek_query
+- uid: com.microsoft.store.partnercenter.models.query.SeekQuery
   parent: com.microsoft.store.partnercenter.models.query
-  href: com.microsoft.store.partnercenter.models.query._seek_query.yml
+  href: com.microsoft.store.partnercenter.models.query.SeekQuery.yml
   name: SeekQuery
   nameWithType: SeekQuery
   fullName: com.microsoft.store.partnercenter.models.query.SeekQuery
   type: Class
-  summary: <p>Represents a seek query. The seek query can be used to seek through sets of results using the given seek operation. </p>
+  summary: "<p>Represents a seek query. The seek query can be used to seek through sets of results using the given seek operation. </p>"
   syntax:
     content: public class SeekQuery extends IndexedQuery
-- uid: com.microsoft.store.partnercenter.models.query._simple_query
+- uid: com.microsoft.store.partnercenter.models.query.SimpleQuery
   parent: com.microsoft.store.partnercenter.models.query
-  href: com.microsoft.store.partnercenter.models.query._simple_query.yml
+  href: com.microsoft.store.partnercenter.models.query.SimpleQuery.yml
   name: SimpleQuery
   nameWithType: SimpleQuery
   fullName: com.microsoft.store.partnercenter.models.query.SimpleQuery
   type: Class
-  summary: <p>A standard query that returns entities according to sort and filter options (Does not do paging). </p>
+  summary: "<p>A standard query that returns entities according to sort and filter options (Does not do paging). </p>"
   syntax:
     content: public class SimpleQuery extends BaseQuery

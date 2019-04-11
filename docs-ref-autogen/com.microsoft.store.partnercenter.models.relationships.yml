@@ -3,9 +3,9 @@ items:
 - uid: com.microsoft.store.partnercenter.models.relationships
   id: relationships
   children:
-  - com.microsoft.store.partnercenter.models.relationships._partner_relationship
-  - com.microsoft.store.partnercenter.models.relationships._partner_relationship_search_field
-  - com.microsoft.store.partnercenter.models.relationships._partner_relationship_type
+  - com.microsoft.store.partnercenter.models.relationships.PartnerRelationship
+  - com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField
+  - com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
   href: com.microsoft.store.partnercenter.models.relationships.yml
   langs:
   - java
@@ -23,33 +23,33 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.relationships
 references:
-- uid: com.microsoft.store.partnercenter.models.relationships._partner_relationship
+- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship
   parent: com.microsoft.store.partnercenter.models.relationships
-  href: com.microsoft.store.partnercenter.models.relationships._partner_relationship.yml
+  href: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship.yml
   name: PartnerRelationship
   nameWithType: PartnerRelationship
   fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship
   type: Class
-  summary: <p>This represents a relationship between two partners. </p>
+  summary: "<p>This represents a relationship between two partners. </p>"
   syntax:
     content: public class PartnerRelationship extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.relationships._partner_relationship_search_field
+- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField
   parent: com.microsoft.store.partnercenter.models.relationships
-  href: com.microsoft.store.partnercenter.models.relationships._partner_relationship_search_field.yml
+  href: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.yml
   name: PartnerRelationshipSearchField
   nameWithType: PartnerRelationshipSearchField
   fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField
   type: Enum
-  summary: <p>Lists the supported partner relationship search fields. </p>
+  summary: "<p>Lists the supported partner relationship search fields. </p>"
   syntax:
     content: public enum PartnerRelationshipSearchField
-- uid: com.microsoft.store.partnercenter.models.relationships._partner_relationship_type
+- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
   parent: com.microsoft.store.partnercenter.models.relationships
-  href: com.microsoft.store.partnercenter.models.relationships._partner_relationship_type.yml
+  href: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.yml
   name: PartnerRelationshipType
   nameWithType: PartnerRelationshipType
   fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
   type: Enum
-  summary: <p>The types of relationships between partners for two tier partner scenario. </p>
+  summary: "<p>The types of relationships between partners for two tier partner scenario. </p>"
   syntax:
     content: public enum PartnerRelationshipType

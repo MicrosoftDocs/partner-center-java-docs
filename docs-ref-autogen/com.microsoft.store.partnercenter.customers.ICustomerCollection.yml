@@ -1,0 +1,448 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  id: ICustomerCollection
+  parent: com.microsoft.store.partnercenter.customers
+  children:
+  - com.microsoft.store.partnercenter.customers.ICustomerCollection.byId(String)
+  - com.microsoft.store.partnercenter.customers.ICustomerCollection.get()
+  - com.microsoft.store.partnercenter.customers.ICustomerCollection.getRelationshipRequests()
+  - com.microsoft.store.partnercenter.customers.ICustomerCollection.getUsageRecords()
+  - com.microsoft.store.partnercenter.customers.ICustomerCollection.query(IQuery)
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
+  langs:
+  - java
+  name: ICustomerCollection
+  nameWithType: ICustomerCollection
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java
+    startLine: 20
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Represents the behavior of the partner customers. </p>"
+  syntax:
+    content: public interface ICustomerCollection extends IPartnerComponentString,IEntityCreateOperations<Customer, Customer>,IEntireEntityCollectionRetrievalOperations<Customer, SeekBasedResourceCollection<Customer>>
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection.byId(String)
+  id: byId(String)
+  parent: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
+  langs:
+  - java
+  name: byId(String customerId)
+  nameWithType: ICustomerCollection.byId(String customerId)
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.byId(String customerId)
+  overload: com.microsoft.store.partnercenter.customers.ICustomerCollection.byId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java
+    startLine: 44
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Gets a single customer operations.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomer byId(String customerId)
+    parameters:
+    - id: customerId
+      type: "26831127"
+      description: <p>The customer identifier. </p>
+    return:
+      type: com.microsoft.store.partnercenter.customers.ICustomer
+      description: <p>The customer operations. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: ICustomerCollection.get()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.get()
+  overload: com.microsoft.store.partnercenter.customers.ICustomerCollection.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java
+    startLine: 51
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Retrieves all the partner's customers.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekBasedResourceCollection<Customer> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.customers.Customera08ddfce
+      description: <p>The partner's customers. </p>
+  overridden: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection.getRelationshipRequests()
+  id: getRelationshipRequests()
+  parent: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
+  langs:
+  - java
+  name: getRelationshipRequests()
+  nameWithType: ICustomerCollection.getRelationshipRequests()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.getRelationshipRequests()
+  overload: com.microsoft.store.partnercenter.customers.ICustomerCollection.getRelationshipRequests*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java
+    startLine: 36
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Gets the customer relationship request operations.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerRelationshipRequest getRelationshipRequests()
+    return:
+      type: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
+      description: <p>The customer replationship request operations. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection.getUsageRecords()
+  id: getUsageRecords()
+  parent: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
+  langs:
+  - java
+  name: getUsageRecords()
+  nameWithType: ICustomerCollection.getUsageRecords()
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.getUsageRecords()
+  overload: com.microsoft.store.partnercenter.customers.ICustomerCollection.getUsageRecords*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java
+    startLine: 29
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Gets the customer usage record operations.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerUsageRecordCollection getUsageRecords()
+    return:
+      type: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+      description: <p>The customer usage record operations. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection.query(IQuery)
+  id: query(IQuery)
+  parent: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
+  langs:
+  - java
+  name: query(IQuery customersQuery)
+  nameWithType: ICustomerCollection.query(IQuery customersQuery)
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.query(IQuery customersQuery)
+  overload: com.microsoft.store.partnercenter.customers.ICustomerCollection.query*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java
+    startLine: 61
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Queries customers associated to the partner. - Count queries are not supported by this operation. - You can set the page size or filter or do both at the same time. - Sort is not supported. - You can navigate to other pages by specifying a seek query with the seek operation and the continuation token sent by the previous operation.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekBasedResourceCollection<Customer> query(IQuery customersQuery)
+    parameters:
+    - id: customersQuery
+      type: com.microsoft.store.partnercenter.models.query.IQuery
+      description: <p>A query to apply onto customers. Check <xref uid="com.microsoft.store.partnercenter.models.query.QueryFactory" data-throw-if-not-resolved="false">com.microsoft.store.partnercenter.models.query.QueryFactory</xref> to see how to build queries. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.customers.Customera08ddfce
+      description: <p>The requested customers. </p>
+references:
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection.getUsageRecords*
+  name: getUsageRecords
+  nameWithType: ICustomerCollection.getUsageRecords
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.getUsageRecords
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection.getRelationshipRequests*
+  name: getRelationshipRequests
+  nameWithType: ICustomerCollection.getRelationshipRequests
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.getRelationshipRequests
+  package: com.microsoft.store.partnercenter.customers
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection.byId*
+  name: byId
+  nameWithType: ICustomerCollection.byId
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.byId
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.customers.Customera08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+    name: SeekBasedResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+    href: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.customers.Customer
+    name: Customer
+    fullName: com.microsoft.store.partnercenter.models.customers.Customer
+    href: com.microsoft.store.partnercenter.models.customers.Customer.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection.get*
+  name: get
+  nameWithType: ICustomerCollection.get
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.get
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection.query*
+  name: query
+  nameWithType: ICustomerCollection.query
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.query
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.yml
+  name: create(T newEntity)
+  nameWithType: IEntityCreateOperations<T,T1>.create(T newEntity)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T, T1>.create(T newEntity)
+  type: Method
+  summary: "<p>Creates a new entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T1 create(T newEntity)
+    parameters:
+    - id: newEntity
+      type: 8ce1ecb9
+      description: <p>The new entity information. </p>
+    return:
+      type: ea9d49ce
+      description: <p>The entity information that was just created. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponentString.yml
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+  type: Interface
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.yml
+  name: IEntityCreateOperations<T,T1>
+  nameWithType: IEntityCreateOperations<T,T1>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T,T1>
+  type: Interface
+  summary: "<p>Groups operations for creating a single entity. The entity type request.The entity type response. </p>"
+  syntax:
+    content: public interface IEntityCreateOperations<T,T1>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+    - id: T1
+      type: ea9d49ce
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+  type: Interface
+  summary: "<p>A generic interface which represents operations for getting an entire collection of entities. The entity type.The entity collection type. </p>"
+  syntax:
+    content: public interface IEntireEntityCollectionRetrievalOperations<T,TResourceCollection extends ResourceCollection<T>>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+    - id: TResourceCollection
+      type: 5f968003
+- uid: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
+  parent: com.microsoft.store.partnercenter.customers
+  href: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.yml
+  name: CustomerCollectionOperations
+  nameWithType: CustomerCollectionOperations
+  fullName: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
+  type: Class
+  summary: "<p>The partner customers implementation. </p>"
+  syntax:
+    content: public class CustomerCollectionOperations extends BasePartnerComponentString implements ICustomerCollection
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.yml
+  name: ICustomerUsageRecordCollection
+  nameWithType: ICustomerUsageRecordCollection
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+  type: Interface
+  summary: "<p>Defines the behavior of a customer usage record collection operations. </p>"
+  syntax:
+    content: public interface ICustomerUsageRecordCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.getUsageRecords()
+  parent: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.yml
+  name: getUsageRecords()
+  nameWithType: CustomerCollectionOperations.getUsageRecords()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.getUsageRecords()
+  type: Method
+  summary: "<p>Obtains the customer usage record operations.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerUsageRecordCollection getUsageRecords()
+    return:
+      type: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+      description: <p>The customer usage record operations. </p>
+- uid: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
+  parent: com.microsoft.store.partnercenter.relationshiprequests
+  href: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.yml
+  name: ICustomerRelationshipRequest
+  nameWithType: ICustomerRelationshipRequest
+  fullName: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
+  type: Interface
+  summary: "<p>Holds operations that apply to customer relationship requests. </p>"
+  syntax:
+    content: public interface ICustomerRelationshipRequest
+- uid: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.getRelationshipRequests()
+  parent: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.yml
+  name: getRelationshipRequests()
+  nameWithType: CustomerCollectionOperations.getRelationshipRequests()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.getRelationshipRequests()
+  type: Method
+  summary: "<p>Obtains the customer relationship request operations.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerRelationshipRequest getRelationshipRequests()
+    return:
+      type: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
+      description: <p>The customer relationship request operations. </p>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer
+  parent: com.microsoft.store.partnercenter.customers
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: ICustomer
+  nameWithType: ICustomer
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer
+  type: Interface
+  summary: "<p>Groups operations that can be performed on a single partner customer. </p>"
+  syntax:
+    content: public interface ICustomer extends IPartnerComponentString,IEntityGetOperations<Customer>,IEntityDeleteOperations<Customer>
+- uid: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.byId(String)
+  parent: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.yml
+  name: byId(String customerId)
+  nameWithType: CustomerCollectionOperations.byId(String customerId)
+  fullName: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.byId(String customerId)
+  type: Method
+  summary: "<p>Gets a single customer operations.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomer byId(String customerId)
+    parameters:
+    - id: customerId
+      type: "26831127"
+      description: <p>The customer identifier. </p>
+    return:
+      type: com.microsoft.store.partnercenter.customers.ICustomer
+      description: <p>The customer operations. </p>
+- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.yml
+  name: SeekBasedResourceCollection<T>
+  nameWithType: SeekBasedResourceCollection<T>
+  fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<T>
+  type: Class
+  summary: "<p>Paged Resource Collection Type of objects in collection </p>"
+  syntax:
+    content: public class SeekBasedResourceCollection<T>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+- uid: com.microsoft.store.partnercenter.models.customers.Customer
+  parent: com.microsoft.store.partnercenter.models.customers
+  href: com.microsoft.store.partnercenter.models.customers.Customer.yml
+  name: Customer
+  nameWithType: Customer
+  fullName: com.microsoft.store.partnercenter.models.customers.Customer
+  type: Class
+  summary: "<p>Base customer profile for both Company, Billing profiles </p>"
+  syntax:
+    content: public class Customer extends ResourceBaseWithLinks<StandardResourceLinks>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: get()
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T, TResourceCollection extends ResourceCollection<T>.get()
+  type: Method
+  summary: "<p>Retrieves all entities.</p>\r\n<p></p>"
+  syntax:
+    content: public TResourceCollection get()
+    return:
+      type: 5f968003
+      description: <p>The entities. </p>
+- uid: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.yml
+  name: get()
+  nameWithType: CustomerCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.get()
+  type: Method
+  summary: "<p>Retrieves all customers associated to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekBasedResourceCollection<Customer> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.customers.Customera08ddfce
+      description: <p>All customers. </p>
+- uid: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.query(IQuery)
+  parent: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.yml
+  name: query(IQuery customersQuery)
+  nameWithType: CustomerCollectionOperations.query(IQuery customersQuery)
+  fullName: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.query(IQuery customersQuery)
+  type: Method
+  summary: "<p>Queries customers associated to the partner. - Count queries are not supported by this operation. - You can set the page size or filter or do both at the same time. - Sort is not supported. - You can navigate to other pages by specifying a seek query with the seek operation and the continuation token sent by the previous operation.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekBasedResourceCollection<Customer> query(IQuery customersQuery)
+    parameters:
+    - id: customersQuery
+      type: com.microsoft.store.partnercenter.models.query.IQuery
+      description: <p>A query to apply onto customers. Check <xref uid="com.microsoft.store.partnercenter.models.query.QueryFactory" data-throw-if-not-resolved="false">com.microsoft.store.partnercenter.models.query.QueryFactory</xref> to see how to build queries. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.customers.Customera08ddfce
+      description: <p>The requested customers. </p>
+- uid: com.microsoft.store.partnercenter.models.query.IQuery
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.IQuery.yml
+  name: IQuery
+  nameWithType: IQuery
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery
+  type: Interface
+  summary: "<p>Represents a query on an entity. All different queries should implement this contract. </p>"
+  syntax:
+    content: public interface IQuery
+- uid: com.microsoft.store.partnercenter.models.query.QueryFactory
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query.QueryFactory.yml
+  name: QueryFactory
+  nameWithType: QueryFactory
+  fullName: com.microsoft.store.partnercenter.models.query.QueryFactory
+  type: Class
+  summary: "<p>Creates new instances of IQuery objects. </p>"
+  syntax:
+    content: public class QueryFactory

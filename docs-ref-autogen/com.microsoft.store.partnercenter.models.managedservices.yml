@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.store.partnercenter.models.managedservices
   id: managedservices
   children:
-  - com.microsoft.store.partnercenter.models.managedservices._managed_service
-  - com.microsoft.store.partnercenter.models.managedservices._managed_service_links
+  - com.microsoft.store.partnercenter.models.managedservices.ManagedService
+  - com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks
   href: com.microsoft.store.partnercenter.models.managedservices.yml
   langs:
   - java
@@ -22,23 +22,23 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.managedservices
 references:
-- uid: com.microsoft.store.partnercenter.models.managedservices._managed_service
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedService
   parent: com.microsoft.store.partnercenter.models.managedservices
-  href: com.microsoft.store.partnercenter.models.managedservices._managed_service.yml
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedService.yml
   name: ManagedService
   nameWithType: ManagedService
   fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedService
   type: Class
-  summary: <p>Partner managed services (AOBO links) for customers </p>
+  summary: "<p>Partner managed services (AOBO links) for customers </p>"
   syntax:
     content: public class ManagedService extends ResourceBaseWithLinks<ManagedServiceLinks>
-- uid: com.microsoft.store.partnercenter.models.managedservices._managed_service_links
+- uid: com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks
   parent: com.microsoft.store.partnercenter.models.managedservices
-  href: com.microsoft.store.partnercenter.models.managedservices._managed_service_links.yml
+  href: com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.yml
   name: ManagedServiceLinks
   nameWithType: ManagedServiceLinks
   fullName: com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks
   type: Class
-  summary: <p>Bundles a Managed service links. </p>
+  summary: "<p>Bundles a Managed service links. </p>"
   syntax:
     content: public class ManagedServiceLinks

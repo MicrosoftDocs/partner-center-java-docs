@@ -1,0 +1,790 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  id: IPartnerComponentString
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponentString.yml
+  langs:
+  - java
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+  type: Interface
+  source:
+    remote:
+      path: src/main/java/com/microsoft/store/partnercenter/IPartnerComponentString.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/IPartnerComponentString.java
+    startLine: 11
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponentString extends IPartnerComponent<String>
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+references:
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.IPartnerComponent
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: getPartner()
+  nameWithType: IPartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerComponent.yml
+  name: IPartnerComponent<TContext>
+  nameWithType: IPartnerComponent<TContext>
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>
+  type: Interface
+  summary: "<p>Represents a partner SDK component. The type of the component's context object. </p>"
+  syntax:
+    content: public interface IPartnerComponent<TContext>
+    typeParameters:
+    - id: TContext
+      type: 473af9dd
+- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+  parent: com.microsoft.store.partnercenter.agreements
+  href: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.yml
+  name: ICustomerAgreementCollection
+  nameWithType: ICustomerAgreementCollection
+  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the Agreement collection. </p>"
+  syntax:
+    content: public interface ICustomerAgreementCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Agreement, ResourceCollection<Agreement>>
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection.yml
+  name: ICustomerAnalyticsCollection
+  nameWithType: ICustomerAnalyticsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
+  type: Interface
+  summary: "<p>Holds operations that apply to customer analytics collection. </p>"
+  syntax:
+    content: public interface ICustomerAnalyticsCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection.yml
+  name: ICustomerLicensesAnalyticsCollection
+  nameWithType: ICustomerLicensesAnalyticsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection
+  type: Interface
+  summary: "<p>Encapsulates collection of customer level analytics. </p>"
+  syntax:
+    content: public interface ICustomerLicensesAnalyticsCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection.yml
+  name: ICustomerLicensesDeploymentInsightsCollection
+  nameWithType: ICustomerLicensesDeploymentInsightsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the customer's licenses' deployment insights collection. </p>"
+  syntax:
+    content: public interface ICustomerLicensesDeploymentInsightsCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<CustomerLicensesDeploymentInsights, ResourceCollection<CustomerLicensesDeploymentInsights>>
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection.yml
+  name: ICustomerLicensesUsageInsightsCollection
+  nameWithType: ICustomerLicensesUsageInsightsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the customer's licenses' usage insights collection. </p>"
+  syntax:
+    content: public interface ICustomerLicensesUsageInsightsCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<CustomerLicensesUsageInsights, ResourceCollection<CustomerLicensesUsageInsights>>
+- uid: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection.yml
+  name: IPartnerAnalyticsCollection
+  nameWithType: IPartnerAnalyticsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
+  type: Interface
+  summary: "<p>Encapsulates collection of partner's analytics. </p>"
+  syntax:
+    content: public interface IPartnerAnalyticsCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.yml
+  name: IPartnerLicensesAnalyticsCollection
+  nameWithType: IPartnerLicensesAnalyticsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
+  type: Interface
+  summary: "<p>Encapsulates collection of partner level licenses' analytics. </p>"
+  syntax:
+    content: public interface IPartnerLicensesAnalyticsCollection
+- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection.yml
+  name: IPartnerLicensesDeploymentInsightsCollection
+  nameWithType: IPartnerLicensesDeploymentInsightsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the partner's licenses' deployment insights collection. </p>"
+  syntax:
+    content: public interface IPartnerLicensesDeploymentInsightsCollection
+- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection.yml
+  name: IPartnerLicensesUsageInsightsCollection
+  nameWithType: IPartnerLicensesUsageInsightsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the partner's licenses' usage insights collection. </p>"
+  syntax:
+    content: public interface IPartnerLicensesUsageInsightsCollection
+- uid: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  parent: com.microsoft.store.partnercenter.applicationconsents
+  href: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.yml
+  name: ICustomerApplicationConsentCollection
+  nameWithType: ICustomerApplicationConsentCollection
+  fullName: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the ApplicationConsent collection. </p>"
+  syntax:
+    content: public interface ICustomerApplicationConsentCollection extends IPartnerComponentString,IEntitySelector<String, IApplicationConsent>,IEntityCreateOperations<ApplicationConsent, ApplicationConsent>
+- uid: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
+  parent: com.microsoft.store.partnercenter.auditrecords
+  href: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection.yml
+  name: IAuditRecordsCollection
+  nameWithType: IAuditRecordsCollection
+  fullName: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on partners audit collection. </p>"
+  syntax:
+    content: public interface IAuditRecordsCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.carts.ICartCollection
+  parent: com.microsoft.store.partnercenter.carts
+  href: com.microsoft.store.partnercenter.carts.ICartCollection.yml
+  name: ICartCollection
+  nameWithType: ICartCollection
+  fullName: com.microsoft.store.partnercenter.carts.ICartCollection
+  type: Interface
+  summary: "<p>Encapsulates a customer cart behavior. </p>"
+  syntax:
+    content: public interface ICartCollection extends IPartnerComponentString,IEntityCreateOperations<Cart, Cart>,IEntitySelector<String, ICart>
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
+  parent: com.microsoft.store.partnercenter.countryvalidationrules
+  href: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.yml
+  name: ICountryValidationRules
+  nameWithType: ICountryValidationRules
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
+  type: Interface
+  summary: "<p>Represents the behavior of a specific country validation rules. </p>"
+  syntax:
+    content: public interface ICountryValidationRules extends IPartnerComponentString,IEntityGetOperations<CountryValidationRules>
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
+  parent: com.microsoft.store.partnercenter.countryvalidationrules
+  href: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.yml
+  name: ICountryValidationRulesCollection
+  nameWithType: ICountryValidationRulesCollection
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
+  type: Interface
+  summary: "<p>Interface and Template for Country-Specific Rules for Validation </p>"
+  syntax:
+    content: public interface ICountryValidationRulesCollection extends IPartnerComponentString,ICountrySelector<ICountryValidationRules>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles
+  href: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.yml
+  name: IDirectoryRoleCollection
+  nameWithType: IDirectoryRoleCollection
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+  type: Interface
+  summary: "<p>Interface for Directory Roles Collection </p>"
+  syntax:
+    content: public interface IDirectoryRoleCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<DirectoryRole, ResourceCollection<DirectoryRole>>,IEntitySelector<String, IDirectoryRole>
+- uid: com.microsoft.store.partnercenter.customers.ICustomer
+  parent: com.microsoft.store.partnercenter.customers
+  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
+  name: ICustomer
+  nameWithType: ICustomer
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer
+  type: Interface
+  summary: "<p>Groups operations that can be performed on a single partner customer. </p>"
+  syntax:
+    content: public interface ICustomer extends IPartnerComponentString,IEntityGetOperations<Customer>,IEntityDeleteOperations<Customer>
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  parent: com.microsoft.store.partnercenter.customers
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
+  name: ICustomerCollection
+  nameWithType: ICustomerCollection
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the partner customers. </p>"
+  syntax:
+    content: public interface ICustomerCollection extends IPartnerComponentString,IEntityCreateOperations<Customer, Customer>,IEntireEntityCollectionRetrievalOperations<Customer, SeekBasedResourceCollection<Customer>>
+- uid: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection
+  parent: com.microsoft.store.partnercenter.customers.products
+  href: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection.yml
+  name: ICustomerProductCollection
+  nameWithType: ICustomerProductCollection
+  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection
+  type: Interface
+  summary: "<p>Holds operations that can be performed on products that apply to a given customer. </p>"
+  syntax:
+    content: public interface ICustomerProductCollection extends IPartnerComponentString,IEntitySelector<String, IProduct>
+- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
+  parent: com.microsoft.store.partnercenter.customers.profiles
+  href: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.yml
+  name: ICustomerProfileCollection
+  nameWithType: ICustomerProfileCollection
+  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
+  type: Interface
+  summary: "<p>Represents customer profiles behavior. </p>"
+  syntax:
+    content: public interface ICustomerProfileCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
+  parent: com.microsoft.store.partnercenter.customers.profiles
+  href: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.yml
+  name: ICustomerReadonlyProfile<T>
+  nameWithType: ICustomerReadonlyProfile<T>
+  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>
+  type: Interface
+  summary: "<p>Encapsulates a single customer read-only profile behavior. </p>"
+  syntax:
+    content: public interface ICustomerReadonlyProfile<T extends ResourceBase> extends IPartnerComponentString,IEntityGetOperations<T>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
+  parent: com.microsoft.store.partnercenter.customers.servicecosts
+  href: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.yml
+  name: ICustomerServiceCostsCollection
+  nameWithType: ICustomerServiceCostsCollection
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
+  type: Interface
+  summary: "<p>Holds customer service costs behavior. </p>"
+  syntax:
+    content: public interface ICustomerServiceCostsCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  parent: com.microsoft.store.partnercenter.customerusers
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.yml
+  name: ICustomerUserCollection
+  nameWithType: ICustomerUserCollection
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customers users </p>"
+  syntax:
+    content: public interface ICustomerUserCollection extends IPartnerComponentString,IEntityCreateOperations<CustomerUser, CustomerUser>,IEntireEntityCollectionRetrievalOperations<CustomerUser, SeekBasedResourceCollection<CustomerUser>>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.yml
+  name: IBatchJobStatusCollection
+  nameWithType: IBatchJobStatusCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's batch upload status collection. </p>"
+  syntax:
+    content: public interface IBatchJobStatusCollection extends IPartnerComponentString,IEntitySelector<String, IBatchJobStatus>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.yml
+  name: IConfigurationPolicyCollection
+  nameWithType: IConfigurationPolicyCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  type: Interface
+  summary: "<p>RRepresents the operations that can be done on the partner's configuration policies. </p>"
+  syntax:
+    content: public interface IConfigurationPolicyCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ConfigurationPolicy, ResourceCollection<ConfigurationPolicy>>,IEntityCreateOperations<ConfigurationPolicy, ConfigurationPolicy>,IEntitySelector<String, IConfigurationPolicy>
+- uid: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.yml
+  name: ICustomerDeviceCollection
+  nameWithType: ICustomerDeviceCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's devices. </p>"
+  syntax:
+    content: public interface ICustomerDeviceCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  parent: com.microsoft.store.partnercenter.devicesdeployment
+  href: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.yml
+  name: IDevicesBatchCollection
+  nameWithType: IDevicesBatchCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on the partner's devices batches. </p>"
+  syntax:
+    content: public interface IDevicesBatchCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<DeviceBatch, ResourceCollection<DeviceBatch>>,IEntitySelector<String, IDevicesBatch>,IEntityCreateOperations<DeviceBatchCreationRequest, String>
+- uid: com.microsoft.store.partnercenter.domains.IDomain
+  parent: com.microsoft.store.partnercenter.domains
+  href: com.microsoft.store.partnercenter.domains.IDomain.yml
+  name: IDomain
+  nameWithType: IDomain
+  fullName: com.microsoft.store.partnercenter.domains.IDomain
+  type: Interface
+  syntax:
+    content: public interface IDomain extends IPartnerComponentString,IEntityExistsOperations
+- uid: com.microsoft.store.partnercenter.domains.IDomainCollection
+  parent: com.microsoft.store.partnercenter.domains
+  href: com.microsoft.store.partnercenter.domains.IDomainCollection.yml
+  name: IDomainCollection
+  nameWithType: IDomainCollection
+  fullName: com.microsoft.store.partnercenter.domains.IDomainCollection
+  type: Interface
+  syntax:
+    content: public interface IDomainCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+  parent: com.microsoft.store.partnercenter.entitlements
+  href: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.yml
+  name: IEntitlementCollection
+  nameWithType: IEntitlementCollection
+  fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be performed on entitlements associated to the customer based on the logged in partner. </p>"
+  syntax:
+    content: public interface IEntitlementCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Entitlement, ResourceCollection<Entitlement>>
+- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
+  parent: com.microsoft.store.partnercenter.enumerators
+  href: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.yml
+  name: IResourceCollectionEnumeratorContainer
+  nameWithType: IResourceCollectionEnumeratorContainer
+  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
+  type: Interface
+  summary: "<p>Contains supported resource collection enumerators. </p>"
+  syntax:
+    content: public interface IResourceCollectionEnumeratorContainer
+- uid: com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer
+  parent: com.microsoft.store.partnercenter.enumerators
+  href: com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer.yml
+  name: IUtilizationCollectionEnumeratorContainer
+  nameWithType: IUtilizationCollectionEnumeratorContainer
+  fullName: com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer
+  type: Interface
+  summary: "<p>Groups all supported utilization record enumerators for usage based subscriptions. </p>"
+  syntax:
+    content: public interface IUtilizationCollectionEnumeratorContainer
+- uid: com.microsoft.store.partnercenter.extensions.IExtensions
+  parent: com.microsoft.store.partnercenter.extensions
+  href: com.microsoft.store.partnercenter.extensions.IExtensions.yml
+  name: IExtensions
+  nameWithType: IExtensions
+  fullName: com.microsoft.store.partnercenter.extensions.IExtensions
+  type: Interface
+  summary: "<p>Holds operations that extend another set of operations. </p>"
+  syntax:
+    content: public interface IExtensions extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
+  parent: com.microsoft.store.partnercenter.extensions.products
+  href: com.microsoft.store.partnercenter.extensions.products.IProductExtensions.yml
+  name: IProductExtensions
+  nameWithType: IProductExtensions
+  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
+  type: Interface
+  summary: "<p>Holds extension operations for products. </p>"
+  syntax:
+    content: public interface IProductExtensions
+- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
+  parent: com.microsoft.store.partnercenter.extensions.products
+  href: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.yml
+  name: IProductExtensionsByCountry
+  nameWithType: IProductExtensionsByCountry
+  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
+  type: Interface
+  summary: "<p>Holds extension operations for products by country. </p>"
+  syntax:
+    content: public interface IProductExtensionsByCountry
+- uid: com.microsoft.store.partnercenter.invoices.IInvoice
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IInvoice.yml
+  name: IInvoice
+  nameWithType: IInvoice
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoice
+  type: Interface
+  summary: "<p>Represents all the operations that can be done on an invoice </p>"
+  syntax:
+    content: public interface IInvoice extends IPartnerComponentString,IEntityGetOperations<Invoice>
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceCollection.yml
+  name: IInvoiceCollection
+  nameWithType: IInvoiceCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on Partner's invoices </p>"
+  syntax:
+    content: public interface IInvoiceCollection extends IPartnerComponentString,IEntityCollectionRetrievalOperations<Invoice, ResourceCollection<Invoice>>,IEntitySelector<String, IInvoice>
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.yml
+  name: IInvoiceDocuments
+  nameWithType: IInvoiceDocuments
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
+  type: Interface
+  syntax:
+    content: public interface IInvoiceDocuments extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.yml
+  name: IInvoiceLineItemCollection
+  nameWithType: IInvoiceLineItemCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
+  type: Interface
+  syntax:
+    content: public interface IInvoiceLineItemCollection extends IPartnerComponentString,IEntityCollectionRetrievalOperations<InvoiceLineItem, ResourceCollection<InvoiceLineItem>>
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceStatement.yml
+  name: IInvoiceStatement
+  nameWithType: IInvoiceStatement
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
+  type: Interface
+  summary: "<p>Represents the operations available to an invoice statement. </p>"
+  syntax:
+    content: public interface IInvoiceStatement extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummary
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceSummary.yml
+  name: IInvoiceSummary
+  nameWithType: IInvoiceSummary
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummary
+  type: Interface
+  syntax:
+    content: public interface IInvoiceSummary extends IPartnerComponentString,IEntityGetOperations<InvoiceSummary>
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.yml
+  name: IInvoiceSummaryCollection
+  nameWithType: IInvoiceSummaryCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
+  type: Interface
+  summary: "<p>Represents all the operations that can be done on invoice summary collection. </p>"
+  syntax:
+    content: public interface IInvoiceSummaryCollection extends IPartnerComponentString,IEntityGetOperations<ResourceCollection<InvoiceSummary>>
+- uid: com.microsoft.store.partnercenter.invoices.IReceiptCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IReceiptCollection.yml
+  name: IReceiptCollection
+  nameWithType: IReceiptCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReceiptCollection
+  type: Interface
+  summary: "<p>Represents the available operations for receipts. </p>"
+  syntax:
+    content: public interface IReceiptCollection
+- uid: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+  parent: com.microsoft.store.partnercenter.managedservices
+  href: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection.yml
+  name: IManagedServiceCollection
+  nameWithType: IManagedServiceCollection
+  fullName: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+  type: Interface
+  summary: "<p>Holds the customer's managed services operations. </p>"
+  syntax:
+    content: public interface IManagedServiceCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ManagedService, ResourceCollection<ManagedService>>
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection.yml
+  name: ICustomerOfferCategoryCollection
+  nameWithType: ICustomerOfferCategoryCollection
+  fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+  type: Interface
+  syntax:
+    content: public interface ICustomerOfferCategoryCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<OfferCategory, ResourceCollection<OfferCategory>>
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.yml
+  name: ICustomerOfferCollection
+  nameWithType: ICustomerOfferCollection
+  fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+  type: Interface
+  syntax:
+    content: public interface ICustomerOfferCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Offer, ResourceCollection<Offer>>
+- uid: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection.yml
+  name: IOfferCategoryCollection
+  nameWithType: IOfferCategoryCollection
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
+  type: Interface
+  summary: "<p>Represents the behavior of offer categories available to partners. </p>"
+  syntax:
+    content: public interface IOfferCategoryCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<OfferCategory, ResourceCollection<OfferCategory>>
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.IOfferCollection.yml
+  name: IOfferCollection
+  nameWithType: IOfferCollection
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCollection
+  type: Interface
+  summary: "<p>Encapsulates the basic offers behavior. </p>"
+  syntax:
+    content: public interface IOfferCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollection
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderCollection.yml
+  name: IOrderCollection
+  nameWithType: IOrderCollection
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection
+  type: Interface
+  summary: "<p>Encapsulates customer orders behavior. </p>"
+  syntax:
+    content: public interface IOrderCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Order, ResourceCollection<Order>>,IEntityCreateOperations<Order, Order>,IEntitySelector<String, IOrder>
+- uid: com.microsoft.store.partnercenter.products.IProductCollection
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.IProductCollection.yml
+  name: IProductCollection
+  nameWithType: IProductCollection
+  fullName: com.microsoft.store.partnercenter.products.IProductCollection
+  type: Interface
+  summary: "<p>Holds operations that can be performed on products. </p>"
+  syntax:
+    content: public interface IProductCollection
+- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountry
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.yml
+  name: IProductCollectionByCountry
+  nameWithType: IProductCollectionByCountry
+  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountry
+  type: Interface
+  summary: "<p>Holds operations that can be performed on products from a given country. </p>"
+  syntax:
+    content: public interface IProductCollectionByCountry
+- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile
+  parent: com.microsoft.store.partnercenter.profiles
+  href: com.microsoft.store.partnercenter.profiles.IBillingProfile.yml
+  name: IBillingProfile
+  nameWithType: IBillingProfile
+  fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile
+  type: Interface
+  summary: "<p>Encapsulates behavior of a partner billing profile. </p>"
+  syntax:
+    content: public interface IBillingProfile extends IPartnerComponentString,IEntityGetOperations<BillingProfile>,IEntityUpdateOperations<BillingProfile>
+- uid: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
+  parent: com.microsoft.store.partnercenter.profiles
+  href: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.yml
+  name: ILegalBusinessProfile
+  nameWithType: ILegalBusinessProfile
+  fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
+  type: Interface
+  summary: "<p>Encapsulates behavior of a legal business profile. </p>"
+  syntax:
+    content: public interface ILegalBusinessProfile extends IPartnerComponentString,IEntityGetOperations<LegalBusinessProfile>,IEntityUpdateOperations<LegalBusinessProfile>
+- uid: com.microsoft.store.partnercenter.profiles.IMpnProfile
+  parent: com.microsoft.store.partnercenter.profiles
+  href: com.microsoft.store.partnercenter.profiles.IMpnProfile.yml
+  name: IMpnProfile
+  nameWithType: IMpnProfile
+  fullName: com.microsoft.store.partnercenter.profiles.IMpnProfile
+  type: Interface
+  summary: "<p>Operations for MpnProfile </p>"
+  syntax:
+    content: public interface IMpnProfile extends IPartnerComponentString,IEntityGetOperations<MpnProfile>
+- uid: com.microsoft.store.partnercenter.profiles.IOrganizationProfile
+  parent: com.microsoft.store.partnercenter.profiles
+  href: com.microsoft.store.partnercenter.profiles.IOrganizationProfile.yml
+  name: IOrganizationProfile
+  nameWithType: IOrganizationProfile
+  fullName: com.microsoft.store.partnercenter.profiles.IOrganizationProfile
+  type: Interface
+  summary: "<p>Encapsulates behavior of a organization profile. </p>"
+  syntax:
+    content: public interface IOrganizationProfile extends IPartnerComponentString,IEntityGetOperations<OrganizationProfile>,IEntityUpdateOperations<OrganizationProfile>
+- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
+  parent: com.microsoft.store.partnercenter.profiles
+  href: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.yml
+  name: IPartnerProfileCollection
+  nameWithType: IPartnerProfileCollection
+  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
+  type: Interface
+  summary: "<p>Represents the behavior of a partner's profiles. </p>"
+  syntax:
+    content: public interface IPartnerProfileCollection
+- uid: com.microsoft.store.partnercenter.profiles.ISupportProfile
+  parent: com.microsoft.store.partnercenter.profiles
+  href: com.microsoft.store.partnercenter.profiles.ISupportProfile.yml
+  name: ISupportProfile
+  nameWithType: ISupportProfile
+  fullName: com.microsoft.store.partnercenter.profiles.ISupportProfile
+  type: Interface
+  summary: "<p>Encapsulates behavior of a partner support profile. </p>"
+  syntax:
+    content: public interface ISupportProfile
+- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+  parent: com.microsoft.store.partnercenter.qualification
+  href: com.microsoft.store.partnercenter.qualification.ICustomerQualification.yml
+  name: ICustomerQualification
+  nameWithType: ICustomerQualification
+  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+  type: Interface
+  syntax:
+    content: public interface ICustomerQualification extends IPartnerComponentString,IEntityGetOperations<CustomerQualification>,IEntityUpdateOperations<CustomerQualification>
+- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+  parent: com.microsoft.store.partnercenter.ratecards
+  href: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.yml
+  name: IAzureRateCard
+  nameWithType: IAzureRateCard
+  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+  type: Interface
+  summary: "<p>Holds operations that apply to Azure rate card. </p>"
+  syntax:
+    content: public interface IAzureRateCard extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
+  parent: com.microsoft.store.partnercenter.ratecards
+  href: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.yml
+  name: IRateCardCollection
+  nameWithType: IRateCardCollection
+  fullName: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
+  type: Interface
+  summary: "<p>Holds operations that apply to rate cards. </p>"
+  syntax:
+    content: public interface IRateCardCollection
+- uid: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
+  parent: com.microsoft.store.partnercenter.relationshiprequests
+  href: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.yml
+  name: ICustomerRelationshipRequest
+  nameWithType: ICustomerRelationshipRequest
+  fullName: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
+  type: Interface
+  summary: "<p>Holds operations that apply to customer relationship requests. </p>"
+  syntax:
+    content: public interface ICustomerRelationshipRequest extends IPartnerComponentString,IEntityGetOperations<CustomerRelationshipRequest>
+- uid: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+  parent: com.microsoft.store.partnercenter.relationships
+  href: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.yml
+  name: ICustomerRelationshipCollection
+  nameWithType: ICustomerRelationshipCollection
+  fullName: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+  type: Interface
+  summary: "<p>For two-tier partner scenarios, holds the operations for retrieving partner relationships of a customer with respect to the logged in partner. </p>"
+  syntax:
+    content: public interface ICustomerRelationshipCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<PartnerRelationship, ResourceCollection<PartnerRelationship>>
+- uid: com.microsoft.store.partnercenter.relationships.IRelationshipCollection
+  parent: com.microsoft.store.partnercenter.relationships
+  href: com.microsoft.store.partnercenter.relationships.IRelationshipCollection.yml
+  name: IRelationshipCollection
+  nameWithType: IRelationshipCollection
+  fullName: com.microsoft.store.partnercenter.relationships.IRelationshipCollection
+  type: Interface
+  summary: "<p>This interface represents the operations that can be done on a partner's relationships. </p>"
+  syntax:
+    content: public interface IRelationshipCollection
+- uid: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+  parent: com.microsoft.store.partnercenter.serviceincidents
+  href: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.yml
+  name: IServiceIncidentCollection
+  nameWithType: IServiceIncidentCollection
+  fullName: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+  type: Interface
+  syntax:
+    content: public interface IServiceIncidentCollection
+- uid: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+  parent: com.microsoft.store.partnercenter.servicerequests
+  href: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.yml
+  name: IServiceRequestCollection
+  nameWithType: IServiceRequestCollection
+  fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+  type: Interface
+  summary: "<p>Represents the behavior of service requests. </p>"
+  syntax:
+    content: public interface IServiceRequestCollection
+- uid: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection
+  parent: com.microsoft.store.partnercenter.servicerequests
+  href: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.yml
+  name: ISupportTopicsCollection
+  nameWithType: ISupportTopicsCollection
+  fullName: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection
+  type: Interface
+  summary: "<p>Represents the behavior of support topics. Support Topics operations are localizable. </p>"
+  syntax:
+    content: public interface ISupportTopicsCollection
+- uid: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+  parent: com.microsoft.store.partnercenter.subscribedskus
+  href: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.yml
+  name: ICustomerSubscribedSkuCollection
+  nameWithType: ICustomerSubscribedSkuCollection
+  fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customers users </p>"
+  syntax:
+    content: public interface ICustomerSubscribedSkuCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<SubscribedSku, ResourceCollection<SubscribedSku>>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.yml
+  name: ISubscriptionCollection
+  nameWithType: ISubscriptionCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the customer subscriptions as a whole. </p>"
+  syntax:
+    content: public interface ISubscriptionCollection
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.yml
+  name: ICustomerUsageRecordCollection
+  nameWithType: ICustomerUsageRecordCollection
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+  type: Interface
+  summary: "<p>Defines the behavior of a customer usage record collection operations. </p>"
+  syntax:
+    content: public interface ICustomerUsageRecordCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<CustomerMonthlyUsageRecord, ResourceCollection<CustomerMonthlyUsageRecord>>
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.yml
+  name: ICustomerUsageSpendingBudget
+  nameWithType: ICustomerUsageSpendingBudget
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+  type: Interface
+  summary: "<p>This interface defines the operations available on a customer's usage spending budget. </p>"
+  syntax:
+    content: public interface ICustomerUsageSpendingBudget extends IPartnerComponentString,IEntityGetOperations<SpendingBudget>,IEntityPatchOperations<SpendingBudget>
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.yml
+  name: ICustomerUsageSummary
+  nameWithType: ICustomerUsageSummary
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
+  type: Interface
+  summary: "<p>This interface defines the operations available on a customer's usage summary. </p>"
+  syntax:
+    content: public interface ICustomerUsageSummary extends IPartnerComponentString,IEntityGetOperations<CustomerUsageSummary>
+- uid: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary.yml
+  name: IPartnerUsageSummary
+  nameWithType: IPartnerUsageSummary
+  fullName: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary
+  type: Interface
+  summary: "<p>This interface defines the operations available on a partner's usage summary. </p>"
+  syntax:
+    content: public interface IPartnerUsageSummary
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.yml
+  name: ISubscriptionMonthlyUsageRecordCollection
+  nameWithType: ISubscriptionMonthlyUsageRecordCollection
+  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+  type: Interface
+  summary: "<p>Defines the behavior for a subscription's daily usage records. </p>"
+  syntax:
+    content: public interface ISubscriptionMonthlyUsageRecordCollection
+- uid: com.microsoft.store.partnercenter.validations.IValidationOperations
+  parent: com.microsoft.store.partnercenter.validations
+  href: com.microsoft.store.partnercenter.validations.IValidationOperations.yml
+  name: IValidationOperations
+  nameWithType: IValidationOperations
+  fullName: com.microsoft.store.partnercenter.validations.IValidationOperations
+  type: Interface
+  summary: "<p>Represents the behavior of a validation operations. </p>"
+  syntax:
+    content: public interface IValidationOperations

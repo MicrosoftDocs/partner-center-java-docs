@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.products.Product
+  id: Product
+  parent: com.microsoft.store.partnercenter.models.products
+  children:
+  - com.microsoft.store.partnercenter.models.products.Product.getDescription()
+  - com.microsoft.store.partnercenter.models.products.Product.getId()
+  - com.microsoft.store.partnercenter.models.products.Product.getIsMicrosoftProduct()
+  - com.microsoft.store.partnercenter.models.products.Product.getProductType()
+  - com.microsoft.store.partnercenter.models.products.Product.getPublisherName()
+  - com.microsoft.store.partnercenter.models.products.Product.getTitle()
+  - com.microsoft.store.partnercenter.models.products.Product.setDescription(String)
+  - com.microsoft.store.partnercenter.models.products.Product.setId(String)
+  - com.microsoft.store.partnercenter.models.products.Product.setIsMicrosoftProduct(boolean)
+  - com.microsoft.store.partnercenter.models.products.Product.setProductType(ItemType)
+  - com.microsoft.store.partnercenter.models.products.Product.setPublisherName(String)
+  - com.microsoft.store.partnercenter.models.products.Product.setTitle(String)
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: Product
+  nameWithType: Product
+  fullName: com.microsoft.store.partnercenter.models.products.Product
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 14
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Class that represents a product. </p>"
+  syntax:
+    content: public class Product extends ResourceBaseWithLinks<StandardResourceLinks>
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.ResourceBase
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(String)
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+- uid: com.microsoft.store.partnercenter.models.products.Product.getDescription()
+  id: getDescription()
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: getDescription()
+  nameWithType: Product.getDescription()
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getDescription()
+  overload: com.microsoft.store.partnercenter.models.products.Product.getDescription*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 102
+  package: com.microsoft.store.partnercenter.models.products
+  syntax:
+    content: public String getDescription()
+    return:
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.products.Product.getId()
+  id: getId()
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: getId()
+  nameWithType: Product.getId()
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getId()
+  overload: com.microsoft.store.partnercenter.models.products.Product.getId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 72
+  package: com.microsoft.store.partnercenter.models.products
+  syntax:
+    content: public String getId()
+    return:
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.products.Product.getIsMicrosoftProduct()
+  id: getIsMicrosoftProduct()
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: getIsMicrosoftProduct()
+  nameWithType: Product.getIsMicrosoftProduct()
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getIsMicrosoftProduct()
+  overload: com.microsoft.store.partnercenter.models.products.Product.getIsMicrosoftProduct*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 32
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Gets a flag indicating whether this is a Microsoft product or not.</p>\r\n<p></p>"
+  syntax:
+    content: public boolean getIsMicrosoftProduct()
+    return:
+      type: 4fc6e284
+      description: <p>A flag indicating whether this is a Microsoft product or not. </p>
+- uid: com.microsoft.store.partnercenter.models.products.Product.getProductType()
+  id: getProductType()
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: getProductType()
+  nameWithType: Product.getProductType()
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getProductType()
+  overload: com.microsoft.store.partnercenter.models.products.Product.getProductType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 117
+  package: com.microsoft.store.partnercenter.models.products
+  syntax:
+    content: public ItemType getProductType()
+    return:
+      type: com.microsoft.store.partnercenter.models.products.ItemType
+- uid: com.microsoft.store.partnercenter.models.products.Product.getPublisherName()
+  id: getPublisherName()
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: getPublisherName()
+  nameWithType: Product.getPublisherName()
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getPublisherName()
+  overload: com.microsoft.store.partnercenter.models.products.Product.getPublisherName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 52
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Gets the name of the publisher.</p>\r\n<p></p>"
+  syntax:
+    content: public String getPublisherName()
+    return:
+      type: "26831127"
+      description: <p>The name of the publisher. </p>
+- uid: com.microsoft.store.partnercenter.models.products.Product.getTitle()
+  id: getTitle()
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: getTitle()
+  nameWithType: Product.getTitle()
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getTitle()
+  overload: com.microsoft.store.partnercenter.models.products.Product.getTitle*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 87
+  package: com.microsoft.store.partnercenter.models.products
+  syntax:
+    content: public String getTitle()
+    return:
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.products.Product.setDescription(String)
+  id: setDescription(String)
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: setDescription(String value)
+  nameWithType: Product.setDescription(String value)
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setDescription(String value)
+  overload: com.microsoft.store.partnercenter.models.products.Product.setDescription*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 107
+  package: com.microsoft.store.partnercenter.models.products
+  syntax:
+    content: public void setDescription(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.products.Product.setId(String)
+  id: setId(String)
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: setId(String value)
+  nameWithType: Product.setId(String value)
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setId(String value)
+  overload: com.microsoft.store.partnercenter.models.products.Product.setId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 77
+  package: com.microsoft.store.partnercenter.models.products
+  syntax:
+    content: public void setId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.products.Product.setIsMicrosoftProduct(boolean)
+  id: setIsMicrosoftProduct(boolean)
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: setIsMicrosoftProduct(boolean value)
+  nameWithType: Product.setIsMicrosoftProduct(boolean value)
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setIsMicrosoftProduct(boolean value)
+  overload: com.microsoft.store.partnercenter.models.products.Product.setIsMicrosoftProduct*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 42
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Sets a flag indicating whether this is a Microsoft product or not.</p>\r\n<p></p>"
+  syntax:
+    content: public void setIsMicrosoftProduct(boolean value)
+    parameters:
+    - id: value
+      type: 4fc6e284
+      description: <p>A flag indicating whether this is a Microsoft product or not. </p>
+- uid: com.microsoft.store.partnercenter.models.products.Product.setProductType(ItemType)
+  id: setProductType(ItemType)
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: setProductType(ItemType value)
+  nameWithType: Product.setProductType(ItemType value)
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setProductType(ItemType value)
+  overload: com.microsoft.store.partnercenter.models.products.Product.setProductType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 122
+  package: com.microsoft.store.partnercenter.models.products
+  syntax:
+    content: public void setProductType(ItemType value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.products.ItemType
+- uid: com.microsoft.store.partnercenter.models.products.Product.setPublisherName(String)
+  id: setPublisherName(String)
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: setPublisherName(String value)
+  nameWithType: Product.setPublisherName(String value)
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setPublisherName(String value)
+  overload: com.microsoft.store.partnercenter.models.products.Product.setPublisherName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 62
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Sets the name of the publisher.</p>\r\n<p></p>"
+  syntax:
+    content: public void setPublisherName(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The name of the publisher. </p>
+- uid: com.microsoft.store.partnercenter.models.products.Product.setTitle(String)
+  id: setTitle(String)
+  parent: com.microsoft.store.partnercenter.models.products.Product
+  href: com.microsoft.store.partnercenter.models.products.Product.yml
+  langs:
+  - java
+  name: setTitle(String value)
+  nameWithType: Product.setTitle(String value)
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setTitle(String value)
+  overload: com.microsoft.store.partnercenter.models.products.Product.setTitle*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/Product.java
+    startLine: 92
+  package: com.microsoft.store.partnercenter.models.products
+  syntax:
+    content: public void setTitle(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+references:
+- uid: 4fc6e284
+  spec.java:
+  - name: boolean
+    fullName: boolean
+- uid: com.microsoft.store.partnercenter.models.products.Product.getIsMicrosoftProduct*
+  name: getIsMicrosoftProduct
+  nameWithType: Product.getIsMicrosoftProduct
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getIsMicrosoftProduct
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.Product.setIsMicrosoftProduct*
+  name: setIsMicrosoftProduct
+  nameWithType: Product.setIsMicrosoftProduct
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setIsMicrosoftProduct
+  package: com.microsoft.store.partnercenter.models.products
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.products.Product.getPublisherName*
+  name: getPublisherName
+  nameWithType: Product.getPublisherName
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getPublisherName
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.Product.setPublisherName*
+  name: setPublisherName
+  nameWithType: Product.setPublisherName
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setPublisherName
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.Product.getId*
+  name: getId
+  nameWithType: Product.getId
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getId
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.Product.setId*
+  name: setId
+  nameWithType: Product.setId
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setId
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.Product.getTitle*
+  name: getTitle
+  nameWithType: Product.getTitle
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getTitle
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.Product.setTitle*
+  name: setTitle
+  nameWithType: Product.setTitle
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setTitle
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.Product.getDescription*
+  name: getDescription
+  nameWithType: Product.getDescription
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getDescription
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.Product.setDescription*
+  name: setDescription
+  nameWithType: Product.setDescription
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setDescription
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.Product.getProductType*
+  name: getProductType
+  nameWithType: Product.getProductType
+  fullName: com.microsoft.store.partnercenter.models.products.Product.getProductType
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.Product.setProductType*
+  name: setProductType
+  nameWithType: Product.setProductType
+  fullName: com.microsoft.store.partnercenter.models.products.Product.setProductType
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: getAttributes()
+  nameWithType: ResourceBase.getAttributes()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  type: Method
+  summary: "<p>Gets the attributes.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceAttributes getAttributes()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceAttributes
+      description: <p>The resource attributes. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
+  name: getLinks()
+  nameWithType: ResourceBaseWithLinks<TLinks>.getLinks()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.getLinks()
+  type: Method
+  summary: "<p>Gets the links.</p>\r\n<p></p>"
+  syntax:
+    content: public TLinks getLinks()
+    return:
+      type: 694adf1c
+      description: <p>The links. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: ResourceBase()
+  nameWithType: ResourceBase.ResourceBase()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBase class. </p>"
+  syntax:
+    content: protected ResourceBase()
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
+  parent: com.microsoft.store.partnercenter.models.ResourceBase
+  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
+  name: ResourceBase(String objectType)
+  nameWithType: ResourceBase.ResourceBase(String objectType)
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String objectType)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBase class.</p>\r\n<p></p>"
+  syntax:
+    content: protected ResourceBase(String objectType)
+    parameters:
+    - id: objectType
+      type: "26831127"
+      description: <p>Type of the object. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(String)
+  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
+  name: ResourceBaseWithLinks(String objectType)
+  nameWithType: ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks(String objectType)
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks(String objectType)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBaseWithLinks class.</p>\r\n<p></p>"
+  syntax:
+    content: protected ResourceBaseWithLinks(String objectType)
+    parameters:
+    - id: objectType
+      type: "26831127"
+      description: <p>Type of the object. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()
+  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
+  name: ResourceBaseWithLinks()
+  nameWithType: ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()
+  type: Constructor
+  summary: "<p>Initializes a new instance of the ResourceBaseWithLinks class. </p>"
+  syntax:
+    content: protected ResourceBaseWithLinks()
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
+  name: setLinks(TLinks value)
+  nameWithType: ResourceBaseWithLinks<TLinks>.setLinks(TLinks value)
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.setLinks(TLinks value)
+  type: Method
+  summary: "<p>Sets the links.</p>\r\n<p></p>"
+  syntax:
+    content: public void setLinks(TLinks value)
+    parameters:
+    - id: value
+      type: 694adf1c
+      description: <p>The links. </p>
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
+  name: ResourceBaseWithLinks<TLinks>
+  nameWithType: ResourceBaseWithLinks<TLinks>
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>
+  type: Class
+  summary: "<p>Base class for resources </p>"
+  syntax:
+    content: public class ResourceBaseWithLinks<TLinks>
+    typeParameters:
+    - id: TLinks
+      type: 694adf1c
+- uid: com.microsoft.store.partnercenter.models.products.ItemType
+  parent: com.microsoft.store.partnercenter.models.products
+  href: com.microsoft.store.partnercenter.models.products.ItemType.yml
+  name: ItemType
+  nameWithType: ItemType
+  fullName: com.microsoft.store.partnercenter.models.products.ItemType
+  type: Class
+  summary: "<p>Class that represents an item's type. </p>"
+  syntax:
+    content: public class ItemType

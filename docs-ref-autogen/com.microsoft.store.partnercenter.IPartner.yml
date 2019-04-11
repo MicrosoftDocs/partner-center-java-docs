@@ -1,0 +1,1186 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.IPartner
+  id: IPartner
+  parent: com.microsoft.store.partnercenter
+  children:
+  - com.microsoft.store.partnercenter.IPartner.getAgreementDetails()
+  - com.microsoft.store.partnercenter.IPartner.getAnalytics()
+  - com.microsoft.store.partnercenter.IPartner.getAuditRecords()
+  - com.microsoft.store.partnercenter.IPartner.getCountryValidationRules()
+  - com.microsoft.store.partnercenter.IPartner.getCredentials()
+  - com.microsoft.store.partnercenter.IPartner.getCustomers()
+  - com.microsoft.store.partnercenter.IPartner.getDomains()
+  - com.microsoft.store.partnercenter.IPartner.getEnumerators()
+  - com.microsoft.store.partnercenter.IPartner.getExtensions()
+  - com.microsoft.store.partnercenter.IPartner.getInvoices()
+  - com.microsoft.store.partnercenter.IPartner.getOfferCategories()
+  - com.microsoft.store.partnercenter.IPartner.getOffers()
+  - com.microsoft.store.partnercenter.IPartner.getProducts()
+  - com.microsoft.store.partnercenter.IPartner.getProfiles()
+  - com.microsoft.store.partnercenter.IPartner.getRateCards()
+  - com.microsoft.store.partnercenter.IPartner.getRelationships()
+  - com.microsoft.store.partnercenter.IPartner.getRequestContext()
+  - com.microsoft.store.partnercenter.IPartner.getServiceClient()
+  - com.microsoft.store.partnercenter.IPartner.getServiceIncidents()
+  - com.microsoft.store.partnercenter.IPartner.getServiceRequests()
+  - com.microsoft.store.partnercenter.IPartner.getUsageSummary()
+  - com.microsoft.store.partnercenter.IPartner.getValidations()
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 36
+  package: com.microsoft.store.partnercenter
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.IPartner.getAgreementDetails()
+  id: getAgreementDetails()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getAgreementDetails()
+  nameWithType: IPartner.getAgreementDetails()
+  fullName: com.microsoft.store.partnercenter.IPartner.getAgreementDetails()
+  overload: com.microsoft.store.partnercenter.IPartner.getAgreementDetails*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 183
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the agreement metadata operations.</p>\r\n<p></p>"
+  syntax:
+    content: public IAgreementDetailsCollection getAgreementDetails()
+    return:
+      type: com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection
+      description: <p>The agreement metadata operations. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getAnalytics()
+  id: getAnalytics()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getAnalytics()
+  nameWithType: IPartner.getAnalytics()
+  fullName: com.microsoft.store.partnercenter.IPartner.getAnalytics()
+  overload: com.microsoft.store.partnercenter.IPartner.getAnalytics*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 148
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the analytics collection operations.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartnerAnalyticsCollection getAnalytics()
+    return:
+      type: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
+      description: <p>The analytics collection operations. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getAuditRecords()
+  id: getAuditRecords()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getAuditRecords()
+  nameWithType: IPartner.getAuditRecords()
+  fullName: com.microsoft.store.partnercenter.IPartner.getAuditRecords()
+  overload: com.microsoft.store.partnercenter.IPartner.getAuditRecords*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 134
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the audit records operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public IAuditRecordsCollection getAuditRecords()
+    return:
+      type: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
+      description: <p>The audit records operations available to the partner. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getCountryValidationRules()
+  id: getCountryValidationRules()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getCountryValidationRules()
+  nameWithType: IPartner.getCountryValidationRules()
+  fullName: com.microsoft.store.partnercenter.IPartner.getCountryValidationRules()
+  overload: com.microsoft.store.partnercenter.IPartner.getCountryValidationRules*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 113
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the country validation rules collection operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public ICountryValidationRulesCollection getCountryValidationRules()
+    return:
+      type: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
+      description: <p>The country validation rules collection operations available to the partner. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getCredentials()
+  id: getCredentials()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getCredentials()
+  nameWithType: IPartner.getCredentials()
+  fullName: com.microsoft.store.partnercenter.IPartner.getCredentials()
+  overload: com.microsoft.store.partnercenter.IPartner.getCredentials*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 43
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the partner credentials.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartnerCredentials getCredentials()
+    return:
+      type: com.microsoft.store.partnercenter.IPartnerCredentials
+      description: <p>The partner credentials. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getCustomers()
+  id: getCustomers()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getCustomers()
+  nameWithType: IPartner.getCustomers()
+  fullName: com.microsoft.store.partnercenter.IPartner.getCustomers()
+  overload: com.microsoft.store.partnercenter.IPartner.getCustomers*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 85
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the partner customers operations.</p>\r\n<p></p>"
+  syntax:
+    content: public ICustomerCollection getCustomers()
+    return:
+      type: com.microsoft.store.partnercenter.customers.ICustomerCollection
+      description: <p>The partner customers operations. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getDomains()
+  id: getDomains()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getDomains()
+  nameWithType: IPartner.getDomains()
+  fullName: com.microsoft.store.partnercenter.IPartner.getDomains()
+  overload: com.microsoft.store.partnercenter.IPartner.getDomains*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 127
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the domains operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public IDomainCollection getDomains()
+    return:
+      type: com.microsoft.store.partnercenter.domains.IDomainCollection
+      description: <p>The domains operations available to the partner. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getEnumerators()
+  id: getEnumerators()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getEnumerators()
+  nameWithType: IPartner.getEnumerators()
+  fullName: com.microsoft.store.partnercenter.IPartner.getEnumerators()
+  overload: com.microsoft.store.partnercenter.IPartner.getEnumerators*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 57
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the collection enumerators available for traversing through results.</p>\r\n<p></p>"
+  syntax:
+    content: public IResourceCollectionEnumeratorContainer getEnumerators()
+    return:
+      type: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
+      description: <p>The collection enumerators available for traversing through results. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getExtensions()
+  id: getExtensions()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getExtensions()
+  nameWithType: IPartner.getExtensions()
+  fullName: com.microsoft.store.partnercenter.IPartner.getExtensions()
+  overload: com.microsoft.store.partnercenter.IPartner.getExtensions*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 155
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the extensions operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public IExtensions getExtensions()
+    return:
+      type: com.microsoft.store.partnercenter.extensions.IExtensions
+      description: <p>The extensions operations available to the partner. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getInvoices()
+  id: getInvoices()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getInvoices()
+  nameWithType: IPartner.getInvoices()
+  fullName: com.microsoft.store.partnercenter.IPartner.getInvoices()
+  overload: com.microsoft.store.partnercenter.IPartner.getInvoices*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 92
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the partner invoice operations.</p>\r\n<p></p>"
+  syntax:
+    content: public IInvoiceCollection getInvoices()
+    return:
+      type: com.microsoft.store.partnercenter.invoices.IInvoiceCollection
+      description: <p>The partner invoice operations. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getOfferCategories()
+  id: getOfferCategories()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getOfferCategories()
+  nameWithType: IPartner.getOfferCategories()
+  fullName: com.microsoft.store.partnercenter.IPartner.getOfferCategories()
+  overload: com.microsoft.store.partnercenter.IPartner.getOfferCategories*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 64
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the offer categories operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public ICountrySelector<IOfferCategoryCollection> getOfferCategories()
+    return:
+      type: com.microsoft.store.partnercenter.genericoperations.ICountrySelector78504a52com.microsoft.store.partnercenter.offers.IOfferCategoryCollectiona08ddfce
+      description: <p>The offer categories operations available to the partner. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getOffers()
+  id: getOffers()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getOffers()
+  nameWithType: IPartner.getOffers()
+  fullName: com.microsoft.store.partnercenter.IPartner.getOffers()
+  overload: com.microsoft.store.partnercenter.IPartner.getOffers*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 71
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the offer operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public ICountrySelector<IOfferCollection> getOffers()
+    return:
+      type: com.microsoft.store.partnercenter.genericoperations.ICountrySelector78504a52com.microsoft.store.partnercenter.offers.IOfferCollectiona08ddfce
+      description: <p>The offer operations available to the partner. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getProducts()
+  id: getProducts()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getProducts()
+  nameWithType: IPartner.getProducts()
+  fullName: com.microsoft.store.partnercenter.IPartner.getProducts()
+  overload: com.microsoft.store.partnercenter.IPartner.getProducts*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 162
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the product operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public IProductCollection getProducts()
+    return:
+      type: com.microsoft.store.partnercenter.products.IProductCollection
+      description: <p>The product operations available to the partner. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getProfiles()
+  id: getProfiles()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getProfiles()
+  nameWithType: IPartner.getProfiles()
+  fullName: com.microsoft.store.partnercenter.IPartner.getProfiles()
+  overload: com.microsoft.store.partnercenter.IPartner.getProfiles*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 78
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the profiles operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartnerProfileCollection getProfiles()
+    return:
+      type: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
+      description: <p>The profiles operations available to the partner. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getRateCards()
+  id: getRateCards()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getRateCards()
+  nameWithType: IPartner.getRateCards()
+  fullName: com.microsoft.store.partnercenter.IPartner.getRateCards()
+  overload: com.microsoft.store.partnercenter.IPartner.getRateCards*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 141
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the rate card operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public IRateCardCollection getRateCards()
+    return:
+      type: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
+      description: <p>The rate card operations available to the partner. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getRelationships()
+  id: getRelationships()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getRelationships()
+  nameWithType: IPartner.getRelationships()
+  fullName: com.microsoft.store.partnercenter.IPartner.getRelationships()
+  overload: com.microsoft.store.partnercenter.IPartner.getRelationships*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 169
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the relationship collection operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public IRelationshipCollection getRelationships()
+    return:
+      type: com.microsoft.store.partnercenter.relationships.IRelationshipCollection
+      description: <p>The relationship collection operations available to the partner. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getRequestContext()
+  id: getRequestContext()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getRequestContext()
+  nameWithType: IPartner.getRequestContext()
+  fullName: com.microsoft.store.partnercenter.IPartner.getRequestContext()
+  overload: com.microsoft.store.partnercenter.IPartner.getRequestContext*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 50
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the request context.</p>\r\n<p></p>"
+  syntax:
+    content: public IRequestContext getRequestContext()
+    return:
+      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+      description: <p>The request context. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getServiceClient()
+  id: getServiceClient()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getServiceClient()
+  nameWithType: IPartner.getServiceClient()
+  fullName: com.microsoft.store.partnercenter.IPartner.getServiceClient()
+  overload: com.microsoft.store.partnercenter.IPartner.getServiceClient*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 190
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the partner service client.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartnerServiceClient getServiceClient()
+    return:
+      type: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+      description: <p>The partner service client. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getServiceIncidents()
+  id: getServiceIncidents()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getServiceIncidents()
+  nameWithType: IPartner.getServiceIncidents()
+  fullName: com.microsoft.store.partnercenter.IPartner.getServiceIncidents()
+  overload: com.microsoft.store.partnercenter.IPartner.getServiceIncidents*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 106
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the service health operations that can be performed on a partner's subscribed services.</p>\r\n<p></p>"
+  syntax:
+    content: public IServiceIncidentCollection getServiceIncidents()
+    return:
+      type: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+      description: <p>The service health operations that can be performed on a partner's subscribed services. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getServiceRequests()
+  id: getServiceRequests()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getServiceRequests()
+  nameWithType: IPartner.getServiceRequests()
+  fullName: com.microsoft.store.partnercenter.IPartner.getServiceRequests()
+  overload: com.microsoft.store.partnercenter.IPartner.getServiceRequests*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 99
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the operations that can be performed on a partners' service requests.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartnerServiceRequestCollection getServiceRequests()
+    return:
+      type: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection
+      description: <p>The operations that can be performed on a partners' service requests. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getUsageSummary()
+  id: getUsageSummary()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getUsageSummary()
+  nameWithType: IPartner.getUsageSummary()
+  fullName: com.microsoft.store.partnercenter.IPartner.getUsageSummary()
+  overload: com.microsoft.store.partnercenter.IPartner.getUsageSummary*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 120
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the usage summary operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartnerUsageSummary getUsageSummary()
+    return:
+      type: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary
+      description: <p>The usage summary operations available to the partner. </p>
+- uid: com.microsoft.store.partnercenter.IPartner.getValidations()
+  id: getValidations()
+  parent: com.microsoft.store.partnercenter.IPartner
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  langs:
+  - java
+  name: getValidations()
+  nameWithType: IPartner.getValidations()
+  fullName: com.microsoft.store.partnercenter.IPartner.getValidations()
+  overload: com.microsoft.store.partnercenter.IPartner.getValidations*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/IPartner.java
+    startLine: 176
+  package: com.microsoft.store.partnercenter
+  summary: "<p>Gets the validation operations available to the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public IValidationOperations getValidations()
+    return:
+      type: com.microsoft.store.partnercenter.validations.IValidationOperations
+      description: <p>The validation operations available to the partner. </p>
+references:
+- uid: com.microsoft.store.partnercenter.IPartner.getCredentials*
+  name: getCredentials
+  nameWithType: IPartner.getCredentials
+  fullName: com.microsoft.store.partnercenter.IPartner.getCredentials
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getRequestContext*
+  name: getRequestContext
+  nameWithType: IPartner.getRequestContext
+  fullName: com.microsoft.store.partnercenter.IPartner.getRequestContext
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getEnumerators*
+  name: getEnumerators
+  nameWithType: IPartner.getEnumerators
+  fullName: com.microsoft.store.partnercenter.IPartner.getEnumerators
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector78504a52com.microsoft.store.partnercenter.offers.IOfferCategoryCollectiona08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector
+    name: ICountrySelector
+    fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector
+    href: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
+    name: IOfferCategoryCollection
+    fullName: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
+    href: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.IPartner.getOfferCategories*
+  name: getOfferCategories
+  nameWithType: IPartner.getOfferCategories
+  fullName: com.microsoft.store.partnercenter.IPartner.getOfferCategories
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector78504a52com.microsoft.store.partnercenter.offers.IOfferCollectiona08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector
+    name: ICountrySelector
+    fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector
+    href: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.offers.IOfferCollection
+    name: IOfferCollection
+    fullName: com.microsoft.store.partnercenter.offers.IOfferCollection
+    href: com.microsoft.store.partnercenter.offers.IOfferCollection.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.IPartner.getOffers*
+  name: getOffers
+  nameWithType: IPartner.getOffers
+  fullName: com.microsoft.store.partnercenter.IPartner.getOffers
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getProfiles*
+  name: getProfiles
+  nameWithType: IPartner.getProfiles
+  fullName: com.microsoft.store.partnercenter.IPartner.getProfiles
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getCustomers*
+  name: getCustomers
+  nameWithType: IPartner.getCustomers
+  fullName: com.microsoft.store.partnercenter.IPartner.getCustomers
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getInvoices*
+  name: getInvoices
+  nameWithType: IPartner.getInvoices
+  fullName: com.microsoft.store.partnercenter.IPartner.getInvoices
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getServiceRequests*
+  name: getServiceRequests
+  nameWithType: IPartner.getServiceRequests
+  fullName: com.microsoft.store.partnercenter.IPartner.getServiceRequests
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getServiceIncidents*
+  name: getServiceIncidents
+  nameWithType: IPartner.getServiceIncidents
+  fullName: com.microsoft.store.partnercenter.IPartner.getServiceIncidents
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getCountryValidationRules*
+  name: getCountryValidationRules
+  nameWithType: IPartner.getCountryValidationRules
+  fullName: com.microsoft.store.partnercenter.IPartner.getCountryValidationRules
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getUsageSummary*
+  name: getUsageSummary
+  nameWithType: IPartner.getUsageSummary
+  fullName: com.microsoft.store.partnercenter.IPartner.getUsageSummary
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getDomains*
+  name: getDomains
+  nameWithType: IPartner.getDomains
+  fullName: com.microsoft.store.partnercenter.IPartner.getDomains
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getAuditRecords*
+  name: getAuditRecords
+  nameWithType: IPartner.getAuditRecords
+  fullName: com.microsoft.store.partnercenter.IPartner.getAuditRecords
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getRateCards*
+  name: getRateCards
+  nameWithType: IPartner.getRateCards
+  fullName: com.microsoft.store.partnercenter.IPartner.getRateCards
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getAnalytics*
+  name: getAnalytics
+  nameWithType: IPartner.getAnalytics
+  fullName: com.microsoft.store.partnercenter.IPartner.getAnalytics
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getExtensions*
+  name: getExtensions
+  nameWithType: IPartner.getExtensions
+  fullName: com.microsoft.store.partnercenter.IPartner.getExtensions
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getProducts*
+  name: getProducts
+  nameWithType: IPartner.getProducts
+  fullName: com.microsoft.store.partnercenter.IPartner.getProducts
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getRelationships*
+  name: getRelationships
+  nameWithType: IPartner.getRelationships
+  fullName: com.microsoft.store.partnercenter.IPartner.getRelationships
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getValidations*
+  name: getValidations
+  nameWithType: IPartner.getValidations
+  fullName: com.microsoft.store.partnercenter.IPartner.getValidations
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getAgreementDetails*
+  name: getAgreementDetails
+  nameWithType: IPartner.getAgreementDetails
+  fullName: com.microsoft.store.partnercenter.IPartner.getAgreementDetails
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IPartner.getServiceClient*
+  name: getServiceClient
+  nameWithType: IPartner.getServiceClient
+  fullName: com.microsoft.store.partnercenter.IPartner.getServiceClient
+  package: com.microsoft.store.partnercenter
+- uid: com.microsoft.store.partnercenter.IAggregatePartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IAggregatePartner.yml
+  name: IAggregatePartner
+  nameWithType: IAggregatePartner
+  fullName: com.microsoft.store.partnercenter.IAggregatePartner
+  type: Interface
+  summary: "<p>A partner operations interface which can be used to generate scoped partner operations that use a specific partner context. </p>"
+  syntax:
+    content: public interface IAggregatePartner extends IPartner
+- uid: com.microsoft.store.partnercenter.PartnerOperations
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: PartnerOperations
+  nameWithType: PartnerOperations
+  fullName: com.microsoft.store.partnercenter.PartnerOperations
+  type: Class
+  summary: "<p>The partner implementation class. </p>"
+  syntax:
+    content: public class PartnerOperations
+- uid: com.microsoft.store.partnercenter.IPartnerCredentials
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartnerCredentials.yml
+  name: IPartnerCredentials
+  nameWithType: IPartnerCredentials
+  fullName: com.microsoft.store.partnercenter.IPartnerCredentials
+  type: Interface
+  summary: "<p>The credentials needed to access the partner service. </p>"
+  syntax:
+    content: public interface IPartnerCredentials
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getCredentials()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getCredentials()
+  nameWithType: PartnerOperations.getCredentials()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getCredentials()
+  type: Method
+  summary: "<p>Gets the partner credentials.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartnerCredentials getCredentials()
+    return:
+      type: com.microsoft.store.partnercenter.IPartnerCredentials
+      description: <p>The partner credentials. </p>
+- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+  parent: com.microsoft.store.partnercenter.requestcontext
+  href: com.microsoft.store.partnercenter.requestcontext.IRequestContext.yml
+  name: IRequestContext
+  nameWithType: IRequestContext
+  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+  type: Interface
+  summary: "<p>Bundles context information which is amended to the partner SDK operations. </p>"
+  syntax:
+    content: public interface IRequestContext
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getRequestContext()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getRequestContext()
+  nameWithType: PartnerOperations.getRequestContext()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getRequestContext()
+  type: Method
+  summary: "<p>Gets the request context.</p>\r\n<p></p>"
+  syntax:
+    content: public IRequestContext getRequestContext()
+    return:
+      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+      description: <p>The request context. </p>
+- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
+  parent: com.microsoft.store.partnercenter.enumerators
+  href: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.yml
+  name: IResourceCollectionEnumeratorContainer
+  nameWithType: IResourceCollectionEnumeratorContainer
+  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
+  type: Interface
+  summary: "<p>Contains supported resource collection enumerators. </p>"
+  syntax:
+    content: public interface IResourceCollectionEnumeratorContainer
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getEnumerators()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getEnumerators()
+  nameWithType: PartnerOperations.getEnumerators()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getEnumerators()
+  type: Method
+  summary: "<p>Gets the collection enumerators available for traversing through results. </p>"
+  syntax:
+    content: public IResourceCollectionEnumeratorContainer getEnumerators()
+    return:
+      type: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
+- uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.yml
+  name: ICountrySelector<TOperations>
+  nameWithType: ICountrySelector<TOperations>
+  fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector<TOperations>
+  type: Interface
+  summary: "<p>Returns operations interfaces based on the given country. </p>"
+  syntax:
+    content: public interface ICountrySelector<TOperations>
+    typeParameters:
+    - id: TOperations
+      type: a8070b06
+- uid: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection.yml
+  name: IOfferCategoryCollection
+  nameWithType: IOfferCategoryCollection
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCategoryCollection
+  type: Interface
+  summary: "<p>Represents the behavior of offer categories available to partners. </p>"
+  syntax:
+    content: public interface IOfferCategoryCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<OfferCategory, ResourceCollection<OfferCategory>>
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getOfferCategories()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getOfferCategories()
+  nameWithType: PartnerOperations.getOfferCategories()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getOfferCategories()
+  type: Method
+  summary: "<p>Gets the offer categories operations available to the partner. </p>"
+  syntax:
+    content: public ICountrySelector<IOfferCategoryCollection> getOfferCategories()
+    return:
+      type: com.microsoft.store.partnercenter.genericoperations.ICountrySelector78504a52com.microsoft.store.partnercenter.offers.IOfferCategoryCollectiona08ddfce
+- uid: com.microsoft.store.partnercenter.offers.IOfferCollection
+  parent: com.microsoft.store.partnercenter.offers
+  href: com.microsoft.store.partnercenter.offers.IOfferCollection.yml
+  name: IOfferCollection
+  nameWithType: IOfferCollection
+  fullName: com.microsoft.store.partnercenter.offers.IOfferCollection
+  type: Interface
+  summary: "<p>Encapsulates the basic offers behavior. </p>"
+  syntax:
+    content: public interface IOfferCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getOffers()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getOffers()
+  nameWithType: PartnerOperations.getOffers()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getOffers()
+  type: Method
+  summary: "<p>Gets the offer operations available to the partner. </p>"
+  syntax:
+    content: public ICountrySelector<IOfferCollection> getOffers()
+    return:
+      type: com.microsoft.store.partnercenter.genericoperations.ICountrySelector78504a52com.microsoft.store.partnercenter.offers.IOfferCollectiona08ddfce
+- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
+  parent: com.microsoft.store.partnercenter.profiles
+  href: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.yml
+  name: IPartnerProfileCollection
+  nameWithType: IPartnerProfileCollection
+  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
+  type: Interface
+  summary: "<p>Represents the behavior of a partner's profiles. </p>"
+  syntax:
+    content: public interface IPartnerProfileCollection
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getProfiles()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getProfiles()
+  nameWithType: PartnerOperations.getProfiles()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getProfiles()
+  type: Method
+  summary: "<p>Gets the partner profiles operations. </p>"
+  syntax:
+    content: public IPartnerProfileCollection getProfiles()
+    return:
+      type: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
+- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  parent: com.microsoft.store.partnercenter.customers
+  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
+  name: ICustomerCollection
+  nameWithType: ICustomerCollection
+  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection
+  type: Interface
+  summary: "<p>Represents the behavior of the partner customers. </p>"
+  syntax:
+    content: public interface ICustomerCollection extends IPartnerComponentString,IEntityCreateOperations<Customer, Customer>,IEntireEntityCollectionRetrievalOperations<Customer, SeekBasedResourceCollection<Customer>>
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getCustomers()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getCustomers()
+  nameWithType: PartnerOperations.getCustomers()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getCustomers()
+  type: Method
+  summary: "<p>Gets the partner customers operations. </p>"
+  syntax:
+    content: public ICustomerCollection getCustomers()
+    return:
+      type: com.microsoft.store.partnercenter.customers.ICustomerCollection
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IInvoiceCollection.yml
+  name: IInvoiceCollection
+  nameWithType: IInvoiceCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on Partner's invoices </p>"
+  syntax:
+    content: public interface IInvoiceCollection extends IPartnerComponentString,IEntityCollectionRetrievalOperations<Invoice, ResourceCollection<Invoice>>,IEntitySelector<String, IInvoice>
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getInvoices()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getInvoices()
+  nameWithType: PartnerOperations.getInvoices()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getInvoices()
+  type: Method
+  summary: "<p>Gets the partner's invoices. </p>"
+  syntax:
+    content: public IInvoiceCollection getInvoices()
+    return:
+      type: com.microsoft.store.partnercenter.invoices.IInvoiceCollection
+- uid: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection
+  parent: com.microsoft.store.partnercenter.servicerequests
+  href: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.yml
+  name: IPartnerServiceRequestCollection
+  nameWithType: IPartnerServiceRequestCollection
+  fullName: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection
+  type: Interface
+  summary: "<p>Represents the behavior of partner service requests. </p>"
+  syntax:
+    content: public interface IPartnerServiceRequestCollection
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getServiceRequests()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getServiceRequests()
+  nameWithType: PartnerOperations.getServiceRequests()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getServiceRequests()
+  type: Method
+  summary: "<p>Gets the Service Request operations available. </p>"
+  syntax:
+    content: public IPartnerServiceRequestCollection getServiceRequests()
+    return:
+      type: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection
+- uid: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+  parent: com.microsoft.store.partnercenter.serviceincidents
+  href: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.yml
+  name: IServiceIncidentCollection
+  nameWithType: IServiceIncidentCollection
+  fullName: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+  type: Interface
+  syntax:
+    content: public interface IServiceIncidentCollection
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getServiceIncidents()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getServiceIncidents()
+  nameWithType: PartnerOperations.getServiceIncidents()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getServiceIncidents()
+  type: Method
+  summary: "<p>Gets the Service incidents operations available. </p>"
+  syntax:
+    content: public IServiceIncidentCollection getServiceIncidents()
+    return:
+      type: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
+  parent: com.microsoft.store.partnercenter.countryvalidationrules
+  href: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.yml
+  name: ICountryValidationRulesCollection
+  nameWithType: ICountryValidationRulesCollection
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
+  type: Interface
+  summary: "<p>Interface and Template for Country-Specific Rules for Validation </p>"
+  syntax:
+    content: public interface ICountryValidationRulesCollection extends IPartnerComponentString,ICountrySelector<ICountryValidationRules>
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getCountryValidationRules()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getCountryValidationRules()
+  nameWithType: PartnerOperations.getCountryValidationRules()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getCountryValidationRules()
+  type: Method
+  summary: "<p>Gets the country validation rules operations available to the partner. </p>"
+  syntax:
+    content: public ICountryValidationRulesCollection getCountryValidationRules()
+    return:
+      type: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
+- uid: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary
+  parent: com.microsoft.store.partnercenter.usage
+  href: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary.yml
+  name: IPartnerUsageSummary
+  nameWithType: IPartnerUsageSummary
+  fullName: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary
+  type: Interface
+  summary: "<p>This interface defines the operations available on a partner's usage summary. </p>"
+  syntax:
+    content: public interface IPartnerUsageSummary
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getUsageSummary()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getUsageSummary()
+  nameWithType: PartnerOperations.getUsageSummary()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getUsageSummary()
+  type: Method
+  summary: "<p>Gets the usage summary operations available to the partner. </p>"
+  syntax:
+    content: public IPartnerUsageSummary getUsageSummary()
+    return:
+      type: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary
+- uid: com.microsoft.store.partnercenter.domains.IDomainCollection
+  parent: com.microsoft.store.partnercenter.domains
+  href: com.microsoft.store.partnercenter.domains.IDomainCollection.yml
+  name: IDomainCollection
+  nameWithType: IDomainCollection
+  fullName: com.microsoft.store.partnercenter.domains.IDomainCollection
+  type: Interface
+  syntax:
+    content: public interface IDomainCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getDomains()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getDomains()
+  nameWithType: PartnerOperations.getDomains()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getDomains()
+  type: Method
+  summary: "<p>Gets the domain operations available to the partner. </p>"
+  syntax:
+    content: public IDomainCollection getDomains()
+    return:
+      type: com.microsoft.store.partnercenter.domains.IDomainCollection
+- uid: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
+  parent: com.microsoft.store.partnercenter.auditrecords
+  href: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection.yml
+  name: IAuditRecordsCollection
+  nameWithType: IAuditRecordsCollection
+  fullName: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on partners audit collection. </p>"
+  syntax:
+    content: public interface IAuditRecordsCollection extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getAuditRecords()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getAuditRecords()
+  nameWithType: PartnerOperations.getAuditRecords()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getAuditRecords()
+  type: Method
+  summary: "<p>Gets the audit records operations available to the partner. </p>"
+  syntax:
+    content: public IAuditRecordsCollection getAuditRecords()
+    return:
+      type: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
+- uid: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
+  parent: com.microsoft.store.partnercenter.ratecards
+  href: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.yml
+  name: IRateCardCollection
+  nameWithType: IRateCardCollection
+  fullName: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
+  type: Interface
+  summary: "<p>Holds operations that apply to rate cards. </p>"
+  syntax:
+    content: public interface IRateCardCollection
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getRateCards()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getRateCards()
+  nameWithType: PartnerOperations.getRateCards()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getRateCards()
+  type: Method
+  summary: "<p>Gets the rate card operations available to the partner. </p>"
+  syntax:
+    content: public IRateCardCollection getRateCards()
+    return:
+      type: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
+- uid: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
+  parent: com.microsoft.store.partnercenter.analytics
+  href: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection.yml
+  name: IPartnerAnalyticsCollection
+  nameWithType: IPartnerAnalyticsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
+  type: Interface
+  summary: "<p>Encapsulates collection of partner's analytics. </p>"
+  syntax:
+    content: public interface IPartnerAnalyticsCollection
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getAnalytics()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getAnalytics()
+  nameWithType: PartnerOperations.getAnalytics()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getAnalytics()
+  type: Method
+  summary: "<p>Gets the analytics collection operations. </p>"
+  syntax:
+    content: public IPartnerAnalyticsCollection getAnalytics()
+    return:
+      type: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
+- uid: com.microsoft.store.partnercenter.extensions.IExtensions
+  parent: com.microsoft.store.partnercenter.extensions
+  href: com.microsoft.store.partnercenter.extensions.IExtensions.yml
+  name: IExtensions
+  nameWithType: IExtensions
+  fullName: com.microsoft.store.partnercenter.extensions.IExtensions
+  type: Interface
+  summary: "<p>Holds operations that extend another set of operations. </p>"
+  syntax:
+    content: public interface IExtensions extends IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getExtensions()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getExtensions()
+  nameWithType: PartnerOperations.getExtensions()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getExtensions()
+  type: Method
+  summary: "<p>Gets the extensions operations available to the partner. </p>"
+  syntax:
+    content: public IExtensions getExtensions()
+    return:
+      type: com.microsoft.store.partnercenter.extensions.IExtensions
+- uid: com.microsoft.store.partnercenter.products.IProductCollection
+  parent: com.microsoft.store.partnercenter.products
+  href: com.microsoft.store.partnercenter.products.IProductCollection.yml
+  name: IProductCollection
+  nameWithType: IProductCollection
+  fullName: com.microsoft.store.partnercenter.products.IProductCollection
+  type: Interface
+  summary: "<p>Holds operations that can be performed on products. </p>"
+  syntax:
+    content: public interface IProductCollection
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getProducts()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getProducts()
+  nameWithType: PartnerOperations.getProducts()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getProducts()
+  type: Method
+  summary: "<p>Gets the product operations available to the partner. </p>"
+  syntax:
+    content: public IProductCollection getProducts()
+    return:
+      type: com.microsoft.store.partnercenter.products.IProductCollection
+- uid: com.microsoft.store.partnercenter.relationships.IRelationshipCollection
+  parent: com.microsoft.store.partnercenter.relationships
+  href: com.microsoft.store.partnercenter.relationships.IRelationshipCollection.yml
+  name: IRelationshipCollection
+  nameWithType: IRelationshipCollection
+  fullName: com.microsoft.store.partnercenter.relationships.IRelationshipCollection
+  type: Interface
+  summary: "<p>This interface represents the operations that can be done on a partner's relationships. </p>"
+  syntax:
+    content: public interface IRelationshipCollection
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getRelationships()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getRelationships()
+  nameWithType: PartnerOperations.getRelationships()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getRelationships()
+  type: Method
+  summary: "<p>Gets the relationship collection operations available to the partner. </p>"
+  syntax:
+    content: public IRelationshipCollection getRelationships()
+    return:
+      type: com.microsoft.store.partnercenter.relationships.IRelationshipCollection
+- uid: com.microsoft.store.partnercenter.validations.IValidationOperations
+  parent: com.microsoft.store.partnercenter.validations
+  href: com.microsoft.store.partnercenter.validations.IValidationOperations.yml
+  name: IValidationOperations
+  nameWithType: IValidationOperations
+  fullName: com.microsoft.store.partnercenter.validations.IValidationOperations
+  type: Interface
+  summary: "<p>Represents the behavior of a validation operations. </p>"
+  syntax:
+    content: public interface IValidationOperations
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getValidations()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getValidations()
+  nameWithType: PartnerOperations.getValidations()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getValidations()
+  type: Method
+  summary: "<p>Gets the validation operations available to the partner. </p>"
+  syntax:
+    content: public IValidationOperations getValidations()
+    return:
+      type: com.microsoft.store.partnercenter.validations.IValidationOperations
+- uid: com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection
+  parent: com.microsoft.store.partnercenter.agreements
+  href: com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection.yml
+  name: IAgreementDetailsCollection
+  nameWithType: IAgreementDetailsCollection
+  fullName: com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection
+  type: Interface
+  summary: "<p>Encapsulates the operations on the agreement metadata collection. </p>"
+  syntax:
+    content: public interface IAgreementDetailsCollection
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getAgreementDetails()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getAgreementDetails()
+  nameWithType: PartnerOperations.getAgreementDetails()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getAgreementDetails()
+  type: Method
+  summary: "<p>Gets the agreement metadata operations. </p>"
+  syntax:
+    content: public IAgreementDetailsCollection getAgreementDetails()
+    return:
+      type: com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection
+- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  parent: com.microsoft.store.partnercenter.network
+  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
+  name: IPartnerServiceClient
+  nameWithType: IPartnerServiceClient
+  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+  type: Interface
+  syntax:
+    content: public interface IPartnerServiceClient
+- uid: com.microsoft.store.partnercenter.PartnerOperations.getServiceClient()
+  parent: com.microsoft.store.partnercenter.PartnerOperations
+  href: com.microsoft.store.partnercenter.PartnerOperations.yml
+  name: getServiceClient()
+  nameWithType: PartnerOperations.getServiceClient()
+  fullName: com.microsoft.store.partnercenter.PartnerOperations.getServiceClient()
+  type: Method
+  summary: "<p>Gets the partner service client.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartnerServiceClient getServiceClient()
+    return:
+      type: com.microsoft.store.partnercenter.network.IPartnerServiceClient
+      description: <p>The partner service client. </p>

@@ -3,16 +3,16 @@ items:
 - uid: com.microsoft.store.partnercenter.customerusers
   id: customerusers
   children:
-  - com.microsoft.store.partnercenter.customerusers._customer_user_license_collection_operations
-  - com.microsoft.store.partnercenter.customerusers._customer_user_license_update_operations
-  - com.microsoft.store.partnercenter.customerusers._customer_user_operations
-  - com.microsoft.store.partnercenter.customerusers._customer_user_role_collection_operations
-  - com.microsoft.store.partnercenter.customerusers._customer_users_collection_operations
-  - com.microsoft.store.partnercenter.customerusers._i_customer_user
-  - com.microsoft.store.partnercenter.customerusers._i_customer_user_collection
-  - com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection
-  - com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates
-  - com.microsoft.store.partnercenter.customerusers._i_customer_user_role_collection
+  - com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations
+  - com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseUpdateOperations
+  - com.microsoft.store.partnercenter.customerusers.CustomerUserOperations
+  - com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations
+  - com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations
+  - com.microsoft.store.partnercenter.customerusers.ICustomerUser
+  - com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  - com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection
+  - com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates
+  - com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection
   href: com.microsoft.store.partnercenter.customerusers.yml
   langs:
   - java
@@ -30,98 +30,98 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.customerusers
 references:
-- uid: com.microsoft.store.partnercenter.customerusers._customer_user_license_collection_operations
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations
   parent: com.microsoft.store.partnercenter.customerusers
-  href: com.microsoft.store.partnercenter.customerusers._customer_user_license_collection_operations.yml
+  href: com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations.yml
   name: CustomerUserLicenseCollectionOperations
   nameWithType: CustomerUserLicenseCollectionOperations
   fullName: com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations
   type: Class
   syntax:
     content: public class CustomerUserLicenseCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements ICustomerUserLicenseCollection
-- uid: com.microsoft.store.partnercenter.customerusers._customer_user_license_update_operations
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseUpdateOperations
   parent: com.microsoft.store.partnercenter.customerusers
-  href: com.microsoft.store.partnercenter.customerusers._customer_user_license_update_operations.yml
+  href: com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseUpdateOperations.yml
   name: CustomerUserLicenseUpdateOperations
   nameWithType: CustomerUserLicenseUpdateOperations
   fullName: com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseUpdateOperations
   type: Class
   syntax:
     content: public class CustomerUserLicenseUpdateOperations extends BasePartnerComponent<Tuple<String, String>> implements ICustomerUserLicenseUpdates
-- uid: com.microsoft.store.partnercenter.customerusers._customer_user_operations
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUserOperations
   parent: com.microsoft.store.partnercenter.customerusers
-  href: com.microsoft.store.partnercenter.customerusers._customer_user_operations.yml
+  href: com.microsoft.store.partnercenter.customerusers.CustomerUserOperations.yml
   name: CustomerUserOperations
   nameWithType: CustomerUserOperations
   fullName: com.microsoft.store.partnercenter.customerusers.CustomerUserOperations
   type: Class
   syntax:
     content: public class CustomerUserOperations extends BasePartnerComponent<Tuple<String, String>> implements ICustomerUser
-- uid: com.microsoft.store.partnercenter.customerusers._customer_user_role_collection_operations
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations
   parent: com.microsoft.store.partnercenter.customerusers
-  href: com.microsoft.store.partnercenter.customerusers._customer_user_role_collection_operations.yml
+  href: com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.yml
   name: CustomerUserRoleCollectionOperations
   nameWithType: CustomerUserRoleCollectionOperations
   fullName: com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations
   type: Class
   syntax:
     content: public class CustomerUserRoleCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements ICustomerUserRoleCollection
-- uid: com.microsoft.store.partnercenter.customerusers._customer_users_collection_operations
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations
   parent: com.microsoft.store.partnercenter.customerusers
-  href: com.microsoft.store.partnercenter.customerusers._customer_users_collection_operations.yml
+  href: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.yml
   name: CustomerUsersCollectionOperations
   nameWithType: CustomerUsersCollectionOperations
   fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations
   type: Class
   syntax:
     content: public class CustomerUsersCollectionOperations extends BasePartnerComponent<String> implements ICustomerUserCollection
-- uid: com.microsoft.store.partnercenter.customerusers._i_customer_user
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUser
   parent: com.microsoft.store.partnercenter.customerusers
-  href: com.microsoft.store.partnercenter.customerusers._i_customer_user.yml
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUser.yml
   name: ICustomerUser
   nameWithType: ICustomerUser
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUser
   type: Interface
-  summary: <p>Encapsulates a customer user behavior. </p>
+  summary: "<p>Encapsulates a customer user behavior. </p>"
   syntax:
     content: public interface ICustomerUser extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<CustomerUser>,IEntityDeleteOperations<CustomerUser>,IEntityPatchOperations<CustomerUser>
-- uid: com.microsoft.store.partnercenter.customerusers._i_customer_user_collection
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
   parent: com.microsoft.store.partnercenter.customerusers
-  href: com.microsoft.store.partnercenter.customerusers._i_customer_user_collection.yml
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.yml
   name: ICustomerUserCollection
   nameWithType: ICustomerUserCollection
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
   type: Interface
-  summary: <p>Represents the behavior of the customers users </p>
+  summary: "<p>Represents the behavior of the customers users </p>"
   syntax:
     content: public interface ICustomerUserCollection extends IPartnerComponentString,IEntityCreateOperations<CustomerUser, CustomerUser>,IEntireEntityCollectionRetrievalOperations<CustomerUser, SeekBasedResourceCollection<CustomerUser>>
-- uid: com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection
   parent: com.microsoft.store.partnercenter.customerusers
-  href: com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection.yml
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.yml
   name: ICustomerUserLicenseCollection
   nameWithType: ICustomerUserLicenseCollection
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection
   type: Interface
-  summary: <p>Represents the behavior of the customers user's directory roles. </p>
+  summary: "<p>Represents the behavior of the customers user's directory roles. </p>"
   syntax:
     content: public interface ICustomerUserLicenseCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<License, ResourceCollection<License>>
-- uid: com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates
   parent: com.microsoft.store.partnercenter.customerusers
-  href: com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates.yml
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.yml
   name: ICustomerUserLicenseUpdates
   nameWithType: ICustomerUserLicenseUpdates
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates
   type: Interface
-  summary: <p>Represents the behavior of the customers user's directory roles. </p>
+  summary: "<p>Represents the behavior of the customers user's directory roles. </p>"
   syntax:
     content: public interface ICustomerUserLicenseUpdates extends IPartnerComponent<Tuple<String, String>>,IEntityCreateOperations<LicenseUpdate, LicenseUpdate>
-- uid: com.microsoft.store.partnercenter.customerusers._i_customer_user_role_collection
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection
   parent: com.microsoft.store.partnercenter.customerusers
-  href: com.microsoft.store.partnercenter.customerusers._i_customer_user_role_collection.yml
+  href: com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection.yml
   name: ICustomerUserRoleCollection
   nameWithType: ICustomerUserRoleCollection
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection
   type: Interface
-  summary: <p>Represents the behavior of the customers user's directory roles. </p>
+  summary: "<p>Represents the behavior of the customers user's directory roles. </p>"
   syntax:
     content: public interface ICustomerUserRoleCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<DirectoryRole, ResourceCollection<DirectoryRole>>

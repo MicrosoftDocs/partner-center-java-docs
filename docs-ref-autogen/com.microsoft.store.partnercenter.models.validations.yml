@@ -3,7 +3,7 @@ items:
 - uid: com.microsoft.store.partnercenter.models.validations
   id: validations
   children:
-  - com.microsoft.store.partnercenter.models.validations._country_information
+  - com.microsoft.store.partnercenter.models.validations.CountryInformation
   href: com.microsoft.store.partnercenter.models.validations.yml
   langs:
   - java
@@ -21,13 +21,13 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.validations
 references:
-- uid: com.microsoft.store.partnercenter.models.validations._country_information
+- uid: com.microsoft.store.partnercenter.models.validations.CountryInformation
   parent: com.microsoft.store.partnercenter.models.validations
-  href: com.microsoft.store.partnercenter.models.validations._country_information.yml
+  href: com.microsoft.store.partnercenter.models.validations.CountryInformation.yml
   name: CountryInformation
   nameWithType: CountryInformation
   fullName: com.microsoft.store.partnercenter.models.validations.CountryInformation
   type: Class
-  summary: <p>Holds validation information for a single country. </p>
+  summary: "<p>Holds validation information for a single country. </p>"
   syntax:
     content: public class CountryInformation extends ResourceBase

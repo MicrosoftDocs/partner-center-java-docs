@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.store.partnercenter.subscribedskus
   id: subscribedskus
   children:
-  - com.microsoft.store.partnercenter.subscribedskus._customer_subscribed_sku_collection_operations
-  - com.microsoft.store.partnercenter.subscribedskus._i_customer_subscribed_sku_collection
+  - com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations
+  - com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
   href: com.microsoft.store.partnercenter.subscribedskus.yml
   langs:
   - java
@@ -22,22 +22,22 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.subscribedskus
 references:
-- uid: com.microsoft.store.partnercenter.subscribedskus._customer_subscribed_sku_collection_operations
+- uid: com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations
   parent: com.microsoft.store.partnercenter.subscribedskus
-  href: com.microsoft.store.partnercenter.subscribedskus._customer_subscribed_sku_collection_operations.yml
+  href: com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations.yml
   name: CustomerSubscribedSkuCollectionOperations
   nameWithType: CustomerSubscribedSkuCollectionOperations
   fullName: com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations
   type: Class
   syntax:
     content: public class CustomerSubscribedSkuCollectionOperations extends BasePartnerComponent<String> implements ICustomerSubscribedSkuCollection
-- uid: com.microsoft.store.partnercenter.subscribedskus._i_customer_subscribed_sku_collection
+- uid: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
   parent: com.microsoft.store.partnercenter.subscribedskus
-  href: com.microsoft.store.partnercenter.subscribedskus._i_customer_subscribed_sku_collection.yml
+  href: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.yml
   name: ICustomerSubscribedSkuCollection
   nameWithType: ICustomerSubscribedSkuCollection
   fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
   type: Interface
-  summary: <p>Represents the behavior of the customers users </p>
+  summary: "<p>Represents the behavior of the customers users </p>"
   syntax:
     content: public interface ICustomerSubscribedSkuCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<SubscribedSku, ResourceCollection<SubscribedSku>>

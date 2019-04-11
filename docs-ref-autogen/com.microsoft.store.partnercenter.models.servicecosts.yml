@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.store.partnercenter.models.servicecosts
   id: servicecosts
   children:
-  - com.microsoft.store.partnercenter.models.servicecosts._service_cost_line_item
-  - com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period
-  - com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary
-  - com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary_links
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks
   href: com.microsoft.store.partnercenter.models.servicecosts.yml
   langs:
   - java
@@ -24,43 +24,43 @@ items:
   syntax:
     content: package com.microsoft.store.partnercenter.models.servicecosts
 references:
-- uid: com.microsoft.store.partnercenter.models.servicecosts._service_cost_line_item
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
   parent: com.microsoft.store.partnercenter.models.servicecosts
-  href: com.microsoft.store.partnercenter.models.servicecosts._service_cost_line_item.yml
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
   name: ServiceCostLineItem
   nameWithType: ServiceCostLineItem
   fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
   type: Class
-  summary: <p>Represents a charge incurred by the partner per customer for a given subscription. </p>
+  summary: "<p>Represents a charge incurred by the partner per customer for a given subscription. </p>"
   syntax:
     content: public class ServiceCostLineItem extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod
   parent: com.microsoft.store.partnercenter.models.servicecosts
-  href: com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period.yml
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod.yml
   name: ServiceCostsBillingPeriod
   nameWithType: ServiceCostsBillingPeriod
   fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod
   type: Enum
-  summary: <p>Represents service costs billing periods. </p>
+  summary: "<p>Represents service costs billing periods. </p>"
   syntax:
     content: public enum ServiceCostsBillingPeriod
-- uid: com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
   parent: com.microsoft.store.partnercenter.models.servicecosts
-  href: com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.yml
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.yml
   name: ServiceCostsSummary
   nameWithType: ServiceCostsSummary
   fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
   type: Class
-  summary: <p>Represents a service costs summary for a customer. </p>
+  summary: "<p>Represents a service costs summary for a customer. </p>"
   syntax:
     content: public class ServiceCostsSummary extends ResourceBaseWithLinks<ServiceCostsSummaryLinks>
-- uid: com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary_links
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks
   parent: com.microsoft.store.partnercenter.models.servicecosts
-  href: com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary_links.yml
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.yml
   name: ServiceCostsSummaryLinks
   nameWithType: ServiceCostsSummaryLinks
   fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks
   type: Class
-  summary: <p>Holds the operations related to a customer's service costs. </p>
+  summary: "<p>Holds the operations related to a customer's service costs. </p>"
   syntax:
     content: public class ServiceCostsSummaryLinks extends StandardResourceLinks

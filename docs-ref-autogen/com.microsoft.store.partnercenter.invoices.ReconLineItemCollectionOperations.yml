@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  id: ReconLineItemCollectionOperations
+  parent: com.microsoft.store.partnercenter.invoices
+  children:
+  - com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get()
+  - com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod)
+  - com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
+  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
+  langs:
+  - java
+  name: ReconLineItemCollectionOperations
+  nameWithType: ReconLineItemCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconLineItemCollectionOperations.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconLineItemCollectionOperations.java
+    startLine: 27
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
+  syntax:
+    content: public class ReconLineItemCollectionOperations extends BasePartnerComponent<String> implements IReconLineItemCollection
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.IPartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  inheritedMembers:
+  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get()
+  id: get()
+  parent: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
+  langs:
+  - java
+  name: get()
+  nameWithType: ReconLineItemCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get()
+  overload: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconLineItemCollectionOperations.java
+    startLine: 132
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Gets the recon line items collection of the partner.</p>\r\n<p></p>"
+  syntax:
+    content: public SeekBasedResourceCollection<InvoiceLineItem> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.invoices.InvoiceLineItema08ddfce
+      description: <p>The collection of recon line items. </p>
+  overridden: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod)
+  id: ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod)
+  parent: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
+  langs:
+  - java
+  name: ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+  nameWithType: ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+  overload: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconLineItemCollectionOperations.java
+    startLine: 71
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Initializes a new instance of the ReconLineItemCollectionOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+    - id: invoiceId
+      type: "26831127"
+      description: <p>The invoice identifier. </p>
+    - id: billingProvider
+      type: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+      description: <p>The billing provider type. </p>
+    - id: invoiceLineItemType
+      type: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+      description: <p>The invoice line item type. </p>
+    - id: currencyCode
+      type: "26831127"
+      description: <p>The currency code. </p>
+    - id: period
+      type: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+      description: <p>The billing period. </p>
+- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
+  id: ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
+  parent: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
+  langs:
+  - java
+  name: ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+  nameWithType: ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+  overload: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconLineItemCollectionOperations.java
+    startLine: 104
+  package: com.microsoft.store.partnercenter.invoices
+  summary: "<p>Initializes a new instance of the ReconLineItemCollectionOperations class.</p>\r\n<p></p>"
+  syntax:
+    content: public ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations instance. </p>
+    - id: invoiceId
+      type: "26831127"
+      description: <p>The invoice identifier. </p>
+    - id: billingProvider
+      type: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+      description: <p>The billing provider type. </p>
+    - id: invoiceLineItemType
+      type: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+      description: <p>The invoice line item type. </p>
+    - id: currencyCode
+      type: "26831127"
+      description: <p>The currency code. </p>
+    - id: period
+      type: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+      description: <p>The billing period. </p>
+    - id: pageSize
+      type: f75371fa
+      description: <p>The number of records returned in a single operation. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations*
+  name: ReconLineItemCollectionOperations
+  nameWithType: ReconLineItemCollectionOperations.ReconLineItemCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations
+  package: com.microsoft.store.partnercenter.invoices
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.invoices.InvoiceLineItema08ddfce
+  spec.java:
+  - uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+    name: SeekBasedResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+    href: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.yml
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+    name: InvoiceLineItem
+    fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+    href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get*
+  name: get
+  nameWithType: ReconLineItemCollectionOperations.get
+  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+  type: Constructor
+  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
+  syntax:
+    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
+    parameters:
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>The root partner operations that created this component. </p>
+    - id: componentContext
+      type: 473af9dd
+      description: <p>A component context object to work with. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getContext()
+  nameWithType: BasePartnerComponent<TContext>.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
+  type: Method
+  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
+  syntax:
+    content: public TContext getContext()
+    return:
+      type: 473af9dd
+      description: <p>The component context object. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  parent: com.microsoft.store.partnercenter.BasePartnerComponent
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: getPartner()
+  nameWithType: BasePartnerComponent<TContext>.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
+  type: Method
+  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
+  syntax:
+    content: public IPartner getPartner()
+    return:
+      type: com.microsoft.store.partnercenter.IPartner
+      description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
+  name: BasePartnerComponent<TContext>
+  nameWithType: BasePartnerComponent<TContext>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>
+  type: Class
+  summary: "<p>Holds common partner component properties and behavior. All components should inherit from this class. The context object type. </p>"
+  syntax:
+    content: public class BasePartnerComponent<TContext> implements IPartnerComponent<TContext>
+    typeParameters:
+    - id: TContext
+      type: 473af9dd
+- uid: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  parent: com.microsoft.store.partnercenter.invoices
+  href: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection.yml
+  name: IReconLineItemCollection
+  nameWithType: IReconLineItemCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  type: Interface
+  summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
+  syntax:
+    content: public interface IReconLineItemCollection extends IPartnerComponent<String>,IEntireEntityCollectionRetrievalOperations<InvoiceLineItem, SeekBasedResourceCollection<InvoiceLineItem>>
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
+  name: BillingProvider
+  nameWithType: BillingProvider
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  type: Enum
+  syntax:
+    content: public enum BillingProvider
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.yml
+  name: InvoiceLineItemType
+  nameWithType: InvoiceLineItemType
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+  type: Enum
+  syntax:
+    content: public enum InvoiceLineItemType
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.yml
+  name: BillingPeriod
+  nameWithType: BillingPeriod
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+  type: Enum
+  syntax:
+    content: public enum BillingPeriod
+- uid: com.microsoft.store.partnercenter.IPartner
+  parent: com.microsoft.store.partnercenter
+  href: com.microsoft.store.partnercenter.IPartner.yml
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+  type: Interface
+  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
+  syntax:
+    content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.yml
+  name: SeekBasedResourceCollection<T>
+  nameWithType: SeekBasedResourceCollection<T>
+  fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<T>
+  type: Class
+  summary: "<p>Paged Resource Collection Type of objects in collection </p>"
+  syntax:
+    content: public class SeekBasedResourceCollection<T>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+  parent: com.microsoft.store.partnercenter.models.invoices
+  href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.yml
+  name: InvoiceLineItem
+  nameWithType: InvoiceLineItem
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+  type: Class
+  summary: "<p>Represents a line item on an invoice. </p>"
+  syntax:
+    content: public class InvoiceLineItem extends ResourceBase
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
+  name: get()
+  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T, TResourceCollection extends ResourceCollection<T>.get()
+  type: Method
+  summary: "<p>Retrieves all entities.</p>\r\n<p></p>"
+  syntax:
+    content: public TResourceCollection get()
+    return:
+      type: 5f968003
+      description: <p>The entities. </p>
