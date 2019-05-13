@@ -7,6 +7,7 @@ items:
   - com.microsoft.store.partnercenter.models.auditing.OperationType.ADD_APPLICATION_CREDENTIAL
   - com.microsoft.store.partnercenter.models.auditing.OperationType.ADD_CUSTOMER
   - com.microsoft.store.partnercenter.models.auditing.OperationType.CONVERT_TRIAL_SUBSCRIPTION
+  - com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_AGREEMENT
   - com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_CUSTOMER_USER
   - com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_MPN_ASSOCIATION
   - com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_ORDER
@@ -119,6 +120,24 @@ items:
   summary: "<p>Convert a trial subscription to a paid one. </p>"
   syntax:
     content: public CONVERT_TRIAL_SUBSCRIPTION=("convert_trial_subscription")
+- uid: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_AGREEMENT
+  id: CREATE_AGREEMENT
+  parent: com.microsoft.store.partnercenter.models.auditing.OperationType
+  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
+  langs:
+  - java
+  name: CREATE_AGREEMENT
+  nameWithType: OperationType.CREATE_AGREEMENT
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_AGREEMENT
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
+    startLine: 208
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>A new agreement has been created. </p>"
+  syntax:
+    content: public CREATE_AGREEMENT=("create_agreement")
 - uid: com.microsoft.store.partnercenter.models.auditing.OperationType.CREATE_CUSTOMER_USER
   id: CREATE_CUSTOMER_USER
   parent: com.microsoft.store.partnercenter.models.auditing.OperationType
@@ -331,7 +350,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
-    startLine: 207
+    startLine: 212
   package: com.microsoft.store.partnercenter.models.auditing
   syntax:
     content: public OperationType(String value)
@@ -478,7 +497,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationType.java
-    startLine: 219
+    startLine: 224
   package: com.microsoft.store.partnercenter.models.auditing
   summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
   syntax:

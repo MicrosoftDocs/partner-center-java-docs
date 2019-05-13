@@ -1,26 +1,26 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
-  id: IReconLineItemCollection
-  parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection.yml
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+  id: ISubscriptionActivationLinks
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks.yml
   langs:
   - java
-  name: IReconLineItemCollection
-  nameWithType: IReconLineItemCollection
-  fullName: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  name: ISubscriptionActivationLinks
+  nameWithType: ISubscriptionActivationLinks
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
   type: Interface
   source:
     remote:
-      path: src/main/java/com/microsoft/store/partnercenter/invoices/IReconLineItemCollection.java
+      path: src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionActivationLinks.java
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/invoices/IReconLineItemCollection.java
-    startLine: 16
-  package: com.microsoft.store.partnercenter.invoices
-  summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionActivationLinks.java
+    startLine: 17
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>A resource collection of subscription activation links. </p>"
   syntax:
-    content: public interface IReconLineItemCollection extends IPartnerComponent<String>,IEntireEntityCollectionRetrievalOperations<InvoiceLineItem, SeekBasedResourceCollection<InvoiceLineItem>>
+    content: public interface ISubscriptionActivationLinks extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<OrderLineItemActivationLink, ResourceCollection<OrderLineItemActivationLink>>
   inheritedMembers:
   - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
   - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
@@ -93,13 +93,13 @@ references:
       type: 8ce1ecb9
     - id: TResourceCollection
       type: 5f968003
-- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
-  parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
-  name: ReconLineItemCollectionOperations
-  nameWithType: ReconLineItemCollectionOperations
-  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations.yml
+  name: SubscriptionActivationLinksOperations
+  nameWithType: SubscriptionActivationLinksOperations
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations
   type: Class
-  summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
+  summary: "<p>Implements getting customer subscription activation link resource collection for a given subscription. </p>"
   syntax:
-    content: public class ReconLineItemCollectionOperations
+    content: public class SubscriptionActivationLinksOperations

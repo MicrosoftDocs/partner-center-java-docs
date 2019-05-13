@@ -447,16 +447,16 @@ references:
   type: Class
   syntax:
     content: public class ReceiptStatementOperations
-- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+- uid: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
-  name: ReconLineItemCollectionOperations
-  nameWithType: ReconLineItemCollectionOperations
-  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.yml
+  name: ReconciliationLineItemCollectionOperations
+  nameWithType: ReconciliationLineItemCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations
   type: Class
-  summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
+  summary: "<p>Represents the operations that can be done on partner's reconciliation line items. </p>"
   syntax:
-    content: public class ReconLineItemCollectionOperations
+    content: public class ReconciliationLineItemCollectionOperations
 - uid: com.microsoft.store.partnercenter.offers.CategoryOffersCollectionOperations
   parent: com.microsoft.store.partnercenter.offers
   href: com.microsoft.store.partnercenter.offers.CategoryOffersCollectionOperations.yml
@@ -685,6 +685,16 @@ references:
   summary: "<p>Implements customer subscription operations grouped by a Microsoft partner. </p>"
   syntax:
     content: public class PartnerSubscriptionCollectionOperations
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations.yml
+  name: SubscriptionActivationLinksOperations
+  nameWithType: SubscriptionActivationLinksOperations
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations
+  type: Class
+  summary: "<p>Implements getting customer subscription activation link resource collection for a given subscription. </p>"
+  syntax:
+    content: public class SubscriptionActivationLinksOperations
 - uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations
   parent: com.microsoft.store.partnercenter.subscriptions
   href: com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations.yml

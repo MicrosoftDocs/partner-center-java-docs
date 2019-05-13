@@ -27,12 +27,12 @@ items:
   - com.microsoft.store.partnercenter.invoices.IReceiptCollection
   - com.microsoft.store.partnercenter.invoices.IReceiptDocuments
   - com.microsoft.store.partnercenter.invoices.IReceiptStatement
-  - com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  - com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   - com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations
   - com.microsoft.store.partnercenter.invoices.ReceiptDocumentsOperations
   - com.microsoft.store.partnercenter.invoices.ReceiptOperations
   - com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations
-  - com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  - com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations
   href: com.microsoft.store.partnercenter.invoices.yml
   langs:
   - java
@@ -283,16 +283,16 @@ references:
   summary: "<p>Represents the operations available to an invoice receipt statement. </p>"
   syntax:
     content: public interface IReceiptStatement extends IPartnerComponent<Tuple<String, String>>
-- uid: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+- uid: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection.yml
-  name: IReconLineItemCollection
-  nameWithType: IReconLineItemCollection
-  fullName: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  href: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection.yml
+  name: IReconciliationLineItemCollection
+  nameWithType: IReconciliationLineItemCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   type: Interface
   summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
   syntax:
-    content: public interface IReconLineItemCollection extends IPartnerComponent<String>,IEntireEntityCollectionRetrievalOperations<InvoiceLineItem, SeekBasedResourceCollection<InvoiceLineItem>>
+    content: public interface IReconciliationLineItemCollection extends IPartnerComponent<String>,IEntireEntityCollectionRetrievalOperations<InvoiceLineItem, SeekBasedResourceCollection<InvoiceLineItem>>
 - uid: com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations
   parent: com.microsoft.store.partnercenter.invoices
   href: com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.yml
@@ -329,13 +329,13 @@ references:
   type: Class
   syntax:
     content: public class ReceiptStatementOperations extends BasePartnerComponent<Tuple<String, String>> implements IReceiptStatement
-- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+- uid: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
-  name: ReconLineItemCollectionOperations
-  nameWithType: ReconLineItemCollectionOperations
-  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.yml
+  name: ReconciliationLineItemCollectionOperations
+  nameWithType: ReconciliationLineItemCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations
   type: Class
-  summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
+  summary: "<p>Represents the operations that can be done on partner's reconciliation line items. </p>"
   syntax:
-    content: public class ReconLineItemCollectionOperations extends BasePartnerComponent<String> implements IReconLineItemCollection
+    content: public class ReconciliationLineItemCollectionOperations extends BasePartnerComponent<String> implements IReconciliationLineItemCollection

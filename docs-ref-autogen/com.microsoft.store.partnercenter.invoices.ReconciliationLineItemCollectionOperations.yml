@@ -1,30 +1,30 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
-  id: ReconLineItemCollectionOperations
+- uid: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations
+  id: ReconciliationLineItemCollectionOperations
   parent: com.microsoft.store.partnercenter.invoices
   children:
-  - com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get()
-  - com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod)
-  - com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
-  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
+  - com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.get()
+  - com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod)
+  - com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
+  href: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.yml
   langs:
   - java
-  name: ReconLineItemCollectionOperations
-  nameWithType: ReconLineItemCollectionOperations
-  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
+  name: ReconciliationLineItemCollectionOperations
+  nameWithType: ReconciliationLineItemCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations
   type: Class
   source:
     remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconLineItemCollectionOperations.java
+      path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconciliationLineItemCollectionOperations.java
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconLineItemCollectionOperations.java
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconciliationLineItemCollectionOperations.java
     startLine: 27
   package: com.microsoft.store.partnercenter.invoices
-  summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
+  summary: "<p>Represents the operations that can be done on partner's reconciliation line items. </p>"
   syntax:
-    content: public class ReconLineItemCollectionOperations extends BasePartnerComponent<String> implements IReconLineItemCollection
+    content: public class ReconciliationLineItemCollectionOperations extends BasePartnerComponent<String> implements IReconciliationLineItemCollection
   inheritance:
   - java.lang.Object
   - com.microsoft.store.partnercenter.IPartnerComponent
@@ -33,20 +33,20 @@ items:
   - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
   - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
   - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get()
+- uid: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.get()
   id: get()
-  parent: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
-  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
+  parent: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.yml
   langs:
   - java
   name: get()
-  nameWithType: ReconLineItemCollectionOperations.get()
-  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get()
-  overload: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get*
+  nameWithType: ReconciliationLineItemCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.get()
+  overload: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.get*
   type: Method
   source:
     remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconLineItemCollectionOperations.java
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconciliationLineItemCollectionOperations.java
     startLine: 132
   package: com.microsoft.store.partnercenter.invoices
   summary: "<p>Gets the recon line items collection of the partner.</p>\r\n<p></p>"
@@ -56,25 +56,25 @@ items:
       type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.invoices.InvoiceLineItema08ddfce
       description: <p>The collection of recon line items. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
-- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod)
-  id: ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod)
-  parent: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
-  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
+- uid: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod)
+  id: ReconciliationLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod)
+  parent: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.yml
   langs:
   - java
-  name: ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
-  nameWithType: ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
-  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
-  overload: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations*
+  name: ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+  nameWithType: ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+  fullName: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+  overload: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations*
   type: Constructor
   source:
     remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconLineItemCollectionOperations.java
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconciliationLineItemCollectionOperations.java
     startLine: 71
   package: com.microsoft.store.partnercenter.invoices
-  summary: "<p>Initializes a new instance of the ReconLineItemCollectionOperations class.</p>\r\n<p></p>"
+  summary: "<p>Initializes a new instance of the ReconciliationLineItemCollectionOperations class.</p>\r\n<p></p>"
   syntax:
-    content: public ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+    content: public ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
     parameters:
     - id: rootPartnerOperations
       type: com.microsoft.store.partnercenter.IPartner
@@ -94,25 +94,25 @@ items:
     - id: period
       type: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
       description: <p>The billing period. </p>
-- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
-  id: ReconLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
-  parent: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
-  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
+- uid: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
+  id: ReconciliationLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
+  parent: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.yml
   langs:
   - java
-  name: ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
-  nameWithType: ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
-  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
-  overload: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations*
+  name: ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+  nameWithType: ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+  fullName: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+  overload: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations*
   type: Constructor
   source:
     remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconLineItemCollectionOperations.java
+    path: src/main/java/com/microsoft/store/partnercenter/invoices/ReconciliationLineItemCollectionOperations.java
     startLine: 104
   package: com.microsoft.store.partnercenter.invoices
-  summary: "<p>Initializes a new instance of the ReconLineItemCollectionOperations class.</p>\r\n<p></p>"
+  summary: "<p>Initializes a new instance of the ReconciliationLineItemCollectionOperations class.</p>\r\n<p></p>"
   syntax:
-    content: public ReconLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+    content: public ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
     parameters:
     - id: rootPartnerOperations
       type: com.microsoft.store.partnercenter.IPartner
@@ -140,10 +140,10 @@ references:
   spec.java:
   - name: String
     fullName: String
-- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations*
-  name: ReconLineItemCollectionOperations
-  nameWithType: ReconLineItemCollectionOperations.ReconLineItemCollectionOperations
-  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.ReconLineItemCollectionOperations
+- uid: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations*
+  name: ReconciliationLineItemCollectionOperations
+  nameWithType: ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations
   package: com.microsoft.store.partnercenter.invoices
 - uid: f75371fa
   spec.java:
@@ -163,10 +163,10 @@ references:
     href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.yml
   - name: '>'
     fullName: '>'
-- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get*
+- uid: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.get*
   name: get
-  nameWithType: ReconLineItemCollectionOperations.get
-  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get
+  nameWithType: ReconciliationLineItemCollectionOperations.get
+  fullName: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.get
   package: com.microsoft.store.partnercenter.invoices
 - uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
   parent: com.microsoft.store.partnercenter.BasePartnerComponent
@@ -224,16 +224,16 @@ references:
     typeParameters:
     - id: TContext
       type: 473af9dd
-- uid: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+- uid: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection.yml
-  name: IReconLineItemCollection
-  nameWithType: IReconLineItemCollection
-  fullName: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  href: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection.yml
+  name: IReconciliationLineItemCollection
+  nameWithType: IReconciliationLineItemCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   type: Interface
   summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
   syntax:
-    content: public interface IReconLineItemCollection extends IPartnerComponent<String>,IEntireEntityCollectionRetrievalOperations<InvoiceLineItem, SeekBasedResourceCollection<InvoiceLineItem>>
+    content: public interface IReconciliationLineItemCollection extends IPartnerComponent<String>,IEntireEntityCollectionRetrievalOperations<InvoiceLineItem, SeekBasedResourceCollection<InvoiceLineItem>>
 - uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider
   parent: com.microsoft.store.partnercenter.models.invoices
   href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml

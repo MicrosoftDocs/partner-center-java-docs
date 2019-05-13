@@ -4,6 +4,7 @@ items:
   id: orders
   children:
   - com.microsoft.store.partnercenter.orders.IOrder
+  - com.microsoft.store.partnercenter.orders.IOrderActivationLinks
   - com.microsoft.store.partnercenter.orders.IOrderCollection
   - com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
   - com.microsoft.store.partnercenter.orders.IOrderLineItem
@@ -44,6 +45,16 @@ references:
   summary: "<p>Encapsulates a customer order behavior. </p>"
   syntax:
     content: public interface IOrder extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<Order>,IEntityPatchOperations<Order>
+- uid: com.microsoft.store.partnercenter.orders.IOrderActivationLinks
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderActivationLinks.yml
+  name: IOrderActivationLinks
+  nameWithType: IOrderActivationLinks
+  fullName: com.microsoft.store.partnercenter.orders.IOrderActivationLinks
+  type: Interface
+  summary: "<p>Encapsulates customer order activation link behavior. </p>"
+  syntax:
+    content: public interface IOrderActivationLinks extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<OrderLineItemActivationLink, ResourceCollection<OrderLineItemActivationLink>>
 - uid: com.microsoft.store.partnercenter.orders.IOrderCollection
   parent: com.microsoft.store.partnercenter.orders
   href: com.microsoft.store.partnercenter.orders.IOrderCollection.yml

@@ -89,7 +89,7 @@ items:
   package: com.microsoft.store.partnercenter.invoices
   summary: "<p>Creates an invoice line item collection operations given a billing provider and invoice line item type.</p>\r\n<p></p>"
   syntax:
-    content: public IReconLineItemCollection By(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+    content: public IReconciliationLineItemCollection By(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
     parameters:
     - id: provider
       type: com.microsoft.store.partnercenter.models.invoices.BillingProvider
@@ -104,7 +104,7 @@ items:
       type: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
       description: <p>The period for unbilled recon. </p>
     return:
-      type: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+      type: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   overridden: com.microsoft.store.partnercenter.invoices.IInvoice.By(BillingProvider,InvoiceLineItemType,String,BillingPeriod)
 - uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.By(BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
   id: By(BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
@@ -124,7 +124,7 @@ items:
   package: com.microsoft.store.partnercenter.invoices
   summary: "<p>Creates an invoice line item collection operations given a billing provider and invoice line item type.</p>\r\n<p></p>"
   syntax:
-    content: public IReconLineItemCollection By(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+    content: public IReconciliationLineItemCollection By(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
     parameters:
     - id: provider
       type: com.microsoft.store.partnercenter.models.invoices.BillingProvider
@@ -142,7 +142,7 @@ items:
       type: f75371fa
       description: <p>The number of records returned in a single operation. </p>
     return:
-      type: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+      type: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   overridden: com.microsoft.store.partnercenter.invoices.IInvoice.By(BillingProvider,InvoiceLineItemType,String,BillingPeriod,int)
 - uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.get()
   id: get()
@@ -499,16 +499,16 @@ references:
   type: Enum
   syntax:
     content: public enum InvoiceLineItemType
-- uid: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+- uid: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection.yml
-  name: IReconLineItemCollection
-  nameWithType: IReconLineItemCollection
-  fullName: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  href: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection.yml
+  name: IReconciliationLineItemCollection
+  nameWithType: IReconciliationLineItemCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   type: Interface
   summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
   syntax:
-    content: public interface IReconLineItemCollection
+    content: public interface IReconciliationLineItemCollection
 - uid: com.microsoft.store.partnercenter.invoices.IInvoice.By(BillingProvider,InvoiceLineItemType,String,BillingPeriod)
   parent: com.microsoft.store.partnercenter.invoices.IInvoice
   href: com.microsoft.store.partnercenter.invoices.IInvoice.yml
@@ -518,7 +518,7 @@ references:
   type: Method
   summary: "<p>Creates an invoice line item collection operations given a billing provider and invoice line item type.</p>\r\n<p></p>"
   syntax:
-    content: public IReconLineItemCollection By(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+    content: public IReconciliationLineItemCollection By(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
     parameters:
     - id: provider
       type: com.microsoft.store.partnercenter.models.invoices.BillingProvider
@@ -533,7 +533,7 @@ references:
       type: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
       description: <p>The period for unbilled recon.</p>
     return:
-      type: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+      type: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
       description: <p>The available invoice line item collection operations given a billing provider and invoice line item type. </p>
 - uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
   parent: com.microsoft.store.partnercenter.models.invoices
@@ -553,7 +553,7 @@ references:
   type: Method
   summary: "<p>Creates an invoice line item collection operations given a billing provider and invoice line item type.</p>\r\n<p></p>"
   syntax:
-    content: public IReconLineItemCollection By(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+    content: public IReconciliationLineItemCollection By(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
     parameters:
     - id: provider
       type: com.microsoft.store.partnercenter.models.invoices.BillingProvider
@@ -571,7 +571,7 @@ references:
       type: f75371fa
       description: <p>The number of records returned in a single operation.</p>
     return:
-      type: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+      type: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
       description: <p>The available invoice line item collection operations given a billing provider and invoice line item type. </p>
 - uid: com.microsoft.store.partnercenter.models.invoices.Invoice
   parent: com.microsoft.store.partnercenter.models.invoices

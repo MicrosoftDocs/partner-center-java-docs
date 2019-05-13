@@ -5,6 +5,7 @@ items:
   parent: com.microsoft.store.partnercenter.subscriptions
   children:
   - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks()
   - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns()
   - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions()
   - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus()
@@ -58,7 +59,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 252
+    startLine: 269
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Gets the subscription.</p>\r\n<p></p>"
   syntax:
@@ -67,6 +68,29 @@ items:
       type: com.microsoft.store.partnercenter.models.subscriptions.Subscription
       description: <p>The subscription. </p>
   overridden: com.microsoft.store.partnercenter.subscriptions.ISubscription.get()
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks()
+  id: getActivationLinks()
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.yml
+  langs:
+  - java
+  name: getActivationLinks()
+  nameWithType: SubscriptionOperations.getActivationLinks()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
+    startLine: 113
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: "<p>Gets the current subscription's activation links.</p>\r\n<p></p>"
+  syntax:
+    content: public ISubscriptionActivationLinks getActivationLinks()
+    return:
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+      description: <p>The current subscription's activation links. </p>
+  overridden: com.microsoft.store.partnercenter.subscriptions.ISubscription.getActivationLinks()
 - uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns()
   id: getAddOns()
   parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
@@ -81,7 +105,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 113
+    startLine: 130
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Gets the current subscription's add-ons operations. </p>"
   syntax:
@@ -103,7 +127,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 236
+    startLine: 253
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Gets the current subscription's conversion operations. These operations will only apply to trial subscriptions.</p>\r\n<p></p>"
   syntax:
@@ -126,7 +150,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 187
+    startLine: 204
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Gets the current subscription's provisioning status operations. </p>"
   syntax:
@@ -148,7 +172,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 213
+    startLine: 230
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Gets the current subscription's registration operations. </p>"
   syntax:
@@ -170,7 +194,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 226
+    startLine: 243
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Gets the current subscription's registration status operations. </p>"
   syntax:
@@ -192,7 +216,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 200
+    startLine: 217
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Gets the current subscription's support contact operations. </p>"
   syntax:
@@ -214,7 +238,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 128
+    startLine: 145
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Gets the current subscription's upgrade operations. </p>"
   syntax:
@@ -236,7 +260,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 143
+    startLine: 160
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Gets the current subscription's resource usage records operations. </p>"
   syntax:
@@ -258,7 +282,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 158
+    startLine: 175
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Gets the current subscription's usage summary operations. </p>"
   syntax:
@@ -280,7 +304,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 173
+    startLine: 190
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Gets the current subscription's utilization operations. </p>"
   syntax:
@@ -302,7 +326,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 270
+    startLine: 287
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Patches a subscription.</p>\r\n<p></p>"
   syntax:
@@ -329,7 +353,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 92
+    startLine: 93
   package: com.microsoft.store.partnercenter.subscriptions
   summary: "<p>Initializes a new instance of the SubscriptionOperations class.</p>\r\n<p></p>"
   syntax:
@@ -353,6 +377,11 @@ references:
   name: SubscriptionOperations
   nameWithType: SubscriptionOperations.SubscriptionOperations
   fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks*
+  name: getActivationLinks
+  nameWithType: SubscriptionOperations.getActivationLinks
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks
   package: com.microsoft.store.partnercenter.subscriptions
 - uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns*
   name: getAddOns
@@ -497,6 +526,16 @@ references:
   summary: "<p>This interface defines the operations available on a customer's subscription. </p>"
   syntax:
     content: public interface ISubscription extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<Subscription>,IEntityPatchOperations<Subscription>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks.yml
+  name: ISubscriptionActivationLinks
+  nameWithType: ISubscriptionActivationLinks
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+  type: Interface
+  summary: "<p>A resource collection of subscription activation links. </p>"
+  syntax:
+    content: public interface ISubscriptionActivationLinks extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<OrderLineItemActivationLink, ResourceCollection<OrderLineItemActivationLink>>
 - uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
   parent: com.microsoft.store.partnercenter.subscriptions
   href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.yml
@@ -606,6 +645,19 @@ references:
   summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
   syntax:
     content: public interface IPartner
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscription.getActivationLinks()
+  parent: com.microsoft.store.partnercenter.subscriptions.ISubscription
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscription.yml
+  name: getActivationLinks()
+  nameWithType: ISubscription.getActivationLinks()
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscription.getActivationLinks()
+  type: Method
+  summary: "<p>Gets the current subscription's activation links.</p>\r\n<p></p>"
+  syntax:
+    content: public ISubscriptionActivationLinks getActivationLinks()
+    return:
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+      description: <p>The current subscription's activation links. </p>
 - uid: com.microsoft.store.partnercenter.subscriptions.ISubscription.getAddOns()
   parent: com.microsoft.store.partnercenter.subscriptions.ISubscription
   href: com.microsoft.store.partnercenter.subscriptions.ISubscription.yml

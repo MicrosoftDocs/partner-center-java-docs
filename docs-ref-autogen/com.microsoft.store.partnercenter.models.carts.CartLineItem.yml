@@ -16,7 +16,7 @@ items:
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.getProvisioningContext()
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.getQuantity()
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.getTermDuration()
-  - com.microsoft.store.partnercenter.models.carts.CartLineItem.setAddOnItems(Iterable<CartLineItem>)
+  - com.microsoft.store.partnercenter.models.carts.CartLineItem.setAddOnItems(List<CartLineItem>)
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.setBillingCycle(BillingCycleType)
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.setCatalogItemId(String)
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.setCurrencyCode(String)
@@ -41,7 +41,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 18
+    startLine: 19
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Represents a line item on a cart. </p>"
   syntax: &o1
@@ -62,13 +62,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 97
+    startLine: 98
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets a list of items that depend on this one, so they have to be purchased subsequently.</p>\r\n<p></p>"
   syntax:
-    content: public Iterable<CartLineItem> getAddOnItems()
+    content: public List<CartLineItem> getAddOnItems()
     return:
-      type: 2a13b5a5com.microsoft.store.partnercenter.models.carts.CartLineItema08ddfce
+      type: 5618da2dcom.microsoft.store.partnercenter.models.carts.CartLineItema08ddfce
       description: <p>A list of items that depend on this one, so they have to be purchased subsequently. </p>
 - uid: com.microsoft.store.partnercenter.models.carts.CartLineItem.getBillingCycle()
   id: getBillingCycle()
@@ -84,7 +84,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 117
+    startLine: 118
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the type of billing cycle for the selected catalog item.</p>\r\n<p></p>"
   syntax:
@@ -106,7 +106,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 137
+    startLine: 138
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the catalog item identifier.</p>\r\n<p></p>"
   syntax:
@@ -128,7 +128,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 157
+    startLine: 158
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the currency code.</p>\r\n<p></p>"
   syntax:
@@ -150,7 +150,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 177
+    startLine: 178
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the error associated to this cart line item.</p>\r\n<p></p>"
   syntax:
@@ -172,7 +172,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 197
+    startLine: 198
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the friendly name for the result contract (subscription).</p>\r\n<p></p>"
   syntax:
@@ -194,7 +194,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 217
+    startLine: 218
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the unique identifier of a cart line item.</p>\r\n<p></p>"
   syntax:
@@ -216,7 +216,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 237
+    startLine: 238
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the order group which indicates which items can be place in a single order.</p>\r\n<p></p>"
   syntax:
@@ -238,7 +238,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 257
+    startLine: 258
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the collection of participants on this purchase.</p>\r\n<p></p>"
   syntax:
@@ -260,7 +260,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 277
+    startLine: 278
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the context that will be used for provisioning of the catalog item.</p>\r\n<p></p>"
   syntax:
@@ -282,7 +282,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 297
+    startLine: 298
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the product quantity.</p>\r\n<p></p>"
   syntax:
@@ -304,7 +304,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 317
+    startLine: 318
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the term duration if applicable.</p>\r\n<p></p>"
   syntax:
@@ -312,28 +312,28 @@ items:
     return:
       type: "26831127"
       description: <p>The term duration if applicable. </p>
-- uid: com.microsoft.store.partnercenter.models.carts.CartLineItem.setAddOnItems(Iterable<CartLineItem>)
-  id: setAddOnItems(Iterable<CartLineItem>)
+- uid: com.microsoft.store.partnercenter.models.carts.CartLineItem.setAddOnItems(List<CartLineItem>)
+  id: setAddOnItems(List<CartLineItem>)
   parent: com.microsoft.store.partnercenter.models.carts.CartLineItem
   href: com.microsoft.store.partnercenter.models.carts.CartLineItem.yml
   langs:
   - java
-  name: setAddOnItems(Iterable<CartLineItem> value)
-  nameWithType: CartLineItem.setAddOnItems(Iterable<CartLineItem> value)
-  fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem.setAddOnItems(Iterable<CartLineItem> value)
+  name: setAddOnItems(List<CartLineItem> value)
+  nameWithType: CartLineItem.setAddOnItems(List<CartLineItem> value)
+  fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem.setAddOnItems(List<CartLineItem> value)
   overload: com.microsoft.store.partnercenter.models.carts.CartLineItem.setAddOnItems*
   type: Method
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 107
+    startLine: 108
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets a list of items that depend on this one, so they have to be purchased subsequently.</p>\r\n<p></p>"
   syntax:
-    content: public void setAddOnItems(Iterable<CartLineItem> value)
+    content: public void setAddOnItems(List<CartLineItem> value)
     parameters:
     - id: value
-      type: 2a13b5a5com.microsoft.store.partnercenter.models.carts.CartLineItema08ddfce
+      type: 5618da2dcom.microsoft.store.partnercenter.models.carts.CartLineItema08ddfce
       description: <p>A list of items that depend on this one, so they have to be purchased subsequently. </p>
 - uid: com.microsoft.store.partnercenter.models.carts.CartLineItem.setBillingCycle(BillingCycleType)
   id: setBillingCycle(BillingCycleType)
@@ -349,7 +349,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 127
+    startLine: 128
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the type of billing cycle for the selected catalog item.</p>\r\n<p></p>"
   syntax:
@@ -372,7 +372,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 147
+    startLine: 148
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the catalog item identifier.</p>\r\n<p></p>"
   syntax:
@@ -395,7 +395,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 167
+    startLine: 168
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the currency code.</p>\r\n<p></p>"
   syntax:
@@ -418,7 +418,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 187
+    startLine: 188
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the error associated to this cart line item.</p>\r\n<p></p>"
   syntax:
@@ -441,7 +441,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 207
+    startLine: 208
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the friendly name for the result contract (subscription).</p>\r\n<p></p>"
   syntax:
@@ -464,7 +464,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 227
+    startLine: 228
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the unique identifier of a cart line item.</p>\r\n<p></p>"
   syntax:
@@ -487,7 +487,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 247
+    startLine: 248
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the order group which indicates which items can be place in a single order.</p>\r\n<p></p>"
   syntax:
@@ -510,7 +510,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 267
+    startLine: 268
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the collection of participants on this purchase.</p>\r\n<p></p>"
   syntax:
@@ -533,7 +533,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 287
+    startLine: 288
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the context that will be used for provisioning of the catalog item.</p>\r\n<p></p>"
   syntax:
@@ -556,7 +556,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 307
+    startLine: 308
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the product quantity.</p>\r\n<p></p>"
   syntax:
@@ -579,7 +579,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 327
+    startLine: 328
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the term duration if applicable.</p>\r\n<p></p>"
   syntax:
@@ -589,10 +589,10 @@ items:
       type: "26831127"
       description: <p>The term duration if applicable. </p>
 references:
-- uid: 2a13b5a5com.microsoft.store.partnercenter.models.carts.CartLineItema08ddfce
+- uid: 5618da2dcom.microsoft.store.partnercenter.models.carts.CartLineItema08ddfce
   spec.java:
-  - name: Iterable<
-    fullName: Iterable<
+  - name: List<
+    fullName: List<
   - uid: com.microsoft.store.partnercenter.models.carts.CartLineItem
     name: CartLineItem
     fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem

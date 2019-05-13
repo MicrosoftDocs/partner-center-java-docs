@@ -10,6 +10,7 @@ items:
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getCurrencyCode()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getCurrencySymbol()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getCustomerId()
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getDetails()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getPretaxTotal()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getTax()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setAfterTaxTotal(Double)
@@ -18,6 +19,7 @@ items:
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setCurrencyCode(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setCurrencySymbol(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setCustomerId(String)
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setDetails(List<ServiceCostsSummary>)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setPretaxTotal(Double)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setTax(Double)
   href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.yml
@@ -33,10 +35,10 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 16
+    startLine: 18
   package: com.microsoft.store.partnercenter.models.servicecosts
   summary: "<p>Represents a service costs summary for a customer. </p>"
-  syntax:
+  syntax: &o1
     content: public class ServiceCostsSummary extends ResourceBaseWithLinks<ServiceCostsSummaryLinks>
   inheritance:
   - java.lang.Object
@@ -64,7 +66,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 89
+    startLine: 116
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public Double getAfterTaxTotal()
@@ -84,7 +86,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 41
+    startLine: 68
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public DateTime getBillingEndDate()
@@ -104,7 +106,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 25
+    startLine: 52
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public DateTime getBillingStartDate()
@@ -124,7 +126,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 105
+    startLine: 132
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getCurrencyCode()
@@ -144,7 +146,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 121
+    startLine: 148
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getCurrencySymbol()
@@ -164,12 +166,34 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 137
+    startLine: 164
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getCustomerId()
     return:
       type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getDetails()
+  id: getDetails()
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.yml
+  langs:
+  - java
+  name: getDetails()
+  nameWithType: ServiceCostsSummary.getDetails()
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getDetails()
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getDetails*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
+    startLine: 31
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Gets the service costs summary details.</p>\r\n<p></p>"
+  syntax:
+    content: public List<ServiceCostsSummary> getDetails()
+    return:
+      type: 5618da2dcom.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummarya08ddfce
+      description: <p>The service costs summary details. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getPretaxTotal()
   id: getPretaxTotal()
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
@@ -184,7 +208,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 57
+    startLine: 84
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public Double getPretaxTotal()
@@ -204,7 +228,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 73
+    startLine: 100
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public Double getTax()
@@ -224,7 +248,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 94
+    startLine: 121
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setAfterTaxTotal(Double value)
@@ -245,7 +269,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 46
+    startLine: 73
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setBillingEnd(DateTime value)
@@ -266,7 +290,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 30
+    startLine: 57
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setBillingStartDate(DateTime value)
@@ -287,7 +311,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 110
+    startLine: 137
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setCurrencyCode(String value)
@@ -308,7 +332,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 126
+    startLine: 153
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setCurrencySymbol(String value)
@@ -329,13 +353,36 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 142
+    startLine: 169
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setCustomerId(String value)
     parameters:
     - id: value
       type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setDetails(List<ServiceCostsSummary>)
+  id: setDetails(List<ServiceCostsSummary>)
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.yml
+  langs:
+  - java
+  name: setDetails(List<ServiceCostsSummary> value)
+  nameWithType: ServiceCostsSummary.setDetails(List<ServiceCostsSummary> value)
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setDetails(List<ServiceCostsSummary> value)
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setDetails*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
+    startLine: 41
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Sets the service costs summary details.</p>\r\n<p></p>"
+  syntax:
+    content: public void setDetails(List<ServiceCostsSummary> value)
+    parameters:
+    - id: value
+      type: 5618da2dcom.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummarya08ddfce
+      description: <p>The service costs summary details. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setPretaxTotal(Double)
   id: setPretaxTotal(Double)
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
@@ -350,7 +397,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 62
+    startLine: 89
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setPretaxTotal(Double value)
@@ -371,7 +418,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java
-    startLine: 78
+    startLine: 105
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setTax(Double value)
@@ -379,6 +426,26 @@ items:
     - id: value
       type: 8dd309d9
 references:
+- uid: 5618da2dcom.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummarya08ddfce
+  spec.java:
+  - name: List<
+    fullName: List<
+  - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
+    name: ServiceCostsSummary
+    fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
+    href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getDetails*
+  name: getDetails
+  nameWithType: ServiceCostsSummary.getDetails
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getDetails
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setDetails*
+  name: setDetails
+  nameWithType: ServiceCostsSummary.setDetails
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setDetails
+  package: com.microsoft.store.partnercenter.models.servicecosts
 - uid: 230df18c
   spec.java:
   - name: DateTime
@@ -572,3 +639,12 @@ references:
     typeParameters:
     - id: TLinks
       type: 694adf1c
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
+  parent: com.microsoft.store.partnercenter.models.servicecosts
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.yml
+  name: ServiceCostsSummary
+  nameWithType: ServiceCostsSummary
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
+  type: Class
+  summary: "<p>Represents a service costs summary for a customer. </p>"
+  syntax: *o1

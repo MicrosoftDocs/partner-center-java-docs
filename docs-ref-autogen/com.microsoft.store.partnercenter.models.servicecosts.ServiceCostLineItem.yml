@@ -5,40 +5,60 @@ items:
   parent: com.microsoft.store.partnercenter.models.servicecosts
   children:
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getAfterTaxTotal()
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getAvailabilityId()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getChargeType()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getCurrencyCode()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getCurrencySymbol()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getCustomerId()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getCustomerName()
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getDiscountDetails()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getEndDate()
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getInvoiceNumber()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getOfferId()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getOfferName()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getOrderId()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPretaxTotal()
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductId()
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductName()
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherId()
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherName()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getQuantity()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getResellerMPNId()
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuId()
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuName()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getStartDate()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSubscriptionFriendlyName()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSubscriptionId()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getTax()
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getTermAndBillingCycle()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getUnitPrice()
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setAfterTaxTotal(Double)
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setAvailabilityId(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setChargeType(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setCurrencyCode(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setCurrencySymbol(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setCustomerId(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setCustomerName(String)
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setDiscountDetails(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setEnd(DateTime)
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setInvoiceNumber(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setOfferId(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setOfferName(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setOrderId(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPretaxTotal(Double)
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductId(String)
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductName(String)
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherId(String)
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherName(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setQuantity(Double)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setResellerMPNId(String)
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuId(String)
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuName(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setStartDate(DateTime)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSubscriptionFriendlyName(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSubscriptionId(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setTax(Double)
+  - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setTermAndBillingCycle(String)
   - com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setUnitPrice(Double)
   href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
   langs:
@@ -79,12 +99,34 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 260
+    startLine: 510
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public Double getAfterTaxTotal()
     return:
       type: 8dd309d9
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getAvailabilityId()
+  id: getAvailabilityId()
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: getAvailabilityId()
+  nameWithType: ServiceCostLineItem.getAvailabilityId()
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getAvailabilityId()
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getAvailabilityId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 74
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Gets the availability identifier associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public String getAvailabilityId()
+    return:
+      type: "26831127"
+      description: <p>The availability identifier associated with this line item. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getChargeType()
   id: getChargeType()
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -99,7 +141,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 180
+    startLine: 430
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getChargeType()
@@ -119,7 +161,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 276
+    startLine: 526
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getCurrencyCode()
@@ -139,7 +181,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 292
+    startLine: 542
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getCurrencySymbol()
@@ -159,7 +201,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 308
+    startLine: 558
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getCustomerId()
@@ -179,12 +221,34 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 324
+    startLine: 574
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getCustomerName()
     return:
       type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getDiscountDetails()
+  id: getDiscountDetails()
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: getDiscountDetails()
+  nameWithType: ServiceCostLineItem.getDiscountDetails()
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getDiscountDetails()
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getDiscountDetails*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 94
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Gets the discount details associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public String getDiscountDetails()
+    return:
+      type: "26831127"
+      description: <p>The discount details associated with this line item. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getEndDate()
   id: getEndDate()
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -199,12 +263,34 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 41
+    startLine: 291
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public DateTime getEndDate()
     return:
       type: 230df18c
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getInvoiceNumber()
+  id: getInvoiceNumber()
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: getInvoiceNumber()
+  nameWithType: ServiceCostLineItem.getInvoiceNumber()
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getInvoiceNumber()
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getInvoiceNumber*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 114
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Gets the invoice number associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public String getInvoiceNumber()
+    return:
+      type: "26831127"
+      description: <p>The invoice number associated with this line item. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getOfferId()
   id: getOfferId()
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -219,7 +305,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 105
+    startLine: 355
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getOfferId()
@@ -239,7 +325,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 121
+    startLine: 371
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getOfferName()
@@ -259,7 +345,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 89
+    startLine: 339
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getOrderId()
@@ -279,12 +365,100 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 228
+    startLine: 478
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public Double getPretaxTotal()
     return:
       type: 8dd309d9
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductId()
+  id: getProductId()
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: getProductId()
+  nameWithType: ServiceCostLineItem.getProductId()
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductId()
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 134
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Gets the identifier of the product.</p>\r\n<p></p>"
+  syntax:
+    content: public String getProductId()
+    return:
+      type: "26831127"
+      description: <p>The identifier of the product. </p>
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductName()
+  id: getProductName()
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: getProductName()
+  nameWithType: ServiceCostLineItem.getProductName()
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductName()
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 154
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Gets the name of the product.</p>\r\n<p></p>"
+  syntax:
+    content: public String getProductName()
+    return:
+      type: "26831127"
+      description: <p>The name of the product. </p>
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherId()
+  id: getPublisherId()
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: getPublisherId()
+  nameWithType: ServiceCostLineItem.getPublisherId()
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherId()
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 174
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Gets the identifier of the publisher.</p>\r\n<p></p>"
+  syntax:
+    content: public String getPublisherId()
+    return:
+      type: "26831127"
+      description: <p>The identifier of the publisher. </p>
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherName()
+  id: getPublisherName()
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: getPublisherName()
+  nameWithType: ServiceCostLineItem.getPublisherName()
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherName()
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 194
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Gets the name of the publisher.</p>\r\n<p></p>"
+  syntax:
+    content: public String getPublisherName()
+    return:
+      type: "26831127"
+      description: <p>The name of the publisher. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getQuantity()
   id: getQuantity()
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -299,7 +473,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 196
+    startLine: 446
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public Double getQuantity()
@@ -319,12 +493,56 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 137
+    startLine: 387
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getResellerMPNId()
     return:
       type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuId()
+  id: getSkuId()
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: getSkuId()
+  nameWithType: ServiceCostLineItem.getSkuId()
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuId()
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 214
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Gets the SKU identifier associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public String getSkuId()
+    return:
+      type: "26831127"
+      description: <p>The SKU identifier associated with this line item. </p>
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuName()
+  id: getSkuName()
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: getSkuName()
+  nameWithType: ServiceCostLineItem.getSkuName()
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuName()
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 234
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Gets the name of the SKU associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public String getSkuName()
+    return:
+      type: "26831127"
+      description: <p>The name of the SKU associated with this line item. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getStartDate()
   id: getStartDate()
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -339,7 +557,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 25
+    startLine: 275
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public DateTime getStartDate()
@@ -359,7 +577,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 57
+    startLine: 307
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getSubscriptionFriendlyName()
@@ -379,7 +597,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 73
+    startLine: 323
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public String getSubscriptionId()
@@ -399,12 +617,34 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 244
+    startLine: 494
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public Double getTax()
     return:
       type: 8dd309d9
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getTermAndBillingCycle()
+  id: getTermAndBillingCycle()
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: getTermAndBillingCycle()
+  nameWithType: ServiceCostLineItem.getTermAndBillingCycle()
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getTermAndBillingCycle()
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getTermAndBillingCycle*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 254
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Gets the term and billing cycle associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public String getTermAndBillingCycle()
+    return:
+      type: "26831127"
+      description: <p>The term and billing cycle associated with this line item. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getUnitPrice()
   id: getUnitPrice()
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -419,7 +659,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 212
+    startLine: 462
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public Double getUnitPrice()
@@ -439,13 +679,36 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 265
+    startLine: 515
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setAfterTaxTotal(Double value)
     parameters:
     - id: value
       type: 8dd309d9
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setAvailabilityId(String)
+  id: setAvailabilityId(String)
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: setAvailabilityId(String value)
+  nameWithType: ServiceCostLineItem.setAvailabilityId(String value)
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setAvailabilityId(String value)
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setAvailabilityId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 84
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Sets the availability identifier associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public void setAvailabilityId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The availability identifier associated with this line item. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setChargeType(String)
   id: setChargeType(String)
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -460,7 +723,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 185
+    startLine: 435
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setChargeType(String value)
@@ -481,7 +744,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 281
+    startLine: 531
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setCurrencyCode(String value)
@@ -502,7 +765,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 297
+    startLine: 547
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setCurrencySymbol(String value)
@@ -523,7 +786,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 313
+    startLine: 563
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setCustomerId(String value)
@@ -544,13 +807,36 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 329
+    startLine: 579
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setCustomerName(String value)
     parameters:
     - id: value
       type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setDiscountDetails(String)
+  id: setDiscountDetails(String)
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: setDiscountDetails(String value)
+  nameWithType: ServiceCostLineItem.setDiscountDetails(String value)
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setDiscountDetails(String value)
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setDiscountDetails*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 104
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Sets the discount details associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public void setDiscountDetails(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The discount details associated with this line item. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setEnd(DateTime)
   id: setEnd(DateTime)
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -565,13 +851,36 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 46
+    startLine: 296
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setEnd(DateTime value)
     parameters:
     - id: value
       type: 230df18c
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setInvoiceNumber(String)
+  id: setInvoiceNumber(String)
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: setInvoiceNumber(String value)
+  nameWithType: ServiceCostLineItem.setInvoiceNumber(String value)
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setInvoiceNumber(String value)
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setInvoiceNumber*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 124
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Sets the invoice number associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public void setInvoiceNumber(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The invoice number associated with this line item. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setOfferId(String)
   id: setOfferId(String)
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -586,7 +895,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 110
+    startLine: 360
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setOfferId(String value)
@@ -607,7 +916,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 126
+    startLine: 376
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setOfferName(String value)
@@ -628,7 +937,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 94
+    startLine: 344
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setOrderId(String value)
@@ -649,13 +958,105 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 233
+    startLine: 483
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setPretaxTotal(Double value)
     parameters:
     - id: value
       type: 8dd309d9
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductId(String)
+  id: setProductId(String)
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: setProductId(String value)
+  nameWithType: ServiceCostLineItem.setProductId(String value)
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductId(String value)
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 144
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Sets the identifier of the product.</p>\r\n<p></p>"
+  syntax:
+    content: public void setProductId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The identifier of the product. </p>
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductName(String)
+  id: setProductName(String)
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: setProductName(String value)
+  nameWithType: ServiceCostLineItem.setProductName(String value)
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductName(String value)
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 164
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Sets the name of the product.</p>\r\n<p></p>"
+  syntax:
+    content: public void setProductName(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The name of the product. </p>
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherId(String)
+  id: setPublisherId(String)
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: setPublisherId(String value)
+  nameWithType: ServiceCostLineItem.setPublisherId(String value)
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherId(String value)
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 184
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Sets the identifier of the publisher.</p>\r\n<p></p>"
+  syntax:
+    content: public void setPublisherId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The identifier of the publisher. </p>
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherName(String)
+  id: setPublisherName(String)
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: setPublisherName(String value)
+  nameWithType: ServiceCostLineItem.setPublisherName(String value)
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherName(String value)
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 204
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Sets the name of the publisher.</p>\r\n<p></p>"
+  syntax:
+    content: public void setPublisherName(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The name of the publisher. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setQuantity(Double)
   id: setQuantity(Double)
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -670,7 +1071,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 201
+    startLine: 451
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setQuantity(Double value)
@@ -691,13 +1092,59 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 142
+    startLine: 392
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setResellerMPNId(String value)
     parameters:
     - id: value
       type: "26831127"
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuId(String)
+  id: setSkuId(String)
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: setSkuId(String value)
+  nameWithType: ServiceCostLineItem.setSkuId(String value)
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuId(String value)
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 224
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Sets the SKU identifier associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public void setSkuId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The SKU identifier associated with this line item. </p>
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuName(String)
+  id: setSkuName(String)
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: setSkuName(String value)
+  nameWithType: ServiceCostLineItem.setSkuName(String value)
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuName(String value)
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 244
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Sets the name of the SKU associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public void setSkuName(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The name of the SKU associated with this line item. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setStartDate(DateTime)
   id: setStartDate(DateTime)
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -712,7 +1159,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 30
+    startLine: 280
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setStartDate(DateTime value)
@@ -733,7 +1180,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 62
+    startLine: 312
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setSubscriptionFriendlyName(String value)
@@ -754,7 +1201,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 78
+    startLine: 328
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setSubscriptionId(String value)
@@ -775,13 +1222,36 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 249
+    startLine: 499
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setTax(Double value)
     parameters:
     - id: value
       type: 8dd309d9
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setTermAndBillingCycle(String)
+  id: setTermAndBillingCycle(String)
+  parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  href: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.yml
+  langs:
+  - java
+  name: setTermAndBillingCycle(String value)
+  nameWithType: ServiceCostLineItem.setTermAndBillingCycle(String value)
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setTermAndBillingCycle(String value)
+  overload: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setTermAndBillingCycle*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
+    startLine: 264
+  package: com.microsoft.store.partnercenter.models.servicecosts
+  summary: "<p>Sets the term and billing cycle associated with this line item.</p>\r\n<p></p>"
+  syntax:
+    content: public void setTermAndBillingCycle(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The term and billing cycle associated with this line item. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setUnitPrice(Double)
   id: setUnitPrice(Double)
   parent: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
@@ -796,7 +1266,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostLineItem.java
-    startLine: 217
+    startLine: 467
   package: com.microsoft.store.partnercenter.models.servicecosts
   syntax:
     content: public void setUnitPrice(Double value)
@@ -804,6 +1274,110 @@ items:
     - id: value
       type: 8dd309d9
 references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getAvailabilityId*
+  name: getAvailabilityId
+  nameWithType: ServiceCostLineItem.getAvailabilityId
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getAvailabilityId
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setAvailabilityId*
+  name: setAvailabilityId
+  nameWithType: ServiceCostLineItem.setAvailabilityId
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setAvailabilityId
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getDiscountDetails*
+  name: getDiscountDetails
+  nameWithType: ServiceCostLineItem.getDiscountDetails
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getDiscountDetails
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setDiscountDetails*
+  name: setDiscountDetails
+  nameWithType: ServiceCostLineItem.setDiscountDetails
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setDiscountDetails
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getInvoiceNumber*
+  name: getInvoiceNumber
+  nameWithType: ServiceCostLineItem.getInvoiceNumber
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getInvoiceNumber
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setInvoiceNumber*
+  name: setInvoiceNumber
+  nameWithType: ServiceCostLineItem.setInvoiceNumber
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setInvoiceNumber
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductId*
+  name: getProductId
+  nameWithType: ServiceCostLineItem.getProductId
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductId
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductId*
+  name: setProductId
+  nameWithType: ServiceCostLineItem.setProductId
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductId
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductName*
+  name: getProductName
+  nameWithType: ServiceCostLineItem.getProductName
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getProductName
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductName*
+  name: setProductName
+  nameWithType: ServiceCostLineItem.setProductName
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setProductName
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherId*
+  name: getPublisherId
+  nameWithType: ServiceCostLineItem.getPublisherId
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherId
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherId*
+  name: setPublisherId
+  nameWithType: ServiceCostLineItem.setPublisherId
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherId
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherName*
+  name: getPublisherName
+  nameWithType: ServiceCostLineItem.getPublisherName
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getPublisherName
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherName*
+  name: setPublisherName
+  nameWithType: ServiceCostLineItem.setPublisherName
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setPublisherName
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuId*
+  name: getSkuId
+  nameWithType: ServiceCostLineItem.getSkuId
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuId
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuId*
+  name: setSkuId
+  nameWithType: ServiceCostLineItem.setSkuId
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuId
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuName*
+  name: getSkuName
+  nameWithType: ServiceCostLineItem.getSkuName
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSkuName
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuName*
+  name: setSkuName
+  nameWithType: ServiceCostLineItem.setSkuName
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setSkuName
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getTermAndBillingCycle*
+  name: getTermAndBillingCycle
+  nameWithType: ServiceCostLineItem.getTermAndBillingCycle
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getTermAndBillingCycle
+  package: com.microsoft.store.partnercenter.models.servicecosts
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setTermAndBillingCycle*
+  name: setTermAndBillingCycle
+  nameWithType: ServiceCostLineItem.setTermAndBillingCycle
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setTermAndBillingCycle
+  package: com.microsoft.store.partnercenter.models.servicecosts
 - uid: 230df18c
   spec.java:
   - name: DateTime
@@ -828,10 +1402,6 @@ references:
   nameWithType: ServiceCostLineItem.setEnd
   fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setEnd
   package: com.microsoft.store.partnercenter.models.servicecosts
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.getSubscriptionFriendlyName*
   name: getSubscriptionFriendlyName
   nameWithType: ServiceCostLineItem.getSubscriptionFriendlyName

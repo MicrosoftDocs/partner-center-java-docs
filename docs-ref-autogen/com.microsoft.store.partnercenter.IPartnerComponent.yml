@@ -349,16 +349,16 @@ references:
   summary: "<p>Represents the operations available to an invoice receipt statement. </p>"
   syntax:
     content: public interface IReceiptStatement
-- uid: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+- uid: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection.yml
-  name: IReconLineItemCollection
-  nameWithType: IReconLineItemCollection
-  fullName: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  href: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection.yml
+  name: IReconciliationLineItemCollection
+  nameWithType: IReconciliationLineItemCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   type: Interface
   summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
   syntax:
-    content: public interface IReconLineItemCollection
+    content: public interface IReconciliationLineItemCollection
 - uid: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
   parent: com.microsoft.store.partnercenter.offers
   href: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.yml
@@ -398,6 +398,16 @@ references:
   summary: "<p>Encapsulates a customer order behavior. </p>"
   syntax:
     content: public interface IOrder extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<Order>,IEntityPatchOperations<Order>
+- uid: com.microsoft.store.partnercenter.orders.IOrderActivationLinks
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderActivationLinks.yml
+  name: IOrderActivationLinks
+  nameWithType: IOrderActivationLinks
+  fullName: com.microsoft.store.partnercenter.orders.IOrderActivationLinks
+  type: Interface
+  summary: "<p>Encapsulates customer order activation link behavior. </p>"
+  syntax:
+    content: public interface IOrderActivationLinks extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<OrderLineItemActivationLink, ResourceCollection<OrderLineItemActivationLink>>
 - uid: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
   parent: com.microsoft.store.partnercenter.orders
   href: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType.yml
@@ -558,6 +568,16 @@ references:
   summary: "<p>This interface defines the operations available on a customer's subscription. </p>"
   syntax:
     content: public interface ISubscription
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks.yml
+  name: ISubscriptionActivationLinks
+  nameWithType: ISubscriptionActivationLinks
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+  type: Interface
+  summary: "<p>A resource collection of subscription activation links. </p>"
+  syntax:
+    content: public interface ISubscriptionActivationLinks
 - uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
   parent: com.microsoft.store.partnercenter.subscriptions
   href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.yml

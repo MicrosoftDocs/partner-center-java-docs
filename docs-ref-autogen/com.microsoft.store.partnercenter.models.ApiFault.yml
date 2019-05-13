@@ -5,7 +5,6 @@ items:
   parent: com.microsoft.store.partnercenter.models
   children:
   - com.microsoft.store.partnercenter.models.ApiFault.ApiFault()
-  - com.microsoft.store.partnercenter.models.ApiFault.ApiFault(String)
   - com.microsoft.store.partnercenter.models.ApiFault.getErrorCode()
   - com.microsoft.store.partnercenter.models.ApiFault.getErrorData()
   - com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage()
@@ -26,7 +25,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 11
+    startLine: 13
   package: com.microsoft.store.partnercenter.models
   summary: "<p>Represents API failures. </p>"
   syntax:
@@ -52,31 +51,11 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 14
+    startLine: 37
   package: com.microsoft.store.partnercenter.models
+  summary: "<p>Initializes a new instance of the ApiFault class. </p>"
   syntax:
     content: protected ApiFault()
-- uid: com.microsoft.store.partnercenter.models.ApiFault.ApiFault(String)
-  id: ApiFault(String)
-  parent: com.microsoft.store.partnercenter.models.ApiFault
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
-  langs:
-  - java
-  name: ApiFault(String objectType)
-  nameWithType: ApiFault.ApiFault(String objectType)
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.ApiFault(String objectType)
-  overload: com.microsoft.store.partnercenter.models.ApiFault.ApiFault*
-  type: Constructor
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 20
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: protected ApiFault(String objectType)
-    parameters:
-    - id: objectType
-      type: "26831127"
 - uid: com.microsoft.store.partnercenter.models.ApiFault.getErrorCode()
   id: getErrorCode()
   parent: com.microsoft.store.partnercenter.models.ApiFault
@@ -91,12 +70,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 31
+    startLine: 47
   package: com.microsoft.store.partnercenter.models
+  summary: "<p>Gets the error code.</p>\r\n<p></p>"
   syntax:
     content: public String getErrorCode()
     return:
       type: "26831127"
+      description: <p>The error code. </p>
 - uid: com.microsoft.store.partnercenter.models.ApiFault.getErrorData()
   id: getErrorData()
   parent: com.microsoft.store.partnercenter.models.ApiFault
@@ -111,12 +92,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 61
+    startLine: 87
   package: com.microsoft.store.partnercenter.models
+  summary: "<p>Gets the additional fault information if present.</p>\r\n<p></p>"
   syntax:
     content: public Iterable<Object> getErrorData()
     return:
       type: 85906ad9
+      description: <p>The additional fault information if present. </p>
 - uid: com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage()
   id: getErrorMessage()
   parent: com.microsoft.store.partnercenter.models.ApiFault
@@ -131,12 +114,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 46
+    startLine: 67
   package: com.microsoft.store.partnercenter.models
+  summary: "<p>Gets the error message.</p>\r\n<p></p>"
   syntax:
     content: public String getErrorMessage()
     return:
       type: "26831127"
+      description: <p>The error message. </p>
 - uid: com.microsoft.store.partnercenter.models.ApiFault.setErrorCode(String)
   id: setErrorCode(String)
   parent: com.microsoft.store.partnercenter.models.ApiFault
@@ -151,13 +136,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 36
+    startLine: 57
   package: com.microsoft.store.partnercenter.models
+  summary: "<p>Sets the error code.</p>\r\n<p></p>"
   syntax:
     content: public void setErrorCode(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The error code. </p>
 - uid: com.microsoft.store.partnercenter.models.ApiFault.setErrorData(Iterable<Object>)
   id: setErrorData(Iterable<Object>)
   parent: com.microsoft.store.partnercenter.models.ApiFault
@@ -172,13 +159,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 66
+    startLine: 97
   package: com.microsoft.store.partnercenter.models
+  summary: "<p>Sets the additional fault information.</p>\r\n<p></p>"
   syntax:
     content: public void setErrorData(Iterable<Object> value)
     parameters:
     - id: value
       type: 85906ad9
+      description: <p>The additional fault information. </p>
 - uid: com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage(String)
   id: setErrorMessage(String)
   parent: com.microsoft.store.partnercenter.models.ApiFault
@@ -193,13 +182,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 51
+    startLine: 77
   package: com.microsoft.store.partnercenter.models
+  summary: "<p>Sets the error message.</p>\r\n<p></p>"
   syntax:
     content: public void setErrorMessage(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The error message. </p>
 - uid: com.microsoft.store.partnercenter.models.ApiFault.toString()
   id: toString()
   parent: com.microsoft.store.partnercenter.models.ApiFault
@@ -214,7 +205,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 76
+    startLine: 107
   package: com.microsoft.store.partnercenter.models
   summary: "<p>Returns a meaningful summary about the API fault.</p>\r\n<p></p>"
   syntax:

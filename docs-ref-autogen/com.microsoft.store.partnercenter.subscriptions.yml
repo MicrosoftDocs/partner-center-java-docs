@@ -4,6 +4,7 @@ items:
   id: subscriptions
   children:
   - com.microsoft.store.partnercenter.subscriptions.ISubscription
+  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
   - com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
   - com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
   - com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
@@ -14,6 +15,7 @@ items:
   - com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
   - com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations
   - com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations
   - com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations
   - com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
   - com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations
@@ -50,6 +52,16 @@ references:
   summary: "<p>This interface defines the operations available on a customer's subscription. </p>"
   syntax:
     content: public interface ISubscription extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<Subscription>,IEntityPatchOperations<Subscription>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks.yml
+  name: ISubscriptionActivationLinks
+  nameWithType: ISubscriptionActivationLinks
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+  type: Interface
+  summary: "<p>A resource collection of subscription activation links. </p>"
+  syntax:
+    content: public interface ISubscriptionActivationLinks extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<OrderLineItemActivationLink, ResourceCollection<OrderLineItemActivationLink>>
 - uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
   parent: com.microsoft.store.partnercenter.subscriptions
   href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.yml
@@ -150,6 +162,16 @@ references:
   summary: "<p>Implements customer subscription operations grouped by a Microsoft partner. </p>"
   syntax:
     content: public class PartnerSubscriptionCollectionOperations extends BasePartnerComponent<Tuple<String, String>> implements IEntireEntityCollectionRetrievalOperations<Subscription, ResourceCollection<Subscription>>
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations.yml
+  name: SubscriptionActivationLinksOperations
+  nameWithType: SubscriptionActivationLinksOperations
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations
+  type: Class
+  summary: "<p>Implements getting customer subscription activation link resource collection for a given subscription. </p>"
+  syntax:
+    content: public class SubscriptionActivationLinksOperations extends BasePartnerComponent<Tuple<String, String>> implements ISubscriptionActivationLinks
 - uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations
   parent: com.microsoft.store.partnercenter.subscriptions
   href: com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations.yml

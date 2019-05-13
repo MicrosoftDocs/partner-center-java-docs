@@ -4,6 +4,7 @@ items:
   id: ResourceType
   parent: com.microsoft.store.partnercenter.models.auditing
   children:
+  - com.microsoft.store.partnercenter.models.auditing.ResourceType.AGREEMENT
   - com.microsoft.store.partnercenter.models.auditing.ResourceType.APPLICATION
   - com.microsoft.store.partnercenter.models.auditing.ResourceType.APPLICATION_CREDENTIAL
   - com.microsoft.store.partnercenter.models.auditing.ResourceType.CREDIT_LIMIT
@@ -45,6 +46,24 @@ items:
   inheritance:
   - java.lang.Object
   - java.lang.Enum<ResourceType>
+- uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.AGREEMENT
+  id: AGREEMENT
+  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
+  href: com.microsoft.store.partnercenter.models.auditing.ResourceType.yml
+  langs:
+  - java
+  name: AGREEMENT
+  nameWithType: ResourceType.AGREEMENT
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.AGREEMENT
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/ResourceType.java
+    startLine: 108
+  package: com.microsoft.store.partnercenter.models.auditing
+  summary: "<p>The agreement resource </p>"
+  syntax:
+    content: public AGREEMENT=("agreement")
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.APPLICATION
   id: APPLICATION
   parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
@@ -275,7 +294,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/auditing/ResourceType.java
-    startLine: 107
+    startLine: 112
   package: com.microsoft.store.partnercenter.models.auditing
   syntax:
     content: public ResourceType(String value)
@@ -368,7 +387,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/auditing/ResourceType.java
-    startLine: 119
+    startLine: 124
   package: com.microsoft.store.partnercenter.models.auditing
   summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
   syntax:

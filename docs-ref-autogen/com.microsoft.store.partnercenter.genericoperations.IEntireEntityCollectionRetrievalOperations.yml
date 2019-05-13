@@ -254,16 +254,16 @@ references:
   summary: "<p>Represents the operations that can be performed on entitlements (by type) associated to the customer based on the logged in partner. </p>"
   syntax:
     content: public interface IEntitlementCollectionByEntitlementType
-- uid: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+- uid: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   parent: com.microsoft.store.partnercenter.invoices
-  href: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection.yml
-  name: IReconLineItemCollection
-  nameWithType: IReconLineItemCollection
-  fullName: com.microsoft.store.partnercenter.invoices.IReconLineItemCollection
+  href: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection.yml
+  name: IReconciliationLineItemCollection
+  nameWithType: IReconciliationLineItemCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
   type: Interface
   summary: "<p>Represents the operations that can be done on partner's recon line items. </p>"
   syntax:
-    content: public interface IReconLineItemCollection
+    content: public interface IReconciliationLineItemCollection
 - uid: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
   parent: com.microsoft.store.partnercenter.managedservices
   href: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection.yml
@@ -302,6 +302,16 @@ references:
   summary: "<p>Represents the behavior of offer categories available to partners. </p>"
   syntax:
     content: public interface IOfferCategoryCollection
+- uid: com.microsoft.store.partnercenter.orders.IOrderActivationLinks
+  parent: com.microsoft.store.partnercenter.orders
+  href: com.microsoft.store.partnercenter.orders.IOrderActivationLinks.yml
+  name: IOrderActivationLinks
+  nameWithType: IOrderActivationLinks
+  fullName: com.microsoft.store.partnercenter.orders.IOrderActivationLinks
+  type: Interface
+  summary: "<p>Encapsulates customer order activation link behavior. </p>"
+  syntax:
+    content: public interface IOrderActivationLinks
 - uid: com.microsoft.store.partnercenter.orders.IOrderCollection
   parent: com.microsoft.store.partnercenter.orders
   href: com.microsoft.store.partnercenter.orders.IOrderCollection.yml
@@ -441,6 +451,16 @@ references:
   summary: "<p>Represents the behavior of the customers users </p>"
   syntax:
     content: public interface ICustomerSubscribedSkuCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<SubscribedSku, ResourceCollection<SubscribedSku>>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+  parent: com.microsoft.store.partnercenter.subscriptions
+  href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks.yml
+  name: ISubscriptionActivationLinks
+  nameWithType: ISubscriptionActivationLinks
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+  type: Interface
+  summary: "<p>A resource collection of subscription activation links. </p>"
+  syntax:
+    content: public interface ISubscriptionActivationLinks
 - uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
   parent: com.microsoft.store.partnercenter.subscriptions
   href: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.yml
@@ -1215,6 +1235,19 @@ references:
     return:
       type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection78504a52com.microsoft.store.partnercenter.models.roles.UserMembera08ddfce
       description: <p>The directory role user memberships. </p>
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations.get()
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations
+  href: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations.yml
+  name: get()
+  nameWithType: SubscriptionActivationLinksOperations.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations.get()
+  type: Method
+  summary: "<p>Gets the subscription activation links.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceCollection<OrderLineItemActivationLink> get()
+    return:
+      type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLinka08ddfce
+      description: <p>The subscription activation links. </p>
 - uid: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get()
   parent: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations
   href: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.yml
@@ -1657,12 +1690,12 @@ references:
     return:
       type: com.microsoft.store.partnercenter.models.ResourceCollection78504a52com.microsoft.store.partnercenter.models.subscriptions.Subscriptiona08ddfce
       description: <p>The subscriptions. </p>
-- uid: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get()
-  parent: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations
-  href: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.yml
+- uid: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.get()
+  parent: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations
+  href: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.yml
   name: get()
-  nameWithType: ReconLineItemCollectionOperations.get()
-  fullName: com.microsoft.store.partnercenter.invoices.ReconLineItemCollectionOperations.get()
+  nameWithType: ReconciliationLineItemCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.get()
   type: Method
   summary: "<p>Gets the recon line items collection of the partner.</p>\r\n<p></p>"
   syntax:
