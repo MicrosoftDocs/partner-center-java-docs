@@ -61,7 +61,7 @@ items:
   - com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setQuantity(int)
   - com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setResellerMpnId(String)
   - com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSkuId(String)
-  - com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSkuName(double)
+  - com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSkuName(String)
   - com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSubscriptionDescription(String)
   - com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSubscriptionId(String)
   - com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSubtotal(double)
@@ -627,9 +627,9 @@ items:
     startLine: 461
   package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: public double getSkuName()
+    content: public String getSkuName()
     return:
-      type: a07dcde8
+      type: "26831127"
 - uid: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getSubscriptionDescription()
   id: getSubscriptionDescription()
   parent: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem
@@ -1291,15 +1291,15 @@ items:
     parameters:
     - id: value
       type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSkuName(double)
-  id: setSkuName(double)
+- uid: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSkuName(String)
+  id: setSkuName(String)
   parent: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem
   href: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.yml
   langs:
   - java
-  name: setSkuName(double value)
-  nameWithType: OneTimeInvoiceLineItem.setSkuName(double value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSkuName(double value)
+  name: setSkuName(String value)
+  nameWithType: OneTimeInvoiceLineItem.setSkuName(String value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSkuName(String value)
   overload: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSkuName*
   type: Method
   source:
@@ -1308,10 +1308,10 @@ items:
     startLine: 466
   package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: public void setSkuName(double value)
+    content: public void setSkuName(String value)
     parameters:
     - id: value
-      type: a07dcde8
+      type: "26831127"
 - uid: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSubscriptionDescription(String)
   id: setSubscriptionDescription(String)
   parent: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem

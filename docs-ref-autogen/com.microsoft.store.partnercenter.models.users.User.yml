@@ -7,9 +7,11 @@ items:
   - com.microsoft.store.partnercenter.models.users.User.getDisplayName()
   - com.microsoft.store.partnercenter.models.users.User.getFirstName()
   - com.microsoft.store.partnercenter.models.users.User.getId()
+  - com.microsoft.store.partnercenter.models.users.User.getImmutableId()
   - com.microsoft.store.partnercenter.models.users.User.getLastDirectorySyncTime()
   - com.microsoft.store.partnercenter.models.users.User.getLastName()
   - com.microsoft.store.partnercenter.models.users.User.getPasswordProfile()
+  - com.microsoft.store.partnercenter.models.users.User.getPhoneNumber()
   - com.microsoft.store.partnercenter.models.users.User.getSoftDeletionTime()
   - com.microsoft.store.partnercenter.models.users.User.getState()
   - com.microsoft.store.partnercenter.models.users.User.getUserDomainType()
@@ -17,9 +19,11 @@ items:
   - com.microsoft.store.partnercenter.models.users.User.setDisplayName(String)
   - com.microsoft.store.partnercenter.models.users.User.setFirstName(String)
   - com.microsoft.store.partnercenter.models.users.User.setId(String)
+  - com.microsoft.store.partnercenter.models.users.User.setImmutableId(String)
   - com.microsoft.store.partnercenter.models.users.User.setLastDirectorySyncTime(DateTime)
   - com.microsoft.store.partnercenter.models.users.User.setLastName(String)
   - com.microsoft.store.partnercenter.models.users.User.setPasswordProfile(PasswordProfile)
+  - com.microsoft.store.partnercenter.models.users.User.setPhoneNumber(String)
   - com.microsoft.store.partnercenter.models.users.User.setSoftDeletionTime(DateTime)
   - com.microsoft.store.partnercenter.models.users.User.setState(UserState)
   - com.microsoft.store.partnercenter.models.users.User.setUserDomainType(UserDomainType)
@@ -37,7 +41,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 14
+    startLine: 13
   package: com.microsoft.store.partnercenter.models.users
   syntax:
     content: public class User extends ResourceBaseWithLinks<StandardResourceLinks>
@@ -67,12 +71,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 87
+    startLine: 82
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the display name for the user.</p>\r\n<p></p>"
   syntax:
     content: public String getDisplayName()
     return:
       type: "26831127"
+      description: <p>The display name for the user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.getFirstName()
   id: getFirstName()
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -87,12 +93,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 55
+    startLine: 102
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the first name for the user.</p>\r\n<p></p>"
   syntax:
     content: public String getFirstName()
     return:
       type: "26831127"
+      description: <p>The first name for the user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.getId()
   id: getId()
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -107,12 +115,36 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 22
+    startLine: 122
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the object identifier for the user.</p>\r\n<p></p>"
   syntax:
     content: public String getId()
     return:
       type: "26831127"
+      description: <p>The object identifier for the user. </p>
+- uid: com.microsoft.store.partnercenter.models.users.User.getImmutableId()
+  id: getImmutableId()
+  parent: com.microsoft.store.partnercenter.models.users.User
+  href: com.microsoft.store.partnercenter.models.users.User.yml
+  langs:
+  - java
+  name: getImmutableId()
+  nameWithType: User.getImmutableId()
+  fullName: com.microsoft.store.partnercenter.models.users.User.getImmutableId()
+  overload: com.microsoft.store.partnercenter.models.users.User.getImmutableId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
+    startLine: 142
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the immutable identifier for the user.</p>\r\n<p></p>"
+  syntax:
+    content: public String getImmutableId()
+    return:
+      type: "26831127"
+      description: <p>The immutable identifier for the user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.getLastDirectorySyncTime()
   id: getLastDirectorySyncTime()
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -127,12 +159,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 119
+    startLine: 162
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the last time that information for this user was synced between Azure Active Directory and on-premises Active Directory.</p>\r\n<p></p>"
   syntax:
     content: public DateTime getLastDirectorySyncTime()
     return:
       type: 230df18c
+      description: <p>The last time that information for this user was synced between Azure Active Directory and on-premises Active Directory. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.getLastName()
   id: getLastName()
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -147,12 +181,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 71
+    startLine: 182
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the last name for the user.</p>\r\n<p></p>"
   syntax:
     content: public String getLastName()
     return:
       type: "26831127"
+      description: <p>The last name for the user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.getPasswordProfile()
   id: getPasswordProfile()
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -167,12 +203,36 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 103
+    startLine: 202
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the password profile for the user.</p>\r\n<p></p>"
   syntax:
     content: public PasswordProfile getPasswordProfile()
     return:
       type: com.microsoft.store.partnercenter.models.users.PasswordProfile
+      description: <p>The password profile for the user. </p>
+- uid: com.microsoft.store.partnercenter.models.users.User.getPhoneNumber()
+  id: getPhoneNumber()
+  parent: com.microsoft.store.partnercenter.models.users.User
+  href: com.microsoft.store.partnercenter.models.users.User.yml
+  langs:
+  - java
+  name: getPhoneNumber()
+  nameWithType: User.getPhoneNumber()
+  fullName: com.microsoft.store.partnercenter.models.users.User.getPhoneNumber()
+  overload: com.microsoft.store.partnercenter.models.users.User.getPhoneNumber*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
+    startLine: 222
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the phone number for the user.</p>\r\n<p></p>"
+  syntax:
+    content: public String getPhoneNumber()
+    return:
+      type: "26831127"
+      description: <p>The phone number for the user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.getSoftDeletionTime()
   id: getSoftDeletionTime()
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -187,12 +247,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 167
+    startLine: 242
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the deleted time for the inactive user.</p>\r\n<p></p>"
   syntax:
     content: public DateTime getSoftDeletionTime()
     return:
       type: 230df18c
+      description: <p>The deleted time for the inactive user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.getState()
   id: getState()
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -207,12 +269,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 151
+    startLine: 262
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the state for the user. If the user is deleted the state is inactive; otherwise, the state is active.</p>\r\n<p></p>"
   syntax:
     content: public UserState getState()
     return:
       type: com.microsoft.store.partnercenter.models.users.UserState
+      description: <p>The state for the user. If the user is deleted the state is inactive; otherwise, the state is active. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.getUserDomainType()
   id: getUserDomainType()
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -227,12 +291,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 135
+    startLine: 282
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the user domain type.</p>\r\n<p></p>"
   syntax:
     content: public UserDomainType getUserDomainType()
     return:
       type: com.microsoft.store.partnercenter.models.users.UserDomainType
+      description: <p>The user domain type. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.getUserPrincipalName()
   id: getUserPrincipalName()
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -247,12 +313,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 38
+    startLine: 302
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Gets the user principal name (UPN) for the user.</p>\r\n<p></p>"
   syntax:
     content: public String getUserPrincipalName()
     return:
       type: "26831127"
+      description: <p>The user principal name (UPN) for the user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.setDisplayName(String)
   id: setDisplayName(String)
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -269,11 +337,13 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
     startLine: 92
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the display name for the user.</p>\r\n<p></p>"
   syntax:
     content: public void setDisplayName(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The display name for the user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.setFirstName(String)
   id: setFirstName(String)
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -288,13 +358,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 60
+    startLine: 112
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the first name for the user.</p>\r\n<p></p>"
   syntax:
     content: public void setFirstName(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The first name for the user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.setId(String)
   id: setId(String)
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -309,13 +381,38 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 27
+    startLine: 132
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the object identifier for the user.</p>\r\n<p></p>"
   syntax:
     content: public void setId(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The object identifier for the user. </p>
+- uid: com.microsoft.store.partnercenter.models.users.User.setImmutableId(String)
+  id: setImmutableId(String)
+  parent: com.microsoft.store.partnercenter.models.users.User
+  href: com.microsoft.store.partnercenter.models.users.User.yml
+  langs:
+  - java
+  name: setImmutableId(String value)
+  nameWithType: User.setImmutableId(String value)
+  fullName: com.microsoft.store.partnercenter.models.users.User.setImmutableId(String value)
+  overload: com.microsoft.store.partnercenter.models.users.User.setImmutableId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
+    startLine: 152
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the immutable identifier for the user.</p>\r\n<p></p>"
+  syntax:
+    content: public void setImmutableId(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The immutable identifier for the user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.setLastDirectorySyncTime(DateTime)
   id: setLastDirectorySyncTime(DateTime)
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -330,13 +427,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 124
+    startLine: 172
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the last time that information for this user was synced between Azure Active Directory and on-premises Active Directory.</p>\r\n<p></p>"
   syntax:
     content: public void setLastDirectorySyncTime(DateTime value)
     parameters:
     - id: value
       type: 230df18c
+      description: <p>The last time that information for this user was synced between Azure Active Directory and on-premises Active Directory. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.setLastName(String)
   id: setLastName(String)
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -351,13 +450,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 76
+    startLine: 192
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the last name for the user.</p>\r\n<p></p>"
   syntax:
     content: public void setLastName(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The last name for the user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.setPasswordProfile(PasswordProfile)
   id: setPasswordProfile(PasswordProfile)
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -372,13 +473,38 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 108
+    startLine: 212
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the password profile for the user.</p>\r\n<p></p>"
   syntax:
     content: public void setPasswordProfile(PasswordProfile value)
     parameters:
     - id: value
       type: com.microsoft.store.partnercenter.models.users.PasswordProfile
+      description: <p>The password profile for the user. </p>
+- uid: com.microsoft.store.partnercenter.models.users.User.setPhoneNumber(String)
+  id: setPhoneNumber(String)
+  parent: com.microsoft.store.partnercenter.models.users.User
+  href: com.microsoft.store.partnercenter.models.users.User.yml
+  langs:
+  - java
+  name: setPhoneNumber(String value)
+  nameWithType: User.setPhoneNumber(String value)
+  fullName: com.microsoft.store.partnercenter.models.users.User.setPhoneNumber(String value)
+  overload: com.microsoft.store.partnercenter.models.users.User.setPhoneNumber*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
+    startLine: 232
+  package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the phone number for the user.</p>\r\n<p></p>"
+  syntax:
+    content: public void setPhoneNumber(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The phone number for the user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.setSoftDeletionTime(DateTime)
   id: setSoftDeletionTime(DateTime)
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -393,13 +519,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 172
+    startLine: 252
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the deleted time for the inactive user.</p>\r\n<p></p>"
   syntax:
     content: public void setSoftDeletionTime(DateTime value)
     parameters:
     - id: value
       type: 230df18c
+      description: <p>The deleted time for the inactive user. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.setState(UserState)
   id: setState(UserState)
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -414,13 +542,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 156
+    startLine: 272
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the state for the user. If the user is deleted the state is inactive; otherwise, the state is active.</p>\r\n<p></p>"
   syntax:
     content: public void setState(UserState value)
     parameters:
     - id: value
       type: com.microsoft.store.partnercenter.models.users.UserState
+      description: <p>The state for the user. If the user is deleted the state is inactive; otherwise, the state is active. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.setUserDomainType(UserDomainType)
   id: setUserDomainType(UserDomainType)
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -435,13 +565,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 140
+    startLine: 292
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the user domain type.</p>\r\n<p></p>"
   syntax:
     content: public void setUserDomainType(UserDomainType value)
     parameters:
     - id: value
       type: com.microsoft.store.partnercenter.models.users.UserDomainType
+      description: <p>The user domain type. </p>
 - uid: com.microsoft.store.partnercenter.models.users.User.setUserPrincipalName(String)
   id: setUserPrincipalName(String)
   parent: com.microsoft.store.partnercenter.models.users.User
@@ -456,37 +588,29 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/users/User.java
-    startLine: 43
+    startLine: 312
   package: com.microsoft.store.partnercenter.models.users
+  summary: "<p>Sets the user principal name (UPN) for the user.</p>\r\n<p></p>"
   syntax:
     content: public void setUserPrincipalName(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The user principal name (UPN) for the user. </p>
 references:
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
-- uid: com.microsoft.store.partnercenter.models.users.User.getId*
-  name: getId
-  nameWithType: User.getId
-  fullName: com.microsoft.store.partnercenter.models.users.User.getId
+- uid: com.microsoft.store.partnercenter.models.users.User.getDisplayName*
+  name: getDisplayName
+  nameWithType: User.getDisplayName
+  fullName: com.microsoft.store.partnercenter.models.users.User.getDisplayName
   package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.setId*
-  name: setId
-  nameWithType: User.setId
-  fullName: com.microsoft.store.partnercenter.models.users.User.setId
-  package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.getUserPrincipalName*
-  name: getUserPrincipalName
-  nameWithType: User.getUserPrincipalName
-  fullName: com.microsoft.store.partnercenter.models.users.User.getUserPrincipalName
-  package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.setUserPrincipalName*
-  name: setUserPrincipalName
-  nameWithType: User.setUserPrincipalName
-  fullName: com.microsoft.store.partnercenter.models.users.User.setUserPrincipalName
+- uid: com.microsoft.store.partnercenter.models.users.User.setDisplayName*
+  name: setDisplayName
+  nameWithType: User.setDisplayName
+  fullName: com.microsoft.store.partnercenter.models.users.User.setDisplayName
   package: com.microsoft.store.partnercenter.models.users
 - uid: com.microsoft.store.partnercenter.models.users.User.getFirstName*
   name: getFirstName
@@ -498,35 +622,25 @@ references:
   nameWithType: User.setFirstName
   fullName: com.microsoft.store.partnercenter.models.users.User.setFirstName
   package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.getLastName*
-  name: getLastName
-  nameWithType: User.getLastName
-  fullName: com.microsoft.store.partnercenter.models.users.User.getLastName
+- uid: com.microsoft.store.partnercenter.models.users.User.getId*
+  name: getId
+  nameWithType: User.getId
+  fullName: com.microsoft.store.partnercenter.models.users.User.getId
   package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.setLastName*
-  name: setLastName
-  nameWithType: User.setLastName
-  fullName: com.microsoft.store.partnercenter.models.users.User.setLastName
+- uid: com.microsoft.store.partnercenter.models.users.User.setId*
+  name: setId
+  nameWithType: User.setId
+  fullName: com.microsoft.store.partnercenter.models.users.User.setId
   package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.getDisplayName*
-  name: getDisplayName
-  nameWithType: User.getDisplayName
-  fullName: com.microsoft.store.partnercenter.models.users.User.getDisplayName
+- uid: com.microsoft.store.partnercenter.models.users.User.getImmutableId*
+  name: getImmutableId
+  nameWithType: User.getImmutableId
+  fullName: com.microsoft.store.partnercenter.models.users.User.getImmutableId
   package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.setDisplayName*
-  name: setDisplayName
-  nameWithType: User.setDisplayName
-  fullName: com.microsoft.store.partnercenter.models.users.User.setDisplayName
-  package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.getPasswordProfile*
-  name: getPasswordProfile
-  nameWithType: User.getPasswordProfile
-  fullName: com.microsoft.store.partnercenter.models.users.User.getPasswordProfile
-  package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.setPasswordProfile*
-  name: setPasswordProfile
-  nameWithType: User.setPasswordProfile
-  fullName: com.microsoft.store.partnercenter.models.users.User.setPasswordProfile
+- uid: com.microsoft.store.partnercenter.models.users.User.setImmutableId*
+  name: setImmutableId
+  nameWithType: User.setImmutableId
+  fullName: com.microsoft.store.partnercenter.models.users.User.setImmutableId
   package: com.microsoft.store.partnercenter.models.users
 - uid: 230df18c
   spec.java:
@@ -542,15 +656,45 @@ references:
   nameWithType: User.setLastDirectorySyncTime
   fullName: com.microsoft.store.partnercenter.models.users.User.setLastDirectorySyncTime
   package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.getUserDomainType*
-  name: getUserDomainType
-  nameWithType: User.getUserDomainType
-  fullName: com.microsoft.store.partnercenter.models.users.User.getUserDomainType
+- uid: com.microsoft.store.partnercenter.models.users.User.getLastName*
+  name: getLastName
+  nameWithType: User.getLastName
+  fullName: com.microsoft.store.partnercenter.models.users.User.getLastName
   package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.setUserDomainType*
-  name: setUserDomainType
-  nameWithType: User.setUserDomainType
-  fullName: com.microsoft.store.partnercenter.models.users.User.setUserDomainType
+- uid: com.microsoft.store.partnercenter.models.users.User.setLastName*
+  name: setLastName
+  nameWithType: User.setLastName
+  fullName: com.microsoft.store.partnercenter.models.users.User.setLastName
+  package: com.microsoft.store.partnercenter.models.users
+- uid: com.microsoft.store.partnercenter.models.users.User.getPasswordProfile*
+  name: getPasswordProfile
+  nameWithType: User.getPasswordProfile
+  fullName: com.microsoft.store.partnercenter.models.users.User.getPasswordProfile
+  package: com.microsoft.store.partnercenter.models.users
+- uid: com.microsoft.store.partnercenter.models.users.User.setPasswordProfile*
+  name: setPasswordProfile
+  nameWithType: User.setPasswordProfile
+  fullName: com.microsoft.store.partnercenter.models.users.User.setPasswordProfile
+  package: com.microsoft.store.partnercenter.models.users
+- uid: com.microsoft.store.partnercenter.models.users.User.getPhoneNumber*
+  name: getPhoneNumber
+  nameWithType: User.getPhoneNumber
+  fullName: com.microsoft.store.partnercenter.models.users.User.getPhoneNumber
+  package: com.microsoft.store.partnercenter.models.users
+- uid: com.microsoft.store.partnercenter.models.users.User.setPhoneNumber*
+  name: setPhoneNumber
+  nameWithType: User.setPhoneNumber
+  fullName: com.microsoft.store.partnercenter.models.users.User.setPhoneNumber
+  package: com.microsoft.store.partnercenter.models.users
+- uid: com.microsoft.store.partnercenter.models.users.User.getSoftDeletionTime*
+  name: getSoftDeletionTime
+  nameWithType: User.getSoftDeletionTime
+  fullName: com.microsoft.store.partnercenter.models.users.User.getSoftDeletionTime
+  package: com.microsoft.store.partnercenter.models.users
+- uid: com.microsoft.store.partnercenter.models.users.User.setSoftDeletionTime*
+  name: setSoftDeletionTime
+  nameWithType: User.setSoftDeletionTime
+  fullName: com.microsoft.store.partnercenter.models.users.User.setSoftDeletionTime
   package: com.microsoft.store.partnercenter.models.users
 - uid: com.microsoft.store.partnercenter.models.users.User.getState*
   name: getState
@@ -562,15 +706,25 @@ references:
   nameWithType: User.setState
   fullName: com.microsoft.store.partnercenter.models.users.User.setState
   package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.getSoftDeletionTime*
-  name: getSoftDeletionTime
-  nameWithType: User.getSoftDeletionTime
-  fullName: com.microsoft.store.partnercenter.models.users.User.getSoftDeletionTime
+- uid: com.microsoft.store.partnercenter.models.users.User.getUserDomainType*
+  name: getUserDomainType
+  nameWithType: User.getUserDomainType
+  fullName: com.microsoft.store.partnercenter.models.users.User.getUserDomainType
   package: com.microsoft.store.partnercenter.models.users
-- uid: com.microsoft.store.partnercenter.models.users.User.setSoftDeletionTime*
-  name: setSoftDeletionTime
-  nameWithType: User.setSoftDeletionTime
-  fullName: com.microsoft.store.partnercenter.models.users.User.setSoftDeletionTime
+- uid: com.microsoft.store.partnercenter.models.users.User.setUserDomainType*
+  name: setUserDomainType
+  nameWithType: User.setUserDomainType
+  fullName: com.microsoft.store.partnercenter.models.users.User.setUserDomainType
+  package: com.microsoft.store.partnercenter.models.users
+- uid: com.microsoft.store.partnercenter.models.users.User.getUserPrincipalName*
+  name: getUserPrincipalName
+  nameWithType: User.getUserPrincipalName
+  fullName: com.microsoft.store.partnercenter.models.users.User.getUserPrincipalName
+  package: com.microsoft.store.partnercenter.models.users
+- uid: com.microsoft.store.partnercenter.models.users.User.setUserPrincipalName*
+  name: setUserPrincipalName
+  nameWithType: User.setUserPrincipalName
+  fullName: com.microsoft.store.partnercenter.models.users.User.setUserPrincipalName
   package: com.microsoft.store.partnercenter.models.users
 - uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
   parent: com.microsoft.store.partnercenter.models.ResourceBase
@@ -691,16 +845,6 @@ references:
   type: Class
   syntax:
     content: public class PasswordProfile
-- uid: com.microsoft.store.partnercenter.models.users.UserDomainType
-  parent: com.microsoft.store.partnercenter.models.users
-  href: com.microsoft.store.partnercenter.models.users.UserDomainType.yml
-  name: UserDomainType
-  nameWithType: UserDomainType
-  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType
-  type: Enum
-  summary: "<p>Types of user domains supported. </p>"
-  syntax:
-    content: public enum UserDomainType
 - uid: com.microsoft.store.partnercenter.models.users.UserState
   parent: com.microsoft.store.partnercenter.models.users
   href: com.microsoft.store.partnercenter.models.users.UserState.yml
@@ -711,3 +855,13 @@ references:
   summary: "<p>User state </p>"
   syntax:
     content: public enum UserState
+- uid: com.microsoft.store.partnercenter.models.users.UserDomainType
+  parent: com.microsoft.store.partnercenter.models.users
+  href: com.microsoft.store.partnercenter.models.users.UserDomainType.yml
+  name: UserDomainType
+  nameWithType: UserDomainType
+  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType
+  type: Enum
+  summary: "<p>Types of user domains supported. </p>"
+  syntax:
+    content: public enum UserDomainType

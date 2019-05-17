@@ -69,7 +69,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 155
+    startLine: 185
   package: com.microsoft.store.partnercenter.models.orders
   syntax:
     content: public BillingCycleType getBillingCycle()
@@ -89,7 +89,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 91
+    startLine: 121
   package: com.microsoft.store.partnercenter.models.orders
   syntax:
     content: public DateTime getCreationDate()
@@ -109,7 +109,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 107
+    startLine: 137
   package: com.microsoft.store.partnercenter.models.orders
   syntax:
     content: public String getCurrencyCode()
@@ -129,7 +129,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 170
+    startLine: 200
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the currency symbol.</p>\r\n<p></p>"
   syntax:
@@ -151,12 +151,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 43
+    startLine: 56
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Gets the order identifier.</p>\r\n<p></p>"
   syntax:
     content: public String getId()
     return:
       type: "26831127"
+      description: <p>The order identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.getLineItems()
   id: getLineItems()
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -171,12 +173,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 75
+    startLine: 76
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Gets the order line items. Each order line item refers to one offer purchase data.</p>\r\n<p></p>"
   syntax:
     content: public Iterable<OrderLineItem> getLineItems()
     return:
       type: 2a13b5a5com.microsoft.store.partnercenter.models.orders.OrderLineItema08ddfce
+      description: <p>The order line items. Each order line item refers to one offer purchase data. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.getLinks()
   id: getLinks()
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -191,7 +195,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 139
+    startLine: 169
   package: com.microsoft.store.partnercenter.models.orders
   syntax:
     content: public OrderLinks getLinks()
@@ -211,12 +215,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 59
+    startLine: 96
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Gets the reference customer identifier.</p>\r\n<p></p>"
   syntax:
     content: public String getReferenceCustomerId()
     return:
       type: "26831127"
+      description: <p>The reference customer identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.getStatus()
   id: getStatus()
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -231,7 +237,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 123
+    startLine: 153
   package: com.microsoft.store.partnercenter.models.orders
   syntax:
     content: public String getStatus()
@@ -251,7 +257,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 190
+    startLine: 220
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the total price for the order. Order price (will not be returned unless explicitly asked for) Note: this information is PRE-TAX.</p>\r\n<p></p>"
   syntax:
@@ -273,7 +279,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 210
+    startLine: 240
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the transaction type for the order.</p>\r\n<p></p>"
   syntax:
@@ -295,7 +301,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 160
+    startLine: 190
   package: com.microsoft.store.partnercenter.models.orders
   syntax:
     content: public void setBillingCycle(BillingCycleType value)
@@ -316,7 +322,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 96
+    startLine: 126
   package: com.microsoft.store.partnercenter.models.orders
   syntax:
     content: public void setCreationDate(DateTime value)
@@ -337,7 +343,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 112
+    startLine: 142
   package: com.microsoft.store.partnercenter.models.orders
   syntax:
     content: public void setCurrencyCode(String value)
@@ -358,7 +364,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 180
+    startLine: 210
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the currency symbol.</p>\r\n<p></p>"
   syntax:
@@ -381,13 +387,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 48
+    startLine: 66
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Sets the order identifier.</p>\r\n<p></p>"
   syntax:
     content: public void setId(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The order identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.setLineItems(Iterable<OrderLineItem>)
   id: setLineItems(Iterable<OrderLineItem>)
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -402,13 +410,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 80
+    startLine: 86
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Sets the order line items. Each order line item refers to one offer purchase data.</p>\r\n<p></p>"
   syntax:
     content: public void setLineItems(Iterable<OrderLineItem> value)
     parameters:
     - id: value
       type: 2a13b5a5com.microsoft.store.partnercenter.models.orders.OrderLineItema08ddfce
+      description: <p>The order line items. Each order line item refers to one offer purchase data. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.setLinks(OrderLinks)
   id: setLinks(OrderLinks)
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -423,7 +433,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 144
+    startLine: 174
   package: com.microsoft.store.partnercenter.models.orders
   syntax:
     content: public void setLinks(OrderLinks value)
@@ -444,13 +454,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 64
+    startLine: 106
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Sets the reference customer identifier.</p>\r\n<p></p>"
   syntax:
     content: public void setReferenceCustomerId(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The reference customer identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.setStatus(String)
   id: setStatus(String)
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -465,7 +477,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 128
+    startLine: 158
   package: com.microsoft.store.partnercenter.models.orders
   syntax:
     content: public void setStatus(String value)
@@ -486,7 +498,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 200
+    startLine: 230
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the total price for the order.</p>\r\n<p></p>"
   syntax:
@@ -509,7 +521,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 220
+    startLine: 250
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the transaction type for the order.</p>\r\n<p></p>"
   syntax:
@@ -533,16 +545,6 @@ references:
   nameWithType: Order.setId
   fullName: com.microsoft.store.partnercenter.models.orders.Order.setId
   package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId*
-  name: getReferenceCustomerId
-  nameWithType: Order.getReferenceCustomerId
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId*
-  name: setReferenceCustomerId
-  nameWithType: Order.setReferenceCustomerId
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId
-  package: com.microsoft.store.partnercenter.models.orders
 - uid: 2a13b5a5com.microsoft.store.partnercenter.models.orders.OrderLineItema08ddfce
   spec.java:
   - name: Iterable<
@@ -562,6 +564,16 @@ references:
   name: setLineItems
   nameWithType: Order.setLineItems
   fullName: com.microsoft.store.partnercenter.models.orders.Order.setLineItems
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId*
+  name: getReferenceCustomerId
+  nameWithType: Order.getReferenceCustomerId
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId*
+  name: setReferenceCustomerId
+  nameWithType: Order.setReferenceCustomerId
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId
   package: com.microsoft.store.partnercenter.models.orders
 - uid: 230df18c
   spec.java:
