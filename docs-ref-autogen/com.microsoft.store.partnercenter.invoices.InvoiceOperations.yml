@@ -24,7 +24,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceOperations.java
-    startLine: 23
+    startLine: 20
   package: com.microsoft.store.partnercenter.invoices
   summary: "<p>Operations available for the reseller's invoice. </p>"
   syntax:
@@ -55,7 +55,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceOperations.java
-    startLine: 69
+    startLine: 66
   package: com.microsoft.store.partnercenter.invoices
   summary: "<p>Creates an invoice line item collection operation given a billing provider and invoice line item type.</p>\r\n<p></p>"
   syntax:
@@ -85,7 +85,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceOperations.java
-    startLine: 82
+    startLine: 79
   package: com.microsoft.store.partnercenter.invoices
   summary: "<p>Creates an invoice line item collection operations given a billing provider and invoice line item type.</p>\r\n<p></p>"
   syntax:
@@ -120,7 +120,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceOperations.java
-    startLine: 102
+    startLine: 99
   package: com.microsoft.store.partnercenter.invoices
   summary: "<p>Creates an invoice line item collection operations given a billing provider and invoice line item type.</p>\r\n<p></p>"
   syntax:
@@ -158,7 +158,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceOperations.java
-    startLine: 120
+    startLine: 117
   package: com.microsoft.store.partnercenter.invoices
   summary: "<p>Retrieves information about a specific invoice.</p>\r\n<p></p>"
   syntax:
@@ -181,7 +181,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceOperations.java
-    startLine: 46
+    startLine: 43
   package: com.microsoft.store.partnercenter.invoices
   summary: "<p>Gets an invoice documents operations. </p>"
   syntax:
@@ -203,14 +203,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceOperations.java
-    startLine: 57
+    startLine: 54
   package: com.microsoft.store.partnercenter.invoices
   summary: "<p>Gets the available receipt operations.</p>\r\n<p></p>"
   syntax:
     content: public IReceiptCollection getReceipts()
     return:
       type: com.microsoft.store.partnercenter.invoices.IReceiptCollection
-      description: <p>The available receipt opreations. </p>
+      description: <p>The available receipt operations. </p>
   overridden: com.microsoft.store.partnercenter.invoices.IInvoice.getReceipts()
 - uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations(IPartner,String)
   id: InvoiceOperations(IPartner,String)
@@ -226,7 +226,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceOperations.java
-    startLine: 33
+    startLine: 30
   package: com.microsoft.store.partnercenter.invoices
   summary: "<p>Initializes a new instance of the InvoiceOperations class.</p>\r\n<p></p>"
   syntax:
@@ -451,7 +451,7 @@ references:
     content: public IReceiptCollection getReceipts()
     return:
       type: com.microsoft.store.partnercenter.invoices.IReceiptCollection
-      description: <p>The available receipt opreations. </p>
+      description: <p>The available receipt operations. </p>
 - uid: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
   parent: com.microsoft.store.partnercenter.invoices
   href: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.yml

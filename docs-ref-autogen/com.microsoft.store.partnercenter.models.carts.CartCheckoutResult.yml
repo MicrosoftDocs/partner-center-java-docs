@@ -21,7 +21,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java
-    startLine: 17
+    startLine: 13
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Represents a result of a cart checkout. </p>"
   syntax:
@@ -47,12 +47,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java
-    startLine: 42
+    startLine: 51
   package: com.microsoft.store.partnercenter.models.carts
+  summary: "<p>Gets the collection of order failure information.</p>\r\n<p></p>"
   syntax:
     content: public List<OrderError> getOrderErrors()
     return:
       type: 5618da2dcom.microsoft.store.partnercenter.models.carts.OrderErrora08ddfce
+      description: <p>The collection of order failure information. </p>
 - uid: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.getOrders()
   id: getOrders()
   parent: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
@@ -67,12 +69,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java
-    startLine: 26
+    startLine: 31
   package: com.microsoft.store.partnercenter.models.carts
+  summary: "<p>Gets the order that were created.</p>\r\n<p></p>"
   syntax:
     content: public List<Order> getOrders()
     return:
       type: 5618da2dcom.microsoft.store.partnercenter.models.orders.Ordera08ddfce
+      description: <p>The orders that were created. </p>
 - uid: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrderErrors(List<OrderError>)
   id: setOrderErrors(List<OrderError>)
   parent: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
@@ -87,13 +91,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java
-    startLine: 47
+    startLine: 61
   package: com.microsoft.store.partnercenter.models.carts
+  summary: "<p>Sets the collection of order failure information.</p>\r\n<p></p>"
   syntax:
     content: public void setOrderErrors(List<OrderError> value)
     parameters:
     - id: value
       type: 5618da2dcom.microsoft.store.partnercenter.models.carts.OrderErrora08ddfce
+      description: <p>The collection of order failure information. </p>
 - uid: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrders(List<Order>)
   id: setOrders(List<Order>)
   parent: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
@@ -108,13 +114,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java
-    startLine: 31
+    startLine: 41
   package: com.microsoft.store.partnercenter.models.carts
+  summary: "<p>Sets the orders that were created.</p>\r\n<p></p>"
   syntax:
     content: public void setOrders(List<Order> value)
     parameters:
     - id: value
       type: 5618da2dcom.microsoft.store.partnercenter.models.orders.Ordera08ddfce
+      description: <p>The orders that were created. </p>
 references:
 - uid: 5618da2dcom.microsoft.store.partnercenter.models.orders.Ordera08ddfce
   spec.java:

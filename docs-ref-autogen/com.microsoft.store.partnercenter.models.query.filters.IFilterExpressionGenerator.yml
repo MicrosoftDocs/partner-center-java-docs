@@ -19,7 +19,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/query/filters/IFilterExpressionGenerator.java
-    startLine: 11
+    startLine: 8
   package: com.microsoft.store.partnercenter.models.query.filters
   summary: "<p>Represents a filter expression generator using a language. </p>"
   syntax:
@@ -38,9 +38,9 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/query/filters/IFilterExpressionGenerator.java
-    startLine: 32
+    startLine: 29
   package: com.microsoft.store.partnercenter.models.query.filters
-  summary: "<p>Generates a compound filter expression ( A equals 5 and ( B equals 8 or C notEquals 0 ) )</p>\r\n<p></p>"
+  summary: "<p>Generates a compound filter expression (A equals 5 and (B equals 8 or C notEquals 0))</p>\r\n<p></p>"
   syntax:
     content: public String generateCompoundExpression(String leftSideExpression, FieldFilterOperation operation, String rightSideExpression)
     parameters:
@@ -70,7 +70,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/query/filters/IFilterExpressionGenerator.java
-    startLine: 22
+    startLine: 19
   package: com.microsoft.store.partnercenter.models.query.filters
   summary: "<p>Generates a simple filter expression.</p>\r\n<p></p>"
   syntax:

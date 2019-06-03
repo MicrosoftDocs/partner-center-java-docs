@@ -21,7 +21,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/QuantityProvisioningStatus.java
-    startLine: 13
+    startLine: 10
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Quantity Provisioning Status. </p>"
   syntax:
@@ -47,12 +47,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/QuantityProvisioningStatus.java
-    startLine: 21
+    startLine: 28
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Gets the product quantity.</p>\r\n<p></p>"
   syntax:
     content: public int getQuantity()
     return:
       type: f75371fa
+      description: <p>The product quantity. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getStatus()
   id: getStatus()
   parent: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus
@@ -67,12 +69,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/QuantityProvisioningStatus.java
-    startLine: 36
+    startLine: 48
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Gets the provisioning status.</p>\r\n<p></p>"
   syntax:
     content: public String getStatus()
     return:
       type: "26831127"
+      description: <p>The provisioning status. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setQuantity(int)
   id: setQuantity(int)
   parent: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus
@@ -87,13 +91,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/QuantityProvisioningStatus.java
-    startLine: 26
+    startLine: 38
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Sets the product quantity.</p>\r\n<p></p>"
   syntax:
     content: public void setQuantity(int value)
     parameters:
     - id: value
       type: f75371fa
+      description: <p>The product quantity. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setStatus(String)
   id: setStatus(String)
   parent: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus
@@ -108,13 +114,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/QuantityProvisioningStatus.java
-    startLine: 41
+    startLine: 58
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Sets the provisioning status.</p>\r\n<p></p>"
   syntax:
     content: public void setStatus(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The provisioning status. </p>
 references:
 - uid: f75371fa
   spec.java:

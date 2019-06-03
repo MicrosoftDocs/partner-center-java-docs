@@ -39,7 +39,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 18
+    startLine: 14
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Order represents collection of information needed to purchase offers represented by each order line items. </p>"
   syntax:
@@ -69,12 +69,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 185
+    startLine: 77
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Gets the type of billing cycle for the selected offers.</p>\r\n<p></p>"
   syntax:
     content: public BillingCycleType getBillingCycle()
     return:
       type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+      description: <p>The type of billing cycle for the selected offers. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.getCreationDate()
   id: getCreationDate()
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -89,12 +91,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 121
+    startLine: 97
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Gets the creation date of the order.</p>\r\n<p></p>"
   syntax:
     content: public DateTime getCreationDate()
     return:
       type: 230df18c
+      description: <p>The creation date of the order. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode()
   id: getCurrencyCode()
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -109,12 +113,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 137
+    startLine: 117
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Gets the currency code.</p>\r\n<p></p>"
   syntax:
     content: public String getCurrencyCode()
     return:
       type: "26831127"
+      description: <p>The currency code for the order. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol()
   id: getCurrencySymbol()
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -129,7 +135,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 200
+    startLine: 137
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the currency symbol.</p>\r\n<p></p>"
   syntax:
@@ -151,7 +157,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 56
+    startLine: 157
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the order identifier.</p>\r\n<p></p>"
   syntax:
@@ -173,7 +179,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 76
+    startLine: 177
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the order line items. Each order line item refers to one offer purchase data.</p>\r\n<p></p>"
   syntax:
@@ -195,12 +201,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 169
+    startLine: 197
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Gets the links corresponding to the order.</p>\r\n<p></p>"
   syntax:
     content: public OrderLinks getLinks()
     return:
       type: com.microsoft.store.partnercenter.models.orders.OrderLinks
+      description: <p>The links corresponding to the order. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId()
   id: getReferenceCustomerId()
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -215,7 +223,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 96
+    startLine: 217
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the reference customer identifier.</p>\r\n<p></p>"
   syntax:
@@ -237,12 +245,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 153
+    startLine: 237
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Gets the status of the order.</p>\r\n<p></p>"
   syntax:
     content: public String getStatus()
     return:
       type: "26831127"
+      description: <p>The status of the order. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice()
   id: getTotalPrice()
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -257,7 +267,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 220
+    startLine: 257
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the total price for the order. Order price (will not be returned unless explicitly asked for) Note: this information is PRE-TAX.</p>\r\n<p></p>"
   syntax:
@@ -279,7 +289,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 240
+    startLine: 277
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the transaction type for the order.</p>\r\n<p></p>"
   syntax:
@@ -301,13 +311,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 190
+    startLine: 87
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Sets the type of billing cycle for the selected offers.</p>\r\n<p></p>"
   syntax:
     content: public void setBillingCycle(BillingCycleType value)
     parameters:
     - id: value
       type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+      description: <p>The type of billing cycle for the selected offers. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.setCreationDate(DateTime)
   id: setCreationDate(DateTime)
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -322,13 +334,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 126
+    startLine: 107
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Sets the creation date of the order.</p>\r\n<p></p>"
   syntax:
     content: public void setCreationDate(DateTime value)
     parameters:
     - id: value
       type: 230df18c
+      description: <p>The creation date of the order. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode(String)
   id: setCurrencyCode(String)
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -343,13 +357,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 142
+    startLine: 127
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Sets the currency code.</p>\r\n<p></p>"
   syntax:
     content: public void setCurrencyCode(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The currency code for the order. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol(String)
   id: setCurrencySymbol(String)
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -364,7 +380,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 210
+    startLine: 147
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the currency symbol.</p>\r\n<p></p>"
   syntax:
@@ -372,7 +388,7 @@ items:
     parameters:
     - id: value
       type: "26831127"
-      description: <p>The currency sybmol. </p>
+      description: <p>The currency symbol. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.setId(String)
   id: setId(String)
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -387,7 +403,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 66
+    startLine: 167
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the order identifier.</p>\r\n<p></p>"
   syntax:
@@ -410,7 +426,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 86
+    startLine: 187
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the order line items. Each order line item refers to one offer purchase data.</p>\r\n<p></p>"
   syntax:
@@ -433,13 +449,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 174
+    startLine: 207
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Sets the links corresponding to the order.</p>\r\n<p></p>"
   syntax:
     content: public void setLinks(OrderLinks value)
     parameters:
     - id: value
       type: com.microsoft.store.partnercenter.models.orders.OrderLinks
+      description: <p>The links corresponding to the order. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId(String)
   id: setReferenceCustomerId(String)
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -454,7 +472,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 106
+    startLine: 227
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the reference customer identifier.</p>\r\n<p></p>"
   syntax:
@@ -477,13 +495,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 158
+    startLine: 247
   package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Sets the status of the order.</p>\r\n<p></p>"
   syntax:
     content: public void setStatus(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The status of the order. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice(double)
   id: setsTotalPrice(double)
   parent: com.microsoft.store.partnercenter.models.orders.Order
@@ -498,7 +518,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 230
+    startLine: 267
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the total price for the order.</p>\r\n<p></p>"
   syntax:
@@ -521,7 +541,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 250
+    startLine: 287
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the transaction type for the order.</p>\r\n<p></p>"
   syntax:
@@ -531,10 +551,54 @@ items:
       type: "26831127"
       description: <p>The transaction type for the order. </p>
 references:
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle*
+  name: getBillingCycle
+  nameWithType: Order.getBillingCycle
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle*
+  name: setBillingCycle
+  nameWithType: Order.setBillingCycle
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: 230df18c
+  spec.java:
+  - name: DateTime
+    fullName: DateTime
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getCreationDate*
+  name: getCreationDate
+  nameWithType: Order.getCreationDate
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCreationDate
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setCreationDate*
+  name: setCreationDate
+  nameWithType: Order.setCreationDate
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCreationDate
+  package: com.microsoft.store.partnercenter.models.orders
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode*
+  name: getCurrencyCode
+  nameWithType: Order.getCurrencyCode
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode*
+  name: setCurrencyCode
+  nameWithType: Order.setCurrencyCode
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol*
+  name: getCurrencySymbol
+  nameWithType: Order.getCurrencySymbol
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol*
+  name: setCurrencySymbol
+  nameWithType: Order.setCurrencySymbol
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol
+  package: com.microsoft.store.partnercenter.models.orders
 - uid: com.microsoft.store.partnercenter.models.orders.Order.getId*
   name: getId
   nameWithType: Order.getId
@@ -565,50 +629,6 @@ references:
   nameWithType: Order.setLineItems
   fullName: com.microsoft.store.partnercenter.models.orders.Order.setLineItems
   package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId*
-  name: getReferenceCustomerId
-  nameWithType: Order.getReferenceCustomerId
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId*
-  name: setReferenceCustomerId
-  nameWithType: Order.setReferenceCustomerId
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: 230df18c
-  spec.java:
-  - name: DateTime
-    fullName: DateTime
-- uid: com.microsoft.store.partnercenter.models.orders.Order.getCreationDate*
-  name: getCreationDate
-  nameWithType: Order.getCreationDate
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCreationDate
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.setCreationDate*
-  name: setCreationDate
-  nameWithType: Order.setCreationDate
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCreationDate
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode*
-  name: getCurrencyCode
-  nameWithType: Order.getCurrencyCode
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode*
-  name: setCurrencyCode
-  nameWithType: Order.setCurrencyCode
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.getStatus*
-  name: getStatus
-  nameWithType: Order.getStatus
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.getStatus
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.setStatus*
-  name: setStatus
-  nameWithType: Order.setStatus
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.setStatus
-  package: com.microsoft.store.partnercenter.models.orders
 - uid: com.microsoft.store.partnercenter.models.orders.Order.getLinks*
   name: getLinks
   nameWithType: Order.getLinks
@@ -619,25 +639,25 @@ references:
   nameWithType: Order.setLinks
   fullName: com.microsoft.store.partnercenter.models.orders.Order.setLinks
   package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle*
-  name: getBillingCycle
-  nameWithType: Order.getBillingCycle
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId*
+  name: getReferenceCustomerId
+  nameWithType: Order.getReferenceCustomerId
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId
   package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle*
-  name: setBillingCycle
-  nameWithType: Order.setBillingCycle
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId*
+  name: setReferenceCustomerId
+  nameWithType: Order.setReferenceCustomerId
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId
   package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol*
-  name: getCurrencySymbol
-  nameWithType: Order.getCurrencySymbol
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getStatus*
+  name: getStatus
+  nameWithType: Order.getStatus
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getStatus
   package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol*
-  name: setCurrencySymbol
-  nameWithType: Order.setCurrencySymbol
-  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setStatus*
+  name: setStatus
+  nameWithType: Order.setStatus
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setStatus
   package: com.microsoft.store.partnercenter.models.orders
 - uid: a07dcde8
   spec.java:
@@ -751,6 +771,16 @@ references:
     typeParameters:
     - id: TLinks
       type: 694adf1c
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  parent: com.microsoft.store.partnercenter.models.offers
+  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
+  name: BillingCycleType
+  nameWithType: BillingCycleType
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  type: Enum
+  summary: "<p>The way billing is processed for a subscription. </p>"
+  syntax:
+    content: public enum BillingCycleType
 - uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem
   parent: com.microsoft.store.partnercenter.models.orders
   href: com.microsoft.store.partnercenter.models.orders.OrderLineItem.yml
@@ -771,13 +801,3 @@ references:
   summary: "<p>Bundles offer links. </p>"
   syntax:
     content: public class OrderLinks
-- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType
-  parent: com.microsoft.store.partnercenter.models.offers
-  href: com.microsoft.store.partnercenter.models.offers.BillingCycleType.yml
-  name: BillingCycleType
-  nameWithType: BillingCycleType
-  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType
-  type: Enum
-  summary: "<p>The way billing is processed for a subscription. </p>"
-  syntax:
-    content: public enum BillingCycleType
