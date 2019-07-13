@@ -12,6 +12,7 @@ items:
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.getPricing()
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.getProvisioningContext()
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.getQuantity()
+  - com.microsoft.store.partnercenter.models.orders.OrderLineItem.getRenewsTo()
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.getSubscriptionId()
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.getTermDuration()
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.getTransactionType()
@@ -23,6 +24,7 @@ items:
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.setPricing(Pricing)
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.setProvisioningContext(Map<String, String>)
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.setQuantity(int)
+  - com.microsoft.store.partnercenter.models.orders.OrderLineItem.setRenewsTo(RenewsTo)
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.setSubscriptionId(String)
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.setTermDuration(String)
   - com.microsoft.store.partnercenter.models.orders.OrderLineItem.setTransactionType(String)
@@ -70,7 +72,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 75
+    startLine: 80
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the friendly name of the subscription.</p>\r\n<p></p>"
   syntax:
@@ -92,7 +94,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 95
+    startLine: 100
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the line item number.</p>\r\n<p></p>"
   syntax:
@@ -114,7 +116,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 115
+    startLine: 120
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the offer identifier.</p>\r\n<p></p>"
   syntax:
@@ -136,7 +138,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 155
+    startLine: 160
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the parent subscription identifier. This parameter should only be set for add-on offer purchase applies to order updates only.</p>\r\n<p></p>"
   syntax:
@@ -158,7 +160,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 135
+    startLine: 140
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the partner identifier on record.</p>\r\n<p></p>"
   syntax:
@@ -180,7 +182,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 165
+    startLine: 180
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the pricing for the order line item.</p>\r\n<p></p>"
   syntax:
@@ -202,7 +204,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 185
+    startLine: 200
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the provisioning context for the offer.</p>\r\n<p></p>"
   syntax:
@@ -224,7 +226,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 205
+    startLine: 220
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the product quantity.</p>\r\n<p></p>"
   syntax:
@@ -232,6 +234,28 @@ items:
     return:
       type: f75371fa
       description: <p>The product quantity. </p>
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem.getRenewsTo()
+  id: getRenewsTo()
+  parent: com.microsoft.store.partnercenter.models.orders.OrderLineItem
+  href: com.microsoft.store.partnercenter.models.orders.OrderLineItem.yml
+  langs:
+  - java
+  name: getRenewsTo()
+  nameWithType: OrderLineItem.getRenewsTo()
+  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem.getRenewsTo()
+  overload: com.microsoft.store.partnercenter.models.orders.OrderLineItem.getRenewsTo*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
+    startLine: 240
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Gets the renews to value.</p>\r\n<p></p>"
+  syntax:
+    content: public RenewsTo getRenewsTo()
+    return:
+      type: com.microsoft.store.partnercenter.models.orders.RenewsTo
+      description: <p>The renews to value. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem.getSubscriptionId()
   id: getSubscriptionId()
   parent: com.microsoft.store.partnercenter.models.orders.OrderLineItem
@@ -246,7 +270,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 235
+    startLine: 260
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the resulting subscription identifier.</p>\r\n<p></p>"
   syntax:
@@ -268,7 +292,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 255
+    startLine: 280
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the term duration for the order line item.</p>\r\n<p></p>"
   syntax:
@@ -290,7 +314,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 275
+    startLine: 300
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Gets the transaction type for the order line item.</p>\r\n<p></p>"
   syntax:
@@ -312,7 +336,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 85
+    startLine: 90
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the friendly name of the subscription.</p>\r\n<p></p>"
   syntax:
@@ -335,7 +359,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 105
+    startLine: 110
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the line item number.</p>\r\n<p></p>"
   syntax:
@@ -358,7 +382,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 125
+    startLine: 130
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the offer identifier.</p>\r\n<p></p>"
   syntax:
@@ -381,7 +405,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 225
+    startLine: 170
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the parent subscription identifier. This parameter should only be set for add-on offer purchase applies to order updates only.</p>\r\n<p></p>"
   syntax:
@@ -404,7 +428,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 145
+    startLine: 150
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the partner identifier on record.</p>\r\n<p></p>"
   syntax:
@@ -427,7 +451,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 175
+    startLine: 190
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the pricing for the order line item.</p>\r\n<p></p>"
   syntax:
@@ -450,7 +474,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 195
+    startLine: 210
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the provisioning context for the offer.</p>\r\n<p></p>"
   syntax:
@@ -473,7 +497,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 215
+    startLine: 230
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the product quantity.</p>\r\n<p></p>"
   syntax:
@@ -482,6 +506,29 @@ items:
     - id: value
       type: f75371fa
       description: <p>The product quantity. </p>
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem.setRenewsTo(RenewsTo)
+  id: setRenewsTo(RenewsTo)
+  parent: com.microsoft.store.partnercenter.models.orders.OrderLineItem
+  href: com.microsoft.store.partnercenter.models.orders.OrderLineItem.yml
+  langs:
+  - java
+  name: setRenewsTo(RenewsTo value)
+  nameWithType: OrderLineItem.setRenewsTo(RenewsTo value)
+  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem.setRenewsTo(RenewsTo value)
+  overload: com.microsoft.store.partnercenter.models.orders.OrderLineItem.setRenewsTo*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
+    startLine: 250
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: "<p>Sets the renews to value.</p>\r\n<p></p>"
+  syntax:
+    content: public void setRenewsTo(RenewsTo value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.orders.RenewsTo
+      description: <p>The renews to value. </p>
 - uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem.setSubscriptionId(String)
   id: setSubscriptionId(String)
   parent: com.microsoft.store.partnercenter.models.orders.OrderLineItem
@@ -496,7 +543,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 245
+    startLine: 270
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the resulting subscription identifier.</p>\r\n<p></p>"
   syntax:
@@ -519,7 +566,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 265
+    startLine: 290
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the term duration for the order line item.</p>\r\n<p></p>"
   syntax:
@@ -542,7 +589,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/orders/OrderLineItem.java
-    startLine: 285
+    startLine: 310
   package: com.microsoft.store.partnercenter.models.orders
   summary: "<p>Sets the transaction type for the order line item.</p>\r\n<p></p>"
   syntax:
@@ -605,6 +652,11 @@ references:
   nameWithType: OrderLineItem.getParentSubscriptionId
   fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem.getParentSubscriptionId
   package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem.setParentSubscriptionId*
+  name: setParentSubscriptionId
+  nameWithType: OrderLineItem.setParentSubscriptionId
+  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem.setParentSubscriptionId
+  package: com.microsoft.store.partnercenter.models.orders
 - uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem.getPricing*
   name: getPricing
   nameWithType: OrderLineItem.getPricing
@@ -639,10 +691,15 @@ references:
   nameWithType: OrderLineItem.setQuantity
   fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem.setQuantity
   package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem.setParentSubscriptionId*
-  name: setParentSubscriptionId
-  nameWithType: OrderLineItem.setParentSubscriptionId
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem.setParentSubscriptionId
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem.getRenewsTo*
+  name: getRenewsTo
+  nameWithType: OrderLineItem.getRenewsTo
+  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem.getRenewsTo
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem.setRenewsTo*
+  name: setRenewsTo
+  nameWithType: OrderLineItem.setRenewsTo
+  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem.setRenewsTo
   package: com.microsoft.store.partnercenter.models.orders
 - uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem.getSubscriptionId*
   name: getSubscriptionId
@@ -785,3 +842,13 @@ references:
   summary: "<p>Represents the pricing details for a line item. </p>"
   syntax:
     content: public class Pricing
+- uid: com.microsoft.store.partnercenter.models.orders.RenewsTo
+  parent: com.microsoft.store.partnercenter.models.orders
+  href: com.microsoft.store.partnercenter.models.orders.RenewsTo.yml
+  name: RenewsTo
+  nameWithType: RenewsTo
+  fullName: com.microsoft.store.partnercenter.models.orders.RenewsTo
+  type: Class
+  summary: "<p>Represent the renews to for a order line item. </p>"
+  syntax:
+    content: public class RenewsTo

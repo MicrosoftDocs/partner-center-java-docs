@@ -44,14 +44,15 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 38
+    startLine: 39
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Groups operations that can be performed on a single partner customer. </p>"
   syntax:
-    content: public interface ICustomer extends IPartnerComponentString,IEntityGetOperations<Customer>,IEntityDeleteOperations<Customer>
+    content: public interface ICustomer extends IPartnerComponentString,IEntityGetOperations<Customer>,IEntityDeleteOperations<Customer>,IEntityPatchOperations<Customer>
   inheritedMembers:
   - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
   - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)
 - uid: com.microsoft.store.partnercenter.customers.ICustomer.delete()
   id: delete()
   parent: com.microsoft.store.partnercenter.customers.ICustomer
@@ -66,7 +67,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 226
+    startLine: 227
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Deletes the customer from a testing in production account. This won't work for real accounts. </p>"
   syntax:
@@ -86,7 +87,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 221
+    startLine: 222
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Retrieves the customer information.</p>\r\n<p></p>"
   syntax:
@@ -109,7 +110,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 46
+    startLine: 47
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the agreements behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -131,7 +132,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 200
+    startLine: 201
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the analytics collection behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -153,7 +154,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 53
+    startLine: 54
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the application consent behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -175,7 +176,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 186
+    startLine: 187
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the devices batch upload status behavior of the customer.</p>\r\n<p></p>"
   syntax:
@@ -197,7 +198,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 151
+    startLine: 152
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the Cart collection behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -219,7 +220,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 214
+    startLine: 215
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the configuration policies behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -241,7 +242,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 172
+    startLine: 173
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the devices batch behavior of the customer.</p>\r\n<p></p>"
   syntax:
@@ -263,7 +264,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 179
+    startLine: 180
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the device policy behavior of the customer.</p>\r\n<p></p>"
   syntax:
@@ -285,7 +286,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 137
+    startLine: 138
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the directory role behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -307,7 +308,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 207
+    startLine: 208
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the entitlement collection behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -329,7 +330,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 88
+    startLine: 89
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the managed services behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -351,7 +352,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 95
+    startLine: 96
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the offer categories behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -373,7 +374,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 102
+    startLine: 103
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the offers behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -395,7 +396,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 60
+    startLine: 61
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the orders behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -417,7 +418,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 158
+    startLine: 159
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the products behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -439,7 +440,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 67
+    startLine: 68
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the profiles behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -461,7 +462,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 123
+    startLine: 124
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the qualification behavior of the customer.</p>\r\n<p></p>"
   syntax:
@@ -483,7 +484,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 193
+    startLine: 194
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the relationship collection behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -505,7 +506,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 165
+    startLine: 166
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the service costs behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -527,7 +528,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 81
+    startLine: 82
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the service requests behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -549,7 +550,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 144
+    startLine: 145
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the directory role behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -571,7 +572,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 74
+    startLine: 75
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the subscriptions behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -593,7 +594,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 116
+    startLine: 117
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the usage spending budget behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -615,7 +616,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 109
+    startLine: 110
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the customer usage summary behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -637,7 +638,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java
-    startLine: 130
+    startLine: 131
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Gets the users behavior for the customer.</p>\r\n<p></p>"
   syntax:
@@ -807,6 +808,23 @@ references:
     return:
       type: com.microsoft.store.partnercenter.IPartner
       description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.yml
+  name: patch(T entity)
+  nameWithType: IEntityPatchOperations<T>.patch(T entity)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T extends ResourceBase>.patch(T entity)
+  type: Method
+  summary: "<p>Patches an entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T patch(T entity)
+    parameters:
+    - id: entity
+      type: 8ce1ecb9
+      description: <p>The entity information. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>The updated entity. </p>
 - uid: com.microsoft.store.partnercenter.IPartnerComponentString
   parent: com.microsoft.store.partnercenter
   href: com.microsoft.store.partnercenter.IPartnerComponentString.yml
@@ -840,6 +858,19 @@ references:
   summary: "<p>Groups operations for getting a single entity. The entity type. </p>"
   syntax:
     content: public interface IEntityDeleteOperations<T extends ResourceBase>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
+  parent: com.microsoft.store.partnercenter.genericoperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.yml
+  name: IEntityPatchOperations<T>
+  nameWithType: IEntityPatchOperations<T>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>
+  type: Interface
+  summary: "<p>Groups operations for getting a single entity. The entity type. </p>"
+  syntax:
+    content: public interface IEntityPatchOperations<T extends ResourceBase>
     typeParameters:
     - id: T
       type: 8ce1ecb9
@@ -1185,7 +1216,7 @@ references:
   nameWithType: CustomerOperations.getSubscribedSkus()
   fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus()
   type: Method
-  summary: "<p>Obtains the subscribed skus for the customer.</p>\r\n<p></p>"
+  summary: "<p>Obtains the subscribed SKUs for the customer.</p>\r\n<p></p>"
   syntax:
     content: public ICustomerSubscribedSkuCollection getSubscribedSkus()
     return:

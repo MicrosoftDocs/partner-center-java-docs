@@ -26,6 +26,7 @@ items:
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPublisherName()
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getQuantity()
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRefundOptions()
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRenewalTermDuration()
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getStatus()
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getSuspensionReasons()
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.getTermDuration()
@@ -49,6 +50,7 @@ items:
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPublisherName(String)
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setQuantity(int)
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRefundOptions(Iterable<RefundOption>)
+  - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRenewalTermDuration(String)
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setStatus(SubscriptionStatus)
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setSuspensionReasons(Iterable<String>)
   - com.microsoft.store.partnercenter.models.subscriptions.Subscription.setTermDuration(String)
@@ -67,7 +69,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 18
+    startLine: 17
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>The subscription resource represents the life cycle of a subscription and includes properties that define the states throughout the subscription life cycle </p>"
   syntax:
@@ -97,7 +99,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 133
+    startLine: 124
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the available actions for the subscription.</p>\r\n<p></p>"
   syntax:
@@ -119,7 +121,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 470
+    startLine: 459
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public boolean getAutoRenewEnabled()
@@ -139,7 +141,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 343
+    startLine: 334
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the billing cycle type for the subscription.</p>\r\n<p></p>"
   syntax:
@@ -161,7 +163,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 485
+    startLine: 474
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public BillingType getBillingType()
@@ -181,7 +183,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 439
+    startLine: 429
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public DateTime getCommitmentEndDate()
@@ -201,7 +203,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 514
+    startLine: 503
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the type of contract </p>"
   syntax:
@@ -222,7 +224,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 143
+    startLine: 134
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the date and time when the subscription was created.</p>\r\n<p></p>"
   syntax:
@@ -244,7 +246,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 422
+    startLine: 413
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public DateTime getEffectiveStartDate()
@@ -264,7 +266,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 323
+    startLine: 314
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the entitlement identifier for the subscription.</p>\r\n<p></p>"
   syntax:
@@ -286,7 +288,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 163
+    startLine: 154
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the friendly name for the subscription.</p>\r\n<p></p>"
   syntax:
@@ -308,7 +310,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 183
+    startLine: 174
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets a flag indicating whether or not the subscription has purchasable addons.</p>\r\n<p></p>"
   syntax:
@@ -330,7 +332,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 193
+    startLine: 184
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the subscription identifier.</p>\r\n<p></p>"
   syntax:
@@ -352,7 +354,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 213
+    startLine: 204
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets a flag indicating whether gets or sets the value indicating that the subscription is a Microsoft product.</p>\r\n<p></p>"
   syntax:
@@ -374,7 +376,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 233
+    startLine: 224
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets a flag indicating whether or not the subscription is a trial.</p>\r\n<p></p>"
   syntax:
@@ -396,7 +398,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 532
+    startLine: 521
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public SubscriptionLinks getLinks()
@@ -416,7 +418,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 243
+    startLine: 234
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the offer identifier that created the subscription.</p>\r\n<p></p>"
   syntax:
@@ -438,7 +440,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 263
+    startLine: 254
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Get the name of the offer that created the subscription.</p>\r\n<p></p>"
   syntax:
@@ -460,7 +462,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 283
+    startLine: 274
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the parent subscription identifier for the subscription.</p>\r\n<p></p>"
   syntax:
@@ -482,7 +484,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 500
+    startLine: 489
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public String getPartnerId()
@@ -502,7 +504,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 303
+    startLine: 294
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the name of the publisher.</p>\r\n<p></p>"
   syntax:
@@ -524,7 +526,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 361
+    startLine: 352
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the quantity for the subscription. In the case of seat based billing, this value is the seat count.</p>\r\n<p></p>"
   syntax:
@@ -546,7 +548,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 562
+    startLine: 551
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the refund options for this subscription if applicable.</p>\r\n<p></p>"
   syntax:
@@ -554,6 +556,28 @@ items:
     return:
       type: 2a13b5a5com.microsoft.store.partnercenter.models.subscriptions.RefundOptiona08ddfce
       description: <p>The refund options for this subscription if applicable. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRenewalTermDuration()
+  id: getRenewalTermDuration()
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: getRenewalTermDuration()
+  nameWithType: Subscription.getRenewalTermDuration()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRenewalTermDuration()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRenewalTermDuration*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 571
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the renewal term duration.</p>\r\n<p></p>"
+  syntax:
+    content: public String getRenewalTermDuration()
+    return:
+      type: "26831127"
+      description: <p>The renewal term duration. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getStatus()
   id: getStatus()
   parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
@@ -568,7 +592,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 455
+    startLine: 444
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public SubscriptionStatus getStatus()
@@ -588,7 +612,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 547
+    startLine: 536
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public Iterable<String> getSuspensionReasons()
@@ -608,7 +632,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 381
+    startLine: 372
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the ISO 8601 representation of the term's duration. The current supported values are P1M (1 month), P1Y (1 year) and P3Y (3 years).</p>\r\n<p></p>"
   syntax:
@@ -630,7 +654,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 401
+    startLine: 392
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Gets the units defining the quantity for the subscription.</p>\r\n<p></p>"
   syntax:
@@ -652,7 +676,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 475
+    startLine: 464
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public void setAutoRenewEnabled(boolean value)
@@ -673,7 +697,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 352
+    startLine: 343
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the billing cycle type for the subscription</p>\r\n<p></p>"
   syntax:
@@ -696,7 +720,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 490
+    startLine: 479
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public void setBillingType(BillingType value)
@@ -717,7 +741,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 445
+    startLine: 434
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public void setCommitmentEndDate(DateTime value)
@@ -738,7 +762,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 519
+    startLine: 508
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public void setContractType(ContractType type)
@@ -759,7 +783,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 153
+    startLine: 144
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the date and time when the subscription was created.</p>\r\n<p></p>"
   syntax:
@@ -782,7 +806,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 428
+    startLine: 418
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public void setEffectiveStartDate(DateTime value)
@@ -803,7 +827,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 333
+    startLine: 324
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the entitlement identifier for the subscription.</p>\r\n<p></p>"
   syntax:
@@ -826,7 +850,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 173
+    startLine: 164
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the friendly name for the subscription.</p>\r\n<p></p>"
   syntax:
@@ -849,7 +873,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 203
+    startLine: 194
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the identifier for the subscription.</p>\r\n<p></p>"
   syntax:
@@ -872,7 +896,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 223
+    startLine: 214
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets a flag indicating whether gets or sets the value indicating that the subscription is a Microsoft product.</p>\r\n<p></p>"
   syntax:
@@ -895,7 +919,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 537
+    startLine: 526
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public void setLinks(SubscriptionLinks value)
@@ -916,7 +940,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 253
+    startLine: 244
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the offer identifier that created the subscription.</p>\r\n<p></p>"
   syntax:
@@ -939,7 +963,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 273
+    startLine: 264
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the name of the offer that created the subscription.</p>\r\n<p></p>"
   syntax:
@@ -962,7 +986,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 293
+    startLine: 284
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the parent subscription identifier for the subscription.</p>\r\n<p></p>"
   syntax:
@@ -985,7 +1009,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 505
+    startLine: 494
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public void setPartnerId(String value)
@@ -1006,7 +1030,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 313
+    startLine: 304
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the name of the publisher.</p>\r\n<p></p>"
   syntax:
@@ -1029,7 +1053,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 371
+    startLine: 362
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the quantity for the subscription. In the case of seat based billing, this value is the seat count.</p>\r\n<p></p>"
   syntax:
@@ -1052,7 +1076,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 572
+    startLine: 561
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the refund options for this subscription if applicable.</p>\r\n<p></p>"
   syntax:
@@ -1061,6 +1085,29 @@ items:
     - id: value
       type: 2a13b5a5com.microsoft.store.partnercenter.models.subscriptions.RefundOptiona08ddfce
       description: <p>The refund options for this subscription if applicable. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRenewalTermDuration(String)
+  id: setRenewalTermDuration(String)
+  parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  href: com.microsoft.store.partnercenter.models.subscriptions.Subscription.yml
+  langs:
+  - java
+  name: setRenewalTermDuration(String value)
+  nameWithType: Subscription.setRenewalTermDuration(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRenewalTermDuration(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRenewalTermDuration*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
+    startLine: 581
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the renewal term duration.</p>\r\n<p></p>"
+  syntax:
+    content: public void setRenewalTermDuration(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The renewal term duration. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setStatus(SubscriptionStatus)
   id: setStatus(SubscriptionStatus)
   parent: com.microsoft.store.partnercenter.models.subscriptions.Subscription
@@ -1075,7 +1122,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 460
+    startLine: 449
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public void setStatus(SubscriptionStatus value)
@@ -1096,7 +1143,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 552
+    startLine: 541
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public void setSuspensionReasons(Iterable<String> value)
@@ -1117,7 +1164,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 391
+    startLine: 382
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the ISO 8601 representation of the term's duration. The current supported values are P1M (1 month), P1Y (1 year) and P3Y (3 years).</p>\r\n<p></p>"
   syntax:
@@ -1140,7 +1187,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 411
+    startLine: 402
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Sets the units defining the quantity for the subscription.</p>\r\n<p></p>"
   syntax:
@@ -1163,7 +1210,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java
-    startLine: 123
+    startLine: 114
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Initializes a new instance of the subscription class. </p>"
   syntax:
@@ -1456,6 +1503,16 @@ references:
   name: setRefundOptions
   nameWithType: Subscription.setRefundOptions
   fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRefundOptions
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRenewalTermDuration*
+  name: getRenewalTermDuration
+  nameWithType: Subscription.getRenewalTermDuration
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.getRenewalTermDuration
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRenewalTermDuration*
+  name: setRenewalTermDuration
+  nameWithType: Subscription.setRenewalTermDuration
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRenewalTermDuration
   package: com.microsoft.store.partnercenter.models.subscriptions
 - uid: com.microsoft.store.partnercenter.models.Contract.Contract()
   parent: com.microsoft.store.partnercenter.models.Contract

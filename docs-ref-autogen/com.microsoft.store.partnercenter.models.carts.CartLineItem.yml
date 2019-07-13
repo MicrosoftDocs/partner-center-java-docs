@@ -15,6 +15,7 @@ items:
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.getParticipants()
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.getProvisioningContext()
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.getQuantity()
+  - com.microsoft.store.partnercenter.models.carts.CartLineItem.getRenewsTo()
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.getTermDuration()
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.setAddOnItems(List<CartLineItem>)
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.setBillingCycle(BillingCycleType)
@@ -27,6 +28,7 @@ items:
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.setParticipants(Collection<KeyValuePair<ParticipantType, String>>)
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.setProvisioningContext(Map<String, String>)
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.setQuantity(int)
+  - com.microsoft.store.partnercenter.models.carts.CartLineItem.setRenewsTo(RenewsTo)
   - com.microsoft.store.partnercenter.models.carts.CartLineItem.setTermDuration(String)
   href: com.microsoft.store.partnercenter.models.carts.CartLineItem.yml
   langs:
@@ -41,7 +43,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 16
+    startLine: 15
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Represents a line item on a cart. </p>"
   syntax: &o1
@@ -62,7 +64,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 95
+    startLine: 87
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets a list of items that depend on this one, so they have to be purchased subsequently.</p>\r\n<p></p>"
   syntax:
@@ -84,7 +86,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 115
+    startLine: 107
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the type of billing cycle for the selected catalog item.</p>\r\n<p></p>"
   syntax:
@@ -106,7 +108,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 135
+    startLine: 127
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the catalog item identifier.</p>\r\n<p></p>"
   syntax:
@@ -128,7 +130,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 155
+    startLine: 147
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the currency code.</p>\r\n<p></p>"
   syntax:
@@ -150,7 +152,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 175
+    startLine: 167
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the error associated to this cart line item.</p>\r\n<p></p>"
   syntax:
@@ -172,7 +174,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 195
+    startLine: 187
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the friendly name for the result contract (subscription).</p>\r\n<p></p>"
   syntax:
@@ -194,7 +196,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 215
+    startLine: 207
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the unique identifier of a cart line item.</p>\r\n<p></p>"
   syntax:
@@ -216,7 +218,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 235
+    startLine: 227
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the order group which indicates which items can be place in a single order.</p>\r\n<p></p>"
   syntax:
@@ -238,7 +240,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 255
+    startLine: 247
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the collection of participants on this purchase.</p>\r\n<p></p>"
   syntax:
@@ -260,7 +262,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 275
+    startLine: 267
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the context that will be used for provisioning of the catalog item.</p>\r\n<p></p>"
   syntax:
@@ -282,7 +284,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 295
+    startLine: 287
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the product quantity.</p>\r\n<p></p>"
   syntax:
@@ -290,6 +292,28 @@ items:
     return:
       type: f75371fa
       description: <p>The product quantity. </p>
+- uid: com.microsoft.store.partnercenter.models.carts.CartLineItem.getRenewsTo()
+  id: getRenewsTo()
+  parent: com.microsoft.store.partnercenter.models.carts.CartLineItem
+  href: com.microsoft.store.partnercenter.models.carts.CartLineItem.yml
+  langs:
+  - java
+  name: getRenewsTo()
+  nameWithType: CartLineItem.getRenewsTo()
+  fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem.getRenewsTo()
+  overload: com.microsoft.store.partnercenter.models.carts.CartLineItem.getRenewsTo*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
+    startLine: 307
+  package: com.microsoft.store.partnercenter.models.carts
+  summary: "<p>Gets the renews to value.</p>\r\n<p></p>"
+  syntax:
+    content: public RenewsTo getRenewsTo()
+    return:
+      type: com.microsoft.store.partnercenter.models.carts.RenewsTo
+      description: <p>The renews to value. </p>
 - uid: com.microsoft.store.partnercenter.models.carts.CartLineItem.getTermDuration()
   id: getTermDuration()
   parent: com.microsoft.store.partnercenter.models.carts.CartLineItem
@@ -304,7 +328,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 315
+    startLine: 327
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Gets the term duration if applicable.</p>\r\n<p></p>"
   syntax:
@@ -326,7 +350,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 105
+    startLine: 97
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets a list of items that depend on this one, so they have to be purchased subsequently.</p>\r\n<p></p>"
   syntax:
@@ -349,7 +373,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 125
+    startLine: 117
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the type of billing cycle for the selected catalog item.</p>\r\n<p></p>"
   syntax:
@@ -372,7 +396,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 145
+    startLine: 137
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the catalog item identifier.</p>\r\n<p></p>"
   syntax:
@@ -395,7 +419,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 165
+    startLine: 157
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the currency code.</p>\r\n<p></p>"
   syntax:
@@ -418,7 +442,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 185
+    startLine: 177
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the error associated to this cart line item.</p>\r\n<p></p>"
   syntax:
@@ -441,7 +465,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 205
+    startLine: 197
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the friendly name for the result contract (subscription).</p>\r\n<p></p>"
   syntax:
@@ -464,7 +488,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 225
+    startLine: 217
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the unique identifier of a cart line item.</p>\r\n<p></p>"
   syntax:
@@ -487,7 +511,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 245
+    startLine: 237
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the order group which indicates which items can be place in a single order.</p>\r\n<p></p>"
   syntax:
@@ -510,7 +534,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 265
+    startLine: 257
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the collection of participants on this purchase.</p>\r\n<p></p>"
   syntax:
@@ -533,7 +557,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 285
+    startLine: 277
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the context that will be used for provisioning of the catalog item.</p>\r\n<p></p>"
   syntax:
@@ -556,7 +580,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 305
+    startLine: 297
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the product quantity.</p>\r\n<p></p>"
   syntax:
@@ -565,6 +589,29 @@ items:
     - id: value
       type: f75371fa
       description: <p>The product quantity. </p>
+- uid: com.microsoft.store.partnercenter.models.carts.CartLineItem.setRenewsTo(RenewsTo)
+  id: setRenewsTo(RenewsTo)
+  parent: com.microsoft.store.partnercenter.models.carts.CartLineItem
+  href: com.microsoft.store.partnercenter.models.carts.CartLineItem.yml
+  langs:
+  - java
+  name: setRenewsTo(RenewsTo value)
+  nameWithType: CartLineItem.setRenewsTo(RenewsTo value)
+  fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem.setRenewsTo(RenewsTo value)
+  overload: com.microsoft.store.partnercenter.models.carts.CartLineItem.setRenewsTo*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
+    startLine: 317
+  package: com.microsoft.store.partnercenter.models.carts
+  summary: "<p>Sets the renews to value.</p>\r\n<p></p>"
+  syntax:
+    content: public void setRenewsTo(RenewsTo value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models.carts.RenewsTo
+      description: <p>The renews to value. </p>
 - uid: com.microsoft.store.partnercenter.models.carts.CartLineItem.setTermDuration(String)
   id: setTermDuration(String)
   parent: com.microsoft.store.partnercenter.models.carts.CartLineItem
@@ -579,7 +626,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
-    startLine: 325
+    startLine: 337
   package: com.microsoft.store.partnercenter.models.carts
   summary: "<p>Sets the term duration if applicable.</p>\r\n<p></p>"
   syntax:
@@ -737,6 +784,16 @@ references:
   nameWithType: CartLineItem.setQuantity
   fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem.setQuantity
   package: com.microsoft.store.partnercenter.models.carts
+- uid: com.microsoft.store.partnercenter.models.carts.CartLineItem.getRenewsTo*
+  name: getRenewsTo
+  nameWithType: CartLineItem.getRenewsTo
+  fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem.getRenewsTo
+  package: com.microsoft.store.partnercenter.models.carts
+- uid: com.microsoft.store.partnercenter.models.carts.CartLineItem.setRenewsTo*
+  name: setRenewsTo
+  nameWithType: CartLineItem.setRenewsTo
+  fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem.setRenewsTo
+  package: com.microsoft.store.partnercenter.models.carts
 - uid: com.microsoft.store.partnercenter.models.carts.CartLineItem.getTermDuration*
   name: getTermDuration
   nameWithType: CartLineItem.getTermDuration
@@ -800,3 +857,13 @@ references:
   summary: "<p>Types of Participants </p>"
   syntax:
     content: public enum ParticipantType
+- uid: com.microsoft.store.partnercenter.models.carts.RenewsTo
+  parent: com.microsoft.store.partnercenter.models.carts
+  href: com.microsoft.store.partnercenter.models.carts.RenewsTo.yml
+  name: RenewsTo
+  nameWithType: RenewsTo
+  fullName: com.microsoft.store.partnercenter.models.carts.RenewsTo
+  type: Class
+  summary: "<p>Represent the renews to for a cart line item. </p>"
+  syntax:
+    content: public class RenewsTo

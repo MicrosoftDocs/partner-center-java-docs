@@ -8,9 +8,11 @@ items:
   - com.microsoft.store.partnercenter.models.ApiFault.getErrorCode()
   - com.microsoft.store.partnercenter.models.ApiFault.getErrorData()
   - com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage()
+  - com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable()
   - com.microsoft.store.partnercenter.models.ApiFault.setErrorCode(String)
   - com.microsoft.store.partnercenter.models.ApiFault.setErrorData(Iterable<Object>)
   - com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage(String)
+  - com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable(boolean)
   - com.microsoft.store.partnercenter.models.ApiFault.toString()
   href: com.microsoft.store.partnercenter.models.ApiFault.yml
   langs:
@@ -51,7 +53,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 36
+    startLine: 41
   package: com.microsoft.store.partnercenter.models
   summary: "<p>Initializes a new instance of the ApiFault class. </p>"
   syntax:
@@ -70,7 +72,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 46
+    startLine: 51
   package: com.microsoft.store.partnercenter.models
   summary: "<p>Gets the error code.</p>\r\n<p></p>"
   syntax:
@@ -92,7 +94,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 86
+    startLine: 91
   package: com.microsoft.store.partnercenter.models
   summary: "<p>Gets the additional fault information if present.</p>\r\n<p></p>"
   syntax:
@@ -114,7 +116,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 66
+    startLine: 71
   package: com.microsoft.store.partnercenter.models
   summary: "<p>Gets the error message.</p>\r\n<p></p>"
   syntax:
@@ -122,6 +124,28 @@ items:
     return:
       type: "26831127"
       description: <p>The error message. </p>
+- uid: com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable()
+  id: getIsRetryable()
+  parent: com.microsoft.store.partnercenter.models.ApiFault
+  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+  langs:
+  - java
+  name: getIsRetryable()
+  nameWithType: ApiFault.getIsRetryable()
+  fullName: com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable()
+  overload: com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
+    startLine: 111
+  package: com.microsoft.store.partnercenter.models
+  summary: "<p>Gets a flag indicating whether or not the fault is retryable.</p>\r\n<p></p>"
+  syntax:
+    content: public boolean getIsRetryable()
+    return:
+      type: 4fc6e284
+      description: <p>A flag indicating whether or not the fault is retryable. </p>
 - uid: com.microsoft.store.partnercenter.models.ApiFault.setErrorCode(String)
   id: setErrorCode(String)
   parent: com.microsoft.store.partnercenter.models.ApiFault
@@ -136,7 +160,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 56
+    startLine: 61
   package: com.microsoft.store.partnercenter.models
   summary: "<p>Sets the error code.</p>\r\n<p></p>"
   syntax:
@@ -159,7 +183,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 96
+    startLine: 101
   package: com.microsoft.store.partnercenter.models
   summary: "<p>Sets the additional fault information.</p>\r\n<p></p>"
   syntax:
@@ -182,7 +206,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 76
+    startLine: 81
   package: com.microsoft.store.partnercenter.models
   summary: "<p>Sets the error message.</p>\r\n<p></p>"
   syntax:
@@ -191,6 +215,29 @@ items:
     - id: value
       type: "26831127"
       description: <p>The error message. </p>
+- uid: com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable(boolean)
+  id: setIsRetryable(boolean)
+  parent: com.microsoft.store.partnercenter.models.ApiFault
+  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+  langs:
+  - java
+  name: setIsRetryable(boolean value)
+  nameWithType: ApiFault.setIsRetryable(boolean value)
+  fullName: com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable(boolean value)
+  overload: com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
+    startLine: 121
+  package: com.microsoft.store.partnercenter.models
+  summary: "<p>Sets a flag indicating whether or not the fault is retryable.</p>\r\n<p></p>"
+  syntax:
+    content: public void setIsRetryable(boolean value)
+    parameters:
+    - id: value
+      type: 4fc6e284
+      description: <p>A flag indicating whether or not the fault is retryable. </p>
 - uid: com.microsoft.store.partnercenter.models.ApiFault.toString()
   id: toString()
   parent: com.microsoft.store.partnercenter.models.ApiFault
@@ -205,7 +252,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 106
+    startLine: 131
   package: com.microsoft.store.partnercenter.models
   summary: "<p>Returns a meaningful summary about the API fault.</p>\r\n<p></p>"
   syntax:
@@ -256,6 +303,20 @@ references:
   name: setErrorData
   nameWithType: ApiFault.setErrorData
   fullName: com.microsoft.store.partnercenter.models.ApiFault.setErrorData
+  package: com.microsoft.store.partnercenter.models
+- uid: 4fc6e284
+  spec.java:
+  - name: boolean
+    fullName: boolean
+- uid: com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable*
+  name: getIsRetryable
+  nameWithType: ApiFault.getIsRetryable
+  fullName: com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable
+  package: com.microsoft.store.partnercenter.models
+- uid: com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable*
+  name: setIsRetryable
+  nameWithType: ApiFault.setIsRetryable
+  fullName: com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable
   package: com.microsoft.store.partnercenter.models
 - uid: com.microsoft.store.partnercenter.models.ApiFault.toString*
   name: toString

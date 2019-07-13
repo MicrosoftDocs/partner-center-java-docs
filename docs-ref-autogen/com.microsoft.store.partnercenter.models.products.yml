@@ -6,6 +6,8 @@ items:
   - com.microsoft.store.partnercenter.models.products.Availability
   - com.microsoft.store.partnercenter.models.products.AvailabilityTerm
   - com.microsoft.store.partnercenter.models.products.BillingCycleType
+  - com.microsoft.store.partnercenter.models.products.CancellationPolicy
+  - com.microsoft.store.partnercenter.models.products.CancellationRefundOption
   - com.microsoft.store.partnercenter.models.products.CurrencyInfo
   - com.microsoft.store.partnercenter.models.products.InventoryCheckRequest
   - com.microsoft.store.partnercenter.models.products.InventoryItem
@@ -13,6 +15,7 @@ items:
   - com.microsoft.store.partnercenter.models.products.ItemType
   - com.microsoft.store.partnercenter.models.products.Product
   - com.microsoft.store.partnercenter.models.products.ProductLinks
+  - com.microsoft.store.partnercenter.models.products.RenewalOption
   - com.microsoft.store.partnercenter.models.products.Sku
   href: com.microsoft.store.partnercenter.models.products.yml
   langs:
@@ -61,6 +64,26 @@ references:
   summary: "<p>Types of Participants </p>"
   syntax:
     content: public enum BillingCycleType
+- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+  parent: com.microsoft.store.partnercenter.models.products
+  href: com.microsoft.store.partnercenter.models.products.CancellationPolicy.yml
+  name: CancellationPolicy
+  nameWithType: CancellationPolicy
+  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+  type: Class
+  summary: "<p>Represents a cancellation policy. </p>"
+  syntax:
+    content: public class CancellationPolicy
+- uid: com.microsoft.store.partnercenter.models.products.CancellationRefundOption
+  parent: com.microsoft.store.partnercenter.models.products
+  href: com.microsoft.store.partnercenter.models.products.CancellationRefundOption.yml
+  name: CancellationRefundOption
+  nameWithType: CancellationRefundOption
+  fullName: com.microsoft.store.partnercenter.models.products.CancellationRefundOption
+  type: Class
+  summary: "<p>Represents a refund policy. </p>"
+  syntax:
+    content: public class CancellationRefundOption
 - uid: com.microsoft.store.partnercenter.models.products.CurrencyInfo
   parent: com.microsoft.store.partnercenter.models.products
   href: com.microsoft.store.partnercenter.models.products.CurrencyInfo.yml
@@ -131,6 +154,16 @@ references:
   summary: "<p>Navigation links for Product. </p>"
   syntax:
     content: public class ProductLinks extends StandardResourceLinks
+- uid: com.microsoft.store.partnercenter.models.products.RenewalOption
+  parent: com.microsoft.store.partnercenter.models.products
+  href: com.microsoft.store.partnercenter.models.products.RenewalOption.yml
+  name: RenewalOption
+  nameWithType: RenewalOption
+  fullName: com.microsoft.store.partnercenter.models.products.RenewalOption
+  type: Class
+  summary: "<p>Represents a conversion option. </p>"
+  syntax:
+    content: public class RenewalOption
 - uid: com.microsoft.store.partnercenter.models.products.Sku
   parent: com.microsoft.store.partnercenter.models.products
   href: com.microsoft.store.partnercenter.models.products.Sku.yml

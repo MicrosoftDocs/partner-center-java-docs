@@ -6,9 +6,7 @@ items:
   children:
   - com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.ConversionErrorCode(String)
   - com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.CONVERSIONS_NOT_FOUND
-  - com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.FAILED
   - com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.OTHER
-  - com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.PENDING
   - com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.toString()
   href: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.yml
   langs:
@@ -45,7 +43,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionErrorCode.java
-    startLine: 34
+    startLine: 24
   package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
     content: public ConversionErrorCode(String value)
@@ -67,27 +65,9 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionErrorCode.java
     startLine: 20
   package: com.microsoft.store.partnercenter.models.subscriptions
-  summary: "<p>Conversions not found. </p>"
+  summary: "<p>Cannot find any conversions for the trial subscription. </p>"
   syntax:
     content: public CONVERSIONS_NOT_FOUND=("conversions_not_found")
-- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.FAILED
-  id: FAILED
-  parent: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode
-  href: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.yml
-  langs:
-  - java
-  name: FAILED
-  nameWithType: ConversionErrorCode.FAILED
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.FAILED
-  type: Field
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionErrorCode.java
-    startLine: 30
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  summary: "<p>Failed. </p>"
-  syntax:
-    content: public FAILED=("failed")
 - uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.OTHER
   id: OTHER
   parent: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode
@@ -103,27 +83,9 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionErrorCode.java
     startLine: 15
   package: com.microsoft.store.partnercenter.models.subscriptions
-  summary: "<p>Other. </p>"
+  summary: "<p>General error </p>"
   syntax:
     content: public OTHER=("other")
-- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.PENDING
-  id: PENDING
-  parent: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode
-  href: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.yml
-  langs:
-  - java
-  name: PENDING
-  nameWithType: ConversionErrorCode.PENDING
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.PENDING
-  type: Field
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionErrorCode.java
-    startLine: 25
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  summary: "<p>Pending. </p>"
-  syntax:
-    content: public PENDING=("pending")
 - uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.toString()
   id: toString()
   parent: com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode
@@ -138,7 +100,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionErrorCode.java
-    startLine: 46
+    startLine: 36
   package: com.microsoft.store.partnercenter.models.subscriptions
   summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
   syntax:

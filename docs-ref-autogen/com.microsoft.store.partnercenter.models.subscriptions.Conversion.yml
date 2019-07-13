@@ -4,12 +4,12 @@ items:
   id: Conversion
   parent: com.microsoft.store.partnercenter.models.subscriptions
   children:
-  - com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycleType()
+  - com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycle()
   - com.microsoft.store.partnercenter.models.subscriptions.Conversion.getOfferId()
   - com.microsoft.store.partnercenter.models.subscriptions.Conversion.getOrderId()
   - com.microsoft.store.partnercenter.models.subscriptions.Conversion.getQuantity()
   - com.microsoft.store.partnercenter.models.subscriptions.Conversion.getTargetOfferId()
-  - com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycleType(BillingCycleType)
+  - com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycle(BillingCycleType)
   - com.microsoft.store.partnercenter.models.subscriptions.Conversion.setOfferId(String)
   - com.microsoft.store.partnercenter.models.subscriptions.Conversion.setOrderId(String)
   - com.microsoft.store.partnercenter.models.subscriptions.Conversion.setQuantity(int)
@@ -39,26 +39,28 @@ items:
   - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
   - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
   - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycleType()
-  id: getBillingCycleType()
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycle()
+  id: getBillingCycle()
   parent: com.microsoft.store.partnercenter.models.subscriptions.Conversion
   href: com.microsoft.store.partnercenter.models.subscriptions.Conversion.yml
   langs:
   - java
-  name: getBillingCycleType()
-  nameWithType: Conversion.getBillingCycleType()
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycleType()
-  overload: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycleType*
+  name: getBillingCycle()
+  nameWithType: Conversion.getBillingCycle()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycle()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycle*
   type: Method
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Conversion.java
-    startLine: 79
+    startLine: 44
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the billing cycle that defines how often the partner is billed for this subscription.</p>\r\n<p></p>"
   syntax:
-    content: public BillingCycleType getBillingCycleType()
+    content: public BillingCycleType getBillingCycle()
     return:
       type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+      description: <p>The billing cycle that defines how often the partner is billed for this subscription. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getOfferId()
   id: getOfferId()
   parent: com.microsoft.store.partnercenter.models.subscriptions.Conversion
@@ -73,12 +75,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Conversion.java
-    startLine: 19
+    startLine: 64
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the original offer identifier.</p>\r\n<p></p>"
   syntax:
     content: public String getOfferId()
     return:
       type: "26831127"
+      description: <p>The original offer identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getOrderId()
   id: getOrderId()
   parent: com.microsoft.store.partnercenter.models.subscriptions.Conversion
@@ -93,12 +97,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Conversion.java
-    startLine: 49
+    startLine: 84
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the order identifier.</p>\r\n<p></p>"
   syntax:
     content: public String getOrderId()
     return:
       type: "26831127"
+      description: <p>The order identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getQuantity()
   id: getQuantity()
   parent: com.microsoft.store.partnercenter.models.subscriptions.Conversion
@@ -113,12 +119,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Conversion.java
-    startLine: 64
+    startLine: 104
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the quantity to be purchased. Defaults to the source subscription quantity.</p>\r\n<p></p>"
   syntax:
     content: public int getQuantity()
     return:
       type: f75371fa
+      description: <p>The quantity to be purchased. Defaults to the source subscription quantity. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getTargetOfferId()
   id: getTargetOfferId()
   parent: com.microsoft.store.partnercenter.models.subscriptions.Conversion
@@ -133,33 +141,37 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Conversion.java
-    startLine: 34
+    startLine: 124
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the target offer identifier.</p>\r\n<p></p>"
   syntax:
     content: public String getTargetOfferId()
     return:
       type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycleType(BillingCycleType)
-  id: setBillingCycleType(BillingCycleType)
+      description: <p>The target offer identifier. </p>
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycle(BillingCycleType)
+  id: setBillingCycle(BillingCycleType)
   parent: com.microsoft.store.partnercenter.models.subscriptions.Conversion
   href: com.microsoft.store.partnercenter.models.subscriptions.Conversion.yml
   langs:
   - java
-  name: setBillingCycleType(BillingCycleType value)
-  nameWithType: Conversion.setBillingCycleType(BillingCycleType value)
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycleType(BillingCycleType value)
-  overload: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycleType*
+  name: setBillingCycle(BillingCycleType value)
+  nameWithType: Conversion.setBillingCycle(BillingCycleType value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycle(BillingCycleType value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycle*
   type: Method
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Conversion.java
-    startLine: 84
+    startLine: 54
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the billing cycle that defines how often the partner is billed for this subscription.</p>\r\n<p></p>"
   syntax:
-    content: public void setBillingCycleType(BillingCycleType value)
+    content: public void setBillingCycle(BillingCycleType value)
     parameters:
     - id: value
       type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+      description: <p>The billing cycle that defines how often the partner is billed for this subscription. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setOfferId(String)
   id: setOfferId(String)
   parent: com.microsoft.store.partnercenter.models.subscriptions.Conversion
@@ -174,13 +186,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Conversion.java
-    startLine: 24
+    startLine: 74
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the original offer identifier.</p>\r\n<p></p>"
   syntax:
     content: public void setOfferId(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The original offer identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setOrderId(String)
   id: setOrderId(String)
   parent: com.microsoft.store.partnercenter.models.subscriptions.Conversion
@@ -195,13 +209,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Conversion.java
-    startLine: 54
+    startLine: 94
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the order identifier.</p>\r\n<p></p>"
   syntax:
     content: public void setOrderId(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The order identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setQuantity(int)
   id: setQuantity(int)
   parent: com.microsoft.store.partnercenter.models.subscriptions.Conversion
@@ -216,13 +232,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Conversion.java
-    startLine: 69
+    startLine: 114
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the quantity to be purchased. Defaults to the source subscription quantity.</p>\r\n<p></p>"
   syntax:
     content: public void setQuantity(int value)
     parameters:
     - id: value
       type: f75371fa
+      description: <p>The quantity to be purchased. Defaults to the source subscription quantity. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setTargetOfferId(String)
   id: setTargetOfferId(String)
   parent: com.microsoft.store.partnercenter.models.subscriptions.Conversion
@@ -237,14 +255,26 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Conversion.java
-    startLine: 39
+    startLine: 134
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the target offer identifier.</p>\r\n<p></p>"
   syntax:
     content: public void setTargetOfferId(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The target offer identifier. </p>
 references:
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycle*
+  name: getBillingCycle
+  nameWithType: Conversion.getBillingCycle
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycle
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycle*
+  name: setBillingCycle
+  nameWithType: Conversion.setBillingCycle
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycle
+  package: com.microsoft.store.partnercenter.models.subscriptions
 - uid: "26831127"
   spec.java:
   - name: String
@@ -258,16 +288,6 @@ references:
   name: setOfferId
   nameWithType: Conversion.setOfferId
   fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setOfferId
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getTargetOfferId*
-  name: getTargetOfferId
-  nameWithType: Conversion.getTargetOfferId
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getTargetOfferId
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setTargetOfferId*
-  name: setTargetOfferId
-  nameWithType: Conversion.setTargetOfferId
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setTargetOfferId
   package: com.microsoft.store.partnercenter.models.subscriptions
 - uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getOrderId*
   name: getOrderId
@@ -293,15 +313,15 @@ references:
   nameWithType: Conversion.setQuantity
   fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setQuantity
   package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycleType*
-  name: getBillingCycleType
-  nameWithType: Conversion.getBillingCycleType
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getBillingCycleType
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getTargetOfferId*
+  name: getTargetOfferId
+  nameWithType: Conversion.getTargetOfferId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.getTargetOfferId
   package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycleType*
-  name: setBillingCycleType
-  nameWithType: Conversion.setBillingCycleType
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycleType
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setTargetOfferId*
+  name: setTargetOfferId
+  nameWithType: Conversion.setTargetOfferId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion.setTargetOfferId
   package: com.microsoft.store.partnercenter.models.subscriptions
 - uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
   parent: com.microsoft.store.partnercenter.models.ResourceBase

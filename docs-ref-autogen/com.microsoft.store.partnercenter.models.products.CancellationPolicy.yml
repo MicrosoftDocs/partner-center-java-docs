@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+  id: CancellationPolicy
+  parent: com.microsoft.store.partnercenter.models.products
+  children:
+  - com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions()
+  - com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions(Iterable<CancellationRefundOption>)
+  href: com.microsoft.store.partnercenter.models.products.CancellationPolicy.yml
+  langs:
+  - java
+  name: CancellationPolicy
+  nameWithType: CancellationPolicy
+  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/store/partnercenter/models/products/CancellationPolicy.java
+      branch: master
+      repo: https://github.com/microsoft/Partner-Center-Java
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/CancellationPolicy.java
+    startLine: 8
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Represents a cancellation policy. </p>"
+  syntax:
+    content: public class CancellationPolicy
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions()
+  id: getRefundOptions()
+  parent: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+  href: com.microsoft.store.partnercenter.models.products.CancellationPolicy.yml
+  langs:
+  - java
+  name: getRefundOptions()
+  nameWithType: CancellationPolicy.getRefundOptions()
+  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions()
+  overload: com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/CancellationPolicy.java
+    startLine: 20
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Gets the refund options that can apply to this cancellation policy.</p>\r\n<p></p>"
+  syntax:
+    content: public Iterable<CancellationRefundOption> getRefundOptions()
+    return:
+      type: 2a13b5a5com.microsoft.store.partnercenter.models.products.CancellationRefundOptiona08ddfce
+      description: <p>The refund options that can apply to this cancellation policy. </p>
+- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions(Iterable<CancellationRefundOption>)
+  id: setRefundOptions(Iterable<CancellationRefundOption>)
+  parent: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+  href: com.microsoft.store.partnercenter.models.products.CancellationPolicy.yml
+  langs:
+  - java
+  name: setRefundOptions(Iterable<CancellationRefundOption> value)
+  nameWithType: CancellationPolicy.setRefundOptions(Iterable<CancellationRefundOption> value)
+  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions(Iterable<CancellationRefundOption> value)
+  overload: com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/CancellationPolicy.java
+    startLine: 30
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Sets the refund options that can apply to this cancellation policy.</p>\r\n<p></p>"
+  syntax:
+    content: public void setRefundOptions(Iterable<CancellationRefundOption> value)
+    parameters:
+    - id: value
+      type: 2a13b5a5com.microsoft.store.partnercenter.models.products.CancellationRefundOptiona08ddfce
+      description: <p>The refund options that can apply to this cancellation policy. </p>
+references:
+- uid: 2a13b5a5com.microsoft.store.partnercenter.models.products.CancellationRefundOptiona08ddfce
+  spec.java:
+  - name: Iterable<
+    fullName: Iterable<
+  - uid: com.microsoft.store.partnercenter.models.products.CancellationRefundOption
+    name: CancellationRefundOption
+    fullName: com.microsoft.store.partnercenter.models.products.CancellationRefundOption
+    href: com.microsoft.store.partnercenter.models.products.CancellationRefundOption.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions*
+  name: getRefundOptions
+  nameWithType: CancellationPolicy.getRefundOptions
+  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions*
+  name: setRefundOptions
+  nameWithType: CancellationPolicy.setRefundOptions
+  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.CancellationRefundOption
+  parent: com.microsoft.store.partnercenter.models.products
+  href: com.microsoft.store.partnercenter.models.products.CancellationRefundOption.yml
+  name: CancellationRefundOption
+  nameWithType: CancellationRefundOption
+  fullName: com.microsoft.store.partnercenter.models.products.CancellationRefundOption
+  type: Class
+  summary: "<p>Represents a refund policy. </p>"
+  syntax:
+    content: public class CancellationRefundOption

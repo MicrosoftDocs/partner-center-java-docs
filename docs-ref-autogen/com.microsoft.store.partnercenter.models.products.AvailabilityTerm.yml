@@ -4,10 +4,14 @@ items:
   id: AvailabilityTerm
   parent: com.microsoft.store.partnercenter.models.products
   children:
+  - com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getCancellationPolicies()
   - com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getDescription()
   - com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getDuration()
+  - com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getRenewalOptions()
+  - com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setCancellationPolicies(Iterable<CancellationPolicy>)
   - com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setDescription(String)
   - com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setDuration(String)
+  - com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setRenewalOptions(Iterable<RenewalOption>)
   href: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.yml
   langs:
   - java
@@ -28,6 +32,28 @@ items:
     content: public class AvailabilityTerm
   inheritance:
   - java.lang.Object
+- uid: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getCancellationPolicies()
+  id: getCancellationPolicies()
+  parent: com.microsoft.store.partnercenter.models.products.AvailabilityTerm
+  href: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.yml
+  langs:
+  - java
+  name: getCancellationPolicies()
+  nameWithType: AvailabilityTerm.getCancellationPolicies()
+  fullName: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getCancellationPolicies()
+  overload: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getCancellationPolicies*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/AvailabilityTerm.java
+    startLine: 35
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Gets the cancellation policies that can apply to this term.</p>\r\n<p></p>"
+  syntax:
+    content: public Iterable<CancellationPolicy> getCancellationPolicies()
+    return:
+      type: 2a13b5a5com.microsoft.store.partnercenter.models.products.CancellationPolicya08ddfce
+      description: <p>The cancellation policies that can apply to this term. </p>
 - uid: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getDescription()
   id: getDescription()
   parent: com.microsoft.store.partnercenter.models.products.AvailabilityTerm
@@ -42,7 +68,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/products/AvailabilityTerm.java
-    startLine: 25
+    startLine: 55
   package: com.microsoft.store.partnercenter.models.products
   summary: "<p>Gets the description for the term.</p>\r\n<p></p>"
   syntax:
@@ -64,7 +90,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/products/AvailabilityTerm.java
-    startLine: 45
+    startLine: 75
   package: com.microsoft.store.partnercenter.models.products
   summary: "<p>Gets the ISO standard representation of this term's duration.</p>\r\n<p></p>"
   syntax:
@@ -72,6 +98,51 @@ items:
     return:
       type: "26831127"
       description: <p>The ISO standard representation of this term's duration. </p>
+- uid: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getRenewalOptions()
+  id: getRenewalOptions()
+  parent: com.microsoft.store.partnercenter.models.products.AvailabilityTerm
+  href: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.yml
+  langs:
+  - java
+  name: getRenewalOptions()
+  nameWithType: AvailabilityTerm.getRenewalOptions()
+  fullName: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getRenewalOptions()
+  overload: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getRenewalOptions*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/AvailabilityTerm.java
+    startLine: 95
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Gets the renewal options.</p>\r\n<p></p>"
+  syntax:
+    content: public Iterable<RenewalOption> getRenewalOptions()
+    return:
+      type: 2a13b5a5com.microsoft.store.partnercenter.models.products.RenewalOptiona08ddfce
+      description: <p>The renewal options. </p>
+- uid: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setCancellationPolicies(Iterable<CancellationPolicy>)
+  id: setCancellationPolicies(Iterable<CancellationPolicy>)
+  parent: com.microsoft.store.partnercenter.models.products.AvailabilityTerm
+  href: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.yml
+  langs:
+  - java
+  name: setCancellationPolicies(Iterable<CancellationPolicy> value)
+  nameWithType: AvailabilityTerm.setCancellationPolicies(Iterable<CancellationPolicy> value)
+  fullName: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setCancellationPolicies(Iterable<CancellationPolicy> value)
+  overload: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setCancellationPolicies*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/AvailabilityTerm.java
+    startLine: 45
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Sets the cancellation policies that can apply to this term.</p>\r\n<p></p>"
+  syntax:
+    content: public void setCancellationPolicies(Iterable<CancellationPolicy> value)
+    parameters:
+    - id: value
+      type: 2a13b5a5com.microsoft.store.partnercenter.models.products.CancellationPolicya08ddfce
+      description: <p>The cancellation policies that can apply to this term. </p>
 - uid: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setDescription(String)
   id: setDescription(String)
   parent: com.microsoft.store.partnercenter.models.products.AvailabilityTerm
@@ -86,7 +157,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/products/AvailabilityTerm.java
-    startLine: 35
+    startLine: 65
   package: com.microsoft.store.partnercenter.models.products
   summary: "<p>Sets the description for the term.</p>\r\n<p></p>"
   syntax:
@@ -109,7 +180,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/products/AvailabilityTerm.java
-    startLine: 55
+    startLine: 85
   package: com.microsoft.store.partnercenter.models.products
   summary: "<p>Sets the ISO standard representation of this term's duration.</p>\r\n<p></p>"
   syntax:
@@ -118,7 +189,50 @@ items:
     - id: value
       type: "26831127"
       description: <p>The ISO standard representation of this term's duration. </p>
+- uid: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setRenewalOptions(Iterable<RenewalOption>)
+  id: setRenewalOptions(Iterable<RenewalOption>)
+  parent: com.microsoft.store.partnercenter.models.products.AvailabilityTerm
+  href: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.yml
+  langs:
+  - java
+  name: setRenewalOptions(Iterable<RenewalOption> value)
+  nameWithType: AvailabilityTerm.setRenewalOptions(Iterable<RenewalOption> value)
+  fullName: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setRenewalOptions(Iterable<RenewalOption> value)
+  overload: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setRenewalOptions*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/products/AvailabilityTerm.java
+    startLine: 105
+  package: com.microsoft.store.partnercenter.models.products
+  summary: "<p>Sets the renewal options.</p>\r\n<p></p>"
+  syntax:
+    content: public void setRenewalOptions(Iterable<RenewalOption> value)
+    parameters:
+    - id: value
+      type: 2a13b5a5com.microsoft.store.partnercenter.models.products.RenewalOptiona08ddfce
+      description: <p>The renewal options. </p>
 references:
+- uid: 2a13b5a5com.microsoft.store.partnercenter.models.products.CancellationPolicya08ddfce
+  spec.java:
+  - name: Iterable<
+    fullName: Iterable<
+  - uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+    name: CancellationPolicy
+    fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+    href: com.microsoft.store.partnercenter.models.products.CancellationPolicy.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getCancellationPolicies*
+  name: getCancellationPolicies
+  nameWithType: AvailabilityTerm.getCancellationPolicies
+  fullName: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getCancellationPolicies
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setCancellationPolicies*
+  name: setCancellationPolicies
+  nameWithType: AvailabilityTerm.setCancellationPolicies
+  fullName: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setCancellationPolicies
+  package: com.microsoft.store.partnercenter.models.products
 - uid: "26831127"
   spec.java:
   - name: String
@@ -143,3 +257,43 @@ references:
   nameWithType: AvailabilityTerm.setDuration
   fullName: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setDuration
   package: com.microsoft.store.partnercenter.models.products
+- uid: 2a13b5a5com.microsoft.store.partnercenter.models.products.RenewalOptiona08ddfce
+  spec.java:
+  - name: Iterable<
+    fullName: Iterable<
+  - uid: com.microsoft.store.partnercenter.models.products.RenewalOption
+    name: RenewalOption
+    fullName: com.microsoft.store.partnercenter.models.products.RenewalOption
+    href: com.microsoft.store.partnercenter.models.products.RenewalOption.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getRenewalOptions*
+  name: getRenewalOptions
+  nameWithType: AvailabilityTerm.getRenewalOptions
+  fullName: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getRenewalOptions
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setRenewalOptions*
+  name: setRenewalOptions
+  nameWithType: AvailabilityTerm.setRenewalOptions
+  fullName: com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setRenewalOptions
+  package: com.microsoft.store.partnercenter.models.products
+- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+  parent: com.microsoft.store.partnercenter.models.products
+  href: com.microsoft.store.partnercenter.models.products.CancellationPolicy.yml
+  name: CancellationPolicy
+  nameWithType: CancellationPolicy
+  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+  type: Class
+  summary: "<p>Represents a cancellation policy. </p>"
+  syntax:
+    content: public class CancellationPolicy
+- uid: com.microsoft.store.partnercenter.models.products.RenewalOption
+  parent: com.microsoft.store.partnercenter.models.products
+  href: com.microsoft.store.partnercenter.models.products.RenewalOption.yml
+  name: RenewalOption
+  nameWithType: RenewalOption
+  fullName: com.microsoft.store.partnercenter.models.products.RenewalOption
+  type: Class
+  summary: "<p>Represents a conversion option. </p>"
+  syntax:
+    content: public class RenewalOption

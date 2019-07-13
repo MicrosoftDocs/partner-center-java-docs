@@ -32,6 +32,7 @@ items:
   - com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget()
   - com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary()
   - com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.patch(Customer)
   href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
   langs:
   - java
@@ -62,6 +63,7 @@ items:
   - com.microsoft.store.partnercenter.IPartnerComponent.getContext()
   - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
   - com.microsoft.store.partnercenter.IPartnerComponent.getPartner()
+  - com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)
 - uid: com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations(IPartner,String)
   id: CustomerOperations(IPartner,String)
   parent: com.microsoft.store.partnercenter.customers.CustomerOperations
@@ -102,7 +104,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 607
+    startLine: 625
   package: com.microsoft.store.partnercenter.customers
   summary: "<p>Deletes the customer from a testing in production account. This only works for customer in the integration sandbox. </p>"
   syntax:
@@ -599,7 +601,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
     startLine: 429
   package: com.microsoft.store.partnercenter.customers
-  summary: "<p>Obtains the subscribed skus for the customer.</p>\r\n<p></p>"
+  summary: "<p>Obtains the subscribed SKUs for the customer.</p>\r\n<p></p>"
   syntax:
     content: public ICustomerSubscribedSkuCollection getSubscribedSkus()
     return:
@@ -698,6 +700,32 @@ items:
       type: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
       description: <p>The customer usage spending budget operations. </p>
   overridden: com.microsoft.store.partnercenter.customers.ICustomer.getUsers()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.patch(Customer)
+  id: patch(Customer)
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
+  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
+  langs:
+  - java
+  name: patch(Customer customer)
+  nameWithType: CustomerOperations.patch(Customer customer)
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.patch(Customer customer)
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.patch*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
+    startLine: 610
+  package: com.microsoft.store.partnercenter.customers
+  summary: "<p>Removes the relationship between the partner and customer when RelationshipToPartner == CustomerPartnerRelationship.NONE.</p>\r\n<p></p>"
+  syntax:
+    content: public Customer patch(Customer customer)
+    parameters:
+    - id: customer
+      type: com.microsoft.store.partnercenter.models.customers.Customer
+      description: <p>A customer with RelationshipToPartner == CustomerPartnerRelationship.NONE. </p>
+    return:
+      type: com.microsoft.store.partnercenter.models.customers.Customer
+      description: <p>The information for the modified customer. </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -838,6 +866,11 @@ references:
   nameWithType: CustomerOperations.get
   fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.get
   package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.patch*
+  name: patch
+  nameWithType: CustomerOperations.patch
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.patch
+  package: com.microsoft.store.partnercenter.customers
 - uid: com.microsoft.store.partnercenter.customers.CustomerOperations.delete*
   name: delete
   nameWithType: CustomerOperations.delete
@@ -943,6 +976,23 @@ references:
     return:
       type: com.microsoft.store.partnercenter.IPartner
       description: <p>A reference to the partner operations instance that generated this component. </p>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
+  href: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.yml
+  name: patch(T entity)
+  nameWithType: IEntityPatchOperations<T>.patch(T entity)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T extends ResourceBase>.patch(T entity)
+  type: Method
+  summary: "<p>Patches an entity.</p>\r\n<p></p>"
+  syntax:
+    content: public T patch(T entity)
+    parameters:
+    - id: entity
+      type: 8ce1ecb9
+      description: <p>The entity information. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>The updated entity. </p>
 - uid: com.microsoft.store.partnercenter.BasePartnerComponentString
   parent: com.microsoft.store.partnercenter
   href: com.microsoft.store.partnercenter.BasePartnerComponentString.yml

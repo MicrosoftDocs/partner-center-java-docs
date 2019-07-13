@@ -51,12 +51,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionResult.java
-    startLine: 63
+    startLine: 38
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the error encountered while attempting to perform the conversion, if applicable.</p>\r\n<p></p>"
   syntax:
     content: public ConversionError getError()
     return:
       type: com.microsoft.store.partnercenter.models.subscriptions.ConversionError
+      description: <p>The error encountered while attempting to perform the conversion, if applicable. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getOfferId()
   id: getOfferId()
   parent: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
@@ -71,12 +73,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionResult.java
-    startLine: 18
+    startLine: 58
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>The original offer identifier.</p>\r\n<p></p>"
   syntax:
     content: public String getOfferId()
     return:
       type: "26831127"
+      description: <p>The original offer identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getSubscriptionId()
   id: getSubscriptionId()
   parent: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
@@ -91,12 +95,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionResult.java
-    startLine: 48
+    startLine: 78
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the subscription identifier.</p>\r\n<p></p>"
   syntax:
     content: public String getSubscriptionId()
     return:
       type: "26831127"
+      description: <p>The subscription identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getTargetOfferId()
   id: getTargetOfferId()
   parent: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
@@ -111,12 +117,14 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionResult.java
-    startLine: 33
+    startLine: 98
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Gets the target offer identifier.</p>\r\n<p></p>"
   syntax:
     content: public String getTargetOfferId()
     return:
       type: "26831127"
+      description: <p>The target offer identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setError(ConversionError)
   id: setError(ConversionError)
   parent: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
@@ -131,13 +139,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionResult.java
-    startLine: 68
+    startLine: 48
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the error encountered while attempting to perform the conversion, if applicable.</p>\r\n<p></p>"
   syntax:
     content: public void setError(ConversionError value)
     parameters:
     - id: value
       type: com.microsoft.store.partnercenter.models.subscriptions.ConversionError
+      description: <p>The error encountered while attempting to perform the conversion, if applicable. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setOfferId(String)
   id: setOfferId(String)
   parent: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
@@ -152,13 +162,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionResult.java
-    startLine: 23
+    startLine: 68
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the original offer identifier.</p>\r\n<p></p>"
   syntax:
     content: public void setOfferId(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The original offer identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setSubscriptionId(String)
   id: setSubscriptionId(String)
   parent: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
@@ -173,13 +185,15 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionResult.java
-    startLine: 53
+    startLine: 88
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the subscription identifier.</p>\r\n<p></p>"
   syntax:
     content: public void setSubscriptionId(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The subscription identifier. </p>
 - uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setTargetOfferId(String)
   id: setTargetOfferId(String)
   parent: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
@@ -194,14 +208,26 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/subscriptions/ConversionResult.java
-    startLine: 38
+    startLine: 108
   package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: "<p>Sets the target offer identifier.</p>\r\n<p></p>"
   syntax:
     content: public void setTargetOfferId(String value)
     parameters:
     - id: value
       type: "26831127"
+      description: <p>The target offer identifier. </p>
 references:
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getError*
+  name: getError
+  nameWithType: ConversionResult.getError
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getError
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setError*
+  name: setError
+  nameWithType: ConversionResult.setError
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setError
+  package: com.microsoft.store.partnercenter.models.subscriptions
 - uid: "26831127"
   spec.java:
   - name: String
@@ -216,16 +242,6 @@ references:
   nameWithType: ConversionResult.setOfferId
   fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setOfferId
   package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getTargetOfferId*
-  name: getTargetOfferId
-  nameWithType: ConversionResult.getTargetOfferId
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getTargetOfferId
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setTargetOfferId*
-  name: setTargetOfferId
-  nameWithType: ConversionResult.setTargetOfferId
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setTargetOfferId
-  package: com.microsoft.store.partnercenter.models.subscriptions
 - uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getSubscriptionId*
   name: getSubscriptionId
   nameWithType: ConversionResult.getSubscriptionId
@@ -236,15 +252,15 @@ references:
   nameWithType: ConversionResult.setSubscriptionId
   fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setSubscriptionId
   package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getError*
-  name: getError
-  nameWithType: ConversionResult.getError
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getError
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getTargetOfferId*
+  name: getTargetOfferId
+  nameWithType: ConversionResult.getTargetOfferId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.getTargetOfferId
   package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setError*
-  name: setError
-  nameWithType: ConversionResult.setError
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setError
+- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setTargetOfferId*
+  name: setTargetOfferId
+  nameWithType: ConversionResult.setTargetOfferId
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult.setTargetOfferId
   package: com.microsoft.store.partnercenter.models.subscriptions
 - uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
   parent: com.microsoft.store.partnercenter.models.ResourceBase
