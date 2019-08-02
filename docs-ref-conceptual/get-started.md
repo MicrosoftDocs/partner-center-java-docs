@@ -1,7 +1,7 @@
 ---
 title:  Partner Center Java SDK | Microsoft Docs
 description: Getting started with the Partner Center Java SDK.
-ms.date: 03/27/2019
+ms.date: 08/01/2019
 ---
 
 # Get started with development using the Partner Center SDK
@@ -80,7 +80,7 @@ This creates a basic Maven project under the `testPartnerApp` folder. Add the fo
 <dependency>
     <groupId>com.microsoft.store</groupId>
     <artifactId>partnercenter</artifactId>
-    <version>1.12.0</version>
+    <version>1.13.6</version>
 </dependency>
 ```
 
