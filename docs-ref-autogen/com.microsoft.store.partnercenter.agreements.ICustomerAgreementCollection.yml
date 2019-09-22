@@ -4,6 +4,7 @@ items:
   id: "ICustomerAgreementCollection"
   parent: "com.microsoft.store.partnercenter.agreements"
   children:
+  - "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType(java.lang.String)"
   - "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create(com.microsoft.store.partnercenter.models.agreements.Agreement)"
   - "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()"
   langs:
@@ -19,6 +20,27 @@ items:
   implements:
   - "com.microsoft.store.partnercenter.IPartnerComponentString"
   - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.agreements.Agreement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>>"
+- uid: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType(java.lang.String)"
+  id: "byAgreementType(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
+  langs:
+  - "java"
+  name: "byAgreementType(String agreementType)"
+  nameWithType: "ICustomerAgreementCollection.byAgreementType(String agreementType)"
+  fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType(String agreementType)"
+  overload: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.agreements"
+  summary: "Retrieves the operations tied with a specified agreement type."
+  syntax:
+    content: "public abstract ICustomerAgreementCollection byAgreementType(String agreementType)"
+    parameters:
+    - id: "agreementType"
+      type: "java.lang.String"
+      description: "The agreement type used to filter."
+    return:
+      type: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
+      description: "The customer agreement collection operations customized for the given type."
 - uid: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create(com.microsoft.store.partnercenter.models.agreements.Agreement)"
   id: "create(com.microsoft.store.partnercenter.models.agreements.Agreement)"
   parent: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
@@ -30,16 +52,16 @@ items:
   overload: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.agreements"
-  summary: "Adds accepted agreement."
+  summary: "Creates an agreement between the partner and customer."
   syntax:
     content: "public abstract Agreement create(Agreement newEntity)"
     parameters:
     - id: "newEntity"
       type: "com.microsoft.store.partnercenter.models.agreements.Agreement"
-      description: "Agreement to add."
+      description: "The agreement to be created."
     return:
       type: "com.microsoft.store.partnercenter.models.agreements.Agreement"
-      description: "Agreement entity."
+      description: "The newly created agreement."
 - uid: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()"
   id: "get()"
   parent: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
@@ -51,12 +73,12 @@ items:
   overload: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.agreements"
-  summary: "Retrieves all agreements."
+  summary: "Gets the list of agreements between a partner and customer."
   syntax:
     content: "public abstract ResourceCollection<Agreement> get()"
     return:
       type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>"
-      description: "The agreements."
+      description: "The list of the customer's agreements."
 references:
 - uid: "com.microsoft.store.partnercenter.models.agreements.Agreement"
   name: "Agreement"
@@ -83,6 +105,16 @@ references:
   name: "get"
   nameWithType: "ICustomerAgreementCollection.get"
   fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get"
+  package: "com.microsoft.store.partnercenter.agreements"
+- uid: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType*"
+  name: "byAgreementType"
+  nameWithType: "ICustomerAgreementCollection.byAgreementType"
+  fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType"
   package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   name: "IPartnerComponentString"
