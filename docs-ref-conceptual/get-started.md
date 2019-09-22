@@ -1,7 +1,7 @@
 ---
 title:  Partner Center Java SDK | Microsoft Docs
 description: Getting started with the Partner Center Java SDK.
-ms.date: 08/01/2019
+ms.date: 09/22/2019
 ---
 
 # Get started with development using the Partner Center SDK
@@ -67,7 +67,7 @@ Replace the *ApplicationId* value with the information from the app management p
 
 Create a Maven project from the command line in a new directory on your system:
 
-```
+```bash
 mkdir java-partner-test
 cd java-partner-test
 mvn archetype:generate -DgroupId=com.contoso -DartifactId=PartnerApp  \
@@ -80,7 +80,7 @@ This creates a basic Maven project under the `testPartnerApp` folder. Add the fo
 <dependency>
     <groupId>com.microsoft.store</groupId>
     <artifactId>partnercenter</artifactId>
-    <version>1.13.6</version>
+    <version>1.14.0</version>
 </dependency>
 ```
 
@@ -143,7 +143,7 @@ public class PartnerApp
 
 Run the sample from the command line:
 
-```
+```bash
 mvn compile exec:java
 ```
 
@@ -178,7 +178,7 @@ public static void main(String[] args)
 
 Run the code as before using Maven:
 
-```
+```bash
 mvn clean compile exec:java
 ```
 

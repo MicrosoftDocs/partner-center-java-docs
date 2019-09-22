@@ -1,12 +1,12 @@
 ---
 title:  Partner Center Java SDK Overview | Microsoft Docs
 description: Overview of the Partner Center Java SDK.
-ms.date: 08/01/2019
+ms.date: 09/22/2019
 ---
 
 # Overview
 
-The Partner Center Java is a SDK that provides the ability to interact with Microsoft's Partner Center service. This enables partners to perform the Partner Center operations programmatically. This is the latest addition to existing portfolio of REST APIs and the .NET SDK.
+The Partner Center Java SDK provides an SDK to interact with Microsoft's Partner Center service. This enables the partners to perform the Partner Center operations programmatically. The Java SDK supports Java version 8 or later. It is an open source project maintained by the partner community. Since this module is maintained by the partner community, it is not officially supported by Microsoft. You can [get help from the community](https://stackoverflow.com/search?q=partner+center) or open an [issue](https://github.com/microsoft/partner-center-java/issues) on GitHub.
 
 ## Client library
 
@@ -18,7 +18,7 @@ Manage resources in Partner Center using the client library.
 <dependency>
     <groupId>com.microsoft.store</groupId>
     <artifactId>partnercenter</artifactId>
-    <version>1.13.6</version>
+    <version>1.14.0</version>
 </dependency>
 ```
 
