@@ -1,7 +1,7 @@
 ---
 title:  Partner Center Java SDK | Microsoft Docs
 description: Getting started with the Partner Center Java SDK.
-ms.date: 09/26/2019
+ms.date: 09/27/2019
 ---
 
 # Get started with development using the Partner Center SDK
@@ -198,7 +198,3 @@ mvn clean compile exec:java
 ```
 
 When the program finishes, you will be able to verify it created a new Azure subscription for the specified customer using the  [Partner Center Dashboard](https://partner.microsoft.com/pcv/dashboard/overview).
-
-## Next Steps
-
-Review [Partner Center Scenarios](https://docs.microsoft.com/partner-center/develop/scenarios) for more details regarding the supported operations for the Partner Center Java SDK. If you are looking for a complete sample application, then check out [Partner-Center-Java-Samples](https://github.com/Microsoft/Partner-Center-Java-Samples).

@@ -2,10 +2,18 @@
 title: Release notes for Partner Center Java SDK
 description: Discover what has changed with Partner Center Java SDK with each release.
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 09/27/2019
 ---
 
 # Release notes
+
+## 1.14.1 - September 2019
+
+* Dependency
+  * Updated the *com.fasterxml.jackson.core.jackson-annotations* dependency from version 2.9.9 to 2.9.10
+  * Updated the *com.fasterxml.jackson.core.jackson-core* dependency from version 2.9.9 to 2.9.10
+  * Updated the *com.fasterxml.jackson.core.jackson-databind* dependency from version 2.9.9 to 2.9.10
+  * Updated the *com.fasterxml.jackson.datatype.jackson-datatype-joda* dependency from version 2.9.9 to 2.9.10
 
 ## 1.14.0 - September 2019
 
