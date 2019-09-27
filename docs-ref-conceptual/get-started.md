@@ -1,6 +1,6 @@
 ---
-title:  Partner Center Java SDK | Microsoft Docs
-description: Getting started with the Partner Center Java SDK.
+title: Partner Center SDK for Java
+description: Getting started with the Partner Center SDK for Java.
 ms.date: 09/27/2019
 ---
 

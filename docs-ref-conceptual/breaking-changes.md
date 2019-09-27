@@ -1,6 +1,6 @@
 ---
-title: Breaking changes for the Partner Center Java SDK
-description: Learn about the breaking changes for the Partner Center Java SDK.
+title: Breaking changes for the Partner Center SDK for Java
+description: Learn about the breaking changes for the Partner Center SDK for Java.
 ms.topic: conceptual
 ms.date: 09/26/2019
 ---

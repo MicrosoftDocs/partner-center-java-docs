@@ -1,6 +1,6 @@
 ---
-title: Release notes for Partner Center Java SDK
-description: Discover what has changed with Partner Center Java SDK with each release.
+title: Release notes for the Partner Center SDK for Java
+description: Discover what has changed with the Partner Center SDK for Java with each release.
 ms.topic: conceptual
 ms.date: 09/27/2019
 ---
