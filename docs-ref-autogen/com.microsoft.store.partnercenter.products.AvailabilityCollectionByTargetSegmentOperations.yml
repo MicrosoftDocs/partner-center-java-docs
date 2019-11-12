@@ -5,6 +5,7 @@ items:
   parent: "com.microsoft.store.partnercenter.products"
   children:
   - "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.AvailabilityCollectionByTargetSegmentOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+  - "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.byReservationScope(java.lang.String)"
   - "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.get()"
   langs:
   - "java"
@@ -13,7 +14,7 @@ items:
   fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations"
   type: "Class"
   package: "com.microsoft.store.partnercenter.products"
-  summary: "Availabilities implementation class."
+  summary: "Implements the available availability operations."
   syntax:
     content: "public class AvailabilityCollectionByTargetSegmentOperations extends BasePartnerComponent<QuadrupleTuple<String,String,String,String>> implements IAvailabilityCollectionByTargetSegment"
   inheritance:
@@ -65,6 +66,27 @@ items:
     - id: "targetSegment"
       type: "java.lang.String"
       description: "The target segment used for filtering the availabilities."
+- uid: "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.byReservationScope(java.lang.String)"
+  id: "byReservationScope(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations"
+  langs:
+  - "java"
+  name: "byReservationScope(String reservationScope)"
+  nameWithType: "AvailabilityCollectionByTargetSegmentOperations.byReservationScope(String reservationScope)"
+  fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.byReservationScope(String reservationScope)"
+  overload: "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.byReservationScope*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Gets the operations that can be applied on products that belong to a given target segment, and reservation scope."
+  syntax:
+    content: "public IAvailabilityCollectionByTargetSegmentByReservationScopeOperations byReservationScope(String reservationScope)"
+    parameters:
+    - id: "reservationScope"
+      type: "java.lang.String"
+      description: "The reservation scope filter."
+    return:
+      type: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegmentByReservationScopeOperations"
+      description: "The availability collection operations by target segment by reservation scope."
 - uid: "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.get()"
   id: "get()"
   parent: "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations"
@@ -76,7 +98,7 @@ items:
   overload: "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.get*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.products"
-  summary: "Retrieves all the availabilities for the provided SKU on a specific target segment."
+  summary: "Get all the availabilities for the provided SKU on a specific target segment."
   syntax:
     content: "public ResourceCollection<Availability> get()"
     return:
@@ -96,6 +118,15 @@ references:
   name: "AvailabilityCollectionByTargetSegmentOperations"
   nameWithType: "AvailabilityCollectionByTargetSegmentOperations.AvailabilityCollectionByTargetSegmentOperations"
   fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.AvailabilityCollectionByTargetSegmentOperations"
+  package: "com.microsoft.store.partnercenter.products"
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegmentByReservationScopeOperations"
+  name: "IAvailabilityCollectionByTargetSegmentByReservationScopeOperations"
+  nameWithType: "IAvailabilityCollectionByTargetSegmentByReservationScopeOperations"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegmentByReservationScopeOperations"
+- uid: "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.byReservationScope*"
+  name: "byReservationScope"
+  nameWithType: "AvailabilityCollectionByTargetSegmentOperations.byReservationScope"
+  fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.byReservationScope"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
   spec.java:

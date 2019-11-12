@@ -3,6 +3,7 @@ items:
 - uid: "com.microsoft.store.partnercenter.models.subscriptions"
   id: "subscriptions"
   children:
+  - "com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement"
   - "com.microsoft.store.partnercenter.models.subscriptions.Conversion"
   - "com.microsoft.store.partnercenter.models.subscriptions.ConversionError"
   - "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode"
@@ -31,6 +32,10 @@ items:
   syntax:
     content: "package com.microsoft.store.partnercenter.models.subscriptions"
 references:
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement"
+  name: "AzureEntitlement"
+  nameWithType: "AzureEntitlement"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Conversion"
   name: "Conversion"
   nameWithType: "Conversion"
