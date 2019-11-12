@@ -5,6 +5,7 @@ items:
   parent: "com.microsoft.store.partnercenter.customers.products"
   children:
   - "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.CustomerProductCollectionByTargetViewOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+  - "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byReservationScope(java.lang.String)"
   - "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byTargetSegment(java.lang.String)"
   - "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.get()"
   langs:
@@ -14,7 +15,7 @@ items:
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations"
   type: "Class"
   package: "com.microsoft.store.partnercenter.customers.products"
-  summary: "Product operations by customer id and by target view implementation class."
+  summary: "Implements the product operations by customer identifier and target view."
   syntax:
     content: "public class CustomerProductCollectionByTargetViewOperations extends BasePartnerComponent<Tuple<String,String>> implements ICustomerProductCollectionByTargetView"
   inheritance:
@@ -60,6 +61,27 @@ items:
     - id: "targetView"
       type: "java.lang.String"
       description: "The target view which contains the products."
+- uid: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byReservationScope(java.lang.String)"
+  id: "byReservationScope(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations"
+  langs:
+  - "java"
+  name: "byReservationScope(String reservationScope)"
+  nameWithType: "CustomerProductCollectionByTargetViewOperations.byReservationScope(String reservationScope)"
+  fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byReservationScope(String reservationScope)"
+  overload: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byReservationScope*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.customers.products"
+  summary: "Gets the operations that can be applied on products in a given catalog view and that apply to a given customer, filtered by reservation scope."
+  syntax:
+    content: "public ICustomerProductCollectionByTargetViewByReservationScope byReservationScope(String reservationScope)"
+    parameters:
+    - id: "reservationScope"
+      type: "java.lang.String"
+      description: "The reservation scope filter."
+    return:
+      type: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByReservationScope"
+      description: "The product collection operations by customer, by target view and by reservation scope."
 - uid: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byTargetSegment(java.lang.String)"
   id: "byTargetSegment(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations"
@@ -71,7 +93,7 @@ items:
   overload: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byTargetSegment*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.customers.products"
-  summary: "Retrieves the operations that can be applied on products in a given catalog view and that apply to a given customer, filtered by target segment."
+  summary: "Gets the operations that can be applied on products in a given catalog view and that apply to a given customer, filtered by target segment."
   syntax:
     content: "public ICustomerProductCollectionByTargetViewByTargetSegment byTargetSegment(String targetSegment)"
     parameters:
@@ -92,7 +114,7 @@ items:
   overload: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.get*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.customers.products"
-  summary: "Retrieves all the products in a given catalog view that apply to a given customer."
+  summary: "Gets all the products in a given catalog view that apply to a given customer."
   syntax:
     content: "public ResourceCollection<Product> get()"
     return:
@@ -113,6 +135,24 @@ references:
   nameWithType: "CustomerProductCollectionByTargetViewOperations.CustomerProductCollectionByTargetViewOperations"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.CustomerProductCollectionByTargetViewOperations"
   package: "com.microsoft.store.partnercenter.customers.products"
+- uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByReservationScope"
+  name: "ICustomerProductCollectionByTargetViewByReservationScope"
+  nameWithType: "ICustomerProductCollectionByTargetViewByReservationScope"
+  fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByReservationScope"
+- uid: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byReservationScope*"
+  name: "byReservationScope"
+  nameWithType: "CustomerProductCollectionByTargetViewOperations.byReservationScope"
+  fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byReservationScope"
+  package: "com.microsoft.store.partnercenter.customers.products"
+- uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment"
+  name: "ICustomerProductCollectionByTargetViewByTargetSegment"
+  nameWithType: "ICustomerProductCollectionByTargetViewByTargetSegment"
+  fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment"
+- uid: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byTargetSegment*"
+  name: "byTargetSegment"
+  nameWithType: "CustomerProductCollectionByTargetViewOperations.byTargetSegment"
+  fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byTargetSegment"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>"
   spec.java:
   - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
@@ -129,15 +169,6 @@ references:
   name: "get"
   nameWithType: "CustomerProductCollectionByTargetViewOperations.get"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.get"
-  package: "com.microsoft.store.partnercenter.customers.products"
-- uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment"
-  name: "ICustomerProductCollectionByTargetViewByTargetSegment"
-  nameWithType: "ICustomerProductCollectionByTargetViewByTargetSegment"
-  fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment"
-- uid: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byTargetSegment*"
-  name: "byTargetSegment"
-  nameWithType: "CustomerProductCollectionByTargetViewOperations.byTargetSegment"
-  fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byTargetSegment"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   name: "BasePartnerComponent<Tuple<String,String>>"
