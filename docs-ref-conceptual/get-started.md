@@ -1,7 +1,6 @@
 ---
 title: Partner Center SDK for Java
 description: Getting started with the Partner Center SDK for Java.
-ms.date: 09/27/2019
 ---
 
 # Get started with development using the Partner Center SDK
