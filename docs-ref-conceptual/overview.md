@@ -20,7 +20,7 @@ The Partner Center SDK for Java is available through Maven [here](https://maven.
 <dependency>
     <groupId>com.microsoft.store</groupId>
     <artifactId>partnercenter</artifactId>
-    <version>1.15.2</version>
+    <version>1.15.3</version>
 </dependency>
 ```
 

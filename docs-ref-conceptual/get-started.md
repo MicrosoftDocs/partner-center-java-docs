@@ -52,7 +52,7 @@ AadLoginHandler loginHandler = new AadUserLoginHandler();
 
 IPartnerCredentials userCredentials = PartnerCredentials.getInstance().generateByUserCredentials(
     "ApplicationId",
-    loginHandler.authenticate(), loginHandler );
+    loginHandler.authenticate(), loginHandler);
 ```
 
 Replace the *ApplicationId* value with the information from the app management page.
@@ -109,33 +109,33 @@ public class PartnerApp
 
         Address address = new Address();
 
-        address.setFirstName( "Gena" );
-        address.setLastName( "Soto" );
-        address.setAddressLine1( "One Microsoft Way" );
-        address.setCity( "Redmond" );
-        address.setState( "WA" );
-        address.setCountry( "US" );
-        address.setPostalCode( "98052" );
-        address.setPhoneNumber( "4255550101" );
+        address.setFirstName("Gena");
+        address.setLastName("Soto");
+        address.setAddressLine1("One Microsoft Way");
+        address.setCity("Redmond");
+        address.setState("WA");
+        address.setCountry("US");
+        address.setPostalCode("98052");
+        address.setPhoneNumber("4255550101");
 
         CustomerBillingProfile billingProfile = new CustomerBillingProfile();
 
-        billingProfile.setCulture( "en-US" );
-        billingProfile.setEmail( "gena@wingtiptoys.com" );
-        billingProfile.setLanguage( "en" );
-        billingProfile.setCompanyName( "Wingtip Toys" + new Random().nextInt() );
-        billingProfile.setDefaultAddress( address );
+        billingProfile.setCulture("en-US");
+        billingProfile.setEmail("gena@wingtiptoys.com");
+        billingProfile.setLanguage("en");
+        billingProfile.setCompanyName("Wingtip Toys" + new Random().nextInt());
+        billingProfile.setDefaultAddress(address);
 
         CustomerCompanyProfile companyProfile = new CustomerCompanyProfile();
 
-        companyProfile.setDomain( "WingtipToys" + Math.abs( new Random().nextInt() ) + ".onmicrosoft.com" );
+        companyProfile.setDomain("WingtipToys" + Math.abs(new Random().nextInt()) + ".onmicrosoft.com");
 
         Customer customerToCreate = new Customer();
 
-        customerToCreate.setBillingProfile( billingProfile );
-        customerToCreate.setCompanyProfile( companyProfile );
+        customerToCreate.setBillingProfile(billingProfile);
+        customerToCreate.setCompanyProfile(companyProfile);
 
-        Customer newCustomer = partnerOperations.getCustomers().create( customerToCreate );
+        Customer newCustomer = partnerOperations.getCustomers().create(customerToCreate);
     }
 }
 ```
@@ -160,18 +160,18 @@ public static void main(String[] args)
     String offerId =  "MS-AZR-0145P"; // If you are using the integration sandbox this offer should be MS-AZR-0146P.
 
     OrderLineItem lineItem = new OrderLineItem();
-    lineItem.setOfferId( offerId );
-    lineItem.setFriendlyName( "Microsoft Azure" );
-    lineItem.setQuantity( 1 );
+    lineItem.setOfferId(offerId);
+    lineItem.setFriendlyName("Microsoft Azure");
+    lineItem.setQuantity(1);
 
     List<OrderLineItem> lineItemList = new ArrayList<OrderLineItem>();
-    lineItemList.add( lineItem );
+    lineItemList.add(lineItem);
 
     Order order = new Order();
-    order.setLineItems( lineItemList );
-    order.setReferenceCustomerId( customerId );
+    order.setLineItems(lineItemList);
+    order.setReferenceCustomerId(customerId);
 
-    Order createdOrder = partnerOperations.getCustomers().byId( customerId ).getOrders().create( order );
+    Order createdOrder = partnerOperations.getCustomers().byId(customerId).getOrders().create(order);
 }
 
 private static IAggregatePartner getUserPartnerOperations()
@@ -181,7 +181,7 @@ private static IAggregatePartner getUserPartnerOperations()
     IPartnerCredentials userCredentials = PartnerCredentials.getInstance().generateByUserCredentials(
             "SPECIFY-YOUR-APPLICATION-ID-HERE",
             loginHandler.authenticate(),
-            loginHandler );
+            loginHandler);
 
     return PartnerService.getInstance().createPartnerOperations(userCredentials);
 }
