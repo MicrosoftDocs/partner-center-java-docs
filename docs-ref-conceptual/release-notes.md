@@ -2,10 +2,35 @@
 title: Release notes for the Partner Center SDK for Java
 description: Discover what has changed with the Partner Center SDK for Java with each release.
 ms.topic: conceptual
-ms.date: 09/27/2019
 ---
 
-# Release notes
+# Release
+
+## 1.15.2 - December 2019
+
+* Compliance
+  * Adding the ability to verify that a partner has accepted the Microsoft Partner Agreement
+* Invoice
+  * Addressed issue [#97](https://github.com/microsoft/Partner-Center-Java/issues/97) were the incorrect billing provider was being used to request line items
+  * Addressed issue [#98](https://github.com/microsoft/Partner-Center-Java/issues/98) that was preventing the *AdditionalInfo* and *Tags* properties from deserializing as excepted
+* Network
+  * Added a handler for SocketTimeoutException (Thanks [@msize](https://github.com/msize))
+
+## 1.15.1 - November 2019
+
+* Invoicing
+  * [Daily Rated Usage Line Item](https://github.com/microsoft/Partner-Center-Java/blob/master/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyRatedUsageLineItem.java)
+    * Added the *EntitlementId*, *EntitlementDescription*, *PCToBCExchangeRate*, *PCToBCExchangeRateDate*, *EffectiveUnitPrice*, and *RateOfPartnerEarnedCredit* properties
+    * Modified the type for the *AdditionalInfo* and *Tags* properties from string to *Dictionary<String, String>*
+  * [One Time Invoice Line Item](https://github.com/microsoft/Partner-Center-Java/blob/master/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java)
+    * Added the *BillableQuantity*, *MeterDescription*, *PCToBCExchangeRateDate*, *PCToBCExchangeRate*, *PriceAdjustmentDescription*, and *PricingCurrency* properties
+* Products
+  * Added the reservation scope operations
+* Product upgrades
+  * Added the ability to create a new product upgrade and get the status for active upgrades
+* Usage
+  * Added the ability to get meter and resource usage records
+  * Removed the `SubscriptionDailyUsageRecordCollectionOperations` class due to changes with how utilization records should be obtained
 
 ## 1.14.1 - September 2019
 

@@ -1,7 +1,6 @@
 ---
 title: Partner Center SDK for Java
 description: Getting started with the Partner Center SDK for Java.
-ms.date: 09/27/2019
 ---
 
 # Get started with development using the Partner Center SDK
@@ -12,7 +11,7 @@ This guide walks you through setting up a development environment. You will then
 
 - A direct, or indirect provider, enrollment into the Cloud Solution Provider program. If you do not have an active enrollment, [join the Cloud Solution Provider program](https://partner.microsoft.com/cloud-solution-provider/csp-enrollment).
 - [Java 8](https://developers.redhat.com/products/openjdk/download/)
-- [Maven 3](http://maven.apache.org/download.cgi)
+- [Maven 3](https://maven.apache.org/download.cgi)
 
 > [!NOTE]  
 > If you are Control Panel Vendor (CPV) please work with your Partner Development Manager (PDM) to learn more about your options for getting access to the Partner Center API.

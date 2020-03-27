@@ -1,7 +1,6 @@
 ---
 title:  Partner Center SDK for Java Overview
 description: Overview of the Partner Center SDK for Java.
-ms.date: 09/27/2019
 ---
 
 # Partner Center SDK for Java
@@ -21,7 +20,7 @@ The Partner Center SDK for Java is available through Maven [here](https://maven.
 <dependency>
     <groupId>com.microsoft.store</groupId>
     <artifactId>partnercenter</artifactId>
-    <version>1.14.1</version>
+    <version>1.15.2</version>
 </dependency>
 ```
 
