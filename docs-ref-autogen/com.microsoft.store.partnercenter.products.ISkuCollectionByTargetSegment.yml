@@ -1,91 +1,93 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment"
-  id: "ISkuCollectionByTargetSegment"
-  parent: "com.microsoft.store.partnercenter.products"
+- uid: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment
+  id: ISkuCollectionByTargetSegment
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.products
   children:
-  - "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get()"
+  - com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get()
   langs:
-  - "java"
-  name: "ISkuCollectionByTargetSegment"
-  nameWithType: "ISkuCollectionByTargetSegment"
-  fullName: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.products"
-  summary: "Holds operations that can be performed on skus from a specific target segment."
+  - java
+  name: ISkuCollectionByTargetSegment
+  nameWithType: ISkuCollectionByTargetSegment
+  fullName: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment
+  type: Interface
+  package: com.microsoft.store.partnercenter.products
+  summary: Holds operations that can be performed on skus from a specific target segment.
   syntax:
-    content: "public interface ISkuCollectionByTargetSegment extends IPartnerComponent<TripletTuple<String,String,String>>, IEntireEntityCollectionRetrievalOperations<Sku,ResourceCollection<Sku>>"
+    content: public interface ISkuCollectionByTargetSegment extends IPartnerComponent<TripletTuple<String,String,String>>, IEntireEntityCollectionRetrievalOperations<Sku,ResourceCollection<Sku>>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>>"
-- uid: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment"
+  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
+  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>>
+- uid: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "ISkuCollectionByTargetSegment.get()"
-  fullName: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get()"
-  overload: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.products"
-  summary: "Retrieves all the skus for the provided product and target segment."
+  - java
+  name: get()
+  nameWithType: ISkuCollectionByTargetSegment.get()
+  fullName: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get()
+  overload: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.products
+  summary: Retrieves all the skus for the provided product and target segment.
   syntax:
-    content: "public abstract ResourceCollection<Sku> get()"
+    content: public abstract ResourceCollection<Sku> get()
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>"
-      description: "The SKUs for the provided product and target segment."
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>
+      description: The SKUs for the provided product and target segment.
 references:
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>"
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.products.Sku"
-    name: "Sku"
-    fullName: "com.microsoft.store.partnercenter.models.products.Sku"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get*"
-  name: "get"
-  nameWithType: "ISkuCollectionByTargetSegment.get"
-  fullName: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get"
-  package: "com.microsoft.store.partnercenter.products"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
-  name: "IPartnerComponent<TripletTuple<String,String,String>>"
-  nameWithType: "IPartnerComponent<TripletTuple<String,String,String>>"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>>"
-  name: "IEntireEntityCollectionRetrievalOperations<Sku,ResourceCollection<Sku>>"
-  nameWithType: "IEntireEntityCollectionRetrievalOperations<Sku,ResourceCollection<Sku>>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>>"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "ResourceCollection"
-  nameWithType: "ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.models.products.Sku"
-  name: "Sku"
-  nameWithType: "Sku"
-  fullName: "com.microsoft.store.partnercenter.models.products.Sku"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  name: "IPartnerComponent"
-  nameWithType: "IPartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
-- uid: "java.lang.String,java.lang.String,java.lang.String"
-  name: "String,String,String"
-  nameWithType: "String,String,String"
-  fullName: "java.lang.String,java.lang.String,java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-  name: "TripletTuple"
-  nameWithType: "TripletTuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  name: "IEntireEntityCollectionRetrievalOperations"
-  nameWithType: "IEntireEntityCollectionRetrievalOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-- uid: "com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "Sku,ResourceCollection"
-  nameWithType: "Sku,ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection"
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.products.Sku
+    name: Sku
+    fullName: com.microsoft.store.partnercenter.models.products.Sku
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get*
+  name: get
+  nameWithType: ISkuCollectionByTargetSegment.get
+  fullName: com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get
+  package: com.microsoft.store.partnercenter.products
+- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
+  name: IPartnerComponent<TripletTuple<String,String,String>>
+  nameWithType: IPartnerComponent<TripletTuple<String,String,String>>
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>>
+  name: IEntireEntityCollectionRetrievalOperations<Sku,ResourceCollection<Sku>>
+  nameWithType: IEntireEntityCollectionRetrievalOperations<Sku,ResourceCollection<Sku>>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>>
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  name: ResourceCollection
+  nameWithType: ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.models.products.Sku
+  name: Sku
+  nameWithType: Sku
+  fullName: com.microsoft.store.partnercenter.models.products.Sku
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
+  name: IPartnerComponent
+  nameWithType: IPartnerComponent
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent
+- uid: java.lang.String,java.lang.String,java.lang.String
+  name: String,String,String
+  nameWithType: String,String,String
+  fullName: java.lang.String,java.lang.String,java.lang.String
+- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
+  name: TripletTuple
+  nameWithType: TripletTuple
+  fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  name: IEntireEntityCollectionRetrievalOperations
+  nameWithType: IEntireEntityCollectionRetrievalOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+- uid: com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection
+  name: Sku,ResourceCollection
+  nameWithType: Sku,ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection

@@ -1,50 +1,52 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection"
-  id: "IRateCardCollection"
-  parent: "com.microsoft.store.partnercenter.ratecards"
+- uid: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
+  id: IRateCardCollection
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.ratecards
   children:
-  - "com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure()"
+  - com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure()
   langs:
-  - "java"
-  name: "IRateCardCollection"
-  nameWithType: "IRateCardCollection"
-  fullName: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.ratecards"
-  summary: "Holds operations that apply to rate cards."
+  - java
+  name: IRateCardCollection
+  nameWithType: IRateCardCollection
+  fullName: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
+  type: Interface
+  package: com.microsoft.store.partnercenter.ratecards
+  summary: Holds operations that apply to rate cards.
   syntax:
-    content: "public interface IRateCardCollection extends IPartnerComponentString"
+    content: public interface IRateCardCollection extends IPartnerComponentString
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure()"
-  id: "getAzure()"
-  parent: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection"
+  - com.microsoft.store.partnercenter.IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure()
+  id: getAzure()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
   langs:
-  - "java"
-  name: "getAzure()"
-  nameWithType: "IRateCardCollection.getAzure()"
-  fullName: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure()"
-  overload: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.ratecards"
-  summary: "Gets the Azure rate card operations."
+  - java
+  name: getAzure()
+  nameWithType: IRateCardCollection.getAzure()
+  fullName: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure()
+  overload: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure*
+  type: Method
+  package: com.microsoft.store.partnercenter.ratecards
+  summary: Gets the Azure rate card operations.
   syntax:
-    content: "public abstract IAzureRateCard getAzure()"
+    content: public abstract IAzureRateCard getAzure()
     return:
-      type: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
-      description: "The Azure rate card operations."
+      type: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+      description: The Azure rate card operations.
 references:
-- uid: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
-  name: "IAzureRateCard"
-  nameWithType: "IAzureRateCard"
-  fullName: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
-- uid: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure*"
-  name: "getAzure"
-  nameWithType: "IRateCardCollection.getAzure"
-  fullName: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure"
-  package: "com.microsoft.store.partnercenter.ratecards"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  name: "IPartnerComponentString"
-  nameWithType: "IPartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+  name: IAzureRateCard
+  nameWithType: IAzureRateCard
+  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+- uid: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure*
+  name: getAzure
+  nameWithType: IRateCardCollection.getAzure
+  fullName: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure
+  package: com.microsoft.store.partnercenter.ratecards
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString

@@ -1,79 +1,81 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection"
-  id: "ICustomerUsageRecordCollection"
-  parent: "com.microsoft.store.partnercenter.usage"
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+  id: ICustomerUsageRecordCollection
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.usage
   children:
-  - "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get()"
+  - com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get()
   langs:
-  - "java"
-  name: "ICustomerUsageRecordCollection"
-  nameWithType: "ICustomerUsageRecordCollection"
-  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.usage"
-  summary: "Defines the behavior of a customer usage record collection operations."
+  - java
+  name: ICustomerUsageRecordCollection
+  nameWithType: ICustomerUsageRecordCollection
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
+  type: Interface
+  package: com.microsoft.store.partnercenter.usage
+  summary: Defines the behavior of a customer usage record collection operations.
   syntax:
-    content: "public interface ICustomerUsageRecordCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<CustomerMonthlyUsageRecord,ResourceCollection<CustomerMonthlyUsageRecord>>"
+    content: public interface ICustomerUsageRecordCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<CustomerMonthlyUsageRecord,ResourceCollection<CustomerMonthlyUsageRecord>>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponentString"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>>"
-- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection"
+  - com.microsoft.store.partnercenter.IPartnerComponentString
+  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>>
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "ICustomerUsageRecordCollection.get()"
-  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get()"
-  overload: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.usage"
-  summary: "Retrieves all customer usage records."
+  - java
+  name: get()
+  nameWithType: ICustomerUsageRecordCollection.get()
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get()
+  overload: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.usage
+  summary: Retrieves all customer usage records.
   syntax:
-    content: "public abstract ResourceCollection<CustomerMonthlyUsageRecord> get()"
+    content: public abstract ResourceCollection<CustomerMonthlyUsageRecord> get()
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>"
-      description: "The customer usage records."
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>
+      description: The customer usage records.
 references:
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>"
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"
-    name: "CustomerMonthlyUsageRecord"
-    fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get*"
-  name: "get"
-  nameWithType: "ICustomerUsageRecordCollection.get"
-  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get"
-  package: "com.microsoft.store.partnercenter.usage"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  name: "IPartnerComponentString"
-  nameWithType: "IPartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>>"
-  name: "IEntireEntityCollectionRetrievalOperations<CustomerMonthlyUsageRecord,ResourceCollection<CustomerMonthlyUsageRecord>>"
-  nameWithType: "IEntireEntityCollectionRetrievalOperations<CustomerMonthlyUsageRecord,ResourceCollection<CustomerMonthlyUsageRecord>>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>>"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "ResourceCollection"
-  nameWithType: "ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"
-  name: "CustomerMonthlyUsageRecord"
-  nameWithType: "CustomerMonthlyUsageRecord"
-  fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"
-- uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "CustomerMonthlyUsageRecord,ResourceCollection"
-  nameWithType: "CustomerMonthlyUsageRecord,ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  name: "IEntireEntityCollectionRetrievalOperations"
-  nameWithType: "IEntireEntityCollectionRetrievalOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord
+    name: CustomerMonthlyUsageRecord
+    fullName: com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get*
+  name: get
+  nameWithType: ICustomerUsageRecordCollection.get
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection.get
+  package: com.microsoft.store.partnercenter.usage
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>>
+  name: IEntireEntityCollectionRetrievalOperations<CustomerMonthlyUsageRecord,ResourceCollection<CustomerMonthlyUsageRecord>>
+  nameWithType: IEntireEntityCollectionRetrievalOperations<CustomerMonthlyUsageRecord,ResourceCollection<CustomerMonthlyUsageRecord>>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>>
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  name: ResourceCollection
+  nameWithType: ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord
+  name: CustomerMonthlyUsageRecord
+  nameWithType: CustomerMonthlyUsageRecord
+  fullName: com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord
+- uid: com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection
+  name: CustomerMonthlyUsageRecord,ResourceCollection
+  nameWithType: CustomerMonthlyUsageRecord,ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  name: IEntireEntityCollectionRetrievalOperations
+  nameWithType: IEntireEntityCollectionRetrievalOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations

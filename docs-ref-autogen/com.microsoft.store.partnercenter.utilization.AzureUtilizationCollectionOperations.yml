@@ -1,258 +1,266 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations"
-  id: "AzureUtilizationCollectionOperations"
-  parent: "com.microsoft.store.partnercenter.utilization"
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations
+  id: AzureUtilizationCollectionOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.utilization
   children:
-  - "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
-  - "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)"
-  - "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)"
+  - com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+  - com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)
+  - com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)
   langs:
-  - "java"
-  name: "AzureUtilizationCollectionOperations"
-  nameWithType: "AzureUtilizationCollectionOperations"
-  fullName: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.utilization"
+  - java
+  name: AzureUtilizationCollectionOperations
+  nameWithType: AzureUtilizationCollectionOperations
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.utilization
   syntax:
-    content: "public class AzureUtilizationCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IAzureUtilizationCollection"
+    content: public class AzureUtilizationCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IAzureUtilizationCollection
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
   implements:
-  - "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
+  - com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
-  id: "AzureUtilizationCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+  id: AzureUtilizationCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations
   langs:
-  - "java"
-  name: "AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
-  nameWithType: "AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
-  fullName: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
-  overload: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.utilization"
-  summary: "Initializes a new instance of the AzureUtilizationCollectionOperations class."
+  - java
+  name: AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  nameWithType: AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  overload: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.utilization
+  summary: Initializes a new instance of the AzureUtilizationCollectionOperations class.
   syntax:
-    content: "public AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
+    content: public AzureUtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-    - id: "customerId"
-      type: "java.lang.String"
-      description: "The customer identifier."
-    - id: "subscriptionId"
-      type: "java.lang.String"
-      description: "The subscription identifier."
-- uid: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)"
-  id: "query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)"
-  parent: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+    - id: customerId
+      type: java.lang.String
+      description: The customer identifier.
+    - id: subscriptionId
+      type: java.lang.String
+      description: The subscription identifier.
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)
+  id: query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations
   langs:
-  - "java"
-  name: "query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)"
-  nameWithType: "AzureUtilizationCollectionOperations.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)"
-  fullName: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)"
-  overload: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.utilization"
-  summary: "Retrieves utilization records for the Azure subscription."
+  - java
+  name: query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+  nameWithType: AzureUtilizationCollectionOperations.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+  overload: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query*
+  type: Method
+  package: com.microsoft.store.partnercenter.utilization
+  summary: Retrieves utilization records for the Azure subscription.
   syntax:
-    content: "public ResourceCollection<AzureUtilizationRecord> query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)"
+    content: public ResourceCollection<AzureUtilizationRecord> query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
     parameters:
-    - id: "startTime"
-      type: "org.joda.time.DateTime"
-      description: "The starting time of when the utilization was metered in the billing system."
-    - id: "endTime"
-      type: "org.joda.time.DateTime"
-      description: "The ending time of when the utilization was metered in the billing system."
-    - id: "granularity"
-      type: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
-      description: "The resource usage time granularity. Can either be daily or hourly. Default is daily."
-    - id: "showDetails"
-      type: "boolean"
-      description: "If set to true, the utilization records will be split by the resource instance levels. If set to false, the utilization records\n\t\t\t\t\t\t   will be aggregated on the resource level. Default is true."
-    - id: "size"
-      type: "int"
-      description: "An optional maximum number of records to return. The returned resource collection will specify a next link in case there\n\t\t\t\t\twere more utilization records available."
+    - id: startTime
+      type: org.joda.time.DateTime
+      description: The starting time of when the utilization was metered in the billing system.
+    - id: endTime
+      type: org.joda.time.DateTime
+      description: The ending time of when the utilization was metered in the billing system.
+    - id: granularity
+      type: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+      description: The resource usage time granularity. Can either be daily or hourly. Default is daily.
+    - id: showDetails
+      type: boolean
+      description: >-
+        If set to true, the utilization records will be split by the resource instance levels. If set to false, the utilization records
+        						   will be aggregated on the resource level. Default is true.
+    - id: size
+      type: int
+      description: >-
+        An optional maximum number of records to return. The returned resource collection will specify a next link in case there
+        					were more utilization records available.
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>"
-      description: "The Azure resource utilization for the subscription."
-- uid: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)"
-  id: "seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)"
-  parent: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations"
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>
+      description: The Azure resource utilization for the subscription.
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)
+  id: seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations
   langs:
-  - "java"
-  name: "seek(String continuationToken, SeekOperation seekOperation)"
-  nameWithType: "AzureUtilizationCollectionOperations.seek(String continuationToken, SeekOperation seekOperation)"
-  fullName: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek(String continuationToken, SeekOperation seekOperation)"
-  overload: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.utilization"
-  summary: "Seeks pages of utilization for resources that belong to an Azure subscription owned by a customer of the partner."
+  - java
+  name: seek(String continuationToken, SeekOperation seekOperation)
+  nameWithType: AzureUtilizationCollectionOperations.seek(String continuationToken, SeekOperation seekOperation)
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek(String continuationToken, SeekOperation seekOperation)
+  overload: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek*
+  type: Method
+  package: com.microsoft.store.partnercenter.utilization
+  summary: Seeks pages of utilization for resources that belong to an Azure subscription owned by a customer of the partner.
   syntax:
-    content: "public ResourceCollection<AzureUtilizationRecord> seek(String continuationToken, SeekOperation seekOperation)"
+    content: public ResourceCollection<AzureUtilizationRecord> seek(String continuationToken, SeekOperation seekOperation)
     parameters:
-    - id: "continuationToken"
-      type: "java.lang.String"
-      description: "The continuation token from the previous results."
-    - id: "seekOperation"
-      type: "com.microsoft.store.partnercenter.models.query.SeekOperation"
-      description: "The seek operation to perform. Next is only supported."
+    - id: continuationToken
+      type: java.lang.String
+      description: The continuation token from the previous results.
+    - id: seekOperation
+      type: com.microsoft.store.partnercenter.models.query.SeekOperation
+      description: The seek operation to perform. Next is only supported.
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>"
-      description: "The next page of utilization records."
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>
+      description: The next page of utilization records.
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations*"
-  name: "AzureUtilizationCollectionOperations"
-  nameWithType: "AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations"
-  fullName: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations"
-  package: "com.microsoft.store.partnercenter.utilization"
-- uid: "org.joda.time.DateTime"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations*
+  name: AzureUtilizationCollectionOperations
+  nameWithType: AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations
+  package: com.microsoft.store.partnercenter.utilization
+- uid: org.joda.time.DateTime
   spec.java:
-  - uid: "org.joda.time.DateTime"
-    name: "DateTime"
-    fullName: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
-  name: "AzureUtilizationGranularity"
-  nameWithType: "AzureUtilizationGranularity"
-  fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
-- uid: "boolean"
+  - uid: org.joda.time.DateTime
+    name: DateTime
+    fullName: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+  name: AzureUtilizationGranularity
+  nameWithType: AzureUtilizationGranularity
+  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
+- uid: boolean
   spec.java:
-  - uid: "boolean"
-    name: "boolean"
-    fullName: "boolean"
-- uid: "int"
+  - uid: boolean
+    name: boolean
+    fullName: boolean
+- uid: int
   spec.java:
-  - uid: "int"
-    name: "int"
-    fullName: "int"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>"
+  - uid: int
+    name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"
-    name: "AzureUtilizationRecord"
-    fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query*"
-  name: "query"
-  nameWithType: "AzureUtilizationCollectionOperations.query"
-  fullName: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query"
-  package: "com.microsoft.store.partnercenter.utilization"
-- uid: "com.microsoft.store.partnercenter.models.query.SeekOperation"
-  name: "SeekOperation"
-  nameWithType: "SeekOperation"
-  fullName: "com.microsoft.store.partnercenter.models.query.SeekOperation"
-- uid: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek*"
-  name: "seek"
-  nameWithType: "AzureUtilizationCollectionOperations.seek"
-  fullName: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek"
-  package: "com.microsoft.store.partnercenter.utilization"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  name: "BasePartnerComponent<Tuple<String,String>>"
-  nameWithType: "BasePartnerComponent<Tuple<String,String>>"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
-  name: "IAzureUtilizationCollection"
-  nameWithType: "IAzureUtilizationCollection"
-  fullName: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "ResourceCollection"
-  nameWithType: "ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"
-  name: "AzureUtilizationRecord"
-  nameWithType: "AzureUtilizationRecord"
-  fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"
-- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  name: "Tuple"
-  nameWithType: "Tuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  name: "BasePartnerComponent"
-  nameWithType: "BasePartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
-- uid: "java.lang.String,java.lang.String"
-  name: "String,String"
-  nameWithType: "String,String"
-  fullName: "java.lang.String,java.lang.String"
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
+    name: AzureUtilizationRecord
+    fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query*
+  name: query
+  nameWithType: AzureUtilizationCollectionOperations.query
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query
+  package: com.microsoft.store.partnercenter.utilization
+- uid: com.microsoft.store.partnercenter.models.query.SeekOperation
+  name: SeekOperation
+  nameWithType: SeekOperation
+  fullName: com.microsoft.store.partnercenter.models.query.SeekOperation
+- uid: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek*
+  name: seek
+  nameWithType: AzureUtilizationCollectionOperations.seek
+  fullName: com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek
+  package: com.microsoft.store.partnercenter.utilization
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+  name: BasePartnerComponent<Tuple<String,String>>
+  nameWithType: BasePartnerComponent<Tuple<String,String>>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
+  name: IAzureUtilizationCollection
+  nameWithType: IAzureUtilizationCollection
+  fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  name: ResourceCollection
+  nameWithType: ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
+  name: AzureUtilizationRecord
+  nameWithType: AzureUtilizationRecord
+  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
+- uid: com.microsoft.store.partnercenter.models.utils.Tuple
+  name: Tuple
+  nameWithType: Tuple
+  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  name: BasePartnerComponent
+  nameWithType: BasePartnerComponent
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
+- uid: java.lang.String,java.lang.String
+  name: String,String
+  nameWithType: String,String
+  fullName: java.lang.String,java.lang.String

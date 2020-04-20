@@ -1,116 +1,119 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection"
-  id: "ICustomerApplicationConsentCollection"
-  parent: "com.microsoft.store.partnercenter.applicationconsents"
+- uid: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  id: ICustomerApplicationConsentCollection
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.applicationconsents
   children:
-  - "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent)"
+  - com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId(java.lang.String)
+  - com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent)
   langs:
-  - "java"
-  name: "ICustomerApplicationConsentCollection"
-  nameWithType: "ICustomerApplicationConsentCollection"
-  fullName: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.applicationconsents"
-  summary: "Encapsulates the operations on the ApplicationConsent collection."
+  - java
+  name: ICustomerApplicationConsentCollection
+  nameWithType: ICustomerApplicationConsentCollection
+  fullName: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  type: Interface
+  package: com.microsoft.store.partnercenter.applicationconsents
+  summary: Encapsulates the operations on the ApplicationConsent collection.
   syntax:
-    content: "public interface ICustomerApplicationConsentCollection extends IPartnerComponentString, IEntitySelector<String,IApplicationConsent>, IEntityCreateOperations<ApplicationConsent,ApplicationConsent>"
+    content: public interface ICustomerApplicationConsentCollection extends IPartnerComponentString, IEntitySelector<String,IApplicationConsent>, IEntityCreateOperations<ApplicationConsent,ApplicationConsent>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponentString"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent>"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent,com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent>"
-- uid: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId(java.lang.String)"
-  id: "byId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection"
+  - com.microsoft.store.partnercenter.IPartnerComponentString
+  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent>
+  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent,com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent>
+- uid: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId(java.lang.String)
+  id: byId(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
   langs:
-  - "java"
-  name: "byId(String applicationId)"
-  nameWithType: "ICustomerApplicationConsentCollection.byId(String applicationId)"
-  fullName: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId(String applicationId)"
-  overload: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.applicationconsents"
-  summary: "Gets a single application consent behavior."
+  - java
+  name: byId(String applicationId)
+  nameWithType: ICustomerApplicationConsentCollection.byId(String applicationId)
+  fullName: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId(String applicationId)
+  overload: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId*
+  type: Method
+  package: com.microsoft.store.partnercenter.applicationconsents
+  summary: Gets a single application consent behavior.
   syntax:
-    content: "public abstract IApplicationConsent byId(String applicationId)"
+    content: public abstract IApplicationConsent byId(String applicationId)
     parameters:
-    - id: "applicationId"
-      type: "java.lang.String"
-      description: "The application identifier."
+    - id: applicationId
+      type: java.lang.String
+      description: The application identifier.
     return:
-      type: "com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent"
-      description: "The application consent operations."
-- uid: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent)"
-  id: "create(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent)"
-  parent: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection"
+      type: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
+      description: The application consent operations.
+- uid: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent)
+  id: create(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
   langs:
-  - "java"
-  name: "create(ApplicationConsent newEntity)"
-  nameWithType: "ICustomerApplicationConsentCollection.create(ApplicationConsent newEntity)"
-  fullName: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create(ApplicationConsent newEntity)"
-  overload: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.applicationconsents"
-  summary: "Adds application consents."
+  - java
+  name: create(ApplicationConsent newEntity)
+  nameWithType: ICustomerApplicationConsentCollection.create(ApplicationConsent newEntity)
+  fullName: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create(ApplicationConsent newEntity)
+  overload: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create*
+  type: Method
+  package: com.microsoft.store.partnercenter.applicationconsents
+  summary: Adds application consents.
   syntax:
-    content: "public abstract ApplicationConsent create(ApplicationConsent newEntity)"
+    content: public abstract ApplicationConsent create(ApplicationConsent newEntity)
     parameters:
-    - id: "newEntity"
-      type: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
-      description: "ApplicationConsent to add."
+    - id: newEntity
+      type: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent
+      description: ApplicationConsent to add.
     return:
-      type: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
-      description: "ApplicationConsent entity."
+      type: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent
+      description: ApplicationConsent entity.
 references:
-- uid: "java.lang.String"
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent"
-  name: "IApplicationConsent"
-  nameWithType: "IApplicationConsent"
-  fullName: "com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent"
-- uid: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId*"
-  name: "byId"
-  nameWithType: "ICustomerApplicationConsentCollection.byId"
-  fullName: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId"
-  package: "com.microsoft.store.partnercenter.applicationconsents"
-- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
-  name: "ApplicationConsent"
-  nameWithType: "ApplicationConsent"
-  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
-- uid: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create*"
-  name: "create"
-  nameWithType: "ICustomerApplicationConsentCollection.create"
-  fullName: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create"
-  package: "com.microsoft.store.partnercenter.applicationconsents"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  name: "IPartnerComponentString"
-  nameWithType: "IPartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent>"
-  name: "IEntitySelector<String,IApplicationConsent>"
-  nameWithType: "IEntitySelector<String,IApplicationConsent>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent,com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent>"
-  name: "IEntityCreateOperations<ApplicationConsent,ApplicationConsent>"
-  nameWithType: "IEntityCreateOperations<ApplicationConsent,ApplicationConsent>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent,com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-  name: "IEntitySelector"
-  nameWithType: "IEntitySelector"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-- uid: "java.lang.String,com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent"
-  name: "String,IApplicationConsent"
-  nameWithType: "String,IApplicationConsent"
-  fullName: "java.lang.String,com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
-  name: "IEntityCreateOperations"
-  nameWithType: "IEntityCreateOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
-- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent,com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
-  name: "ApplicationConsent,ApplicationConsent"
-  nameWithType: "ApplicationConsent,ApplicationConsent"
-  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent,com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
+  name: IApplicationConsent
+  nameWithType: IApplicationConsent
+  fullName: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
+- uid: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId*
+  name: byId
+  nameWithType: ICustomerApplicationConsentCollection.byId
+  fullName: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId
+  package: com.microsoft.store.partnercenter.applicationconsents
+- uid: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent
+  name: ApplicationConsent
+  nameWithType: ApplicationConsent
+  fullName: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent
+- uid: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create*
+  name: create
+  nameWithType: ICustomerApplicationConsentCollection.create
+  fullName: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create
+  package: com.microsoft.store.partnercenter.applicationconsents
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent>
+  name: IEntitySelector<String,IApplicationConsent>
+  nameWithType: IEntitySelector<String,IApplicationConsent>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent,com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent>
+  name: IEntityCreateOperations<ApplicationConsent,ApplicationConsent>
+  nameWithType: IEntityCreateOperations<ApplicationConsent,ApplicationConsent>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent,com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
+  name: IEntitySelector
+  nameWithType: IEntitySelector
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
+- uid: java.lang.String,com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
+  name: String,IApplicationConsent
+  nameWithType: String,IApplicationConsent
+  fullName: java.lang.String,com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+  name: IEntityCreateOperations
+  nameWithType: IEntityCreateOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+- uid: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent,com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent
+  name: ApplicationConsent,ApplicationConsent
+  nameWithType: ApplicationConsent,ApplicationConsent
+  fullName: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent,com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent

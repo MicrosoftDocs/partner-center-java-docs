@@ -1,92 +1,103 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
-  id: "IAzureRateCard"
-  parent: "com.microsoft.store.partnercenter.ratecards"
+- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+  id: IAzureRateCard
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.ratecards
   children:
-  - "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get(java.lang.String,java.lang.String)"
-  - "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared(java.lang.String,java.lang.String)"
+  - com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get(java.lang.String,java.lang.String)
+  - com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared(java.lang.String,java.lang.String)
   langs:
-  - "java"
-  name: "IAzureRateCard"
-  nameWithType: "IAzureRateCard"
-  fullName: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.ratecards"
-  summary: "Holds operations that apply to Azure rate card."
+  - java
+  name: IAzureRateCard
+  nameWithType: IAzureRateCard
+  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
+  type: Interface
+  package: com.microsoft.store.partnercenter.ratecards
+  summary: Holds operations that apply to Azure rate card.
   syntax:
-    content: "public interface IAzureRateCard extends IPartnerComponentString"
+    content: public interface IAzureRateCard extends IPartnerComponentString
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get(java.lang.String,java.lang.String)"
-  id: "get(java.lang.String,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
+  - com.microsoft.store.partnercenter.IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get(java.lang.String,java.lang.String)
+  id: get(java.lang.String,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
   langs:
-  - "java"
-  name: "get(String currency, String region)"
-  nameWithType: "IAzureRateCard.get(String currency, String region)"
-  fullName: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get(String currency, String region)"
-  overload: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.ratecards"
-  summary: "Gets the Azure rate card which provides real-time prices for Azure offers."
+  - java
+  name: get(String currency, String region)
+  nameWithType: IAzureRateCard.get(String currency, String region)
+  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get(String currency, String region)
+  overload: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.ratecards
+  summary: Gets the Azure rate card which provides real-time prices for Azure offers.
   syntax:
-    content: "public abstract AzureRateCard get(String currency, String region)"
+    content: public abstract AzureRateCard get(String currency, String region)
     parameters:
-    - id: "currency"
-      type: "java.lang.String"
-      description: "An optional three letter ISO code for the currency in which the resource rates will be provided.\n \t\t\t\t    The default is the currency associated with the market in the partner's profile."
-    - id: "region"
-      type: "java.lang.String"
-      description: "An optional two-letter ISO country/region code that indicates the market where the offer is purchased.\n \t\t\t\t  The default is the country/region code set in the partner profile."
+    - id: currency
+      type: java.lang.String
+      description: >-
+        An optional three letter ISO code for the currency in which the resource rates will be provided.
+         				    The default is the currency associated with the market in the partner's profile.
+    - id: region
+      type: java.lang.String
+      description: >-
+        An optional two-letter ISO country/region code that indicates the market where the offer is purchased.
+         				  The default is the country/region code set in the partner profile.
     return:
-      type: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
-      description: "The Azure rate card for the partner."
-- uid: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared(java.lang.String,java.lang.String)"
-  id: "getShared(java.lang.String,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
+      type: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+      description: The Azure rate card for the partner.
+- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared(java.lang.String,java.lang.String)
+  id: getShared(java.lang.String,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
   langs:
-  - "java"
-  name: "getShared(String currency, String region)"
-  nameWithType: "IAzureRateCard.getShared(String currency, String region)"
-  fullName: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared(String currency, String region)"
-  overload: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.ratecards"
-  summary: "Gets the Azure CSL rate card which provides real-time prices for Azure offers."
+  - java
+  name: getShared(String currency, String region)
+  nameWithType: IAzureRateCard.getShared(String currency, String region)
+  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared(String currency, String region)
+  overload: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared*
+  type: Method
+  package: com.microsoft.store.partnercenter.ratecards
+  summary: Gets the Azure CSL rate card which provides real-time prices for Azure offers.
   syntax:
-    content: "public abstract AzureRateCard getShared(String currency, String region)"
+    content: public abstract AzureRateCard getShared(String currency, String region)
     parameters:
-    - id: "currency"
-      type: "java.lang.String"
-      description: "An optional three letter ISO code for the currency in which the resource rates will be provided.\n \t\t\t\t    The default is the currency associated with the market in the partner's profile."
-    - id: "region"
-      type: "java.lang.String"
-      description: "An optional two-letter ISO country/region code that indicates the market where the offer is purchased.\n \t\t\t\t  The default is the country/region code set in the partner profile."
+    - id: currency
+      type: java.lang.String
+      description: >-
+        An optional three letter ISO code for the currency in which the resource rates will be provided.
+         				    The default is the currency associated with the market in the partner's profile.
+    - id: region
+      type: java.lang.String
+      description: >-
+        An optional two-letter ISO country/region code that indicates the market where the offer is purchased.
+         				  The default is the country/region code set in the partner profile.
     return:
-      type: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
-      description: "The Azure rate card for the partner."
+      type: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+      description: The Azure rate card for the partner.
 references:
-- uid: "java.lang.String"
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
-  name: "AzureRateCard"
-  nameWithType: "AzureRateCard"
-  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
-- uid: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get*"
-  name: "get"
-  nameWithType: "IAzureRateCard.get"
-  fullName: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get"
-  package: "com.microsoft.store.partnercenter.ratecards"
-- uid: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared*"
-  name: "getShared"
-  nameWithType: "IAzureRateCard.getShared"
-  fullName: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared"
-  package: "com.microsoft.store.partnercenter.ratecards"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  name: "IPartnerComponentString"
-  nameWithType: "IPartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+  name: AzureRateCard
+  nameWithType: AzureRateCard
+  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get*
+  name: get
+  nameWithType: IAzureRateCard.get
+  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get
+  package: com.microsoft.store.partnercenter.ratecards
+- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared*
+  name: getShared
+  nameWithType: IAzureRateCard.getShared
+  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared
+  package: com.microsoft.store.partnercenter.ratecards
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString

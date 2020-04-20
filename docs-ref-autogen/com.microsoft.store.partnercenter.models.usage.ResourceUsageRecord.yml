@@ -1,509 +1,525 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
-  id: "ResourceUsageRecord"
-  parent: "com.microsoft.store.partnercenter.models.usage"
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
+  id: ResourceUsageRecord
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage
   children:
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord()"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId()"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName()"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName()"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName()"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType()"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri()"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId()"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId(java.lang.String)"
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord()
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId()
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName()
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName()
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName()
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType()
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri()
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId()
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId(java.lang.String)
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName(java.lang.String)
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName(java.lang.String)
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName(java.lang.String)
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType(java.lang.String)
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri(java.lang.String)
+  - com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId(java.lang.String)
   langs:
-  - "java"
-  name: "ResourceUsageRecord"
-  nameWithType: "ResourceUsageRecord"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Defines the estimated monetary cost of a subscription's resource level usage in the current billing cycle."
+  - java
+  name: ResourceUsageRecord
+  nameWithType: ResourceUsageRecord
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
+  type: Class
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Defines the estimated monetary cost of a subscription's resource level usage in the current billing cycle.
   syntax:
-    content: "public class ResourceUsageRecord extends UsageRecordBase"
+    content: public class ResourceUsageRecord extends UsageRecordBase
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.models.ResourceBase"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.ResourceBase
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)"
-  - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord()"
-  id: "ResourceUsageRecord()"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)
+  - com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord()
+  id: ResourceUsageRecord()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "ResourceUsageRecord()"
-  nameWithType: "ResourceUsageRecord.ResourceUsageRecord()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord()"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.usage"
+  - java
+  name: ResourceUsageRecord()
+  nameWithType: ResourceUsageRecord.ResourceUsageRecord()
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord()
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.models.usage
   syntax:
-    content: "public ResourceUsageRecord()"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId()"
-  id: "getEntitlementId()"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+    content: public ResourceUsageRecord()
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId()
+  id: getEntitlementId()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "getEntitlementId()"
-  nameWithType: "ResourceUsageRecord.getEntitlementId()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId()"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Gets the identifier for the entitlement."
+  - java
+  name: getEntitlementId()
+  nameWithType: ResourceUsageRecord.getEntitlementId()
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId()
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Gets the identifier for the entitlement.
   syntax:
-    content: "public String getEntitlementId()"
+    content: public String getEntitlementId()
     return:
-      type: "java.lang.String"
-      description: "The identifier for the entitlement."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName()"
-  id: "getEntitlementName()"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+      type: java.lang.String
+      description: The identifier for the entitlement.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName()
+  id: getEntitlementName()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "getEntitlementName()"
-  nameWithType: "ResourceUsageRecord.getEntitlementName()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName()"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Gets the name for the entitlement."
+  - java
+  name: getEntitlementName()
+  nameWithType: ResourceUsageRecord.getEntitlementName()
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName()
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Gets the name for the entitlement.
   syntax:
-    content: "public String getEntitlementName()"
+    content: public String getEntitlementName()
     return:
-      type: "java.lang.String"
-      description: "The name for the entitlement."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName()"
-  id: "getName()"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+      type: java.lang.String
+      description: The name for the entitlement.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName()
+  id: getName()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "getName()"
-  nameWithType: "ResourceUsageRecord.getName()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName()"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Gets the name for the resource."
+  - java
+  name: getName()
+  nameWithType: ResourceUsageRecord.getName()
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName()
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Gets the name for the resource.
   syntax:
-    content: "public String getName()"
+    content: public String getName()
     return:
-      type: "java.lang.String"
-      description: "The name for the resource."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName()"
-  id: "getResourceGroupName()"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+      type: java.lang.String
+      description: The name for the resource.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName()
+  id: getResourceGroupName()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "getResourceGroupName()"
-  nameWithType: "ResourceUsageRecord.getResourceGroupName()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName()"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Gets the name for the resource group."
+  - java
+  name: getResourceGroupName()
+  nameWithType: ResourceUsageRecord.getResourceGroupName()
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName()
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Gets the name for the resource group.
   syntax:
-    content: "public String getResourceGroupName()"
+    content: public String getResourceGroupName()
     return:
-      type: "java.lang.String"
-      description: "The name for the resource group."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType()"
-  id: "getResourceType()"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+      type: java.lang.String
+      description: The name for the resource group.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType()
+  id: getResourceType()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "getResourceType()"
-  nameWithType: "ResourceUsageRecord.getResourceType()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType()"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Gets the type of resource."
+  - java
+  name: getResourceType()
+  nameWithType: ResourceUsageRecord.getResourceType()
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType()
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Gets the type of resource.
   syntax:
-    content: "public String getResourceType()"
+    content: public String getResourceType()
     return:
-      type: "java.lang.String"
-      description: "The type of resource."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri()"
-  id: "getResourceUri()"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+      type: java.lang.String
+      description: The type of resource.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri()
+  id: getResourceUri()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "getResourceUri()"
-  nameWithType: "ResourceUsageRecord.getResourceUri()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri()"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Gets the URI for the resource."
+  - java
+  name: getResourceUri()
+  nameWithType: ResourceUsageRecord.getResourceUri()
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri()
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Gets the URI for the resource.
   syntax:
-    content: "public String getResourceUri()"
+    content: public String getResourceUri()
     return:
-      type: "java.lang.String"
-      description: "The URI for the resource."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId()"
-  id: "getSubscriptionId()"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+      type: java.lang.String
+      description: The URI for the resource.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId()
+  id: getSubscriptionId()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "getSubscriptionId()"
-  nameWithType: "ResourceUsageRecord.getSubscriptionId()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId()"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Gets the identifier for the subscription."
+  - java
+  name: getSubscriptionId()
+  nameWithType: ResourceUsageRecord.getSubscriptionId()
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId()
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Gets the identifier for the subscription.
   syntax:
-    content: "public String getSubscriptionId()"
+    content: public String getSubscriptionId()
     return:
-      type: "java.lang.String"
-      description: "The identifier for the subscription."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId(java.lang.String)"
-  id: "setEntitlementId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+      type: java.lang.String
+      description: The identifier for the subscription.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId(java.lang.String)
+  id: setEntitlementId(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "setEntitlementId(String value)"
-  nameWithType: "ResourceUsageRecord.setEntitlementId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Sets the identifier for the entitlement."
+  - java
+  name: setEntitlementId(String value)
+  nameWithType: ResourceUsageRecord.setEntitlementId(String value)
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId(String value)
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Sets the identifier for the entitlement.
   syntax:
-    content: "public void setEntitlementId(String value)"
+    content: public void setEntitlementId(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The identifier for the entitlement."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName(java.lang.String)"
-  id: "setEntitlementName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+    - id: value
+      type: java.lang.String
+      description: The identifier for the entitlement.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName(java.lang.String)
+  id: setEntitlementName(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "setEntitlementName(String value)"
-  nameWithType: "ResourceUsageRecord.setEntitlementName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Sets the name for the entitlement."
+  - java
+  name: setEntitlementName(String value)
+  nameWithType: ResourceUsageRecord.setEntitlementName(String value)
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName(String value)
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Sets the name for the entitlement.
   syntax:
-    content: "public void setEntitlementName(String value)"
+    content: public void setEntitlementName(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The name for the entitlement."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName(java.lang.String)"
-  id: "setName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+    - id: value
+      type: java.lang.String
+      description: The name for the entitlement.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName(java.lang.String)
+  id: setName(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "setName(String value)"
-  nameWithType: "ResourceUsageRecord.setName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Sets the name for the resource."
+  - java
+  name: setName(String value)
+  nameWithType: ResourceUsageRecord.setName(String value)
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName(String value)
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Sets the name for the resource.
   syntax:
-    content: "public void setName(String value)"
+    content: public void setName(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The name for the resource."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName(java.lang.String)"
-  id: "setResourceGroupName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+    - id: value
+      type: java.lang.String
+      description: The name for the resource.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName(java.lang.String)
+  id: setResourceGroupName(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "setResourceGroupName(String value)"
-  nameWithType: "ResourceUsageRecord.setResourceGroupName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Sets the name for the resource group."
+  - java
+  name: setResourceGroupName(String value)
+  nameWithType: ResourceUsageRecord.setResourceGroupName(String value)
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName(String value)
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Sets the name for the resource group.
   syntax:
-    content: "public void setResourceGroupName(String value)"
+    content: public void setResourceGroupName(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The name for the resource group."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType(java.lang.String)"
-  id: "setResourceType(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+    - id: value
+      type: java.lang.String
+      description: The name for the resource group.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType(java.lang.String)
+  id: setResourceType(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "setResourceType(String value)"
-  nameWithType: "ResourceUsageRecord.setResourceType(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType(String value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Sets the type of resource."
+  - java
+  name: setResourceType(String value)
+  nameWithType: ResourceUsageRecord.setResourceType(String value)
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType(String value)
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Sets the type of resource.
   syntax:
-    content: "public void setResourceType(String value)"
+    content: public void setResourceType(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The type of resource."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri(java.lang.String)"
-  id: "setResourceUri(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+    - id: value
+      type: java.lang.String
+      description: The type of resource.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri(java.lang.String)
+  id: setResourceUri(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "setResourceUri(String value)"
-  nameWithType: "ResourceUsageRecord.setResourceUri(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri(String value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Sets the URI for the resource."
+  - java
+  name: setResourceUri(String value)
+  nameWithType: ResourceUsageRecord.setResourceUri(String value)
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri(String value)
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Sets the URI for the resource.
   syntax:
-    content: "public void setResourceUri(String value)"
+    content: public void setResourceUri(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The URI for the resource."
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId(java.lang.String)"
-  id: "setSubscriptionId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord"
+    - id: value
+      type: java.lang.String
+      description: The URI for the resource.
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId(java.lang.String)
+  id: setSubscriptionId(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord
   langs:
-  - "java"
-  name: "setSubscriptionId(String value)"
-  nameWithType: "ResourceUsageRecord.setSubscriptionId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  summary: "Sets the identifier for the subscription."
+  - java
+  name: setSubscriptionId(String value)
+  nameWithType: ResourceUsageRecord.setSubscriptionId(String value)
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId(String value)
+  overload: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.usage
+  summary: Sets the identifier for the subscription.
   syntax:
-    content: "public void setSubscriptionId(String value)"
+    content: public void setSubscriptionId(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The identifier for the subscription."
+    - id: value
+      type: java.lang.String
+      description: The identifier for the subscription.
 references:
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord*"
-  name: "ResourceUsageRecord"
-  nameWithType: "ResourceUsageRecord.ResourceUsageRecord"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord*
+  name: ResourceUsageRecord
+  nameWithType: ResourceUsageRecord.ResourceUsageRecord
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.ResourceUsageRecord
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId*"
-  name: "getEntitlementId"
-  nameWithType: "ResourceUsageRecord.getEntitlementId"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId*"
-  name: "setEntitlementId"
-  nameWithType: "ResourceUsageRecord.setEntitlementId"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName*"
-  name: "getEntitlementName"
-  nameWithType: "ResourceUsageRecord.getEntitlementName"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName*"
-  name: "setEntitlementName"
-  nameWithType: "ResourceUsageRecord.setEntitlementName"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName*"
-  name: "getName"
-  nameWithType: "ResourceUsageRecord.getName"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName*"
-  name: "setName"
-  nameWithType: "ResourceUsageRecord.setName"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName*"
-  name: "getResourceGroupName"
-  nameWithType: "ResourceUsageRecord.getResourceGroupName"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName*"
-  name: "setResourceGroupName"
-  nameWithType: "ResourceUsageRecord.setResourceGroupName"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType*"
-  name: "getResourceType"
-  nameWithType: "ResourceUsageRecord.getResourceType"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType*"
-  name: "setResourceType"
-  nameWithType: "ResourceUsageRecord.setResourceType"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri*"
-  name: "getResourceUri"
-  nameWithType: "ResourceUsageRecord.getResourceUri"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri*"
-  name: "setResourceUri"
-  nameWithType: "ResourceUsageRecord.setResourceUri"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId*"
-  name: "getSubscriptionId"
-  nameWithType: "ResourceUsageRecord.getSubscriptionId"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId*"
-  name: "setSubscriptionId"
-  nameWithType: "ResourceUsageRecord.setSubscriptionId"
-  fullName: "com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId"
-  package: "com.microsoft.store.partnercenter.models.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase"
-  name: "UsageRecordBase"
-  nameWithType: "UsageRecordBase"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()"
-  name: "UsageRecordBase.getCurrencyCode()"
-  nameWithType: "UsageRecordBase.getCurrencyCode()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()"
-  name: "UsageRecordBase.getTotalCost()"
-  nameWithType: "UsageRecordBase.getTotalCost()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()"
-  name: "UsageRecordBase.getResourceId()"
-  nameWithType: "UsageRecordBase.getResourceId()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()"
-  name: "UsageRecordBase.getResourceName()"
-  nameWithType: "UsageRecordBase.getResourceName()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)"
-  name: "UsageRecordBase.setId(String)"
-  nameWithType: "UsageRecordBase.setId(String)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)"
-  name: "UsageRecordBase.setCurrencyLocale(Locale)"
-  nameWithType: "UsageRecordBase.setCurrencyLocale(Locale)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)"
-  name: "UsageRecordBase.setUsdTotalCost(double)"
-  nameWithType: "UsageRecordBase.setUsdTotalCost(double)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()"
-  name: "UsageRecordBase.getUsdTotalCost()"
-  nameWithType: "UsageRecordBase.getUsdTotalCost()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)"
-  name: "UsageRecordBase.setResourceName(String)"
-  nameWithType: "UsageRecordBase.setResourceName(String)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()"
-  name: "UsageRecordBase.getLastModifiedDate()"
-  nameWithType: "UsageRecordBase.getLastModifiedDate()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  name: "ResourceBase.getAttributes()"
-  nameWithType: "ResourceBase.getAttributes()"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)"
-  name: "UsageRecordBase.setTotalCost(double)"
-  nameWithType: "UsageRecordBase.setTotalCost(double)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)"
-  name: "UsageRecordBase.setLastModifiedDate(DateTime)"
-  nameWithType: "UsageRecordBase.setLastModifiedDate(DateTime)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()"
-  name: "UsageRecordBase.getCurrencyLocale()"
-  nameWithType: "UsageRecordBase.getCurrencyLocale()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)"
-  name: "UsageRecordBase.setCurrencyCode(String)"
-  nameWithType: "UsageRecordBase.setCurrencyCode(String)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId*
+  name: getEntitlementId
+  nameWithType: ResourceUsageRecord.getEntitlementId
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementId
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId*
+  name: setEntitlementId
+  nameWithType: ResourceUsageRecord.setEntitlementId
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementId
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName*
+  name: getEntitlementName
+  nameWithType: ResourceUsageRecord.getEntitlementName
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getEntitlementName
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName*
+  name: setEntitlementName
+  nameWithType: ResourceUsageRecord.setEntitlementName
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setEntitlementName
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName*
+  name: getName
+  nameWithType: ResourceUsageRecord.getName
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getName
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName*
+  name: setName
+  nameWithType: ResourceUsageRecord.setName
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setName
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName*
+  name: getResourceGroupName
+  nameWithType: ResourceUsageRecord.getResourceGroupName
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceGroupName
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName*
+  name: setResourceGroupName
+  nameWithType: ResourceUsageRecord.setResourceGroupName
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceGroupName
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType*
+  name: getResourceType
+  nameWithType: ResourceUsageRecord.getResourceType
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceType
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType*
+  name: setResourceType
+  nameWithType: ResourceUsageRecord.setResourceType
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceType
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri*
+  name: getResourceUri
+  nameWithType: ResourceUsageRecord.getResourceUri
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getResourceUri
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri*
+  name: setResourceUri
+  nameWithType: ResourceUsageRecord.setResourceUri
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setResourceUri
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId*
+  name: getSubscriptionId
+  nameWithType: ResourceUsageRecord.getSubscriptionId
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.getSubscriptionId
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId*
+  name: setSubscriptionId
+  nameWithType: ResourceUsageRecord.setSubscriptionId
+  fullName: com.microsoft.store.partnercenter.models.usage.ResourceUsageRecord.setSubscriptionId
+  package: com.microsoft.store.partnercenter.models.usage
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase
+  name: UsageRecordBase
+  nameWithType: UsageRecordBase
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()
+  name: UsageRecordBase.getCurrencyCode()
+  nameWithType: UsageRecordBase.getCurrencyCode()
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()
+  name: UsageRecordBase.getTotalCost()
+  nameWithType: UsageRecordBase.getTotalCost()
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()
+  name: UsageRecordBase.getResourceId()
+  nameWithType: UsageRecordBase.getResourceId()
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()
+  name: UsageRecordBase.getResourceName()
+  nameWithType: UsageRecordBase.getResourceName()
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)
+  name: UsageRecordBase.setId(String)
+  nameWithType: UsageRecordBase.setId(String)
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)
+  name: UsageRecordBase.setCurrencyLocale(Locale)
+  nameWithType: UsageRecordBase.setCurrencyLocale(Locale)
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)
+  name: UsageRecordBase.setUsdTotalCost(double)
+  nameWithType: UsageRecordBase.setUsdTotalCost(double)
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()
+  name: UsageRecordBase.getUsdTotalCost()
+  nameWithType: UsageRecordBase.getUsdTotalCost()
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)
+  name: UsageRecordBase.setResourceName(String)
+  nameWithType: UsageRecordBase.setResourceName(String)
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()
+  name: UsageRecordBase.getLastModifiedDate()
+  nameWithType: UsageRecordBase.getLastModifiedDate()
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  name: ResourceBase.getAttributes()
+  nameWithType: ResourceBase.getAttributes()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)
+  name: UsageRecordBase.setTotalCost(double)
+  nameWithType: UsageRecordBase.setTotalCost(double)
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)
+  name: UsageRecordBase.setLastModifiedDate(DateTime)
+  nameWithType: UsageRecordBase.setLastModifiedDate(DateTime)
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()
+  name: UsageRecordBase.getCurrencyLocale()
+  nameWithType: UsageRecordBase.getCurrencyLocale()
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()
+- uid: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)
+  name: UsageRecordBase.setCurrencyCode(String)
+  nameWithType: UsageRecordBase.setCurrencyCode(String)
+  fullName: com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)

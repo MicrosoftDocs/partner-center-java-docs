@@ -1,71 +1,73 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.products.IAvailability"
-  id: "IAvailability"
-  parent: "com.microsoft.store.partnercenter.products"
+- uid: com.microsoft.store.partnercenter.products.IAvailability
+  id: IAvailability
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.products
   children:
-  - "com.microsoft.store.partnercenter.products.IAvailability.get()"
+  - com.microsoft.store.partnercenter.products.IAvailability.get()
   langs:
-  - "java"
-  name: "IAvailability"
-  nameWithType: "IAvailability"
-  fullName: "com.microsoft.store.partnercenter.products.IAvailability"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.products"
-  summary: "Holds operations that can be performed on availabilities."
+  - java
+  name: IAvailability
+  nameWithType: IAvailability
+  fullName: com.microsoft.store.partnercenter.products.IAvailability
+  type: Interface
+  package: com.microsoft.store.partnercenter.products
+  summary: Holds operations that can be performed on availabilities.
   syntax:
-    content: "public interface IAvailability extends IPartnerComponent<QuadrupleTuple<String,String,String,String>>, IEntityGetOperations<Availability>"
+    content: public interface IAvailability extends IPartnerComponent<QuadrupleTuple<String,String,String,String>>, IEntityGetOperations<Availability>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Availability>"
-- uid: "com.microsoft.store.partnercenter.products.IAvailability.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.products.IAvailability"
+  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>
+  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Availability>
+- uid: com.microsoft.store.partnercenter.products.IAvailability.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.products.IAvailability
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "IAvailability.get()"
-  fullName: "com.microsoft.store.partnercenter.products.IAvailability.get()"
-  overload: "com.microsoft.store.partnercenter.products.IAvailability.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.products"
-  summary: "Retrieves the availability information."
+  - java
+  name: get()
+  nameWithType: IAvailability.get()
+  fullName: com.microsoft.store.partnercenter.products.IAvailability.get()
+  overload: com.microsoft.store.partnercenter.products.IAvailability.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.products
+  summary: Retrieves the availability information.
   syntax:
-    content: "public abstract Availability get()"
+    content: public abstract Availability get()
     return:
-      type: "com.microsoft.store.partnercenter.models.products.Availability"
-      description: "The availability information."
+      type: com.microsoft.store.partnercenter.models.products.Availability
+      description: The availability information.
 references:
-- uid: "com.microsoft.store.partnercenter.models.products.Availability"
-  name: "Availability"
-  nameWithType: "Availability"
-  fullName: "com.microsoft.store.partnercenter.models.products.Availability"
-- uid: "com.microsoft.store.partnercenter.products.IAvailability.get*"
-  name: "get"
-  nameWithType: "IAvailability.get"
-  fullName: "com.microsoft.store.partnercenter.products.IAvailability.get"
-  package: "com.microsoft.store.partnercenter.products"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
-  name: "IPartnerComponent<QuadrupleTuple<String,String,String,String>>"
-  nameWithType: "IPartnerComponent<QuadrupleTuple<String,String,String,String>>"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Availability>"
-  name: "IEntityGetOperations<Availability>"
-  nameWithType: "IEntityGetOperations<Availability>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Availability>"
-- uid: "java.lang.String,java.lang.String,java.lang.String,java.lang.String"
-  name: "String,String,String,String"
-  nameWithType: "String,String,String,String"
-  fullName: "java.lang.String,java.lang.String,java.lang.String,java.lang.String"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  name: "IPartnerComponent"
-  nameWithType: "IPartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
-- uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
-  name: "QuadrupleTuple"
-  nameWithType: "QuadrupleTuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  name: "IEntityGetOperations"
-  nameWithType: "IEntityGetOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+- uid: com.microsoft.store.partnercenter.models.products.Availability
+  name: Availability
+  nameWithType: Availability
+  fullName: com.microsoft.store.partnercenter.models.products.Availability
+- uid: com.microsoft.store.partnercenter.products.IAvailability.get*
+  name: get
+  nameWithType: IAvailability.get
+  fullName: com.microsoft.store.partnercenter.products.IAvailability.get
+  package: com.microsoft.store.partnercenter.products
+- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>
+  name: IPartnerComponent<QuadrupleTuple<String,String,String,String>>
+  nameWithType: IPartnerComponent<QuadrupleTuple<String,String,String,String>>
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Availability>
+  name: IEntityGetOperations<Availability>
+  nameWithType: IEntityGetOperations<Availability>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Availability>
+- uid: java.lang.String,java.lang.String,java.lang.String,java.lang.String
+  name: String,String,String,String
+  nameWithType: String,String,String,String
+  fullName: java.lang.String,java.lang.String,java.lang.String,java.lang.String
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
+  name: IPartnerComponent
+  nameWithType: IPartnerComponent
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent
+- uid: com.microsoft.store.partnercenter.models.utils.QuadrupleTuple
+  name: QuadrupleTuple
+  nameWithType: QuadrupleTuple
+  fullName: com.microsoft.store.partnercenter.models.utils.QuadrupleTuple
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  name: IEntityGetOperations
+  nameWithType: IEntityGetOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations

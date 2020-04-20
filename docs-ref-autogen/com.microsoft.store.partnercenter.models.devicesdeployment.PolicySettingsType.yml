@@ -1,318 +1,329 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-  id: "PolicySettingsType"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment"
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  id: PolicySettingsType
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment
   children:
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(java.lang.String)
+  - com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()
   langs:
-  - "java"
-  name: "PolicySettingsType"
-  nameWithType: "PolicySettingsType"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-  type: "Enum"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Represents the settings for an OOBE(Out of box experience) policy."
+  - java
+  name: PolicySettingsType
+  nameWithType: PolicySettingsType
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  type: Enum
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: Represents the settings for an OOBE(Out of box experience) policy.
   syntax:
-    content: "public enum PolicySettingsType extends Enum<PolicySettingsType>"
+    content: public enum PolicySettingsType extends Enum<PolicySettingsType>
   inheritance:
-  - "java.lang.Object"
-  - "java.lang.Enum"
+  - java.lang.Object
+  - java.lang.Enum
   inheritedMembers:
-  - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
-  - "java.lang.Enum.clone()"
-  - "java.lang.Enum.compareTo(E)"
-  - "java.lang.Enum.equals(java.lang.Object)"
-  - "java.lang.Enum.finalize()"
-  - "java.lang.Enum.getDeclaringClass()"
-  - "java.lang.Enum.hashCode()"
-  - "java.lang.Enum.name()"
-  - "java.lang.Enum.ordinal()"
-  - "java.lang.Enum.toString()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None"
-  id: "None"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+  - java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+  - java.lang.Enum.clone()
+  - java.lang.Enum.compareTo(E)
+  - java.lang.Enum.equals(java.lang.Object)
+  - java.lang.Enum.finalize()
+  - java.lang.Enum.getDeclaringClass()
+  - java.lang.Enum.hashCode()
+  - java.lang.Enum.name()
+  - java.lang.Enum.ordinal()
+  - java.lang.Enum.toString()
+  - java.lang.Object.getClass()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None
+  id: None
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
   langs:
-  - "java"
-  name: "None"
-  nameWithType: "PolicySettingsType.None"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Default value for policy settings."
+  - java
+  name: None
+  nameWithType: PolicySettingsType.None
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None
+  type: Field
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: Default value for policy settings.
   syntax:
-    content: "public static final PolicySettingsType None"
+    content: public static final PolicySettingsType None
     return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
-  id: "OOBE_USER_NOT_LOCAL_ADMIN"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+      type: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN
+  id: OOBE_USER_NOT_LOCAL_ADMIN
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
   langs:
-  - "java"
-  name: "OOBE_USER_NOT_LOCAL_ADMIN"
-  nameWithType: "PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "OOBE(Out of box experience) user will not be a local admin on the configured device."
+  - java
+  name: OOBE_USER_NOT_LOCAL_ADMIN
+  nameWithType: PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN
+  type: Field
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: OOBE(Out of box experience) user will not be a local admin on the configured device.
   syntax:
-    content: "public static final PolicySettingsType OOBE_USER_NOT_LOCAL_ADMIN"
+    content: public static final PolicySettingsType OOBE_USER_NOT_LOCAL_ADMIN
     return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType(java.lang.String)"
-  id: "PolicySettingsType(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+      type: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType(java.lang.String)
+  id: PolicySettingsType(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
   langs:
-  - "java"
-  name: "PolicySettingsType(String value)"
-  nameWithType: "PolicySettingsType.PolicySettingsType(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType(String value)"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  - java
+  name: PolicySettingsType(String value)
+  nameWithType: PolicySettingsType.PolicySettingsType(String value)
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType(String value)
+  overload: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
   syntax:
-    content: "private PolicySettingsType(String value)"
+    content: private PolicySettingsType(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS"
-  id: "REMOVE_OEM_PREINSTALLS"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+    - id: value
+      type: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS
+  id: REMOVE_OEM_PREINSTALLS
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
   langs:
-  - "java"
-  name: "REMOVE_OEM_PREINSTALLS"
-  nameWithType: "PolicySettingsType.REMOVE_OEM_PREINSTALLS"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Remove OEM Pre-installs."
+  - java
+  name: REMOVE_OEM_PREINSTALLS
+  nameWithType: PolicySettingsType.REMOVE_OEM_PREINSTALLS
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS
+  type: Field
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: Remove OEM Pre-installs.
   syntax:
-    content: "public static final PolicySettingsType REMOVE_OEM_PREINSTALLS"
+    content: public static final PolicySettingsType REMOVE_OEM_PREINSTALLS
     return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA"
-  id: "SKIP_EULA"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+      type: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA
+  id: SKIP_EULA
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
   langs:
-  - "java"
-  name: "SKIP_EULA"
-  nameWithType: "PolicySettingsType.SKIP_EULA"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Skip EULA settings."
+  - java
+  name: SKIP_EULA
+  nameWithType: PolicySettingsType.SKIP_EULA
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA
+  type: Field
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: Skip EULA settings.
   syntax:
-    content: "public static final PolicySettingsType SKIP_EULA"
+    content: public static final PolicySettingsType SKIP_EULA
     return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS"
-  id: "SKIP_EXPRESS_SETTINGS"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+      type: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS
+  id: SKIP_EXPRESS_SETTINGS
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
   langs:
-  - "java"
-  name: "SKIP_EXPRESS_SETTINGS"
-  nameWithType: "PolicySettingsType.SKIP_EXPRESS_SETTINGS"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Skip express settings."
+  - java
+  name: SKIP_EXPRESS_SETTINGS
+  nameWithType: PolicySettingsType.SKIP_EXPRESS_SETTINGS
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS
+  type: Field
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: Skip express settings.
   syntax:
-    content: "public static final PolicySettingsType SKIP_EXPRESS_SETTINGS"
+    content: public static final PolicySettingsType SKIP_EXPRESS_SETTINGS
     return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION"
-  id: "SKIP_OEM_REGISTRATION"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+      type: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION
+  id: SKIP_OEM_REGISTRATION
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
   langs:
-  - "java"
-  name: "SKIP_OEM_REGISTRATION"
-  nameWithType: "PolicySettingsType.SKIP_OEM_REGISTRATION"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Skip OEM registration settings."
+  - java
+  name: SKIP_OEM_REGISTRATION
+  nameWithType: PolicySettingsType.SKIP_OEM_REGISTRATION
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION
+  type: Field
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: Skip OEM registration settings.
   syntax:
-    content: "public static final PolicySettingsType SKIP_OEM_REGISTRATION"
+    content: public static final PolicySettingsType SKIP_OEM_REGISTRATION
     return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+      type: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()
+  id: toString()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
   langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "PolicySettingsType.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Converts the object to a string."
+  - java
+  name: toString()
+  nameWithType: PolicySettingsType.toString()
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()
+  overload: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: Converts the object to a string.
   syntax:
-    content: "public String toString()"
+    content: public String toString()
     return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+      type: java.lang.String
+      description: A string that represents this object.
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(java.lang.String)
+  id: valueOf(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
   langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "PolicySettingsType.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  - java
+  name: valueOf(String name)
+  nameWithType: PolicySettingsType.valueOf(String name)
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(String name)
+  overload: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
   syntax:
-    content: "public static PolicySettingsType valueOf(String name)"
+    content: public static PolicySettingsType valueOf(String name)
     parameters:
-    - id: "name"
-      type: "java.lang.String"
+    - id: name
+      type: java.lang.String
     return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+      type: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()
+  id: values()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
   langs:
-  - "java"
-  name: "values()"
-  nameWithType: "PolicySettingsType.values()"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  - java
+  name: values()
+  nameWithType: PolicySettingsType.values()
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()
+  overload: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
   syntax:
-    content: "public static PolicySettingsType[] values()"
+    content: public static PolicySettingsType[] values()
     return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType[]"
+      type: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType[]
 references:
-- uid: "java.lang.String"
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType*"
-  name: "PolicySettingsType"
-  nameWithType: "PolicySettingsType.PolicySettingsType"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType[]"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType*
+  name: PolicySettingsType
+  nameWithType: PolicySettingsType.PolicySettingsType
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType[]
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-    name: "PolicySettingsType"
-    fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-  - name: "[]"
-    fullName: "[]"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values*"
-  name: "values"
-  nameWithType: "PolicySettingsType.values"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf*"
-  name: "valueOf"
-  nameWithType: "PolicySettingsType.valueOf"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString*"
-  name: "toString"
-  nameWithType: "PolicySettingsType.toString"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-- uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType>"
-  name: "Enum<PolicySettingsType>"
-  nameWithType: "Enum<PolicySettingsType>"
-  fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType>"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Enum.toString()"
-  name: "Enum.toString()"
-  nameWithType: "Enum.toString()"
-  fullName: "java.lang.Enum.toString()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Enum.clone()"
-  name: "Enum.clone()"
-  nameWithType: "Enum.clone()"
-  fullName: "java.lang.Enum.clone()"
-- uid: "java.lang.Enum.finalize()"
-  name: "Enum.finalize()"
-  nameWithType: "Enum.finalize()"
-  fullName: "java.lang.Enum.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Enum.compareTo(E)"
-  name: "Enum.compareTo(E)"
-  nameWithType: "Enum.compareTo(E)"
-  fullName: "java.lang.Enum.compareTo(E)"
-- uid: "java.lang.Enum.name()"
-  name: "Enum.name()"
-  nameWithType: "Enum.name()"
-  fullName: "java.lang.Enum.name()"
-- uid: "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
-  name: "Enum.<T>valueOf(Class<T>,String)"
-  nameWithType: "Enum.<T>valueOf(Class<T>,String)"
-  fullName: "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Enum.getDeclaringClass()"
-  name: "Enum.getDeclaringClass()"
-  nameWithType: "Enum.getDeclaringClass()"
-  fullName: "java.lang.Enum.getDeclaringClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Enum.ordinal()"
-  name: "Enum.ordinal()"
-  nameWithType: "Enum.ordinal()"
-  fullName: "java.lang.Enum.ordinal()"
-- uid: "java.lang.Enum.hashCode()"
-  name: "Enum.hashCode()"
-  nameWithType: "Enum.hashCode()"
-  fullName: "java.lang.Enum.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Enum.equals(java.lang.Object)"
-  name: "Enum.equals(Object)"
-  nameWithType: "Enum.equals(Object)"
-  fullName: "java.lang.Enum.equals(java.lang.Object)"
-- uid: "java.lang.Enum"
-  name: "Enum"
-  nameWithType: "Enum"
-  fullName: "java.lang.Enum"
-- uid: "java.lang.Enum."
-  name: "Enum."
-  nameWithType: "Enum."
-  fullName: "java.lang.Enum."
-- uid: "T>,java.lang.String)"
-  name: "T>,String)"
-  nameWithType: "T>,String)"
-  fullName: "T>,java.lang.String)"
-- uid: "T>valueOf(java.lang.Class"
-  name: "T>valueOf(Class"
-  nameWithType: "T>valueOf(Class"
-  fullName: "T>valueOf(java.lang.Class"
+  - uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+    name: PolicySettingsType
+    fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
+  - name: '[]'
+    fullName: '[]'
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values*
+  name: values
+  nameWithType: PolicySettingsType.values
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf*
+  name: valueOf
+  nameWithType: PolicySettingsType.valueOf
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString*
+  name: toString
+  nameWithType: PolicySettingsType.toString
+  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString
+  package: com.microsoft.store.partnercenter.models.devicesdeployment
+- uid: java.lang.Enum<com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType>
+  name: Enum<PolicySettingsType>
+  nameWithType: Enum<PolicySettingsType>
+  fullName: java.lang.Enum<com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType>
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Enum.toString()
+  name: Enum.toString()
+  nameWithType: Enum.toString()
+  fullName: java.lang.Enum.toString()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Enum.clone()
+  name: Enum.clone()
+  nameWithType: Enum.clone()
+  fullName: java.lang.Enum.clone()
+- uid: java.lang.Enum.finalize()
+  name: Enum.finalize()
+  nameWithType: Enum.finalize()
+  fullName: java.lang.Enum.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Enum.compareTo(E)
+  name: Enum.compareTo(E)
+  nameWithType: Enum.compareTo(E)
+  fullName: java.lang.Enum.compareTo(E)
+- uid: java.lang.Enum.name()
+  name: Enum.name()
+  nameWithType: Enum.name()
+  fullName: java.lang.Enum.name()
+- uid: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+  name: Enum.<T>valueOf(Class<T>,String)
+  nameWithType: Enum.<T>valueOf(Class<T>,String)
+  fullName: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Enum.getDeclaringClass()
+  name: Enum.getDeclaringClass()
+  nameWithType: Enum.getDeclaringClass()
+  fullName: java.lang.Enum.getDeclaringClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Enum.ordinal()
+  name: Enum.ordinal()
+  nameWithType: Enum.ordinal()
+  fullName: java.lang.Enum.ordinal()
+- uid: java.lang.Enum.hashCode()
+  name: Enum.hashCode()
+  nameWithType: Enum.hashCode()
+  fullName: java.lang.Enum.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Enum.equals(java.lang.Object)
+  name: Enum.equals(Object)
+  nameWithType: Enum.equals(Object)
+  fullName: java.lang.Enum.equals(java.lang.Object)
+- uid: java.lang.Enum
+  name: Enum
+  nameWithType: Enum
+  fullName: java.lang.Enum
+- uid: java.lang.Enum.
+  name: Enum.
+  nameWithType: Enum.
+  fullName: java.lang.Enum.
+- uid: T>,java.lang.String)
+  name: T>,String)
+  nameWithType: T>,String)
+  fullName: T>,java.lang.String)
+- uid: T>valueOf(java.lang.Class
+  name: T>valueOf(Class
+  nameWithType: T>valueOf(Class
+  fullName: T>valueOf(java.lang.Class

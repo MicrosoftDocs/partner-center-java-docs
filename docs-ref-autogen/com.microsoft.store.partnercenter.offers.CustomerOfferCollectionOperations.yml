@@ -1,205 +1,209 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations"
-  id: "CustomerOfferCollectionOperations"
-  parent: "com.microsoft.store.partnercenter.offers"
+- uid: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations
+  id: CustomerOfferCollectionOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.offers
   children:
-  - "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  - "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get()"
-  - "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get(int,int)"
+  - com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  - com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get()
+  - com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get(int,int)
   langs:
-  - "java"
-  name: "CustomerOfferCollectionOperations"
-  nameWithType: "CustomerOfferCollectionOperations"
-  fullName: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.offers"
-  summary: "Customer Offer operations implementation class."
+  - java
+  name: CustomerOfferCollectionOperations
+  nameWithType: CustomerOfferCollectionOperations
+  fullName: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.offers
+  summary: Customer Offer operations implementation class.
   syntax:
-    content: "public class CustomerOfferCollectionOperations extends BasePartnerComponentString implements ICustomerOfferCollection"
+    content: public class CustomerOfferCollectionOperations extends BasePartnerComponentString implements ICustomerOfferCollection
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
-  - "com.microsoft.store.partnercenter.BasePartnerComponentString"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
   implements:
-  - "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection"
+  - com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  id: "CustomerOfferCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  id: CustomerOfferCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations
   langs:
-  - "java"
-  name: "CustomerOfferCollectionOperations(IPartner rootPartnerOperations, String customerId)"
-  nameWithType: "CustomerOfferCollectionOperations.CustomerOfferCollectionOperations(IPartner rootPartnerOperations, String customerId)"
-  fullName: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations(IPartner rootPartnerOperations, String customerId)"
-  overload: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.offers"
-  summary: "Initializes a new instance of the CustomerOfferCollectionOperations class."
+  - java
+  name: CustomerOfferCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  nameWithType: CustomerOfferCollectionOperations.CustomerOfferCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  fullName: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  overload: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.offers
+  summary: Initializes a new instance of the CustomerOfferCollectionOperations class.
   syntax:
-    content: "public CustomerOfferCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+    content: public CustomerOfferCollectionOperations(IPartner rootPartnerOperations, String customerId)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-    - id: "customerId"
-      type: "java.lang.String"
-      description: "The customer identifer."
-- uid: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+    - id: customerId
+      type: java.lang.String
+      description: The customer identifer.
+- uid: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "CustomerOfferCollectionOperations.get()"
-  fullName: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get()"
-  overload: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.offers"
-  summary: "Gets the offers available to customer from partner."
+  - java
+  name: get()
+  nameWithType: CustomerOfferCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get()
+  overload: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.offers
+  summary: Gets the offers available to customer from partner.
   syntax:
-    content: "public ResourceCollection<Offer> get()"
+    content: public ResourceCollection<Offer> get()
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
-- uid: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get(int,int)"
-  id: "get(int,int)"
-  parent: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations"
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>
+- uid: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get(int,int)
+  id: get(int,int)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations
   langs:
-  - "java"
-  name: "get(int offset, int size)"
-  nameWithType: "CustomerOfferCollectionOperations.get(int offset, int size)"
-  fullName: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get(int offset, int size)"
-  overload: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.offers"
-  summary: "Gets a segment of the offers available to customer from partner.."
+  - java
+  name: get(int offset, int size)
+  nameWithType: CustomerOfferCollectionOperations.get(int offset, int size)
+  fullName: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get(int offset, int size)
+  overload: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.offers
+  summary: Gets a segment of the offers available to customer from partner..
   syntax:
-    content: "public ResourceCollection<Offer> get(int offset, int size)"
+    content: public ResourceCollection<Offer> get(int offset, int size)
     parameters:
-    - id: "offset"
-      type: "int"
-      description: "The starting index."
-    - id: "size"
-      type: "int"
-      description: "The desired segment size."
+    - id: offset
+      type: int
+      description: The starting index.
+    - id: size
+      type: int
+      description: The desired segment size.
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
-      description: "The required offers segment."
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>
+      description: The required offers segment.
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations*"
-  name: "CustomerOfferCollectionOperations"
-  nameWithType: "CustomerOfferCollectionOperations.CustomerOfferCollectionOperations"
-  fullName: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations"
-  package: "com.microsoft.store.partnercenter.offers"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations*
+  name: CustomerOfferCollectionOperations
+  nameWithType: CustomerOfferCollectionOperations.CustomerOfferCollectionOperations
+  fullName: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.CustomerOfferCollectionOperations
+  package: com.microsoft.store.partnercenter.offers
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.offers.Offer"
-    name: "Offer"
-    fullName: "com.microsoft.store.partnercenter.models.offers.Offer"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get*"
-  name: "get"
-  nameWithType: "CustomerOfferCollectionOperations.get"
-  fullName: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get"
-  package: "com.microsoft.store.partnercenter.offers"
-- uid: "int"
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.offers.Offer
+    name: Offer
+    fullName: com.microsoft.store.partnercenter.models.offers.Offer
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get*
+  name: get
+  nameWithType: CustomerOfferCollectionOperations.get
+  fullName: com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get
+  package: com.microsoft.store.partnercenter.offers
+- uid: int
   spec.java:
-  - uid: "int"
-    name: "int"
-    fullName: "int"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  name: "BasePartnerComponentString"
-  nameWithType: "BasePartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection"
-  name: "ICustomerOfferCollection"
-  nameWithType: "ICustomerOfferCollection"
-  fullName: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "ResourceCollection"
-  nameWithType: "ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.models.offers.Offer"
-  name: "Offer"
-  nameWithType: "Offer"
-  fullName: "com.microsoft.store.partnercenter.models.offers.Offer"
+  - uid: int
+    name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+  name: ICustomerOfferCollection
+  nameWithType: ICustomerOfferCollection
+  fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  name: ResourceCollection
+  nameWithType: ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.models.offers.Offer
+  name: Offer
+  nameWithType: Offer
+  fullName: com.microsoft.store.partnercenter.models.offers.Offer

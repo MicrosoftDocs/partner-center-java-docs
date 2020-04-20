@@ -1,68 +1,70 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection"
-  id: "ICountryValidationRulesCollection"
-  parent: "com.microsoft.store.partnercenter.countryvalidationrules"
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
+  id: ICountryValidationRulesCollection
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.countryvalidationrules
   children:
-  - "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry(java.lang.String)"
+  - com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry(java.lang.String)
   langs:
-  - "java"
-  name: "ICountryValidationRulesCollection"
-  nameWithType: "ICountryValidationRulesCollection"
-  fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.countryvalidationrules"
-  summary: "Interface and Template for Country-Specific Rules for Validation"
+  - java
+  name: ICountryValidationRulesCollection
+  nameWithType: ICountryValidationRulesCollection
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
+  type: Interface
+  package: com.microsoft.store.partnercenter.countryvalidationrules
+  summary: Interface and Template for Country-Specific Rules for Validation
   syntax:
-    content: "public interface ICountryValidationRulesCollection extends IPartnerComponentString, ICountrySelector<ICountryValidationRules>"
+    content: public interface ICountryValidationRulesCollection extends IPartnerComponentString, ICountrySelector<ICountryValidationRules>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponentString"
-  - "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules>"
-- uid: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry(java.lang.String)"
-  id: "byCountry(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection"
+  - com.microsoft.store.partnercenter.IPartnerComponentString
+  - com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules>
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry(java.lang.String)
+  id: byCountry(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection
   langs:
-  - "java"
-  name: "byCountry(String country)"
-  nameWithType: "ICountryValidationRulesCollection.byCountry(String country)"
-  fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry(String country)"
-  overload: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.countryvalidationrules"
-  summary: "Obtains behavior for a specific country's validation rules."
+  - java
+  name: byCountry(String country)
+  nameWithType: ICountryValidationRulesCollection.byCountry(String country)
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry(String country)
+  overload: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry*
+  type: Method
+  package: com.microsoft.store.partnercenter.countryvalidationrules
+  summary: Obtains behavior for a specific country's validation rules.
   syntax:
-    content: "public abstract ICountryValidationRules byCountry(String country)"
+    content: public abstract ICountryValidationRules byCountry(String country)
     parameters:
-    - id: "country"
-      type: "java.lang.String"
-      description: "The country's ISO2 code."
+    - id: country
+      type: java.lang.String
+      description: The country's ISO2 code.
     return:
-      type: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules"
-      description: "The country validation rules operations."
+      type: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
+      description: The country validation rules operations.
 references:
-- uid: "java.lang.String"
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules"
-  name: "ICountryValidationRules"
-  nameWithType: "ICountryValidationRules"
-  fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules"
-- uid: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry*"
-  name: "byCountry"
-  nameWithType: "ICountryValidationRulesCollection.byCountry"
-  fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry"
-  package: "com.microsoft.store.partnercenter.countryvalidationrules"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  name: "IPartnerComponentString"
-  nameWithType: "IPartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules>"
-  name: "ICountrySelector<ICountryValidationRules>"
-  nameWithType: "ICountrySelector<ICountryValidationRules>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector"
-  name: "ICountrySelector"
-  nameWithType: "ICountrySelector"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
+  name: ICountryValidationRules
+  nameWithType: ICountryValidationRules
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry*
+  name: byCountry
+  nameWithType: ICountryValidationRulesCollection.byCountry
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry
+  package: com.microsoft.store.partnercenter.countryvalidationrules
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules>
+  name: ICountrySelector<ICountryValidationRules>
+  nameWithType: ICountrySelector<ICountryValidationRules>
+  fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules>
+- uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector
+  name: ICountrySelector
+  nameWithType: ICountrySelector
+  fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector

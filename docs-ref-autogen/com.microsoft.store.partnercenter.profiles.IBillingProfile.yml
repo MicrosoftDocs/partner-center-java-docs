@@ -1,95 +1,98 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.profiles.IBillingProfile"
-  id: "IBillingProfile"
-  parent: "com.microsoft.store.partnercenter.profiles"
+- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile
+  id: IBillingProfile
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles
   children:
-  - "com.microsoft.store.partnercenter.profiles.IBillingProfile.get()"
-  - "com.microsoft.store.partnercenter.profiles.IBillingProfile.update(com.microsoft.store.partnercenter.models.partners.BillingProfile)"
+  - com.microsoft.store.partnercenter.profiles.IBillingProfile.get()
+  - com.microsoft.store.partnercenter.profiles.IBillingProfile.update(com.microsoft.store.partnercenter.models.partners.BillingProfile)
   langs:
-  - "java"
-  name: "IBillingProfile"
-  nameWithType: "IBillingProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.IBillingProfile"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Encapsulates behavior of a partner billing profile."
+  - java
+  name: IBillingProfile
+  nameWithType: IBillingProfile
+  fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile
+  type: Interface
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Encapsulates behavior of a partner billing profile.
   syntax:
-    content: "public interface IBillingProfile extends IPartnerComponentString, IEntityGetOperations<BillingProfile>, IEntityUpdateOperations<BillingProfile>"
+    content: public interface IBillingProfile extends IPartnerComponentString, IEntityGetOperations<BillingProfile>, IEntityUpdateOperations<BillingProfile>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponentString"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>"
-- uid: "com.microsoft.store.partnercenter.profiles.IBillingProfile.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.profiles.IBillingProfile"
+  - com.microsoft.store.partnercenter.IPartnerComponentString
+  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>
+  - com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>
+- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles.IBillingProfile
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "IBillingProfile.get()"
-  fullName: "com.microsoft.store.partnercenter.profiles.IBillingProfile.get()"
-  overload: "com.microsoft.store.partnercenter.profiles.IBillingProfile.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Retrieves a partner's billing profile."
+  - java
+  name: get()
+  nameWithType: IBillingProfile.get()
+  fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile.get()
+  overload: com.microsoft.store.partnercenter.profiles.IBillingProfile.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Retrieves a partner's billing profile.
   syntax:
-    content: "public abstract BillingProfile get()"
+    content: public abstract BillingProfile get()
     return:
-      type: "com.microsoft.store.partnercenter.models.partners.BillingProfile"
-      description: "The billing profile."
-- uid: "com.microsoft.store.partnercenter.profiles.IBillingProfile.update(com.microsoft.store.partnercenter.models.partners.BillingProfile)"
-  id: "update(com.microsoft.store.partnercenter.models.partners.BillingProfile)"
-  parent: "com.microsoft.store.partnercenter.profiles.IBillingProfile"
+      type: com.microsoft.store.partnercenter.models.partners.BillingProfile
+      description: The billing profile.
+- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile.update(com.microsoft.store.partnercenter.models.partners.BillingProfile)
+  id: update(com.microsoft.store.partnercenter.models.partners.BillingProfile)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles.IBillingProfile
   langs:
-  - "java"
-  name: "update(BillingProfile billingProfile)"
-  nameWithType: "IBillingProfile.update(BillingProfile billingProfile)"
-  fullName: "com.microsoft.store.partnercenter.profiles.IBillingProfile.update(BillingProfile billingProfile)"
-  overload: "com.microsoft.store.partnercenter.profiles.IBillingProfile.update*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Updates the partner's billing profile."
+  - java
+  name: update(BillingProfile billingProfile)
+  nameWithType: IBillingProfile.update(BillingProfile billingProfile)
+  fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile.update(BillingProfile billingProfile)
+  overload: com.microsoft.store.partnercenter.profiles.IBillingProfile.update*
+  type: Method
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Updates the partner's billing profile.
   syntax:
-    content: "public abstract BillingProfile update(BillingProfile billingProfile)"
+    content: public abstract BillingProfile update(BillingProfile billingProfile)
     parameters:
-    - id: "billingProfile"
-      type: "com.microsoft.store.partnercenter.models.partners.BillingProfile"
-      description: "The billing profile information."
+    - id: billingProfile
+      type: com.microsoft.store.partnercenter.models.partners.BillingProfile
+      description: The billing profile information.
     return:
-      type: "com.microsoft.store.partnercenter.models.partners.BillingProfile"
-      description: "The updated billing profile."
+      type: com.microsoft.store.partnercenter.models.partners.BillingProfile
+      description: The updated billing profile.
 references:
-- uid: "com.microsoft.store.partnercenter.models.partners.BillingProfile"
-  name: "BillingProfile"
-  nameWithType: "BillingProfile"
-  fullName: "com.microsoft.store.partnercenter.models.partners.BillingProfile"
-- uid: "com.microsoft.store.partnercenter.profiles.IBillingProfile.get*"
-  name: "get"
-  nameWithType: "IBillingProfile.get"
-  fullName: "com.microsoft.store.partnercenter.profiles.IBillingProfile.get"
-  package: "com.microsoft.store.partnercenter.profiles"
-- uid: "com.microsoft.store.partnercenter.profiles.IBillingProfile.update*"
-  name: "update"
-  nameWithType: "IBillingProfile.update"
-  fullName: "com.microsoft.store.partnercenter.profiles.IBillingProfile.update"
-  package: "com.microsoft.store.partnercenter.profiles"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>"
-  name: "IEntityGetOperations<BillingProfile>"
-  nameWithType: "IEntityGetOperations<BillingProfile>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  name: "IPartnerComponentString"
-  nameWithType: "IPartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>"
-  name: "IEntityUpdateOperations<BillingProfile>"
-  nameWithType: "IEntityUpdateOperations<BillingProfile>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  name: "IEntityGetOperations"
-  nameWithType: "IEntityGetOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
-  name: "IEntityUpdateOperations"
-  nameWithType: "IEntityUpdateOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
+- uid: com.microsoft.store.partnercenter.models.partners.BillingProfile
+  name: BillingProfile
+  nameWithType: BillingProfile
+  fullName: com.microsoft.store.partnercenter.models.partners.BillingProfile
+- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile.get*
+  name: get
+  nameWithType: IBillingProfile.get
+  fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile.get
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile.update*
+  name: update
+  nameWithType: IBillingProfile.update
+  fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile.update
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>
+  name: IEntityGetOperations<BillingProfile>
+  nameWithType: IEntityGetOperations<BillingProfile>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>
+  name: IEntityUpdateOperations<BillingProfile>
+  nameWithType: IEntityUpdateOperations<BillingProfile>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  name: IEntityGetOperations
+  nameWithType: IEntityGetOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
+  name: IEntityUpdateOperations
+  nameWithType: IEntityUpdateOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations

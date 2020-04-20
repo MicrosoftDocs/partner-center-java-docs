@@ -1,44 +1,46 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations"
-  id: "IEntityExistsOperations"
-  parent: "com.microsoft.store.partnercenter.genericoperations"
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
+  id: IEntityExistsOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.genericoperations
   children:
-  - "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists()"
+  - com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists()
   langs:
-  - "java"
-  name: "IEntityExistsOperations"
-  nameWithType: "IEntityExistsOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.genericoperations"
+  - java
+  name: IEntityExistsOperations
+  nameWithType: IEntityExistsOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
+  type: Interface
+  package: com.microsoft.store.partnercenter.genericoperations
   syntax:
-    content: "public interface IEntityExistsOperations"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists()"
-  id: "exists()"
-  parent: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations"
+    content: public interface IEntityExistsOperations
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists()
+  id: exists()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
   langs:
-  - "java"
-  name: "exists()"
-  nameWithType: "IEntityExistsOperations.exists()"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists()"
-  overload: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.genericoperations"
-  summary: "Checks if an entity exists or not."
+  - java
+  name: exists()
+  nameWithType: IEntityExistsOperations.exists()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists()
+  overload: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists*
+  type: Method
+  package: com.microsoft.store.partnercenter.genericoperations
+  summary: Checks if an entity exists or not.
   syntax:
-    content: "public abstract boolean exists()"
+    content: public abstract boolean exists()
     return:
-      type: "boolean"
-      description: "A value indicating whether the entity exists or not."
+      type: boolean
+      description: A value indicating whether the entity exists or not.
 references:
-- uid: "boolean"
+- uid: boolean
   spec.java:
-  - uid: "boolean"
-    name: "boolean"
-    fullName: "boolean"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists*"
-  name: "exists"
-  nameWithType: "IEntityExistsOperations.exists"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists"
-  package: "com.microsoft.store.partnercenter.genericoperations"
+  - uid: boolean
+    name: boolean
+    fullName: boolean
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists*
+  name: exists
+  nameWithType: IEntityExistsOperations.exists
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists
+  package: com.microsoft.store.partnercenter.genericoperations

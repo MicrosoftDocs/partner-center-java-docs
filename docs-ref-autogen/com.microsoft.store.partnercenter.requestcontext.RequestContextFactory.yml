@@ -1,275 +1,284 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
-  id: "RequestContextFactory"
-  parent: "com.microsoft.store.partnercenter.requestcontext"
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
+  id: RequestContextFactory
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.requestcontext
   children:
-  - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create()"
-  - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.lang.String)"
-  - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID)"
-  - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.lang.String)"
-  - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID)"
-  - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID,java.lang.String)"
-  - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()"
+  - com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create()
+  - com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.lang.String)
+  - com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID)
+  - com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.lang.String)
+  - com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID)
+  - com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID,java.lang.String)
+  - com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()
   langs:
-  - "java"
-  name: "RequestContextFactory"
-  nameWithType: "RequestContextFactory"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.requestcontext"
+  - java
+  name: RequestContextFactory
+  nameWithType: RequestContextFactory
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
+  type: Class
+  package: com.microsoft.store.partnercenter.requestcontext
   syntax:
-    content: "public class RequestContextFactory"
+    content: public class RequestContextFactory
   inheritance:
-  - "java.lang.Object"
+  - java.lang.Object
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.RequestContextFactory()"
-  id: "RequestContextFactory()"
-  parent: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.RequestContextFactory()
+  id: RequestContextFactory()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
   langs:
-  - "java"
-  name: "RequestContextFactory()"
-  nameWithType: "RequestContextFactory.RequestContextFactory()"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.RequestContextFactory()"
-  overload: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.RequestContextFactory*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-  summary: "Prevents a default instance of the  class from being created."
+  - java
+  name: RequestContextFactory()
+  nameWithType: RequestContextFactory.RequestContextFactory()
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.RequestContextFactory()
+  overload: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.RequestContextFactory*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.requestcontext
+  summary: Prevents a default instance of the  class from being created.
   syntax:
-    content: "private RequestContextFactory()"
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create()"
-  id: "create()"
-  parent: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
+    content: private RequestContextFactory()
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create()
+  id: create()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
   langs:
-  - "java"
-  name: "create()"
-  nameWithType: "RequestContextFactory.create()"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create()"
-  overload: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-  summary: "Creates a request context object which will use a randomly generated correlation Id and a unique request Id for each partner API call."
+  - java
+  name: create()
+  nameWithType: RequestContextFactory.create()
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create()
+  overload: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*
+  type: Method
+  package: com.microsoft.store.partnercenter.requestcontext
+  summary: Creates a request context object which will use a randomly generated correlation Id and a unique request Id for each partner API call.
   syntax:
-    content: "public IRequestContext create()"
+    content: public IRequestContext create()
     return:
-      type: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-      description: "A request context object."
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.lang.String)"
-  id: "create(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
+      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+      description: A request context object.
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.lang.String)
+  id: create(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
   langs:
-  - "java"
-  name: "create(String locale)"
-  nameWithType: "RequestContextFactory.create(String locale)"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(String locale)"
-  overload: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-  summary: "Creates a request context object which will use a randomly generated correlation Id, a unique request Id and provided locale for each partner API call."
+  - java
+  name: create(String locale)
+  nameWithType: RequestContextFactory.create(String locale)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(String locale)
+  overload: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*
+  type: Method
+  package: com.microsoft.store.partnercenter.requestcontext
+  summary: Creates a request context object which will use a randomly generated correlation Id, a unique request Id and provided locale for each partner API call.
   syntax:
-    content: "public IRequestContext create(String locale)"
+    content: public IRequestContext create(String locale)
     parameters:
-    - id: "locale"
-      type: "java.lang.String"
-      description: "The locale."
+    - id: locale
+      type: java.lang.String
+      description: The locale.
     return:
-      type: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-      description: "A request context object."
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID)"
-  id: "create(java.util.UUID)"
-  parent: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
+      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+      description: A request context object.
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID)
+  id: create(java.util.UUID)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
   langs:
-  - "java"
-  name: "create(UUID correlationId)"
-  nameWithType: "RequestContextFactory.create(UUID correlationId)"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId)"
-  overload: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-  summary: "Creates a request context object with the provided correlation Id and a unique request Id for each partner API call."
+  - java
+  name: create(UUID correlationId)
+  nameWithType: RequestContextFactory.create(UUID correlationId)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId)
+  overload: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*
+  type: Method
+  package: com.microsoft.store.partnercenter.requestcontext
+  summary: Creates a request context object with the provided correlation Id and a unique request Id for each partner API call.
   syntax:
-    content: "public IRequestContext create(UUID correlationId)"
+    content: public IRequestContext create(UUID correlationId)
     parameters:
-    - id: "correlationId"
-      type: "java.util.UUID"
-      description: "The correlation Id."
+    - id: correlationId
+      type: java.util.UUID
+      description: The correlation Id.
     return:
-      type: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-      description: "A request context object."
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.lang.String)"
-  id: "create(java.util.UUID,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
+      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+      description: A request context object.
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.lang.String)
+  id: create(java.util.UUID,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
   langs:
-  - "java"
-  name: "create(UUID correlationId, String locale)"
-  nameWithType: "RequestContextFactory.create(UUID correlationId, String locale)"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId, String locale)"
-  overload: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-  summary: "Creates a request context object with the provided correlation Id, a unique request Id and provided locale for each partner API call."
+  - java
+  name: create(UUID correlationId, String locale)
+  nameWithType: RequestContextFactory.create(UUID correlationId, String locale)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId, String locale)
+  overload: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*
+  type: Method
+  package: com.microsoft.store.partnercenter.requestcontext
+  summary: Creates a request context object with the provided correlation Id, a unique request Id and provided locale for each partner API call.
   syntax:
-    content: "public IRequestContext create(UUID correlationId, String locale)"
+    content: public IRequestContext create(UUID correlationId, String locale)
     parameters:
-    - id: "correlationId"
-      type: "java.util.UUID"
-      description: "The correlation Id."
-    - id: "locale"
-      type: "java.lang.String"
-      description: "The locale"
+    - id: correlationId
+      type: java.util.UUID
+      description: The correlation Id.
+    - id: locale
+      type: java.lang.String
+      description: The locale
     return:
-      type: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-      description: "A request context object."
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID)"
-  id: "create(java.util.UUID,java.util.UUID)"
-  parent: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
+      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+      description: A request context object.
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID)
+  id: create(java.util.UUID,java.util.UUID)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
   langs:
-  - "java"
-  name: "create(UUID correlationId, UUID requestId)"
-  nameWithType: "RequestContextFactory.create(UUID correlationId, UUID requestId)"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId, UUID requestId)"
-  overload: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-  summary: "Creates a request context object with the provided correlation and request Ids."
+  - java
+  name: create(UUID correlationId, UUID requestId)
+  nameWithType: RequestContextFactory.create(UUID correlationId, UUID requestId)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId, UUID requestId)
+  overload: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*
+  type: Method
+  package: com.microsoft.store.partnercenter.requestcontext
+  summary: Creates a request context object with the provided correlation and request Ids.
   syntax:
-    content: "public IRequestContext create(UUID correlationId, UUID requestId)"
+    content: public IRequestContext create(UUID correlationId, UUID requestId)
     parameters:
-    - id: "correlationId"
-      type: "java.util.UUID"
-      description: "The correlation Id."
-    - id: "requestId"
-      type: "java.util.UUID"
-      description: "The request Id."
+    - id: correlationId
+      type: java.util.UUID
+      description: The correlation Id.
+    - id: requestId
+      type: java.util.UUID
+      description: The request Id.
     return:
-      type: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-      description: "A request context object."
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID,java.lang.String)"
-  id: "create(java.util.UUID,java.util.UUID,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
+      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+      description: A request context object.
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID,java.lang.String)
+  id: create(java.util.UUID,java.util.UUID,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
   langs:
-  - "java"
-  name: "create(UUID correlationId, UUID requestId, String locale)"
-  nameWithType: "RequestContextFactory.create(UUID correlationId, UUID requestId, String locale)"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId, UUID requestId, String locale)"
-  overload: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-  summary: "Creates a request context object with the provided correlation, request Ids and locale."
+  - java
+  name: create(UUID correlationId, UUID requestId, String locale)
+  nameWithType: RequestContextFactory.create(UUID correlationId, UUID requestId, String locale)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId, UUID requestId, String locale)
+  overload: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*
+  type: Method
+  package: com.microsoft.store.partnercenter.requestcontext
+  summary: Creates a request context object with the provided correlation, request Ids and locale.
   syntax:
-    content: "public IRequestContext create(UUID correlationId, UUID requestId, String locale)"
+    content: public IRequestContext create(UUID correlationId, UUID requestId, String locale)
     parameters:
-    - id: "correlationId"
-      type: "java.util.UUID"
-      description: "The correlation Id."
-    - id: "requestId"
-      type: "java.util.UUID"
-      description: "The request Id."
-    - id: "locale"
-      type: "java.lang.String"
-      description: "The locale."
+    - id: correlationId
+      type: java.util.UUID
+      description: The correlation Id.
+    - id: requestId
+      type: java.util.UUID
+      description: The request Id.
+    - id: locale
+      type: java.lang.String
+      description: The locale.
     return:
-      type: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-      description: "A request context object."
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()"
-  id: "getInstance()"
-  parent: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
+      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+      description: A request context object.
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()
+  id: getInstance()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
   langs:
-  - "java"
-  name: "getInstance()"
-  nameWithType: "RequestContextFactory.getInstance()"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()"
-  overload: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-  summary: "Gets an instance of the request context factory."
+  - java
+  name: getInstance()
+  nameWithType: RequestContextFactory.getInstance()
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()
+  overload: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance*
+  type: Method
+  package: com.microsoft.store.partnercenter.requestcontext
+  summary: Gets an instance of the request context factory.
   syntax:
-    content: "public static RequestContextFactory getInstance()"
+    content: public static RequestContextFactory getInstance()
     return:
-      type: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
-      description: "An instance of the request context factory."
+      type: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
+      description: An instance of the request context factory.
 references:
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.RequestContextFactory*"
-  name: "RequestContextFactory"
-  nameWithType: "RequestContextFactory.RequestContextFactory"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.RequestContextFactory"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance*"
-  name: "getInstance"
-  nameWithType: "RequestContextFactory.getInstance"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-- uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-  name: "IRequestContext"
-  nameWithType: "IRequestContext"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*"
-  name: "create"
-  nameWithType: "RequestContextFactory.create"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.RequestContextFactory*
+  name: RequestContextFactory
+  nameWithType: RequestContextFactory.RequestContextFactory
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.RequestContextFactory
+  package: com.microsoft.store.partnercenter.requestcontext
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance*
+  name: getInstance
+  nameWithType: RequestContextFactory.getInstance
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance
+  package: com.microsoft.store.partnercenter.requestcontext
+- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+  name: IRequestContext
+  nameWithType: IRequestContext
+  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*
+  name: create
+  nameWithType: RequestContextFactory.create
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create
+  package: com.microsoft.store.partnercenter.requestcontext
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "java.util.UUID"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: java.util.UUID
   spec.java:
-  - uid: "java.util.UUID"
-    name: "UUID"
-    fullName: "java.util.UUID"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
+  - uid: java.util.UUID
+    name: UUID
+    fullName: java.util.UUID
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()

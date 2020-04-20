@@ -1,331 +1,339 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations"
-  id: "InvoiceOperations"
-  parent: "com.microsoft.store.partnercenter.invoices"
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations
+  id: InvoiceOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices
   children:
-  - "com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  - "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
-  - "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod)"
-  - "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod,int)"
-  - "com.microsoft.store.partnercenter.invoices.InvoiceOperations.get()"
-  - "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments()"
-  - "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts()"
+  - com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  - com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)
+  - com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod)
+  - com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod,int)
+  - com.microsoft.store.partnercenter.invoices.InvoiceOperations.get()
+  - com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments()
+  - com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts()
   langs:
-  - "java"
-  name: "InvoiceOperations"
-  nameWithType: "InvoiceOperations"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Implements the operations that can be performed on the reseller's invoice."
+  - java
+  name: InvoiceOperations
+  nameWithType: InvoiceOperations
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Implements the operations that can be performed on the reseller's invoice.
   syntax:
-    content: "public class InvoiceOperations extends BasePartnerComponentString implements IInvoice"
+    content: public class InvoiceOperations extends BasePartnerComponentString implements IInvoice
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
-  - "com.microsoft.store.partnercenter.BasePartnerComponentString"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
   implements:
-  - "com.microsoft.store.partnercenter.invoices.IInvoice"
+  - com.microsoft.store.partnercenter.invoices.IInvoice
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  id: "InvoiceOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.invoices.InvoiceOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  id: InvoiceOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceOperations
   langs:
-  - "java"
-  name: "InvoiceOperations(IPartner rootPartnerOperations, String invoiceId)"
-  nameWithType: "InvoiceOperations.InvoiceOperations(IPartner rootPartnerOperations, String invoiceId)"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations(IPartner rootPartnerOperations, String invoiceId)"
-  overload: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Initializes a new instance of the InvoiceOperations class."
+  - java
+  name: InvoiceOperations(IPartner rootPartnerOperations, String invoiceId)
+  nameWithType: InvoiceOperations.InvoiceOperations(IPartner rootPartnerOperations, String invoiceId)
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations(IPartner rootPartnerOperations, String invoiceId)
+  overload: com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Initializes a new instance of the InvoiceOperations class.
   syntax:
-    content: "public InvoiceOperations(IPartner rootPartnerOperations, String invoiceId)"
+    content: public InvoiceOperations(IPartner rootPartnerOperations, String invoiceId)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-    - id: "invoiceId"
-      type: "java.lang.String"
-      description: "The invoice identifier."
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
-  id: "by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
-  parent: "com.microsoft.store.partnercenter.invoices.InvoiceOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+    - id: invoiceId
+      type: java.lang.String
+      description: The invoice identifier.
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)
+  id: by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceOperations
   langs:
-  - "java"
-  name: "by(BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType)"
-  nameWithType: "InvoiceOperations.by(BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType)"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType)"
-  overload: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Creates an invoice line item collection operation given a billing provider and invoice line item type."
+  - java
+  name: by(BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType)
+  nameWithType: InvoiceOperations.by(BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType)
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType)
+  overload: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by*
+  type: Method
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Creates an invoice line item collection operation given a billing provider and invoice line item type.
   syntax:
-    content: "public IInvoiceLineItemCollection by(BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType)"
+    content: public IInvoiceLineItemCollection by(BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType)
     parameters:
-    - id: "billingProvider"
-      type: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
-      description: "The billing provider."
-    - id: "invoiceLineItemType"
-      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-      description: "The invoice line item type."
+    - id: billingProvider
+      type: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+      description: The billing provider.
+    - id: invoiceLineItemType
+      type: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+      description: The invoice line item type.
     return:
-      type: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection"
-      description: "The invoice line item collection operations."
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod)"
-  id: "by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod)"
-  parent: "com.microsoft.store.partnercenter.invoices.InvoiceOperations"
+      type: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
+      description: The invoice line item collection operations.
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod)
+  id: by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceOperations
   langs:
-  - "java"
-  name: "by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)"
-  nameWithType: "InvoiceOperations.by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)"
-  overload: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Creates an invoice line item collection operations given a billing provider and invoice line item type."
+  - java
+  name: by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+  nameWithType: InvoiceOperations.by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
+  overload: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by*
+  type: Method
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Creates an invoice line item collection operations given a billing provider and invoice line item type.
   syntax:
-    content: "public IReconciliationLineItemCollection by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)"
+    content: public IReconciliationLineItemCollection by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
     parameters:
-    - id: "provider"
-      type: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
-      description: "The type of billing provider."
-    - id: "invoiceLineItemType"
-      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-      description: "The type of invoice line item type."
-    - id: "currencyCode"
-      type: "java.lang.String"
-      description: "The currency code."
-    - id: "period"
-      type: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod"
-      description: "The period for unbilled recon."
+    - id: provider
+      type: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+      description: The type of billing provider.
+    - id: invoiceLineItemType
+      type: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+      description: The type of invoice line item type.
+    - id: currencyCode
+      type: java.lang.String
+      description: The currency code.
+    - id: period
+      type: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+      description: The period for unbilled recon.
     return:
-      type: "com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod,int)"
-  id: "by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod,int)"
-  parent: "com.microsoft.store.partnercenter.invoices.InvoiceOperations"
+      type: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod,int)
+  id: by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod,int)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceOperations
   langs:
-  - "java"
-  name: "by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)"
-  nameWithType: "InvoiceOperations.by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)"
-  overload: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Creates an invoice line item collection operations given a billing provider and invoice line item type."
+  - java
+  name: by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+  nameWithType: InvoiceOperations.by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
+  overload: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by*
+  type: Method
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Creates an invoice line item collection operations given a billing provider and invoice line item type.
   syntax:
-    content: "public IReconciliationLineItemCollection by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)"
+    content: public IReconciliationLineItemCollection by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
     parameters:
-    - id: "provider"
-      type: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
-      description: "The type of billing provider."
-    - id: "invoiceLineItemType"
-      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-      description: "The type of invoice line item type."
-    - id: "currencyCode"
-      type: "java.lang.String"
-      description: "The currency code."
-    - id: "period"
-      type: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod"
-      description: "The period for unbilled recon."
-    - id: "pageSize"
-      type: "int"
-      description: "The number of records returned in a single operation."
+    - id: provider
+      type: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+      description: The type of billing provider.
+    - id: invoiceLineItemType
+      type: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+      description: The type of invoice line item type.
+    - id: currencyCode
+      type: java.lang.String
+      description: The currency code.
+    - id: period
+      type: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+      description: The period for unbilled recon.
+    - id: pageSize
+      type: int
+      description: The number of records returned in a single operation.
     return:
-      type: "com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.invoices.InvoiceOperations"
+      type: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceOperations
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "InvoiceOperations.get()"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.get()"
-  overload: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Retrieves information about a specific invoice."
+  - java
+  name: get()
+  nameWithType: InvoiceOperations.get()
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.get()
+  overload: com.microsoft.store.partnercenter.invoices.InvoiceOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Retrieves information about a specific invoice.
   syntax:
-    content: "public Invoice get()"
+    content: public Invoice get()
     return:
-      type: "com.microsoft.store.partnercenter.models.invoices.Invoice"
-      description: "The invoice."
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments()"
-  id: "getDocuments()"
-  parent: "com.microsoft.store.partnercenter.invoices.InvoiceOperations"
+      type: com.microsoft.store.partnercenter.models.invoices.Invoice
+      description: The invoice.
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments()
+  id: getDocuments()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceOperations
   langs:
-  - "java"
-  name: "getDocuments()"
-  nameWithType: "InvoiceOperations.getDocuments()"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments()"
-  overload: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Gets an invoice documents operations."
+  - java
+  name: getDocuments()
+  nameWithType: InvoiceOperations.getDocuments()
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments()
+  overload: com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments*
+  type: Method
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Gets an invoice documents operations.
   syntax:
-    content: "public IInvoiceDocuments getDocuments()"
+    content: public IInvoiceDocuments getDocuments()
     return:
-      type: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts()"
-  id: "getReceipts()"
-  parent: "com.microsoft.store.partnercenter.invoices.InvoiceOperations"
+      type: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts()
+  id: getReceipts()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceOperations
   langs:
-  - "java"
-  name: "getReceipts()"
-  nameWithType: "InvoiceOperations.getReceipts()"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts()"
-  overload: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Gets the available receipt operations."
+  - java
+  name: getReceipts()
+  nameWithType: InvoiceOperations.getReceipts()
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts()
+  overload: com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts*
+  type: Method
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Gets the available receipt operations.
   syntax:
-    content: "public IReceiptCollection getReceipts()"
+    content: public IReceiptCollection getReceipts()
     return:
-      type: "com.microsoft.store.partnercenter.invoices.IReceiptCollection"
-      description: "The available receipt operations."
+      type: com.microsoft.store.partnercenter.invoices.IReceiptCollection
+      description: The available receipt operations.
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations*"
-  name: "InvoiceOperations"
-  nameWithType: "InvoiceOperations.InvoiceOperations"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations"
-  package: "com.microsoft.store.partnercenter.invoices"
-- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments"
-  name: "IInvoiceDocuments"
-  nameWithType: "IInvoiceDocuments"
-  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments*"
-  name: "getDocuments"
-  nameWithType: "InvoiceOperations.getDocuments"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments"
-  package: "com.microsoft.store.partnercenter.invoices"
-- uid: "com.microsoft.store.partnercenter.invoices.IReceiptCollection"
-  name: "IReceiptCollection"
-  nameWithType: "IReceiptCollection"
-  fullName: "com.microsoft.store.partnercenter.invoices.IReceiptCollection"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts*"
-  name: "getReceipts"
-  nameWithType: "InvoiceOperations.getReceipts"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts"
-  package: "com.microsoft.store.partnercenter.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
-  name: "BillingProvider"
-  nameWithType: "BillingProvider"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-  name: "InvoiceLineItemType"
-  nameWithType: "InvoiceLineItemType"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection"
-  name: "IInvoiceLineItemCollection"
-  nameWithType: "IInvoiceLineItemCollection"
-  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by*"
-  name: "by"
-  nameWithType: "InvoiceOperations.by"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by"
-  package: "com.microsoft.store.partnercenter.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod"
-  name: "BillingPeriod"
-  nameWithType: "BillingPeriod"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod"
-- uid: "com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection"
-  name: "IReconciliationLineItemCollection"
-  nameWithType: "IReconciliationLineItemCollection"
-  fullName: "com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection"
-- uid: "int"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations*
+  name: InvoiceOperations
+  nameWithType: InvoiceOperations.InvoiceOperations
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
+  name: IInvoiceDocuments
+  nameWithType: IInvoiceDocuments
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments*
+  name: getDocuments
+  nameWithType: InvoiceOperations.getDocuments
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.invoices.IReceiptCollection
+  name: IReceiptCollection
+  nameWithType: IReceiptCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReceiptCollection
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts*
+  name: getReceipts
+  nameWithType: InvoiceOperations.getReceipts
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  name: BillingProvider
+  nameWithType: BillingProvider
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+  name: InvoiceLineItemType
+  nameWithType: InvoiceLineItemType
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
+  name: IInvoiceLineItemCollection
+  nameWithType: IInvoiceLineItemCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by*
+  name: by
+  nameWithType: InvoiceOperations.by
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+  name: BillingPeriod
+  nameWithType: BillingPeriod
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
+- uid: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
+  name: IReconciliationLineItemCollection
+  nameWithType: IReconciliationLineItemCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection
+- uid: int
   spec.java:
-  - uid: "int"
-    name: "int"
-    fullName: "int"
-- uid: "com.microsoft.store.partnercenter.models.invoices.Invoice"
-  name: "Invoice"
-  nameWithType: "Invoice"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.Invoice"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.get*"
-  name: "get"
-  nameWithType: "InvoiceOperations.get"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.get"
-  package: "com.microsoft.store.partnercenter.invoices"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  name: "BasePartnerComponentString"
-  nameWithType: "BasePartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.invoices.IInvoice"
-  name: "IInvoice"
-  nameWithType: "IInvoice"
-  fullName: "com.microsoft.store.partnercenter.invoices.IInvoice"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  - uid: int
+    name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.models.invoices.Invoice
+  name: Invoice
+  nameWithType: Invoice
+  fullName: com.microsoft.store.partnercenter.models.invoices.Invoice
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.get*
+  name: get
+  nameWithType: InvoiceOperations.get
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.get
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+- uid: com.microsoft.store.partnercenter.invoices.IInvoice
+  name: IInvoice
+  nameWithType: IInvoice
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoice
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()

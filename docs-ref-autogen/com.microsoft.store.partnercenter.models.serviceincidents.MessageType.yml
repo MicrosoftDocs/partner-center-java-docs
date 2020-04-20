@@ -1,286 +1,295 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
-  id: "MessageType"
-  parent: "com.microsoft.store.partnercenter.models.serviceincidents"
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
+  id: MessageType
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.serviceincidents
   children:
-  - "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.ALL"
-  - "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.INCIDENT"
-  - "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MESSAGE_CENTER"
-  - "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.NONE"
-  - "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString()"
-  - "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values()"
+  - com.microsoft.store.partnercenter.models.serviceincidents.MessageType.ALL
+  - com.microsoft.store.partnercenter.models.serviceincidents.MessageType.INCIDENT
+  - com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MESSAGE_CENTER
+  - com.microsoft.store.partnercenter.models.serviceincidents.MessageType.NONE
+  - com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString()
+  - com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf(java.lang.String)
+  - com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values()
   langs:
-  - "java"
-  name: "MessageType"
-  nameWithType: "MessageType"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
-  type: "Enum"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
-  summary: "Represents the status of partner center services."
+  - java
+  name: MessageType
+  nameWithType: MessageType
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
+  type: Enum
+  package: com.microsoft.store.partnercenter.models.serviceincidents
+  summary: Represents the status of partner center services.
   syntax:
-    content: "public enum MessageType extends Enum<MessageType>"
+    content: public enum MessageType extends Enum<MessageType>
   inheritance:
-  - "java.lang.Object"
-  - "java.lang.Enum"
+  - java.lang.Object
+  - java.lang.Enum
   inheritedMembers:
-  - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
-  - "java.lang.Enum.clone()"
-  - "java.lang.Enum.compareTo(E)"
-  - "java.lang.Enum.equals(java.lang.Object)"
-  - "java.lang.Enum.finalize()"
-  - "java.lang.Enum.getDeclaringClass()"
-  - "java.lang.Enum.hashCode()"
-  - "java.lang.Enum.name()"
-  - "java.lang.Enum.ordinal()"
-  - "java.lang.Enum.toString()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.ALL"
-  id: "ALL"
-  parent: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
+  - java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+  - java.lang.Enum.clone()
+  - java.lang.Enum.compareTo(E)
+  - java.lang.Enum.equals(java.lang.Object)
+  - java.lang.Enum.finalize()
+  - java.lang.Enum.getDeclaringClass()
+  - java.lang.Enum.hashCode()
+  - java.lang.Enum.name()
+  - java.lang.Enum.ordinal()
+  - java.lang.Enum.toString()
+  - java.lang.Object.getClass()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.ALL
+  id: ALL
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
   langs:
-  - "java"
-  name: "ALL"
-  nameWithType: "MessageType.ALL"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.ALL"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
-  summary: "All types."
+  - java
+  name: ALL
+  nameWithType: MessageType.ALL
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.ALL
+  type: Field
+  package: com.microsoft.store.partnercenter.models.serviceincidents
+  summary: All types.
   syntax:
-    content: "public static final MessageType ALL"
+    content: public static final MessageType ALL
     return:
-      type: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.INCIDENT"
-  id: "INCIDENT"
-  parent: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
+      type: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.INCIDENT
+  id: INCIDENT
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
   langs:
-  - "java"
-  name: "INCIDENT"
-  nameWithType: "MessageType.INCIDENT"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.INCIDENT"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
-  summary: "Active incident."
+  - java
+  name: INCIDENT
+  nameWithType: MessageType.INCIDENT
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.INCIDENT
+  type: Field
+  package: com.microsoft.store.partnercenter.models.serviceincidents
+  summary: Active incident.
   syntax:
-    content: "public static final MessageType INCIDENT"
+    content: public static final MessageType INCIDENT
     return:
-      type: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MESSAGE_CENTER"
-  id: "MESSAGE_CENTER"
-  parent: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
+      type: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MESSAGE_CENTER
+  id: MESSAGE_CENTER
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
   langs:
-  - "java"
-  name: "MESSAGE_CENTER"
-  nameWithType: "MessageType.MESSAGE_CENTER"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MESSAGE_CENTER"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
-  summary: "Message center message."
+  - java
+  name: MESSAGE_CENTER
+  nameWithType: MessageType.MESSAGE_CENTER
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MESSAGE_CENTER
+  type: Field
+  package: com.microsoft.store.partnercenter.models.serviceincidents
+  summary: Message center message.
   syntax:
-    content: "public static final MessageType MESSAGE_CENTER"
+    content: public static final MessageType MESSAGE_CENTER
     return:
-      type: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MessageType(java.lang.String)"
-  id: "MessageType(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
+      type: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MessageType(java.lang.String)
+  id: MessageType(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
   langs:
-  - "java"
-  name: "MessageType(String value)"
-  nameWithType: "MessageType.MessageType(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MessageType(String value)"
-  overload: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MessageType*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
+  - java
+  name: MessageType(String value)
+  nameWithType: MessageType.MessageType(String value)
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MessageType(String value)
+  overload: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MessageType*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.models.serviceincidents
   syntax:
-    content: "private MessageType(String value)"
+    content: private MessageType(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.NONE"
-  id: "NONE"
-  parent: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
+    - id: value
+      type: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.NONE
+  id: NONE
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
   langs:
-  - "java"
-  name: "NONE"
-  nameWithType: "MessageType.NONE"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.NONE"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
-  summary: "Default type none."
+  - java
+  name: NONE
+  nameWithType: MessageType.NONE
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.NONE
+  type: Field
+  package: com.microsoft.store.partnercenter.models.serviceincidents
+  summary: Default type none.
   syntax:
-    content: "public static final MessageType NONE"
+    content: public static final MessageType NONE
     return:
-      type: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
+      type: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString()
+  id: toString()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
   langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "MessageType.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString()"
-  overload: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
-  summary: "Converts the object to a string."
+  - java
+  name: toString()
+  nameWithType: MessageType.toString()
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString()
+  overload: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.serviceincidents
+  summary: Converts the object to a string.
   syntax:
-    content: "public String toString()"
+    content: public String toString()
     return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
+      type: java.lang.String
+      description: A string that represents this object.
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf(java.lang.String)
+  id: valueOf(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
   langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "MessageType.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
+  - java
+  name: valueOf(String name)
+  nameWithType: MessageType.valueOf(String name)
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf(String name)
+  overload: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.serviceincidents
   syntax:
-    content: "public static MessageType valueOf(String name)"
+    content: public static MessageType valueOf(String name)
     parameters:
-    - id: "name"
-      type: "java.lang.String"
+    - id: name
+      type: java.lang.String
     return:
-      type: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
+      type: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values()
+  id: values()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
   langs:
-  - "java"
-  name: "values()"
-  nameWithType: "MessageType.values()"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values()"
-  overload: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
+  - java
+  name: values()
+  nameWithType: MessageType.values()
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values()
+  overload: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.serviceincidents
   syntax:
-    content: "public static MessageType[] values()"
+    content: public static MessageType[] values()
     return:
-      type: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType[]"
+      type: com.microsoft.store.partnercenter.models.serviceincidents.MessageType[]
 references:
-- uid: "java.lang.String"
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MessageType*"
-  name: "MessageType"
-  nameWithType: "MessageType.MessageType"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MessageType"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType[]"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MessageType*
+  name: MessageType
+  nameWithType: MessageType.MessageType
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MessageType
+  package: com.microsoft.store.partnercenter.models.serviceincidents
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType[]
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
-    name: "MessageType"
-    fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
-  - name: "[]"
-    fullName: "[]"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values*"
-  name: "values"
-  nameWithType: "MessageType.values"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf*"
-  name: "valueOf"
-  nameWithType: "MessageType.valueOf"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
-- uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString*"
-  name: "toString"
-  nameWithType: "MessageType.toString"
-  fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString"
-  package: "com.microsoft.store.partnercenter.models.serviceincidents"
-- uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.serviceincidents.MessageType>"
-  name: "Enum<MessageType>"
-  nameWithType: "Enum<MessageType>"
-  fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.serviceincidents.MessageType>"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Enum.toString()"
-  name: "Enum.toString()"
-  nameWithType: "Enum.toString()"
-  fullName: "java.lang.Enum.toString()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Enum.clone()"
-  name: "Enum.clone()"
-  nameWithType: "Enum.clone()"
-  fullName: "java.lang.Enum.clone()"
-- uid: "java.lang.Enum.finalize()"
-  name: "Enum.finalize()"
-  nameWithType: "Enum.finalize()"
-  fullName: "java.lang.Enum.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Enum.compareTo(E)"
-  name: "Enum.compareTo(E)"
-  nameWithType: "Enum.compareTo(E)"
-  fullName: "java.lang.Enum.compareTo(E)"
-- uid: "java.lang.Enum.name()"
-  name: "Enum.name()"
-  nameWithType: "Enum.name()"
-  fullName: "java.lang.Enum.name()"
-- uid: "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
-  name: "Enum.<T>valueOf(Class<T>,String)"
-  nameWithType: "Enum.<T>valueOf(Class<T>,String)"
-  fullName: "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Enum.getDeclaringClass()"
-  name: "Enum.getDeclaringClass()"
-  nameWithType: "Enum.getDeclaringClass()"
-  fullName: "java.lang.Enum.getDeclaringClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Enum.ordinal()"
-  name: "Enum.ordinal()"
-  nameWithType: "Enum.ordinal()"
-  fullName: "java.lang.Enum.ordinal()"
-- uid: "java.lang.Enum.hashCode()"
-  name: "Enum.hashCode()"
-  nameWithType: "Enum.hashCode()"
-  fullName: "java.lang.Enum.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Enum.equals(java.lang.Object)"
-  name: "Enum.equals(Object)"
-  nameWithType: "Enum.equals(Object)"
-  fullName: "java.lang.Enum.equals(java.lang.Object)"
-- uid: "java.lang.Enum"
-  name: "Enum"
-  nameWithType: "Enum"
-  fullName: "java.lang.Enum"
-- uid: "java.lang.Enum."
-  name: "Enum."
-  nameWithType: "Enum."
-  fullName: "java.lang.Enum."
-- uid: "T>,java.lang.String)"
-  name: "T>,String)"
-  nameWithType: "T>,String)"
-  fullName: "T>,java.lang.String)"
-- uid: "T>valueOf(java.lang.Class"
-  name: "T>valueOf(Class"
-  nameWithType: "T>valueOf(Class"
-  fullName: "T>valueOf(java.lang.Class"
+  - uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
+    name: MessageType
+    fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType
+  - name: '[]'
+    fullName: '[]'
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values*
+  name: values
+  nameWithType: MessageType.values
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.values
+  package: com.microsoft.store.partnercenter.models.serviceincidents
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf*
+  name: valueOf
+  nameWithType: MessageType.valueOf
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.valueOf
+  package: com.microsoft.store.partnercenter.models.serviceincidents
+- uid: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString*
+  name: toString
+  nameWithType: MessageType.toString
+  fullName: com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString
+  package: com.microsoft.store.partnercenter.models.serviceincidents
+- uid: java.lang.Enum<com.microsoft.store.partnercenter.models.serviceincidents.MessageType>
+  name: Enum<MessageType>
+  nameWithType: Enum<MessageType>
+  fullName: java.lang.Enum<com.microsoft.store.partnercenter.models.serviceincidents.MessageType>
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Enum.toString()
+  name: Enum.toString()
+  nameWithType: Enum.toString()
+  fullName: java.lang.Enum.toString()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Enum.clone()
+  name: Enum.clone()
+  nameWithType: Enum.clone()
+  fullName: java.lang.Enum.clone()
+- uid: java.lang.Enum.finalize()
+  name: Enum.finalize()
+  nameWithType: Enum.finalize()
+  fullName: java.lang.Enum.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Enum.compareTo(E)
+  name: Enum.compareTo(E)
+  nameWithType: Enum.compareTo(E)
+  fullName: java.lang.Enum.compareTo(E)
+- uid: java.lang.Enum.name()
+  name: Enum.name()
+  nameWithType: Enum.name()
+  fullName: java.lang.Enum.name()
+- uid: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+  name: Enum.<T>valueOf(Class<T>,String)
+  nameWithType: Enum.<T>valueOf(Class<T>,String)
+  fullName: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Enum.getDeclaringClass()
+  name: Enum.getDeclaringClass()
+  nameWithType: Enum.getDeclaringClass()
+  fullName: java.lang.Enum.getDeclaringClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Enum.ordinal()
+  name: Enum.ordinal()
+  nameWithType: Enum.ordinal()
+  fullName: java.lang.Enum.ordinal()
+- uid: java.lang.Enum.hashCode()
+  name: Enum.hashCode()
+  nameWithType: Enum.hashCode()
+  fullName: java.lang.Enum.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Enum.equals(java.lang.Object)
+  name: Enum.equals(Object)
+  nameWithType: Enum.equals(Object)
+  fullName: java.lang.Enum.equals(java.lang.Object)
+- uid: java.lang.Enum
+  name: Enum
+  nameWithType: Enum
+  fullName: java.lang.Enum
+- uid: java.lang.Enum.
+  name: Enum.
+  nameWithType: Enum.
+  fullName: java.lang.Enum.
+- uid: T>,java.lang.String)
+  name: T>,String)
+  nameWithType: T>,String)
+  fullName: T>,java.lang.String)
+- uid: T>valueOf(java.lang.Class
+  name: T>valueOf(Class
+  nameWithType: T>valueOf(Class
+  fullName: T>valueOf(java.lang.Class

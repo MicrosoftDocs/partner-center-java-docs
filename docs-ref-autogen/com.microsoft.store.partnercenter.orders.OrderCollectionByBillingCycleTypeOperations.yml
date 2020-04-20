@@ -1,221 +1,225 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations"
-  id: "OrderCollectionByBillingCycleTypeOperations"
-  parent: "com.microsoft.store.partnercenter.orders"
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations
+  id: OrderCollectionByBillingCycleTypeOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.orders
   children:
-  - "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
-  - "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get()"
-  - "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get(boolean)"
+  - com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType)
+  - com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get()
+  - com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get(boolean)
   langs:
-  - "java"
-  name: "OrderCollectionByBillingCycleTypeOperations"
-  nameWithType: "OrderCollectionByBillingCycleTypeOperations"
-  fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.orders"
-  summary: "Order collection by billing cycle type operations implementation class."
+  - java
+  name: OrderCollectionByBillingCycleTypeOperations
+  nameWithType: OrderCollectionByBillingCycleTypeOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.orders
+  summary: Order collection by billing cycle type operations implementation class.
   syntax:
-    content: "public class OrderCollectionByBillingCycleTypeOperations extends BasePartnerComponent<Tuple<String,BillingCycleType>> implements IOrderCollectionByBillingCycleType"
+    content: public class OrderCollectionByBillingCycleTypeOperations extends BasePartnerComponent<Tuple<String,BillingCycleType>> implements IOrderCollectionByBillingCycleType
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
   implements:
-  - "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType"
+  - com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
-  id: "OrderCollectionByBillingCycleTypeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
-  parent: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType)
+  id: OrderCollectionByBillingCycleTypeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations
   langs:
-  - "java"
-  name: "OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)"
-  nameWithType: "OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)"
-  fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)"
-  overload: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.orders"
-  summary: "Initializes a new instance of the OrderCollectionByBillingCycleTypeOperations class."
+  - java
+  name: OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)
+  nameWithType: OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)
+  overload: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.orders
+  summary: Initializes a new instance of the OrderCollectionByBillingCycleTypeOperations class.
   syntax:
-    content: "public OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)"
+    content: public OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-    - id: "customerId"
-      type: "java.lang.String"
-      description: "The customer identifier."
-    - id: "billingCycleType"
-      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-      description: "The billing type."
-- uid: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+    - id: customerId
+      type: java.lang.String
+      description: The customer identifier.
+    - id: billingCycleType
+      type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+      description: The billing type.
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "OrderCollectionByBillingCycleTypeOperations.get()"
-  fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get()"
-  overload: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.orders"
-  summary: "Retrieves all the orders the customer made."
+  - java
+  name: get()
+  nameWithType: OrderCollectionByBillingCycleTypeOperations.get()
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get()
+  overload: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.orders
+  summary: Retrieves all the orders the customer made.
   syntax:
-    content: "public ResourceCollection<Order> get()"
+    content: public ResourceCollection<Order> get()
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
-      description: "All the customer orders."
-- uid: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get(boolean)"
-  id: "get(boolean)"
-  parent: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations"
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>
+      description: All the customer orders.
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get(boolean)
+  id: get(boolean)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations
   langs:
-  - "java"
-  name: "get(boolean includePrice)"
-  nameWithType: "OrderCollectionByBillingCycleTypeOperations.get(boolean includePrice)"
-  fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get(boolean includePrice)"
-  overload: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.orders"
-  summary: "Gets all customer orders."
+  - java
+  name: get(boolean includePrice)
+  nameWithType: OrderCollectionByBillingCycleTypeOperations.get(boolean includePrice)
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get(boolean includePrice)
+  overload: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.orders
+  summary: Gets all customer orders.
   syntax:
-    content: "public ResourceCollection<Order> get(boolean includePrice)"
+    content: public ResourceCollection<Order> get(boolean includePrice)
     parameters:
-    - id: "includePrice"
-      type: "boolean"
-      description: "A flag indicating whether to include pricing details in the order information or not."
+    - id: includePrice
+      type: boolean
+      description: A flag indicating whether to include pricing details in the order information or not.
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
-      description: "The customer orders."
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>
+      description: The customer orders.
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  name: "BillingCycleType"
-  nameWithType: "BillingCycleType"
-  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-- uid: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations*"
-  name: "OrderCollectionByBillingCycleTypeOperations"
-  nameWithType: "OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations"
-  fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations"
-  package: "com.microsoft.store.partnercenter.orders"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  name: BillingCycleType
+  nameWithType: BillingCycleType
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations*
+  name: OrderCollectionByBillingCycleTypeOperations
+  nameWithType: OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.orders.Order"
-    name: "Order"
-    fullName: "com.microsoft.store.partnercenter.models.orders.Order"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get*"
-  name: "get"
-  nameWithType: "OrderCollectionByBillingCycleTypeOperations.get"
-  fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get"
-  package: "com.microsoft.store.partnercenter.orders"
-- uid: "boolean"
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.orders.Order
+    name: Order
+    fullName: com.microsoft.store.partnercenter.models.orders.Order
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get*
+  name: get
+  nameWithType: OrderCollectionByBillingCycleTypeOperations.get
+  fullName: com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get
+  package: com.microsoft.store.partnercenter.orders
+- uid: boolean
   spec.java:
-  - uid: "boolean"
-    name: "boolean"
-    fullName: "boolean"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType>>"
-  name: "BasePartnerComponent<Tuple<String,BillingCycleType>>"
-  nameWithType: "BasePartnerComponent<Tuple<String,BillingCycleType>>"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType>>"
-- uid: "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType"
-  name: "IOrderCollectionByBillingCycleType"
-  nameWithType: "IOrderCollectionByBillingCycleType"
-  fullName: "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order"
-  name: "Order"
-  nameWithType: "Order"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "ResourceCollection"
-  nameWithType: "ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  name: "Tuple"
-  nameWithType: "Tuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  name: "BasePartnerComponent"
-  nameWithType: "BasePartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
-- uid: "java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  name: "String,BillingCycleType"
-  nameWithType: "String,BillingCycleType"
-  fullName: "java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+  - uid: boolean
+    name: boolean
+    fullName: boolean
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType>>
+  name: BasePartnerComponent<Tuple<String,BillingCycleType>>
+  nameWithType: BasePartnerComponent<Tuple<String,BillingCycleType>>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType>>
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
+  name: IOrderCollectionByBillingCycleType
+  nameWithType: IOrderCollectionByBillingCycleType
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- uid: com.microsoft.store.partnercenter.models.orders.Order
+  name: Order
+  nameWithType: Order
+  fullName: com.microsoft.store.partnercenter.models.orders.Order
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  name: ResourceCollection
+  nameWithType: ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.models.utils.Tuple
+  name: Tuple
+  nameWithType: Tuple
+  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  name: BasePartnerComponent
+  nameWithType: BasePartnerComponent
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
+- uid: java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  name: String,BillingCycleType
+  nameWithType: String,BillingCycleType
+  fullName: java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType
