@@ -1,447 +1,431 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery
-  id: BaseQuery
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery"
+  id: "BaseQuery"
+  parent: "com.microsoft.store.partnercenter.models.query"
   children:
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(java.lang.Object)
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getType()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(java.lang.Object)"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.getType()"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)"
   langs:
-  - java
-  name: BaseQuery
-  nameWithType: BaseQuery
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery
-  type: Class
-  package: com.microsoft.store.partnercenter.models.query
-  summary: The base class which all queries should derive from. This class does not support any query capabilities except for the token by default. Therefore, implementation classes will pick and choose what to support.
+  - "java"
+  name: "BaseQuery"
+  nameWithType: "BaseQuery"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.query"
+  summary: "The base class which all queries should derive from. This class does not support any query capabilities except for the token by default. Therefore, implementation classes will pick and choose what to support."
   syntax:
-    content: public abstract class BaseQuery implements IQuery
+    content: "public abstract class BaseQuery implements IQuery"
   inheritance:
-  - java.lang.Object
+  - "java.lang.Object"
   implements:
-  - com.microsoft.store.partnercenter.models.query.IQuery
+  - "com.microsoft.store.partnercenter.models.query.IQuery"
   inheritedMembers:
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()
-  id: BaseQuery()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()"
+  id: "BaseQuery()"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: BaseQuery()
-  nameWithType: BaseQuery.BaseQuery()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.query
-  summary: Initializes a new instance of the BaseQuery class.
+  - "java"
+  name: "BaseQuery()"
+  nameWithType: "BaseQuery.BaseQuery()"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.query"
+  summary: "Initializes a new instance of the BaseQuery class."
   syntax:
-    content: protected BaseQuery()
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(java.lang.Object)
-  id: BaseQuery(java.lang.Object)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+    content: "protected BaseQuery()"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(java.lang.Object)"
+  id: "BaseQuery(java.lang.Object)"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: BaseQuery(Object token)
-  nameWithType: BaseQuery.BaseQuery(Object token)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(Object token)
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.query
-  summary: Initializes a new instance of the BaseQuery class.
+  - "java"
+  name: "BaseQuery(Object token)"
+  nameWithType: "BaseQuery.BaseQuery(Object token)"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(Object token)"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.query"
+  summary: "Initializes a new instance of the BaseQuery class."
   syntax:
-    content: protected BaseQuery(Object token)
+    content: "protected BaseQuery(Object token)"
     parameters:
-    - id: token
-      type: java.lang.Object
-      description: The query token.
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()
-  id: getFilter()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+    - id: "token"
+      type: "java.lang.Object"
+      description: "The query token."
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()"
+  id: "getFilter()"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: getFilter()
-  nameWithType: BaseQuery.getFilter()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
-  summary: Gets or sets the query filter.
+  - "java"
+  name: "getFilter()"
+  nameWithType: "BaseQuery.getFilter()"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
+  summary: "Gets or sets the query filter."
   syntax:
-    content: public FieldFilter getFilter()
+    content: "public FieldFilter getFilter()"
     return:
-      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
-  id: getIndex()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+      type: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()"
+  id: "getIndex()"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: getIndex()
-  nameWithType: BaseQuery.getIndex()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
-  summary: Gets or sets the result starting index.
+  - "java"
+  name: "getIndex()"
+  nameWithType: "BaseQuery.getIndex()"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
+  summary: "Gets or sets the result starting index."
   syntax:
-    content: public int getIndex()
+    content: "public int getIndex()"
     return:
-      type: int
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
-  id: getPageSize()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+      type: "int"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()"
+  id: "getPageSize()"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: getPageSize()
-  nameWithType: BaseQuery.getPageSize()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
-  summary: Gets or sets the results page size.
+  - "java"
+  name: "getPageSize()"
+  nameWithType: "BaseQuery.getPageSize()"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
+  summary: "Gets or sets the results page size."
   syntax:
-    content: public int getPageSize()
+    content: "public int getPageSize()"
     return:
-      type: int
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
-  id: getSeekOperation()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+      type: "int"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()"
+  id: "getSeekOperation()"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: getSeekOperation()
-  nameWithType: BaseQuery.getSeekOperation()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
-  summary: Gets or sets the seek operation that needs to be performed.
+  - "java"
+  name: "getSeekOperation()"
+  nameWithType: "BaseQuery.getSeekOperation()"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
+  summary: "Gets or sets the seek operation that needs to be performed."
   syntax:
-    content: public SeekOperation getSeekOperation()
+    content: "public SeekOperation getSeekOperation()"
     return:
-      type: com.microsoft.store.partnercenter.models.query.SeekOperation
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()
-  id: getSort()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+      type: "com.microsoft.store.partnercenter.models.query.SeekOperation"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()"
+  id: "getSort()"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: getSort()
-  nameWithType: BaseQuery.getSort()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
-  summary: Gets or sets the query sorting options.
+  - "java"
+  name: "getSort()"
+  nameWithType: "BaseQuery.getSort()"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.getSort*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
+  summary: "Gets or sets the query sorting options."
   syntax:
-    content: public Sort getSort()
+    content: "public Sort getSort()"
     return:
-      type: com.microsoft.store.partnercenter.models.query.sort.Sort
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
-  id: getToken()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+      type: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()"
+  id: "getToken()"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: getToken()
-  nameWithType: BaseQuery.getToken()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
+  - "java"
+  name: "getToken()"
+  nameWithType: "BaseQuery.getToken()"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.getToken*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
   syntax:
-    content: public Object getToken()
+    content: "public Object getToken()"
     return:
-      type: java.lang.Object
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getType()
-  id: getType()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+      type: "java.lang.Object"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getType()"
+  id: "getType()"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: getType()
-  nameWithType: BaseQuery.getType()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getType()
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.getType*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
-  summary: Gets the query type.
+  - "java"
+  name: "getType()"
+  nameWithType: "BaseQuery.getType()"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getType()"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.getType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
+  summary: "Gets the query type."
   syntax:
-    content: public QueryType getType()
+    content: "public QueryType getType()"
     return:
-      type: com.microsoft.store.partnercenter.models.query.QueryType
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-  id: setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+      type: "com.microsoft.store.partnercenter.models.query.QueryType"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+  id: "setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: setFilter(FieldFilter value)
-  nameWithType: BaseQuery.setFilter(FieldFilter value)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(FieldFilter value)
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
+  - "java"
+  name: "setFilter(FieldFilter value)"
+  nameWithType: "BaseQuery.setFilter(FieldFilter value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(FieldFilter value)"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
   syntax:
-    content: public void setFilter(FieldFilter value)
+    content: "public void setFilter(FieldFilter value)"
     parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
-  id: setIndex(int)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)"
+  id: "setIndex(int)"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: setIndex(int value)
-  nameWithType: BaseQuery.setIndex(int value)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int value)
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
+  - "java"
+  name: "setIndex(int value)"
+  nameWithType: "BaseQuery.setIndex(int value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int value)"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
   syntax:
-    content: public void setIndex(int value)
+    content: "public void setIndex(int value)"
     parameters:
-    - id: value
-      type: int
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
-  id: setPageSize(int)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+    - id: "value"
+      type: "int"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)"
+  id: "setPageSize(int)"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: setPageSize(int value)
-  nameWithType: BaseQuery.setPageSize(int value)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int value)
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
+  - "java"
+  name: "setPageSize(int value)"
+  nameWithType: "BaseQuery.setPageSize(int value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int value)"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
   syntax:
-    content: public void setPageSize(int value)
+    content: "public void setPageSize(int value)"
     parameters:
-    - id: value
-      type: int
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)
-  id: setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+    - id: "value"
+      type: "int"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)"
+  id: "setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: setSeekOperation(SeekOperation value)
-  nameWithType: BaseQuery.setSeekOperation(SeekOperation value)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(SeekOperation value)
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
+  - "java"
+  name: "setSeekOperation(SeekOperation value)"
+  nameWithType: "BaseQuery.setSeekOperation(SeekOperation value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(SeekOperation value)"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
   syntax:
-    content: public void setSeekOperation(SeekOperation value)
+    content: "public void setSeekOperation(SeekOperation value)"
     parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.query.SeekOperation
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)
-  id: setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.query.SeekOperation"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)"
+  id: "setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: setSort(Sort value)
-  nameWithType: BaseQuery.setSort(Sort value)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(Sort value)
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
+  - "java"
+  name: "setSort(Sort value)"
+  nameWithType: "BaseQuery.setSort(Sort value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(Sort value)"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSort*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
   syntax:
-    content: public void setSort(Sort value)
+    content: "public void setSort(Sort value)"
     parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.query.sort.Sort
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)
-  id: setToken(java.lang.Object)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.BaseQuery
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)"
+  id: "setToken(java.lang.Object)"
+  parent: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   langs:
-  - java
-  name: setToken(Object value)
-  nameWithType: BaseQuery.setToken(Object value)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(Object value)
-  overload: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
+  - "java"
+  name: "setToken(Object value)"
+  nameWithType: "BaseQuery.setToken(Object value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(Object value)"
+  overload: "com.microsoft.store.partnercenter.models.query.BaseQuery.setToken*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
   syntax:
-    content: public void setToken(Object value)
+    content: "public void setToken(Object value)"
     parameters:
-    - id: value
-      type: java.lang.Object
+    - id: "value"
+      type: "java.lang.Object"
 references:
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery*
-  name: BaseQuery
-  nameWithType: BaseQuery.BaseQuery
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery
-  package: com.microsoft.store.partnercenter.models.query
-- uid: java.lang.Object
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery*"
+  name: "BaseQuery"
+  nameWithType: "BaseQuery.BaseQuery"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "java.lang.Object"
   spec.java:
-  - uid: java.lang.Object
-    name: Object
-    fullName: java.lang.Object
-- uid: com.microsoft.store.partnercenter.models.query.QueryType
-  name: QueryType
-  nameWithType: QueryType
-  fullName: com.microsoft.store.partnercenter.models.query.QueryType
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getType*
-  name: getType
-  nameWithType: BaseQuery.getType
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getType
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
-  name: FieldFilter
-  nameWithType: FieldFilter
-  fullName: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter*
-  name: getFilter
-  nameWithType: BaseQuery.getFilter
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter*
-  name: setFilter
-  nameWithType: BaseQuery.setFilter
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort
-  name: Sort
-  nameWithType: Sort
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort*
-  name: getSort
-  nameWithType: BaseQuery.getSort
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort*
-  name: setSort
-  nameWithType: BaseQuery.setSort
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort
-  package: com.microsoft.store.partnercenter.models.query
-- uid: int
+  - uid: "java.lang.Object"
+    name: "Object"
+    fullName: "java.lang.Object"
+- uid: "com.microsoft.store.partnercenter.models.query.QueryType"
+  name: "QueryType"
+  nameWithType: "QueryType"
+  fullName: "com.microsoft.store.partnercenter.models.query.QueryType"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getType*"
+  name: "getType"
+  nameWithType: "BaseQuery.getType"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getType"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
+  name: "FieldFilter"
+  nameWithType: "FieldFilter"
+  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter*"
+  name: "getFilter"
+  nameWithType: "BaseQuery.getFilter"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter*"
+  name: "setFilter"
+  nameWithType: "BaseQuery.setFilter"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+  name: "Sort"
+  nameWithType: "Sort"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getSort*"
+  name: "getSort"
+  nameWithType: "BaseQuery.getSort"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getSort"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSort*"
+  name: "setSort"
+  nameWithType: "BaseQuery.setSort"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSort"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "int"
   spec.java:
-  - uid: int
-    name: int
-    fullName: int
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex*
-  name: getIndex
-  nameWithType: BaseQuery.getIndex
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex*
-  name: setIndex
-  nameWithType: BaseQuery.setIndex
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize*
-  name: getPageSize
-  nameWithType: BaseQuery.getPageSize
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize*
-  name: setPageSize
-  nameWithType: BaseQuery.setPageSize
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken*
-  name: getToken
-  nameWithType: BaseQuery.getToken
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken*
-  name: setToken
-  nameWithType: BaseQuery.setToken
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.SeekOperation
-  name: SeekOperation
-  nameWithType: SeekOperation
-  fullName: com.microsoft.store.partnercenter.models.query.SeekOperation
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation*
-  name: getSeekOperation
-  nameWithType: BaseQuery.getSeekOperation
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation*
-  name: setSeekOperation
-  nameWithType: BaseQuery.setSeekOperation
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.IQuery
-  name: IQuery
-  nameWithType: IQuery
-  fullName: com.microsoft.store.partnercenter.models.query.IQuery
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
+  - uid: "int"
+    name: "int"
+    fullName: "int"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex*"
+  name: "getIndex"
+  nameWithType: "BaseQuery.getIndex"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex*"
+  name: "setIndex"
+  nameWithType: "BaseQuery.setIndex"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize*"
+  name: "getPageSize"
+  nameWithType: "BaseQuery.getPageSize"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize*"
+  name: "setPageSize"
+  nameWithType: "BaseQuery.setPageSize"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getToken*"
+  name: "getToken"
+  nameWithType: "BaseQuery.getToken"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getToken"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setToken*"
+  name: "setToken"
+  nameWithType: "BaseQuery.setToken"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setToken"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.SeekOperation"
+  name: "SeekOperation"
+  nameWithType: "SeekOperation"
+  fullName: "com.microsoft.store.partnercenter.models.query.SeekOperation"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation*"
+  name: "getSeekOperation"
+  nameWithType: "BaseQuery.getSeekOperation"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation*"
+  name: "setSeekOperation"
+  nameWithType: "BaseQuery.setSeekOperation"
+  fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation"
+  package: "com.microsoft.store.partnercenter.models.query"
+- uid: "com.microsoft.store.partnercenter.models.query.IQuery"
+  name: "IQuery"
+  nameWithType: "IQuery"
+  fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Object.finalize()"
+  name: "Object.finalize()"
+  nameWithType: "Object.finalize()"
+  fullName: "java.lang.Object.finalize()"
+- uid: "java.lang.Object.clone()"
+  name: "Object.clone()"
+  nameWithType: "Object.clone()"
+  fullName: "java.lang.Object.clone()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Object.equals(java.lang.Object)"
+  name: "Object.equals(Object)"
+  nameWithType: "Object.equals(Object)"
+  fullName: "java.lang.Object.equals(java.lang.Object)"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Object.hashCode()"
+  name: "Object.hashCode()"
+  nameWithType: "Object.hashCode()"
+  fullName: "java.lang.Object.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "java.lang.Object.toString()"
+  name: "Object.toString()"
+  nameWithType: "Object.toString()"
+  fullName: "java.lang.Object.toString()"

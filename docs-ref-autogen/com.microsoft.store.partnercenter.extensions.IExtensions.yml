@@ -1,52 +1,50 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.extensions.IExtensions
-  id: IExtensions
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.extensions
+- uid: "com.microsoft.store.partnercenter.extensions.IExtensions"
+  id: "IExtensions"
+  parent: "com.microsoft.store.partnercenter.extensions"
   children:
-  - com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()
+  - "com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()"
   langs:
-  - java
-  name: IExtensions
-  nameWithType: IExtensions
-  fullName: com.microsoft.store.partnercenter.extensions.IExtensions
-  type: Interface
-  package: com.microsoft.store.partnercenter.extensions
-  summary: Holds operations that extend another set of operations.
+  - "java"
+  name: "IExtensions"
+  nameWithType: "IExtensions"
+  fullName: "com.microsoft.store.partnercenter.extensions.IExtensions"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.extensions"
+  summary: "Holds operations that extend another set of operations."
   syntax:
-    content: public interface IExtensions extends IPartnerComponentString
+    content: "public interface IExtensions extends IPartnerComponentString"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()
-  id: getProduct()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.extensions.IExtensions
+  - "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()"
+  id: "getProduct()"
+  parent: "com.microsoft.store.partnercenter.extensions.IExtensions"
   langs:
-  - java
-  name: getProduct()
-  nameWithType: IExtensions.getProduct()
-  fullName: com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()
-  overload: com.microsoft.store.partnercenter.extensions.IExtensions.getProduct*
-  type: Method
-  package: com.microsoft.store.partnercenter.extensions
-  summary: Retrieves the product extension operations.
+  - "java"
+  name: "getProduct()"
+  nameWithType: "IExtensions.getProduct()"
+  fullName: "com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()"
+  overload: "com.microsoft.store.partnercenter.extensions.IExtensions.getProduct*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.extensions"
+  summary: "Retrieves the product extension operations."
   syntax:
-    content: public abstract IProductExtensions getProduct()
+    content: "public abstract IProductExtensions getProduct()"
     return:
-      type: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-      description: The product extensions operations.
+      type: "com.microsoft.store.partnercenter.extensions.products.IProductExtensions"
+      description: "The product extensions operations."
 references:
-- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-  name: IProductExtensions
-  nameWithType: IProductExtensions
-  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-- uid: com.microsoft.store.partnercenter.extensions.IExtensions.getProduct*
-  name: getProduct
-  nameWithType: IExtensions.getProduct
-  fullName: com.microsoft.store.partnercenter.extensions.IExtensions.getProduct
-  package: com.microsoft.store.partnercenter.extensions
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+- uid: "com.microsoft.store.partnercenter.extensions.products.IProductExtensions"
+  name: "IProductExtensions"
+  nameWithType: "IProductExtensions"
+  fullName: "com.microsoft.store.partnercenter.extensions.products.IProductExtensions"
+- uid: "com.microsoft.store.partnercenter.extensions.IExtensions.getProduct*"
+  name: "getProduct"
+  nameWithType: "IExtensions.getProduct"
+  fullName: "com.microsoft.store.partnercenter.extensions.IExtensions.getProduct"
+  package: "com.microsoft.store.partnercenter.extensions"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  name: "IPartnerComponentString"
+  nameWithType: "IPartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

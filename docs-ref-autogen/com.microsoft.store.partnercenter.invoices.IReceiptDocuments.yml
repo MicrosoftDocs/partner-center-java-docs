@@ -1,64 +1,62 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.invoices.IReceiptDocuments
-  id: IReceiptDocuments
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices
+- uid: "com.microsoft.store.partnercenter.invoices.IReceiptDocuments"
+  id: "IReceiptDocuments"
+  parent: "com.microsoft.store.partnercenter.invoices"
   children:
-  - com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement()
+  - "com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement()"
   langs:
-  - java
-  name: IReceiptDocuments
-  nameWithType: IReceiptDocuments
-  fullName: com.microsoft.store.partnercenter.invoices.IReceiptDocuments
-  type: Interface
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Represents the operations available on receipt documents.
+  - "java"
+  name: "IReceiptDocuments"
+  nameWithType: "IReceiptDocuments"
+  fullName: "com.microsoft.store.partnercenter.invoices.IReceiptDocuments"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.invoices"
+  summary: "Represents the operations available on receipt documents."
   syntax:
-    content: public interface IReceiptDocuments extends IPartnerComponent<Tuple<String,String>>
+    content: "public interface IReceiptDocuments extends IPartnerComponent<Tuple<String,String>>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement()
-  id: getStatement()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices.IReceiptDocuments
+  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement()"
+  id: "getStatement()"
+  parent: "com.microsoft.store.partnercenter.invoices.IReceiptDocuments"
   langs:
-  - java
-  name: getStatement()
-  nameWithType: IReceiptDocuments.getStatement()
-  fullName: com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement()
-  overload: com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement*
-  type: Method
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Gets the receipt statement operations.
+  - "java"
+  name: "getStatement()"
+  nameWithType: "IReceiptDocuments.getStatement()"
+  fullName: "com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement()"
+  overload: "com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.invoices"
+  summary: "Gets the receipt statement operations."
   syntax:
-    content: public abstract IReceiptStatement getStatement()
+    content: "public abstract IReceiptStatement getStatement()"
     return:
-      type: com.microsoft.store.partnercenter.invoices.IReceiptStatement
-      description: The available receipt statement operations.
+      type: "com.microsoft.store.partnercenter.invoices.IReceiptStatement"
+      description: "The available receipt statement operations."
 references:
-- uid: com.microsoft.store.partnercenter.invoices.IReceiptStatement
-  name: IReceiptStatement
-  nameWithType: IReceiptStatement
-  fullName: com.microsoft.store.partnercenter.invoices.IReceiptStatement
-- uid: com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement*
-  name: getStatement
-  nameWithType: IReceiptDocuments.getStatement
-  fullName: com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement
-  package: com.microsoft.store.partnercenter.invoices
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+- uid: "com.microsoft.store.partnercenter.invoices.IReceiptStatement"
+  name: "IReceiptStatement"
+  nameWithType: "IReceiptStatement"
+  fullName: "com.microsoft.store.partnercenter.invoices.IReceiptStatement"
+- uid: "com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement*"
+  name: "getStatement"
+  nameWithType: "IReceiptDocuments.getStatement"
+  fullName: "com.microsoft.store.partnercenter.invoices.IReceiptDocuments.getStatement"
+  package: "com.microsoft.store.partnercenter.invoices"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  name: "IPartnerComponent<Tuple<String,String>>"
+  nameWithType: "IPartnerComponent<Tuple<String,String>>"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
+  name: "IPartnerComponent"
+  nameWithType: "IPartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  name: "Tuple"
+  nameWithType: "Tuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
+- uid: "java.lang.String,java.lang.String"
+  name: "String,String"
+  nameWithType: "String,String"
+  fullName: "java.lang.String,java.lang.String"

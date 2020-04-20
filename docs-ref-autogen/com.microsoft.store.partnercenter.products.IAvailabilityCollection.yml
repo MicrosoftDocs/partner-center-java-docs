@@ -1,175 +1,171 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-  id: IAvailabilityCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
+  id: "IAvailabilityCollection"
+  parent: "com.microsoft.store.partnercenter.products"
   children:
-  - com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(java.lang.String)
-  - com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(java.lang.String)
-  - com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()
+  - "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(java.lang.String)"
+  - "com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()"
   langs:
-  - java
-  name: IAvailabilityCollection
-  nameWithType: IAvailabilityCollection
-  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.products
-  summary: Holds operations that can be performed on availabilities.
+  - "java"
+  name: "IAvailabilityCollection"
+  nameWithType: "IAvailabilityCollection"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Holds operations that can be performed on availabilities."
   syntax:
-    content: public interface IAvailabilityCollection extends IPartnerComponent<TripletTuple<String,String,String>>, IEntireEntityCollectionRetrievalOperations<Availability,ResourceCollection<Availability>>, IEntitySelector<String,IAvailability>
+    content: "public interface IAvailabilityCollection extends IPartnerComponent<TripletTuple<String,String,String>>, IEntireEntityCollectionRetrievalOperations<Availability,ResourceCollection<Availability>>, IEntitySelector<String,IAvailability>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IAvailability>
-- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(java.lang.String)
-  id: byId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.IAvailabilityCollection
+  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IAvailability>"
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(java.lang.String)"
+  id: "byId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
   langs:
-  - java
-  name: byId(String availabilityId)
-  nameWithType: IAvailabilityCollection.byId(String availabilityId)
-  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(String availabilityId)
-  overload: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId*
-  type: Method
-  package: com.microsoft.store.partnercenter.products
-  summary: Retrieves the operations tied with a specific availability.
+  - "java"
+  name: "byId(String availabilityId)"
+  nameWithType: "IAvailabilityCollection.byId(String availabilityId)"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(String availabilityId)"
+  overload: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Retrieves the operations tied with a specific availability."
   syntax:
-    content: public abstract IAvailability byId(String availabilityId)
+    content: "public abstract IAvailability byId(String availabilityId)"
     parameters:
-    - id: availabilityId
-      type: java.lang.String
-      description: Identifier for the availability.
+    - id: "availabilityId"
+      type: "java.lang.String"
+      description: "Identifier for the availability."
     return:
-      type: com.microsoft.store.partnercenter.products.IAvailability
-      description: The availability operations.
-- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(java.lang.String)
-  id: byTargetSegment(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.IAvailabilityCollection
+      type: "com.microsoft.store.partnercenter.products.IAvailability"
+      description: "The availability operations."
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(java.lang.String)"
+  id: "byTargetSegment(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
   langs:
-  - java
-  name: byTargetSegment(String targetSegment)
-  nameWithType: IAvailabilityCollection.byTargetSegment(String targetSegment)
-  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(String targetSegment)
-  overload: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment*
-  type: Method
-  package: com.microsoft.store.partnercenter.products
-  summary: Retrieves the operations that can be applied on availabilities filtered by a specific target segment.
+  - "java"
+  name: "byTargetSegment(String targetSegment)"
+  nameWithType: "IAvailabilityCollection.byTargetSegment(String targetSegment)"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(String targetSegment)"
+  overload: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Retrieves the operations that can be applied on availabilities filtered by a specific target segment."
   syntax:
-    content: public abstract IAvailabilityCollectionByTargetSegment byTargetSegment(String targetSegment)
+    content: "public abstract IAvailabilityCollectionByTargetSegment byTargetSegment(String targetSegment)"
     parameters:
-    - id: targetSegment
-      type: java.lang.String
-      description: The availability segment filter.
+    - id: "targetSegment"
+      type: "java.lang.String"
+      description: "The availability segment filter."
     return:
-      type: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment
-      description: The availability collection operations by target segment.
-- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.IAvailabilityCollection
+      type: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment"
+      description: "The availability collection operations by target segment."
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
   langs:
-  - java
-  name: get()
-  nameWithType: IAvailabilityCollection.get()
-  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()
-  overload: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.products
-  summary: Retrieves all the availabilities for the provided SKU.
+  - "java"
+  name: "get()"
+  nameWithType: "IAvailabilityCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()"
+  overload: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Retrieves all the availabilities for the provided SKU."
   syntax:
-    content: public abstract ResourceCollection<Availability> get()
+    content: "public abstract ResourceCollection<Availability> get()"
     return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>
-      description: The availabilities for the provided SKU.
+      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
+      description: "The availabilities for the provided SKU."
 references:
-- uid: java.lang.String
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.products.IAvailability
-  name: IAvailability
-  nameWithType: IAvailability
-  fullName: com.microsoft.store.partnercenter.products.IAvailability
-- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId*
-  name: byId
-  nameWithType: IAvailabilityCollection.byId
-  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment
-  name: IAvailabilityCollectionByTargetSegment
-  nameWithType: IAvailabilityCollectionByTargetSegment
-  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment
-- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment*
-  name: byTargetSegment
-  nameWithType: IAvailabilityCollection.byTargetSegment
-  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.products.IAvailability"
+  name: "IAvailability"
+  nameWithType: "IAvailability"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailability"
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId*"
+  name: "byId"
+  nameWithType: "IAvailabilityCollection.byId"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId"
+  package: "com.microsoft.store.partnercenter.products"
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment"
+  name: "IAvailabilityCollectionByTargetSegment"
+  nameWithType: "IAvailabilityCollectionByTargetSegment"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment"
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment*"
+  name: "byTargetSegment"
+  nameWithType: "IAvailabilityCollection.byTargetSegment"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment"
+  package: "com.microsoft.store.partnercenter.products"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.products.Availability
-    name: Availability
-    fullName: com.microsoft.store.partnercenter.models.products.Availability
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get*
-  name: get
-  nameWithType: IAvailabilityCollection.get
-  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.get
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>>
-  name: IEntireEntityCollectionRetrievalOperations<Availability,ResourceCollection<Availability>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<Availability,ResourceCollection<Availability>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-  name: IPartnerComponent<TripletTuple<String,String,String>>
-  nameWithType: IPartnerComponent<TripletTuple<String,String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IAvailability>
-  name: IEntitySelector<String,IAvailability>
-  nameWithType: IEntitySelector<String,IAvailability>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IAvailability>
-- uid: com.microsoft.store.partnercenter.models.products.Availability
-  name: Availability
-  nameWithType: Availability
-  fullName: com.microsoft.store.partnercenter.models.products.Availability
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: Availability,ResourceCollection
-  nameWithType: Availability,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: java.lang.String,java.lang.String,java.lang.String
-  name: String,String,String
-  nameWithType: String,String,String
-  fullName: java.lang.String,java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
-  name: TripletTuple
-  nameWithType: TripletTuple
-  fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  name: IEntitySelector
-  nameWithType: IEntitySelector
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-- uid: java.lang.String,com.microsoft.store.partnercenter.products.IAvailability
-  name: String,IAvailability
-  nameWithType: String,IAvailability
-  fullName: java.lang.String,com.microsoft.store.partnercenter.products.IAvailability
+  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.products.Availability"
+    name: "Availability"
+    fullName: "com.microsoft.store.partnercenter.models.products.Availability"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.get*"
+  name: "get"
+  nameWithType: "IAvailabilityCollection.get"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.get"
+  package: "com.microsoft.store.partnercenter.products"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>>"
+  name: "IEntireEntityCollectionRetrievalOperations<Availability,ResourceCollection<Availability>>"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations<Availability,ResourceCollection<Availability>>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>>"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
+  name: "IPartnerComponent<TripletTuple<String,String,String>>"
+  nameWithType: "IPartnerComponent<TripletTuple<String,String,String>>"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IAvailability>"
+  name: "IEntitySelector<String,IAvailability>"
+  nameWithType: "IEntitySelector<String,IAvailability>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IAvailability>"
+- uid: "com.microsoft.store.partnercenter.models.products.Availability"
+  name: "Availability"
+  nameWithType: "Availability"
+  fullName: "com.microsoft.store.partnercenter.models.products.Availability"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "ResourceCollection"
+  nameWithType: "ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "Availability,ResourceCollection"
+  nameWithType: "Availability,ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  name: "IEntireEntityCollectionRetrievalOperations"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
+  name: "IPartnerComponent"
+  nameWithType: "IPartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
+- uid: "java.lang.String,java.lang.String,java.lang.String"
+  name: "String,String,String"
+  nameWithType: "String,String,String"
+  fullName: "java.lang.String,java.lang.String,java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
+  name: "TripletTuple"
+  nameWithType: "TripletTuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
+  name: "IEntitySelector"
+  nameWithType: "IEntitySelector"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
+- uid: "java.lang.String,com.microsoft.store.partnercenter.products.IAvailability"
+  name: "String,IAvailability"
+  nameWithType: "String,IAvailability"
+  fullName: "java.lang.String,com.microsoft.store.partnercenter.products.IAvailability"

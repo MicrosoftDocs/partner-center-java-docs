@@ -1,76 +1,74 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
-  id: IProductExtensionsByCountry
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.extensions.products
+- uid: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry"
+  id: "IProductExtensionsByCountry"
+  parent: "com.microsoft.store.partnercenter.extensions.products"
   children:
-  - com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory(com.microsoft.store.partnercenter.models.products.InventoryCheckRequest)
+  - "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory(com.microsoft.store.partnercenter.models.products.InventoryCheckRequest)"
   langs:
-  - java
-  name: IProductExtensionsByCountry
-  nameWithType: IProductExtensionsByCountry
-  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
-  type: Interface
-  package: com.microsoft.store.partnercenter.extensions.products
-  summary: Holds extension operations for products by country.
+  - "java"
+  name: "IProductExtensionsByCountry"
+  nameWithType: "IProductExtensionsByCountry"
+  fullName: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.extensions.products"
+  summary: "Holds extension operations for products by country."
   syntax:
-    content: public interface IProductExtensionsByCountry extends IPartnerComponentString
+    content: "public interface IProductExtensionsByCountry extends IPartnerComponentString"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory(com.microsoft.store.partnercenter.models.products.InventoryCheckRequest)
-  id: checkInventory(com.microsoft.store.partnercenter.models.products.InventoryCheckRequest)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
+  - "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory(com.microsoft.store.partnercenter.models.products.InventoryCheckRequest)"
+  id: "checkInventory(com.microsoft.store.partnercenter.models.products.InventoryCheckRequest)"
+  parent: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry"
   langs:
-  - java
-  name: checkInventory(InventoryCheckRequest checkRequest)
-  nameWithType: IProductExtensionsByCountry.checkInventory(InventoryCheckRequest checkRequest)
-  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory(InventoryCheckRequest checkRequest)
-  overload: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory*
-  type: Method
-  package: com.microsoft.store.partnercenter.extensions.products
-  summary: Retrieves inventory validation results for the provided country.
+  - "java"
+  name: "checkInventory(InventoryCheckRequest checkRequest)"
+  nameWithType: "IProductExtensionsByCountry.checkInventory(InventoryCheckRequest checkRequest)"
+  fullName: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory(InventoryCheckRequest checkRequest)"
+  overload: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.extensions.products"
+  summary: "Retrieves inventory validation results for the provided country."
   syntax:
-    content: public abstract List<InventoryItem> checkInventory(InventoryCheckRequest checkRequest)
+    content: "public abstract List<InventoryItem> checkInventory(InventoryCheckRequest checkRequest)"
     parameters:
-    - id: checkRequest
-      type: com.microsoft.store.partnercenter.models.products.InventoryCheckRequest
-      description: The request for the inventory check.
+    - id: "checkRequest"
+      type: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest"
+      description: "The request for the inventory check."
     return:
-      type: java.util.List<com.microsoft.store.partnercenter.models.products.InventoryItem>
-      description: The inventory check results.
+      type: "java.util.List<com.microsoft.store.partnercenter.models.products.InventoryItem>"
+      description: "The inventory check results."
 references:
-- uid: com.microsoft.store.partnercenter.models.products.InventoryCheckRequest
-  name: InventoryCheckRequest
-  nameWithType: InventoryCheckRequest
-  fullName: com.microsoft.store.partnercenter.models.products.InventoryCheckRequest
-- uid: java.util.List<com.microsoft.store.partnercenter.models.products.InventoryItem>
+- uid: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest"
+  name: "InventoryCheckRequest"
+  nameWithType: "InventoryCheckRequest"
+  fullName: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest"
+- uid: "java.util.List<com.microsoft.store.partnercenter.models.products.InventoryItem>"
   spec.java:
-  - uid: java.util.List
-    name: List
-    fullName: java.util.List
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.products.InventoryItem
-    name: InventoryItem
-    fullName: com.microsoft.store.partnercenter.models.products.InventoryItem
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory*
-  name: checkInventory
-  nameWithType: IProductExtensionsByCountry.checkInventory
-  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory
-  package: com.microsoft.store.partnercenter.extensions.products
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: java.util.List
-  name: List
-  nameWithType: List
-  fullName: java.util.List
-- uid: com.microsoft.store.partnercenter.models.products.InventoryItem
-  name: InventoryItem
-  nameWithType: InventoryItem
-  fullName: com.microsoft.store.partnercenter.models.products.InventoryItem
+  - uid: "java.util.List"
+    name: "List"
+    fullName: "java.util.List"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.products.InventoryItem"
+    name: "InventoryItem"
+    fullName: "com.microsoft.store.partnercenter.models.products.InventoryItem"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory*"
+  name: "checkInventory"
+  nameWithType: "IProductExtensionsByCountry.checkInventory"
+  fullName: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory"
+  package: "com.microsoft.store.partnercenter.extensions.products"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  name: "IPartnerComponentString"
+  nameWithType: "IPartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "java.util.List"
+  name: "List"
+  nameWithType: "List"
+  fullName: "java.util.List"
+- uid: "com.microsoft.store.partnercenter.models.products.InventoryItem"
+  name: "InventoryItem"
+  nameWithType: "InventoryItem"
+  fullName: "com.microsoft.store.partnercenter.models.products.InventoryItem"

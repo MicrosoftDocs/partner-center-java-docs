@@ -1,165 +1,161 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy
-  id: CancellationPolicy
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.products
+- uid: "com.microsoft.store.partnercenter.models.products.CancellationPolicy"
+  id: "CancellationPolicy"
+  parent: "com.microsoft.store.partnercenter.models.products"
   children:
-  - com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy()
-  - com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions()
-  - com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions(java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>)
+  - "com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy()"
+  - "com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions()"
+  - "com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions(java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>)"
   langs:
-  - java
-  name: CancellationPolicy
-  nameWithType: CancellationPolicy
-  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy
-  type: Class
-  package: com.microsoft.store.partnercenter.models.products
-  summary: Represents a cancellation policy.
+  - "java"
+  name: "CancellationPolicy"
+  nameWithType: "CancellationPolicy"
+  fullName: "com.microsoft.store.partnercenter.models.products.CancellationPolicy"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.products"
+  summary: "Represents a cancellation policy."
   syntax:
-    content: public class CancellationPolicy
+    content: "public class CancellationPolicy"
   inheritance:
-  - java.lang.Object
+  - "java.lang.Object"
   inheritedMembers:
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy()
-  id: CancellationPolicy()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy()"
+  id: "CancellationPolicy()"
+  parent: "com.microsoft.store.partnercenter.models.products.CancellationPolicy"
   langs:
-  - java
-  name: CancellationPolicy()
-  nameWithType: CancellationPolicy.CancellationPolicy()
-  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy()
-  overload: com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.products
+  - "java"
+  name: "CancellationPolicy()"
+  nameWithType: "CancellationPolicy.CancellationPolicy()"
+  fullName: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy()"
+  overload: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.products"
   syntax:
-    content: public CancellationPolicy()
-- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions()
-  id: getRefundOptions()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+    content: "public CancellationPolicy()"
+- uid: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions()"
+  id: "getRefundOptions()"
+  parent: "com.microsoft.store.partnercenter.models.products.CancellationPolicy"
   langs:
-  - java
-  name: getRefundOptions()
-  nameWithType: CancellationPolicy.getRefundOptions()
-  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions()
-  overload: com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.products
-  summary: Gets the refund options that can apply to this cancellation policy.
+  - "java"
+  name: "getRefundOptions()"
+  nameWithType: "CancellationPolicy.getRefundOptions()"
+  fullName: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions()"
+  overload: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.products"
+  summary: "Gets the refund options that can apply to this cancellation policy."
   syntax:
-    content: public Iterable<CancellationRefundOption> getRefundOptions()
+    content: "public Iterable<CancellationRefundOption> getRefundOptions()"
     return:
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>
-      description: The refund options that can apply to this cancellation policy.
-- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions(java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>)
-  id: setRefundOptions(java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.products.CancellationPolicy
+      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>"
+      description: "The refund options that can apply to this cancellation policy."
+- uid: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions(java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>)"
+  id: "setRefundOptions(java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>)"
+  parent: "com.microsoft.store.partnercenter.models.products.CancellationPolicy"
   langs:
-  - java
-  name: setRefundOptions(Iterable<CancellationRefundOption> value)
-  nameWithType: CancellationPolicy.setRefundOptions(Iterable<CancellationRefundOption> value)
-  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions(Iterable<CancellationRefundOption> value)
-  overload: com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.products
-  summary: Sets the refund options that can apply to this cancellation policy.
+  - "java"
+  name: "setRefundOptions(Iterable<CancellationRefundOption> value)"
+  nameWithType: "CancellationPolicy.setRefundOptions(Iterable<CancellationRefundOption> value)"
+  fullName: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions(Iterable<CancellationRefundOption> value)"
+  overload: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.products"
+  summary: "Sets the refund options that can apply to this cancellation policy."
   syntax:
-    content: public void setRefundOptions(Iterable<CancellationRefundOption> value)
+    content: "public void setRefundOptions(Iterable<CancellationRefundOption> value)"
     parameters:
-    - id: value
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>
-      description: The refund options that can apply to this cancellation policy.
+    - id: "value"
+      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>"
+      description: "The refund options that can apply to this cancellation policy."
 references:
-- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy*
-  name: CancellationPolicy
-  nameWithType: CancellationPolicy.CancellationPolicy
-  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy
-  package: com.microsoft.store.partnercenter.models.products
-- uid: java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>
+- uid: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy*"
+  name: "CancellationPolicy"
+  nameWithType: "CancellationPolicy.CancellationPolicy"
+  fullName: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.CancellationPolicy"
+  package: "com.microsoft.store.partnercenter.models.products"
+- uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.products.CancellationRefundOption>"
   spec.java:
-  - uid: java.lang.Iterable
-    name: Iterable
-    fullName: java.lang.Iterable
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.products.CancellationRefundOption
-    name: CancellationRefundOption
-    fullName: com.microsoft.store.partnercenter.models.products.CancellationRefundOption
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions*
-  name: getRefundOptions
-  nameWithType: CancellationPolicy.getRefundOptions
-  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions
-  package: com.microsoft.store.partnercenter.models.products
-- uid: com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions*
-  name: setRefundOptions
-  nameWithType: CancellationPolicy.setRefundOptions
-  fullName: com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions
-  package: com.microsoft.store.partnercenter.models.products
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.models.products.CancellationRefundOption
-  name: CancellationRefundOption
-  nameWithType: CancellationRefundOption
-  fullName: com.microsoft.store.partnercenter.models.products.CancellationRefundOption
-- uid: java.lang.Iterable
-  name: Iterable
-  nameWithType: Iterable
-  fullName: java.lang.Iterable
+  - uid: "java.lang.Iterable"
+    name: "Iterable"
+    fullName: "java.lang.Iterable"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.products.CancellationRefundOption"
+    name: "CancellationRefundOption"
+    fullName: "com.microsoft.store.partnercenter.models.products.CancellationRefundOption"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions*"
+  name: "getRefundOptions"
+  nameWithType: "CancellationPolicy.getRefundOptions"
+  fullName: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.getRefundOptions"
+  package: "com.microsoft.store.partnercenter.models.products"
+- uid: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions*"
+  name: "setRefundOptions"
+  nameWithType: "CancellationPolicy.setRefundOptions"
+  fullName: "com.microsoft.store.partnercenter.models.products.CancellationPolicy.setRefundOptions"
+  package: "com.microsoft.store.partnercenter.models.products"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Object.finalize()"
+  name: "Object.finalize()"
+  nameWithType: "Object.finalize()"
+  fullName: "java.lang.Object.finalize()"
+- uid: "java.lang.Object.clone()"
+  name: "Object.clone()"
+  nameWithType: "Object.clone()"
+  fullName: "java.lang.Object.clone()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Object.equals(java.lang.Object)"
+  name: "Object.equals(Object)"
+  nameWithType: "Object.equals(Object)"
+  fullName: "java.lang.Object.equals(java.lang.Object)"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Object.hashCode()"
+  name: "Object.hashCode()"
+  nameWithType: "Object.hashCode()"
+  fullName: "java.lang.Object.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "java.lang.Object.toString()"
+  name: "Object.toString()"
+  nameWithType: "Object.toString()"
+  fullName: "java.lang.Object.toString()"
+- uid: "com.microsoft.store.partnercenter.models.products.CancellationRefundOption"
+  name: "CancellationRefundOption"
+  nameWithType: "CancellationRefundOption"
+  fullName: "com.microsoft.store.partnercenter.models.products.CancellationRefundOption"
+- uid: "java.lang.Iterable"
+  name: "Iterable"
+  nameWithType: "Iterable"
+  fullName: "java.lang.Iterable"

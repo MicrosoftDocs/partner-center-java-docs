@@ -1,277 +1,269 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.ContractType
-  id: ContractType
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models
+- uid: "com.microsoft.store.partnercenter.models.ContractType"
+  id: "ContractType"
+  parent: "com.microsoft.store.partnercenter.models"
   children:
-  - com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY
-  - com.microsoft.store.partnercenter.models.ContractType.REDEMPTIONCODE
-  - com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION
-  - com.microsoft.store.partnercenter.models.ContractType.toString()
-  - com.microsoft.store.partnercenter.models.ContractType.valueOf(java.lang.String)
-  - com.microsoft.store.partnercenter.models.ContractType.values()
+  - "com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY"
+  - "com.microsoft.store.partnercenter.models.ContractType.REDEMPTIONCODE"
+  - "com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION"
+  - "com.microsoft.store.partnercenter.models.ContractType.toString()"
+  - "com.microsoft.store.partnercenter.models.ContractType.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.ContractType.values()"
   langs:
-  - java
-  name: ContractType
-  nameWithType: ContractType
-  fullName: com.microsoft.store.partnercenter.models.ContractType
-  type: Enum
-  package: com.microsoft.store.partnercenter.models
+  - "java"
+  name: "ContractType"
+  nameWithType: "ContractType"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType"
+  type: "Enum"
+  package: "com.microsoft.store.partnercenter.models"
   syntax:
-    content: public enum ContractType extends Enum<ContractType>
+    content: "public enum ContractType extends Enum<ContractType>"
   inheritance:
-  - java.lang.Object
-  - java.lang.Enum
+  - "java.lang.Object"
+  - "java.lang.Enum"
   inheritedMembers:
-  - java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  - java.lang.Enum.clone()
-  - java.lang.Enum.compareTo(E)
-  - java.lang.Enum.equals(java.lang.Object)
-  - java.lang.Enum.finalize()
-  - java.lang.Enum.getDeclaringClass()
-  - java.lang.Enum.hashCode()
-  - java.lang.Enum.name()
-  - java.lang.Enum.ordinal()
-  - java.lang.Enum.toString()
-  - java.lang.Object.getClass()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.ContractType.ContractType(java.lang.String)
-  id: ContractType(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ContractType
+  - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+  - "java.lang.Enum.clone()"
+  - "java.lang.Enum.compareTo(E)"
+  - "java.lang.Enum.equals(java.lang.Object)"
+  - "java.lang.Enum.finalize()"
+  - "java.lang.Enum.getDeclaringClass()"
+  - "java.lang.Enum.hashCode()"
+  - "java.lang.Enum.name()"
+  - "java.lang.Enum.ordinal()"
+  - "java.lang.Enum.toString()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.ContractType(java.lang.String)"
+  id: "ContractType(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.ContractType"
   langs:
-  - java
-  name: ContractType(String value)
-  nameWithType: ContractType.ContractType(String value)
-  fullName: com.microsoft.store.partnercenter.models.ContractType.ContractType(String value)
-  overload: com.microsoft.store.partnercenter.models.ContractType.ContractType*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models
+  - "java"
+  name: "ContractType(String value)"
+  nameWithType: "ContractType.ContractType(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.ContractType(String value)"
+  overload: "com.microsoft.store.partnercenter.models.ContractType.ContractType*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models"
   syntax:
-    content: private ContractType(String value)
+    content: "private ContractType(String value)"
     parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY
-  id: PRODUCTKEY
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ContractType
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY"
+  id: "PRODUCTKEY"
+  parent: "com.microsoft.store.partnercenter.models.ContractType"
   langs:
-  - java
-  name: PRODUCTKEY
-  nameWithType: ContractType.PRODUCTKEY
-  fullName: com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY
-  type: Field
-  package: com.microsoft.store.partnercenter.models
-  summary: Refers to a contract which provides a product key result for the order item placed
+  - "java"
+  name: "PRODUCTKEY"
+  nameWithType: "ContractType.PRODUCTKEY"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Refers to a contract which provides a product key result for the order item placed"
   syntax:
-    content: public static final ContractType PRODUCTKEY
+    content: "public static final ContractType PRODUCTKEY"
     return:
-      type: com.microsoft.store.partnercenter.models.ContractType
-- uid: com.microsoft.store.partnercenter.models.ContractType.REDEMPTIONCODE
-  id: REDEMPTIONCODE
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ContractType
+      type: "com.microsoft.store.partnercenter.models.ContractType"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.REDEMPTIONCODE"
+  id: "REDEMPTIONCODE"
+  parent: "com.microsoft.store.partnercenter.models.ContractType"
   langs:
-  - java
-  name: REDEMPTIONCODE
-  nameWithType: ContractType.REDEMPTIONCODE
-  fullName: com.microsoft.store.partnercenter.models.ContractType.REDEMPTIONCODE
-  type: Field
-  package: com.microsoft.store.partnercenter.models
-  summary: Refers to a contract which provides Redemption code result for the order item placed.
+  - "java"
+  name: "REDEMPTIONCODE"
+  nameWithType: "ContractType.REDEMPTIONCODE"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.REDEMPTIONCODE"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Refers to a contract which provides Redemption code result for the order item placed."
   syntax:
-    content: public static final ContractType REDEMPTIONCODE
+    content: "public static final ContractType REDEMPTIONCODE"
     return:
-      type: com.microsoft.store.partnercenter.models.ContractType
-- uid: com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION
-  id: SUBSCRIPTION
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ContractType
+      type: "com.microsoft.store.partnercenter.models.ContractType"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION"
+  id: "SUBSCRIPTION"
+  parent: "com.microsoft.store.partnercenter.models.ContractType"
   langs:
-  - java
-  name: SUBSCRIPTION
-  nameWithType: ContractType.SUBSCRIPTION
-  fullName: com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION
-  type: Field
-  package: com.microsoft.store.partnercenter.models
-  summary: Describes the type of contract Refers to a contract which provides subscription for the order item placed
+  - "java"
+  name: "SUBSCRIPTION"
+  nameWithType: "ContractType.SUBSCRIPTION"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Describes the type of contract Refers to a contract which provides subscription for the order item placed"
   syntax:
-    content: public static final ContractType SUBSCRIPTION
+    content: "public static final ContractType SUBSCRIPTION"
     return:
-      type: com.microsoft.store.partnercenter.models.ContractType
-- uid: com.microsoft.store.partnercenter.models.ContractType.toString()
-  id: toString()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ContractType
+      type: "com.microsoft.store.partnercenter.models.ContractType"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.ContractType"
   langs:
-  - java
-  name: toString()
-  nameWithType: ContractType.toString()
-  fullName: com.microsoft.store.partnercenter.models.ContractType.toString()
-  overload: com.microsoft.store.partnercenter.models.ContractType.toString*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
-  summary: Converts the object to a string.
+  - "java"
+  name: "toString()"
+  nameWithType: "ContractType.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.toString()"
+  overload: "com.microsoft.store.partnercenter.models.ContractType.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Converts the object to a string."
   syntax:
-    content: public String toString()
+    content: "public String toString()"
     return:
-      type: java.lang.String
-      description: A string that represents this object.
-- uid: com.microsoft.store.partnercenter.models.ContractType.valueOf(java.lang.String)
-  id: valueOf(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ContractType
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.ContractType.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.ContractType"
   langs:
-  - java
-  name: valueOf(String name)
-  nameWithType: ContractType.valueOf(String name)
-  fullName: com.microsoft.store.partnercenter.models.ContractType.valueOf(String name)
-  overload: com.microsoft.store.partnercenter.models.ContractType.valueOf*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "ContractType.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.ContractType.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
   syntax:
-    content: public static ContractType valueOf(String name)
+    content: "public static ContractType valueOf(String name)"
     parameters:
-    - id: name
-      type: java.lang.String
+    - id: "name"
+      type: "java.lang.String"
     return:
-      type: com.microsoft.store.partnercenter.models.ContractType
-- uid: com.microsoft.store.partnercenter.models.ContractType.values()
-  id: values()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ContractType
+      type: "com.microsoft.store.partnercenter.models.ContractType"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.ContractType"
   langs:
-  - java
-  name: values()
-  nameWithType: ContractType.values()
-  fullName: com.microsoft.store.partnercenter.models.ContractType.values()
-  overload: com.microsoft.store.partnercenter.models.ContractType.values*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
+  - "java"
+  name: "values()"
+  nameWithType: "ContractType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.values()"
+  overload: "com.microsoft.store.partnercenter.models.ContractType.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
   syntax:
-    content: public static ContractType[] values()
+    content: "public static ContractType[] values()"
     return:
-      type: com.microsoft.store.partnercenter.models.ContractType[]
+      type: "com.microsoft.store.partnercenter.models.ContractType[]"
 references:
-- uid: java.lang.String
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.ContractType.ContractType*
-  name: ContractType
-  nameWithType: ContractType.ContractType
-  fullName: com.microsoft.store.partnercenter.models.ContractType.ContractType
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.ContractType[]
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.ContractType*"
+  name: "ContractType"
+  nameWithType: "ContractType.ContractType"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.ContractType"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "com.microsoft.store.partnercenter.models.ContractType[]"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ContractType
-    name: ContractType
-    fullName: com.microsoft.store.partnercenter.models.ContractType
-  - name: '[]'
-    fullName: '[]'
-- uid: com.microsoft.store.partnercenter.models.ContractType.values*
-  name: values
-  nameWithType: ContractType.values
-  fullName: com.microsoft.store.partnercenter.models.ContractType.values
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.ContractType.valueOf*
-  name: valueOf
-  nameWithType: ContractType.valueOf
-  fullName: com.microsoft.store.partnercenter.models.ContractType.valueOf
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.ContractType.toString*
-  name: toString
-  nameWithType: ContractType.toString
-  fullName: com.microsoft.store.partnercenter.models.ContractType.toString
-  package: com.microsoft.store.partnercenter.models
-- uid: java.lang.Enum<com.microsoft.store.partnercenter.models.ContractType>
-  name: Enum<ContractType>
-  nameWithType: Enum<ContractType>
-  fullName: java.lang.Enum<com.microsoft.store.partnercenter.models.ContractType>
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Enum.toString()
-  name: Enum.toString()
-  nameWithType: Enum.toString()
-  fullName: java.lang.Enum.toString()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Enum.clone()
-  name: Enum.clone()
-  nameWithType: Enum.clone()
-  fullName: java.lang.Enum.clone()
-- uid: java.lang.Enum.finalize()
-  name: Enum.finalize()
-  nameWithType: Enum.finalize()
-  fullName: java.lang.Enum.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Enum.compareTo(E)
-  name: Enum.compareTo(E)
-  nameWithType: Enum.compareTo(E)
-  fullName: java.lang.Enum.compareTo(E)
-- uid: java.lang.Enum.name()
-  name: Enum.name()
-  nameWithType: Enum.name()
-  fullName: java.lang.Enum.name()
-- uid: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  name: Enum.<T>valueOf(Class<T>,String)
-  nameWithType: Enum.<T>valueOf(Class<T>,String)
-  fullName: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Enum.getDeclaringClass()
-  name: Enum.getDeclaringClass()
-  nameWithType: Enum.getDeclaringClass()
-  fullName: java.lang.Enum.getDeclaringClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Enum.ordinal()
-  name: Enum.ordinal()
-  nameWithType: Enum.ordinal()
-  fullName: java.lang.Enum.ordinal()
-- uid: java.lang.Enum.hashCode()
-  name: Enum.hashCode()
-  nameWithType: Enum.hashCode()
-  fullName: java.lang.Enum.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Enum.equals(java.lang.Object)
-  name: Enum.equals(Object)
-  nameWithType: Enum.equals(Object)
-  fullName: java.lang.Enum.equals(java.lang.Object)
-- uid: java.lang.Enum
-  name: Enum
-  nameWithType: Enum
-  fullName: java.lang.Enum
-- uid: java.lang.Enum.
-  name: Enum.
-  nameWithType: Enum.
-  fullName: java.lang.Enum.
-- uid: T>,java.lang.String)
-  name: T>,String)
-  nameWithType: T>,String)
-  fullName: T>,java.lang.String)
-- uid: T>valueOf(java.lang.Class
-  name: T>valueOf(Class
-  nameWithType: T>valueOf(Class
-  fullName: T>valueOf(java.lang.Class
+  - uid: "com.microsoft.store.partnercenter.models.ContractType"
+    name: "ContractType"
+    fullName: "com.microsoft.store.partnercenter.models.ContractType"
+  - name: "[]"
+    fullName: "[]"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.values*"
+  name: "values"
+  nameWithType: "ContractType.values"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.values"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.valueOf*"
+  name: "valueOf"
+  nameWithType: "ContractType.valueOf"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.valueOf"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.toString*"
+  name: "toString"
+  nameWithType: "ContractType.toString"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.toString"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.ContractType>"
+  name: "Enum<ContractType>"
+  nameWithType: "Enum<ContractType>"
+  fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.ContractType>"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "java.lang.Enum.toString()"
+  name: "Enum.toString()"
+  nameWithType: "Enum.toString()"
+  fullName: "java.lang.Enum.toString()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Enum.clone()"
+  name: "Enum.clone()"
+  nameWithType: "Enum.clone()"
+  fullName: "java.lang.Enum.clone()"
+- uid: "java.lang.Enum.finalize()"
+  name: "Enum.finalize()"
+  nameWithType: "Enum.finalize()"
+  fullName: "java.lang.Enum.finalize()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Enum.compareTo(E)"
+  name: "Enum.compareTo(E)"
+  nameWithType: "Enum.compareTo(E)"
+  fullName: "java.lang.Enum.compareTo(E)"
+- uid: "java.lang.Enum.name()"
+  name: "Enum.name()"
+  nameWithType: "Enum.name()"
+  fullName: "java.lang.Enum.name()"
+- uid: "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+  name: "Enum.<T>valueOf(Class<T>,String)"
+  nameWithType: "Enum.<T>valueOf(Class<T>,String)"
+  fullName: "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Enum.getDeclaringClass()"
+  name: "Enum.getDeclaringClass()"
+  nameWithType: "Enum.getDeclaringClass()"
+  fullName: "java.lang.Enum.getDeclaringClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Enum.ordinal()"
+  name: "Enum.ordinal()"
+  nameWithType: "Enum.ordinal()"
+  fullName: "java.lang.Enum.ordinal()"
+- uid: "java.lang.Enum.hashCode()"
+  name: "Enum.hashCode()"
+  nameWithType: "Enum.hashCode()"
+  fullName: "java.lang.Enum.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "java.lang.Enum.equals(java.lang.Object)"
+  name: "Enum.equals(Object)"
+  nameWithType: "Enum.equals(Object)"
+  fullName: "java.lang.Enum.equals(java.lang.Object)"
+- uid: "java.lang.Enum"
+  name: "Enum"
+  nameWithType: "Enum"
+  fullName: "java.lang.Enum"
+- uid: "java.lang.Enum."
+  name: "Enum."
+  nameWithType: "Enum."
+  fullName: "java.lang.Enum."
+- uid: "T>,java.lang.String)"
+  name: "T>,String)"
+  nameWithType: "T>,String)"
+  fullName: "T>,java.lang.String)"
+- uid: "T>valueOf(java.lang.Class"
+  name: "T>valueOf(Class"
+  nameWithType: "T>valueOf(Class"
+  fullName: "T>valueOf(java.lang.Class"

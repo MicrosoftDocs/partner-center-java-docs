@@ -1,98 +1,95 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
-  id: ICustomerUsageSpendingBudget
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage
+- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget"
+  id: "ICustomerUsageSpendingBudget"
+  parent: "com.microsoft.store.partnercenter.usage"
   children:
-  - com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()
-  - com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(com.microsoft.store.partnercenter.models.usage.SpendingBudget)
+  - "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()"
+  - "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(com.microsoft.store.partnercenter.models.usage.SpendingBudget)"
   langs:
-  - java
-  name: ICustomerUsageSpendingBudget
-  nameWithType: ICustomerUsageSpendingBudget
-  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
-  type: Interface
-  package: com.microsoft.store.partnercenter.usage
-  summary: This interface defines the operations available on a customer's usage spending budget.
+  - "java"
+  name: "ICustomerUsageSpendingBudget"
+  nameWithType: "ICustomerUsageSpendingBudget"
+  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.usage"
+  summary: "This interface defines the operations available on a customer's usage spending budget."
   syntax:
-    content: public interface ICustomerUsageSpendingBudget extends IPartnerComponentString, IEntityGetOperations<SpendingBudget>, IEntityPatchOperations<SpendingBudget>
+    content: "public interface ICustomerUsageSpendingBudget extends IPartnerComponentString, IEntityGetOperations<SpendingBudget>, IEntityPatchOperations<SpendingBudget>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>
-- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+  - "com.microsoft.store.partnercenter.IPartnerComponentString"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>"
+- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget"
   langs:
-  - java
-  name: get()
-  nameWithType: ICustomerUsageSpendingBudget.get()
-  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()
-  overload: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.usage
-  summary: Retrieves the customer's usage spending budget.
+  - "java"
+  name: "get()"
+  nameWithType: "ICustomerUsageSpendingBudget.get()"
+  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()"
+  overload: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.usage"
+  summary: "Retrieves the customer's usage spending budget."
   syntax:
-    content: public abstract SpendingBudget get()
+    content: "public abstract SpendingBudget get()"
     return:
-      type: com.microsoft.store.partnercenter.models.usage.SpendingBudget
-      description: The customer's usage spending budget.
-- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(com.microsoft.store.partnercenter.models.usage.SpendingBudget)
-  id: patch(com.microsoft.store.partnercenter.models.usage.SpendingBudget)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+      type: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
+      description: "The customer's usage spending budget."
+- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(com.microsoft.store.partnercenter.models.usage.SpendingBudget)"
+  id: "patch(com.microsoft.store.partnercenter.models.usage.SpendingBudget)"
+  parent: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget"
   langs:
-  - java
-  name: patch(SpendingBudget spendingBudget)
-  nameWithType: ICustomerUsageSpendingBudget.patch(SpendingBudget spendingBudget)
-  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(SpendingBudget spendingBudget)
-  overload: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch*
-  type: Method
-  package: com.microsoft.store.partnercenter.usage
-  summary: Patches the customer's usage spending budget.
+  - "java"
+  name: "patch(SpendingBudget spendingBudget)"
+  nameWithType: "ICustomerUsageSpendingBudget.patch(SpendingBudget spendingBudget)"
+  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(SpendingBudget spendingBudget)"
+  overload: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.usage"
+  summary: "Patches the customer's usage spending budget."
   syntax:
-    content: public abstract SpendingBudget patch(SpendingBudget spendingBudget)
+    content: "public abstract SpendingBudget patch(SpendingBudget spendingBudget)"
     parameters:
-    - id: spendingBudget
-      type: com.microsoft.store.partnercenter.models.usage.SpendingBudget
-      description: The new customer's usage spending budget.
+    - id: "spendingBudget"
+      type: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
+      description: "The new customer's usage spending budget."
     return:
-      type: com.microsoft.store.partnercenter.models.usage.SpendingBudget
-      description: The updated customer's usage spending budget.
+      type: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
+      description: "The updated customer's usage spending budget."
 references:
-- uid: com.microsoft.store.partnercenter.models.usage.SpendingBudget
-  name: SpendingBudget
-  nameWithType: SpendingBudget
-  fullName: com.microsoft.store.partnercenter.models.usage.SpendingBudget
-- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get*
-  name: get
-  nameWithType: ICustomerUsageSpendingBudget.get
-  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get
-  package: com.microsoft.store.partnercenter.usage
-- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch*
-  name: patch
-  nameWithType: ICustomerUsageSpendingBudget.patch
-  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch
-  package: com.microsoft.store.partnercenter.usage
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>
-  name: IEntityGetOperations<SpendingBudget>
-  nameWithType: IEntityGetOperations<SpendingBudget>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>
-  name: IEntityPatchOperations<SpendingBudget>
-  nameWithType: IEntityPatchOperations<SpendingBudget>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
-  name: IEntityPatchOperations
-  nameWithType: IEntityPatchOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
+- uid: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
+  name: "SpendingBudget"
+  nameWithType: "SpendingBudget"
+  fullName: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
+- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get*"
+  name: "get"
+  nameWithType: "ICustomerUsageSpendingBudget.get"
+  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get"
+  package: "com.microsoft.store.partnercenter.usage"
+- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch*"
+  name: "patch"
+  nameWithType: "ICustomerUsageSpendingBudget.patch"
+  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch"
+  package: "com.microsoft.store.partnercenter.usage"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  name: "IPartnerComponentString"
+  nameWithType: "IPartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>"
+  name: "IEntityGetOperations<SpendingBudget>"
+  nameWithType: "IEntityGetOperations<SpendingBudget>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>"
+  name: "IEntityPatchOperations<SpendingBudget>"
+  nameWithType: "IEntityPatchOperations<SpendingBudget>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+  name: "IEntityGetOperations"
+  nameWithType: "IEntityGetOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
+  name: "IEntityPatchOperations"
+  nameWithType: "IEntityPatchOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"

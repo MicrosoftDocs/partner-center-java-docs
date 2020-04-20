@@ -1,112 +1,109 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
-  id: ICustomerProfileCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.profiles
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
+  id: "ICustomerProfileCollection"
+  parent: "com.microsoft.store.partnercenter.customers.profiles"
   children:
-  - com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling()
-  - com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany()
+  - "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling()"
+  - "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany()"
   langs:
-  - java
-  name: ICustomerProfileCollection
-  nameWithType: ICustomerProfileCollection
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.customers.profiles
-  summary: Represents customer profiles behavior.
+  - "java"
+  name: "ICustomerProfileCollection"
+  nameWithType: "ICustomerProfileCollection"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
+  summary: "Represents customer profiles behavior."
   syntax:
-    content: public interface ICustomerProfileCollection extends IPartnerComponentString
+    content: "public interface ICustomerProfileCollection extends IPartnerComponentString"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling()
-  id: getBilling()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
+  - "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling()"
+  id: "getBilling()"
+  parent: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
   langs:
-  - java
-  name: getBilling()
-  nameWithType: ICustomerProfileCollection.getBilling()
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling()
-  overload: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling*
-  type: Method
-  package: com.microsoft.store.partnercenter.customers.profiles
-  summary: Gets the customer's billing profile operations.
+  - "java"
+  name: "getBilling()"
+  nameWithType: "ICustomerProfileCollection.getBilling()"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling()"
+  overload: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
+  summary: "Gets the customer's billing profile operations."
   syntax:
-    content: public abstract ICustomerProfile<CustomerBillingProfile> getBilling()
+    content: "public abstract ICustomerProfile<CustomerBillingProfile> getBilling()"
     return:
-      type: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>
-      description: The customer's billing profile operations.
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany()
-  id: getCompany()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
+      type: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>"
+      description: "The customer's billing profile operations."
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany()"
+  id: "getCompany()"
+  parent: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
   langs:
-  - java
-  name: getCompany()
-  nameWithType: ICustomerProfileCollection.getCompany()
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany()
-  overload: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany*
-  type: Method
-  package: com.microsoft.store.partnercenter.customers.profiles
-  summary: Gets the customer's company profile operations.
+  - "java"
+  name: "getCompany()"
+  nameWithType: "ICustomerProfileCollection.getCompany()"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany()"
+  overload: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
+  summary: "Gets the customer's company profile operations."
   syntax:
-    content: public abstract ICustomerReadonlyProfile<CustomerCompanyProfile> getCompany()
+    content: "public abstract ICustomerReadonlyProfile<CustomerCompanyProfile> getCompany()"
     return:
-      type: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>
-      description: The customer's company profile operations.
+      type: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>"
+      description: "The customer's company profile operations."
 references:
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile
-    name: ICustomerProfile
-    fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile
-    name: CustomerBillingProfile
-    fullName: com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling*
-  name: getBilling
-  nameWithType: ICustomerProfileCollection.getBilling
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling
-  package: com.microsoft.store.partnercenter.customers.profiles
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>
+  - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
+    name: "ICustomerProfile"
+    fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
+    name: "CustomerBillingProfile"
+    fullName: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling*"
+  name: "getBilling"
+  nameWithType: "ICustomerProfileCollection.getBilling"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
-    name: ICustomerReadonlyProfile
-    fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-    name: CustomerCompanyProfile
-    fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany*
-  name: getCompany
-  nameWithType: ICustomerProfileCollection.getCompany
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany
-  package: com.microsoft.store.partnercenter.customers.profiles
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile
-  name: CustomerBillingProfile
-  nameWithType: CustomerBillingProfile
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile
-  name: ICustomerProfile
-  nameWithType: ICustomerProfile
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
-  name: ICustomerReadonlyProfile
-  nameWithType: ICustomerReadonlyProfile
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  name: CustomerCompanyProfile
-  nameWithType: CustomerCompanyProfile
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
+  - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
+    name: "ICustomerReadonlyProfile"
+    fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
+    name: "CustomerCompanyProfile"
+    fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany*"
+  name: "getCompany"
+  nameWithType: "ICustomerProfileCollection.getCompany"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  name: "IPartnerComponentString"
+  nameWithType: "IPartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
+  name: "CustomerBillingProfile"
+  nameWithType: "CustomerBillingProfile"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
+  name: "ICustomerProfile"
+  nameWithType: "ICustomerProfile"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
+  name: "ICustomerReadonlyProfile"
+  nameWithType: "ICustomerReadonlyProfile"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
+  name: "CustomerCompanyProfile"
+  nameWithType: "CustomerCompanyProfile"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"

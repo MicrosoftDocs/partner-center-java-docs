@@ -1,127 +1,123 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification
-  id: ICustomerQualification
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.qualification
+- uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
+  id: "ICustomerQualification"
+  parent: "com.microsoft.store.partnercenter.qualification"
   children:
-  - com.microsoft.store.partnercenter.qualification.ICustomerQualification.get()
-  - com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification)
-  - com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification,com.microsoft.store.partnercenter.models.validationcodes.ValidationCode)
+  - "com.microsoft.store.partnercenter.qualification.ICustomerQualification.get()"
+  - "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification)"
+  - "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification,com.microsoft.store.partnercenter.models.validationcodes.ValidationCode)"
   langs:
-  - java
-  name: ICustomerQualification
-  nameWithType: ICustomerQualification
-  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification
-  type: Interface
-  package: com.microsoft.store.partnercenter.qualification
+  - "java"
+  name: "ICustomerQualification"
+  nameWithType: "ICustomerQualification"
+  fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.qualification"
   syntax:
-    content: public interface ICustomerQualification extends IPartnerComponentString, IEntityGetOperations<CustomerQualification>, IEntityUpdateOperations<CustomerQualification>
+    content: "public interface ICustomerQualification extends IPartnerComponentString, IEntityGetOperations<CustomerQualification>, IEntityUpdateOperations<CustomerQualification>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>
-- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+  - "com.microsoft.store.partnercenter.IPartnerComponentString"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>"
+- uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
   langs:
-  - java
-  name: get()
-  nameWithType: ICustomerQualification.get()
-  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification.get()
-  overload: com.microsoft.store.partnercenter.qualification.ICustomerQualification.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.qualification
-  summary: Retrieves the customer qualification.
+  - "java"
+  name: "get()"
+  nameWithType: "ICustomerQualification.get()"
+  fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.get()"
+  overload: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.qualification"
+  summary: "Retrieves the customer qualification."
   syntax:
-    content: public abstract CustomerQualification get()
+    content: "public abstract CustomerQualification get()"
     return:
-      type: com.microsoft.store.partnercenter.models.customers.CustomerQualification
-      description: Customer Qualification.
-- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification)
-  id: update(com.microsoft.store.partnercenter.models.customers.CustomerQualification)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+      type: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
+      description: "Customer Qualification."
+- uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification)"
+  id: "update(com.microsoft.store.partnercenter.models.customers.CustomerQualification)"
+  parent: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
   langs:
-  - java
-  name: update(CustomerQualification customerQualification)
-  nameWithType: ICustomerQualification.update(CustomerQualification customerQualification)
-  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(CustomerQualification customerQualification)
-  overload: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update*
-  type: Method
-  package: com.microsoft.store.partnercenter.qualification
-  summary: Updates the customer qualification.
+  - "java"
+  name: "update(CustomerQualification customerQualification)"
+  nameWithType: "ICustomerQualification.update(CustomerQualification customerQualification)"
+  fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(CustomerQualification customerQualification)"
+  overload: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.qualification"
+  summary: "Updates the customer qualification."
   syntax:
-    content: public abstract CustomerQualification update(CustomerQualification customerQualification)
+    content: "public abstract CustomerQualification update(CustomerQualification customerQualification)"
     parameters:
-    - id: customerQualification
-      type: com.microsoft.store.partnercenter.models.customers.CustomerQualification
-      description: Customer Qualification.
+    - id: "customerQualification"
+      type: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
+      description: "Customer Qualification."
     return:
-      type: com.microsoft.store.partnercenter.models.customers.CustomerQualification
-      description: The updated customer qualification.
-- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification,com.microsoft.store.partnercenter.models.validationcodes.ValidationCode)
-  id: update(com.microsoft.store.partnercenter.models.customers.CustomerQualification,com.microsoft.store.partnercenter.models.validationcodes.ValidationCode)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+      type: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
+      description: "The updated customer qualification."
+- uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification,com.microsoft.store.partnercenter.models.validationcodes.ValidationCode)"
+  id: "update(com.microsoft.store.partnercenter.models.customers.CustomerQualification,com.microsoft.store.partnercenter.models.validationcodes.ValidationCode)"
+  parent: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
   langs:
-  - java
-  name: update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)
-  nameWithType: ICustomerQualification.update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)
-  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)
-  overload: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update*
-  type: Method
-  package: com.microsoft.store.partnercenter.qualification
-  summary: Updates the customer qualification. Used for GovernmentCommunityCloud with validation code after successful registration through Microsoft.
+  - "java"
+  name: "update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)"
+  nameWithType: "ICustomerQualification.update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)"
+  fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)"
+  overload: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.qualification"
+  summary: "Updates the customer qualification. Used for GovernmentCommunityCloud with validation code after successful registration through Microsoft."
   syntax:
-    content: public abstract CustomerQualification update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)
+    content: "public abstract CustomerQualification update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)"
     parameters:
-    - id: customerQualification
-      type: com.microsoft.store.partnercenter.models.customers.CustomerQualification
-      description: The customer qualification value.
-    - id: governmentCommunityCloudValidationCode
-      type: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-      description: Validation code necessary to complete only Government Community Cloud customer creation.
+    - id: "customerQualification"
+      type: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
+      description: "The customer qualification value."
+    - id: "governmentCommunityCloudValidationCode"
+      type: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
+      description: "Validation code necessary to complete only Government Community Cloud customer creation."
     return:
-      type: com.microsoft.store.partnercenter.models.customers.CustomerQualification
-      description: The updated customer qualification.
+      type: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
+      description: "The updated customer qualification."
 references:
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerQualification
-  name: CustomerQualification
-  nameWithType: CustomerQualification
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerQualification
-- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification.get*
-  name: get
-  nameWithType: ICustomerQualification.get
-  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification.get
-  package: com.microsoft.store.partnercenter.qualification
-- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update*
-  name: update
-  nameWithType: ICustomerQualification.update
-  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update
-  package: com.microsoft.store.partnercenter.qualification
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  name: ValidationCode
-  nameWithType: ValidationCode
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>
-  name: IEntityGetOperations<CustomerQualification>
-  nameWithType: IEntityGetOperations<CustomerQualification>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>
-  name: IEntityUpdateOperations<CustomerQualification>
-  nameWithType: IEntityUpdateOperations<CustomerQualification>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
-  name: IEntityUpdateOperations
-  nameWithType: IEntityUpdateOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
+  name: "CustomerQualification"
+  nameWithType: "CustomerQualification"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
+- uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.get*"
+  name: "get"
+  nameWithType: "ICustomerQualification.get"
+  fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.get"
+  package: "com.microsoft.store.partnercenter.qualification"
+- uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update*"
+  name: "update"
+  nameWithType: "ICustomerQualification.update"
+  fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update"
+  package: "com.microsoft.store.partnercenter.qualification"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
+  name: "ValidationCode"
+  nameWithType: "ValidationCode"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>"
+  name: "IEntityGetOperations<CustomerQualification>"
+  nameWithType: "IEntityGetOperations<CustomerQualification>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  name: "IPartnerComponentString"
+  nameWithType: "IPartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>"
+  name: "IEntityUpdateOperations<CustomerQualification>"
+  nameWithType: "IEntityUpdateOperations<CustomerQualification>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+  name: "IEntityGetOperations"
+  nameWithType: "IEntityGetOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
+  name: "IEntityUpdateOperations"
+  nameWithType: "IEntityUpdateOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"

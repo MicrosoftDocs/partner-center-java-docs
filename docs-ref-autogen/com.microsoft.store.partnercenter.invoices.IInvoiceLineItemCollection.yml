@@ -1,111 +1,108 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
-  id: IInvoiceLineItemCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices
+- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection"
+  id: "IInvoiceLineItemCollection"
+  parent: "com.microsoft.store.partnercenter.invoices"
   children:
-  - com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get()
-  - com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get(int,int)
+  - "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get()"
+  - "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get(int,int)"
   langs:
-  - java
-  name: IInvoiceLineItemCollection
-  nameWithType: IInvoiceLineItemCollection
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.invoices
+  - "java"
+  name: "IInvoiceLineItemCollection"
+  nameWithType: "IInvoiceLineItemCollection"
+  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.invoices"
   syntax:
-    content: public interface IInvoiceLineItemCollection extends IPartnerComponentString, IEntityCollectionRetrievalOperations<InvoiceLineItem,ResourceCollection<InvoiceLineItem>>
+    content: "public interface IInvoiceLineItemCollection extends IPartnerComponentString, IEntityCollectionRetrievalOperations<InvoiceLineItem,ResourceCollection<InvoiceLineItem>>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>
-- uid: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
+  - "com.microsoft.store.partnercenter.IPartnerComponentString"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
+- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection"
   langs:
-  - java
-  name: get()
-  nameWithType: IInvoiceLineItemCollection.get()
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get()
-  overload: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Retrieves invoice line items for a specific billing provider and invoice line item type
+  - "java"
+  name: "get()"
+  nameWithType: "IInvoiceLineItemCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get()"
+  overload: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.invoices"
+  summary: "Retrieves invoice line items for a specific billing provider and invoice line item type"
   syntax:
-    content: public abstract ResourceCollection<InvoiceLineItem> get()
+    content: "public abstract ResourceCollection<InvoiceLineItem> get()"
     return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>
-      description: The collection of invoice line items.
-- uid: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get(int,int)
-  id: get(int,int)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection
+      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>"
+      description: "The collection of invoice line items."
+- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get(int,int)"
+  id: "get(int,int)"
+  parent: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection"
   langs:
-  - java
-  name: get(int size, int offset)
-  nameWithType: IInvoiceLineItemCollection.get(int size, int offset)
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get(int size, int offset)
-  overload: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Retrieves a subset of invoice line items for a specific billing provider and invoice line item type
+  - "java"
+  name: "get(int size, int offset)"
+  nameWithType: "IInvoiceLineItemCollection.get(int size, int offset)"
+  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get(int size, int offset)"
+  overload: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.invoices"
+  summary: "Retrieves a subset of invoice line items for a specific billing provider and invoice line item type"
   syntax:
-    content: public abstract ResourceCollection<InvoiceLineItem> get(int size, int offset)
+    content: "public abstract ResourceCollection<InvoiceLineItem> get(int size, int offset)"
     parameters:
-    - id: size
-      type: int
-      description: The maximum number of invoice line items to return.
-    - id: offset
-      type: int
-      description: The page offset.
+    - id: "size"
+      type: "int"
+      description: "The maximum number of invoice line items to return."
+    - id: "offset"
+      type: "int"
+      description: "The page offset."
     return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>
-      description: The subset of invoice line items.
+      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>"
+      description: "The subset of invoice line items."
 references:
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
-    name: InvoiceLineItem
-    fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get*
-  name: get
-  nameWithType: IInvoiceLineItemCollection.get
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get
-  package: com.microsoft.store.partnercenter.invoices
-- uid: int
+  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+    name: "InvoiceLineItem"
+    fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get*"
+  name: "get"
+  nameWithType: "IInvoiceLineItemCollection.get"
+  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get"
+  package: "com.microsoft.store.partnercenter.invoices"
+- uid: "int"
   spec.java:
-  - uid: int
-    name: int
-    fullName: int
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>
-  name: IEntityCollectionRetrievalOperations<InvoiceLineItem,ResourceCollection<InvoiceLineItem>>
-  nameWithType: IEntityCollectionRetrievalOperations<InvoiceLineItem,ResourceCollection<InvoiceLineItem>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
-  name: InvoiceLineItem
-  nameWithType: InvoiceLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: InvoiceLineItem,ResourceCollection
-  nameWithType: InvoiceLineItem,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations
-  name: IEntityCollectionRetrievalOperations
-  nameWithType: IEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations
+  - uid: "int"
+    name: "int"
+    fullName: "int"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  name: "IPartnerComponentString"
+  nameWithType: "IPartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
+  name: "IEntityCollectionRetrievalOperations<InvoiceLineItem,ResourceCollection<InvoiceLineItem>>"
+  nameWithType: "IEntityCollectionRetrievalOperations<InvoiceLineItem,ResourceCollection<InvoiceLineItem>>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+  name: "InvoiceLineItem"
+  nameWithType: "InvoiceLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "ResourceCollection"
+  nameWithType: "ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "InvoiceLineItem,ResourceCollection"
+  nameWithType: "InvoiceLineItem,ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations"
+  name: "IEntityCollectionRetrievalOperations"
+  nameWithType: "IEntityCollectionRetrievalOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations"

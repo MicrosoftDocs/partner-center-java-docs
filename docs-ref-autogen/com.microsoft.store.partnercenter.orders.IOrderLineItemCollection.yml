@@ -1,48 +1,47 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
-  id: IOrderLineItemCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.orders
+- uid: "com.microsoft.store.partnercenter.orders.IOrderLineItemCollection"
+  id: "IOrderLineItemCollection"
+  parent: "com.microsoft.store.partnercenter.orders"
   langs:
-  - java
-  name: IOrderLineItemCollection
-  nameWithType: IOrderLineItemCollection
-  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.orders
-  summary: Represents the available order line item collection operations.
+  - "java"
+  name: "IOrderLineItemCollection"
+  nameWithType: "IOrderLineItemCollection"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItemCollection"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.orders"
+  summary: "Represents the available order line item collection operations."
   syntax:
-    content: public interface IOrderLineItemCollection extends IPartnerComponent<Tuple<String,String>>, IEntitySelector<Integer,IOrderLineItem>
+    content: "public interface IOrderLineItemCollection extends IPartnerComponent<Tuple<String,String>>, IEntitySelector<Integer,IOrderLineItem>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem>
+  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem>"
 references:
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem>
-  name: IEntitySelector<Integer,IOrderLineItem>
-  nameWithType: IEntitySelector<Integer,IOrderLineItem>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  name: IEntitySelector
-  nameWithType: IEntitySelector
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-- uid: java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem
-  name: Integer,IOrderLineItem
-  nameWithType: Integer,IOrderLineItem
-  fullName: java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  name: "IPartnerComponent<Tuple<String,String>>"
+  nameWithType: "IPartnerComponent<Tuple<String,String>>"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem>"
+  name: "IEntitySelector<Integer,IOrderLineItem>"
+  nameWithType: "IEntitySelector<Integer,IOrderLineItem>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem>"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
+  name: "IPartnerComponent"
+  nameWithType: "IPartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  name: "Tuple"
+  nameWithType: "Tuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
+- uid: "java.lang.String,java.lang.String"
+  name: "String,String"
+  nameWithType: "String,String"
+  fullName: "java.lang.String,java.lang.String"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
+  name: "IEntitySelector"
+  nameWithType: "IEntitySelector"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
+- uid: "java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem"
+  name: "Integer,IOrderLineItem"
+  nameWithType: "Integer,IOrderLineItem"
+  fullName: "java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem"

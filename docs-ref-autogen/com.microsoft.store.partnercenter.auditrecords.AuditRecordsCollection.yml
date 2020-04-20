@@ -1,183 +1,180 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection
-  id: AuditRecordsCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.auditrecords
+- uid: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection"
+  id: "AuditRecordsCollection"
+  parent: "com.microsoft.store.partnercenter.auditrecords"
   children:
-  - com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection(com.microsoft.store.partnercenter.IPartner)
-  - com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.query.IQuery)
+  - "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection(com.microsoft.store.partnercenter.IPartner)"
+  - "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.query.IQuery)"
   langs:
-  - java
-  name: AuditRecordsCollection
-  nameWithType: AuditRecordsCollection
-  fullName: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection
-  type: Class
-  package: com.microsoft.store.partnercenter.auditrecords
-  summary: An Implementation of `IAuditRecordsCollection` for handling common partner component properties and behavior. See parent class `BasePartnerComponentString` for additional details.
+  - "java"
+  name: "AuditRecordsCollection"
+  nameWithType: "AuditRecordsCollection"
+  fullName: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.auditrecords"
+  summary: "An Implementation of `IAuditRecordsCollection` for handling common partner component properties and behavior. See parent class `BasePartnerComponentString` for additional details."
   syntax:
-    content: public class AuditRecordsCollection extends BasePartnerComponentString implements IAuditRecordsCollection
+    content: "public class AuditRecordsCollection extends BasePartnerComponentString implements IAuditRecordsCollection"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
-  - com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
+  - "com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection(com.microsoft.store.partnercenter.IPartner)
-  id: AuditRecordsCollection(com.microsoft.store.partnercenter.IPartner)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection
+  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection(com.microsoft.store.partnercenter.IPartner)"
+  id: "AuditRecordsCollection(com.microsoft.store.partnercenter.IPartner)"
+  parent: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection"
   langs:
-  - java
-  name: AuditRecordsCollection(IPartner rootPartnerOperations)
-  nameWithType: AuditRecordsCollection.AuditRecordsCollection(IPartner rootPartnerOperations)
-  fullName: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection(IPartner rootPartnerOperations)
-  overload: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.auditrecords
+  - "java"
+  name: "AuditRecordsCollection(IPartner rootPartnerOperations)"
+  nameWithType: "AuditRecordsCollection.AuditRecordsCollection(IPartner rootPartnerOperations)"
+  fullName: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection(IPartner rootPartnerOperations)"
+  overload: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.auditrecords"
   syntax:
-    content: public AuditRecordsCollection(IPartner rootPartnerOperations)
+    content: "public AuditRecordsCollection(IPartner rootPartnerOperations)"
     parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-- uid: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.query.IQuery)
-  id: query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.query.IQuery)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection
+    - id: "rootPartnerOperations"
+      type: "com.microsoft.store.partnercenter.IPartner"
+- uid: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.query.IQuery)"
+  id: "query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.query.IQuery)"
+  parent: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection"
   langs:
-  - java
-  name: query(DateTime startDate, DateTime endDate, IQuery query)
-  nameWithType: AuditRecordsCollection.query(DateTime startDate, DateTime endDate, IQuery query)
-  fullName: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query(DateTime startDate, DateTime endDate, IQuery query)
-  overload: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query*
-  type: Method
-  package: com.microsoft.store.partnercenter.auditrecords
+  - "java"
+  name: "query(DateTime startDate, DateTime endDate, IQuery query)"
+  nameWithType: "AuditRecordsCollection.query(DateTime startDate, DateTime endDate, IQuery query)"
+  fullName: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query(DateTime startDate, DateTime endDate, IQuery query)"
+  overload: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.auditrecords"
   syntax:
-    content: public SeekBasedResourceCollection<AuditRecord> query(DateTime startDate, DateTime endDate, IQuery query)
+    content: "public SeekBasedResourceCollection<AuditRecord> query(DateTime startDate, DateTime endDate, IQuery query)"
     parameters:
-    - id: startDate
-      type: org.joda.time.DateTime
-    - id: endDate
-      type: org.joda.time.DateTime
-    - id: query
-      type: com.microsoft.store.partnercenter.models.query.IQuery
+    - id: "startDate"
+      type: "org.joda.time.DateTime"
+    - id: "endDate"
+      type: "org.joda.time.DateTime"
+    - id: "query"
+      type: "com.microsoft.store.partnercenter.models.query.IQuery"
     return:
-      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>
+      type: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>"
 references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection*
-  name: AuditRecordsCollection
-  nameWithType: AuditRecordsCollection.AuditRecordsCollection
-  fullName: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection
-  package: com.microsoft.store.partnercenter.auditrecords
-- uid: org.joda.time.DateTime
+- uid: "com.microsoft.store.partnercenter.IPartner"
+  name: "IPartner"
+  nameWithType: "IPartner"
+  fullName: "com.microsoft.store.partnercenter.IPartner"
+- uid: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection*"
+  name: "AuditRecordsCollection"
+  nameWithType: "AuditRecordsCollection.AuditRecordsCollection"
+  fullName: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection"
+  package: "com.microsoft.store.partnercenter.auditrecords"
+- uid: "org.joda.time.DateTime"
   spec.java:
-  - uid: org.joda.time.DateTime
-    name: DateTime
-    fullName: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.query.IQuery
-  name: IQuery
-  nameWithType: IQuery
-  fullName: com.microsoft.store.partnercenter.models.query.IQuery
-- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>
+  - uid: "org.joda.time.DateTime"
+    name: "DateTime"
+    fullName: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.query.IQuery"
+  name: "IQuery"
+  nameWithType: "IQuery"
+  fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
+- uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
-    name: SeekBasedResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.auditing.AuditRecord
-    name: AuditRecord
-    fullName: com.microsoft.store.partnercenter.models.auditing.AuditRecord
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query*
-  name: query
-  nameWithType: AuditRecordsCollection.query
-  fullName: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query
-  package: com.microsoft.store.partnercenter.auditrecords
-- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
-  name: BasePartnerComponentString
-  nameWithType: BasePartnerComponentString
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
-- uid: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
-  name: IAuditRecordsCollection
-  nameWithType: IAuditRecordsCollection
-  fullName: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
-  name: SeekBasedResourceCollection
-  nameWithType: SeekBasedResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
-- uid: com.microsoft.store.partnercenter.models.auditing.AuditRecord
-  name: AuditRecord
-  nameWithType: AuditRecord
-  fullName: com.microsoft.store.partnercenter.models.auditing.AuditRecord
+  - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+    name: "SeekBasedResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
+    name: "AuditRecord"
+    fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query*"
+  name: "query"
+  nameWithType: "AuditRecordsCollection.query"
+  fullName: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query"
+  package: "com.microsoft.store.partnercenter.auditrecords"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
+  name: "BasePartnerComponentString"
+  nameWithType: "BasePartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection"
+  name: "IAuditRecordsCollection"
+  nameWithType: "IAuditRecordsCollection"
+  fullName: "com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Object.finalize()"
+  name: "Object.finalize()"
+  nameWithType: "Object.finalize()"
+  fullName: "java.lang.Object.finalize()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Object.clone()"
+  name: "Object.clone()"
+  nameWithType: "Object.clone()"
+  fullName: "java.lang.Object.clone()"
+- uid: "java.lang.Object.equals(java.lang.Object)"
+  name: "Object.equals(Object)"
+  nameWithType: "Object.equals(Object)"
+  fullName: "java.lang.Object.equals(java.lang.Object)"
+- uid: "java.lang.Object.toString()"
+  name: "Object.toString()"
+  nameWithType: "Object.toString()"
+  fullName: "java.lang.Object.toString()"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+  name: "BasePartnerComponent.getPartner()"
+  nameWithType: "BasePartnerComponent.getPartner()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Object.hashCode()"
+  name: "Object.hashCode()"
+  nameWithType: "Object.hashCode()"
+  fullName: "java.lang.Object.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  name: "BasePartnerComponent.getContext()"
+  nameWithType: "BasePartnerComponent.getContext()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+  name: "SeekBasedResourceCollection"
+  nameWithType: "SeekBasedResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+- uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
+  name: "AuditRecord"
+  nameWithType: "AuditRecord"
+  fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"

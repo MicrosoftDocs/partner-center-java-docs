@@ -1,205 +1,201 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations
-  id: SubscriptionSupportContactOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations"
+  id: "SubscriptionSupportContactOperations"
+  parent: "com.microsoft.store.partnercenter.subscriptions"
   children:
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get()
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)
+  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get()"
+  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)"
   langs:
-  - java
-  name: SubscriptionSupportContactOperations
-  nameWithType: SubscriptionSupportContactOperations
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: This class implements the operations for a customer's subscription support contact.
+  - "java"
+  name: "SubscriptionSupportContactOperations"
+  nameWithType: "SubscriptionSupportContactOperations"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "This class implements the operations for a customer's subscription support contact."
   syntax:
-    content: public class SubscriptionSupportContactOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscriptionSupportContact
+    content: "public class SubscriptionSupportContactOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscriptionSupportContact"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
-  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact
+  - "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  id: SubscriptionSupportContactOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations
+  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+  id: "SubscriptionSupportContactOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations"
   langs:
-  - java
-  name: SubscriptionSupportContactOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
-  nameWithType: SubscriptionSupportContactOperations.SubscriptionSupportContactOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Initializes a new instance of the SubscriptionSupportContactOperations class.
+  - "java"
+  name: "SubscriptionSupportContactOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
+  nameWithType: "SubscriptionSupportContactOperations.SubscriptionSupportContactOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
+  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Initializes a new instance of the SubscriptionSupportContactOperations class."
   syntax:
-    content: public SubscriptionSupportContactOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+    content: "public SubscriptionSupportContactOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
     parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The root partner operations instance.
-    - id: customerId
-      type: java.lang.String
-      description: The customer identifier.
-    - id: subscriptionId
-      type: java.lang.String
-      description: The subscription identifier
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations
+    - id: "rootPartnerOperations"
+      type: "com.microsoft.store.partnercenter.IPartner"
+      description: "The root partner operations instance."
+    - id: "customerId"
+      type: "java.lang.String"
+      description: "The customer identifier."
+    - id: "subscriptionId"
+      type: "java.lang.String"
+      description: "The subscription identifier"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations"
   langs:
-  - java
-  name: get()
-  nameWithType: SubscriptionSupportContactOperations.get()
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get()
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Retrieves the support contact of the customer's subscription.
+  - "java"
+  name: "get()"
+  nameWithType: "SubscriptionSupportContactOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get()"
+  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Retrieves the support contact of the customer's subscription."
   syntax:
-    content: public SupportContact get()
+    content: "public SupportContact get()"
     return:
-      type: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
-      description: The subscription's support contact.
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)
-  id: update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations
+      type: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+      description: "The subscription's support contact."
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)"
+  id: "update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)"
+  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations"
   langs:
-  - java
-  name: update(SupportContact supportContact)
-  nameWithType: SubscriptionSupportContactOperations.update(SupportContact supportContact)
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update(SupportContact supportContact)
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Updates the support contact of the customer's subscription.
+  - "java"
+  name: "update(SupportContact supportContact)"
+  nameWithType: "SubscriptionSupportContactOperations.update(SupportContact supportContact)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update(SupportContact supportContact)"
+  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Updates the support contact of the customer's subscription."
   syntax:
-    content: public SupportContact update(SupportContact supportContact)
+    content: "public SupportContact update(SupportContact supportContact)"
     parameters:
-    - id: supportContact
-      type: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
-      description: The support contact
+    - id: "supportContact"
+      type: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+      description: "The support contact"
     return:
-      type: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
-      description: The updated support contact.
+      type: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+      description: "The updated support contact."
 references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: java.lang.String
+- uid: "com.microsoft.store.partnercenter.IPartner"
+  name: "IPartner"
+  nameWithType: "IPartner"
+  fullName: "com.microsoft.store.partnercenter.IPartner"
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations*
-  name: SubscriptionSupportContactOperations
-  nameWithType: SubscriptionSupportContactOperations.SubscriptionSupportContactOperations
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
-  name: SupportContact
-  nameWithType: SupportContact
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get*
-  name: get
-  nameWithType: SubscriptionSupportContactOperations.get
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update*
-  name: update
-  nameWithType: SubscriptionSupportContactOperations.update
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: BasePartnerComponent<Tuple<String,String>>
-  nameWithType: BasePartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact
-  name: ISubscriptionSupportContact
-  nameWithType: ISubscriptionSupportContact
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent
-  name: BasePartnerComponent
-  nameWithType: BasePartnerComponent
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations*"
+  name: "SubscriptionSupportContactOperations"
+  nameWithType: "SubscriptionSupportContactOperations.SubscriptionSupportContactOperations"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+  name: "SupportContact"
+  nameWithType: "SupportContact"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get*"
+  name: "get"
+  nameWithType: "SubscriptionSupportContactOperations.get"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update*"
+  name: "update"
+  nameWithType: "SubscriptionSupportContactOperations.update"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  name: "BasePartnerComponent<Tuple<String,String>>"
+  nameWithType: "BasePartnerComponent<Tuple<String,String>>"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
+  name: "ISubscriptionSupportContact"
+  nameWithType: "ISubscriptionSupportContact"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Object.finalize()"
+  name: "Object.finalize()"
+  nameWithType: "Object.finalize()"
+  fullName: "java.lang.Object.finalize()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Object.clone()"
+  name: "Object.clone()"
+  nameWithType: "Object.clone()"
+  fullName: "java.lang.Object.clone()"
+- uid: "java.lang.Object.equals(java.lang.Object)"
+  name: "Object.equals(Object)"
+  nameWithType: "Object.equals(Object)"
+  fullName: "java.lang.Object.equals(java.lang.Object)"
+- uid: "java.lang.Object.toString()"
+  name: "Object.toString()"
+  nameWithType: "Object.toString()"
+  fullName: "java.lang.Object.toString()"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+  name: "BasePartnerComponent.getPartner()"
+  nameWithType: "BasePartnerComponent.getPartner()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Object.hashCode()"
+  name: "Object.hashCode()"
+  nameWithType: "Object.hashCode()"
+  fullName: "java.lang.Object.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  name: "BasePartnerComponent.getContext()"
+  nameWithType: "BasePartnerComponent.getContext()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  name: "Tuple"
+  nameWithType: "Tuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
+  name: "BasePartnerComponent"
+  nameWithType: "BasePartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
+- uid: "java.lang.String,java.lang.String"
+  name: "String,String"
+  nameWithType: "String,String"
+  fullName: "java.lang.String,java.lang.String"

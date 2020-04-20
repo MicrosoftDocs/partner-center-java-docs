@@ -1,138 +1,135 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
-  id: ISubscriptionUpgradeCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
+  id: "ISubscriptionUpgradeCollection"
+  parent: "com.microsoft.store.partnercenter.subscriptions"
   children:
-  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)
-  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()
+  - "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)"
+  - "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()"
   langs:
-  - java
-  name: ISubscriptionUpgradeCollection
-  nameWithType: ISubscriptionUpgradeCollection
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: This interface defines the upgrade operations available on a customer's subscription.
+  - "java"
+  name: "ISubscriptionUpgradeCollection"
+  nameWithType: "ISubscriptionUpgradeCollection"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "This interface defines the upgrade operations available on a customer's subscription."
   syntax:
-    content: public interface ISubscriptionUpgradeCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>, IEntityCreateOperations<Upgrade,UpgradeResult>
+    content: "public interface ISubscriptionUpgradeCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>, IEntityCreateOperations<Upgrade,UpgradeResult>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult>
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)
-  id: create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult>"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)"
+  id: "create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)"
+  parent: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
   langs:
-  - java
-  name: create(Upgrade upgrade)
-  nameWithType: ISubscriptionUpgradeCollection.create(Upgrade upgrade)
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(Upgrade upgrade)
-  overload: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Submits a subscription upgrade.
+  - "java"
+  name: "create(Upgrade upgrade)"
+  nameWithType: "ISubscriptionUpgradeCollection.create(Upgrade upgrade)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(Upgrade upgrade)"
+  overload: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Submits a subscription upgrade."
   syntax:
-    content: public abstract UpgradeResult create(Upgrade upgrade)
+    content: "public abstract UpgradeResult create(Upgrade upgrade)"
     parameters:
-    - id: upgrade
-      type: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
-      description: The new subscription upgrade information.
+    - id: "upgrade"
+      type: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
+      description: "The new subscription upgrade information."
     return:
-      type: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
-      description: The subscription upgrade results.
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+      type: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult"
+      description: "The subscription upgrade results."
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
   langs:
-  - java
-  name: get()
-  nameWithType: ISubscriptionUpgradeCollection.get()
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()
-  overload: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Retrieves all subscription upgrades.
+  - "java"
+  name: "get()"
+  nameWithType: "ISubscriptionUpgradeCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()"
+  overload: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Retrieves all subscription upgrades."
   syntax:
-    content: public abstract ResourceCollection<Upgrade> get()
+    content: "public abstract ResourceCollection<Upgrade> get()"
     return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>
-      description: The subscription upgrades.
+      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>"
+      description: "The subscription upgrades."
 references:
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
-  name: Upgrade
-  nameWithType: Upgrade
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
-  name: UpgradeResult
-  nameWithType: UpgradeResult
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create*
-  name: create
-  nameWithType: ISubscriptionUpgradeCollection.create
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
+  name: "Upgrade"
+  nameWithType: "Upgrade"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult"
+  name: "UpgradeResult"
+  nameWithType: "UpgradeResult"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create*"
+  name: "create"
+  nameWithType: "ISubscriptionUpgradeCollection.create"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
-    name: Upgrade
-    fullName: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get*
-  name: get
-  nameWithType: ISubscriptionUpgradeCollection.get
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>>
-  name: IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult>
-  name: IEntityCreateOperations<Upgrade,UpgradeResult>
-  nameWithType: IEntityCreateOperations<Upgrade,UpgradeResult>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult>
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: Upgrade,ResourceCollection
-  nameWithType: Upgrade,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-  name: IEntityCreateOperations
-  nameWithType: IEntityCreateOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
-  name: Upgrade,UpgradeResult
-  nameWithType: Upgrade,UpgradeResult
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
+  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
+    name: "Upgrade"
+    fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get*"
+  name: "get"
+  nameWithType: "ISubscriptionUpgradeCollection.get"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>>"
+  name: "IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>>"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  name: "IPartnerComponent<Tuple<String,String>>"
+  nameWithType: "IPartnerComponent<Tuple<String,String>>"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult>"
+  name: "IEntityCreateOperations<Upgrade,UpgradeResult>"
+  nameWithType: "IEntityCreateOperations<Upgrade,UpgradeResult>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult>"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "ResourceCollection"
+  nameWithType: "ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  name: "IEntireEntityCollectionRetrievalOperations"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "Upgrade,ResourceCollection"
+  nameWithType: "Upgrade,ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
+  name: "IPartnerComponent"
+  nameWithType: "IPartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  name: "Tuple"
+  nameWithType: "Tuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
+- uid: "java.lang.String,java.lang.String"
+  name: "String,String"
+  nameWithType: "String,String"
+  fullName: "java.lang.String,java.lang.String"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
+  name: "IEntityCreateOperations"
+  nameWithType: "IEntityCreateOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult"
+  name: "Upgrade,UpgradeResult"
+  nameWithType: "Upgrade,UpgradeResult"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult"

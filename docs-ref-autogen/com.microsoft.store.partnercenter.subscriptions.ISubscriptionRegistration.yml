@@ -1,65 +1,63 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration
-  id: ISubscriptionRegistration
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration"
+  id: "ISubscriptionRegistration"
+  parent: "com.microsoft.store.partnercenter.subscriptions"
   children:
-  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register()
+  - "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register()"
   langs:
-  - java
-  name: ISubscriptionRegistration
-  nameWithType: ISubscriptionRegistration
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration
-  type: Interface
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Defines the operations available on a customer's subscription registrations.
+  - "java"
+  name: "ISubscriptionRegistration"
+  nameWithType: "ISubscriptionRegistration"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Defines the operations available on a customer's subscription registrations."
   syntax:
-    content: public interface ISubscriptionRegistration extends IPartnerComponent<Tuple<String,String>>
+    content: "public interface ISubscriptionRegistration extends IPartnerComponent<Tuple<String,String>>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register()
-  id: register()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration
+  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register()"
+  id: "register()"
+  parent: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration"
   langs:
-  - java
-  name: register()
-  nameWithType: ISubscriptionRegistration.register()
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register()
-  overload: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Register a subscription to enable Azure Reserved instance purchase.
+  - "java"
+  name: "register()"
+  nameWithType: "ISubscriptionRegistration.register()"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register()"
+  overload: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Register a subscription to enable Azure Reserved instance purchase."
   syntax:
-    content: public abstract String register()
+    content: "public abstract String register()"
     return:
-      type: java.lang.String
-      description: The location which indicates the URL of the API to query for status.
+      type: "java.lang.String"
+      description: "The location which indicates the URL of the API to query for status."
 references:
-- uid: java.lang.String
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register*
-  name: register
-  nameWithType: ISubscriptionRegistration.register
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register*"
+  name: "register"
+  nameWithType: "ISubscriptionRegistration.register"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  name: "IPartnerComponent<Tuple<String,String>>"
+  nameWithType: "IPartnerComponent<Tuple<String,String>>"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
+  name: "IPartnerComponent"
+  nameWithType: "IPartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  name: "Tuple"
+  nameWithType: "Tuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
+- uid: "java.lang.String,java.lang.String"
+  name: "String,String"
+  nameWithType: "String,String"
+  fullName: "java.lang.String,java.lang.String"

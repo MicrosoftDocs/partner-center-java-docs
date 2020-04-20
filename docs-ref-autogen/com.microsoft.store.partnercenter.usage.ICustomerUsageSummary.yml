@@ -1,61 +1,59 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
-  id: ICustomerUsageSummary
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage
+- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary"
+  id: "ICustomerUsageSummary"
+  parent: "com.microsoft.store.partnercenter.usage"
   children:
-  - com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get()
+  - "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get()"
   langs:
-  - java
-  name: ICustomerUsageSummary
-  nameWithType: ICustomerUsageSummary
-  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
-  type: Interface
-  package: com.microsoft.store.partnercenter.usage
-  summary: This interface defines the operations available on a customer's usage summary.
+  - "java"
+  name: "ICustomerUsageSummary"
+  nameWithType: "ICustomerUsageSummary"
+  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.usage"
+  summary: "This interface defines the operations available on a customer's usage summary."
   syntax:
-    content: public interface ICustomerUsageSummary extends IPartnerComponentString, IEntityGetOperations<CustomerUsageSummary>
+    content: "public interface ICustomerUsageSummary extends IPartnerComponentString, IEntityGetOperations<CustomerUsageSummary>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary>
-- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
+  - "com.microsoft.store.partnercenter.IPartnerComponentString"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary>"
+- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary"
   langs:
-  - java
-  name: get()
-  nameWithType: ICustomerUsageSummary.get()
-  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get()
-  overload: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.usage
-  summary: Retrieves the customer usage summary.
+  - "java"
+  name: "get()"
+  nameWithType: "ICustomerUsageSummary.get()"
+  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get()"
+  overload: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.usage"
+  summary: "Retrieves the customer usage summary."
   syntax:
-    content: public abstract CustomerUsageSummary get()
+    content: "public abstract CustomerUsageSummary get()"
     return:
-      type: com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary
-      description: The customer usage summary.
+      type: "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary"
+      description: "The customer usage summary."
 references:
-- uid: com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary
-  name: CustomerUsageSummary
-  nameWithType: CustomerUsageSummary
-  fullName: com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary
-- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get*
-  name: get
-  nameWithType: ICustomerUsageSummary.get
-  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get
-  package: com.microsoft.store.partnercenter.usage
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary>
-  name: IEntityGetOperations<CustomerUsageSummary>
-  nameWithType: IEntityGetOperations<CustomerUsageSummary>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+- uid: "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary"
+  name: "CustomerUsageSummary"
+  nameWithType: "CustomerUsageSummary"
+  fullName: "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary"
+- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get*"
+  name: "get"
+  nameWithType: "ICustomerUsageSummary.get"
+  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get"
+  package: "com.microsoft.store.partnercenter.usage"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  name: "IPartnerComponentString"
+  nameWithType: "IPartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary>"
+  name: "IEntityGetOperations<CustomerUsageSummary>"
+  nameWithType: "IEntityGetOperations<CustomerUsageSummary>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+  name: "IEntityGetOperations"
+  nameWithType: "IEntityGetOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

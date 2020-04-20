@@ -1,92 +1,89 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection
-  id: IPartnerServiceRequestCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.servicerequests
+- uid: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection"
+  id: "IPartnerServiceRequestCollection"
+  parent: "com.microsoft.store.partnercenter.servicerequests"
   children:
-  - com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,java.lang.String)
-  - com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics()
+  - "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,java.lang.String)"
+  - "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics()"
   langs:
-  - java
-  name: IPartnerServiceRequestCollection
-  nameWithType: IPartnerServiceRequestCollection
-  fullName: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.servicerequests
-  summary: Represents the behavior of partner service requests.
+  - "java"
+  name: "IPartnerServiceRequestCollection"
+  nameWithType: "IPartnerServiceRequestCollection"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.servicerequests"
+  summary: "Represents the behavior of partner service requests."
   syntax:
-    content: public interface IPartnerServiceRequestCollection extends IServiceRequestCollection
+    content: "public interface IPartnerServiceRequestCollection extends IServiceRequestCollection"
   implements:
-  - com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
-- uid: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,java.lang.String)
-  id: create(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection
+  - "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
+- uid: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,java.lang.String)"
+  id: "create(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection"
   langs:
-  - java
-  name: create(ServiceRequest newEntity, String agentLocale)
-  nameWithType: IPartnerServiceRequestCollection.create(ServiceRequest newEntity, String agentLocale)
-  fullName: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create(ServiceRequest newEntity, String agentLocale)
-  overload: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create*
-  type: Method
-  package: com.microsoft.store.partnercenter.servicerequests
-  summary: Creates a new ServiceRequest.
+  - "java"
+  name: "create(ServiceRequest newEntity, String agentLocale)"
+  nameWithType: "IPartnerServiceRequestCollection.create(ServiceRequest newEntity, String agentLocale)"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create(ServiceRequest newEntity, String agentLocale)"
+  overload: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.servicerequests"
+  summary: "Creates a new ServiceRequest."
   syntax:
-    content: public abstract ServiceRequest create(ServiceRequest newEntity, String agentLocale)
+    content: "public abstract ServiceRequest create(ServiceRequest newEntity, String agentLocale)"
     parameters:
-    - id: newEntity
-      type: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest
-      description: The new ServiceRequest information.
-    - id: agentLocale
-      type: java.lang.String
-      description: The locale.
+    - id: "newEntity"
+      type: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
+      description: "The new ServiceRequest information."
+    - id: "agentLocale"
+      type: "java.lang.String"
+      description: "The locale."
     return:
-      type: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest
-      description: The ServiceRequest information that was just created.
-- uid: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics()
-  id: getSupportTopics()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection
+      type: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
+      description: "The ServiceRequest information that was just created."
+- uid: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics()"
+  id: "getSupportTopics()"
+  parent: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection"
   langs:
-  - java
-  name: getSupportTopics()
-  nameWithType: IPartnerServiceRequestCollection.getSupportTopics()
-  fullName: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics()
-  overload: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics*
-  type: Method
-  package: com.microsoft.store.partnercenter.servicerequests
-  summary: Gets a set of operations that can be performed on Support Topics.
+  - "java"
+  name: "getSupportTopics()"
+  nameWithType: "IPartnerServiceRequestCollection.getSupportTopics()"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics()"
+  overload: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.servicerequests"
+  summary: "Gets a set of operations that can be performed on Support Topics."
   syntax:
-    content: public abstract ISupportTopicsCollection getSupportTopics()
+    content: "public abstract ISupportTopicsCollection getSupportTopics()"
     return:
-      type: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection
-      description: Collection of Support Topic Operations.
+      type: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection"
+      description: "Collection of Support Topic Operations."
 references:
-- uid: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection
-  name: ISupportTopicsCollection
-  nameWithType: ISupportTopicsCollection
-  fullName: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection
-- uid: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics*
-  name: getSupportTopics
-  nameWithType: IPartnerServiceRequestCollection.getSupportTopics
-  fullName: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics
-  package: com.microsoft.store.partnercenter.servicerequests
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest
-  name: ServiceRequest
-  nameWithType: ServiceRequest
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest
-- uid: java.lang.String
+- uid: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection"
+  name: "ISupportTopicsCollection"
+  nameWithType: "ISupportTopicsCollection"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection"
+- uid: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics*"
+  name: "getSupportTopics"
+  nameWithType: "IPartnerServiceRequestCollection.getSupportTopics"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics"
+  package: "com.microsoft.store.partnercenter.servicerequests"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
+  name: "ServiceRequest"
+  nameWithType: "ServiceRequest"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create*
-  name: create
-  nameWithType: IPartnerServiceRequestCollection.create
-  fullName: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create
-  package: com.microsoft.store.partnercenter.servicerequests
-- uid: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
-  name: IServiceRequestCollection
-  nameWithType: IServiceRequestCollection
-  fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create*"
+  name: "create"
+  nameWithType: "IPartnerServiceRequestCollection.create"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create"
+  package: "com.microsoft.store.partnercenter.servicerequests"
+- uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
+  name: "IServiceRequestCollection"
+  nameWithType: "IServiceRequestCollection"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"

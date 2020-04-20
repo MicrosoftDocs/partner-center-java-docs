@@ -1,213 +1,210 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  id: ResourceCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  id: "ResourceCollection"
+  parent: "com.microsoft.store.partnercenter.models"
   children:
-  - com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<TResource>)
-  - com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection(java.util.List<TResource>)
+  - "com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<TResource>)"
+  - "com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection(java.util.List<TResource>)"
   langs:
-  - java
-  name: ResourceCollection<TResource>
-  nameWithType: ResourceCollection<TResource>
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
-  type: Class
-  package: com.microsoft.store.partnercenter.models
-  summary: Contains a collection of resources with JSON properties to represent the output Type of objects in collection
+  - "java"
+  name: "ResourceCollection<TResource>"
+  nameWithType: "ResourceCollection<TResource>"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<TResource>"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Contains a collection of resources with JSON properties to represent the output Type of objects in collection"
   syntax:
-    content: public class ResourceCollection<TResource> extends ResourceCollectionWithLinks<TResource,StandardResourceCollectionLinks>
+    content: "public class ResourceCollection<TResource> extends ResourceCollectionWithLinks<TResource,StandardResourceCollectionLinks>"
     typeParameters:
-    - id: TResource
+    - id: "TResource"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  - com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+  - "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-  - com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getItems()
-  - com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getTotalCount()
-  - com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List<TResource>)
-  - com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setTotalCount(int)
-  - com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.toString()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<TResource>)
-  id: ResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<TResource>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ResourceCollection
+  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+  - "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getItems()"
+  - "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getTotalCount()"
+  - "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List<TResource>)"
+  - "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setTotalCount(int)"
+  - "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.toString()"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<TResource>)"
+  id: "ResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<TResource>)"
+  parent: "com.microsoft.store.partnercenter.models.ResourceCollection"
   langs:
-  - java
-  name: ResourceCollection(ResourceCollection<TResource> resourceCollection)
-  nameWithType: ResourceCollection<TResource>.ResourceCollection(ResourceCollection<TResource> resourceCollection)
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>.ResourceCollection(ResourceCollection<TResource> resourceCollection)
-  overload: com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models
-  summary: Initializes a new instance of the ResourceCollection class.
+  - "java"
+  name: "ResourceCollection(ResourceCollection<TResource> resourceCollection)"
+  nameWithType: "ResourceCollection<TResource>.ResourceCollection(ResourceCollection<TResource> resourceCollection)"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<TResource>.ResourceCollection(ResourceCollection<TResource> resourceCollection)"
+  overload: "com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Initializes a new instance of the ResourceCollection class."
   syntax:
-    content: protected ResourceCollection(ResourceCollection<TResource> resourceCollection)
+    content: "protected ResourceCollection(ResourceCollection<TResource> resourceCollection)"
     parameters:
-    - id: resourceCollection
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
-      description: The resource collection.
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection(java.util.List<TResource>)
-  id: ResourceCollection(java.util.List<TResource>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ResourceCollection
+    - id: "resourceCollection"
+      type: "com.microsoft.store.partnercenter.models.ResourceCollection<TResource>"
+      description: "The resource collection."
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection(java.util.List<TResource>)"
+  id: "ResourceCollection(java.util.List<TResource>)"
+  parent: "com.microsoft.store.partnercenter.models.ResourceCollection"
   langs:
-  - java
-  name: ResourceCollection(List<TResource> items)
-  nameWithType: ResourceCollection<TResource>.ResourceCollection(List<TResource> items)
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>.ResourceCollection(List<TResource> items)
-  overload: com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models
-  summary: Initializes a new instance of the ResourceCollection class.
+  - "java"
+  name: "ResourceCollection(List<TResource> items)"
+  nameWithType: "ResourceCollection<TResource>.ResourceCollection(List<TResource> items)"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<TResource>.ResourceCollection(List<TResource> items)"
+  overload: "com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Initializes a new instance of the ResourceCollection class."
   syntax:
-    content: public ResourceCollection(List<TResource> items)
+    content: "public ResourceCollection(List<TResource> items)"
     parameters:
-    - id: items
-      type: java.util.List<TResource>
-      description: The items.
+    - id: "items"
+      type: "java.util.List<TResource>"
+      description: "The items."
 references:
-- uid: java.util.List<TResource>
+- uid: "java.util.List<TResource>"
   spec.java:
-  - uid: java.util.List
-    name: List
-    fullName: java.util.List
-  - name: <
-    fullName: <
-  - uid: TResource
-    name: TResource
-    fullName: TResource
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection*
-  name: ResourceCollection
-  nameWithType: ResourceCollection<TResource>.ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>.ResourceCollection
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<TResource>
+  - uid: "java.util.List"
+    name: "List"
+    fullName: "java.util.List"
+  - name: "<"
+    fullName: "<"
+  - uid: "TResource"
+    name: "TResource"
+    fullName: "TResource"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection*"
+  name: "ResourceCollection"
+  nameWithType: "ResourceCollection<TResource>.ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<TResource>.ResourceCollection"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<TResource>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: TResource
-    name: TResource
-    fullName: TResource
-  - name: '>'
-    fullName: '>'
-- uid: TResource
-  name: TResource
-  nameWithType: TResource
-  fullName: TResource
-- uid: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks>
-  name: ResourceCollectionWithLinks<TResource,StandardResourceCollectionLinks>
-  nameWithType: ResourceCollectionWithLinks<TResource,StandardResourceCollectionLinks>
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks>
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  name: ResourceBase.getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setTotalCount(int)
-  name: ResourceCollectionWithLinks.setTotalCount(int)
-  nameWithType: ResourceCollectionWithLinks.setTotalCount(int)
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setTotalCount(int)
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getItems()
-  name: ResourceCollectionWithLinks.getItems()
-  nameWithType: ResourceCollectionWithLinks.getItems()
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getItems()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getTotalCount()
-  name: ResourceCollectionWithLinks.getTotalCount()
-  nameWithType: ResourceCollectionWithLinks.getTotalCount()
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getTotalCount()
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  name: ResourceBaseWithLinks.getLinks()
-  nameWithType: ResourceBaseWithLinks.getLinks()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-- uid: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.toString()
-  name: ResourceCollectionWithLinks.toString()
-  nameWithType: ResourceCollectionWithLinks.toString()
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.toString()
-- uid: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List<TResource>)
-  name: ResourceCollectionWithLinks.setItems(List<TResource>)
-  nameWithType: ResourceCollectionWithLinks.setItems(List<TResource>)
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List<TResource>)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-  name: ResourceBaseWithLinks.setLinks(TLinks)
-  nameWithType: ResourceBaseWithLinks.setLinks(TLinks)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- uid: java.util.List
-  name: List
-  nameWithType: List
-  fullName: java.util.List
-- uid: TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks
-  name: TResource,StandardResourceCollectionLinks
-  nameWithType: TResource,StandardResourceCollectionLinks
-  fullName: TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks
-- uid: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks
-  name: ResourceCollectionWithLinks
-  nameWithType: ResourceCollectionWithLinks
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks
-- uid: TResource>)
-  name: TResource>)
-  nameWithType: TResource>)
-  fullName: TResource>)
-- uid: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List
-  name: ResourceCollectionWithLinks.setItems(List
-  nameWithType: ResourceCollectionWithLinks.setItems(List
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List
+  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "TResource"
+    name: "TResource"
+    fullName: "TResource"
+  - name: ">"
+    fullName: ">"
+- uid: "TResource"
+  name: "TResource"
+  nameWithType: "TResource"
+  fullName: "TResource"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks>"
+  name: "ResourceCollectionWithLinks<TResource,StandardResourceCollectionLinks>"
+  nameWithType: "ResourceCollectionWithLinks<TResource,StandardResourceCollectionLinks>"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks>"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  name: "ResourceBase.getAttributes()"
+  nameWithType: "ResourceBase.getAttributes()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setTotalCount(int)"
+  name: "ResourceCollectionWithLinks.setTotalCount(int)"
+  nameWithType: "ResourceCollectionWithLinks.setTotalCount(int)"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setTotalCount(int)"
+- uid: "java.lang.Object.finalize()"
+  name: "Object.finalize()"
+  nameWithType: "Object.finalize()"
+  fullName: "java.lang.Object.finalize()"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getItems()"
+  name: "ResourceCollectionWithLinks.getItems()"
+  nameWithType: "ResourceCollectionWithLinks.getItems()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getItems()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Object.clone()"
+  name: "Object.clone()"
+  nameWithType: "Object.clone()"
+  fullName: "java.lang.Object.clone()"
+- uid: "java.lang.Object.equals(java.lang.Object)"
+  name: "Object.equals(Object)"
+  nameWithType: "Object.equals(Object)"
+  fullName: "java.lang.Object.equals(java.lang.Object)"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getTotalCount()"
+  name: "ResourceCollectionWithLinks.getTotalCount()"
+  nameWithType: "ResourceCollectionWithLinks.getTotalCount()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getTotalCount()"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+  name: "ResourceBaseWithLinks.getLinks()"
+  nameWithType: "ResourceBaseWithLinks.getLinks()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.toString()"
+  name: "ResourceCollectionWithLinks.toString()"
+  nameWithType: "ResourceCollectionWithLinks.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.toString()"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List<TResource>)"
+  name: "ResourceCollectionWithLinks.setItems(List<TResource>)"
+  nameWithType: "ResourceCollectionWithLinks.setItems(List<TResource>)"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List<TResource>)"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Object.hashCode()"
+  name: "Object.hashCode()"
+  nameWithType: "Object.hashCode()"
+  fullName: "java.lang.Object.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+  name: "ResourceBaseWithLinks.setLinks(TLinks)"
+  nameWithType: "ResourceBaseWithLinks.setLinks(TLinks)"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+- uid: "java.util.List"
+  name: "List"
+  nameWithType: "List"
+  fullName: "java.util.List"
+- uid: "TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks"
+  name: "TResource,StandardResourceCollectionLinks"
+  nameWithType: "TResource,StandardResourceCollectionLinks"
+  fullName: "TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks"
+  name: "ResourceCollectionWithLinks"
+  nameWithType: "ResourceCollectionWithLinks"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks"
+- uid: "TResource>)"
+  name: "TResource>)"
+  nameWithType: "TResource>)"
+  fullName: "TResource>)"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List"
+  name: "ResourceCollectionWithLinks.setItems(List"
+  nameWithType: "ResourceCollectionWithLinks.setItems(List"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List"

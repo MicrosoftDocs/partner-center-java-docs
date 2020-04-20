@@ -1,58 +1,56 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  id: IEntitySelector
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.genericoperations
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
+  id: "IEntitySelector"
+  parent: "com.microsoft.store.partnercenter.genericoperations"
   children:
-  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)
+  - "com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)"
   langs:
-  - java
-  name: IEntitySelector<TTYpe,TEntity>
-  nameWithType: IEntitySelector<TTYpe,TEntity>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe,TEntity>
-  type: Interface
-  package: com.microsoft.store.partnercenter.genericoperations
+  - "java"
+  name: "IEntitySelector<TTYpe,TEntity>"
+  nameWithType: "IEntitySelector<TTYpe,TEntity>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe,TEntity>"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.genericoperations"
   syntax:
-    content: public interface IEntitySelector<TTYpe,TEntity>
+    content: "public interface IEntitySelector<TTYpe,TEntity>"
     typeParameters:
-    - id: TTYpe
-    - id: TEntity
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)
-  id: byId(TTYpe)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
+    - id: "TTYpe"
+    - id: "TEntity"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)"
+  id: "byId(TTYpe)"
+  parent: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
   langs:
-  - java
-  name: byId(TTYpe id)
-  nameWithType: IEntitySelector<TTYpe,TEntity>.byId(TTYpe id)
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe,TEntity>.byId(TTYpe id)
-  overload: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId*
-  type: Method
-  package: com.microsoft.store.partnercenter.genericoperations
-  summary: Retrieves the behavior for an entity using the entity's identifier.
+  - "java"
+  name: "byId(TTYpe id)"
+  nameWithType: "IEntitySelector<TTYpe,TEntity>.byId(TTYpe id)"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe,TEntity>.byId(TTYpe id)"
+  overload: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.genericoperations"
+  summary: "Retrieves the behavior for an entity using the entity's identifier."
   syntax:
-    content: public abstract TEntity byId(TTYpe id)
+    content: "public abstract TEntity byId(TTYpe id)"
     parameters:
-    - id: id
-      type: TTYpe
-      description: The entity's identifier.
+    - id: "id"
+      type: "TTYpe"
+      description: "The entity's identifier."
     return:
-      type: TEntity
-      description: The entity's behavior.
+      type: "TEntity"
+      description: "The entity's behavior."
 references:
-- uid: TTYpe
+- uid: "TTYpe"
   spec.java:
-  - uid: TTYpe
-    name: TTYpe
-    fullName: TTYpe
-- uid: TEntity
+  - uid: "TTYpe"
+    name: "TTYpe"
+    fullName: "TTYpe"
+- uid: "TEntity"
   spec.java:
-  - uid: TEntity
-    name: TEntity
-    fullName: TEntity
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId*
-  name: byId
-  nameWithType: IEntitySelector<TTYpe,TEntity>.byId
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe,TEntity>.byId
-  package: com.microsoft.store.partnercenter.genericoperations
+  - uid: "TEntity"
+    name: "TEntity"
+    fullName: "TEntity"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId*"
+  name: "byId"
+  nameWithType: "IEntitySelector<TTYpe,TEntity>.byId"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe,TEntity>.byId"
+  package: "com.microsoft.store.partnercenter.genericoperations"

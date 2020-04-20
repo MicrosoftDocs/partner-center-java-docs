@@ -1,52 +1,51 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
-  id: ISubscriptionActivationLinks
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks"
+  id: "ISubscriptionActivationLinks"
+  parent: "com.microsoft.store.partnercenter.subscriptions"
   langs:
-  - java
-  name: ISubscriptionActivationLinks
-  nameWithType: ISubscriptionActivationLinks
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
-  type: Interface
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: A resource collection of subscription activation links.
+  - "java"
+  name: "ISubscriptionActivationLinks"
+  nameWithType: "ISubscriptionActivationLinks"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "A resource collection of subscription activation links."
   syntax:
-    content: public interface ISubscriptionActivationLinks extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<OrderLineItemActivationLink,ResourceCollection<OrderLineItemActivationLink>>
+    content: "public interface ISubscriptionActivationLinks extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<OrderLineItemActivationLink,ResourceCollection<OrderLineItemActivationLink>>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>
+  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>"
 references:
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>
-  name: IEntireEntityCollectionRetrievalOperations<OrderLineItemActivationLink,ResourceCollection<OrderLineItemActivationLink>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<OrderLineItemActivationLink,ResourceCollection<OrderLineItemActivationLink>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: OrderLineItemActivationLink,ResourceCollection
-  nameWithType: OrderLineItemActivationLink,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink,com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  name: OrderLineItemActivationLink
-  nameWithType: OrderLineItemActivationLink
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  name: "IPartnerComponent<Tuple<String,String>>"
+  nameWithType: "IPartnerComponent<Tuple<String,String>>"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>"
+  name: "IEntireEntityCollectionRetrievalOperations<OrderLineItemActivationLink,ResourceCollection<OrderLineItemActivationLink>>"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations<OrderLineItemActivationLink,ResourceCollection<OrderLineItemActivationLink>>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
+  name: "IPartnerComponent"
+  nameWithType: "IPartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  name: "Tuple"
+  nameWithType: "Tuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
+- uid: "java.lang.String,java.lang.String"
+  name: "String,String"
+  nameWithType: "String,String"
+  fullName: "java.lang.String,java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink,com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "OrderLineItemActivationLink,ResourceCollection"
+  nameWithType: "OrderLineItemActivationLink,ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink,com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink"
+  name: "OrderLineItemActivationLink"
+  nameWithType: "OrderLineItemActivationLink"
+  fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  name: "IEntireEntityCollectionRetrievalOperations"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"

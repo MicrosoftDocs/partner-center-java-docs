@@ -1,72 +1,70 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile
-  id: ICustomerProfile
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.profiles
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
+  id: "ICustomerProfile"
+  parent: "com.microsoft.store.partnercenter.customers.profiles"
   children:
-  - com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.update(T)
+  - "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.update(T)"
   langs:
-  - java
-  name: ICustomerProfile<T>
-  nameWithType: ICustomerProfile<T>
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<T>
-  type: Interface
-  package: com.microsoft.store.partnercenter.customers.profiles
-  summary: Encapsulates a single customer profile behavior. The type of the customer profile.
+  - "java"
+  name: "ICustomerProfile<T>"
+  nameWithType: "ICustomerProfile<T>"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<T>"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
+  summary: "Encapsulates a single customer profile behavior. The type of the customer profile."
   syntax:
-    content: public interface ICustomerProfile<T> extends ICustomerReadonlyProfile<T>, IEntityUpdateOperations<T>
+    content: "public interface ICustomerProfile<T> extends ICustomerReadonlyProfile<T>, IEntityUpdateOperations<T>"
     typeParameters:
-    - id: T
+    - id: "T"
   implements:
-  - com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.update(T)
-  id: update(T)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile
+  - "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.update(T)"
+  id: "update(T)"
+  parent: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
   langs:
-  - java
-  name: update(T customerProfile)
-  nameWithType: ICustomerProfile<T>.update(T customerProfile)
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<T>.update(T customerProfile)
-  overload: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.update*
-  type: Method
-  package: com.microsoft.store.partnercenter.customers.profiles
-  summary: Updates the customer profile.
+  - "java"
+  name: "update(T customerProfile)"
+  nameWithType: "ICustomerProfile<T>.update(T customerProfile)"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<T>.update(T customerProfile)"
+  overload: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.update*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
+  summary: "Updates the customer profile."
   syntax:
-    content: public abstract T update(T customerProfile)
+    content: "public abstract T update(T customerProfile)"
     parameters:
-    - id: customerProfile
-      type: T
-      description: The customer profile information.
+    - id: "customerProfile"
+      type: "T"
+      description: "The customer profile information."
     return:
-      type: T
-      description: The updated customer profile.
+      type: "T"
+      description: "The updated customer profile."
 references:
-- uid: T
+- uid: "T"
   spec.java:
-  - uid: T
-    name: T
-    fullName: T
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.update*
-  name: update
-  nameWithType: ICustomerProfile<T>.update
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<T>.update
-  package: com.microsoft.store.partnercenter.customers.profiles
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>
-  name: ICustomerReadonlyProfile<T>
-  nameWithType: ICustomerReadonlyProfile<T>
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>
-  name: IEntityUpdateOperations<T>
-  nameWithType: IEntityUpdateOperations<T>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
-  name: ICustomerReadonlyProfile
-  nameWithType: ICustomerReadonlyProfile
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
-  name: IEntityUpdateOperations
-  nameWithType: IEntityUpdateOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
+  - uid: "T"
+    name: "T"
+    fullName: "T"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.update*"
+  name: "update"
+  nameWithType: "ICustomerProfile<T>.update"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<T>.update"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>"
+  name: "ICustomerReadonlyProfile<T>"
+  nameWithType: "ICustomerReadonlyProfile<T>"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>"
+  name: "IEntityUpdateOperations<T>"
+  nameWithType: "IEntityUpdateOperations<T>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
+  name: "ICustomerReadonlyProfile"
+  nameWithType: "ICustomerReadonlyProfile"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
+  name: "IEntityUpdateOperations"
+  nameWithType: "IEntityUpdateOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"

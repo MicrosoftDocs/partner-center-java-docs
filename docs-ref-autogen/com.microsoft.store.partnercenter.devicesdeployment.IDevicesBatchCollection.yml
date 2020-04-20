@@ -1,144 +1,141 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
-  id: IDevicesBatchCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection"
+  id: "IDevicesBatchCollection"
+  parent: "com.microsoft.store.partnercenter.devicesdeployment"
   children:
-  - com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(java.lang.String)
-  - com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()
+  - "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()"
   langs:
-  - java
-  name: IDevicesBatchCollection
-  nameWithType: IDevicesBatchCollection
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Represents the operations that can be done on the partner's devices batches.
+  - "java"
+  name: "IDevicesBatchCollection"
+  nameWithType: "IDevicesBatchCollection"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
+  summary: "Represents the operations that can be done on the partner's devices batches."
   syntax:
-    content: public interface IDevicesBatchCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<DeviceBatch,ResourceCollection<DeviceBatch>>, IEntitySelector<String,IDevicesBatch>, IEntityCreateOperations<DeviceBatchCreationRequest,String>
+    content: "public interface IDevicesBatchCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<DeviceBatch,ResourceCollection<DeviceBatch>>, IEntitySelector<String,IDevicesBatch>, IEntityCreateOperations<DeviceBatchCreationRequest,String>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest,java.lang.String>
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(java.lang.String)
-  id: byId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  - "com.microsoft.store.partnercenter.IPartnerComponentString"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest,java.lang.String>"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(java.lang.String)"
+  id: "byId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection"
   langs:
-  - java
-  name: byId(String deviceBatchId)
-  nameWithType: IDevicesBatchCollection.byId(String deviceBatchId)
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(String deviceBatchId)
-  overload: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Retrieves a specific customer devices batch behavior.
+  - "java"
+  name: "byId(String deviceBatchId)"
+  nameWithType: "IDevicesBatchCollection.byId(String deviceBatchId)"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(String deviceBatchId)"
+  overload: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
+  summary: "Retrieves a specific customer devices batch behavior."
   syntax:
-    content: public abstract IDevicesBatch byId(String deviceBatchId)
+    content: "public abstract IDevicesBatch byId(String deviceBatchId)"
     parameters:
-    - id: deviceBatchId
-      type: java.lang.String
-      description: The devices batch id
+    - id: "deviceBatchId"
+      type: "java.lang.String"
+      description: "The devices batch id"
     return:
-      type: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
-      description: The devices batch behavior.
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+      type: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch"
+      description: "The devices batch behavior."
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection"
   langs:
-  - java
-  name: get()
-  nameWithType: IDevicesBatchCollection.get()
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()
-  overload: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Retrieves all devices batches.
+  - "java"
+  name: "get()"
+  nameWithType: "IDevicesBatchCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()"
+  overload: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
+  summary: "Retrieves all devices batches."
   syntax:
-    content: public abstract ResourceCollection<DeviceBatch> get()
+    content: "public abstract ResourceCollection<DeviceBatch> get()"
     return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>
-      description: All of the device batches.
+      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>"
+      description: "All of the device batches."
 references:
-- uid: java.lang.String
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
-  name: IDevicesBatch
-  nameWithType: IDevicesBatch
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId*
-  name: byId
-  nameWithType: IDevicesBatchCollection.byId
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch"
+  name: "IDevicesBatch"
+  nameWithType: "IDevicesBatch"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId*"
+  name: "byId"
+  nameWithType: "IDevicesBatchCollection.byId"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
-    name: DeviceBatch
-    fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get*
-  name: get
-  nameWithType: IDevicesBatchCollection.get
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>>
-  name: IEntireEntityCollectionRetrievalOperations<DeviceBatch,ResourceCollection<DeviceBatch>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<DeviceBatch,ResourceCollection<DeviceBatch>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest,java.lang.String>
-  name: IEntityCreateOperations<DeviceBatchCreationRequest,String>
-  nameWithType: IEntityCreateOperations<DeviceBatchCreationRequest,String>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest,java.lang.String>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch>
-  name: IEntitySelector<String,IDevicesBatch>
-  nameWithType: IEntitySelector<String,IDevicesBatch>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch>
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
-  name: DeviceBatch
-  nameWithType: DeviceBatch
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: DeviceBatch,ResourceCollection
-  nameWithType: DeviceBatch,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch,com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-  name: IEntityCreateOperations
-  nameWithType: IEntityCreateOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest,java.lang.String
-  name: DeviceBatchCreationRequest,String
-  nameWithType: DeviceBatchCreationRequest,String
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest,java.lang.String
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  name: IEntitySelector
-  nameWithType: IEntitySelector
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-- uid: java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
-  name: String,IDevicesBatch
-  nameWithType: String,IDevicesBatch
-  fullName: java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
+  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch"
+    name: "DeviceBatch"
+    fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get*"
+  name: "get"
+  nameWithType: "IDevicesBatchCollection.get"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  name: "IPartnerComponentString"
+  nameWithType: "IPartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>>"
+  name: "IEntireEntityCollectionRetrievalOperations<DeviceBatch,ResourceCollection<DeviceBatch>>"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations<DeviceBatch,ResourceCollection<DeviceBatch>>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest,java.lang.String>"
+  name: "IEntityCreateOperations<DeviceBatchCreationRequest,String>"
+  nameWithType: "IEntityCreateOperations<DeviceBatchCreationRequest,String>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest,java.lang.String>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch>"
+  name: "IEntitySelector<String,IDevicesBatch>"
+  nameWithType: "IEntitySelector<String,IDevicesBatch>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch>"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "ResourceCollection"
+  nameWithType: "ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch"
+  name: "DeviceBatch"
+  nameWithType: "DeviceBatch"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch,com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "DeviceBatch,ResourceCollection"
+  nameWithType: "DeviceBatch,ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch,com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  name: "IEntireEntityCollectionRetrievalOperations"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
+  name: "IEntityCreateOperations"
+  nameWithType: "IEntityCreateOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest,java.lang.String"
+  name: "DeviceBatchCreationRequest,String"
+  nameWithType: "DeviceBatchCreationRequest,String"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest,java.lang.String"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
+  name: "IEntitySelector"
+  nameWithType: "IEntitySelector"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
+- uid: "java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch"
+  name: "String,IDevicesBatch"
+  nameWithType: "String,IDevicesBatch"
+  fullName: "java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch"

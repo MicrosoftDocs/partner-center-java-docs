@@ -1,327 +1,320 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
-  id: SubscriptionCollectionOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations"
+  id: "SubscriptionCollectionOperations"
+  parent: "com.microsoft.store.partnercenter.subscriptions"
   children:
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId(java.lang.String)
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder(java.lang.String)
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner(java.lang.String)
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get()
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords()
+  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
+  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder(java.lang.String)"
+  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner(java.lang.String)"
+  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get()"
+  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords()"
   langs:
-  - java
-  name: SubscriptionCollectionOperations
-  nameWithType: SubscriptionCollectionOperations
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: The customer subscriptions implementation.
+  - "java"
+  name: "SubscriptionCollectionOperations"
+  nameWithType: "SubscriptionCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "The customer subscriptions implementation."
   syntax:
-    content: public class SubscriptionCollectionOperations extends BasePartnerComponentString implements ISubscriptionCollection
+    content: "public class SubscriptionCollectionOperations extends BasePartnerComponentString implements ISubscriptionCollection"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  - com.microsoft.store.partnercenter.BasePartnerComponentString
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
-  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  - "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  id: SubscriptionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
+  id: "SubscriptionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations"
   langs:
-  - java
-  name: SubscriptionCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  nameWithType: SubscriptionCollectionOperations.SubscriptionCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Initializes a new instance of the SubscriptionCollectionOperations class.
+  - "java"
+  name: "SubscriptionCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+  nameWithType: "SubscriptionCollectionOperations.SubscriptionCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Initializes a new instance of the SubscriptionCollectionOperations class."
   syntax:
-    content: public SubscriptionCollectionOperations(IPartner rootPartnerOperations, String customerId)
+    content: "public SubscriptionCollectionOperations(IPartner rootPartnerOperations, String customerId)"
     parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The root partner operations instance.
-    - id: customerId
-      type: java.lang.String
-      description: The customer Id to whom the subscriptions belong.
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId(java.lang.String)
-  id: byId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+    - id: "rootPartnerOperations"
+      type: "com.microsoft.store.partnercenter.IPartner"
+      description: "The root partner operations instance."
+    - id: "customerId"
+      type: "java.lang.String"
+      description: "The customer Id to whom the subscriptions belong."
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId(java.lang.String)"
+  id: "byId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations"
   langs:
-  - java
-  name: byId(String subscriptionId)
-  nameWithType: SubscriptionCollectionOperations.byId(String subscriptionId)
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId(String subscriptionId)
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Retrieves a specific customer subscription behavior.
+  - "java"
+  name: "byId(String subscriptionId)"
+  nameWithType: "SubscriptionCollectionOperations.byId(String subscriptionId)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId(String subscriptionId)"
+  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Retrieves a specific customer subscription behavior."
   syntax:
-    content: public ISubscription byId(String subscriptionId)
+    content: "public ISubscription byId(String subscriptionId)"
     parameters:
-    - id: subscriptionId
-      type: java.lang.String
-      description: The subscription identifier
+    - id: "subscriptionId"
+      type: "java.lang.String"
+      description: "The subscription identifier"
     return:
-      type: com.microsoft.store.partnercenter.subscriptions.ISubscription
-      description: The customer subscription.
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder(java.lang.String)
-  id: byOrder(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+      type: "com.microsoft.store.partnercenter.subscriptions.ISubscription"
+      description: "The customer subscription."
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder(java.lang.String)"
+  id: "byOrder(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations"
   langs:
-  - java
-  name: byOrder(String orderId)
-  nameWithType: SubscriptionCollectionOperations.byOrder(String orderId)
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder(String orderId)
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Groups customer subscriptions by an order.
+  - "java"
+  name: "byOrder(String orderId)"
+  nameWithType: "SubscriptionCollectionOperations.byOrder(String orderId)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder(String orderId)"
+  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Groups customer subscriptions by an order."
   syntax:
-    content: public IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>> byOrder(String orderId)
+    content: "public IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>> byOrder(String orderId)"
     parameters:
-    - id: orderId
-      type: java.lang.String
-      description: The order id.
+    - id: "orderId"
+      type: "java.lang.String"
+      description: "The order id."
     return:
-      type: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>
-      description: The order subscriptions operations.
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner(java.lang.String)
-  id: byPartner(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+      type: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>"
+      description: "The order subscriptions operations."
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner(java.lang.String)"
+  id: "byPartner(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations"
   langs:
-  - java
-  name: byPartner(String partnerId)
-  nameWithType: SubscriptionCollectionOperations.byPartner(String partnerId)
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner(String partnerId)
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Groups customer subscriptions by a partner.
+  - "java"
+  name: "byPartner(String partnerId)"
+  nameWithType: "SubscriptionCollectionOperations.byPartner(String partnerId)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner(String partnerId)"
+  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Groups customer subscriptions by a partner."
   syntax:
-    content: public IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>> byPartner(String partnerId)
+    content: "public IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>> byPartner(String partnerId)"
     parameters:
-    - id: partnerId
-      type: java.lang.String
-      description: The partner id.
+    - id: "partnerId"
+      type: "java.lang.String"
+      description: "The partner id."
     return:
-      type: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>
-      description: The partner subscriptions operations.
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+      type: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>"
+      description: "The partner subscriptions operations."
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations"
   langs:
-  - java
-  name: get()
-  nameWithType: SubscriptionCollectionOperations.get()
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get()
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Retrieves all subscriptions.
+  - "java"
+  name: "get()"
+  nameWithType: "SubscriptionCollectionOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get()"
+  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Retrieves all subscriptions."
   syntax:
-    content: public ResourceCollection<Subscription> get()
+    content: "public ResourceCollection<Subscription> get()"
     return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>
-      description: The subscriptions.
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords()
-  id: getUsageRecords()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations
+      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
+      description: "The subscriptions."
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords()"
+  id: "getUsageRecords()"
+  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations"
   langs:
-  - java
-  name: getUsageRecords()
-  nameWithType: SubscriptionCollectionOperations.getUsageRecords()
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords()
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Obtains the subscription usage records behavior for the customer.
+  - "java"
+  name: "getUsageRecords()"
+  nameWithType: "SubscriptionCollectionOperations.getUsageRecords()"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords()"
+  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Obtains the subscription usage records behavior for the customer."
   syntax:
-    content: public ISubscriptionMonthlyUsageRecordCollection getUsageRecords()
+    content: "public ISubscriptionMonthlyUsageRecordCollection getUsageRecords()"
     return:
-      type: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
-      description: The customer subscription usage records.
+      type: "com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection"
+      description: "The customer subscription usage records."
 references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: java.lang.String
+- uid: "com.microsoft.store.partnercenter.IPartner"
+  name: "IPartner"
+  nameWithType: "IPartner"
+  fullName: "com.microsoft.store.partnercenter.IPartner"
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations*
-  name: SubscriptionCollectionOperations
-  nameWithType: SubscriptionCollectionOperations.SubscriptionCollectionOperations
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
-  name: ISubscriptionMonthlyUsageRecordCollection
-  nameWithType: ISubscriptionMonthlyUsageRecordCollection
-  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords*
-  name: getUsageRecords
-  nameWithType: SubscriptionCollectionOperations.getUsageRecords
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations*"
+  name: "SubscriptionCollectionOperations"
+  nameWithType: "SubscriptionCollectionOperations.SubscriptionCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection"
+  name: "ISubscriptionMonthlyUsageRecordCollection"
+  nameWithType: "ISubscriptionMonthlyUsageRecordCollection"
+  fullName: "com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords*"
+  name: "getUsageRecords"
+  nameWithType: "SubscriptionCollectionOperations.getUsageRecords"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-    name: IEntireEntityCollectionRetrievalOperations
-    fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription
-    name: Subscription
-    fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription
-  - name: ','
-    fullName: ','
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription
-    name: Subscription
-    fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription
-  - name: '>'
-    fullName: '>'
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder*
-  name: byOrder
-  nameWithType: SubscriptionCollectionOperations.byOrder
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner*
-  name: byPartner
-  nameWithType: SubscriptionCollectionOperations.byPartner
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscription
-  name: ISubscription
-  nameWithType: ISubscription
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscription
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId*
-  name: byId
-  nameWithType: SubscriptionCollectionOperations.byId
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>
+  - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+    name: "IEntireEntityCollectionRetrievalOperations"
+    fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
+    name: "Subscription"
+    fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
+  - name: ","
+    fullName: ","
+  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
+    name: "Subscription"
+    fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
+  - name: ">"
+    fullName: ">"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder*"
+  name: "byOrder"
+  nameWithType: "SubscriptionCollectionOperations.byOrder"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner*"
+  name: "byPartner"
+  nameWithType: "SubscriptionCollectionOperations.byPartner"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscription"
+  name: "ISubscription"
+  nameWithType: "ISubscription"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId*"
+  name: "byId"
+  nameWithType: "SubscriptionCollectionOperations.byId"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription
-    name: Subscription
-    fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get*
-  name: get
-  nameWithType: SubscriptionCollectionOperations.get
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
-  name: BasePartnerComponentString
-  nameWithType: BasePartnerComponentString
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
-  name: ISubscriptionCollection
-  nameWithType: ISubscriptionCollection
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription
-  name: Subscription
-  nameWithType: Subscription
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: Subscription,ResourceCollection
-  nameWithType: Subscription,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
+    name: "Subscription"
+    fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get*"
+  name: "get"
+  nameWithType: "SubscriptionCollectionOperations.get"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
+  name: "BasePartnerComponentString"
+  nameWithType: "BasePartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection"
+  name: "ISubscriptionCollection"
+  nameWithType: "ISubscriptionCollection"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Object.finalize()"
+  name: "Object.finalize()"
+  nameWithType: "Object.finalize()"
+  fullName: "java.lang.Object.finalize()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Object.clone()"
+  name: "Object.clone()"
+  nameWithType: "Object.clone()"
+  fullName: "java.lang.Object.clone()"
+- uid: "java.lang.Object.equals(java.lang.Object)"
+  name: "Object.equals(Object)"
+  nameWithType: "Object.equals(Object)"
+  fullName: "java.lang.Object.equals(java.lang.Object)"
+- uid: "java.lang.Object.toString()"
+  name: "Object.toString()"
+  nameWithType: "Object.toString()"
+  fullName: "java.lang.Object.toString()"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+  name: "BasePartnerComponent.getPartner()"
+  nameWithType: "BasePartnerComponent.getPartner()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Object.hashCode()"
+  name: "Object.hashCode()"
+  nameWithType: "Object.hashCode()"
+  fullName: "java.lang.Object.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  name: "BasePartnerComponent.getContext()"
+  nameWithType: "BasePartnerComponent.getContext()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
+  name: "Subscription"
+  nameWithType: "Subscription"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  name: "IEntireEntityCollectionRetrievalOperations"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "Subscription,ResourceCollection"
+  nameWithType: "Subscription,ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "ResourceCollection"
+  nameWithType: "ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

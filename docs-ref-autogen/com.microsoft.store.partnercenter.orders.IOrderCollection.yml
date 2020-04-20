@@ -1,152 +1,149 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.orders.IOrderCollection
-  id: IOrderCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.orders
+- uid: "com.microsoft.store.partnercenter.orders.IOrderCollection"
+  id: "IOrderCollection"
+  parent: "com.microsoft.store.partnercenter.orders"
   children:
-  - com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)
-  - com.microsoft.store.partnercenter.orders.IOrderCollection.get(java.lang.Boolean)
+  - "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
+  - "com.microsoft.store.partnercenter.orders.IOrderCollection.get(java.lang.Boolean)"
   langs:
-  - java
-  name: IOrderCollection
-  nameWithType: IOrderCollection
-  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.orders
-  summary: Encapsulates customer orders behavior.
+  - "java"
+  name: "IOrderCollection"
+  nameWithType: "IOrderCollection"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.orders"
+  summary: "Encapsulates customer orders behavior."
   syntax:
-    content: public interface IOrderCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>, IEntityCreateOperations<Order,Order>, IEntitySelector<String,IOrder>
+    content: "public interface IOrderCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>, IEntityCreateOperations<Order,Order>, IEntitySelector<String,IOrder>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order>
-  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.orders.IOrder>
-- uid: com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)
-  id: byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.orders.IOrderCollection
+  - "com.microsoft.store.partnercenter.IPartnerComponentString"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.orders.IOrder>"
+- uid: "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
+  id: "byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
+  parent: "com.microsoft.store.partnercenter.orders.IOrderCollection"
   langs:
-  - java
-  name: byBillingCycleType(BillingCycleType billingCycleType)
-  nameWithType: IOrderCollection.byBillingCycleType(BillingCycleType billingCycleType)
-  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(BillingCycleType billingCycleType)
-  overload: com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType*
-  type: Method
-  package: com.microsoft.store.partnercenter.orders
-  summary: Gets the order collection behavior given a billing cycle type.
+  - "java"
+  name: "byBillingCycleType(BillingCycleType billingCycleType)"
+  nameWithType: "IOrderCollection.byBillingCycleType(BillingCycleType billingCycleType)"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(BillingCycleType billingCycleType)"
+  overload: "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.orders"
+  summary: "Gets the order collection behavior given a billing cycle type."
   syntax:
-    content: public abstract IOrderCollectionByBillingCycleType byBillingCycleType(BillingCycleType billingCycleType)
+    content: "public abstract IOrderCollectionByBillingCycleType byBillingCycleType(BillingCycleType billingCycleType)"
     parameters:
-    - id: billingCycleType
-      type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
-      description: The billing cycle type.
+    - id: "billingCycleType"
+      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+      description: "The billing cycle type."
     return:
-      type: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
-      description: The order collection by billing cycle type.
-- uid: com.microsoft.store.partnercenter.orders.IOrderCollection.get(java.lang.Boolean)
-  id: get(java.lang.Boolean)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.orders.IOrderCollection
+      type: "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType"
+      description: "The order collection by billing cycle type."
+- uid: "com.microsoft.store.partnercenter.orders.IOrderCollection.get(java.lang.Boolean)"
+  id: "get(java.lang.Boolean)"
+  parent: "com.microsoft.store.partnercenter.orders.IOrderCollection"
   langs:
-  - java
-  name: get(Boolean includePrice)
-  nameWithType: IOrderCollection.get(Boolean includePrice)
-  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection.get(Boolean includePrice)
-  overload: com.microsoft.store.partnercenter.orders.IOrderCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.orders
-  summary: Gets a collection of orders.
+  - "java"
+  name: "get(Boolean includePrice)"
+  nameWithType: "IOrderCollection.get(Boolean includePrice)"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection.get(Boolean includePrice)"
+  overload: "com.microsoft.store.partnercenter.orders.IOrderCollection.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.orders"
+  summary: "Gets a collection of orders."
   syntax:
-    content: public abstract ResourceCollection<Order> get(Boolean includePrice)
+    content: "public abstract ResourceCollection<Order> get(Boolean includePrice)"
     parameters:
-    - id: includePrice
-      type: java.lang.Boolean
-      description: A flag indicating whether to include pricing details in the order information or not.
+    - id: "includePrice"
+      type: "java.lang.Boolean"
+      description: "A flag indicating whether to include pricing details in the order information or not."
     return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>
-      description: The collection of orders including pricing details (based on access permissions) when requested.
+      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
+      description: "The collection of orders including pricing details (based on access permissions) when requested."
 references:
-- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType
-  name: BillingCycleType
-  nameWithType: BillingCycleType
-  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType
-- uid: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
-  name: IOrderCollectionByBillingCycleType
-  nameWithType: IOrderCollectionByBillingCycleType
-  fullName: com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType
-- uid: com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType*
-  name: byBillingCycleType
-  nameWithType: IOrderCollection.byBillingCycleType
-  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType
-  package: com.microsoft.store.partnercenter.orders
-- uid: java.lang.Boolean
+- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+  name: "BillingCycleType"
+  nameWithType: "BillingCycleType"
+  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+- uid: "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType"
+  name: "IOrderCollectionByBillingCycleType"
+  nameWithType: "IOrderCollectionByBillingCycleType"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType"
+- uid: "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType*"
+  name: "byBillingCycleType"
+  nameWithType: "IOrderCollection.byBillingCycleType"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType"
+  package: "com.microsoft.store.partnercenter.orders"
+- uid: "java.lang.Boolean"
   spec.java:
-  - uid: java.lang.Boolean
-    name: Boolean
-    fullName: java.lang.Boolean
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>
+  - uid: "java.lang.Boolean"
+    name: "Boolean"
+    fullName: "java.lang.Boolean"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.orders.Order
-    name: Order
-    fullName: com.microsoft.store.partnercenter.models.orders.Order
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.orders.IOrderCollection.get*
-  name: get
-  nameWithType: IOrderCollection.get
-  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection.get
-  package: com.microsoft.store.partnercenter.orders
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.orders.IOrder>
-  name: IEntitySelector<String,IOrder>
-  nameWithType: IEntitySelector<String,IOrder>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.orders.IOrder>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>>
-  name: IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order>
-  name: IEntityCreateOperations<Order,Order>
-  nameWithType: IEntityCreateOperations<Order,Order>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order>
-- uid: com.microsoft.store.partnercenter.models.orders.Order
-  name: Order
-  nameWithType: Order
-  fullName: com.microsoft.store.partnercenter.models.orders.Order
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  name: IEntitySelector
-  nameWithType: IEntitySelector
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-- uid: java.lang.String,com.microsoft.store.partnercenter.orders.IOrder
-  name: String,IOrder
-  nameWithType: String,IOrder
-  fullName: java.lang.String,com.microsoft.store.partnercenter.orders.IOrder
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: Order,ResourceCollection
-  nameWithType: Order,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-  name: IEntityCreateOperations
-  nameWithType: IEntityCreateOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-- uid: com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order
-  name: Order,Order
-  nameWithType: Order,Order
-  fullName: com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order
+  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.orders.Order"
+    name: "Order"
+    fullName: "com.microsoft.store.partnercenter.models.orders.Order"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.orders.IOrderCollection.get*"
+  name: "get"
+  nameWithType: "IOrderCollection.get"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection.get"
+  package: "com.microsoft.store.partnercenter.orders"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  name: "IPartnerComponentString"
+  nameWithType: "IPartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.orders.IOrder>"
+  name: "IEntitySelector<String,IOrder>"
+  nameWithType: "IEntitySelector<String,IOrder>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.orders.IOrder>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>>"
+  name: "IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order>"
+  name: "IEntityCreateOperations<Order,Order>"
+  nameWithType: "IEntityCreateOperations<Order,Order>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order>"
+- uid: "com.microsoft.store.partnercenter.models.orders.Order"
+  name: "Order"
+  nameWithType: "Order"
+  fullName: "com.microsoft.store.partnercenter.models.orders.Order"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "ResourceCollection"
+  nameWithType: "ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
+  name: "IEntitySelector"
+  nameWithType: "IEntitySelector"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
+- uid: "java.lang.String,com.microsoft.store.partnercenter.orders.IOrder"
+  name: "String,IOrder"
+  nameWithType: "String,IOrder"
+  fullName: "java.lang.String,com.microsoft.store.partnercenter.orders.IOrder"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  name: "IEntireEntityCollectionRetrievalOperations"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+- uid: "com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "Order,ResourceCollection"
+  nameWithType: "Order,ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
+  name: "IEntityCreateOperations"
+  nameWithType: "IEntityCreateOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
+- uid: "com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order"
+  name: "Order,Order"
+  nameWithType: "Order,Order"
+  fullName: "com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order"

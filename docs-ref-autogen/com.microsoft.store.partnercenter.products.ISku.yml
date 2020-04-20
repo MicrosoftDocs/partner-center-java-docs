@@ -1,101 +1,98 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.products.ISku
-  id: ISku
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products
+- uid: "com.microsoft.store.partnercenter.products.ISku"
+  id: "ISku"
+  parent: "com.microsoft.store.partnercenter.products"
   children:
-  - com.microsoft.store.partnercenter.products.ISku.get()
-  - com.microsoft.store.partnercenter.products.ISku.getAvailabilities()
+  - "com.microsoft.store.partnercenter.products.ISku.get()"
+  - "com.microsoft.store.partnercenter.products.ISku.getAvailabilities()"
   langs:
-  - java
-  name: ISku
-  nameWithType: ISku
-  fullName: com.microsoft.store.partnercenter.products.ISku
-  type: Interface
-  package: com.microsoft.store.partnercenter.products
-  summary: Holds operations that can be performed on a single SKU.
+  - "java"
+  name: "ISku"
+  nameWithType: "ISku"
+  fullName: "com.microsoft.store.partnercenter.products.ISku"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Holds operations that can be performed on a single SKU."
   syntax:
-    content: public interface ISku extends IPartnerComponent<TripletTuple<String,String,String>>, IEntityGetOperations<Sku>
+    content: "public interface ISku extends IPartnerComponent<TripletTuple<String,String,String>>, IEntityGetOperations<Sku>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>
-- uid: com.microsoft.store.partnercenter.products.ISku.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.ISku
+  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>"
+- uid: "com.microsoft.store.partnercenter.products.ISku.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.products.ISku"
   langs:
-  - java
-  name: get()
-  nameWithType: ISku.get()
-  fullName: com.microsoft.store.partnercenter.products.ISku.get()
-  overload: com.microsoft.store.partnercenter.products.ISku.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.products
-  summary: Retrieves the SKU information.
+  - "java"
+  name: "get()"
+  nameWithType: "ISku.get()"
+  fullName: "com.microsoft.store.partnercenter.products.ISku.get()"
+  overload: "com.microsoft.store.partnercenter.products.ISku.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Retrieves the SKU information."
   syntax:
-    content: public abstract Sku get()
+    content: "public abstract Sku get()"
     return:
-      type: com.microsoft.store.partnercenter.models.products.Sku
-      description: The SKUs information.
-- uid: com.microsoft.store.partnercenter.products.ISku.getAvailabilities()
-  id: getAvailabilities()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.ISku
+      type: "com.microsoft.store.partnercenter.models.products.Sku"
+      description: "The SKUs information."
+- uid: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities()"
+  id: "getAvailabilities()"
+  parent: "com.microsoft.store.partnercenter.products.ISku"
   langs:
-  - java
-  name: getAvailabilities()
-  nameWithType: ISku.getAvailabilities()
-  fullName: com.microsoft.store.partnercenter.products.ISku.getAvailabilities()
-  overload: com.microsoft.store.partnercenter.products.ISku.getAvailabilities*
-  type: Method
-  package: com.microsoft.store.partnercenter.products
-  summary: Retrieves the operations for the current SKU's availabilities.
+  - "java"
+  name: "getAvailabilities()"
+  nameWithType: "ISku.getAvailabilities()"
+  fullName: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities()"
+  overload: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Retrieves the operations for the current SKU's availabilities."
   syntax:
-    content: public abstract IAvailabilityCollection getAvailabilities()
+    content: "public abstract IAvailabilityCollection getAvailabilities()"
     return:
-      type: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-      description: The operations for the current SKU's availabilities.
+      type: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
+      description: "The operations for the current SKU's availabilities."
 references:
-- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-  name: IAvailabilityCollection
-  nameWithType: IAvailabilityCollection
-  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-- uid: com.microsoft.store.partnercenter.products.ISku.getAvailabilities*
-  name: getAvailabilities
-  nameWithType: ISku.getAvailabilities
-  fullName: com.microsoft.store.partnercenter.products.ISku.getAvailabilities
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.models.products.Sku
-  name: Sku
-  nameWithType: Sku
-  fullName: com.microsoft.store.partnercenter.models.products.Sku
-- uid: com.microsoft.store.partnercenter.products.ISku.get*
-  name: get
-  nameWithType: ISku.get
-  fullName: com.microsoft.store.partnercenter.products.ISku.get
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-  name: IPartnerComponent<TripletTuple<String,String,String>>
-  nameWithType: IPartnerComponent<TripletTuple<String,String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>
-  name: IEntityGetOperations<Sku>
-  nameWithType: IEntityGetOperations<Sku>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: java.lang.String,java.lang.String,java.lang.String
-  name: String,String,String
-  nameWithType: String,String,String
-  fullName: java.lang.String,java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
-  name: TripletTuple
-  nameWithType: TripletTuple
-  fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
+  name: "IAvailabilityCollection"
+  nameWithType: "IAvailabilityCollection"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
+- uid: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities*"
+  name: "getAvailabilities"
+  nameWithType: "ISku.getAvailabilities"
+  fullName: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities"
+  package: "com.microsoft.store.partnercenter.products"
+- uid: "com.microsoft.store.partnercenter.models.products.Sku"
+  name: "Sku"
+  nameWithType: "Sku"
+  fullName: "com.microsoft.store.partnercenter.models.products.Sku"
+- uid: "com.microsoft.store.partnercenter.products.ISku.get*"
+  name: "get"
+  nameWithType: "ISku.get"
+  fullName: "com.microsoft.store.partnercenter.products.ISku.get"
+  package: "com.microsoft.store.partnercenter.products"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
+  name: "IPartnerComponent<TripletTuple<String,String,String>>"
+  nameWithType: "IPartnerComponent<TripletTuple<String,String,String>>"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>"
+  name: "IEntityGetOperations<Sku>"
+  nameWithType: "IEntityGetOperations<Sku>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
+  name: "IPartnerComponent"
+  nameWithType: "IPartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
+- uid: "java.lang.String,java.lang.String,java.lang.String"
+  name: "String,String,String"
+  nameWithType: "String,String,String"
+  fullName: "java.lang.String,java.lang.String,java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
+  name: "TripletTuple"
+  nameWithType: "TripletTuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+  name: "IEntityGetOperations"
+  nameWithType: "IEntityGetOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

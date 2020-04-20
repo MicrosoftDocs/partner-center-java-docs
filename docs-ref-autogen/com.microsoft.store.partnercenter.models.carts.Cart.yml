@@ -1,470 +1,454 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.carts.Cart
-  id: Cart
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart"
+  id: "Cart"
+  parent: "com.microsoft.store.partnercenter.models.carts"
   children:
-  - com.microsoft.store.partnercenter.models.carts.Cart.Cart()
-  - com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp()
-  - com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp()
-  - com.microsoft.store.partnercenter.models.carts.Cart.getId()
-  - com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp()
-  - com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser()
-  - com.microsoft.store.partnercenter.models.carts.Cart.getLineItems()
-  - com.microsoft.store.partnercenter.models.carts.Cart.getStatus()
-  - com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp(org.joda.time.DateTime)
-  - com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp(org.joda.time.DateTime)
-  - com.microsoft.store.partnercenter.models.carts.Cart.setId(java.lang.String)
-  - com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp(org.joda.time.DateTime)
-  - com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser(java.lang.String)
-  - com.microsoft.store.partnercenter.models.carts.Cart.setLineItems(java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>)
-  - com.microsoft.store.partnercenter.models.carts.Cart.setStatus(java.lang.String)
+  - "com.microsoft.store.partnercenter.models.carts.Cart.Cart()"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp()"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp()"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.getId()"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp()"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser()"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.getLineItems()"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.getStatus()"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.setId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.setLineItems(java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>)"
+  - "com.microsoft.store.partnercenter.models.carts.Cart.setStatus(java.lang.String)"
   langs:
-  - java
-  name: Cart
-  nameWithType: Cart
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart
-  type: Class
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: This class represents a model of a cart object.
+  - "java"
+  name: "Cart"
+  nameWithType: "Cart"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.carts"
+  summary: "This class represents a model of a cart object."
   syntax:
-    content: public class Cart extends ResourceBaseWithLinks<StandardResourceLinks>
+    content: "public class Cart extends ResourceBaseWithLinks<StandardResourceLinks>"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.Cart()
-  id: Cart()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.Cart()"
+  id: "Cart()"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: Cart()
-  nameWithType: Cart.Cart()
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.Cart()
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.Cart*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "Cart()"
+  nameWithType: "Cart.Cart()"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.Cart()"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.Cart*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public Cart()
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp()
-  id: getCreationTimestamp()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+    content: "public Cart()"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp()"
+  id: "getCreationTimestamp()"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: getCreationTimestamp()
-  nameWithType: Cart.getCreationTimestamp()
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp()
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "getCreationTimestamp()"
+  nameWithType: "Cart.getCreationTimestamp()"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp()"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public DateTime getCreationTimestamp()
+    content: "public DateTime getCreationTimestamp()"
     return:
-      type: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp()
-  id: getExpirationTimestamp()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp()"
+  id: "getExpirationTimestamp()"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: getExpirationTimestamp()
-  nameWithType: Cart.getExpirationTimestamp()
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp()
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "getExpirationTimestamp()"
+  nameWithType: "Cart.getExpirationTimestamp()"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp()"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public DateTime getExpirationTimestamp()
+    content: "public DateTime getExpirationTimestamp()"
     return:
-      type: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getId()
-  id: getId()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getId()"
+  id: "getId()"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: getId()
-  nameWithType: Cart.getId()
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getId()
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.getId*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "getId()"
+  nameWithType: "Cart.getId()"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getId()"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.getId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public String getId()
+    content: "public String getId()"
     return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp()
-  id: getLastModifiedTimestamp()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp()"
+  id: "getLastModifiedTimestamp()"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: getLastModifiedTimestamp()
-  nameWithType: Cart.getLastModifiedTimestamp()
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp()
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "getLastModifiedTimestamp()"
+  nameWithType: "Cart.getLastModifiedTimestamp()"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp()"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public DateTime getLastModifiedTimestamp()
+    content: "public DateTime getLastModifiedTimestamp()"
     return:
-      type: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser()
-  id: getLastModifiedUser()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser()"
+  id: "getLastModifiedUser()"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: getLastModifiedUser()
-  nameWithType: Cart.getLastModifiedUser()
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser()
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "getLastModifiedUser()"
+  nameWithType: "Cart.getLastModifiedUser()"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser()"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public String getLastModifiedUser()
+    content: "public String getLastModifiedUser()"
     return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getLineItems()
-  id: getLineItems()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getLineItems()"
+  id: "getLineItems()"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: getLineItems()
-  nameWithType: Cart.getLineItems()
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getLineItems()
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.getLineItems*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "getLineItems()"
+  nameWithType: "Cart.getLineItems()"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getLineItems()"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.getLineItems*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public List<CartLineItem> getLineItems()
+    content: "public List<CartLineItem> getLineItems()"
     return:
-      type: java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getStatus()
-  id: getStatus()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+      type: "java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getStatus()"
+  id: "getStatus()"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: getStatus()
-  nameWithType: Cart.getStatus()
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getStatus()
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.getStatus*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "getStatus()"
+  nameWithType: "Cart.getStatus()"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getStatus()"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.getStatus*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public String getStatus()
+    content: "public String getStatus()"
     return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp(org.joda.time.DateTime)
-  id: setCreationTimestamp(org.joda.time.DateTime)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp(org.joda.time.DateTime)"
+  id: "setCreationTimestamp(org.joda.time.DateTime)"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: setCreationTimestamp(DateTime value)
-  nameWithType: Cart.setCreationTimestamp(DateTime value)
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp(DateTime value)
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "setCreationTimestamp(DateTime value)"
+  nameWithType: "Cart.setCreationTimestamp(DateTime value)"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp(DateTime value)"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public void setCreationTimestamp(DateTime value)
+    content: "public void setCreationTimestamp(DateTime value)"
     parameters:
-    - id: value
-      type: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp(org.joda.time.DateTime)
-  id: setExpirationTimestamp(org.joda.time.DateTime)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+    - id: "value"
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp(org.joda.time.DateTime)"
+  id: "setExpirationTimestamp(org.joda.time.DateTime)"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: setExpirationTimestamp(DateTime value)
-  nameWithType: Cart.setExpirationTimestamp(DateTime value)
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp(DateTime value)
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "setExpirationTimestamp(DateTime value)"
+  nameWithType: "Cart.setExpirationTimestamp(DateTime value)"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp(DateTime value)"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public void setExpirationTimestamp(DateTime value)
+    content: "public void setExpirationTimestamp(DateTime value)"
     parameters:
-    - id: value
-      type: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setId(java.lang.String)
-  id: setId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+    - id: "value"
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setId(java.lang.String)"
+  id: "setId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: setId(String value)
-  nameWithType: Cart.setId(String value)
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setId(String value)
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.setId*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "setId(String value)"
+  nameWithType: "Cart.setId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.setId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public void setId(String value)
+    content: "public void setId(String value)"
     parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp(org.joda.time.DateTime)
-  id: setLastModifiedTimestamp(org.joda.time.DateTime)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp(org.joda.time.DateTime)"
+  id: "setLastModifiedTimestamp(org.joda.time.DateTime)"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: setLastModifiedTimestamp(DateTime value)
-  nameWithType: Cart.setLastModifiedTimestamp(DateTime value)
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp(DateTime value)
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "setLastModifiedTimestamp(DateTime value)"
+  nameWithType: "Cart.setLastModifiedTimestamp(DateTime value)"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp(DateTime value)"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public void setLastModifiedTimestamp(DateTime value)
+    content: "public void setLastModifiedTimestamp(DateTime value)"
     parameters:
-    - id: value
-      type: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser(java.lang.String)
-  id: setLastModifiedUser(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+    - id: "value"
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser(java.lang.String)"
+  id: "setLastModifiedUser(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: setLastModifiedUser(String value)
-  nameWithType: Cart.setLastModifiedUser(String value)
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser(String value)
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "setLastModifiedUser(String value)"
+  nameWithType: "Cart.setLastModifiedUser(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser(String value)"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public void setLastModifiedUser(String value)
+    content: "public void setLastModifiedUser(String value)"
     parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setLineItems(java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>)
-  id: setLineItems(java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setLineItems(java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>)"
+  id: "setLineItems(java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>)"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: setLineItems(List<CartLineItem> value)
-  nameWithType: Cart.setLineItems(List<CartLineItem> value)
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setLineItems(List<CartLineItem> value)
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.setLineItems*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "setLineItems(List<CartLineItem> value)"
+  nameWithType: "Cart.setLineItems(List<CartLineItem> value)"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setLineItems(List<CartLineItem> value)"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.setLineItems*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public void setLineItems(List<CartLineItem> value)
+    content: "public void setLineItems(List<CartLineItem> value)"
     parameters:
-    - id: value
-      type: java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setStatus(java.lang.String)
-  id: setStatus(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.Cart
+    - id: "value"
+      type: "java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setStatus(java.lang.String)"
+  id: "setStatus(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.carts.Cart"
   langs:
-  - java
-  name: setStatus(String value)
-  nameWithType: Cart.setStatus(String value)
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setStatus(String value)
-  overload: com.microsoft.store.partnercenter.models.carts.Cart.setStatus*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
+  - "java"
+  name: "setStatus(String value)"
+  nameWithType: "Cart.setStatus(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setStatus(String value)"
+  overload: "com.microsoft.store.partnercenter.models.carts.Cart.setStatus*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.carts"
   syntax:
-    content: public void setStatus(String value)
+    content: "public void setStatus(String value)"
     parameters:
-    - id: value
-      type: java.lang.String
+    - id: "value"
+      type: "java.lang.String"
 references:
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.Cart*
-  name: Cart
-  nameWithType: Cart.Cart
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.Cart
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: java.lang.String
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.Cart*"
+  name: "Cart"
+  nameWithType: "Cart.Cart"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.Cart"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getId*
-  name: getId
-  nameWithType: Cart.getId
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getId
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setId*
-  name: setId
-  nameWithType: Cart.setId
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setId
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: org.joda.time.DateTime
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getId*"
+  name: "getId"
+  nameWithType: "Cart.getId"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getId"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setId*"
+  name: "setId"
+  nameWithType: "Cart.setId"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setId"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "org.joda.time.DateTime"
   spec.java:
-  - uid: org.joda.time.DateTime
-    name: DateTime
-    fullName: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp*
-  name: getCreationTimestamp
-  nameWithType: Cart.getCreationTimestamp
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp*
-  name: setCreationTimestamp
-  nameWithType: Cart.setCreationTimestamp
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp*
-  name: getLastModifiedTimestamp
-  nameWithType: Cart.getLastModifiedTimestamp
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp*
-  name: setLastModifiedTimestamp
-  nameWithType: Cart.setLastModifiedTimestamp
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp*
-  name: getExpirationTimestamp
-  nameWithType: Cart.getExpirationTimestamp
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp*
-  name: setExpirationTimestamp
-  nameWithType: Cart.setExpirationTimestamp
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser*
-  name: getLastModifiedUser
-  nameWithType: Cart.getLastModifiedUser
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser*
-  name: setLastModifiedUser
-  nameWithType: Cart.setLastModifiedUser
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getStatus*
-  name: getStatus
-  nameWithType: Cart.getStatus
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getStatus
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setStatus*
-  name: setStatus
-  nameWithType: Cart.setStatus
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setStatus
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>
+  - uid: "org.joda.time.DateTime"
+    name: "DateTime"
+    fullName: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp*"
+  name: "getCreationTimestamp"
+  nameWithType: "Cart.getCreationTimestamp"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp*"
+  name: "setCreationTimestamp"
+  nameWithType: "Cart.setCreationTimestamp"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp*"
+  name: "getLastModifiedTimestamp"
+  nameWithType: "Cart.getLastModifiedTimestamp"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp*"
+  name: "setLastModifiedTimestamp"
+  nameWithType: "Cart.setLastModifiedTimestamp"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp*"
+  name: "getExpirationTimestamp"
+  nameWithType: "Cart.getExpirationTimestamp"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp*"
+  name: "setExpirationTimestamp"
+  nameWithType: "Cart.setExpirationTimestamp"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser*"
+  name: "getLastModifiedUser"
+  nameWithType: "Cart.getLastModifiedUser"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedUser"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser*"
+  name: "setLastModifiedUser"
+  nameWithType: "Cart.setLastModifiedUser"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedUser"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getStatus*"
+  name: "getStatus"
+  nameWithType: "Cart.getStatus"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getStatus"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setStatus*"
+  name: "setStatus"
+  nameWithType: "Cart.setStatus"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setStatus"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>"
   spec.java:
-  - uid: java.util.List
-    name: List
-    fullName: java.util.List
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.carts.CartLineItem
-    name: CartLineItem
-    fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.getLineItems*
-  name: getLineItems
-  nameWithType: Cart.getLineItems
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.getLineItems
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart.setLineItems*
-  name: setLineItems
-  nameWithType: Cart.setLineItems
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart.setLineItems
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>
-  name: ResourceBaseWithLinks<StandardResourceLinks>
-  nameWithType: ResourceBaseWithLinks<StandardResourceLinks>
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  name: ResourceBase.getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  name: ResourceBaseWithLinks.getLinks()
-  nameWithType: ResourceBaseWithLinks.getLinks()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-  name: ResourceBaseWithLinks.setLinks(TLinks)
-  nameWithType: ResourceBaseWithLinks.setLinks(TLinks)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- uid: java.util.List
-  name: List
-  nameWithType: List
-  fullName: java.util.List
-- uid: com.microsoft.store.partnercenter.models.carts.CartLineItem
-  name: CartLineItem
-  nameWithType: CartLineItem
-  fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  name: ResourceBaseWithLinks
-  nameWithType: ResourceBaseWithLinks
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-- uid: com.microsoft.store.partnercenter.models.StandardResourceLinks
-  name: StandardResourceLinks
-  nameWithType: StandardResourceLinks
-  fullName: com.microsoft.store.partnercenter.models.StandardResourceLinks
+  - uid: "java.util.List"
+    name: "List"
+    fullName: "java.util.List"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.carts.CartLineItem"
+    name: "CartLineItem"
+    fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.getLineItems*"
+  name: "getLineItems"
+  nameWithType: "Cart.getLineItems"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.getLineItems"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart.setLineItems*"
+  name: "setLineItems"
+  nameWithType: "Cart.setLineItems"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setLineItems"
+  package: "com.microsoft.store.partnercenter.models.carts"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
+  name: "ResourceBaseWithLinks<StandardResourceLinks>"
+  nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  name: "ResourceBase.getAttributes()"
+  nameWithType: "ResourceBase.getAttributes()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Object.finalize()"
+  name: "Object.finalize()"
+  nameWithType: "Object.finalize()"
+  fullName: "java.lang.Object.finalize()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Object.clone()"
+  name: "Object.clone()"
+  nameWithType: "Object.clone()"
+  fullName: "java.lang.Object.clone()"
+- uid: "java.lang.Object.equals(java.lang.Object)"
+  name: "Object.equals(Object)"
+  nameWithType: "Object.equals(Object)"
+  fullName: "java.lang.Object.equals(java.lang.Object)"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+  name: "ResourceBaseWithLinks.getLinks()"
+  nameWithType: "ResourceBaseWithLinks.getLinks()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+- uid: "java.lang.Object.toString()"
+  name: "Object.toString()"
+  nameWithType: "Object.toString()"
+  fullName: "java.lang.Object.toString()"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Object.hashCode()"
+  name: "Object.hashCode()"
+  nameWithType: "Object.hashCode()"
+  fullName: "java.lang.Object.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+  name: "ResourceBaseWithLinks.setLinks(TLinks)"
+  nameWithType: "ResourceBaseWithLinks.setLinks(TLinks)"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+- uid: "java.util.List"
+  name: "List"
+  nameWithType: "List"
+  fullName: "java.util.List"
+- uid: "com.microsoft.store.partnercenter.models.carts.CartLineItem"
+  name: "CartLineItem"
+  nameWithType: "CartLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+  name: "ResourceBaseWithLinks"
+  nameWithType: "ResourceBaseWithLinks"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+- uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
+  name: "StandardResourceLinks"
+  nameWithType: "StandardResourceLinks"
+  fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

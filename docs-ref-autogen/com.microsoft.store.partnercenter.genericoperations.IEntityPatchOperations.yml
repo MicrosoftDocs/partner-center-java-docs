@@ -1,53 +1,51 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
-  id: IEntityPatchOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.genericoperations
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
+  id: "IEntityPatchOperations"
+  parent: "com.microsoft.store.partnercenter.genericoperations"
   children:
-  - com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)"
   langs:
-  - java
-  name: IEntityPatchOperations<T>
-  nameWithType: IEntityPatchOperations<T>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>
-  type: Interface
-  package: com.microsoft.store.partnercenter.genericoperations
-  summary: Groups operations for getting a single entity. The entity type.
+  - "java"
+  name: "IEntityPatchOperations<T>"
+  nameWithType: "IEntityPatchOperations<T>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.genericoperations"
+  summary: "Groups operations for getting a single entity. The entity type."
   syntax:
-    content: public interface IEntityPatchOperations<T>
+    content: "public interface IEntityPatchOperations<T>"
     typeParameters:
-    - id: T
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)
-  id: patch(T)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
+    - id: "T"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)"
+  id: "patch(T)"
+  parent: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
   langs:
-  - java
-  name: patch(T entity)
-  nameWithType: IEntityPatchOperations<T>.patch(T entity)
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>.patch(T entity)
-  overload: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch*
-  type: Method
-  package: com.microsoft.store.partnercenter.genericoperations
-  summary: Patches an entity.
+  - "java"
+  name: "patch(T entity)"
+  nameWithType: "IEntityPatchOperations<T>.patch(T entity)"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>.patch(T entity)"
+  overload: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.genericoperations"
+  summary: "Patches an entity."
   syntax:
-    content: public abstract T patch(T entity)
+    content: "public abstract T patch(T entity)"
     parameters:
-    - id: entity
-      type: T
-      description: The entity information.
+    - id: "entity"
+      type: "T"
+      description: "The entity information."
     return:
-      type: T
-      description: The updated entity.
+      type: "T"
+      description: "The updated entity."
 references:
-- uid: T
+- uid: "T"
   spec.java:
-  - uid: T
-    name: T
-    fullName: T
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch*
-  name: patch
-  nameWithType: IEntityPatchOperations<T>.patch
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>.patch
-  package: com.microsoft.store.partnercenter.genericoperations
+  - uid: "T"
+    name: "T"
+    fullName: "T"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch*"
+  name: "patch"
+  nameWithType: "IEntityPatchOperations<T>.patch"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>.patch"
+  package: "com.microsoft.store.partnercenter.genericoperations"

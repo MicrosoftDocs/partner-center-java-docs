@@ -1,64 +1,62 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
-  id: ICustomerReadonlyProfile
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.profiles
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
+  id: "ICustomerReadonlyProfile"
+  parent: "com.microsoft.store.partnercenter.customers.profiles"
   children:
-  - com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get()
+  - "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get()"
   langs:
-  - java
-  name: ICustomerReadonlyProfile<T>
-  nameWithType: ICustomerReadonlyProfile<T>
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>
-  type: Interface
-  package: com.microsoft.store.partnercenter.customers.profiles
-  summary: Encapsulates a single customer read-only profile behavior.
+  - "java"
+  name: "ICustomerReadonlyProfile<T>"
+  nameWithType: "ICustomerReadonlyProfile<T>"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
+  summary: "Encapsulates a single customer read-only profile behavior."
   syntax:
-    content: public interface ICustomerReadonlyProfile<T> extends IPartnerComponentString, IEntityGetOperations<T>
+    content: "public interface ICustomerReadonlyProfile<T> extends IPartnerComponentString, IEntityGetOperations<T>"
     typeParameters:
-    - id: T
+    - id: "T"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
+  - "com.microsoft.store.partnercenter.IPartnerComponentString"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
   langs:
-  - java
-  name: get()
-  nameWithType: ICustomerReadonlyProfile<T>.get()
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>.get()
-  overload: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.customers.profiles
-  summary: Retrieves the customer profile.
+  - "java"
+  name: "get()"
+  nameWithType: "ICustomerReadonlyProfile<T>.get()"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>.get()"
+  overload: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
+  summary: "Retrieves the customer profile."
   syntax:
-    content: public abstract T get()
+    content: "public abstract T get()"
     return:
-      type: T
-      description: The customer profile.
+      type: "T"
+      description: "The customer profile."
 references:
-- uid: T
+- uid: "T"
   spec.java:
-  - uid: T
-    name: T
-    fullName: T
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get*
-  name: get
-  nameWithType: ICustomerReadonlyProfile<T>.get
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>.get
-  package: com.microsoft.store.partnercenter.customers.profiles
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>
-  name: IEntityGetOperations<T>
-  nameWithType: IEntityGetOperations<T>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  - uid: "T"
+    name: "T"
+    fullName: "T"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get*"
+  name: "get"
+  nameWithType: "ICustomerReadonlyProfile<T>.get"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>.get"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  name: "IPartnerComponentString"
+  nameWithType: "IPartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>"
+  name: "IEntityGetOperations<T>"
+  nameWithType: "IEntityGetOperations<T>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+  name: "IEntityGetOperations"
+  nameWithType: "IEntityGetOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

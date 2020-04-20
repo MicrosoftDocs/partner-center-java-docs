@@ -1,159 +1,152 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
-  id: IAzureUtilizationCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.utilization
+- uid: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
+  id: "IAzureUtilizationCollection"
+  parent: "com.microsoft.store.partnercenter.utilization"
   children:
-  - com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)
-  - com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)
+  - "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)"
+  - "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)"
   langs:
-  - java
-  name: IAzureUtilizationCollection
-  nameWithType: IAzureUtilizationCollection
-  fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.utilization
-  summary: Groups behavior related to Azure subscription utilization records.
+  - "java"
+  name: "IAzureUtilizationCollection"
+  nameWithType: "IAzureUtilizationCollection"
+  fullName: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.utilization"
+  summary: "Groups behavior related to Azure subscription utilization records."
   syntax:
-    content: public interface IAzureUtilizationCollection extends IPartnerComponent<Tuple<String,String>>
+    content: "public interface IAzureUtilizationCollection extends IPartnerComponent<Tuple<String,String>>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)
-  id: query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
+  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)"
+  id: "query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity,boolean,int)"
+  parent: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
   langs:
-  - java
-  name: query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
-  nameWithType: IAzureUtilizationCollection.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
-  fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
-  overload: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query*
-  type: Method
-  package: com.microsoft.store.partnercenter.utilization
-  summary: Retrieves utilization records for the Azure subscription.
+  - "java"
+  name: "query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)"
+  nameWithType: "IAzureUtilizationCollection.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)"
+  fullName: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)"
+  overload: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.utilization"
+  summary: "Retrieves utilization records for the Azure subscription."
   syntax:
-    content: public abstract ResourceCollection<AzureUtilizationRecord> query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
+    content: "public abstract ResourceCollection<AzureUtilizationRecord> query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)"
     parameters:
-    - id: startTime
-      type: org.joda.time.DateTime
-      description: The starting time of when the utilization was metered in the billing system.
-    - id: endTime
-      type: org.joda.time.DateTime
-      description: The ending time of when the utilization was metered in the billing system.
-    - id: granularity
-      type: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
-      description: The resource usage time granularity. Can either be daily or hourly. Default is daily.
-    - id: showDetails
-      type: boolean
-      description: >-
-        If set to true, the utilization records will be split by the resource instance levels. If set to false, the utilization records
-            					   will be aggregated on the resource level. Default is true.
-    - id: size
-      type: int
-      description: >-
-        Maximum number of records to return. The returned resource collection will specify a next link in case there
-            				were more utilization records available.
+    - id: "startTime"
+      type: "org.joda.time.DateTime"
+      description: "The starting time of when the utilization was metered in the billing system."
+    - id: "endTime"
+      type: "org.joda.time.DateTime"
+      description: "The ending time of when the utilization was metered in the billing system."
+    - id: "granularity"
+      type: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
+      description: "The resource usage time granularity. Can either be daily or hourly. Default is daily."
+    - id: "showDetails"
+      type: "boolean"
+      description: "If set to true, the utilization records will be split by the resource instance levels. If set to false, the utilization records\n    \t\t\t\t\t   will be aggregated on the resource level. Default is true."
+    - id: "size"
+      type: "int"
+      description: "Maximum number of records to return. The returned resource collection will specify a next link in case there\n    \t\t\t\twere more utilization records available."
     return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>
-      description: The Azure resource utilization for the subscription.
-- uid: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)
-  id: seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
+      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>"
+      description: "The Azure resource utilization for the subscription."
+- uid: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)"
+  id: "seek(java.lang.String,com.microsoft.store.partnercenter.models.query.SeekOperation)"
+  parent: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
   langs:
-  - java
-  name: seek(String continuationToken, SeekOperation seekOperation)
-  nameWithType: IAzureUtilizationCollection.seek(String continuationToken, SeekOperation seekOperation)
-  fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek(String continuationToken, SeekOperation seekOperation)
-  overload: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek*
-  type: Method
-  package: com.microsoft.store.partnercenter.utilization
-  summary: Seeks pages of of utilization for resources that belong to an Azure subscription owned by a customer of the partner.
+  - "java"
+  name: "seek(String continuationToken, SeekOperation seekOperation)"
+  nameWithType: "IAzureUtilizationCollection.seek(String continuationToken, SeekOperation seekOperation)"
+  fullName: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek(String continuationToken, SeekOperation seekOperation)"
+  overload: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.utilization"
+  summary: "Seeks pages of of utilization for resources that belong to an Azure subscription owned by a customer of the partner."
   syntax:
-    content: public abstract ResourceCollection<AzureUtilizationRecord> seek(String continuationToken, SeekOperation seekOperation)
+    content: "public abstract ResourceCollection<AzureUtilizationRecord> seek(String continuationToken, SeekOperation seekOperation)"
     parameters:
-    - id: continuationToken
-      type: java.lang.String
-      description: The continuation token from the previous results.
-    - id: seekOperation
-      type: com.microsoft.store.partnercenter.models.query.SeekOperation
-      description: The seek operation to perform. Next is only supported.
+    - id: "continuationToken"
+      type: "java.lang.String"
+      description: "The continuation token from the previous results."
+    - id: "seekOperation"
+      type: "com.microsoft.store.partnercenter.models.query.SeekOperation"
+      description: "The seek operation to perform. Next is only supported."
     return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>
-      description: The next page of utilization records.
+      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>"
+      description: "The next page of utilization records."
 references:
-- uid: org.joda.time.DateTime
+- uid: "org.joda.time.DateTime"
   spec.java:
-  - uid: org.joda.time.DateTime
-    name: DateTime
-    fullName: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
-  name: AzureUtilizationGranularity
-  nameWithType: AzureUtilizationGranularity
-  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
-- uid: boolean
+  - uid: "org.joda.time.DateTime"
+    name: "DateTime"
+    fullName: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
+  name: "AzureUtilizationGranularity"
+  nameWithType: "AzureUtilizationGranularity"
+  fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
+- uid: "boolean"
   spec.java:
-  - uid: boolean
-    name: boolean
-    fullName: boolean
-- uid: int
+  - uid: "boolean"
+    name: "boolean"
+    fullName: "boolean"
+- uid: "int"
   spec.java:
-  - uid: int
-    name: int
-    fullName: int
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>
+  - uid: "int"
+    name: "int"
+    fullName: "int"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
-    name: AzureUtilizationRecord
-    fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query*
-  name: query
-  nameWithType: IAzureUtilizationCollection.query
-  fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query
-  package: com.microsoft.store.partnercenter.utilization
-- uid: java.lang.String
+  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"
+    name: "AzureUtilizationRecord"
+    fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query*"
+  name: "query"
+  nameWithType: "IAzureUtilizationCollection.query"
+  fullName: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query"
+  package: "com.microsoft.store.partnercenter.utilization"
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.query.SeekOperation
-  name: SeekOperation
-  nameWithType: SeekOperation
-  fullName: com.microsoft.store.partnercenter.models.query.SeekOperation
-- uid: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek*
-  name: seek
-  nameWithType: IAzureUtilizationCollection.seek
-  fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek
-  package: com.microsoft.store.partnercenter.utilization
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
-  name: AzureUtilizationRecord
-  nameWithType: AzureUtilizationRecord
-  fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.query.SeekOperation"
+  name: "SeekOperation"
+  nameWithType: "SeekOperation"
+  fullName: "com.microsoft.store.partnercenter.models.query.SeekOperation"
+- uid: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek*"
+  name: "seek"
+  nameWithType: "IAzureUtilizationCollection.seek"
+  fullName: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek"
+  package: "com.microsoft.store.partnercenter.utilization"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  name: "IPartnerComponent<Tuple<String,String>>"
+  nameWithType: "IPartnerComponent<Tuple<String,String>>"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "ResourceCollection"
+  nameWithType: "ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"
+  name: "AzureUtilizationRecord"
+  nameWithType: "AzureUtilizationRecord"
+  fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
+  name: "IPartnerComponent"
+  nameWithType: "IPartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  name: "Tuple"
+  nameWithType: "Tuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
+- uid: "java.lang.String,java.lang.String"
+  name: "String,String"
+  nameWithType: "String,String"
+  fullName: "java.lang.String,java.lang.String"

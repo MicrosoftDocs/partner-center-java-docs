@@ -1,216 +1,203 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator
-  id: IResourceCollectionEnumerator
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.enumerators
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
+  id: "IResourceCollectionEnumerator"
+  parent: "com.microsoft.store.partnercenter.enumerators"
   children:
-  - com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.getCurrent()
-  - com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.hasValue()
-  - com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isFirstPage()
-  - com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isLastPage()
-  - com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next()
-  - com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next(com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-  - com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous()
-  - com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous(com.microsoft.store.partnercenter.requestcontext.IRequestContext)
+  - "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.getCurrent()"
+  - "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.hasValue()"
+  - "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isFirstPage()"
+  - "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isLastPage()"
+  - "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next()"
+  - "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+  - "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous()"
+  - "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
   langs:
-  - java
-  name: IResourceCollectionEnumerator<T>
-  nameWithType: IResourceCollectionEnumerator<T>
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>
-  type: Interface
-  package: com.microsoft.store.partnercenter.enumerators
-  summary: Provides resource collection enumeration capabilities. This interface can page through results and determines whether the current page is the first or last page or not. The enumeration result type.
+  - "java"
+  name: "IResourceCollectionEnumerator<T>"
+  nameWithType: "IResourceCollectionEnumerator<T>"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.enumerators"
+  summary: "Provides resource collection enumeration capabilities. This interface can page through results and determines whether the current page is the first or last page or not. The enumeration result type."
   syntax:
-    content: public interface IResourceCollectionEnumerator<T>
+    content: "public interface IResourceCollectionEnumerator<T>"
     typeParameters:
-    - id: T
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.getCurrent()
-  id: getCurrent()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator
+    - id: "T"
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.getCurrent()"
+  id: "getCurrent()"
+  parent: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
   langs:
-  - java
-  name: getCurrent()
-  nameWithType: IResourceCollectionEnumerator<T>.getCurrent()
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.getCurrent()
-  overload: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.getCurrent*
-  type: Method
-  package: com.microsoft.store.partnercenter.enumerators
-  summary: The current resource collection.
+  - "java"
+  name: "getCurrent()"
+  nameWithType: "IResourceCollectionEnumerator<T>.getCurrent()"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.getCurrent()"
+  overload: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.getCurrent*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.enumerators"
+  summary: "The current resource collection."
   syntax:
-    content: public abstract T getCurrent()
+    content: "public abstract T getCurrent()"
     return:
-      type: T
-      description: The current resoure collection.
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.hasValue()
-  id: hasValue()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator
+      type: "T"
+      description: "The current resoure collection."
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.hasValue()"
+  id: "hasValue()"
+  parent: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
   langs:
-  - java
-  name: hasValue()
-  nameWithType: IResourceCollectionEnumerator<T>.hasValue()
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.hasValue()
-  overload: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.hasValue*
-  type: Method
-  package: com.microsoft.store.partnercenter.enumerators
-  summary: Gets whether the current result collection has a value or not. This indicates if the collection has been fully enumerated or not.
+  - "java"
+  name: "hasValue()"
+  nameWithType: "IResourceCollectionEnumerator<T>.hasValue()"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.hasValue()"
+  overload: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.hasValue*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.enumerators"
+  summary: "Gets whether the current result collection has a value or not. This indicates if the collection has been fully enumerated or not."
   syntax:
-    content: public abstract boolean hasValue()
+    content: "public abstract boolean hasValue()"
     return:
-      type: boolean
-      description: A flag indicating whether the current result collection has a value or not.
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isFirstPage()
-  id: isFirstPage()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator
+      type: "boolean"
+      description: "A flag indicating whether the current result collection has a value or not."
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isFirstPage()"
+  id: "isFirstPage()"
+  parent: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
   langs:
-  - java
-  name: isFirstPage()
-  nameWithType: IResourceCollectionEnumerator<T>.isFirstPage()
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.isFirstPage()
-  overload: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isFirstPage*
-  type: Method
-  package: com.microsoft.store.partnercenter.enumerators
-  summary: Gets whether the current result collection is the first page of results or not.
+  - "java"
+  name: "isFirstPage()"
+  nameWithType: "IResourceCollectionEnumerator<T>.isFirstPage()"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.isFirstPage()"
+  overload: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isFirstPage*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.enumerators"
+  summary: "Gets whether the current result collection is the first page of results or not."
   syntax:
-    content: public abstract boolean isFirstPage()
+    content: "public abstract boolean isFirstPage()"
     return:
-      type: boolean
-      description: A flag indicating whether or not the result collect is the fist page of results or not.
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isLastPage()
-  id: isLastPage()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator
+      type: "boolean"
+      description: "A flag indicating whether or not the result collect is the fist page of results or not."
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isLastPage()"
+  id: "isLastPage()"
+  parent: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
   langs:
-  - java
-  name: isLastPage()
-  nameWithType: IResourceCollectionEnumerator<T>.isLastPage()
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.isLastPage()
-  overload: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isLastPage*
-  type: Method
-  package: com.microsoft.store.partnercenter.enumerators
-  summary: Gets whether the current result collection is the last page of results or not.
+  - "java"
+  name: "isLastPage()"
+  nameWithType: "IResourceCollectionEnumerator<T>.isLastPage()"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.isLastPage()"
+  overload: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isLastPage*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.enumerators"
+  summary: "Gets whether the current result collection is the last page of results or not."
   syntax:
-    content: public abstract boolean isLastPage()
+    content: "public abstract boolean isLastPage()"
     return:
-      type: boolean
-      description: A flag indicating whether the current result collection is the last page of results or not.
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next()
-  id: next()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator
+      type: "boolean"
+      description: "A flag indicating whether the current result collection is the last page of results or not."
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next()"
+  id: "next()"
+  parent: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
   langs:
-  - java
-  name: next()
-  nameWithType: IResourceCollectionEnumerator<T>.next()
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.next()
-  overload: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next*
-  type: Method
-  package: com.microsoft.store.partnercenter.enumerators
-  summary: Retrieves the next result set.
+  - "java"
+  name: "next()"
+  nameWithType: "IResourceCollectionEnumerator<T>.next()"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.next()"
+  overload: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.enumerators"
+  summary: "Retrieves the next result set."
   syntax:
-    content: public abstract void next()
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next(com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-  id: next(com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator
+    content: "public abstract void next()"
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+  id: "next(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+  parent: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
   langs:
-  - java
-  name: next(IRequestContext context)
-  nameWithType: IResourceCollectionEnumerator<T>.next(IRequestContext context)
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.next(IRequestContext context)
-  overload: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next*
-  type: Method
-  package: com.microsoft.store.partnercenter.enumerators
-  summary: Retrieves the next result set.
+  - "java"
+  name: "next(IRequestContext context)"
+  nameWithType: "IResourceCollectionEnumerator<T>.next(IRequestContext context)"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.next(IRequestContext context)"
+  overload: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.enumerators"
+  summary: "Retrieves the next result set."
   syntax:
-    content: public abstract void next(IRequestContext context)
+    content: "public abstract void next(IRequestContext context)"
     parameters:
-    - id: context
-      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-      description: >-
-        An optional request context. If not provided, the context associated with the partner operations
-                    will be used.
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous()
-  id: previous()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator
+    - id: "context"
+      type: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
+      description: "An optional request context. If not provided, the context associated with the partner operations\n            will be used."
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous()"
+  id: "previous()"
+  parent: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
   langs:
-  - java
-  name: previous()
-  nameWithType: IResourceCollectionEnumerator<T>.previous()
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.previous()
-  overload: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous*
-  type: Method
-  package: com.microsoft.store.partnercenter.enumerators
-  summary: Retrieves the previous result set.
+  - "java"
+  name: "previous()"
+  nameWithType: "IResourceCollectionEnumerator<T>.previous()"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.previous()"
+  overload: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.enumerators"
+  summary: "Retrieves the previous result set."
   syntax:
-    content: public abstract void previous()
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous(com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-  id: previous(com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator
+    content: "public abstract void previous()"
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+  id: "previous(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+  parent: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
   langs:
-  - java
-  name: previous(IRequestContext context)
-  nameWithType: IResourceCollectionEnumerator<T>.previous(IRequestContext context)
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.previous(IRequestContext context)
-  overload: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous*
-  type: Method
-  package: com.microsoft.store.partnercenter.enumerators
-  summary: Retrieves the previous result set.
+  - "java"
+  name: "previous(IRequestContext context)"
+  nameWithType: "IResourceCollectionEnumerator<T>.previous(IRequestContext context)"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.previous(IRequestContext context)"
+  overload: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.enumerators"
+  summary: "Retrieves the previous result set."
   syntax:
-    content: public abstract void previous(IRequestContext context)
+    content: "public abstract void previous(IRequestContext context)"
     parameters:
-    - id: context
-      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-      description: >-
-        An optional request context. If not provided, the context associated with the partner operations
-                    will be used.
+    - id: "context"
+      type: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
+      description: "An optional request context. If not provided, the context associated with the partner operations\n            will be used."
 references:
-- uid: boolean
+- uid: "boolean"
   spec.java:
-  - uid: boolean
-    name: boolean
-    fullName: boolean
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isFirstPage*
-  name: isFirstPage
-  nameWithType: IResourceCollectionEnumerator<T>.isFirstPage
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.isFirstPage
-  package: com.microsoft.store.partnercenter.enumerators
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isLastPage*
-  name: isLastPage
-  nameWithType: IResourceCollectionEnumerator<T>.isLastPage
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.isLastPage
-  package: com.microsoft.store.partnercenter.enumerators
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.hasValue*
-  name: hasValue
-  nameWithType: IResourceCollectionEnumerator<T>.hasValue
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.hasValue
-  package: com.microsoft.store.partnercenter.enumerators
-- uid: T
+  - uid: "boolean"
+    name: "boolean"
+    fullName: "boolean"
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isFirstPage*"
+  name: "isFirstPage"
+  nameWithType: "IResourceCollectionEnumerator<T>.isFirstPage"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.isFirstPage"
+  package: "com.microsoft.store.partnercenter.enumerators"
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isLastPage*"
+  name: "isLastPage"
+  nameWithType: "IResourceCollectionEnumerator<T>.isLastPage"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.isLastPage"
+  package: "com.microsoft.store.partnercenter.enumerators"
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.hasValue*"
+  name: "hasValue"
+  nameWithType: "IResourceCollectionEnumerator<T>.hasValue"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.hasValue"
+  package: "com.microsoft.store.partnercenter.enumerators"
+- uid: "T"
   spec.java:
-  - uid: T
-    name: T
-    fullName: T
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.getCurrent*
-  name: getCurrent
-  nameWithType: IResourceCollectionEnumerator<T>.getCurrent
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.getCurrent
-  package: com.microsoft.store.partnercenter.enumerators
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next*
-  name: next
-  nameWithType: IResourceCollectionEnumerator<T>.next
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.next
-  package: com.microsoft.store.partnercenter.enumerators
-- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-  name: IRequestContext
-  nameWithType: IRequestContext
-  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous*
-  name: previous
-  nameWithType: IResourceCollectionEnumerator<T>.previous
-  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.previous
-  package: com.microsoft.store.partnercenter.enumerators
+  - uid: "T"
+    name: "T"
+    fullName: "T"
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.getCurrent*"
+  name: "getCurrent"
+  nameWithType: "IResourceCollectionEnumerator<T>.getCurrent"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.getCurrent"
+  package: "com.microsoft.store.partnercenter.enumerators"
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next*"
+  name: "next"
+  nameWithType: "IResourceCollectionEnumerator<T>.next"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.next"
+  package: "com.microsoft.store.partnercenter.enumerators"
+- uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
+  name: "IRequestContext"
+  nameWithType: "IRequestContext"
+  fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
+- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.previous*"
+  name: "previous"
+  nameWithType: "IResourceCollectionEnumerator<T>.previous"
+  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.previous"
+  package: "com.microsoft.store.partnercenter.enumerators"

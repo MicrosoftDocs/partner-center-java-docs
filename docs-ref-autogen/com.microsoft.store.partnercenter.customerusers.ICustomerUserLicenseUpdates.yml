@@ -1,81 +1,79 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates
-  id: ICustomerUserLicenseUpdates
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customerusers
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates"
+  id: "ICustomerUserLicenseUpdates"
+  parent: "com.microsoft.store.partnercenter.customerusers"
   children:
-  - com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create(com.microsoft.store.partnercenter.models.licenses.LicenseUpdate)
+  - "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create(com.microsoft.store.partnercenter.models.licenses.LicenseUpdate)"
   langs:
-  - java
-  name: ICustomerUserLicenseUpdates
-  nameWithType: ICustomerUserLicenseUpdates
-  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates
-  type: Interface
-  package: com.microsoft.store.partnercenter.customerusers
-  summary: Represents the behavior of the customers user's directory roles.
+  - "java"
+  name: "ICustomerUserLicenseUpdates"
+  nameWithType: "ICustomerUserLicenseUpdates"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.customerusers"
+  summary: "Represents the behavior of the customers user's directory roles."
   syntax:
-    content: public interface ICustomerUserLicenseUpdates extends IPartnerComponent<Tuple<String,String>>, IEntityCreateOperations<LicenseUpdate,LicenseUpdate>
+    content: "public interface ICustomerUserLicenseUpdates extends IPartnerComponent<Tuple<String,String>>, IEntityCreateOperations<LicenseUpdate,LicenseUpdate>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.licenses.LicenseUpdate,com.microsoft.store.partnercenter.models.licenses.LicenseUpdate>
-- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create(com.microsoft.store.partnercenter.models.licenses.LicenseUpdate)
-  id: create(com.microsoft.store.partnercenter.models.licenses.LicenseUpdate)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates
+  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.licenses.LicenseUpdate,com.microsoft.store.partnercenter.models.licenses.LicenseUpdate>"
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create(com.microsoft.store.partnercenter.models.licenses.LicenseUpdate)"
+  id: "create(com.microsoft.store.partnercenter.models.licenses.LicenseUpdate)"
+  parent: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates"
   langs:
-  - java
-  name: create(LicenseUpdate newLicenseUpdate)
-  nameWithType: ICustomerUserLicenseUpdates.create(LicenseUpdate newLicenseUpdate)
-  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create(LicenseUpdate newLicenseUpdate)
-  overload: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create*
-  type: Method
-  package: com.microsoft.store.partnercenter.customerusers
-  summary: 'Assign licenses to a user. This method serves three scenarios: 1. Add license to a customer user. 2. Remove license from a customer user. 3. Update existing license for a customer user.'
+  - "java"
+  name: "create(LicenseUpdate newLicenseUpdate)"
+  nameWithType: "ICustomerUserLicenseUpdates.create(LicenseUpdate newLicenseUpdate)"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create(LicenseUpdate newLicenseUpdate)"
+  overload: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.customerusers"
+  summary: "Assign licenses to a user. This method serves three scenarios: 1. Add license to a customer user. 2. Remove license from a customer user. 3. Update existing license for a customer user."
   syntax:
-    content: public abstract LicenseUpdate create(LicenseUpdate newLicenseUpdate)
+    content: "public abstract LicenseUpdate create(LicenseUpdate newLicenseUpdate)"
     parameters:
-    - id: newLicenseUpdate
-      type: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-      description: License update object.
+    - id: "newLicenseUpdate"
+      type: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate"
+      description: "License update object."
     return:
-      type: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-      description: The customer user's directory roles.
+      type: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate"
+      description: "The customer user's directory roles."
 references:
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  name: LicenseUpdate
-  nameWithType: LicenseUpdate
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create*
-  name: create
-  nameWithType: ICustomerUserLicenseUpdates.create
-  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create
-  package: com.microsoft.store.partnercenter.customerusers
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.licenses.LicenseUpdate,com.microsoft.store.partnercenter.models.licenses.LicenseUpdate>
-  name: IEntityCreateOperations<LicenseUpdate,LicenseUpdate>
-  nameWithType: IEntityCreateOperations<LicenseUpdate,LicenseUpdate>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.licenses.LicenseUpdate,com.microsoft.store.partnercenter.models.licenses.LicenseUpdate>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-  name: IEntityCreateOperations
-  nameWithType: IEntityCreateOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate,com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  name: LicenseUpdate,LicenseUpdate
-  nameWithType: LicenseUpdate,LicenseUpdate
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate,com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate"
+  name: "LicenseUpdate"
+  nameWithType: "LicenseUpdate"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate"
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create*"
+  name: "create"
+  nameWithType: "ICustomerUserLicenseUpdates.create"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create"
+  package: "com.microsoft.store.partnercenter.customerusers"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  name: "IPartnerComponent<Tuple<String,String>>"
+  nameWithType: "IPartnerComponent<Tuple<String,String>>"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.licenses.LicenseUpdate,com.microsoft.store.partnercenter.models.licenses.LicenseUpdate>"
+  name: "IEntityCreateOperations<LicenseUpdate,LicenseUpdate>"
+  nameWithType: "IEntityCreateOperations<LicenseUpdate,LicenseUpdate>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.licenses.LicenseUpdate,com.microsoft.store.partnercenter.models.licenses.LicenseUpdate>"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
+  name: "IPartnerComponent"
+  nameWithType: "IPartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  name: "Tuple"
+  nameWithType: "Tuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
+- uid: "java.lang.String,java.lang.String"
+  name: "String,String"
+  nameWithType: "String,String"
+  fullName: "java.lang.String,java.lang.String"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
+  name: "IEntityCreateOperations"
+  nameWithType: "IEntityCreateOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate,com.microsoft.store.partnercenter.models.licenses.LicenseUpdate"
+  name: "LicenseUpdate,LicenseUpdate"
+  nameWithType: "LicenseUpdate,LicenseUpdate"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate,com.microsoft.store.partnercenter.models.licenses.LicenseUpdate"

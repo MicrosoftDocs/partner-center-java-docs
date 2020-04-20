@@ -1,110 +1,107 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact
-  id: ISubscriptionSupportContact
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
+  id: "ISubscriptionSupportContact"
+  parent: "com.microsoft.store.partnercenter.subscriptions"
   children:
-  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get()
-  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)
+  - "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get()"
+  - "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)"
   langs:
-  - java
-  name: ISubscriptionSupportContact
-  nameWithType: ISubscriptionSupportContact
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact
-  type: Interface
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Defines the operations available on a customer's subscription support contact.
+  - "java"
+  name: "ISubscriptionSupportContact"
+  nameWithType: "ISubscriptionSupportContact"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Defines the operations available on a customer's subscription support contact."
   syntax:
-    content: public interface ISubscriptionSupportContact extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<SupportContact>, IEntityUpdateOperations<SupportContact>
+    content: "public interface ISubscriptionSupportContact extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<SupportContact>, IEntityUpdateOperations<SupportContact>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact
+  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
   langs:
-  - java
-  name: get()
-  nameWithType: ISubscriptionSupportContact.get()
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get()
-  overload: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Retrieves the support contact of the customer's subscription.
+  - "java"
+  name: "get()"
+  nameWithType: "ISubscriptionSupportContact.get()"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get()"
+  overload: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Retrieves the support contact of the customer's subscription."
   syntax:
-    content: public abstract SupportContact get()
+    content: "public abstract SupportContact get()"
     return:
-      type: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
-      description: The subscription's support contact.
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)
-  id: update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact
+      type: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+      description: "The subscription's support contact."
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)"
+  id: "update(com.microsoft.store.partnercenter.models.subscriptions.SupportContact)"
+  parent: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
   langs:
-  - java
-  name: update(SupportContact supportContact)
-  nameWithType: ISubscriptionSupportContact.update(SupportContact supportContact)
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update(SupportContact supportContact)
-  overload: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Updates the support contact of the customer's subscription.
+  - "java"
+  name: "update(SupportContact supportContact)"
+  nameWithType: "ISubscriptionSupportContact.update(SupportContact supportContact)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update(SupportContact supportContact)"
+  overload: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+  summary: "Updates the support contact of the customer's subscription."
   syntax:
-    content: public abstract SupportContact update(SupportContact supportContact)
+    content: "public abstract SupportContact update(SupportContact supportContact)"
     parameters:
-    - id: supportContact
-      type: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
-      description: The support contact
+    - id: "supportContact"
+      type: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+      description: "The support contact"
     return:
-      type: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
-      description: The updated support contact.
+      type: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+      description: "The updated support contact."
 references:
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
-  name: SupportContact
-  nameWithType: SupportContact
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SupportContact
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get*
-  name: get
-  nameWithType: ISubscriptionSupportContact.get
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update*
-  name: update
-  nameWithType: ISubscriptionSupportContact.update
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>
-  name: IEntityUpdateOperations<SupportContact>
-  nameWithType: IEntityUpdateOperations<SupportContact>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>
-  name: IEntityGetOperations<SupportContact>
-  nameWithType: IEntityGetOperations<SupportContact>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
-  name: IEntityUpdateOperations
-  nameWithType: IEntityUpdateOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+  name: "SupportContact"
+  nameWithType: "SupportContact"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get*"
+  name: "get"
+  nameWithType: "ISubscriptionSupportContact.get"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update*"
+  name: "update"
+  nameWithType: "ISubscriptionSupportContact.update"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update"
+  package: "com.microsoft.store.partnercenter.subscriptions"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  name: "IPartnerComponent<Tuple<String,String>>"
+  nameWithType: "IPartnerComponent<Tuple<String,String>>"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>"
+  name: "IEntityUpdateOperations<SupportContact>"
+  nameWithType: "IEntityUpdateOperations<SupportContact>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>"
+  name: "IEntityGetOperations<SupportContact>"
+  nameWithType: "IEntityGetOperations<SupportContact>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.subscriptions.SupportContact>"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
+  name: "IPartnerComponent"
+  nameWithType: "IPartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  name: "Tuple"
+  nameWithType: "Tuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
+- uid: "java.lang.String,java.lang.String"
+  name: "String,String"
+  nameWithType: "String,String"
+  fullName: "java.lang.String,java.lang.String"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
+  name: "IEntityUpdateOperations"
+  nameWithType: "IEntityUpdateOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+  name: "IEntityGetOperations"
+  nameWithType: "IEntityGetOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

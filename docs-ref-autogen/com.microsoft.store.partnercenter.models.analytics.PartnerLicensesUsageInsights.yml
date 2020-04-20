@@ -1,237 +1,231 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
-  id: PartnerLicensesUsageInsights
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.analytics
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
+  id: "PartnerLicensesUsageInsights"
+  parent: "com.microsoft.store.partnercenter.models.analytics"
   children:
-  - com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights()
-  - com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent()
-  - com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()
-  - com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent(double)
-  - com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(java.lang.String)
+  - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights()"
+  - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent()"
+  - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()"
+  - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent(double)"
+  - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(java.lang.String)"
   langs:
-  - java
-  name: PartnerLicensesUsageInsights
-  nameWithType: PartnerLicensesUsageInsights
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
-  type: Class
-  package: com.microsoft.store.partnercenter.models.analytics
-  summary: Holds the analytics information about the usage of all the customers' licenses of the given partner.
+  - "java"
+  name: "PartnerLicensesUsageInsights"
+  nameWithType: "PartnerLicensesUsageInsights"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+  summary: "Holds the analytics information about the usage of all the customers' licenses of the given partner."
   syntax:
-    content: public class PartnerLicensesUsageInsights extends LicensesInsightsBase
+    content: "public class PartnerLicensesUsageInsights extends LicensesInsightsBase"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  - com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel()
-  - com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getProcessedDateTime()
-  - com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getServiceName()
-  - com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setChannel(java.lang.String)
-  - com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(org.joda.time.DateTime)
-  - com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(java.lang.String)
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights()
-  id: PartnerLicensesUsageInsights()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
+  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel()"
+  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getProcessedDateTime()"
+  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getServiceName()"
+  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setChannel(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(java.lang.String)"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights()"
+  id: "PartnerLicensesUsageInsights()"
+  parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
   langs:
-  - java
-  name: PartnerLicensesUsageInsights()
-  nameWithType: PartnerLicensesUsageInsights.PartnerLicensesUsageInsights()
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights()
-  overload: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.analytics
+  - "java"
+  name: "PartnerLicensesUsageInsights()"
+  nameWithType: "PartnerLicensesUsageInsights.PartnerLicensesUsageInsights()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights()"
+  overload: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.analytics"
   syntax:
-    content: public PartnerLicensesUsageInsights()
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent()
-  id: getProratedLicensesUsagePercent()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
+    content: "public PartnerLicensesUsageInsights()"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent()"
+  id: "getProratedLicensesUsagePercent()"
+  parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
   langs:
-  - java
-  name: getProratedLicensesUsagePercent()
-  nameWithType: PartnerLicensesUsageInsights.getProratedLicensesUsagePercent()
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent()
-  overload: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.analytics
+  - "java"
+  name: "getProratedLicensesUsagePercent()"
+  nameWithType: "PartnerLicensesUsageInsights.getProratedLicensesUsagePercent()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent()"
+  overload: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
   syntax:
-    content: public double getProratedLicensesUsagePercent()
+    content: "public double getProratedLicensesUsagePercent()"
     return:
-      type: double
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()
-  id: getWorkloadName()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
+      type: "double"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()"
+  id: "getWorkloadName()"
+  parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
   langs:
-  - java
-  name: getWorkloadName()
-  nameWithType: PartnerLicensesUsageInsights.getWorkloadName()
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()
-  overload: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.analytics
+  - "java"
+  name: "getWorkloadName()"
+  nameWithType: "PartnerLicensesUsageInsights.getWorkloadName()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()"
+  overload: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
   syntax:
-    content: public String getWorkloadName()
+    content: "public String getWorkloadName()"
     return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent(double)
-  id: setProratedLicensesUsagePercent(double)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent(double)"
+  id: "setProratedLicensesUsagePercent(double)"
+  parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
   langs:
-  - java
-  name: setProratedLicensesUsagePercent(double value)
-  nameWithType: PartnerLicensesUsageInsights.setProratedLicensesUsagePercent(double value)
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent(double value)
-  overload: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.analytics
+  - "java"
+  name: "setProratedLicensesUsagePercent(double value)"
+  nameWithType: "PartnerLicensesUsageInsights.setProratedLicensesUsagePercent(double value)"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent(double value)"
+  overload: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
   syntax:
-    content: public void setProratedLicensesUsagePercent(double value)
+    content: "public void setProratedLicensesUsagePercent(double value)"
     parameters:
-    - id: value
-      type: double
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(java.lang.String)
-  id: setWorkloadName(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
+    - id: "value"
+      type: "double"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(java.lang.String)"
+  id: "setWorkloadName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
   langs:
-  - java
-  name: setWorkloadName(String value)
-  nameWithType: PartnerLicensesUsageInsights.setWorkloadName(String value)
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(String value)
-  overload: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.analytics
+  - "java"
+  name: "setWorkloadName(String value)"
+  nameWithType: "PartnerLicensesUsageInsights.setWorkloadName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
   syntax:
-    content: public void setWorkloadName(String value)
+    content: "public void setWorkloadName(String value)"
     parameters:
-    - id: value
-      type: java.lang.String
+    - id: "value"
+      type: "java.lang.String"
 references:
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights*
-  name: PartnerLicensesUsageInsights
-  nameWithType: PartnerLicensesUsageInsights.PartnerLicensesUsageInsights
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights
-  package: com.microsoft.store.partnercenter.models.analytics
-- uid: java.lang.String
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights*"
+  name: "PartnerLicensesUsageInsights"
+  nameWithType: "PartnerLicensesUsageInsights.PartnerLicensesUsageInsights"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName*
-  name: getWorkloadName
-  nameWithType: PartnerLicensesUsageInsights.getWorkloadName
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName
-  package: com.microsoft.store.partnercenter.models.analytics
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName*
-  name: setWorkloadName
-  nameWithType: PartnerLicensesUsageInsights.setWorkloadName
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName
-  package: com.microsoft.store.partnercenter.models.analytics
-- uid: double
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName*"
+  name: "getWorkloadName"
+  nameWithType: "PartnerLicensesUsageInsights.getWorkloadName"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName*"
+  name: "setWorkloadName"
+  nameWithType: "PartnerLicensesUsageInsights.setWorkloadName"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+- uid: "double"
   spec.java:
-  - uid: double
-    name: double
-    fullName: double
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent*
-  name: getProratedLicensesUsagePercent
-  nameWithType: PartnerLicensesUsageInsights.getProratedLicensesUsagePercent
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent
-  package: com.microsoft.store.partnercenter.models.analytics
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent*
-  name: setProratedLicensesUsagePercent
-  nameWithType: PartnerLicensesUsageInsights.setProratedLicensesUsagePercent
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent
-  package: com.microsoft.store.partnercenter.models.analytics
-- uid: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase
-  name: LicensesInsightsBase
-  nameWithType: LicensesInsightsBase
-  fullName: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  name: ResourceBase.getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- uid: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel()
-  name: LicensesInsightsBase.getChannel()
-  nameWithType: LicensesInsightsBase.getChannel()
-  fullName: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setChannel(java.lang.String)
-  name: LicensesInsightsBase.setChannel(String)
-  nameWithType: LicensesInsightsBase.setChannel(String)
-  fullName: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setChannel(java.lang.String)
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(org.joda.time.DateTime)
-  name: LicensesInsightsBase.setProcessedDateTime(DateTime)
-  nameWithType: LicensesInsightsBase.setProcessedDateTime(DateTime)
-  fullName: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(org.joda.time.DateTime)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getServiceName()
-  name: LicensesInsightsBase.getServiceName()
-  nameWithType: LicensesInsightsBase.getServiceName()
-  fullName: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getServiceName()
-- uid: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(java.lang.String)
-  name: LicensesInsightsBase.setServiceName(String)
-  nameWithType: LicensesInsightsBase.setServiceName(String)
-  fullName: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(java.lang.String)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getProcessedDateTime()
-  name: LicensesInsightsBase.getProcessedDateTime()
-  nameWithType: LicensesInsightsBase.getProcessedDateTime()
-  fullName: com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getProcessedDateTime()
+  - uid: "double"
+    name: "double"
+    fullName: "double"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent*"
+  name: "getProratedLicensesUsagePercent"
+  nameWithType: "PartnerLicensesUsageInsights.getProratedLicensesUsagePercent"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent*"
+  name: "setProratedLicensesUsagePercent"
+  nameWithType: "PartnerLicensesUsageInsights.setProratedLicensesUsagePercent"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
+  name: "LicensesInsightsBase"
+  nameWithType: "LicensesInsightsBase"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  name: "ResourceBase.getAttributes()"
+  nameWithType: "ResourceBase.getAttributes()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel()"
+  name: "LicensesInsightsBase.getChannel()"
+  nameWithType: "LicensesInsightsBase.getChannel()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Object.finalize()"
+  name: "Object.finalize()"
+  nameWithType: "Object.finalize()"
+  fullName: "java.lang.Object.finalize()"
+- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setChannel(java.lang.String)"
+  name: "LicensesInsightsBase.setChannel(String)"
+  nameWithType: "LicensesInsightsBase.setChannel(String)"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setChannel(java.lang.String)"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Object.clone()"
+  name: "Object.clone()"
+  nameWithType: "Object.clone()"
+  fullName: "java.lang.Object.clone()"
+- uid: "java.lang.Object.equals(java.lang.Object)"
+  name: "Object.equals(Object)"
+  nameWithType: "Object.equals(Object)"
+  fullName: "java.lang.Object.equals(java.lang.Object)"
+- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(org.joda.time.DateTime)"
+  name: "LicensesInsightsBase.setProcessedDateTime(DateTime)"
+  nameWithType: "LicensesInsightsBase.setProcessedDateTime(DateTime)"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(org.joda.time.DateTime)"
+- uid: "java.lang.Object.toString()"
+  name: "Object.toString()"
+  nameWithType: "Object.toString()"
+  fullName: "java.lang.Object.toString()"
+- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getServiceName()"
+  name: "LicensesInsightsBase.getServiceName()"
+  nameWithType: "LicensesInsightsBase.getServiceName()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getServiceName()"
+- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(java.lang.String)"
+  name: "LicensesInsightsBase.setServiceName(String)"
+  nameWithType: "LicensesInsightsBase.setServiceName(String)"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(java.lang.String)"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Object.hashCode()"
+  name: "Object.hashCode()"
+  nameWithType: "Object.hashCode()"
+  fullName: "java.lang.Object.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getProcessedDateTime()"
+  name: "LicensesInsightsBase.getProcessedDateTime()"
+  nameWithType: "LicensesInsightsBase.getProcessedDateTime()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getProcessedDateTime()"

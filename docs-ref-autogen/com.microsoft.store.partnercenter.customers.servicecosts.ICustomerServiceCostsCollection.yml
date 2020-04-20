@@ -1,60 +1,58 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
-  id: ICustomerServiceCostsCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.servicecosts
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection"
+  id: "ICustomerServiceCostsCollection"
+  parent: "com.microsoft.store.partnercenter.customers.servicecosts"
   children:
-  - com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod(com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)
+  - "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod(com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)"
   langs:
-  - java
-  name: ICustomerServiceCostsCollection
-  nameWithType: ICustomerServiceCostsCollection
-  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.customers.servicecosts
-  summary: Holds customer service costs behavior.
+  - "java"
+  name: "ICustomerServiceCostsCollection"
+  nameWithType: "ICustomerServiceCostsCollection"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.customers.servicecosts"
+  summary: "Holds customer service costs behavior."
   syntax:
-    content: public interface ICustomerServiceCostsCollection extends IPartnerComponentString
+    content: "public interface ICustomerServiceCostsCollection extends IPartnerComponentString"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod(com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)
-  id: byBillingPeriod(com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
+  - "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod(com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)"
+  id: "byBillingPeriod(com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)"
+  parent: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection"
   langs:
-  - java
-  name: byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
-  nameWithType: ICustomerServiceCostsCollection.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
-  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
-  overload: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod*
-  type: Method
-  package: com.microsoft.store.partnercenter.customers.servicecosts
-  summary: Obtains the service cost operations by billing period.
+  - "java"
+  name: "byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  nameWithType: "ICustomerServiceCostsCollection.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  overload: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.customers.servicecosts"
+  summary: "Obtains the service cost operations by billing period."
   syntax:
-    content: public abstract IServiceCostsCollection byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
+    content: "public abstract IServiceCostsCollection byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
     parameters:
-    - id: billingPeriod
-      type: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod
-      description: The billing period.
+    - id: "billingPeriod"
+      type: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod"
+      description: "The billing period."
     return:
-      type: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection
-      description: The service cost operations.
+      type: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection"
+      description: "The service cost operations."
 references:
-- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod
-  name: ServiceCostsBillingPeriod
-  nameWithType: ServiceCostsBillingPeriod
-  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod
-- uid: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection
-  name: IServiceCostsCollection
-  nameWithType: IServiceCostsCollection
-  fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection
-- uid: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod*
-  name: byBillingPeriod
-  nameWithType: ICustomerServiceCostsCollection.byBillingPeriod
-  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod
-  package: com.microsoft.store.partnercenter.customers.servicecosts
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+- uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod"
+  name: "ServiceCostsBillingPeriod"
+  nameWithType: "ServiceCostsBillingPeriod"
+  fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection"
+  name: "IServiceCostsCollection"
+  nameWithType: "IServiceCostsCollection"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod*"
+  name: "byBillingPeriod"
+  nameWithType: "ICustomerServiceCostsCollection.byBillingPeriod"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod"
+  package: "com.microsoft.store.partnercenter.customers.servicecosts"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
+  name: "IPartnerComponentString"
+  nameWithType: "IPartnerComponentString"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

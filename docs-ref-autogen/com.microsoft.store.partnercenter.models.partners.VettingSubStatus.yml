@@ -1,362 +1,349 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-  id: VettingSubStatus
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+  id: "VettingSubStatus"
+  parent: "com.microsoft.store.partnercenter.models.partners"
   children:
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus.BUSINESS_VERIFICATION
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus.DECISION
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_DOMAIN
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_OWNERSHIP
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMPLOYMENT_VERIFICATION
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus.ENTRY
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus.NONE
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus.OTHER
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString()
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf(java.lang.String)
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values()
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.BUSINESS_VERIFICATION"
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.DECISION"
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_DOMAIN"
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_OWNERSHIP"
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMPLOYMENT_VERIFICATION"
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.ENTRY"
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.NONE"
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.OTHER"
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString()"
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values()"
   langs:
-  - java
-  name: VettingSubStatus
-  nameWithType: VettingSubStatus
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-  type: Enum
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "VettingSubStatus"
+  nameWithType: "VettingSubStatus"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+  type: "Enum"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public enum VettingSubStatus extends Enum<VettingSubStatus>
+    content: "public enum VettingSubStatus extends Enum<VettingSubStatus>"
   inheritance:
-  - java.lang.Object
-  - java.lang.Enum
+  - "java.lang.Object"
+  - "java.lang.Enum"
   inheritedMembers:
-  - java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  - java.lang.Enum.clone()
-  - java.lang.Enum.compareTo(E)
-  - java.lang.Enum.equals(java.lang.Object)
-  - java.lang.Enum.finalize()
-  - java.lang.Enum.getDeclaringClass()
-  - java.lang.Enum.hashCode()
-  - java.lang.Enum.name()
-  - java.lang.Enum.ordinal()
-  - java.lang.Enum.toString()
-  - java.lang.Object.getClass()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.BUSINESS_VERIFICATION
-  id: BUSINESS_VERIFICATION
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+  - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+  - "java.lang.Enum.clone()"
+  - "java.lang.Enum.compareTo(E)"
+  - "java.lang.Enum.equals(java.lang.Object)"
+  - "java.lang.Enum.finalize()"
+  - "java.lang.Enum.getDeclaringClass()"
+  - "java.lang.Enum.hashCode()"
+  - "java.lang.Enum.name()"
+  - "java.lang.Enum.ordinal()"
+  - "java.lang.Enum.toString()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.BUSINESS_VERIFICATION"
+  id: "BUSINESS_VERIFICATION"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: BUSINESS_VERIFICATION
-  nameWithType: VettingSubStatus.BUSINESS_VERIFICATION
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.BUSINESS_VERIFICATION
-  type: Field
-  package: com.microsoft.store.partnercenter.models.partners
-  summary: Business verification sub status
+  - "java"
+  name: "BUSINESS_VERIFICATION"
+  nameWithType: "VettingSubStatus.BUSINESS_VERIFICATION"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.BUSINESS_VERIFICATION"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "Business verification sub status"
   syntax:
-    content: public static final VettingSubStatus BUSINESS_VERIFICATION
+    content: "public static final VettingSubStatus BUSINESS_VERIFICATION"
     return:
-      type: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.DECISION
-  id: DECISION
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+      type: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.DECISION"
+  id: "DECISION"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: DECISION
-  nameWithType: VettingSubStatus.DECISION
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.DECISION
-  type: Field
-  package: com.microsoft.store.partnercenter.models.partners
-  summary: Decision making process
+  - "java"
+  name: "DECISION"
+  nameWithType: "VettingSubStatus.DECISION"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.DECISION"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "Decision making process"
   syntax:
-    content: public static final VettingSubStatus DECISION
+    content: "public static final VettingSubStatus DECISION"
     return:
-      type: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_DOMAIN
-  id: EMAIL_DOMAIN
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+      type: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_DOMAIN"
+  id: "EMAIL_DOMAIN"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: EMAIL_DOMAIN
-  nameWithType: VettingSubStatus.EMAIL_DOMAIN
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_DOMAIN
-  type: Field
-  package: com.microsoft.store.partnercenter.models.partners
-  summary: Email Domain for business accounts
+  - "java"
+  name: "EMAIL_DOMAIN"
+  nameWithType: "VettingSubStatus.EMAIL_DOMAIN"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_DOMAIN"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "Email Domain for business accounts"
   syntax:
-    content: public static final VettingSubStatus EMAIL_DOMAIN
+    content: "public static final VettingSubStatus EMAIL_DOMAIN"
     return:
-      type: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_OWNERSHIP
-  id: EMAIL_OWNERSHIP
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+      type: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_OWNERSHIP"
+  id: "EMAIL_OWNERSHIP"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: EMAIL_OWNERSHIP
-  nameWithType: VettingSubStatus.EMAIL_OWNERSHIP
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_OWNERSHIP
-  type: Field
-  package: com.microsoft.store.partnercenter.models.partners
-  summary: Email ownership check for business accounts
+  - "java"
+  name: "EMAIL_OWNERSHIP"
+  nameWithType: "VettingSubStatus.EMAIL_OWNERSHIP"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMAIL_OWNERSHIP"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "Email ownership check for business accounts"
   syntax:
-    content: public static final VettingSubStatus EMAIL_OWNERSHIP
+    content: "public static final VettingSubStatus EMAIL_OWNERSHIP"
     return:
-      type: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMPLOYMENT_VERIFICATION
-  id: EMPLOYMENT_VERIFICATION
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+      type: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMPLOYMENT_VERIFICATION"
+  id: "EMPLOYMENT_VERIFICATION"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: EMPLOYMENT_VERIFICATION
-  nameWithType: VettingSubStatus.EMPLOYMENT_VERIFICATION
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMPLOYMENT_VERIFICATION
-  type: Field
-  package: com.microsoft.store.partnercenter.models.partners
-  summary: Employment verification sub status
+  - "java"
+  name: "EMPLOYMENT_VERIFICATION"
+  nameWithType: "VettingSubStatus.EMPLOYMENT_VERIFICATION"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.EMPLOYMENT_VERIFICATION"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "Employment verification sub status"
   syntax:
-    content: public static final VettingSubStatus EMPLOYMENT_VERIFICATION
+    content: "public static final VettingSubStatus EMPLOYMENT_VERIFICATION"
     return:
-      type: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.ENTRY
-  id: ENTRY
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+      type: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.ENTRY"
+  id: "ENTRY"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: ENTRY
-  nameWithType: VettingSubStatus.ENTRY
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.ENTRY
-  type: Field
-  package: com.microsoft.store.partnercenter.models.partners
-  summary: The entry step
+  - "java"
+  name: "ENTRY"
+  nameWithType: "VettingSubStatus.ENTRY"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.ENTRY"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "The entry step"
   syntax:
-    content: public static final VettingSubStatus ENTRY
+    content: "public static final VettingSubStatus ENTRY"
     return:
-      type: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.NONE
-  id: NONE
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+      type: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.NONE"
+  id: "NONE"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: NONE
-  nameWithType: VettingSubStatus.NONE
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.NONE
-  type: Field
-  package: com.microsoft.store.partnercenter.models.partners
-  summary: None vetting sub status
+  - "java"
+  name: "NONE"
+  nameWithType: "VettingSubStatus.NONE"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.NONE"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "None vetting sub status"
   syntax:
-    content: public static final VettingSubStatus NONE
+    content: "public static final VettingSubStatus NONE"
     return:
-      type: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.OTHER
-  id: OTHER
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+      type: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.OTHER"
+  id: "OTHER"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: OTHER
-  nameWithType: VettingSubStatus.OTHER
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.OTHER
-  type: Field
-  package: com.microsoft.store.partnercenter.models.partners
-  summary: Other vetting sub status
+  - "java"
+  name: "OTHER"
+  nameWithType: "VettingSubStatus.OTHER"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.OTHER"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "Other vetting sub status"
   syntax:
-    content: public static final VettingSubStatus OTHER
+    content: "public static final VettingSubStatus OTHER"
     return:
-      type: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.VettingSubStatus(java.lang.String)
-  id: VettingSubStatus(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+      type: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.VettingSubStatus(java.lang.String)"
+  id: "VettingSubStatus(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: VettingSubStatus(String value)
-  nameWithType: VettingSubStatus.VettingSubStatus(String value)
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.VettingSubStatus(String value)
-  overload: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.VettingSubStatus*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "VettingSubStatus(String value)"
+  nameWithType: "VettingSubStatus.VettingSubStatus(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.VettingSubStatus(String value)"
+  overload: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.VettingSubStatus*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: private VettingSubStatus(String value)
+    content: "private VettingSubStatus(String value)"
     parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString()
-  id: toString()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: toString()
-  nameWithType: VettingSubStatus.toString()
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString()
-  overload: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.partners
-  summary: Converts the object to a string.
+  - "java"
+  name: "toString()"
+  nameWithType: "VettingSubStatus.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString()"
+  overload: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "Converts the object to a string."
   syntax:
-    content: public String toString()
+    content: "public String toString()"
     return:
-      type: java.lang.String
-      description: A string that represents this object.
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf(java.lang.String)
-  id: valueOf(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: valueOf(String name)
-  nameWithType: VettingSubStatus.valueOf(String name)
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf(String name)
-  overload: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "VettingSubStatus.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public static VettingSubStatus valueOf(String name)
+    content: "public static VettingSubStatus valueOf(String name)"
     parameters:
-    - id: name
-      type: java.lang.String
+    - id: "name"
+      type: "java.lang.String"
     return:
-      type: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values()
-  id: values()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
+      type: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
   langs:
-  - java
-  name: values()
-  nameWithType: VettingSubStatus.values()
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values()
-  overload: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "values()"
+  nameWithType: "VettingSubStatus.values()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values()"
+  overload: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public static VettingSubStatus[] values()
+    content: "public static VettingSubStatus[] values()"
     return:
-      type: com.microsoft.store.partnercenter.models.partners.VettingSubStatus[]
+      type: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus[]"
 references:
-- uid: java.lang.String
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.VettingSubStatus*
-  name: VettingSubStatus
-  nameWithType: VettingSubStatus.VettingSubStatus
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.VettingSubStatus
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus[]
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.VettingSubStatus*"
+  name: "VettingSubStatus"
+  nameWithType: "VettingSubStatus.VettingSubStatus"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.VettingSubStatus"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus[]"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-    name: VettingSubStatus
-    fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-  - name: '[]'
-    fullName: '[]'
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values*
-  name: values
-  nameWithType: VettingSubStatus.values
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf*
-  name: valueOf
-  nameWithType: VettingSubStatus.valueOf
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString*
-  name: toString
-  nameWithType: VettingSubStatus.toString
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: java.lang.Enum<com.microsoft.store.partnercenter.models.partners.VettingSubStatus>
-  name: Enum<VettingSubStatus>
-  nameWithType: Enum<VettingSubStatus>
-  fullName: java.lang.Enum<com.microsoft.store.partnercenter.models.partners.VettingSubStatus>
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Enum.toString()
-  name: Enum.toString()
-  nameWithType: Enum.toString()
-  fullName: java.lang.Enum.toString()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Enum.clone()
-  name: Enum.clone()
-  nameWithType: Enum.clone()
-  fullName: java.lang.Enum.clone()
-- uid: java.lang.Enum.finalize()
-  name: Enum.finalize()
-  nameWithType: Enum.finalize()
-  fullName: java.lang.Enum.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Enum.compareTo(E)
-  name: Enum.compareTo(E)
-  nameWithType: Enum.compareTo(E)
-  fullName: java.lang.Enum.compareTo(E)
-- uid: java.lang.Enum.name()
-  name: Enum.name()
-  nameWithType: Enum.name()
-  fullName: java.lang.Enum.name()
-- uid: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  name: Enum.<T>valueOf(Class<T>,String)
-  nameWithType: Enum.<T>valueOf(Class<T>,String)
-  fullName: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Enum.getDeclaringClass()
-  name: Enum.getDeclaringClass()
-  nameWithType: Enum.getDeclaringClass()
-  fullName: java.lang.Enum.getDeclaringClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Enum.ordinal()
-  name: Enum.ordinal()
-  nameWithType: Enum.ordinal()
-  fullName: java.lang.Enum.ordinal()
-- uid: java.lang.Enum.hashCode()
-  name: Enum.hashCode()
-  nameWithType: Enum.hashCode()
-  fullName: java.lang.Enum.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Enum.equals(java.lang.Object)
-  name: Enum.equals(Object)
-  nameWithType: Enum.equals(Object)
-  fullName: java.lang.Enum.equals(java.lang.Object)
-- uid: java.lang.Enum
-  name: Enum
-  nameWithType: Enum
-  fullName: java.lang.Enum
-- uid: java.lang.Enum.
-  name: Enum.
-  nameWithType: Enum.
-  fullName: java.lang.Enum.
-- uid: T>,java.lang.String)
-  name: T>,String)
-  nameWithType: T>,String)
-  fullName: T>,java.lang.String)
-- uid: T>valueOf(java.lang.Class
-  name: T>valueOf(Class
-  nameWithType: T>valueOf(Class
-  fullName: T>valueOf(java.lang.Class
+  - uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+    name: "VettingSubStatus"
+    fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+  - name: "[]"
+    fullName: "[]"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values*"
+  name: "values"
+  nameWithType: "VettingSubStatus.values"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.values"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf*"
+  name: "valueOf"
+  nameWithType: "VettingSubStatus.valueOf"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.valueOf"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString*"
+  name: "toString"
+  nameWithType: "VettingSubStatus.toString"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.partners.VettingSubStatus>"
+  name: "Enum<VettingSubStatus>"
+  nameWithType: "Enum<VettingSubStatus>"
+  fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.partners.VettingSubStatus>"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "java.lang.Enum.toString()"
+  name: "Enum.toString()"
+  nameWithType: "Enum.toString()"
+  fullName: "java.lang.Enum.toString()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Enum.clone()"
+  name: "Enum.clone()"
+  nameWithType: "Enum.clone()"
+  fullName: "java.lang.Enum.clone()"
+- uid: "java.lang.Enum.finalize()"
+  name: "Enum.finalize()"
+  nameWithType: "Enum.finalize()"
+  fullName: "java.lang.Enum.finalize()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Enum.compareTo(E)"
+  name: "Enum.compareTo(E)"
+  nameWithType: "Enum.compareTo(E)"
+  fullName: "java.lang.Enum.compareTo(E)"
+- uid: "java.lang.Enum.name()"
+  name: "Enum.name()"
+  nameWithType: "Enum.name()"
+  fullName: "java.lang.Enum.name()"
+- uid: "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+  name: "Enum.<T>valueOf(Class<T>,String)"
+  nameWithType: "Enum.<T>valueOf(Class<T>,String)"
+  fullName: "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Enum.getDeclaringClass()"
+  name: "Enum.getDeclaringClass()"
+  nameWithType: "Enum.getDeclaringClass()"
+  fullName: "java.lang.Enum.getDeclaringClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Enum.ordinal()"
+  name: "Enum.ordinal()"
+  nameWithType: "Enum.ordinal()"
+  fullName: "java.lang.Enum.ordinal()"
+- uid: "java.lang.Enum.hashCode()"
+  name: "Enum.hashCode()"
+  nameWithType: "Enum.hashCode()"
+  fullName: "java.lang.Enum.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "java.lang.Enum.equals(java.lang.Object)"
+  name: "Enum.equals(Object)"
+  nameWithType: "Enum.equals(Object)"
+  fullName: "java.lang.Enum.equals(java.lang.Object)"
+- uid: "java.lang.Enum"
+  name: "Enum"
+  nameWithType: "Enum"
+  fullName: "java.lang.Enum"
+- uid: "java.lang.Enum."
+  name: "Enum."
+  nameWithType: "Enum."
+  fullName: "java.lang.Enum."
+- uid: "T>,java.lang.String)"
+  name: "T>,String)"
+  nameWithType: "T>,String)"
+  fullName: "T>,java.lang.String)"
+- uid: "T>valueOf(java.lang.Class"
+  name: "T>valueOf(Class"
+  nameWithType: "T>valueOf(Class"
+  fullName: "T>valueOf(java.lang.Class"

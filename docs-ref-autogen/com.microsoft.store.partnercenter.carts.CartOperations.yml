@@ -1,233 +1,228 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.carts.CartOperations
-  id: CartOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.carts
+- uid: "com.microsoft.store.partnercenter.carts.CartOperations"
+  id: "CartOperations"
+  parent: "com.microsoft.store.partnercenter.carts"
   children:
-  - com.microsoft.store.partnercenter.carts.CartOperations.CartOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  - com.microsoft.store.partnercenter.carts.CartOperations.checkout()
-  - com.microsoft.store.partnercenter.carts.CartOperations.get()
-  - com.microsoft.store.partnercenter.carts.CartOperations.put(com.microsoft.store.partnercenter.models.carts.Cart)
+  - "com.microsoft.store.partnercenter.carts.CartOperations.CartOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+  - "com.microsoft.store.partnercenter.carts.CartOperations.checkout()"
+  - "com.microsoft.store.partnercenter.carts.CartOperations.get()"
+  - "com.microsoft.store.partnercenter.carts.CartOperations.put(com.microsoft.store.partnercenter.models.carts.Cart)"
   langs:
-  - java
-  name: CartOperations
-  nameWithType: CartOperations
-  fullName: com.microsoft.store.partnercenter.carts.CartOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.carts
-  summary: Cart collection operations implementation class.
+  - "java"
+  name: "CartOperations"
+  nameWithType: "CartOperations"
+  fullName: "com.microsoft.store.partnercenter.carts.CartOperations"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.carts"
+  summary: "Cart collection operations implementation class."
   syntax:
-    content: public class CartOperations extends BasePartnerComponent<Tuple<String,String>> implements ICart
+    content: "public class CartOperations extends BasePartnerComponent<Tuple<String,String>> implements ICart"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
-  - com.microsoft.store.partnercenter.carts.ICart
+  - "com.microsoft.store.partnercenter.carts.ICart"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.carts.CartOperations.CartOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  id: CartOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.carts.CartOperations
+  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.carts.CartOperations.CartOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+  id: "CartOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.carts.CartOperations"
   langs:
-  - java
-  name: CartOperations(IPartner rootPartnerOperations, String customerId, String cartId)
-  nameWithType: CartOperations.CartOperations(IPartner rootPartnerOperations, String customerId, String cartId)
-  fullName: com.microsoft.store.partnercenter.carts.CartOperations.CartOperations(IPartner rootPartnerOperations, String customerId, String cartId)
-  overload: com.microsoft.store.partnercenter.carts.CartOperations.CartOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.carts
-  summary: Initializes a new instance of the CartOperations class.
+  - "java"
+  name: "CartOperations(IPartner rootPartnerOperations, String customerId, String cartId)"
+  nameWithType: "CartOperations.CartOperations(IPartner rootPartnerOperations, String customerId, String cartId)"
+  fullName: "com.microsoft.store.partnercenter.carts.CartOperations.CartOperations(IPartner rootPartnerOperations, String customerId, String cartId)"
+  overload: "com.microsoft.store.partnercenter.carts.CartOperations.CartOperations*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.carts"
+  summary: "Initializes a new instance of the CartOperations class."
   syntax:
-    content: public CartOperations(IPartner rootPartnerOperations, String customerId, String cartId)
+    content: "public CartOperations(IPartner rootPartnerOperations, String customerId, String cartId)"
     parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The root partner operations instance.
-    - id: customerId
-      type: java.lang.String
-      description: Identifier for the customer.
-    - id: cartId
-      type: java.lang.String
-      description: Identifier for the cart.
-- uid: com.microsoft.store.partnercenter.carts.CartOperations.checkout()
-  id: checkout()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.carts.CartOperations
+    - id: "rootPartnerOperations"
+      type: "com.microsoft.store.partnercenter.IPartner"
+      description: "The root partner operations instance."
+    - id: "customerId"
+      type: "java.lang.String"
+      description: "Identifier for the customer."
+    - id: "cartId"
+      type: "java.lang.String"
+      description: "Identifier for the cart."
+- uid: "com.microsoft.store.partnercenter.carts.CartOperations.checkout()"
+  id: "checkout()"
+  parent: "com.microsoft.store.partnercenter.carts.CartOperations"
   langs:
-  - java
-  name: checkout()
-  nameWithType: CartOperations.checkout()
-  fullName: com.microsoft.store.partnercenter.carts.CartOperations.checkout()
-  overload: com.microsoft.store.partnercenter.carts.CartOperations.checkout*
-  type: Method
-  package: com.microsoft.store.partnercenter.carts
-  summary: Checkouts the cart.
+  - "java"
+  name: "checkout()"
+  nameWithType: "CartOperations.checkout()"
+  fullName: "com.microsoft.store.partnercenter.carts.CartOperations.checkout()"
+  overload: "com.microsoft.store.partnercenter.carts.CartOperations.checkout*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.carts"
+  summary: "Checkouts the cart."
   syntax:
-    content: public CartCheckoutResult checkout()
+    content: "public CartCheckoutResult checkout()"
     return:
-      type: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
-      description: The cart checkout result.
-- uid: com.microsoft.store.partnercenter.carts.CartOperations.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.carts.CartOperations
+      type: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult"
+      description: "The cart checkout result."
+- uid: "com.microsoft.store.partnercenter.carts.CartOperations.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.carts.CartOperations"
   langs:
-  - java
-  name: get()
-  nameWithType: CartOperations.get()
-  fullName: com.microsoft.store.partnercenter.carts.CartOperations.get()
-  overload: com.microsoft.store.partnercenter.carts.CartOperations.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.carts
-  summary: Retrieves a customer cart.
+  - "java"
+  name: "get()"
+  nameWithType: "CartOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.carts.CartOperations.get()"
+  overload: "com.microsoft.store.partnercenter.carts.CartOperations.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.carts"
+  summary: "Retrieves a customer cart."
   syntax:
-    content: public Cart get()
+    content: "public Cart get()"
     return:
-      type: com.microsoft.store.partnercenter.models.carts.Cart
-      description: The required cart object.
-- uid: com.microsoft.store.partnercenter.carts.CartOperations.put(com.microsoft.store.partnercenter.models.carts.Cart)
-  id: put(com.microsoft.store.partnercenter.models.carts.Cart)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.carts.CartOperations
+      type: "com.microsoft.store.partnercenter.models.carts.Cart"
+      description: "The required cart object."
+- uid: "com.microsoft.store.partnercenter.carts.CartOperations.put(com.microsoft.store.partnercenter.models.carts.Cart)"
+  id: "put(com.microsoft.store.partnercenter.models.carts.Cart)"
+  parent: "com.microsoft.store.partnercenter.carts.CartOperations"
   langs:
-  - java
-  name: put(Cart cart)
-  nameWithType: CartOperations.put(Cart cart)
-  fullName: com.microsoft.store.partnercenter.carts.CartOperations.put(Cart cart)
-  overload: com.microsoft.store.partnercenter.carts.CartOperations.put*
-  type: Method
-  package: com.microsoft.store.partnercenter.carts
-  summary: Updates an existing cart.
+  - "java"
+  name: "put(Cart cart)"
+  nameWithType: "CartOperations.put(Cart cart)"
+  fullName: "com.microsoft.store.partnercenter.carts.CartOperations.put(Cart cart)"
+  overload: "com.microsoft.store.partnercenter.carts.CartOperations.put*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.carts"
+  summary: "Updates an existing cart."
   syntax:
-    content: public Cart put(Cart cart)
+    content: "public Cart put(Cart cart)"
     parameters:
-    - id: cart
-      type: com.microsoft.store.partnercenter.models.carts.Cart
-      description: The cart to update.
+    - id: "cart"
+      type: "com.microsoft.store.partnercenter.models.carts.Cart"
+      description: "The cart to update."
     return:
-      type: com.microsoft.store.partnercenter.models.carts.Cart
-      description: The updated cart object.
+      type: "com.microsoft.store.partnercenter.models.carts.Cart"
+      description: "The updated cart object."
 references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: java.lang.String
+- uid: "com.microsoft.store.partnercenter.IPartner"
+  name: "IPartner"
+  nameWithType: "IPartner"
+  fullName: "com.microsoft.store.partnercenter.IPartner"
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.carts.CartOperations.CartOperations*
-  name: CartOperations
-  nameWithType: CartOperations.CartOperations
-  fullName: com.microsoft.store.partnercenter.carts.CartOperations.CartOperations
-  package: com.microsoft.store.partnercenter.carts
-- uid: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
-  name: CartCheckoutResult
-  nameWithType: CartCheckoutResult
-  fullName: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
-- uid: com.microsoft.store.partnercenter.carts.CartOperations.checkout*
-  name: checkout
-  nameWithType: CartOperations.checkout
-  fullName: com.microsoft.store.partnercenter.carts.CartOperations.checkout
-  package: com.microsoft.store.partnercenter.carts
-- uid: com.microsoft.store.partnercenter.models.carts.Cart
-  name: Cart
-  nameWithType: Cart
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart
-- uid: com.microsoft.store.partnercenter.carts.CartOperations.get*
-  name: get
-  nameWithType: CartOperations.get
-  fullName: com.microsoft.store.partnercenter.carts.CartOperations.get
-  package: com.microsoft.store.partnercenter.carts
-- uid: com.microsoft.store.partnercenter.carts.CartOperations.put*
-  name: put
-  nameWithType: CartOperations.put
-  fullName: com.microsoft.store.partnercenter.carts.CartOperations.put
-  package: com.microsoft.store.partnercenter.carts
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: BasePartnerComponent<Tuple<String,String>>
-  nameWithType: BasePartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.carts.ICart
-  name: ICart
-  nameWithType: ICart
-  fullName: com.microsoft.store.partnercenter.carts.ICart
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent
-  name: BasePartnerComponent
-  nameWithType: BasePartnerComponent
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.carts.CartOperations.CartOperations*"
+  name: "CartOperations"
+  nameWithType: "CartOperations.CartOperations"
+  fullName: "com.microsoft.store.partnercenter.carts.CartOperations.CartOperations"
+  package: "com.microsoft.store.partnercenter.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult"
+  name: "CartCheckoutResult"
+  nameWithType: "CartCheckoutResult"
+  fullName: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult"
+- uid: "com.microsoft.store.partnercenter.carts.CartOperations.checkout*"
+  name: "checkout"
+  nameWithType: "CartOperations.checkout"
+  fullName: "com.microsoft.store.partnercenter.carts.CartOperations.checkout"
+  package: "com.microsoft.store.partnercenter.carts"
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart"
+  name: "Cart"
+  nameWithType: "Cart"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart"
+- uid: "com.microsoft.store.partnercenter.carts.CartOperations.get*"
+  name: "get"
+  nameWithType: "CartOperations.get"
+  fullName: "com.microsoft.store.partnercenter.carts.CartOperations.get"
+  package: "com.microsoft.store.partnercenter.carts"
+- uid: "com.microsoft.store.partnercenter.carts.CartOperations.put*"
+  name: "put"
+  nameWithType: "CartOperations.put"
+  fullName: "com.microsoft.store.partnercenter.carts.CartOperations.put"
+  package: "com.microsoft.store.partnercenter.carts"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  name: "BasePartnerComponent<Tuple<String,String>>"
+  nameWithType: "BasePartnerComponent<Tuple<String,String>>"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.carts.ICart"
+  name: "ICart"
+  nameWithType: "ICart"
+  fullName: "com.microsoft.store.partnercenter.carts.ICart"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Object.finalize()"
+  name: "Object.finalize()"
+  nameWithType: "Object.finalize()"
+  fullName: "java.lang.Object.finalize()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Object.clone()"
+  name: "Object.clone()"
+  nameWithType: "Object.clone()"
+  fullName: "java.lang.Object.clone()"
+- uid: "java.lang.Object.equals(java.lang.Object)"
+  name: "Object.equals(Object)"
+  nameWithType: "Object.equals(Object)"
+  fullName: "java.lang.Object.equals(java.lang.Object)"
+- uid: "java.lang.Object.toString()"
+  name: "Object.toString()"
+  nameWithType: "Object.toString()"
+  fullName: "java.lang.Object.toString()"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+  name: "BasePartnerComponent.getPartner()"
+  nameWithType: "BasePartnerComponent.getPartner()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Object.hashCode()"
+  name: "Object.hashCode()"
+  nameWithType: "Object.hashCode()"
+  fullName: "java.lang.Object.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  name: "BasePartnerComponent.getContext()"
+  nameWithType: "BasePartnerComponent.getContext()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  name: "Tuple"
+  nameWithType: "Tuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
+  name: "BasePartnerComponent"
+  nameWithType: "BasePartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
+- uid: "java.lang.String,java.lang.String"
+  name: "String,String"
+  nameWithType: "String,String"
+  fullName: "java.lang.String,java.lang.String"

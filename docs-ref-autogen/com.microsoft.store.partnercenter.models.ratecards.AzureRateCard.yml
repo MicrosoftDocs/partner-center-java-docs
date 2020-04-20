@@ -1,377 +1,365 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
-  id: AzureRateCard
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
+  id: "AzureRateCard"
+  parent: "com.microsoft.store.partnercenter.models.ratecards"
   children:
-  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard()
-  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency()
-  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded()
-  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale()
-  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters()
-  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms()
-  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency(java.lang.String)
-  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded(boolean)
-  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale(java.lang.String)
-  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>)
-  - com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>)
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard()"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency()"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded()"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale()"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters()"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms()"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded(boolean)"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>)"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>)"
   langs:
-  - java
-  name: AzureRateCard
-  nameWithType: AzureRateCard
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
-  type: Class
-  package: com.microsoft.store.partnercenter.models.ratecards
-  summary: Represents an offer term tied to an Azure rate card.
+  - "java"
+  name: "AzureRateCard"
+  nameWithType: "AzureRateCard"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+  summary: "Represents an offer term tied to an Azure rate card."
   syntax:
-    content: public class AzureRateCard extends ResourceBase
+    content: "public class AzureRateCard extends ResourceBase"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard()
-  id: AzureRateCard()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard()"
+  id: "AzureRateCard()"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
   langs:
-  - java
-  name: AzureRateCard()
-  nameWithType: AzureRateCard.AzureRateCard()
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard()
-  overload: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.ratecards
+  - "java"
+  name: "AzureRateCard()"
+  nameWithType: "AzureRateCard.AzureRateCard()"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard()"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
-    content: public AzureRateCard()
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency()
-  id: getCurrency()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+    content: "public AzureRateCard()"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency()"
+  id: "getCurrency()"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
   langs:
-  - java
-  name: getCurrency()
-  nameWithType: AzureRateCard.getCurrency()
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency()
-  overload: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.ratecards
+  - "java"
+  name: "getCurrency()"
+  nameWithType: "AzureRateCard.getCurrency()"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency()"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
-    content: public String getCurrency()
+    content: "public String getCurrency()"
     return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded()
-  id: getIsTaxIncluded()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded()"
+  id: "getIsTaxIncluded()"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
   langs:
-  - java
-  name: getIsTaxIncluded()
-  nameWithType: AzureRateCard.getIsTaxIncluded()
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded()
-  overload: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.ratecards
+  - "java"
+  name: "getIsTaxIncluded()"
+  nameWithType: "AzureRateCard.getIsTaxIncluded()"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded()"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
-    content: public boolean getIsTaxIncluded()
+    content: "public boolean getIsTaxIncluded()"
     return:
-      type: boolean
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale()
-  id: getLocale()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+      type: "boolean"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale()"
+  id: "getLocale()"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
   langs:
-  - java
-  name: getLocale()
-  nameWithType: AzureRateCard.getLocale()
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale()
-  overload: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.ratecards
+  - "java"
+  name: "getLocale()"
+  nameWithType: "AzureRateCard.getLocale()"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale()"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
-    content: public String getLocale()
+    content: "public String getLocale()"
     return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters()
-  id: getMeters()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters()"
+  id: "getMeters()"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
   langs:
-  - java
-  name: getMeters()
-  nameWithType: AzureRateCard.getMeters()
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters()
-  overload: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.ratecards
+  - "java"
+  name: "getMeters()"
+  nameWithType: "AzureRateCard.getMeters()"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters()"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
-    content: public Iterable<AzureMeter> getMeters()
+    content: "public Iterable<AzureMeter> getMeters()"
     return:
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms()
-  id: getOfferTerms()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms()"
+  id: "getOfferTerms()"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
   langs:
-  - java
-  name: getOfferTerms()
-  nameWithType: AzureRateCard.getOfferTerms()
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms()
-  overload: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.ratecards
+  - "java"
+  name: "getOfferTerms()"
+  nameWithType: "AzureRateCard.getOfferTerms()"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms()"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
-    content: public Iterable<AzureOfferTerm> getOfferTerms()
+    content: "public Iterable<AzureOfferTerm> getOfferTerms()"
     return:
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency(java.lang.String)
-  id: setCurrency(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency(java.lang.String)"
+  id: "setCurrency(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
   langs:
-  - java
-  name: setCurrency(String value)
-  nameWithType: AzureRateCard.setCurrency(String value)
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency(String value)
-  overload: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.ratecards
+  - "java"
+  name: "setCurrency(String value)"
+  nameWithType: "AzureRateCard.setCurrency(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency(String value)"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
-    content: public void setCurrency(String value)
+    content: "public void setCurrency(String value)"
     parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded(boolean)
-  id: setIsTaxIncluded(boolean)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded(boolean)"
+  id: "setIsTaxIncluded(boolean)"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
   langs:
-  - java
-  name: setIsTaxIncluded(boolean value)
-  nameWithType: AzureRateCard.setIsTaxIncluded(boolean value)
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded(boolean value)
-  overload: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.ratecards
+  - "java"
+  name: "setIsTaxIncluded(boolean value)"
+  nameWithType: "AzureRateCard.setIsTaxIncluded(boolean value)"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded(boolean value)"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
-    content: public void setIsTaxIncluded(boolean value)
+    content: "public void setIsTaxIncluded(boolean value)"
     parameters:
-    - id: value
-      type: boolean
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale(java.lang.String)
-  id: setLocale(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+    - id: "value"
+      type: "boolean"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale(java.lang.String)"
+  id: "setLocale(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
   langs:
-  - java
-  name: setLocale(String value)
-  nameWithType: AzureRateCard.setLocale(String value)
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale(String value)
-  overload: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.ratecards
+  - "java"
+  name: "setLocale(String value)"
+  nameWithType: "AzureRateCard.setLocale(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale(String value)"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
-    content: public void setLocale(String value)
+    content: "public void setLocale(String value)"
     parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>)
-  id: setMeters(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>)"
+  id: "setMeters(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>)"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
   langs:
-  - java
-  name: setMeters(Iterable<AzureMeter> value)
-  nameWithType: AzureRateCard.setMeters(Iterable<AzureMeter> value)
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters(Iterable<AzureMeter> value)
-  overload: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.ratecards
+  - "java"
+  name: "setMeters(Iterable<AzureMeter> value)"
+  nameWithType: "AzureRateCard.setMeters(Iterable<AzureMeter> value)"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters(Iterable<AzureMeter> value)"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
-    content: public void setMeters(Iterable<AzureMeter> value)
+    content: "public void setMeters(Iterable<AzureMeter> value)"
     parameters:
-    - id: value
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>)
-  id: setOfferTerms(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard
+    - id: "value"
+      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>)"
+  id: "setOfferTerms(java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>)"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
   langs:
-  - java
-  name: setOfferTerms(Iterable<AzureOfferTerm> value)
-  nameWithType: AzureRateCard.setOfferTerms(Iterable<AzureOfferTerm> value)
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms(Iterable<AzureOfferTerm> value)
-  overload: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.ratecards
+  - "java"
+  name: "setOfferTerms(Iterable<AzureOfferTerm> value)"
+  nameWithType: "AzureRateCard.setOfferTerms(Iterable<AzureOfferTerm> value)"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms(Iterable<AzureOfferTerm> value)"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
-    content: public void setOfferTerms(Iterable<AzureOfferTerm> value)
+    content: "public void setOfferTerms(Iterable<AzureOfferTerm> value)"
     parameters:
-    - id: value
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>
+    - id: "value"
+      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>"
 references:
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard*
-  name: AzureRateCard
-  nameWithType: AzureRateCard.AzureRateCard
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard
-  package: com.microsoft.store.partnercenter.models.ratecards
-- uid: java.lang.String
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard*"
+  name: "AzureRateCard"
+  nameWithType: "AzureRateCard.AzureRateCard"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale*
-  name: getLocale
-  nameWithType: AzureRateCard.getLocale
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale
-  package: com.microsoft.store.partnercenter.models.ratecards
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale*
-  name: setLocale
-  nameWithType: AzureRateCard.setLocale
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale
-  package: com.microsoft.store.partnercenter.models.ratecards
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency*
-  name: getCurrency
-  nameWithType: AzureRateCard.getCurrency
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency
-  package: com.microsoft.store.partnercenter.models.ratecards
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency*
-  name: setCurrency
-  nameWithType: AzureRateCard.setCurrency
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency
-  package: com.microsoft.store.partnercenter.models.ratecards
-- uid: boolean
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale*"
+  name: "getLocale"
+  nameWithType: "AzureRateCard.getLocale"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getLocale"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale*"
+  name: "setLocale"
+  nameWithType: "AzureRateCard.setLocale"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setLocale"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency*"
+  name: "getCurrency"
+  nameWithType: "AzureRateCard.getCurrency"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getCurrency"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency*"
+  name: "setCurrency"
+  nameWithType: "AzureRateCard.setCurrency"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+- uid: "boolean"
   spec.java:
-  - uid: boolean
-    name: boolean
-    fullName: boolean
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded*
-  name: getIsTaxIncluded
-  nameWithType: AzureRateCard.getIsTaxIncluded
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded
-  package: com.microsoft.store.partnercenter.models.ratecards
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded*
-  name: setIsTaxIncluded
-  nameWithType: AzureRateCard.setIsTaxIncluded
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded
-  package: com.microsoft.store.partnercenter.models.ratecards
-- uid: java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>
+  - uid: "boolean"
+    name: "boolean"
+    fullName: "boolean"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded*"
+  name: "getIsTaxIncluded"
+  nameWithType: "AzureRateCard.getIsTaxIncluded"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getIsTaxIncluded"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded*"
+  name: "setIsTaxIncluded"
+  nameWithType: "AzureRateCard.setIsTaxIncluded"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+- uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>"
   spec.java:
-  - uid: java.lang.Iterable
-    name: Iterable
-    fullName: java.lang.Iterable
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.ratecards.AzureMeter
-    name: AzureMeter
-    fullName: com.microsoft.store.partnercenter.models.ratecards.AzureMeter
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters*
-  name: getMeters
-  nameWithType: AzureRateCard.getMeters
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters
-  package: com.microsoft.store.partnercenter.models.ratecards
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters*
-  name: setMeters
-  nameWithType: AzureRateCard.setMeters
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters
-  package: com.microsoft.store.partnercenter.models.ratecards
-- uid: java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>
+  - uid: "java.lang.Iterable"
+    name: "Iterable"
+    fullName: "java.lang.Iterable"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter"
+    name: "AzureMeter"
+    fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters*"
+  name: "getMeters"
+  nameWithType: "AzureRateCard.getMeters"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getMeters"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters*"
+  name: "setMeters"
+  nameWithType: "AzureRateCard.setMeters"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+- uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>"
   spec.java:
-  - uid: java.lang.Iterable
-    name: Iterable
-    fullName: java.lang.Iterable
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm
-    name: AzureOfferTerm
-    fullName: com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms*
-  name: getOfferTerms
-  nameWithType: AzureRateCard.getOfferTerms
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms
-  package: com.microsoft.store.partnercenter.models.ratecards
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms*
-  name: setOfferTerms
-  nameWithType: AzureRateCard.setOfferTerms
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms
-  package: com.microsoft.store.partnercenter.models.ratecards
-- uid: com.microsoft.store.partnercenter.models.ResourceBase
-  name: ResourceBase
-  nameWithType: ResourceBase
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  name: ResourceBase.getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: java.lang.Iterable
-  name: Iterable
-  nameWithType: Iterable
-  fullName: java.lang.Iterable
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureMeter
-  name: AzureMeter
-  nameWithType: AzureMeter
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureMeter
-- uid: com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm
-  name: AzureOfferTerm
-  nameWithType: AzureOfferTerm
-  fullName: com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm
+  - uid: "java.lang.Iterable"
+    name: "Iterable"
+    fullName: "java.lang.Iterable"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
+    name: "AzureOfferTerm"
+    fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms*"
+  name: "getOfferTerms"
+  nameWithType: "AzureRateCard.getOfferTerms"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.getOfferTerms"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms*"
+  name: "setOfferTerms"
+  nameWithType: "AzureRateCard.setOfferTerms"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBase"
+  name: "ResourceBase"
+  nameWithType: "ResourceBase"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  name: "ResourceBase.getAttributes()"
+  nameWithType: "ResourceBase.getAttributes()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Object.finalize()"
+  name: "Object.finalize()"
+  nameWithType: "Object.finalize()"
+  fullName: "java.lang.Object.finalize()"
+- uid: "java.lang.Object.clone()"
+  name: "Object.clone()"
+  nameWithType: "Object.clone()"
+  fullName: "java.lang.Object.clone()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Object.equals(java.lang.Object)"
+  name: "Object.equals(Object)"
+  nameWithType: "Object.equals(Object)"
+  fullName: "java.lang.Object.equals(java.lang.Object)"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Object.hashCode()"
+  name: "Object.hashCode()"
+  nameWithType: "Object.hashCode()"
+  fullName: "java.lang.Object.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "java.lang.Object.toString()"
+  name: "Object.toString()"
+  nameWithType: "Object.toString()"
+  fullName: "java.lang.Object.toString()"
+- uid: "java.lang.Iterable"
+  name: "Iterable"
+  nameWithType: "Iterable"
+  fullName: "java.lang.Iterable"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter"
+  name: "AzureMeter"
+  nameWithType: "AzureMeter"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
+  name: "AzureOfferTerm"
+  nameWithType: "AzureOfferTerm"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"

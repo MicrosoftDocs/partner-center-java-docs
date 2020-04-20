@@ -1,130 +1,127 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView
-  id: IProductCollectionByCountryByTargetView
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products
+- uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
+  id: "IProductCollectionByCountryByTargetView"
+  parent: "com.microsoft.store.partnercenter.products"
   children:
-  - com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment(java.lang.String)
-  - com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get()
+  - "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment(java.lang.String)"
+  - "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get()"
   langs:
-  - java
-  name: IProductCollectionByCountryByTargetView
-  nameWithType: IProductCollectionByCountryByTargetView
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView
-  type: Interface
-  package: com.microsoft.store.partnercenter.products
-  summary: Holds operations that can be performed on products that belong to a given country and a catalog view.
+  - "java"
+  name: "IProductCollectionByCountryByTargetView"
+  nameWithType: "IProductCollectionByCountryByTargetView"
+  fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
+  type: "Interface"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Holds operations that can be performed on products that belong to a given country and a catalog view."
   syntax:
-    content: public interface IProductCollectionByCountryByTargetView extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Product,ResourceCollection<Product>>
+    content: "public interface IProductCollectionByCountryByTargetView extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Product,ResourceCollection<Product>>"
   implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment(java.lang.String)
-  id: byTargetSegment(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView
+  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>"
+- uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment(java.lang.String)"
+  id: "byTargetSegment(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
   langs:
-  - java
-  name: byTargetSegment(String targetSegment)
-  nameWithType: IProductCollectionByCountryByTargetView.byTargetSegment(String targetSegment)
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment(String targetSegment)
-  overload: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment*
-  type: Method
-  package: com.microsoft.store.partnercenter.products
-  summary: Retrieves the operations that can be applied on products that belong to a given country, catalog view and target segment.
+  - "java"
+  name: "byTargetSegment(String targetSegment)"
+  nameWithType: "IProductCollectionByCountryByTargetView.byTargetSegment(String targetSegment)"
+  fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment(String targetSegment)"
+  overload: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Retrieves the operations that can be applied on products that belong to a given country, catalog view and target segment."
   syntax:
-    content: public abstract IProductCollectionByCountryByTargetViewByTargetSegment byTargetSegment(String targetSegment)
+    content: "public abstract IProductCollectionByCountryByTargetViewByTargetSegment byTargetSegment(String targetSegment)"
     parameters:
-    - id: targetSegment
-      type: java.lang.String
-      description: The target segment filter.
+    - id: "targetSegment"
+      type: "java.lang.String"
+      description: "The target segment filter."
     return:
-      type: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment
-      description: The product collection operations by country, by target view and by target segment.
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView
+      type: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment"
+      description: "The product collection operations by country, by target view and by target segment."
+- uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
   langs:
-  - java
-  name: get()
-  nameWithType: IProductCollectionByCountryByTargetView.get()
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get()
-  overload: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.products
-  summary: Retrieves all the products in the given country and catalog view.
+  - "java"
+  name: "get()"
+  nameWithType: "IProductCollectionByCountryByTargetView.get()"
+  fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get()"
+  overload: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Retrieves all the products in the given country and catalog view."
   syntax:
-    content: public abstract ResourceCollection<Product> get()
+    content: "public abstract ResourceCollection<Product> get()"
     return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>
-      description: The products in the given country and catalog view.
+      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>"
+      description: "The products in the given country and catalog view."
 references:
-- uid: java.lang.String
+- uid: "java.lang.String"
   spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment
-  name: IProductCollectionByCountryByTargetViewByTargetSegment
-  nameWithType: IProductCollectionByCountryByTargetViewByTargetSegment
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment*
-  name: byTargetSegment
-  nameWithType: IProductCollectionByCountryByTargetView.byTargetSegment
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment"
+  name: "IProductCollectionByCountryByTargetViewByTargetSegment"
+  nameWithType: "IProductCollectionByCountryByTargetViewByTargetSegment"
+  fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment"
+- uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment*"
+  name: "byTargetSegment"
+  nameWithType: "IProductCollectionByCountryByTargetView.byTargetSegment"
+  fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment"
+  package: "com.microsoft.store.partnercenter.products"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>"
   spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.products.Product
-    name: Product
-    fullName: com.microsoft.store.partnercenter.models.products.Product
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get*
-  name: get
-  nameWithType: IProductCollectionByCountryByTargetView.get
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>
-  name: IEntireEntityCollectionRetrievalOperations<Product,ResourceCollection<Product>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<Product,ResourceCollection<Product>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.products.Product
-  name: Product
-  nameWithType: Product
-  fullName: com.microsoft.store.partnercenter.models.products.Product
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: Product,ResourceCollection
-  nameWithType: Product,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection
+  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.products.Product"
+    name: "Product"
+    fullName: "com.microsoft.store.partnercenter.models.products.Product"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get*"
+  name: "get"
+  nameWithType: "IProductCollectionByCountryByTargetView.get"
+  fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get"
+  package: "com.microsoft.store.partnercenter.products"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  name: "IPartnerComponent<Tuple<String,String>>"
+  nameWithType: "IPartnerComponent<Tuple<String,String>>"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>"
+  name: "IEntireEntityCollectionRetrievalOperations<Product,ResourceCollection<Product>>"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations<Product,ResourceCollection<Product>>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>"
+- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "ResourceCollection"
+  nameWithType: "ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
+- uid: "com.microsoft.store.partnercenter.models.products.Product"
+  name: "Product"
+  nameWithType: "Product"
+  fullName: "com.microsoft.store.partnercenter.models.products.Product"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
+  name: "IPartnerComponent"
+  nameWithType: "IPartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  name: "Tuple"
+  nameWithType: "Tuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
+- uid: "java.lang.String,java.lang.String"
+  name: "String,String"
+  nameWithType: "String,String"
+  fullName: "java.lang.String,java.lang.String"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  name: "IEntireEntityCollectionRetrievalOperations"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+- uid: "com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection"
+  name: "Product,ResourceCollection"
+  nameWithType: "Product,ResourceCollection"
+  fullName: "com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection"
