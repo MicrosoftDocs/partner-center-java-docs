@@ -1,62 +1,64 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole"
-  id: "IDirectoryRole"
-  parent: "com.microsoft.store.partnercenter.customerdirectoryroles"
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole
+  id: IDirectoryRole
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles
   children:
-  - "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers()"
+  - com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers()
   langs:
-  - "java"
-  name: "IDirectoryRole"
-  nameWithType: "IDirectoryRole"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-  summary: "Represents a Directory Role"
+  - java
+  name: IDirectoryRole
+  nameWithType: IDirectoryRole
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole
+  type: Interface
+  package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: Represents a Directory Role
   syntax:
-    content: "public interface IDirectoryRole extends IPartnerComponent<Tuple<String,String>>"
+    content: public interface IDirectoryRole extends IPartnerComponent<Tuple<String,String>>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers()"
-  id: "getUserMembers()"
-  parent: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole"
+  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers()
+  id: getUserMembers()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole
   langs:
-  - "java"
-  name: "getUserMembers()"
-  nameWithType: "IDirectoryRole.getUserMembers()"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers()"
-  overload: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-  summary: "Gets the current directory role's user member collection operations."
+  - java
+  name: getUserMembers()
+  nameWithType: IDirectoryRole.getUserMembers()
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers()
+  overload: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers*
+  type: Method
+  package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: Gets the current directory role's user member collection operations.
   syntax:
-    content: "public abstract IUserMemberCollection getUserMembers()"
+    content: public abstract IUserMemberCollection getUserMembers()
     return:
-      type: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection"
-      description: "The current directory role's user member collection operations"
+      type: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
+      description: The current directory role's user member collection operations
 references:
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection"
-  name: "IUserMemberCollection"
-  nameWithType: "IUserMemberCollection"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection"
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers*"
-  name: "getUserMembers"
-  nameWithType: "IDirectoryRole.getUserMembers"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  name: "IPartnerComponent<Tuple<String,String>>"
-  nameWithType: "IPartnerComponent<Tuple<String,String>>"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  name: "IPartnerComponent"
-  nameWithType: "IPartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
-- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  name: "Tuple"
-  nameWithType: "Tuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
-- uid: "java.lang.String,java.lang.String"
-  name: "String,String"
-  nameWithType: "String,String"
-  fullName: "java.lang.String,java.lang.String"
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
+  name: IUserMemberCollection
+  nameWithType: IUserMemberCollection
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers*
+  name: getUserMembers
+  nameWithType: IDirectoryRole.getUserMembers
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers
+  package: com.microsoft.store.partnercenter.customerdirectoryroles
+- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+  name: IPartnerComponent<Tuple<String,String>>
+  nameWithType: IPartnerComponent<Tuple<String,String>>
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
+  name: IPartnerComponent
+  nameWithType: IPartnerComponent
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent
+- uid: com.microsoft.store.partnercenter.models.utils.Tuple
+  name: Tuple
+  nameWithType: Tuple
+  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
+- uid: java.lang.String,java.lang.String
+  name: String,String
+  nameWithType: String,String
+  fullName: java.lang.String,java.lang.String

@@ -1,482 +1,500 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
-  id: "InvoiceSummary"
-  parent: "com.microsoft.store.partnercenter.models.invoices"
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
+  id: InvoiceSummary
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices
   children:
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate(org.joda.time.DateTime)"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount(double)"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate(org.joda.time.DateTime)"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount(double)"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate(org.joda.time.DateTime)"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate(org.joda.time.DateTime)"
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate(org.joda.time.DateTime)
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount(double)
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode(java.lang.String)
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol(java.lang.String)
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate(org.joda.time.DateTime)
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount(double)
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate(org.joda.time.DateTime)
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate(org.joda.time.DateTime)
   langs:
-  - "java"
-  name: "InvoiceSummary"
-  nameWithType: "InvoiceSummary"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-  summary: "Represent the current balance based on Partner's monthly bills."
+  - java
+  name: InvoiceSummary
+  nameWithType: InvoiceSummary
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
+  type: Class
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: Represent the current balance based on Partner's monthly bills.
   syntax:
-    content: "public class InvoiceSummary extends ResourceBaseWithLinks<StandardResourceLinks>"
+    content: public class InvoiceSummary extends ResourceBaseWithLinks<StandardResourceLinks>
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.models.ResourceBase"
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.ResourceBase
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary()"
-  id: "InvoiceSummary()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary()
+  id: InvoiceSummary()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "InvoiceSummary()"
-  nameWithType: "InvoiceSummary.InvoiceSummary()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: InvoiceSummary()
+  nameWithType: InvoiceSummary.InvoiceSummary()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public InvoiceSummary()"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate()"
-  id: "getAccountingDate()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+    content: public InvoiceSummary()
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate()
+  id: getAccountingDate()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "getAccountingDate()"
-  nameWithType: "InvoiceSummary.getAccountingDate()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: getAccountingDate()
+  nameWithType: InvoiceSummary.getAccountingDate()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public DateTime getAccountingDate()"
+    content: public DateTime getAccountingDate()
     return:
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount()"
-  id: "getBalanceAmount()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+      type: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount()
+  id: getBalanceAmount()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "getBalanceAmount()"
-  nameWithType: "InvoiceSummary.getBalanceAmount()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: getBalanceAmount()
+  nameWithType: InvoiceSummary.getBalanceAmount()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public double getBalanceAmount()"
+    content: public double getBalanceAmount()
     return:
-      type: "double"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode()"
-  id: "getCurrencyCode()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+      type: double
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode()
+  id: getCurrencyCode()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "getCurrencyCode()"
-  nameWithType: "InvoiceSummary.getCurrencyCode()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: getCurrencyCode()
+  nameWithType: InvoiceSummary.getCurrencyCode()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public String getCurrencyCode()"
+    content: public String getCurrencyCode()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol()"
-  id: "getCurrencySymbol()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+      type: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol()
+  id: getCurrencySymbol()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "getCurrencySymbol()"
-  nameWithType: "InvoiceSummary.getCurrencySymbol()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: getCurrencySymbol()
+  nameWithType: InvoiceSummary.getCurrencySymbol()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public String getCurrencySymbol()"
+    content: public String getCurrencySymbol()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate()"
-  id: "getFirstInvoiceCreationDate()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+      type: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate()
+  id: getFirstInvoiceCreationDate()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "getFirstInvoiceCreationDate()"
-  nameWithType: "InvoiceSummary.getFirstInvoiceCreationDate()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: getFirstInvoiceCreationDate()
+  nameWithType: InvoiceSummary.getFirstInvoiceCreationDate()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public DateTime getFirstInvoiceCreationDate()"
+    content: public DateTime getFirstInvoiceCreationDate()
     return:
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount()"
-  id: "getLastPaymentAmount()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+      type: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount()
+  id: getLastPaymentAmount()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "getLastPaymentAmount()"
-  nameWithType: "InvoiceSummary.getLastPaymentAmount()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: getLastPaymentAmount()
+  nameWithType: InvoiceSummary.getLastPaymentAmount()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public double getLastPaymentAmount()"
+    content: public double getLastPaymentAmount()
     return:
-      type: "double"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate()"
-  id: "getLastPaymentDate()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+      type: double
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate()
+  id: getLastPaymentDate()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "getLastPaymentDate()"
-  nameWithType: "InvoiceSummary.getLastPaymentDate()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: getLastPaymentDate()
+  nameWithType: InvoiceSummary.getLastPaymentDate()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public DateTime getLastPaymentDate()"
+    content: public DateTime getLastPaymentDate()
     return:
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate()"
-  id: "getLatestInvoiceDate()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+      type: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate()
+  id: getLatestInvoiceDate()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "getLatestInvoiceDate()"
-  nameWithType: "InvoiceSummary.getLatestInvoiceDate()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: getLatestInvoiceDate()
+  nameWithType: InvoiceSummary.getLatestInvoiceDate()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public DateTime getLatestInvoiceDate()"
+    content: public DateTime getLatestInvoiceDate()
     return:
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate(org.joda.time.DateTime)"
-  id: "setAccountingDate(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+      type: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate(org.joda.time.DateTime)
+  id: setAccountingDate(org.joda.time.DateTime)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "setAccountingDate(DateTime value)"
-  nameWithType: "InvoiceSummary.setAccountingDate(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: setAccountingDate(DateTime value)
+  nameWithType: InvoiceSummary.setAccountingDate(DateTime value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate(DateTime value)
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public void setAccountingDate(DateTime value)"
+    content: public void setAccountingDate(DateTime value)
     parameters:
-    - id: "value"
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount(double)"
-  id: "setBalanceAmount(double)"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+    - id: value
+      type: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount(double)
+  id: setBalanceAmount(double)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "setBalanceAmount(double value)"
-  nameWithType: "InvoiceSummary.setBalanceAmount(double value)"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount(double value)"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: setBalanceAmount(double value)
+  nameWithType: InvoiceSummary.setBalanceAmount(double value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount(double value)
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public void setBalanceAmount(double value)"
+    content: public void setBalanceAmount(double value)
     parameters:
-    - id: "value"
-      type: "double"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode(java.lang.String)"
-  id: "setCurrencyCode(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+    - id: value
+      type: double
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode(java.lang.String)
+  id: setCurrencyCode(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "setCurrencyCode(String value)"
-  nameWithType: "InvoiceSummary.setCurrencyCode(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode(String value)"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: setCurrencyCode(String value)
+  nameWithType: InvoiceSummary.setCurrencyCode(String value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode(String value)
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public void setCurrencyCode(String value)"
+    content: public void setCurrencyCode(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol(java.lang.String)"
-  id: "setCurrencySymbol(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+    - id: value
+      type: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol(java.lang.String)
+  id: setCurrencySymbol(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "setCurrencySymbol(String value)"
-  nameWithType: "InvoiceSummary.setCurrencySymbol(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol(String value)"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: setCurrencySymbol(String value)
+  nameWithType: InvoiceSummary.setCurrencySymbol(String value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol(String value)
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public void setCurrencySymbol(String value)"
+    content: public void setCurrencySymbol(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate(org.joda.time.DateTime)"
-  id: "setFirstInvoiceCreationDate(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+    - id: value
+      type: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate(org.joda.time.DateTime)
+  id: setFirstInvoiceCreationDate(org.joda.time.DateTime)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "setFirstInvoiceCreationDate(DateTime value)"
-  nameWithType: "InvoiceSummary.setFirstInvoiceCreationDate(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: setFirstInvoiceCreationDate(DateTime value)
+  nameWithType: InvoiceSummary.setFirstInvoiceCreationDate(DateTime value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate(DateTime value)
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public void setFirstInvoiceCreationDate(DateTime value)"
+    content: public void setFirstInvoiceCreationDate(DateTime value)
     parameters:
-    - id: "value"
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount(double)"
-  id: "setLastPaymentAmount(double)"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+    - id: value
+      type: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount(double)
+  id: setLastPaymentAmount(double)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "setLastPaymentAmount(double value)"
-  nameWithType: "InvoiceSummary.setLastPaymentAmount(double value)"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount(double value)"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: setLastPaymentAmount(double value)
+  nameWithType: InvoiceSummary.setLastPaymentAmount(double value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount(double value)
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public void setLastPaymentAmount(double value)"
+    content: public void setLastPaymentAmount(double value)
     parameters:
-    - id: "value"
-      type: "double"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate(org.joda.time.DateTime)"
-  id: "setLastPaymentDate(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+    - id: value
+      type: double
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate(org.joda.time.DateTime)
+  id: setLastPaymentDate(org.joda.time.DateTime)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "setLastPaymentDate(DateTime value)"
-  nameWithType: "InvoiceSummary.setLastPaymentDate(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: setLastPaymentDate(DateTime value)
+  nameWithType: InvoiceSummary.setLastPaymentDate(DateTime value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate(DateTime value)
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public void setLastPaymentDate(DateTime value)"
+    content: public void setLastPaymentDate(DateTime value)
     parameters:
-    - id: "value"
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate(org.joda.time.DateTime)"
-  id: "setLatestInvoiceDate(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+    - id: value
+      type: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate(org.joda.time.DateTime)
+  id: setLatestInvoiceDate(org.joda.time.DateTime)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
   langs:
-  - "java"
-  name: "setLatestInvoiceDate(DateTime value)"
-  nameWithType: "InvoiceSummary.setLatestInvoiceDate(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: setLatestInvoiceDate(DateTime value)
+  nameWithType: InvoiceSummary.setLatestInvoiceDate(DateTime value)
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate(DateTime value)
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public void setLatestInvoiceDate(DateTime value)"
+    content: public void setLatestInvoiceDate(DateTime value)
     parameters:
-    - id: "value"
-      type: "org.joda.time.DateTime"
+    - id: value
+      type: org.joda.time.DateTime
 references:
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary*"
-  name: "InvoiceSummary"
-  nameWithType: "InvoiceSummary.InvoiceSummary"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "double"
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary*
+  name: InvoiceSummary
+  nameWithType: InvoiceSummary.InvoiceSummary
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: double
   spec.java:
-  - uid: "double"
-    name: "double"
-    fullName: "double"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount*"
-  name: "getBalanceAmount"
-  nameWithType: "InvoiceSummary.getBalanceAmount"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount*"
-  name: "setBalanceAmount"
-  nameWithType: "InvoiceSummary.setBalanceAmount"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "java.lang.String"
+  - uid: double
+    name: double
+    fullName: double
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount*
+  name: getBalanceAmount
+  nameWithType: InvoiceSummary.getBalanceAmount
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount*
+  name: setBalanceAmount
+  nameWithType: InvoiceSummary.setBalanceAmount
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode*"
-  name: "getCurrencyCode"
-  nameWithType: "InvoiceSummary.getCurrencyCode"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode*"
-  name: "setCurrencyCode"
-  nameWithType: "InvoiceSummary.setCurrencyCode"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol*"
-  name: "getCurrencySymbol"
-  nameWithType: "InvoiceSummary.getCurrencySymbol"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol*"
-  name: "setCurrencySymbol"
-  nameWithType: "InvoiceSummary.setCurrencySymbol"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "org.joda.time.DateTime"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode*
+  name: getCurrencyCode
+  nameWithType: InvoiceSummary.getCurrencyCode
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode*
+  name: setCurrencyCode
+  nameWithType: InvoiceSummary.setCurrencyCode
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol*
+  name: getCurrencySymbol
+  nameWithType: InvoiceSummary.getCurrencySymbol
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol*
+  name: setCurrencySymbol
+  nameWithType: InvoiceSummary.setCurrencySymbol
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: org.joda.time.DateTime
   spec.java:
-  - uid: "org.joda.time.DateTime"
-    name: "DateTime"
-    fullName: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate*"
-  name: "getAccountingDate"
-  nameWithType: "InvoiceSummary.getAccountingDate"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate*"
-  name: "setAccountingDate"
-  nameWithType: "InvoiceSummary.setAccountingDate"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate*"
-  name: "getFirstInvoiceCreationDate"
-  nameWithType: "InvoiceSummary.getFirstInvoiceCreationDate"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate*"
-  name: "setFirstInvoiceCreationDate"
-  nameWithType: "InvoiceSummary.setFirstInvoiceCreationDate"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate*"
-  name: "getLastPaymentDate"
-  nameWithType: "InvoiceSummary.getLastPaymentDate"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate*"
-  name: "setLastPaymentDate"
-  nameWithType: "InvoiceSummary.setLastPaymentDate"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount*"
-  name: "getLastPaymentAmount"
-  nameWithType: "InvoiceSummary.getLastPaymentAmount"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount*"
-  name: "setLastPaymentAmount"
-  nameWithType: "InvoiceSummary.setLastPaymentAmount"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate*"
-  name: "getLatestInvoiceDate"
-  nameWithType: "InvoiceSummary.getLatestInvoiceDate"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate*"
-  name: "setLatestInvoiceDate"
-  nameWithType: "InvoiceSummary.setLatestInvoiceDate"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  name: "ResourceBaseWithLinks<StandardResourceLinks>"
-  nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  name: "ResourceBase.getAttributes()"
-  nameWithType: "ResourceBase.getAttributes()"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
-  name: "ResourceBaseWithLinks.getLinks()"
-  nameWithType: "ResourceBaseWithLinks.getLinks()"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
-  name: "ResourceBaseWithLinks.setLinks(TLinks)"
-  nameWithType: "ResourceBaseWithLinks.setLinks(TLinks)"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  name: "ResourceBaseWithLinks"
-  nameWithType: "ResourceBaseWithLinks"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-- uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  name: "StandardResourceLinks"
-  nameWithType: "StandardResourceLinks"
-  fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
+  - uid: org.joda.time.DateTime
+    name: DateTime
+    fullName: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate*
+  name: getAccountingDate
+  nameWithType: InvoiceSummary.getAccountingDate
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate*
+  name: setAccountingDate
+  nameWithType: InvoiceSummary.setAccountingDate
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate*
+  name: getFirstInvoiceCreationDate
+  nameWithType: InvoiceSummary.getFirstInvoiceCreationDate
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate*
+  name: setFirstInvoiceCreationDate
+  nameWithType: InvoiceSummary.setFirstInvoiceCreationDate
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate*
+  name: getLastPaymentDate
+  nameWithType: InvoiceSummary.getLastPaymentDate
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate*
+  name: setLastPaymentDate
+  nameWithType: InvoiceSummary.setLastPaymentDate
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount*
+  name: getLastPaymentAmount
+  nameWithType: InvoiceSummary.getLastPaymentAmount
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount*
+  name: setLastPaymentAmount
+  nameWithType: InvoiceSummary.setLastPaymentAmount
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate*
+  name: getLatestInvoiceDate
+  nameWithType: InvoiceSummary.getLatestInvoiceDate
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate*
+  name: setLatestInvoiceDate
+  nameWithType: InvoiceSummary.setLatestInvoiceDate
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>
+  name: ResourceBaseWithLinks<StandardResourceLinks>
+  nameWithType: ResourceBaseWithLinks<StandardResourceLinks>
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  name: ResourceBase.getAttributes()
+  nameWithType: ResourceBase.getAttributes()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+  name: ResourceBaseWithLinks.getLinks()
+  nameWithType: ResourceBaseWithLinks.getLinks()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+  name: ResourceBaseWithLinks.setLinks(TLinks)
+  nameWithType: ResourceBaseWithLinks.setLinks(TLinks)
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  name: ResourceBaseWithLinks
+  nameWithType: ResourceBaseWithLinks
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+- uid: com.microsoft.store.partnercenter.models.StandardResourceLinks
+  name: StandardResourceLinks
+  nameWithType: StandardResourceLinks
+  fullName: com.microsoft.store.partnercenter.models.StandardResourceLinks

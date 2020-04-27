@@ -1,179 +1,184 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.utils.ParameterValidator"
-  id: "ParameterValidator"
-  parent: "com.microsoft.store.partnercenter.utils"
+- uid: com.microsoft.store.partnercenter.utils.ParameterValidator
+  id: ParameterValidator
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.utils
   children:
-  - "com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator()"
-  - "com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive(int,int,int,java.lang.String)"
-  - "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode(java.lang.String)"
-  - "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(java.lang.String,java.lang.String)"
+  - com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator()
+  - com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive(int,int,int,java.lang.String)
+  - com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode(java.lang.String)
+  - com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(java.lang.String,java.lang.String)
   langs:
-  - "java"
-  name: "ParameterValidator"
-  nameWithType: "ParameterValidator"
-  fullName: "com.microsoft.store.partnercenter.utils.ParameterValidator"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.utils"
+  - java
+  name: ParameterValidator
+  nameWithType: ParameterValidator
+  fullName: com.microsoft.store.partnercenter.utils.ParameterValidator
+  type: Class
+  package: com.microsoft.store.partnercenter.utils
   syntax:
-    content: "public class ParameterValidator"
+    content: public class ParameterValidator
   inheritance:
-  - "java.lang.Object"
+  - java.lang.Object
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator()"
-  id: "ParameterValidator()"
-  parent: "com.microsoft.store.partnercenter.utils.ParameterValidator"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator()
+  id: ParameterValidator()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.utils.ParameterValidator
   langs:
-  - "java"
-  name: "ParameterValidator()"
-  nameWithType: "ParameterValidator.ParameterValidator()"
-  fullName: "com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator()"
-  overload: "com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.utils"
+  - java
+  name: ParameterValidator()
+  nameWithType: ParameterValidator.ParameterValidator()
+  fullName: com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator()
+  overload: com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.utils
   syntax:
-    content: "public ParameterValidator()"
-- uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive(int,int,int,java.lang.String)"
-  id: "isIntInclusive(int,int,int,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.utils.ParameterValidator"
+    content: public ParameterValidator()
+- uid: com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive(int,int,int,java.lang.String)
+  id: isIntInclusive(int,int,int,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.utils.ParameterValidator
   langs:
-  - "java"
-  name: "isIntInclusive(int min, int max, int parameterValue, String errorMessage)"
-  nameWithType: "ParameterValidator.isIntInclusive(int min, int max, int parameterValue, String errorMessage)"
-  fullName: "com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive(int min, int max, int parameterValue, String errorMessage)"
-  overload: "com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.utils"
+  - java
+  name: isIntInclusive(int min, int max, int parameterValue, String errorMessage)
+  nameWithType: ParameterValidator.isIntInclusive(int min, int max, int parameterValue, String errorMessage)
+  fullName: com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive(int min, int max, int parameterValue, String errorMessage)
+  overload: com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive*
+  type: Method
+  package: com.microsoft.store.partnercenter.utils
   syntax:
-    content: "public static void isIntInclusive(int min, int max, int parameterValue, String errorMessage)"
+    content: public static void isIntInclusive(int min, int max, int parameterValue, String errorMessage)
     parameters:
-    - id: "min"
-      type: "int"
-    - id: "max"
-      type: "int"
-    - id: "parameterValue"
-      type: "int"
-    - id: "errorMessage"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode(java.lang.String)"
-  id: "isValidCountryCode(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.utils.ParameterValidator"
+    - id: min
+      type: int
+    - id: max
+      type: int
+    - id: parameterValue
+      type: int
+    - id: errorMessage
+      type: java.lang.String
+- uid: com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode(java.lang.String)
+  id: isValidCountryCode(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.utils.ParameterValidator
   langs:
-  - "java"
-  name: "isValidCountryCode(String countryCode)"
-  nameWithType: "ParameterValidator.isValidCountryCode(String countryCode)"
-  fullName: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode(String countryCode)"
-  overload: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.utils"
-  summary: "Ensures that a given country code is valid."
+  - java
+  name: isValidCountryCode(String countryCode)
+  nameWithType: ParameterValidator.isValidCountryCode(String countryCode)
+  fullName: com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode(String countryCode)
+  overload: com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode*
+  type: Method
+  package: com.microsoft.store.partnercenter.utils
+  summary: Ensures that a given country code is valid.
   syntax:
-    content: "public static void isValidCountryCode(String countryCode)"
+    content: public static void isValidCountryCode(String countryCode)
     parameters:
-    - id: "countryCode"
-      type: "java.lang.String"
-      description: "The country code to validate."
-- uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(java.lang.String,java.lang.String)"
-  id: "isValidUriQueryValue(java.lang.String,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.utils.ParameterValidator"
+    - id: countryCode
+      type: java.lang.String
+      description: The country code to validate.
+- uid: com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(java.lang.String,java.lang.String)
+  id: isValidUriQueryValue(java.lang.String,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.utils.ParameterValidator
   langs:
-  - "java"
-  name: "isValidUriQueryValue(String string, String errorMessage)"
-  nameWithType: "ParameterValidator.isValidUriQueryValue(String string, String errorMessage)"
-  fullName: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(String string, String errorMessage)"
-  overload: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.utils"
+  - java
+  name: isValidUriQueryValue(String string, String errorMessage)
+  nameWithType: ParameterValidator.isValidUriQueryValue(String string, String errorMessage)
+  fullName: com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(String string, String errorMessage)
+  overload: com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue*
+  type: Method
+  package: com.microsoft.store.partnercenter.utils
   syntax:
-    content: "public static void isValidUriQueryValue(String string, String errorMessage)"
+    content: public static void isValidUriQueryValue(String string, String errorMessage)
     parameters:
-    - id: "string"
-      type: "java.lang.String"
-    - id: "errorMessage"
-      type: "java.lang.String"
+    - id: string
+      type: java.lang.String
+    - id: errorMessage
+      type: java.lang.String
 references:
-- uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator*"
-  name: "ParameterValidator"
-  nameWithType: "ParameterValidator.ParameterValidator"
-  fullName: "com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator"
-  package: "com.microsoft.store.partnercenter.utils"
-- uid: "int"
+- uid: com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator*
+  name: ParameterValidator
+  nameWithType: ParameterValidator.ParameterValidator
+  fullName: com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator
+  package: com.microsoft.store.partnercenter.utils
+- uid: int
   spec.java:
-  - uid: "int"
-    name: "int"
-    fullName: "int"
-- uid: "java.lang.String"
+  - uid: int
+    name: int
+    fullName: int
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive*"
-  name: "isIntInclusive"
-  nameWithType: "ParameterValidator.isIntInclusive"
-  fullName: "com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive"
-  package: "com.microsoft.store.partnercenter.utils"
-- uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue*"
-  name: "isValidUriQueryValue"
-  nameWithType: "ParameterValidator.isValidUriQueryValue"
-  fullName: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue"
-  package: "com.microsoft.store.partnercenter.utils"
-- uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode*"
-  name: "isValidCountryCode"
-  nameWithType: "ParameterValidator.isValidCountryCode"
-  fullName: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode"
-  package: "com.microsoft.store.partnercenter.utils"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive*
+  name: isIntInclusive
+  nameWithType: ParameterValidator.isIntInclusive
+  fullName: com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive
+  package: com.microsoft.store.partnercenter.utils
+- uid: com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue*
+  name: isValidUriQueryValue
+  nameWithType: ParameterValidator.isValidUriQueryValue
+  fullName: com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue
+  package: com.microsoft.store.partnercenter.utils
+- uid: com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode*
+  name: isValidCountryCode
+  nameWithType: ParameterValidator.isValidCountryCode
+  fullName: com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode
+  package: com.microsoft.store.partnercenter.utils
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()

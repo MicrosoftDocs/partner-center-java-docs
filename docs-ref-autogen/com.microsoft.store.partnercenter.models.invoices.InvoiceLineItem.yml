@@ -1,158 +1,162 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
-  id: "InvoiceLineItem"
-  parent: "com.microsoft.store.partnercenter.models.invoices"
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+  id: InvoiceLineItem
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices
   children:
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()
+  - com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()
   langs:
-  - "java"
-  name: "InvoiceLineItem"
-  nameWithType: "InvoiceLineItem"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-  summary: "Represents a line item on an invoice."
+  - java
+  name: InvoiceLineItem
+  nameWithType: InvoiceLineItem
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+  type: Class
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: Represents a line item on an invoice.
   syntax:
-    content: "public abstract class InvoiceLineItem extends ResourceBase"
+    content: public abstract class InvoiceLineItem extends ResourceBase
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.ResourceBase
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem()"
-  id: "InvoiceLineItem()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem()
+  id: InvoiceLineItem()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
   langs:
-  - "java"
-  name: "InvoiceLineItem()"
-  nameWithType: "InvoiceLineItem.InvoiceLineItem()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.invoices"
+  - java
+  name: InvoiceLineItem()
+  nameWithType: InvoiceLineItem.InvoiceLineItem()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.models.invoices
   syntax:
-    content: "public InvoiceLineItem()"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()"
-  id: "getBillingProvider()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+    content: public InvoiceLineItem()
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()
+  id: getBillingProvider()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
   langs:
-  - "java"
-  name: "getBillingProvider()"
-  nameWithType: "InvoiceLineItem.getBillingProvider()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-  summary: "Gets the billing provider."
+  - java
+  name: getBillingProvider()
+  nameWithType: InvoiceLineItem.getBillingProvider()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: Gets the billing provider.
   syntax:
-    content: "public abstract BillingProvider getBillingProvider()"
+    content: public abstract BillingProvider getBillingProvider()
     return:
-      type: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
-      description: "The billing provider."
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
-  id: "getInvoiceLineItemType()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+      type: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+      description: The billing provider.
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()
+  id: getInvoiceLineItemType()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
   langs:
-  - "java"
-  name: "getInvoiceLineItemType()"
-  nameWithType: "InvoiceLineItem.getInvoiceLineItemType()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-  summary: "Gets the type of invoice line item."
+  - java
+  name: getInvoiceLineItemType()
+  nameWithType: InvoiceLineItem.getInvoiceLineItemType()
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()
+  overload: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.invoices
+  summary: Gets the type of invoice line item.
   syntax:
-    content: "public abstract InvoiceLineItemType getInvoiceLineItemType()"
+    content: public abstract InvoiceLineItemType getInvoiceLineItemType()
     return:
-      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-      description: "The type of invoice line item."
+      type: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+      description: The type of invoice line item.
 references:
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem*"
-  name: "InvoiceLineItem"
-  nameWithType: "InvoiceLineItem.InvoiceLineItem"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-  name: "InvoiceLineItemType"
-  nameWithType: "InvoiceLineItemType"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType*"
-  name: "getInvoiceLineItemType"
-  nameWithType: "InvoiceLineItem.getInvoiceLineItemType"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
-  name: "BillingProvider"
-  nameWithType: "BillingProvider"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider*"
-  name: "getBillingProvider"
-  nameWithType: "InvoiceLineItem.getBillingProvider"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  name: "ResourceBase"
-  nameWithType: "ResourceBase"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  name: "ResourceBase.getAttributes()"
-  nameWithType: "ResourceBase.getAttributes()"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem*
+  name: InvoiceLineItem
+  nameWithType: InvoiceLineItem.InvoiceLineItem
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+  name: InvoiceLineItemType
+  nameWithType: InvoiceLineItemType
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType*
+  name: getInvoiceLineItemType
+  nameWithType: InvoiceLineItem.getInvoiceLineItemType
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+  name: BillingProvider
+  nameWithType: BillingProvider
+  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider*
+  name: getBillingProvider
+  nameWithType: InvoiceLineItem.getBillingProvider
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider
+  package: com.microsoft.store.partnercenter.models.invoices
+- uid: com.microsoft.store.partnercenter.models.ResourceBase
+  name: ResourceBase
+  nameWithType: ResourceBase
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  name: ResourceBase.getAttributes()
+  nameWithType: ResourceBase.getAttributes()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()

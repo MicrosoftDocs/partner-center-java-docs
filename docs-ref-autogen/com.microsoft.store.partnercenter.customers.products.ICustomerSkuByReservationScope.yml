@@ -1,47 +1,48 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.customers.products.ICustomerSkuByReservationScope"
-  id: "ICustomerSkuByReservationScope"
-  parent: "com.microsoft.store.partnercenter.customers.products"
+- uid: com.microsoft.store.partnercenter.customers.products.ICustomerSkuByReservationScope
+  id: ICustomerSkuByReservationScope
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.products
   langs:
-  - "java"
-  name: "ICustomerSkuByReservationScope"
-  nameWithType: "ICustomerSkuByReservationScope"
-  fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerSkuByReservationScope"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.customers.products"
-  summary: "Represents the operations that can be performed on a customer's single sku filtered by reservation scope."
+  - java
+  name: ICustomerSkuByReservationScope
+  nameWithType: ICustomerSkuByReservationScope
+  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerSkuByReservationScope
+  type: Interface
+  package: com.microsoft.store.partnercenter.customers.products
+  summary: Represents the operations that can be performed on a customer's single sku filtered by reservation scope.
   syntax:
-    content: "public interface ICustomerSkuByReservationScope extends IPartnerComponent<QuadrupleTuple<String,String,String,String>>, IEntityGetOperations<Sku>"
+    content: public interface ICustomerSkuByReservationScope extends IPartnerComponent<QuadrupleTuple<String,String,String,String>>, IEntityGetOperations<Sku>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>"
+  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>
+  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>
 references:
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
-  name: "IPartnerComponent<QuadrupleTuple<String,String,String,String>>"
-  nameWithType: "IPartnerComponent<QuadrupleTuple<String,String,String,String>>"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>"
-  name: "IEntityGetOperations<Sku>"
-  nameWithType: "IEntityGetOperations<Sku>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>"
-- uid: "java.lang.String,java.lang.String,java.lang.String,java.lang.String"
-  name: "String,String,String,String"
-  nameWithType: "String,String,String,String"
-  fullName: "java.lang.String,java.lang.String,java.lang.String,java.lang.String"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  name: "IPartnerComponent"
-  nameWithType: "IPartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
-- uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
-  name: "QuadrupleTuple"
-  nameWithType: "QuadrupleTuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  name: "IEntityGetOperations"
-  nameWithType: "IEntityGetOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-- uid: "com.microsoft.store.partnercenter.models.products.Sku"
-  name: "Sku"
-  nameWithType: "Sku"
-  fullName: "com.microsoft.store.partnercenter.models.products.Sku"
+- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>
+  name: IPartnerComponent<QuadrupleTuple<String,String,String,String>>
+  nameWithType: IPartnerComponent<QuadrupleTuple<String,String,String,String>>
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>
+  name: IEntityGetOperations<Sku>
+  nameWithType: IEntityGetOperations<Sku>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>
+- uid: java.lang.String,java.lang.String,java.lang.String,java.lang.String
+  name: String,String,String,String
+  nameWithType: String,String,String,String
+  fullName: java.lang.String,java.lang.String,java.lang.String,java.lang.String
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
+  name: IPartnerComponent
+  nameWithType: IPartnerComponent
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent
+- uid: com.microsoft.store.partnercenter.models.utils.QuadrupleTuple
+  name: QuadrupleTuple
+  nameWithType: QuadrupleTuple
+  fullName: com.microsoft.store.partnercenter.models.utils.QuadrupleTuple
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  name: IEntityGetOperations
+  nameWithType: IEntityGetOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+- uid: com.microsoft.store.partnercenter.models.products.Sku
+  name: Sku
+  nameWithType: Sku
+  fullName: com.microsoft.store.partnercenter.models.products.Sku

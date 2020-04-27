@@ -1,267 +1,273 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations"
-  id: "CustomerUsersCollectionOperations"
-  parent: "com.microsoft.store.partnercenter.customerusers"
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations
+  id: CustomerUsersCollectionOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerusers
   children:
-  - "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  - "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create(com.microsoft.store.partnercenter.models.users.CustomerUser)"
-  - "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get()"
-  - "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query(com.microsoft.store.partnercenter.models.query.IQuery)"
+  - com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  - com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId(java.lang.String)
+  - com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create(com.microsoft.store.partnercenter.models.users.CustomerUser)
+  - com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get()
+  - com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query(com.microsoft.store.partnercenter.models.query.IQuery)
   langs:
-  - "java"
-  name: "CustomerUsersCollectionOperations"
-  nameWithType: "CustomerUsersCollectionOperations"
-  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.customerusers"
+  - java
+  name: CustomerUsersCollectionOperations
+  nameWithType: CustomerUsersCollectionOperations
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.customerusers
   syntax:
-    content: "public class CustomerUsersCollectionOperations extends BasePartnerComponent<String> implements ICustomerUserCollection"
+    content: public class CustomerUsersCollectionOperations extends BasePartnerComponent<String> implements ICustomerUserCollection
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
   implements:
-  - "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
+  - com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  id: "CustomerUsersCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  id: CustomerUsersCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations
   langs:
-  - "java"
-  name: "CustomerUsersCollectionOperations(IPartner rootPartnerOperations, String customerId)"
-  nameWithType: "CustomerUsersCollectionOperations.CustomerUsersCollectionOperations(IPartner rootPartnerOperations, String customerId)"
-  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations(IPartner rootPartnerOperations, String customerId)"
-  overload: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.customerusers"
-  summary: "Initializes a new instance of the CustomerUsersCollectionOperations class."
+  - java
+  name: CustomerUsersCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  nameWithType: CustomerUsersCollectionOperations.CustomerUsersCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations(IPartner rootPartnerOperations, String customerId)
+  overload: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.customerusers
+  summary: Initializes a new instance of the CustomerUsersCollectionOperations class.
   syntax:
-    content: "public CustomerUsersCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+    content: public CustomerUsersCollectionOperations(IPartner rootPartnerOperations, String customerId)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-    - id: "customerId"
-      type: "java.lang.String"
-      description: "The customer identifier."
-- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId(java.lang.String)"
-  id: "byId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+    - id: customerId
+      type: java.lang.String
+      description: The customer identifier.
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId(java.lang.String)
+  id: byId(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations
   langs:
-  - "java"
-  name: "byId(String userId)"
-  nameWithType: "CustomerUsersCollectionOperations.byId(String userId)"
-  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId(String userId)"
-  overload: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customerusers"
-  summary: "Retrieves the customer user operations for the specified user."
+  - java
+  name: byId(String userId)
+  nameWithType: CustomerUsersCollectionOperations.byId(String userId)
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId(String userId)
+  overload: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId*
+  type: Method
+  package: com.microsoft.store.partnercenter.customerusers
+  summary: Retrieves the customer user operations for the specified user.
   syntax:
-    content: "public ICustomerUser byId(String userId)"
+    content: public ICustomerUser byId(String userId)
     parameters:
-    - id: "userId"
-      type: "java.lang.String"
-      description: "The user identifier."
+    - id: userId
+      type: java.lang.String
+      description: The user identifier.
     return:
-      type: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
-      description: "The customer user operations for the specified user."
-- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create(com.microsoft.store.partnercenter.models.users.CustomerUser)"
-  id: "create(com.microsoft.store.partnercenter.models.users.CustomerUser)"
-  parent: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations"
+      type: com.microsoft.store.partnercenter.customerusers.ICustomerUser
+      description: The customer user operations for the specified user.
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create(com.microsoft.store.partnercenter.models.users.CustomerUser)
+  id: create(com.microsoft.store.partnercenter.models.users.CustomerUser)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations
   langs:
-  - "java"
-  name: "create(CustomerUser newCustomerUser)"
-  nameWithType: "CustomerUsersCollectionOperations.create(CustomerUser newCustomerUser)"
-  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create(CustomerUser newCustomerUser)"
-  overload: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customerusers"
-  summary: "Creates a new user."
+  - java
+  name: create(CustomerUser newCustomerUser)
+  nameWithType: CustomerUsersCollectionOperations.create(CustomerUser newCustomerUser)
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create(CustomerUser newCustomerUser)
+  overload: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create*
+  type: Method
+  package: com.microsoft.store.partnercenter.customerusers
+  summary: Creates a new user.
   syntax:
-    content: "public CustomerUser create(CustomerUser newCustomerUser)"
+    content: public CustomerUser create(CustomerUser newCustomerUser)
     parameters:
-    - id: "newCustomerUser"
-      type: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-      description: "The user to be created."
+    - id: newCustomerUser
+      type: com.microsoft.store.partnercenter.models.users.CustomerUser
+      description: The user to be created.
     return:
-      type: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-      description: "The newly created user."
-- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations"
+      type: com.microsoft.store.partnercenter.models.users.CustomerUser
+      description: The newly created user.
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "CustomerUsersCollectionOperations.get()"
-  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get()"
-  overload: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customerusers"
-  summary: "Retrieves all the customer users."
+  - java
+  name: get()
+  nameWithType: CustomerUsersCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get()
+  overload: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.customerusers
+  summary: Retrieves all the customer users.
   syntax:
-    content: "public SeekBasedResourceCollection<CustomerUser> get()"
+    content: public SeekBasedResourceCollection<CustomerUser> get()
     return:
-      type: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
-      description: "All the customer users."
-- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query(com.microsoft.store.partnercenter.models.query.IQuery)"
-  id: "query(com.microsoft.store.partnercenter.models.query.IQuery)"
-  parent: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations"
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>
+      description: All the customer users.
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query(com.microsoft.store.partnercenter.models.query.IQuery)
+  id: query(com.microsoft.store.partnercenter.models.query.IQuery)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations
   langs:
-  - "java"
-  name: "query(IQuery customerUsersQuery)"
-  nameWithType: "CustomerUsersCollectionOperations.query(IQuery customerUsersQuery)"
-  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query(IQuery customerUsersQuery)"
-  overload: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customerusers"
-  summary: "Queries customer users associated to the partner's customers."
+  - java
+  name: query(IQuery customerUsersQuery)
+  nameWithType: CustomerUsersCollectionOperations.query(IQuery customerUsersQuery)
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query(IQuery customerUsersQuery)
+  overload: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query*
+  type: Method
+  package: com.microsoft.store.partnercenter.customerusers
+  summary: Queries customer users associated to the partner's customers.
   syntax:
-    content: "public SeekBasedResourceCollection<CustomerUser> query(IQuery customerUsersQuery)"
+    content: public SeekBasedResourceCollection<CustomerUser> query(IQuery customerUsersQuery)
     parameters:
-    - id: "customerUsersQuery"
-      type: "com.microsoft.store.partnercenter.models.query.IQuery"
-      description: "A query to apply onto customer users. Check <xref uid=\"com.microsoft.store.partnercenter.models.query.QueryFactory\" data-throw-if-not-resolved=\"false\">com.microsoft.store.partnercenter.models.query.QueryFactory</xref> to see how to build queries."
+    - id: customerUsersQuery
+      type: com.microsoft.store.partnercenter.models.query.IQuery
+      description: A query to apply onto customer users. Check <xref uid="com.microsoft.store.partnercenter.models.query.QueryFactory" data-throw-if-not-resolved="false">com.microsoft.store.partnercenter.models.query.QueryFactory</xref> to see how to build queries.
     return:
-      type: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
-      description: "Customer user collection."
+      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>
+      description: Customer user collection.
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations*"
-  name: "CustomerUsersCollectionOperations"
-  nameWithType: "CustomerUsersCollectionOperations.CustomerUsersCollectionOperations"
-  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations"
-  package: "com.microsoft.store.partnercenter.customerusers"
-- uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-  name: "CustomerUser"
-  nameWithType: "CustomerUser"
-  fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create*"
-  name: "create"
-  nameWithType: "CustomerUsersCollectionOperations.create"
-  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create"
-  package: "com.microsoft.store.partnercenter.customerusers"
-- uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations*
+  name: CustomerUsersCollectionOperations
+  nameWithType: CustomerUsersCollectionOperations.CustomerUsersCollectionOperations
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations
+  package: com.microsoft.store.partnercenter.customerusers
+- uid: com.microsoft.store.partnercenter.models.users.CustomerUser
+  name: CustomerUser
+  nameWithType: CustomerUser
+  fullName: com.microsoft.store.partnercenter.models.users.CustomerUser
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create*
+  name: create
+  nameWithType: CustomerUsersCollectionOperations.create
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create
+  package: com.microsoft.store.partnercenter.customerusers
+- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-    name: "SeekBasedResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-    name: "CustomerUser"
-    fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get*"
-  name: "get"
-  nameWithType: "CustomerUsersCollectionOperations.get"
-  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get"
-  package: "com.microsoft.store.partnercenter.customerusers"
-- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
-  name: "ICustomerUser"
-  nameWithType: "ICustomerUser"
-  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
-- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId*"
-  name: "byId"
-  nameWithType: "CustomerUsersCollectionOperations.byId"
-  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId"
-  package: "com.microsoft.store.partnercenter.customerusers"
-- uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  name: "IQuery"
-  nameWithType: "IQuery"
-  fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
-- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query*"
-  name: "query"
-  nameWithType: "CustomerUsersCollectionOperations.query"
-  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query"
-  package: "com.microsoft.store.partnercenter.customerusers"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent<java.lang.String>"
-  name: "BasePartnerComponent<String>"
-  nameWithType: "BasePartnerComponent<String>"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<java.lang.String>"
-- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
-  name: "ICustomerUserCollection"
-  nameWithType: "ICustomerUserCollection"
-  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-- uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  name: "SeekBasedResourceCollection"
-  nameWithType: "SeekBasedResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  name: "BasePartnerComponent"
-  nameWithType: "BasePartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+    name: SeekBasedResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.users.CustomerUser
+    name: CustomerUser
+    fullName: com.microsoft.store.partnercenter.models.users.CustomerUser
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get*
+  name: get
+  nameWithType: CustomerUsersCollectionOperations.get
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get
+  package: com.microsoft.store.partnercenter.customerusers
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUser
+  name: ICustomerUser
+  nameWithType: ICustomerUser
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUser
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId*
+  name: byId
+  nameWithType: CustomerUsersCollectionOperations.byId
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId
+  package: com.microsoft.store.partnercenter.customerusers
+- uid: com.microsoft.store.partnercenter.models.query.IQuery
+  name: IQuery
+  nameWithType: IQuery
+  fullName: com.microsoft.store.partnercenter.models.query.IQuery
+- uid: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query*
+  name: query
+  nameWithType: CustomerUsersCollectionOperations.query
+  fullName: com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query
+  package: com.microsoft.store.partnercenter.customerusers
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent<java.lang.String>
+  name: BasePartnerComponent<String>
+  nameWithType: BasePartnerComponent<String>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<java.lang.String>
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  name: ICustomerUserCollection
+  nameWithType: ICustomerUserCollection
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+  name: SeekBasedResourceCollection
+  nameWithType: SeekBasedResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  name: BasePartnerComponent
+  nameWithType: BasePartnerComponent
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent

@@ -1,95 +1,98 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
-  id: "ISupportProfile"
-  parent: "com.microsoft.store.partnercenter.profiles"
+- uid: com.microsoft.store.partnercenter.profiles.ISupportProfile
+  id: ISupportProfile
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles
   children:
-  - "com.microsoft.store.partnercenter.profiles.ISupportProfile.get()"
-  - "com.microsoft.store.partnercenter.profiles.ISupportProfile.update(com.microsoft.store.partnercenter.models.partners.SupportProfile)"
+  - com.microsoft.store.partnercenter.profiles.ISupportProfile.get()
+  - com.microsoft.store.partnercenter.profiles.ISupportProfile.update(com.microsoft.store.partnercenter.models.partners.SupportProfile)
   langs:
-  - "java"
-  name: "ISupportProfile"
-  nameWithType: "ISupportProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Encapsulates behavior of a partner support profile."
+  - java
+  name: ISupportProfile
+  nameWithType: ISupportProfile
+  fullName: com.microsoft.store.partnercenter.profiles.ISupportProfile
+  type: Interface
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Encapsulates behavior of a partner support profile.
   syntax:
-    content: "public interface ISupportProfile extends IPartnerComponentString, IEntityGetOperations<SupportProfile>, IEntityUpdateOperations<SupportProfile>"
+    content: public interface ISupportProfile extends IPartnerComponentString, IEntityGetOperations<SupportProfile>, IEntityUpdateOperations<SupportProfile>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponentString"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>"
-- uid: "com.microsoft.store.partnercenter.profiles.ISupportProfile.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
+  - com.microsoft.store.partnercenter.IPartnerComponentString
+  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>
+  - com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>
+- uid: com.microsoft.store.partnercenter.profiles.ISupportProfile.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles.ISupportProfile
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "ISupportProfile.get()"
-  fullName: "com.microsoft.store.partnercenter.profiles.ISupportProfile.get()"
-  overload: "com.microsoft.store.partnercenter.profiles.ISupportProfile.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Retrieves the partner's support profile. This operation is currently only supported for user based credentials."
+  - java
+  name: get()
+  nameWithType: ISupportProfile.get()
+  fullName: com.microsoft.store.partnercenter.profiles.ISupportProfile.get()
+  overload: com.microsoft.store.partnercenter.profiles.ISupportProfile.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Retrieves the partner's support profile. This operation is currently only supported for user based credentials.
   syntax:
-    content: "public abstract SupportProfile get()"
+    content: public abstract SupportProfile get()
     return:
-      type: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
-      description: "The partner's support profile."
-- uid: "com.microsoft.store.partnercenter.profiles.ISupportProfile.update(com.microsoft.store.partnercenter.models.partners.SupportProfile)"
-  id: "update(com.microsoft.store.partnercenter.models.partners.SupportProfile)"
-  parent: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
+      type: com.microsoft.store.partnercenter.models.partners.SupportProfile
+      description: The partner's support profile.
+- uid: com.microsoft.store.partnercenter.profiles.ISupportProfile.update(com.microsoft.store.partnercenter.models.partners.SupportProfile)
+  id: update(com.microsoft.store.partnercenter.models.partners.SupportProfile)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles.ISupportProfile
   langs:
-  - "java"
-  name: "update(SupportProfile supportProfile)"
-  nameWithType: "ISupportProfile.update(SupportProfile supportProfile)"
-  fullName: "com.microsoft.store.partnercenter.profiles.ISupportProfile.update(SupportProfile supportProfile)"
-  overload: "com.microsoft.store.partnercenter.profiles.ISupportProfile.update*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Updates the partner's support profile. This operation is currently only supported for user based credentials."
+  - java
+  name: update(SupportProfile supportProfile)
+  nameWithType: ISupportProfile.update(SupportProfile supportProfile)
+  fullName: com.microsoft.store.partnercenter.profiles.ISupportProfile.update(SupportProfile supportProfile)
+  overload: com.microsoft.store.partnercenter.profiles.ISupportProfile.update*
+  type: Method
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Updates the partner's support profile. This operation is currently only supported for user based credentials.
   syntax:
-    content: "public abstract SupportProfile update(SupportProfile supportProfile)"
+    content: public abstract SupportProfile update(SupportProfile supportProfile)
     parameters:
-    - id: "supportProfile"
-      type: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
-      description: "The support profile."
+    - id: supportProfile
+      type: com.microsoft.store.partnercenter.models.partners.SupportProfile
+      description: The support profile.
     return:
-      type: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
-      description: "The updated support profile."
+      type: com.microsoft.store.partnercenter.models.partners.SupportProfile
+      description: The updated support profile.
 references:
-- uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
-  name: "SupportProfile"
-  nameWithType: "SupportProfile"
-  fullName: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
-- uid: "com.microsoft.store.partnercenter.profiles.ISupportProfile.get*"
-  name: "get"
-  nameWithType: "ISupportProfile.get"
-  fullName: "com.microsoft.store.partnercenter.profiles.ISupportProfile.get"
-  package: "com.microsoft.store.partnercenter.profiles"
-- uid: "com.microsoft.store.partnercenter.profiles.ISupportProfile.update*"
-  name: "update"
-  nameWithType: "ISupportProfile.update"
-  fullName: "com.microsoft.store.partnercenter.profiles.ISupportProfile.update"
-  package: "com.microsoft.store.partnercenter.profiles"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  name: "IPartnerComponentString"
-  nameWithType: "IPartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>"
-  name: "IEntityGetOperations<SupportProfile>"
-  nameWithType: "IEntityGetOperations<SupportProfile>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>"
-  name: "IEntityUpdateOperations<SupportProfile>"
-  nameWithType: "IEntityUpdateOperations<SupportProfile>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  name: "IEntityGetOperations"
-  nameWithType: "IEntityGetOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
-  name: "IEntityUpdateOperations"
-  nameWithType: "IEntityUpdateOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
+- uid: com.microsoft.store.partnercenter.models.partners.SupportProfile
+  name: SupportProfile
+  nameWithType: SupportProfile
+  fullName: com.microsoft.store.partnercenter.models.partners.SupportProfile
+- uid: com.microsoft.store.partnercenter.profiles.ISupportProfile.get*
+  name: get
+  nameWithType: ISupportProfile.get
+  fullName: com.microsoft.store.partnercenter.profiles.ISupportProfile.get
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.profiles.ISupportProfile.update*
+  name: update
+  nameWithType: ISupportProfile.update
+  fullName: com.microsoft.store.partnercenter.profiles.ISupportProfile.update
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>
+  name: IEntityGetOperations<SupportProfile>
+  nameWithType: IEntityGetOperations<SupportProfile>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>
+  name: IEntityUpdateOperations<SupportProfile>
+  nameWithType: IEntityUpdateOperations<SupportProfile>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.SupportProfile>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  name: IEntityGetOperations
+  nameWithType: IEntityGetOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
+  name: IEntityUpdateOperations
+  nameWithType: IEntityUpdateOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations

@@ -1,47 +1,49 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  id: "IEntityGetOperations"
-  parent: "com.microsoft.store.partnercenter.genericoperations"
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  id: IEntityGetOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.genericoperations
   children:
-  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()"
+  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()
   langs:
-  - "java"
-  name: "IEntityGetOperations<T>"
-  nameWithType: "IEntityGetOperations<T>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.genericoperations"
-  summary: "Groups operations for getting a single entity. The entity type."
+  - java
+  name: IEntityGetOperations<T>
+  nameWithType: IEntityGetOperations<T>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>
+  type: Interface
+  package: com.microsoft.store.partnercenter.genericoperations
+  summary: Groups operations for getting a single entity. The entity type.
   syntax:
-    content: "public interface IEntityGetOperations<T>"
+    content: public interface IEntityGetOperations<T>
     typeParameters:
-    - id: "T"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+    - id: T
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "IEntityGetOperations<T>.get()"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>.get()"
-  overload: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.genericoperations"
-  summary: "Retrieves an entity."
+  - java
+  name: get()
+  nameWithType: IEntityGetOperations<T>.get()
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>.get()
+  overload: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.genericoperations
+  summary: Retrieves an entity.
   syntax:
-    content: "public abstract T get()"
+    content: public abstract T get()
     return:
-      type: "T"
-      description: "The entity."
+      type: T
+      description: The entity.
 references:
-- uid: "T"
+- uid: T
   spec.java:
-  - uid: "T"
-    name: "T"
-    fullName: "T"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get*"
-  name: "get"
-  nameWithType: "IEntityGetOperations<T>.get"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>.get"
-  package: "com.microsoft.store.partnercenter.genericoperations"
+  - uid: T
+    name: T
+    fullName: T
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get*
+  name: get
+  nameWithType: IEntityGetOperations<T>.get
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>.get
+  package: com.microsoft.store.partnercenter.genericoperations

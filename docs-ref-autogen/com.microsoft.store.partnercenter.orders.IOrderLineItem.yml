@@ -1,62 +1,64 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.orders.IOrderLineItem"
-  id: "IOrderLineItem"
-  parent: "com.microsoft.store.partnercenter.orders"
+- uid: com.microsoft.store.partnercenter.orders.IOrderLineItem
+  id: IOrderLineItem
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.orders
   children:
-  - "com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()"
+  - com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()
   langs:
-  - "java"
-  name: "IOrderLineItem"
-  nameWithType: "IOrderLineItem"
-  fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItem"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.orders"
-  summary: "Represents the available order line item operations."
+  - java
+  name: IOrderLineItem
+  nameWithType: IOrderLineItem
+  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItem
+  type: Interface
+  package: com.microsoft.store.partnercenter.orders
+  summary: Represents the available order line item operations.
   syntax:
-    content: "public interface IOrderLineItem extends IPartnerComponent<TripletTuple<String,String,Integer>>"
+    content: public interface IOrderLineItem extends IPartnerComponent<TripletTuple<String,String,Integer>>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
-- uid: "com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()"
-  id: "getActivationLink()"
-  parent: "com.microsoft.store.partnercenter.orders.IOrderLineItem"
+  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>
+- uid: com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()
+  id: getActivationLink()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.orders.IOrderLineItem
   langs:
-  - "java"
-  name: "getActivationLink()"
-  nameWithType: "IOrderLineItem.getActivationLink()"
-  fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()"
-  overload: "com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.orders"
-  summary: "Gets the available customer order line item activation link operations."
+  - java
+  name: getActivationLink()
+  nameWithType: IOrderLineItem.getActivationLink()
+  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()
+  overload: com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink*
+  type: Method
+  package: com.microsoft.store.partnercenter.orders
+  summary: Gets the available customer order line item activation link operations.
   syntax:
-    content: "public abstract IOrderLineItemActivationLink getActivationLink()"
+    content: public abstract IOrderLineItemActivationLink getActivationLink()
     return:
-      type: "com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink"
-      description: "The available customer order line item activation link operations."
+      type: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+      description: The available customer order line item activation link operations.
 references:
-- uid: "com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink"
-  name: "IOrderLineItemActivationLink"
-  nameWithType: "IOrderLineItemActivationLink"
-  fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink"
-- uid: "com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink*"
-  name: "getActivationLink"
-  nameWithType: "IOrderLineItem.getActivationLink"
-  fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink"
-  package: "com.microsoft.store.partnercenter.orders"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
-  name: "IPartnerComponent<TripletTuple<String,String,Integer>>"
-  nameWithType: "IPartnerComponent<TripletTuple<String,String,Integer>>"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  name: "IPartnerComponent"
-  nameWithType: "IPartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
-- uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-  name: "TripletTuple"
-  nameWithType: "TripletTuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-- uid: "java.lang.String,java.lang.String,java.lang.Integer"
-  name: "String,String,Integer"
-  nameWithType: "String,String,Integer"
-  fullName: "java.lang.String,java.lang.String,java.lang.Integer"
+- uid: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+  name: IOrderLineItemActivationLink
+  nameWithType: IOrderLineItemActivationLink
+  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+- uid: com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink*
+  name: getActivationLink
+  nameWithType: IOrderLineItem.getActivationLink
+  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink
+  package: com.microsoft.store.partnercenter.orders
+- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>
+  name: IPartnerComponent<TripletTuple<String,String,Integer>>
+  nameWithType: IPartnerComponent<TripletTuple<String,String,Integer>>
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
+  name: IPartnerComponent
+  nameWithType: IPartnerComponent
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent
+- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
+  name: TripletTuple
+  nameWithType: TripletTuple
+  fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple
+- uid: java.lang.String,java.lang.String,java.lang.Integer
+  name: String,String,Integer
+  nameWithType: String,String,Integer
+  fullName: java.lang.String,java.lang.String,java.lang.Integer

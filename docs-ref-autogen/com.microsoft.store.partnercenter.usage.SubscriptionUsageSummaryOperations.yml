@@ -1,174 +1,177 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations"
-  id: "SubscriptionUsageSummaryOperations"
-  parent: "com.microsoft.store.partnercenter.usage"
+- uid: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations
+  id: SubscriptionUsageSummaryOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.usage
   children:
-  - "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
-  - "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get()"
+  - com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+  - com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get()
   langs:
-  - "java"
-  name: "SubscriptionUsageSummaryOperations"
-  nameWithType: "SubscriptionUsageSummaryOperations"
-  fullName: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.usage"
-  summary: "This class implements the operations for a customer's subscription."
+  - java
+  name: SubscriptionUsageSummaryOperations
+  nameWithType: SubscriptionUsageSummaryOperations
+  fullName: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.usage
+  summary: This class implements the operations for a customer's subscription.
   syntax:
-    content: "public class SubscriptionUsageSummaryOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscriptionUsageSummary"
+    content: public class SubscriptionUsageSummaryOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscriptionUsageSummary
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
   implements:
-  - "com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary"
+  - com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
-  id: "SubscriptionUsageSummaryOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+  id: SubscriptionUsageSummaryOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations
   langs:
-  - "java"
-  name: "SubscriptionUsageSummaryOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
-  nameWithType: "SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
-  fullName: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
-  overload: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.usage"
-  summary: "Initializes a new instance of the SubscriptionUsageSummaryOperations class."
+  - java
+  name: SubscriptionUsageSummaryOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  nameWithType: SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  fullName: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  overload: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.usage
+  summary: Initializes a new instance of the SubscriptionUsageSummaryOperations class.
   syntax:
-    content: "public SubscriptionUsageSummaryOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
+    content: public SubscriptionUsageSummaryOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-    - id: "customerId"
-      type: "java.lang.String"
-      description: "The customer identifier."
-    - id: "subscriptionId"
-      type: "java.lang.String"
-      description: "The subscription identifier"
-- uid: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+    - id: customerId
+      type: java.lang.String
+      description: The customer identifier.
+    - id: subscriptionId
+      type: java.lang.String
+      description: The subscription identifier
+- uid: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "SubscriptionUsageSummaryOperations.get()"
-  fullName: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get()"
-  overload: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.usage"
-  summary: "Gets the subscription usage summary."
+  - java
+  name: get()
+  nameWithType: SubscriptionUsageSummaryOperations.get()
+  fullName: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get()
+  overload: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.usage
+  summary: Gets the subscription usage summary.
   syntax:
-    content: "public SubscriptionUsageSummary get()"
+    content: public SubscriptionUsageSummary get()
     return:
-      type: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary"
-      description: "The subscription usage summary."
+      type: com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary
+      description: The subscription usage summary.
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations*"
-  name: "SubscriptionUsageSummaryOperations"
-  nameWithType: "SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations"
-  fullName: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations"
-  package: "com.microsoft.store.partnercenter.usage"
-- uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary"
-  name: "SubscriptionUsageSummary"
-  nameWithType: "SubscriptionUsageSummary"
-  fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary"
-- uid: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get*"
-  name: "get"
-  nameWithType: "SubscriptionUsageSummaryOperations.get"
-  fullName: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get"
-  package: "com.microsoft.store.partnercenter.usage"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  name: "BasePartnerComponent<Tuple<String,String>>"
-  nameWithType: "BasePartnerComponent<Tuple<String,String>>"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary"
-  name: "ISubscriptionUsageSummary"
-  nameWithType: "ISubscriptionUsageSummary"
-  fullName: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  name: "Tuple"
-  nameWithType: "Tuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  name: "BasePartnerComponent"
-  nameWithType: "BasePartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
-- uid: "java.lang.String,java.lang.String"
-  name: "String,String"
-  nameWithType: "String,String"
-  fullName: "java.lang.String,java.lang.String"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations*
+  name: SubscriptionUsageSummaryOperations
+  nameWithType: SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations
+  fullName: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations
+  package: com.microsoft.store.partnercenter.usage
+- uid: com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary
+  name: SubscriptionUsageSummary
+  nameWithType: SubscriptionUsageSummary
+  fullName: com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary
+- uid: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get*
+  name: get
+  nameWithType: SubscriptionUsageSummaryOperations.get
+  fullName: com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get
+  package: com.microsoft.store.partnercenter.usage
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+  name: BasePartnerComponent<Tuple<String,String>>
+  nameWithType: BasePartnerComponent<Tuple<String,String>>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary
+  name: ISubscriptionUsageSummary
+  nameWithType: ISubscriptionUsageSummary
+  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- uid: com.microsoft.store.partnercenter.models.utils.Tuple
+  name: Tuple
+  nameWithType: Tuple
+  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  name: BasePartnerComponent
+  nameWithType: BasePartnerComponent
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
+- uid: java.lang.String,java.lang.String
+  name: String,String
+  nameWithType: String,String
+  fullName: java.lang.String,java.lang.String

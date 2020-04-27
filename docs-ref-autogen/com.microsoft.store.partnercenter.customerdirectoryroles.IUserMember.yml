@@ -1,68 +1,70 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
-  id: "IUserMember"
-  parent: "com.microsoft.store.partnercenter.customerdirectoryroles"
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
+  id: IUserMember
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles
   children:
-  - "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete()"
+  - com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete()
   langs:
-  - "java"
-  name: "IUserMember"
-  nameWithType: "IUserMember"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-  summary: "Represents a Directory User"
+  - java
+  name: IUserMember
+  nameWithType: IUserMember
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
+  type: Interface
+  package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: Represents a Directory User
   syntax:
-    content: "public interface IUserMember extends IPartnerComponent<TripletTuple<String,String,String>>, IEntityDeleteOperations<UserMember>"
+    content: public interface IUserMember extends IPartnerComponent<TripletTuple<String,String,String>>, IEntityDeleteOperations<UserMember>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.roles.UserMember>"
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete()"
-  id: "delete()"
-  parent: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
+  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
+  - com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.roles.UserMember>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete()
+  id: delete()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
   langs:
-  - "java"
-  name: "delete()"
-  nameWithType: "IUserMember.delete()"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete()"
-  overload: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-  summary: "Remove directory user member from directory role."
+  - java
+  name: delete()
+  nameWithType: IUserMember.delete()
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete()
+  overload: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete*
+  type: Method
+  package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: Remove directory user member from directory role.
   syntax:
-    content: "public abstract void delete()"
+    content: public abstract void delete()
 references:
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete*"
-  name: "delete"
-  nameWithType: "IUserMember.delete"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
-  name: "IPartnerComponent<TripletTuple<String,String,String>>"
-  nameWithType: "IPartnerComponent<TripletTuple<String,String,String>>"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.roles.UserMember>"
-  name: "IEntityDeleteOperations<UserMember>"
-  nameWithType: "IEntityDeleteOperations<UserMember>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.roles.UserMember>"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  name: "IPartnerComponent"
-  nameWithType: "IPartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
-- uid: "java.lang.String,java.lang.String,java.lang.String"
-  name: "String,String,String"
-  nameWithType: "String,String,String"
-  fullName: "java.lang.String,java.lang.String,java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-  name: "TripletTuple"
-  nameWithType: "TripletTuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-- uid: "com.microsoft.store.partnercenter.models.roles.UserMember"
-  name: "UserMember"
-  nameWithType: "UserMember"
-  fullName: "com.microsoft.store.partnercenter.models.roles.UserMember"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"
-  name: "IEntityDeleteOperations"
-  nameWithType: "IEntityDeleteOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete*
+  name: delete
+  nameWithType: IUserMember.delete
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete
+  package: com.microsoft.store.partnercenter.customerdirectoryroles
+- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
+  name: IPartnerComponent<TripletTuple<String,String,String>>
+  nameWithType: IPartnerComponent<TripletTuple<String,String,String>>
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.roles.UserMember>
+  name: IEntityDeleteOperations<UserMember>
+  nameWithType: IEntityDeleteOperations<UserMember>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.roles.UserMember>
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
+  name: IPartnerComponent
+  nameWithType: IPartnerComponent
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent
+- uid: java.lang.String,java.lang.String,java.lang.String
+  name: String,String,String
+  nameWithType: String,String,String
+  fullName: java.lang.String,java.lang.String,java.lang.String
+- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
+  name: TripletTuple
+  nameWithType: TripletTuple
+  fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple
+- uid: com.microsoft.store.partnercenter.models.roles.UserMember
+  name: UserMember
+  nameWithType: UserMember
+  fullName: com.microsoft.store.partnercenter.models.roles.UserMember
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
+  name: IEntityDeleteOperations
+  nameWithType: IEntityDeleteOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations

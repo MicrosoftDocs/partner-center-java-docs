@@ -1,683 +1,707 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.models.orders.Order"
-  id: "Order"
-  parent: "com.microsoft.store.partnercenter.models.orders"
+- uid: com.microsoft.store.partnercenter.models.orders.Order
+  id: Order
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders
   children:
-  - "com.microsoft.store.partnercenter.models.orders.Order.Order()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.getCreationDate()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.getId()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.getLineItems()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.getLinks()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.getStatus()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.getTransactionType()"
-  - "com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle(com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
-  - "com.microsoft.store.partnercenter.models.orders.Order.setCreationDate(org.joda.time.DateTime)"
-  - "com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.orders.Order.setId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.orders.Order.setLineItems(java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>)"
-  - "com.microsoft.store.partnercenter.models.orders.Order.setLinks(com.microsoft.store.partnercenter.models.orders.OrderLinks)"
-  - "com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.orders.Order.setStatus(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice(double)"
-  - "com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType(java.lang.String)"
+  - com.microsoft.store.partnercenter.models.orders.Order.Order()
+  - com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle()
+  - com.microsoft.store.partnercenter.models.orders.Order.getCreationDate()
+  - com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode()
+  - com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol()
+  - com.microsoft.store.partnercenter.models.orders.Order.getId()
+  - com.microsoft.store.partnercenter.models.orders.Order.getLineItems()
+  - com.microsoft.store.partnercenter.models.orders.Order.getLinks()
+  - com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId()
+  - com.microsoft.store.partnercenter.models.orders.Order.getStatus()
+  - com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice()
+  - com.microsoft.store.partnercenter.models.orders.Order.getTransactionType()
+  - com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle(com.microsoft.store.partnercenter.models.offers.BillingCycleType)
+  - com.microsoft.store.partnercenter.models.orders.Order.setCreationDate(org.joda.time.DateTime)
+  - com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode(java.lang.String)
+  - com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol(java.lang.String)
+  - com.microsoft.store.partnercenter.models.orders.Order.setId(java.lang.String)
+  - com.microsoft.store.partnercenter.models.orders.Order.setLineItems(java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>)
+  - com.microsoft.store.partnercenter.models.orders.Order.setLinks(com.microsoft.store.partnercenter.models.orders.OrderLinks)
+  - com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId(java.lang.String)
+  - com.microsoft.store.partnercenter.models.orders.Order.setStatus(java.lang.String)
+  - com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice(double)
+  - com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType(java.lang.String)
   langs:
-  - "java"
-  name: "Order"
-  nameWithType: "Order"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Order represents collection of information needed to purchase offers represented by each order line items."
+  - java
+  name: Order
+  nameWithType: Order
+  fullName: com.microsoft.store.partnercenter.models.orders.Order
+  type: Class
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Order represents collection of information needed to purchase offers represented by each order line items.
   syntax:
-    content: "public class Order extends ResourceBaseWithLinks<StandardResourceLinks>"
+    content: public class Order extends ResourceBaseWithLinks<StandardResourceLinks>
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.models.ResourceBase"
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.ResourceBase
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.Order()"
-  id: "Order()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.orders.Order.Order()
+  id: Order()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "Order()"
-  nameWithType: "Order.Order()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.Order()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.Order*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.orders"
+  - java
+  name: Order()
+  nameWithType: Order.Order()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.Order()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.Order*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.models.orders
   syntax:
-    content: "public Order()"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle()"
-  id: "getBillingCycle()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+    content: public Order()
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle()
+  id: getBillingCycle()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "getBillingCycle()"
-  nameWithType: "Order.getBillingCycle()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the type of billing cycle for the selected offers."
+  - java
+  name: getBillingCycle()
+  nameWithType: Order.getBillingCycle()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Gets the type of billing cycle for the selected offers.
   syntax:
-    content: "public BillingCycleType getBillingCycle()"
+    content: public BillingCycleType getBillingCycle()
     return:
-      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-      description: "The type of billing cycle for the selected offers."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getCreationDate()"
-  id: "getCreationDate()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+      type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+      description: The type of billing cycle for the selected offers.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getCreationDate()
+  id: getCreationDate()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "getCreationDate()"
-  nameWithType: "Order.getCreationDate()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getCreationDate()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.getCreationDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the creation date of the order."
+  - java
+  name: getCreationDate()
+  nameWithType: Order.getCreationDate()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCreationDate()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.getCreationDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Gets the creation date of the order.
   syntax:
-    content: "public DateTime getCreationDate()"
+    content: public DateTime getCreationDate()
     return:
-      type: "org.joda.time.DateTime"
-      description: "The creation date of the order."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode()"
-  id: "getCurrencyCode()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+      type: org.joda.time.DateTime
+      description: The creation date of the order.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode()
+  id: getCurrencyCode()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "getCurrencyCode()"
-  nameWithType: "Order.getCurrencyCode()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the currency code."
+  - java
+  name: getCurrencyCode()
+  nameWithType: Order.getCurrencyCode()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Gets the currency code.
   syntax:
-    content: "public String getCurrencyCode()"
+    content: public String getCurrencyCode()
     return:
-      type: "java.lang.String"
-      description: "The currency code for the order."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol()"
-  id: "getCurrencySymbol()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+      type: java.lang.String
+      description: The currency code for the order.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol()
+  id: getCurrencySymbol()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "getCurrencySymbol()"
-  nameWithType: "Order.getCurrencySymbol()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the currency symbol."
+  - java
+  name: getCurrencySymbol()
+  nameWithType: Order.getCurrencySymbol()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Gets the currency symbol.
   syntax:
-    content: "public String getCurrencySymbol()"
+    content: public String getCurrencySymbol()
     return:
-      type: "java.lang.String"
-      description: "The currency symbol."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getId()"
-  id: "getId()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+      type: java.lang.String
+      description: The currency symbol.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getId()
+  id: getId()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "getId()"
-  nameWithType: "Order.getId()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getId()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.getId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the order identifier."
+  - java
+  name: getId()
+  nameWithType: Order.getId()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getId()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.getId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Gets the order identifier.
   syntax:
-    content: "public String getId()"
+    content: public String getId()
     return:
-      type: "java.lang.String"
-      description: "The order identifier."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getLineItems()"
-  id: "getLineItems()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+      type: java.lang.String
+      description: The order identifier.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getLineItems()
+  id: getLineItems()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "getLineItems()"
-  nameWithType: "Order.getLineItems()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getLineItems()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.getLineItems*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the order line items. Each order line item refers to one offer purchase data."
+  - java
+  name: getLineItems()
+  nameWithType: Order.getLineItems()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getLineItems()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.getLineItems*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Gets the order line items. Each order line item refers to one offer purchase data.
   syntax:
-    content: "public Iterable<OrderLineItem> getLineItems()"
+    content: public Iterable<OrderLineItem> getLineItems()
     return:
-      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>"
-      description: "The order line items. Each order line item refers to one offer purchase data."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getLinks()"
-  id: "getLinks()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>
+      description: The order line items. Each order line item refers to one offer purchase data.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getLinks()
+  id: getLinks()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "getLinks()"
-  nameWithType: "Order.getLinks()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getLinks()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.getLinks*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the links corresponding to the order."
+  - java
+  name: getLinks()
+  nameWithType: Order.getLinks()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getLinks()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.getLinks*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Gets the links corresponding to the order.
   syntax:
-    content: "public OrderLinks getLinks()"
+    content: public OrderLinks getLinks()
     return:
-      type: "com.microsoft.store.partnercenter.models.orders.OrderLinks"
-      description: "The links corresponding to the order."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId()"
-  id: "getReferenceCustomerId()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+      type: com.microsoft.store.partnercenter.models.orders.OrderLinks
+      description: The links corresponding to the order.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId()
+  id: getReferenceCustomerId()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "getReferenceCustomerId()"
-  nameWithType: "Order.getReferenceCustomerId()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the reference customer identifier."
+  - java
+  name: getReferenceCustomerId()
+  nameWithType: Order.getReferenceCustomerId()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Gets the reference customer identifier.
   syntax:
-    content: "public String getReferenceCustomerId()"
+    content: public String getReferenceCustomerId()
     return:
-      type: "java.lang.String"
-      description: "The reference customer identifier."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getStatus()"
-  id: "getStatus()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+      type: java.lang.String
+      description: The reference customer identifier.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getStatus()
+  id: getStatus()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "getStatus()"
-  nameWithType: "Order.getStatus()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getStatus()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.getStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the status of the order."
+  - java
+  name: getStatus()
+  nameWithType: Order.getStatus()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getStatus()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.getStatus*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Gets the status of the order.
   syntax:
-    content: "public String getStatus()"
+    content: public String getStatus()
     return:
-      type: "java.lang.String"
-      description: "The status of the order."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice()"
-  id: "getTotalPrice()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+      type: java.lang.String
+      description: The status of the order.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice()
+  id: getTotalPrice()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "getTotalPrice()"
-  nameWithType: "Order.getTotalPrice()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the total price for the order. Order price (will not be returned unless explicitly asked for) Note: this information is PRE-TAX."
+  - java
+  name: getTotalPrice()
+  nameWithType: Order.getTotalPrice()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: 'Gets the total price for the order. Order price (will not be returned unless explicitly asked for) Note: this information is PRE-TAX.'
   syntax:
-    content: "public double getTotalPrice()"
+    content: public double getTotalPrice()
     return:
-      type: "double"
-      description: "The total price for the order."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getTransactionType()"
-  id: "getTransactionType()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+      type: double
+      description: The total price for the order.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getTransactionType()
+  id: getTransactionType()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "getTransactionType()"
-  nameWithType: "Order.getTransactionType()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getTransactionType()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.getTransactionType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the transaction type for the order."
+  - java
+  name: getTransactionType()
+  nameWithType: Order.getTransactionType()
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getTransactionType()
+  overload: com.microsoft.store.partnercenter.models.orders.Order.getTransactionType*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Gets the transaction type for the order.
   syntax:
-    content: "public String getTransactionType()"
+    content: public String getTransactionType()
     return:
-      type: "java.lang.String"
-      description: "The transaction type for the order."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle(com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
-  id: "setBillingCycle(com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+      type: java.lang.String
+      description: The transaction type for the order.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle(com.microsoft.store.partnercenter.models.offers.BillingCycleType)
+  id: setBillingCycle(com.microsoft.store.partnercenter.models.offers.BillingCycleType)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "setBillingCycle(BillingCycleType value)"
-  nameWithType: "Order.setBillingCycle(BillingCycleType value)"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle(BillingCycleType value)"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Sets the type of billing cycle for the selected offers."
+  - java
+  name: setBillingCycle(BillingCycleType value)
+  nameWithType: Order.setBillingCycle(BillingCycleType value)
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle(BillingCycleType value)
+  overload: com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Sets the type of billing cycle for the selected offers.
   syntax:
-    content: "public void setBillingCycle(BillingCycleType value)"
+    content: public void setBillingCycle(BillingCycleType value)
     parameters:
-    - id: "value"
-      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-      description: "The type of billing cycle for the selected offers."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setCreationDate(org.joda.time.DateTime)"
-  id: "setCreationDate(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+    - id: value
+      type: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+      description: The type of billing cycle for the selected offers.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setCreationDate(org.joda.time.DateTime)
+  id: setCreationDate(org.joda.time.DateTime)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "setCreationDate(DateTime value)"
-  nameWithType: "Order.setCreationDate(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setCreationDate(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.setCreationDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Sets the creation date of the order."
+  - java
+  name: setCreationDate(DateTime value)
+  nameWithType: Order.setCreationDate(DateTime value)
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCreationDate(DateTime value)
+  overload: com.microsoft.store.partnercenter.models.orders.Order.setCreationDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Sets the creation date of the order.
   syntax:
-    content: "public void setCreationDate(DateTime value)"
+    content: public void setCreationDate(DateTime value)
     parameters:
-    - id: "value"
-      type: "org.joda.time.DateTime"
-      description: "The creation date of the order."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode(java.lang.String)"
-  id: "setCurrencyCode(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+    - id: value
+      type: org.joda.time.DateTime
+      description: The creation date of the order.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode(java.lang.String)
+  id: setCurrencyCode(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "setCurrencyCode(String value)"
-  nameWithType: "Order.setCurrencyCode(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode(String value)"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Sets the currency code."
+  - java
+  name: setCurrencyCode(String value)
+  nameWithType: Order.setCurrencyCode(String value)
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode(String value)
+  overload: com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Sets the currency code.
   syntax:
-    content: "public void setCurrencyCode(String value)"
+    content: public void setCurrencyCode(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The currency code for the order."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol(java.lang.String)"
-  id: "setCurrencySymbol(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+    - id: value
+      type: java.lang.String
+      description: The currency code for the order.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol(java.lang.String)
+  id: setCurrencySymbol(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "setCurrencySymbol(String value)"
-  nameWithType: "Order.setCurrencySymbol(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol(String value)"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Sets the currency symbol."
+  - java
+  name: setCurrencySymbol(String value)
+  nameWithType: Order.setCurrencySymbol(String value)
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol(String value)
+  overload: com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Sets the currency symbol.
   syntax:
-    content: "public void setCurrencySymbol(String value)"
+    content: public void setCurrencySymbol(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The currency symbol."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setId(java.lang.String)"
-  id: "setId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+    - id: value
+      type: java.lang.String
+      description: The currency symbol.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setId(java.lang.String)
+  id: setId(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "setId(String value)"
-  nameWithType: "Order.setId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.setId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Sets the order identifier."
+  - java
+  name: setId(String value)
+  nameWithType: Order.setId(String value)
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setId(String value)
+  overload: com.microsoft.store.partnercenter.models.orders.Order.setId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Sets the order identifier.
   syntax:
-    content: "public void setId(String value)"
+    content: public void setId(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The order identifier."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setLineItems(java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>)"
-  id: "setLineItems(java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>)"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+    - id: value
+      type: java.lang.String
+      description: The order identifier.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setLineItems(java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>)
+  id: setLineItems(java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "setLineItems(Iterable<OrderLineItem> value)"
-  nameWithType: "Order.setLineItems(Iterable<OrderLineItem> value)"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setLineItems(Iterable<OrderLineItem> value)"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.setLineItems*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Sets the order line items. Each order line item refers to one offer purchase data."
+  - java
+  name: setLineItems(Iterable<OrderLineItem> value)
+  nameWithType: Order.setLineItems(Iterable<OrderLineItem> value)
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setLineItems(Iterable<OrderLineItem> value)
+  overload: com.microsoft.store.partnercenter.models.orders.Order.setLineItems*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Sets the order line items. Each order line item refers to one offer purchase data.
   syntax:
-    content: "public void setLineItems(Iterable<OrderLineItem> value)"
+    content: public void setLineItems(Iterable<OrderLineItem> value)
     parameters:
-    - id: "value"
-      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>"
-      description: "The order line items. Each order line item refers to one offer purchase data."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setLinks(com.microsoft.store.partnercenter.models.orders.OrderLinks)"
-  id: "setLinks(com.microsoft.store.partnercenter.models.orders.OrderLinks)"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+    - id: value
+      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>
+      description: The order line items. Each order line item refers to one offer purchase data.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setLinks(com.microsoft.store.partnercenter.models.orders.OrderLinks)
+  id: setLinks(com.microsoft.store.partnercenter.models.orders.OrderLinks)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "setLinks(OrderLinks value)"
-  nameWithType: "Order.setLinks(OrderLinks value)"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setLinks(OrderLinks value)"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.setLinks*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Sets the links corresponding to the order."
+  - java
+  name: setLinks(OrderLinks value)
+  nameWithType: Order.setLinks(OrderLinks value)
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setLinks(OrderLinks value)
+  overload: com.microsoft.store.partnercenter.models.orders.Order.setLinks*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Sets the links corresponding to the order.
   syntax:
-    content: "public void setLinks(OrderLinks value)"
+    content: public void setLinks(OrderLinks value)
     parameters:
-    - id: "value"
-      type: "com.microsoft.store.partnercenter.models.orders.OrderLinks"
-      description: "The links corresponding to the order."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId(java.lang.String)"
-  id: "setReferenceCustomerId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+    - id: value
+      type: com.microsoft.store.partnercenter.models.orders.OrderLinks
+      description: The links corresponding to the order.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId(java.lang.String)
+  id: setReferenceCustomerId(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "setReferenceCustomerId(String value)"
-  nameWithType: "Order.setReferenceCustomerId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Sets the reference customer identifier."
+  - java
+  name: setReferenceCustomerId(String value)
+  nameWithType: Order.setReferenceCustomerId(String value)
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId(String value)
+  overload: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Sets the reference customer identifier.
   syntax:
-    content: "public void setReferenceCustomerId(String value)"
+    content: public void setReferenceCustomerId(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The reference customer identifier."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setStatus(java.lang.String)"
-  id: "setStatus(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+    - id: value
+      type: java.lang.String
+      description: The reference customer identifier.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setStatus(java.lang.String)
+  id: setStatus(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "setStatus(String value)"
-  nameWithType: "Order.setStatus(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setStatus(String value)"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.setStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Sets the status of the order."
+  - java
+  name: setStatus(String value)
+  nameWithType: Order.setStatus(String value)
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setStatus(String value)
+  overload: com.microsoft.store.partnercenter.models.orders.Order.setStatus*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Sets the status of the order.
   syntax:
-    content: "public void setStatus(String value)"
+    content: public void setStatus(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The status of the order."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice(double)"
-  id: "setsTotalPrice(double)"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+    - id: value
+      type: java.lang.String
+      description: The status of the order.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice(double)
+  id: setsTotalPrice(double)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "setsTotalPrice(double value)"
-  nameWithType: "Order.setsTotalPrice(double value)"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice(double value)"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Sets the total price for the order."
+  - java
+  name: setsTotalPrice(double value)
+  nameWithType: Order.setsTotalPrice(double value)
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice(double value)
+  overload: com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Sets the total price for the order.
   syntax:
-    content: "public void setsTotalPrice(double value)"
+    content: public void setsTotalPrice(double value)
     parameters:
-    - id: "value"
-      type: "double"
-      description: "The total price for the order."
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType(java.lang.String)"
-  id: "setsTransactionType(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.orders.Order"
+    - id: value
+      type: double
+      description: The total price for the order.
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType(java.lang.String)
+  id: setsTransactionType(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.orders.Order
   langs:
-  - "java"
-  name: "setsTransactionType(String value)"
-  nameWithType: "Order.setsTransactionType(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType(String value)"
-  overload: "com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Sets the transaction type for the order."
+  - java
+  name: setsTransactionType(String value)
+  nameWithType: Order.setsTransactionType(String value)
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType(String value)
+  overload: com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.orders
+  summary: Sets the transaction type for the order.
   syntax:
-    content: "public void setsTransactionType(String value)"
+    content: public void setsTransactionType(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The transaction type for the order."
+    - id: value
+      type: java.lang.String
+      description: The transaction type for the order.
 references:
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.Order*"
-  name: "Order"
-  nameWithType: "Order.Order"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.Order"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  name: "BillingCycleType"
-  nameWithType: "BillingCycleType"
-  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle*"
-  name: "getBillingCycle"
-  nameWithType: "Order.getBillingCycle"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle*"
-  name: "setBillingCycle"
-  nameWithType: "Order.setBillingCycle"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "org.joda.time.DateTime"
+- uid: com.microsoft.store.partnercenter.models.orders.Order.Order*
+  name: Order
+  nameWithType: Order.Order
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.Order
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+  name: BillingCycleType
+  nameWithType: BillingCycleType
+  fullName: com.microsoft.store.partnercenter.models.offers.BillingCycleType
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle*
+  name: getBillingCycle
+  nameWithType: Order.getBillingCycle
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle*
+  name: setBillingCycle
+  nameWithType: Order.setBillingCycle
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: org.joda.time.DateTime
   spec.java:
-  - uid: "org.joda.time.DateTime"
-    name: "DateTime"
-    fullName: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getCreationDate*"
-  name: "getCreationDate"
-  nameWithType: "Order.getCreationDate"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getCreationDate"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setCreationDate*"
-  name: "setCreationDate"
-  nameWithType: "Order.setCreationDate"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setCreationDate"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "java.lang.String"
+  - uid: org.joda.time.DateTime
+    name: DateTime
+    fullName: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getCreationDate*
+  name: getCreationDate
+  nameWithType: Order.getCreationDate
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCreationDate
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setCreationDate*
+  name: setCreationDate
+  nameWithType: Order.setCreationDate
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCreationDate
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode*"
-  name: "getCurrencyCode"
-  nameWithType: "Order.getCurrencyCode"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode*"
-  name: "setCurrencyCode"
-  nameWithType: "Order.setCurrencyCode"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol*"
-  name: "getCurrencySymbol"
-  nameWithType: "Order.getCurrencySymbol"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol*"
-  name: "setCurrencySymbol"
-  nameWithType: "Order.setCurrencySymbol"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getId*"
-  name: "getId"
-  nameWithType: "Order.getId"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getId"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setId*"
-  name: "setId"
-  nameWithType: "Order.setId"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setId"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode*
+  name: getCurrencyCode
+  nameWithType: Order.getCurrencyCode
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode*
+  name: setCurrencyCode
+  nameWithType: Order.setCurrencyCode
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol*
+  name: getCurrencySymbol
+  nameWithType: Order.getCurrencySymbol
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol*
+  name: setCurrencySymbol
+  nameWithType: Order.setCurrencySymbol
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getId*
+  name: getId
+  nameWithType: Order.getId
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getId
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setId*
+  name: setId
+  nameWithType: Order.setId
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setId
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>
   spec.java:
-  - uid: "java.lang.Iterable"
-    name: "Iterable"
-    fullName: "java.lang.Iterable"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItem"
-    name: "OrderLineItem"
-    fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getLineItems*"
-  name: "getLineItems"
-  nameWithType: "Order.getLineItems"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getLineItems"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setLineItems*"
-  name: "setLineItems"
-  nameWithType: "Order.setLineItems"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setLineItems"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.OrderLinks"
-  name: "OrderLinks"
-  nameWithType: "OrderLinks"
-  fullName: "com.microsoft.store.partnercenter.models.orders.OrderLinks"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getLinks*"
-  name: "getLinks"
-  nameWithType: "Order.getLinks"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getLinks"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setLinks*"
-  name: "setLinks"
-  nameWithType: "Order.setLinks"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setLinks"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId*"
-  name: "getReferenceCustomerId"
-  nameWithType: "Order.getReferenceCustomerId"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId*"
-  name: "setReferenceCustomerId"
-  nameWithType: "Order.setReferenceCustomerId"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getStatus*"
-  name: "getStatus"
-  nameWithType: "Order.getStatus"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getStatus"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setStatus*"
-  name: "setStatus"
-  nameWithType: "Order.setStatus"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setStatus"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "double"
+  - uid: java.lang.Iterable
+    name: Iterable
+    fullName: java.lang.Iterable
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem
+    name: OrderLineItem
+    fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getLineItems*
+  name: getLineItems
+  nameWithType: Order.getLineItems
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getLineItems
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setLineItems*
+  name: setLineItems
+  nameWithType: Order.setLineItems
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setLineItems
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLinks
+  name: OrderLinks
+  nameWithType: OrderLinks
+  fullName: com.microsoft.store.partnercenter.models.orders.OrderLinks
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getLinks*
+  name: getLinks
+  nameWithType: Order.getLinks
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getLinks
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setLinks*
+  name: setLinks
+  nameWithType: Order.setLinks
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setLinks
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId*
+  name: getReferenceCustomerId
+  nameWithType: Order.getReferenceCustomerId
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId*
+  name: setReferenceCustomerId
+  nameWithType: Order.setReferenceCustomerId
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getStatus*
+  name: getStatus
+  nameWithType: Order.getStatus
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getStatus
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setStatus*
+  name: setStatus
+  nameWithType: Order.setStatus
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setStatus
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: double
   spec.java:
-  - uid: "double"
-    name: "double"
-    fullName: "double"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice*"
-  name: "getTotalPrice"
-  nameWithType: "Order.getTotalPrice"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice*"
-  name: "setsTotalPrice"
-  nameWithType: "Order.setsTotalPrice"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.getTransactionType*"
-  name: "getTransactionType"
-  nameWithType: "Order.getTransactionType"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.getTransactionType"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType*"
-  name: "setsTransactionType"
-  nameWithType: "Order.setsTransactionType"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType"
-  package: "com.microsoft.store.partnercenter.models.orders"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  name: "ResourceBaseWithLinks<StandardResourceLinks>"
-  nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  name: "ResourceBase.getAttributes()"
-  nameWithType: "ResourceBase.getAttributes()"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
-  name: "ResourceBaseWithLinks.getLinks()"
-  nameWithType: "ResourceBaseWithLinks.getLinks()"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
-  name: "ResourceBaseWithLinks.setLinks(TLinks)"
-  nameWithType: "ResourceBaseWithLinks.setLinks(TLinks)"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
-- uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItem"
-  name: "OrderLineItem"
-  nameWithType: "OrderLineItem"
-  fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem"
-- uid: "java.lang.Iterable"
-  name: "Iterable"
-  nameWithType: "Iterable"
-  fullName: "java.lang.Iterable"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  name: "ResourceBaseWithLinks"
-  nameWithType: "ResourceBaseWithLinks"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-- uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  name: "StandardResourceLinks"
-  nameWithType: "StandardResourceLinks"
-  fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
+  - uid: double
+    name: double
+    fullName: double
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice*
+  name: getTotalPrice
+  nameWithType: Order.getTotalPrice
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice*
+  name: setsTotalPrice
+  nameWithType: Order.setsTotalPrice
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.getTransactionType*
+  name: getTransactionType
+  nameWithType: Order.getTransactionType
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.getTransactionType
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType*
+  name: setsTransactionType
+  nameWithType: Order.setsTransactionType
+  fullName: com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType
+  package: com.microsoft.store.partnercenter.models.orders
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>
+  name: ResourceBaseWithLinks<StandardResourceLinks>
+  nameWithType: ResourceBaseWithLinks<StandardResourceLinks>
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  name: ResourceBase.getAttributes()
+  nameWithType: ResourceBase.getAttributes()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+  name: ResourceBaseWithLinks.getLinks()
+  nameWithType: ResourceBaseWithLinks.getLinks()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+  name: ResourceBaseWithLinks.setLinks(TLinks)
+  nameWithType: ResourceBaseWithLinks.setLinks(TLinks)
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem
+  name: OrderLineItem
+  nameWithType: OrderLineItem
+  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem
+- uid: java.lang.Iterable
+  name: Iterable
+  nameWithType: Iterable
+  fullName: java.lang.Iterable
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  name: ResourceBaseWithLinks
+  nameWithType: ResourceBaseWithLinks
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+- uid: com.microsoft.store.partnercenter.models.StandardResourceLinks
+  name: StandardResourceLinks
+  nameWithType: StandardResourceLinks
+  fullName: com.microsoft.store.partnercenter.models.StandardResourceLinks

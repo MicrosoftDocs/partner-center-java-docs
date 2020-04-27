@@ -1,167 +1,170 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations"
-  id: "InvoiceSummaryCollectionOperations"
-  parent: "com.microsoft.store.partnercenter.invoices"
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
+  id: InvoiceSummaryCollectionOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices
   children:
-  - "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
-  - "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get()"
+  - com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations(com.microsoft.store.partnercenter.IPartner)
+  - com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get()
   langs:
-  - "java"
-  name: "InvoiceSummaryCollectionOperations"
-  nameWithType: "InvoiceSummaryCollectionOperations"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Represents the operations that can be done on invoice summary collection."
+  - java
+  name: InvoiceSummaryCollectionOperations
+  nameWithType: InvoiceSummaryCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Represents the operations that can be done on invoice summary collection.
   syntax:
-    content: "public class InvoiceSummaryCollectionOperations extends BasePartnerComponentString implements IInvoiceSummaryCollection"
+    content: public class InvoiceSummaryCollectionOperations extends BasePartnerComponentString implements IInvoiceSummaryCollection
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
-  - "com.microsoft.store.partnercenter.BasePartnerComponentString"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
   implements:
-  - "com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection"
+  - com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
-  id: "InvoiceSummaryCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
-  parent: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations(com.microsoft.store.partnercenter.IPartner)
+  id: InvoiceSummaryCollectionOperations(com.microsoft.store.partnercenter.IPartner)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
   langs:
-  - "java"
-  name: "InvoiceSummaryCollectionOperations(IPartner rootPartnerOperations)"
-  nameWithType: "InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations(IPartner rootPartnerOperations)"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations(IPartner rootPartnerOperations)"
-  overload: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Initializes a new instance of the InvoiceSummaryCollectionOperations class."
+  - java
+  name: InvoiceSummaryCollectionOperations(IPartner rootPartnerOperations)
+  nameWithType: InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations(IPartner rootPartnerOperations)
+  overload: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Initializes a new instance of the InvoiceSummaryCollectionOperations class.
   syntax:
-    content: "public InvoiceSummaryCollectionOperations(IPartner rootPartnerOperations)"
+    content: public InvoiceSummaryCollectionOperations(IPartner rootPartnerOperations)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The partner operations."
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The partner operations.
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "InvoiceSummaryCollectionOperations.get()"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get()"
-  overload: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Retrieves the invoice summary collection. This operation is currently only supported for user based credentials."
+  - java
+  name: get()
+  nameWithType: InvoiceSummaryCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get()
+  overload: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Retrieves the invoice summary collection. This operation is currently only supported for user based credentials.
   syntax:
-    content: "public ResourceCollection<InvoiceSummary> get()"
+    content: public ResourceCollection<InvoiceSummary> get()
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>"
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations*"
-  name: "InvoiceSummaryCollectionOperations"
-  nameWithType: "InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations"
-  package: "com.microsoft.store.partnercenter.invoices"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations*
+  name: InvoiceSummaryCollectionOperations
+  nameWithType: InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
-    name: "InvoiceSummary"
-    fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get*"
-  name: "get"
-  nameWithType: "InvoiceSummaryCollectionOperations.get"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get"
-  package: "com.microsoft.store.partnercenter.invoices"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  name: "BasePartnerComponentString"
-  nameWithType: "BasePartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection"
-  name: "IInvoiceSummaryCollection"
-  nameWithType: "IInvoiceSummaryCollection"
-  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "ResourceCollection"
-  nameWithType: "ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
-  name: "InvoiceSummary"
-  nameWithType: "InvoiceSummary"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
+    name: InvoiceSummary
+    fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get*
+  name: get
+  nameWithType: InvoiceSummaryCollectionOperations.get
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
+  name: IInvoiceSummaryCollection
+  nameWithType: IInvoiceSummaryCollection
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  name: ResourceCollection
+  nameWithType: ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
+  name: InvoiceSummary
+  nameWithType: InvoiceSummary
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary

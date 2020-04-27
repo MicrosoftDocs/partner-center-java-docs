@@ -1,557 +1,574 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
-  id: "SubscriptionOperations"
-  parent: "com.microsoft.store.partnercenter.subscriptions"
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
+  id: SubscriptionOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions
   children:
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization()"
-  - "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch(com.microsoft.store.partnercenter.models.subscriptions.Subscription)"
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization()
+  - com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch(com.microsoft.store.partnercenter.models.subscriptions.Subscription)
   langs:
-  - "java"
-  name: "SubscriptionOperations"
-  nameWithType: "SubscriptionOperations"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "This class implements the operations for a customer's subscription."
+  - java
+  name: SubscriptionOperations
+  nameWithType: SubscriptionOperations
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: This class implements the operations for a customer's subscription.
   syntax:
-    content: "public class SubscriptionOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscription"
+    content: public class SubscriptionOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscription
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
   implements:
-  - "com.microsoft.store.partnercenter.subscriptions.ISubscription"
+  - com.microsoft.store.partnercenter.subscriptions.ISubscription
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
-  id: "SubscriptionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+  id: SubscriptionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "SubscriptionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
-  nameWithType: "SubscriptionOperations.SubscriptionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Initializes a new instance of the SubscriptionOperations class."
+  - java
+  name: SubscriptionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  nameWithType: SubscriptionOperations.SubscriptionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Initializes a new instance of the SubscriptionOperations class.
   syntax:
-    content: "public SubscriptionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
+    content: public SubscriptionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-    - id: "customerId"
-      type: "java.lang.String"
-      description: "The customer identifier."
-    - id: "subscriptionId"
-      type: "java.lang.String"
-      description: "The subscription identifier"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate()"
-  id: "activate()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+    - id: customerId
+      type: java.lang.String
+      description: The customer identifier.
+    - id: subscriptionId
+      type: java.lang.String
+      description: The subscription identifier
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate()
+  id: activate()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "activate()"
-  nameWithType: "SubscriptionOperations.activate()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Activates a third-party subscription."
+  - java
+  name: activate()
+  nameWithType: SubscriptionOperations.activate()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Activates a third-party subscription.
   syntax:
-    content: "public SubscriptionActivationResult activate()"
+    content: public SubscriptionActivationResult activate()
     return:
-      type: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionActivationResult"
-      description: "The result from the subscription activation."
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionActivationResult
+      description: The result from the subscription activation.
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "SubscriptionOperations.get()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets the subscription."
+  - java
+  name: get()
+  nameWithType: SubscriptionOperations.get()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets the subscription.
   syntax:
-    content: "public Subscription get()"
+    content: public Subscription get()
     return:
-      type: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
-      description: "The subscription."
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks()"
-  id: "getActivationLinks()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+      description: The subscription.
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks()
+  id: getActivationLinks()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getActivationLinks()"
-  nameWithType: "SubscriptionOperations.getActivationLinks()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets the current subscription's activation links."
+  - java
+  name: getActivationLinks()
+  nameWithType: SubscriptionOperations.getActivationLinks()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets the current subscription's activation links.
   syntax:
-    content: "public ISubscriptionActivationLinks getActivationLinks()"
+    content: public ISubscriptionActivationLinks getActivationLinks()
     return:
-      type: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks"
-      description: "The current subscription's activation links."
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns()"
-  id: "getAddOns()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+      description: The current subscription's activation links.
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns()
+  id: getAddOns()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getAddOns()"
-  nameWithType: "SubscriptionOperations.getAddOns()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets the current subscription's add-ons operations."
+  - java
+  name: getAddOns()
+  nameWithType: SubscriptionOperations.getAddOns()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets the current subscription's add-ons operations.
   syntax:
-    content: "public ISubscriptionAddOnCollection getAddOns()"
+    content: public ISubscriptionAddOnCollection getAddOns()
     return:
-      type: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements()"
-  id: "getAzurePlanSubscriptionEntitlements()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements()
+  id: getAzurePlanSubscriptionEntitlements()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getAzurePlanSubscriptionEntitlements()"
-  nameWithType: "SubscriptionOperations.getAzurePlanSubscriptionEntitlements()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets an Azure Plan's subscription entitlements."
+  - java
+  name: getAzurePlanSubscriptionEntitlements()
+  nameWithType: SubscriptionOperations.getAzurePlanSubscriptionEntitlements()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets an Azure Plan's subscription entitlements.
   syntax:
-    content: "public ResourceCollection<AzureEntitlement> getAzurePlanSubscriptionEntitlements()"
+    content: public ResourceCollection<AzureEntitlement> getAzurePlanSubscriptionEntitlements()
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement>"
-      description: "A resource collection of Azure entitlements."
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions()"
-  id: "getConversions()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement>
+      description: A resource collection of Azure entitlements.
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions()
+  id: getConversions()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getConversions()"
-  nameWithType: "SubscriptionOperations.getConversions()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
+  - java
+  name: getConversions()
+  nameWithType: SubscriptionOperations.getConversions()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
   syntax:
-    content: "public ISubscriptionConversionCollection getConversions()"
+    content: public ISubscriptionConversionCollection getConversions()
     return:
-      type: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus()"
-  id: "getProvisioningStatus()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus()
+  id: getProvisioningStatus()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getProvisioningStatus()"
-  nameWithType: "SubscriptionOperations.getProvisioningStatus()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets the current subscription's provisioning status operations."
+  - java
+  name: getProvisioningStatus()
+  nameWithType: SubscriptionOperations.getProvisioningStatus()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets the current subscription's provisioning status operations.
   syntax:
-    content: "public ISubscriptionProvisioningStatus getProvisioningStatus()"
+    content: public ISubscriptionProvisioningStatus getProvisioningStatus()
     return:
-      type: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration()"
-  id: "getRegistration()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration()
+  id: getRegistration()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getRegistration()"
-  nameWithType: "SubscriptionOperations.getRegistration()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets the current subscription's registration operations."
+  - java
+  name: getRegistration()
+  nameWithType: SubscriptionOperations.getRegistration()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets the current subscription's registration operations.
   syntax:
-    content: "public ISubscriptionRegistration getRegistration()"
+    content: public ISubscriptionRegistration getRegistration()
     return:
-      type: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus()"
-  id: "getRegistrationStatus()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus()
+  id: getRegistrationStatus()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getRegistrationStatus()"
-  nameWithType: "SubscriptionOperations.getRegistrationStatus()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets the current subscription's registration status operations."
+  - java
+  name: getRegistrationStatus()
+  nameWithType: SubscriptionOperations.getRegistrationStatus()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets the current subscription's registration status operations.
   syntax:
-    content: "public ISubscriptionRegistrationStatus getRegistrationStatus()"
+    content: public ISubscriptionRegistrationStatus getRegistrationStatus()
     return:
-      type: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact()"
-  id: "getSupportContact()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact()
+  id: getSupportContact()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getSupportContact()"
-  nameWithType: "SubscriptionOperations.getSupportContact()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets the current subscription's support contact operations."
+  - java
+  name: getSupportContact()
+  nameWithType: SubscriptionOperations.getSupportContact()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets the current subscription's support contact operations.
   syntax:
-    content: "public ISubscriptionSupportContact getSupportContact()"
+    content: public ISubscriptionSupportContact getSupportContact()
     return:
-      type: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades()"
-  id: "getUpgrades()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades()
+  id: getUpgrades()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getUpgrades()"
-  nameWithType: "SubscriptionOperations.getUpgrades()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets the current subscription's upgrade operations."
+  - java
+  name: getUpgrades()
+  nameWithType: SubscriptionOperations.getUpgrades()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets the current subscription's upgrade operations.
   syntax:
-    content: "public ISubscriptionUpgradeCollection getUpgrades()"
+    content: public ISubscriptionUpgradeCollection getUpgrades()
     return:
-      type: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords()"
-  id: "getUsageRecords()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords()
+  id: getUsageRecords()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getUsageRecords()"
-  nameWithType: "SubscriptionOperations.getUsageRecords()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets the current subscription's usage record operations."
+  - java
+  name: getUsageRecords()
+  nameWithType: SubscriptionOperations.getUsageRecords()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets the current subscription's usage record operations.
   syntax:
-    content: "public ISubscriptionUsageRecordCollection getUsageRecords()"
+    content: public ISubscriptionUsageRecordCollection getUsageRecords()
     return:
-      type: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary()"
-  id: "getUsageSummary()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary()
+  id: getUsageSummary()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getUsageSummary()"
-  nameWithType: "SubscriptionOperations.getUsageSummary()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets the current subscription's usage summary operations."
+  - java
+  name: getUsageSummary()
+  nameWithType: SubscriptionOperations.getUsageSummary()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets the current subscription's usage summary operations.
   syntax:
-    content: "public ISubscriptionUsageSummary getUsageSummary()"
+    content: public ISubscriptionUsageSummary getUsageSummary()
     return:
-      type: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization()"
-  id: "getUtilization()"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization()
+  id: getUtilization()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "getUtilization()"
-  nameWithType: "SubscriptionOperations.getUtilization()"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization()"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Gets the current subscription's utilization operations."
+  - java
+  name: getUtilization()
+  nameWithType: SubscriptionOperations.getUtilization()
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization()
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Gets the current subscription's utilization operations.
   syntax:
-    content: "public IUtilizationCollection getUtilization()"
+    content: public IUtilizationCollection getUtilization()
     return:
-      type: "com.microsoft.store.partnercenter.utilization.IUtilizationCollection"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch(com.microsoft.store.partnercenter.models.subscriptions.Subscription)"
-  id: "patch(com.microsoft.store.partnercenter.models.subscriptions.Subscription)"
-  parent: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations"
+      type: com.microsoft.store.partnercenter.utilization.IUtilizationCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch(com.microsoft.store.partnercenter.models.subscriptions.Subscription)
+  id: patch(com.microsoft.store.partnercenter.models.subscriptions.Subscription)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations
   langs:
-  - "java"
-  name: "patch(Subscription subscription)"
-  nameWithType: "SubscriptionOperations.patch(Subscription subscription)"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch(Subscription subscription)"
-  overload: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-  summary: "Patches a subscription."
+  - java
+  name: patch(Subscription subscription)
+  nameWithType: SubscriptionOperations.patch(Subscription subscription)
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch(Subscription subscription)
+  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch*
+  type: Method
+  package: com.microsoft.store.partnercenter.subscriptions
+  summary: Patches a subscription.
   syntax:
-    content: "public Subscription patch(Subscription subscription)"
+    content: public Subscription patch(Subscription subscription)
     parameters:
-    - id: "subscription"
-      type: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
-      description: "The subscription information."
+    - id: subscription
+      type: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+      description: The subscription information.
     return:
-      type: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
-      description: "The updated subscription information."
+      type: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+      description: The updated subscription information.
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations*"
-  name: "SubscriptionOperations"
-  nameWithType: "SubscriptionOperations.SubscriptionOperations"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionActivationResult"
-  name: "SubscriptionActivationResult"
-  nameWithType: "SubscriptionActivationResult"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionActivationResult"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate*"
-  name: "activate"
-  nameWithType: "SubscriptionOperations.activate"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks"
-  name: "ISubscriptionActivationLinks"
-  nameWithType: "ISubscriptionActivationLinks"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks*"
-  name: "getActivationLinks"
-  nameWithType: "SubscriptionOperations.getActivationLinks"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection"
-  name: "ISubscriptionAddOnCollection"
-  nameWithType: "ISubscriptionAddOnCollection"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns*"
-  name: "getAddOns"
-  nameWithType: "SubscriptionOperations.getAddOns"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement>"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations*
+  name: SubscriptionOperations
+  nameWithType: SubscriptionOperations.SubscriptionOperations
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionActivationResult
+  name: SubscriptionActivationResult
+  nameWithType: SubscriptionActivationResult
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionActivationResult
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate*
+  name: activate
+  nameWithType: SubscriptionOperations.activate
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.activate
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+  name: ISubscriptionActivationLinks
+  nameWithType: ISubscriptionActivationLinks
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks*
+  name: getActivationLinks
+  nameWithType: SubscriptionOperations.getActivationLinks
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getActivationLinks
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
+  name: ISubscriptionAddOnCollection
+  nameWithType: ISubscriptionAddOnCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns*
+  name: getAddOns
+  nameWithType: SubscriptionOperations.getAddOns
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement"
-    name: "AzureEntitlement"
-    fullName: "com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements*"
-  name: "getAzurePlanSubscriptionEntitlements"
-  nameWithType: "SubscriptionOperations.getAzurePlanSubscriptionEntitlements"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
-  name: "ISubscriptionUpgradeCollection"
-  nameWithType: "ISubscriptionUpgradeCollection"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades*"
-  name: "getUpgrades"
-  nameWithType: "SubscriptionOperations.getUpgrades"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection"
-  name: "ISubscriptionUsageRecordCollection"
-  nameWithType: "ISubscriptionUsageRecordCollection"
-  fullName: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords*"
-  name: "getUsageRecords"
-  nameWithType: "SubscriptionOperations.getUsageRecords"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary"
-  name: "ISubscriptionUsageSummary"
-  nameWithType: "ISubscriptionUsageSummary"
-  fullName: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary*"
-  name: "getUsageSummary"
-  nameWithType: "SubscriptionOperations.getUsageSummary"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.utilization.IUtilizationCollection"
-  name: "IUtilizationCollection"
-  nameWithType: "IUtilizationCollection"
-  fullName: "com.microsoft.store.partnercenter.utilization.IUtilizationCollection"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization*"
-  name: "getUtilization"
-  nameWithType: "SubscriptionOperations.getUtilization"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus"
-  name: "ISubscriptionProvisioningStatus"
-  nameWithType: "ISubscriptionProvisioningStatus"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus*"
-  name: "getProvisioningStatus"
-  nameWithType: "SubscriptionOperations.getProvisioningStatus"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
-  name: "ISubscriptionSupportContact"
-  nameWithType: "ISubscriptionSupportContact"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact*"
-  name: "getSupportContact"
-  nameWithType: "SubscriptionOperations.getSupportContact"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration"
-  name: "ISubscriptionRegistration"
-  nameWithType: "ISubscriptionRegistration"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration*"
-  name: "getRegistration"
-  nameWithType: "SubscriptionOperations.getRegistration"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus"
-  name: "ISubscriptionRegistrationStatus"
-  nameWithType: "ISubscriptionRegistrationStatus"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus*"
-  name: "getRegistrationStatus"
-  nameWithType: "SubscriptionOperations.getRegistrationStatus"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection"
-  name: "ISubscriptionConversionCollection"
-  nameWithType: "ISubscriptionConversionCollection"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions*"
-  name: "getConversions"
-  nameWithType: "SubscriptionOperations.getConversions"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
-  name: "Subscription"
-  nameWithType: "Subscription"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get*"
-  name: "get"
-  nameWithType: "SubscriptionOperations.get"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch*"
-  name: "patch"
-  nameWithType: "SubscriptionOperations.patch"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch"
-  package: "com.microsoft.store.partnercenter.subscriptions"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  name: "BasePartnerComponent<Tuple<String,String>>"
-  nameWithType: "BasePartnerComponent<Tuple<String,String>>"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscription"
-  name: "ISubscription"
-  nameWithType: "ISubscription"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement"
-  name: "AzureEntitlement"
-  nameWithType: "AzureEntitlement"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "ResourceCollection"
-  nameWithType: "ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  name: "Tuple"
-  nameWithType: "Tuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  name: "BasePartnerComponent"
-  nameWithType: "BasePartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
-- uid: "java.lang.String,java.lang.String"
-  name: "String,String"
-  nameWithType: "String,String"
-  fullName: "java.lang.String,java.lang.String"
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement
+    name: AzureEntitlement
+    fullName: com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements*
+  name: getAzurePlanSubscriptionEntitlements
+  nameWithType: SubscriptionOperations.getAzurePlanSubscriptionEntitlements
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAzurePlanSubscriptionEntitlements
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+  name: ISubscriptionUpgradeCollection
+  nameWithType: ISubscriptionUpgradeCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades*
+  name: getUpgrades
+  nameWithType: SubscriptionOperations.getUpgrades
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
+  name: ISubscriptionUsageRecordCollection
+  nameWithType: ISubscriptionUsageRecordCollection
+  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords*
+  name: getUsageRecords
+  nameWithType: SubscriptionOperations.getUsageRecords
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary
+  name: ISubscriptionUsageSummary
+  nameWithType: ISubscriptionUsageSummary
+  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary*
+  name: getUsageSummary
+  nameWithType: SubscriptionOperations.getUsageSummary
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.utilization.IUtilizationCollection
+  name: IUtilizationCollection
+  nameWithType: IUtilizationCollection
+  fullName: com.microsoft.store.partnercenter.utilization.IUtilizationCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization*
+  name: getUtilization
+  nameWithType: SubscriptionOperations.getUtilization
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus
+  name: ISubscriptionProvisioningStatus
+  nameWithType: ISubscriptionProvisioningStatus
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus*
+  name: getProvisioningStatus
+  nameWithType: SubscriptionOperations.getProvisioningStatus
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact
+  name: ISubscriptionSupportContact
+  nameWithType: ISubscriptionSupportContact
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact*
+  name: getSupportContact
+  nameWithType: SubscriptionOperations.getSupportContact
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration
+  name: ISubscriptionRegistration
+  nameWithType: ISubscriptionRegistration
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration*
+  name: getRegistration
+  nameWithType: SubscriptionOperations.getRegistration
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus
+  name: ISubscriptionRegistrationStatus
+  nameWithType: ISubscriptionRegistrationStatus
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus*
+  name: getRegistrationStatus
+  nameWithType: SubscriptionOperations.getRegistrationStatus
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
+  name: ISubscriptionConversionCollection
+  nameWithType: ISubscriptionConversionCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions*
+  name: getConversions
+  nameWithType: SubscriptionOperations.getConversions
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+  name: Subscription
+  nameWithType: Subscription
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.Subscription
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get*
+  name: get
+  nameWithType: SubscriptionOperations.get
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch*
+  name: patch
+  nameWithType: SubscriptionOperations.patch
+  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch
+  package: com.microsoft.store.partnercenter.subscriptions
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+  name: BasePartnerComponent<Tuple<String,String>>
+  nameWithType: BasePartnerComponent<Tuple<String,String>>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscription
+  name: ISubscription
+  nameWithType: ISubscription
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscription
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- uid: com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement
+  name: AzureEntitlement
+  nameWithType: AzureEntitlement
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  name: ResourceCollection
+  nameWithType: ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.models.utils.Tuple
+  name: Tuple
+  nameWithType: Tuple
+  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  name: BasePartnerComponent
+  nameWithType: BasePartnerComponent
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
+- uid: java.lang.String,java.lang.String
+  name: String,String
+  nameWithType: String,String
+  fullName: java.lang.String,java.lang.String

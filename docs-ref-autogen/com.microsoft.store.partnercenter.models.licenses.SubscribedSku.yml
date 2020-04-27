@@ -1,525 +1,545 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
-  id: "SubscribedSku"
-  parent: "com.microsoft.store.partnercenter.models.licenses"
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
+  id: SubscribedSku
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses
   children:
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku()"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits()"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits()"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus()"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits()"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku()"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans()"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits()"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits()"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits()"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits(int)"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits(int)"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits(int)"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku(com.microsoft.store.partnercenter.models.licenses.ProductSku)"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans(java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>)"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits(int)"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits(int)"
-  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits(int)"
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku()
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits()
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits()
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus()
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits()
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku()
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans()
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits()
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits()
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits()
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits(int)
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits(int)
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus(java.lang.String)
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits(int)
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku(com.microsoft.store.partnercenter.models.licenses.ProductSku)
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans(java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>)
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits(int)
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits(int)
+  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits(int)
   langs:
-  - "java"
-  name: "SubscribedSku"
-  nameWithType: "SubscribedSku"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-  summary: "Model for subscribed products owned by a tenant."
+  - java
+  name: SubscribedSku
+  nameWithType: SubscribedSku
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
+  type: Class
+  package: com.microsoft.store.partnercenter.models.licenses
+  summary: Model for subscribed products owned by a tenant.
   syntax:
-    content: "public class SubscribedSku extends ResourceBase"
+    content: public class SubscribedSku extends ResourceBase
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.ResourceBase
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku()"
-  id: "SubscribedSku()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku()
+  id: SubscribedSku()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "SubscribedSku()"
-  nameWithType: "SubscribedSku.SubscribedSku()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: SubscribedSku()
+  nameWithType: SubscribedSku.SubscribedSku()
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku()
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public SubscribedSku()"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits()"
-  id: "getActiveUnits()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+    content: public SubscribedSku()
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits()
+  id: getActiveUnits()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "getActiveUnits()"
-  nameWithType: "SubscribedSku.getActiveUnits()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: getActiveUnits()
+  nameWithType: SubscribedSku.getActiveUnits()
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits()
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public int getActiveUnits()"
+    content: public int getActiveUnits()
     return:
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits()"
-  id: "getAvailableUnits()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+      type: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits()
+  id: getAvailableUnits()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "getAvailableUnits()"
-  nameWithType: "SubscribedSku.getAvailableUnits()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: getAvailableUnits()
+  nameWithType: SubscribedSku.getAvailableUnits()
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits()
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public int getAvailableUnits()"
+    content: public int getAvailableUnits()
     return:
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus()"
-  id: "getCapabilityStatus()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+      type: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus()
+  id: getCapabilityStatus()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "getCapabilityStatus()"
-  nameWithType: "SubscribedSku.getCapabilityStatus()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: getCapabilityStatus()
+  nameWithType: SubscribedSku.getCapabilityStatus()
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus()
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public String getCapabilityStatus()"
+    content: public String getCapabilityStatus()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits()"
-  id: "getConsumedUnits()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+      type: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits()
+  id: getConsumedUnits()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "getConsumedUnits()"
-  nameWithType: "SubscribedSku.getConsumedUnits()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: getConsumedUnits()
+  nameWithType: SubscribedSku.getConsumedUnits()
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits()
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public int getConsumedUnits()"
+    content: public int getConsumedUnits()
     return:
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku()"
-  id: "getProductSku()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+      type: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku()
+  id: getProductSku()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "getProductSku()"
-  nameWithType: "SubscribedSku.getProductSku()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: getProductSku()
+  nameWithType: SubscribedSku.getProductSku()
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku()
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public ProductSku getProductSku()"
+    content: public ProductSku getProductSku()
     return:
-      type: "com.microsoft.store.partnercenter.models.licenses.ProductSku"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans()"
-  id: "getServicePlans()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+      type: com.microsoft.store.partnercenter.models.licenses.ProductSku
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans()
+  id: getServicePlans()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "getServicePlans()"
-  nameWithType: "SubscribedSku.getServicePlans()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: getServicePlans()
+  nameWithType: SubscribedSku.getServicePlans()
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans()
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public List<ServicePlan> getServicePlans()"
+    content: public List<ServicePlan> getServicePlans()
     return:
-      type: "java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits()"
-  id: "getSuspendedUnits()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+      type: java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits()
+  id: getSuspendedUnits()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "getSuspendedUnits()"
-  nameWithType: "SubscribedSku.getSuspendedUnits()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: getSuspendedUnits()
+  nameWithType: SubscribedSku.getSuspendedUnits()
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits()
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public int getSuspendedUnits()"
+    content: public int getSuspendedUnits()
     return:
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits()"
-  id: "getTotalUnits()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+      type: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits()
+  id: getTotalUnits()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "getTotalUnits()"
-  nameWithType: "SubscribedSku.getTotalUnits()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: getTotalUnits()
+  nameWithType: SubscribedSku.getTotalUnits()
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits()
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public int getTotalUnits()"
+    content: public int getTotalUnits()
     return:
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits()"
-  id: "getWarningUnits()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+      type: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits()
+  id: getWarningUnits()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "getWarningUnits()"
-  nameWithType: "SubscribedSku.getWarningUnits()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: getWarningUnits()
+  nameWithType: SubscribedSku.getWarningUnits()
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits()
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public int getWarningUnits()"
+    content: public int getWarningUnits()
     return:
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits(int)"
-  id: "setActiveUnits(int)"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+      type: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits(int)
+  id: setActiveUnits(int)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "setActiveUnits(int value)"
-  nameWithType: "SubscribedSku.setActiveUnits(int value)"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits(int value)"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: setActiveUnits(int value)
+  nameWithType: SubscribedSku.setActiveUnits(int value)
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits(int value)
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public void setActiveUnits(int value)"
+    content: public void setActiveUnits(int value)
     parameters:
-    - id: "value"
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits(int)"
-  id: "setAvailableUnits(int)"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+    - id: value
+      type: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits(int)
+  id: setAvailableUnits(int)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "setAvailableUnits(int value)"
-  nameWithType: "SubscribedSku.setAvailableUnits(int value)"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits(int value)"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: setAvailableUnits(int value)
+  nameWithType: SubscribedSku.setAvailableUnits(int value)
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits(int value)
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public void setAvailableUnits(int value)"
+    content: public void setAvailableUnits(int value)
     parameters:
-    - id: "value"
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus(java.lang.String)"
-  id: "setCapabilityStatus(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+    - id: value
+      type: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus(java.lang.String)
+  id: setCapabilityStatus(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "setCapabilityStatus(String value)"
-  nameWithType: "SubscribedSku.setCapabilityStatus(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus(String value)"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: setCapabilityStatus(String value)
+  nameWithType: SubscribedSku.setCapabilityStatus(String value)
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus(String value)
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public void setCapabilityStatus(String value)"
+    content: public void setCapabilityStatus(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits(int)"
-  id: "setConsumedUnits(int)"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+    - id: value
+      type: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits(int)
+  id: setConsumedUnits(int)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "setConsumedUnits(int value)"
-  nameWithType: "SubscribedSku.setConsumedUnits(int value)"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits(int value)"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: setConsumedUnits(int value)
+  nameWithType: SubscribedSku.setConsumedUnits(int value)
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits(int value)
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public void setConsumedUnits(int value)"
+    content: public void setConsumedUnits(int value)
     parameters:
-    - id: "value"
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku(com.microsoft.store.partnercenter.models.licenses.ProductSku)"
-  id: "setProductSku(com.microsoft.store.partnercenter.models.licenses.ProductSku)"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+    - id: value
+      type: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku(com.microsoft.store.partnercenter.models.licenses.ProductSku)
+  id: setProductSku(com.microsoft.store.partnercenter.models.licenses.ProductSku)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "setProductSku(ProductSku value)"
-  nameWithType: "SubscribedSku.setProductSku(ProductSku value)"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku(ProductSku value)"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: setProductSku(ProductSku value)
+  nameWithType: SubscribedSku.setProductSku(ProductSku value)
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku(ProductSku value)
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public void setProductSku(ProductSku value)"
+    content: public void setProductSku(ProductSku value)
     parameters:
-    - id: "value"
-      type: "com.microsoft.store.partnercenter.models.licenses.ProductSku"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans(java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>)"
-  id: "setServicePlans(java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>)"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+    - id: value
+      type: com.microsoft.store.partnercenter.models.licenses.ProductSku
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans(java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>)
+  id: setServicePlans(java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "setServicePlans(List<ServicePlan> value)"
-  nameWithType: "SubscribedSku.setServicePlans(List<ServicePlan> value)"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans(List<ServicePlan> value)"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: setServicePlans(List<ServicePlan> value)
+  nameWithType: SubscribedSku.setServicePlans(List<ServicePlan> value)
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans(List<ServicePlan> value)
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public void setServicePlans(List<ServicePlan> value)"
+    content: public void setServicePlans(List<ServicePlan> value)
     parameters:
-    - id: "value"
-      type: "java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits(int)"
-  id: "setSuspendedUnits(int)"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+    - id: value
+      type: java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits(int)
+  id: setSuspendedUnits(int)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "setSuspendedUnits(int value)"
-  nameWithType: "SubscribedSku.setSuspendedUnits(int value)"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits(int value)"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: setSuspendedUnits(int value)
+  nameWithType: SubscribedSku.setSuspendedUnits(int value)
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits(int value)
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public void setSuspendedUnits(int value)"
+    content: public void setSuspendedUnits(int value)
     parameters:
-    - id: "value"
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits(int)"
-  id: "setTotalUnits(int)"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+    - id: value
+      type: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits(int)
+  id: setTotalUnits(int)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "setTotalUnits(int value)"
-  nameWithType: "SubscribedSku.setTotalUnits(int value)"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits(int value)"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: setTotalUnits(int value)
+  nameWithType: SubscribedSku.setTotalUnits(int value)
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits(int value)
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public void setTotalUnits(int value)"
+    content: public void setTotalUnits(int value)
     parameters:
-    - id: "value"
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits(int)"
-  id: "setWarningUnits(int)"
-  parent: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+    - id: value
+      type: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits(int)
+  id: setWarningUnits(int)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   langs:
-  - "java"
-  name: "setWarningUnits(int value)"
-  nameWithType: "SubscribedSku.setWarningUnits(int value)"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits(int value)"
-  overload: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
+  - java
+  name: setWarningUnits(int value)
+  nameWithType: SubscribedSku.setWarningUnits(int value)
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits(int value)
+  overload: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.licenses
   syntax:
-    content: "public void setWarningUnits(int value)"
+    content: public void setWarningUnits(int value)
     parameters:
-    - id: "value"
-      type: "int"
+    - id: value
+      type: int
 references:
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku*"
-  name: "SubscribedSku"
-  nameWithType: "SubscribedSku.SubscribedSku"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "int"
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku*
+  name: SubscribedSku
+  nameWithType: SubscribedSku.SubscribedSku
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: int
   spec.java:
-  - uid: "int"
-    name: "int"
-    fullName: "int"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits*"
-  name: "getAvailableUnits"
-  nameWithType: "SubscribedSku.getAvailableUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits*"
-  name: "setAvailableUnits"
-  nameWithType: "SubscribedSku.setAvailableUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits*"
-  name: "getActiveUnits"
-  nameWithType: "SubscribedSku.getActiveUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits*"
-  name: "setActiveUnits"
-  nameWithType: "SubscribedSku.setActiveUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits*"
-  name: "getConsumedUnits"
-  nameWithType: "SubscribedSku.getConsumedUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits*"
-  name: "setConsumedUnits"
-  nameWithType: "SubscribedSku.setConsumedUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits*"
-  name: "getSuspendedUnits"
-  nameWithType: "SubscribedSku.getSuspendedUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits*"
-  name: "setSuspendedUnits"
-  nameWithType: "SubscribedSku.setSuspendedUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits*"
-  name: "getTotalUnits"
-  nameWithType: "SubscribedSku.getTotalUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits*"
-  name: "setTotalUnits"
-  nameWithType: "SubscribedSku.setTotalUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits*"
-  name: "getWarningUnits"
-  nameWithType: "SubscribedSku.getWarningUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits*"
-  name: "setWarningUnits"
-  nameWithType: "SubscribedSku.setWarningUnits"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.ProductSku"
-  name: "ProductSku"
-  nameWithType: "ProductSku"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.ProductSku"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku*"
-  name: "getProductSku"
-  nameWithType: "SubscribedSku.getProductSku"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku*"
-  name: "setProductSku"
-  nameWithType: "SubscribedSku.setProductSku"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>"
+  - uid: int
+    name: int
+    fullName: int
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits*
+  name: getAvailableUnits
+  nameWithType: SubscribedSku.getAvailableUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getAvailableUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits*
+  name: setAvailableUnits
+  nameWithType: SubscribedSku.setAvailableUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setAvailableUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits*
+  name: getActiveUnits
+  nameWithType: SubscribedSku.getActiveUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getActiveUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits*
+  name: setActiveUnits
+  nameWithType: SubscribedSku.setActiveUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setActiveUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits*
+  name: getConsumedUnits
+  nameWithType: SubscribedSku.getConsumedUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getConsumedUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits*
+  name: setConsumedUnits
+  nameWithType: SubscribedSku.setConsumedUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setConsumedUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits*
+  name: getSuspendedUnits
+  nameWithType: SubscribedSku.getSuspendedUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getSuspendedUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits*
+  name: setSuspendedUnits
+  nameWithType: SubscribedSku.setSuspendedUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setSuspendedUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits*
+  name: getTotalUnits
+  nameWithType: SubscribedSku.getTotalUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getTotalUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits*
+  name: setTotalUnits
+  nameWithType: SubscribedSku.setTotalUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setTotalUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits*
+  name: getWarningUnits
+  nameWithType: SubscribedSku.getWarningUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getWarningUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits*
+  name: setWarningUnits
+  nameWithType: SubscribedSku.setWarningUnits
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.ProductSku
+  name: ProductSku
+  nameWithType: ProductSku
+  fullName: com.microsoft.store.partnercenter.models.licenses.ProductSku
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku*
+  name: getProductSku
+  nameWithType: SubscribedSku.getProductSku
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getProductSku
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku*
+  name: setProductSku
+  nameWithType: SubscribedSku.setProductSku
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>
   spec.java:
-  - uid: "java.util.List"
-    name: "List"
-    fullName: "java.util.List"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.licenses.ServicePlan"
-    name: "ServicePlan"
-    fullName: "com.microsoft.store.partnercenter.models.licenses.ServicePlan"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans*"
-  name: "getServicePlans"
-  nameWithType: "SubscribedSku.getServicePlans"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans*"
-  name: "setServicePlans"
-  nameWithType: "SubscribedSku.setServicePlans"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "java.lang.String"
+  - uid: java.util.List
+    name: List
+    fullName: java.util.List
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.licenses.ServicePlan
+    name: ServicePlan
+    fullName: com.microsoft.store.partnercenter.models.licenses.ServicePlan
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans*
+  name: getServicePlans
+  nameWithType: SubscribedSku.getServicePlans
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getServicePlans
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans*
+  name: setServicePlans
+  nameWithType: SubscribedSku.setServicePlans
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus*"
-  name: "getCapabilityStatus"
-  nameWithType: "SubscribedSku.getCapabilityStatus"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus*"
-  name: "setCapabilityStatus"
-  nameWithType: "SubscribedSku.setCapabilityStatus"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  name: "ResourceBase"
-  nameWithType: "ResourceBase"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  name: "ResourceBase.getAttributes()"
-  nameWithType: "ResourceBase.getAttributes()"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "java.util.List"
-  name: "List"
-  nameWithType: "List"
-  fullName: "java.util.List"
-- uid: "com.microsoft.store.partnercenter.models.licenses.ServicePlan"
-  name: "ServicePlan"
-  nameWithType: "ServicePlan"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.ServicePlan"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus*
+  name: getCapabilityStatus
+  nameWithType: SubscribedSku.getCapabilityStatus
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.getCapabilityStatus
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus*
+  name: setCapabilityStatus
+  nameWithType: SubscribedSku.setCapabilityStatus
+  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus
+  package: com.microsoft.store.partnercenter.models.licenses
+- uid: com.microsoft.store.partnercenter.models.ResourceBase
+  name: ResourceBase
+  nameWithType: ResourceBase
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  name: ResourceBase.getAttributes()
+  nameWithType: ResourceBase.getAttributes()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: java.util.List
+  name: List
+  nameWithType: List
+  fullName: java.util.List
+- uid: com.microsoft.store.partnercenter.models.licenses.ServicePlan
+  name: ServicePlan
+  nameWithType: ServicePlan
+  fullName: com.microsoft.store.partnercenter.models.licenses.ServicePlan

@@ -1,198 +1,204 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"
-  id: "RefundOption"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions"
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
+  id: RefundOption
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.subscriptions
   children:
-  - "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt(org.joda.time.DateTime)"
-  - "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType(java.lang.String)"
+  - com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption()
+  - com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt()
+  - com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType()
+  - com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt(org.joda.time.DateTime)
+  - com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType(java.lang.String)
   langs:
-  - "java"
-  name: "RefundOption"
-  nameWithType: "RefundOption"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  summary: "Represents the refund option for a subscription."
+  - java
+  name: RefundOption
+  nameWithType: RefundOption
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
+  type: Class
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: Represents the refund option for a subscription.
   syntax:
-    content: "public class RefundOption"
+    content: public class RefundOption
   inheritance:
-  - "java.lang.Object"
+  - java.lang.Object
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption()"
-  id: "RefundOption()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption()
+  id: RefundOption()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
   langs:
-  - "java"
-  name: "RefundOption()"
-  nameWithType: "RefundOption.RefundOption()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  - java
+  name: RefundOption()
+  nameWithType: RefundOption.RefundOption()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.models.subscriptions
   syntax:
-    content: "public RefundOption()"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt()"
-  id: "getExpiresAt()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"
+    content: public RefundOption()
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt()
+  id: getExpiresAt()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
   langs:
-  - "java"
-  name: "getExpiresAt()"
-  nameWithType: "RefundOption.getExpiresAt()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  summary: "Gets the timestamp when this policy expires if applicable."
+  - java
+  name: getExpiresAt()
+  nameWithType: RefundOption.getExpiresAt()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: Gets the timestamp when this policy expires if applicable.
   syntax:
-    content: "public DateTime getExpiresAt()"
+    content: public DateTime getExpiresAt()
     return:
-      type: "org.joda.time.DateTime"
-      description: "The timestamp when this policy expires if applicable."
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType()"
-  id: "getType()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"
+      type: org.joda.time.DateTime
+      description: The timestamp when this policy expires if applicable.
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType()
+  id: getType()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
   langs:
-  - "java"
-  name: "getType()"
-  nameWithType: "RefundOption.getType()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  summary: "Gets the type of refund (\"Full, Partial\")."
+  - java
+  name: getType()
+  nameWithType: RefundOption.getType()
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType()
+  overload: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: Gets the type of refund ("Full, Partial").
   syntax:
-    content: "public String getType()"
+    content: public String getType()
     return:
-      type: "java.lang.String"
-      description: "The type of refund (\"Full, Partial\")."
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt(org.joda.time.DateTime)"
-  id: "setExpiresAt(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"
+      type: java.lang.String
+      description: The type of refund ("Full, Partial").
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt(org.joda.time.DateTime)
+  id: setExpiresAt(org.joda.time.DateTime)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
   langs:
-  - "java"
-  name: "setExpiresAt(DateTime value)"
-  nameWithType: "RefundOption.setExpiresAt(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  summary: "Sets the timestamp when this policy expires if applicable."
+  - java
+  name: setExpiresAt(DateTime value)
+  nameWithType: RefundOption.setExpiresAt(DateTime value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt(DateTime value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: Sets the timestamp when this policy expires if applicable.
   syntax:
-    content: "public void setExpiresAt(DateTime value)"
+    content: public void setExpiresAt(DateTime value)
     parameters:
-    - id: "value"
-      type: "org.joda.time.DateTime"
-      description: "The timestamp when this policy expires if applicable."
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType(java.lang.String)"
-  id: "setType(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"
+    - id: value
+      type: org.joda.time.DateTime
+      description: The timestamp when this policy expires if applicable.
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType(java.lang.String)
+  id: setType(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.subscriptions.RefundOption
   langs:
-  - "java"
-  name: "setType(String value)"
-  nameWithType: "RefundOption.setType(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType(String value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  summary: "Sets the type of refund (\"Full, Partial\")."
+  - java
+  name: setType(String value)
+  nameWithType: RefundOption.setType(String value)
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType(String value)
+  overload: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.subscriptions
+  summary: Sets the type of refund ("Full, Partial").
   syntax:
-    content: "public void setType(String value)"
+    content: public void setType(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The type of refund (\"Full, Partial\")."
+    - id: value
+      type: java.lang.String
+      description: The type of refund ("Full, Partial").
 references:
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption*"
-  name: "RefundOption"
-  nameWithType: "RefundOption.RefundOption"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-- uid: "org.joda.time.DateTime"
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption*
+  name: RefundOption
+  nameWithType: RefundOption.RefundOption
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: org.joda.time.DateTime
   spec.java:
-  - uid: "org.joda.time.DateTime"
-    name: "DateTime"
-    fullName: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt*"
-  name: "getExpiresAt"
-  nameWithType: "RefundOption.getExpiresAt"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt*"
-  name: "setExpiresAt"
-  nameWithType: "RefundOption.setExpiresAt"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-- uid: "java.lang.String"
+  - uid: org.joda.time.DateTime
+    name: DateTime
+    fullName: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt*
+  name: getExpiresAt
+  nameWithType: RefundOption.getExpiresAt
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt*
+  name: setExpiresAt
+  nameWithType: RefundOption.setExpiresAt
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType*"
-  name: "getType"
-  nameWithType: "RefundOption.getType"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType*"
-  name: "setType"
-  nameWithType: "RefundOption.setType"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType*
+  name: getType
+  nameWithType: RefundOption.getType
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType*
+  name: setType
+  nameWithType: RefundOption.setType
+  fullName: com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType
+  package: com.microsoft.store.partnercenter.models.subscriptions
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()

@@ -1,255 +1,262 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations"
-  id: "PartnerProfileCollectionOperations"
-  parent: "com.microsoft.store.partnercenter.profiles"
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations
+  id: PartnerProfileCollectionOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles
   children:
-  - "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
-  - "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile()"
-  - "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile()"
-  - "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile()"
-  - "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile()"
-  - "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile()"
+  - com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations(com.microsoft.store.partnercenter.IPartner)
+  - com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile()
+  - com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile()
+  - com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile()
+  - com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile()
+  - com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile()
   langs:
-  - "java"
-  name: "PartnerProfileCollectionOperations"
-  nameWithType: "PartnerProfileCollectionOperations"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "The partner profile collection operations implementation."
+  - java
+  name: PartnerProfileCollectionOperations
+  nameWithType: PartnerProfileCollectionOperations
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.profiles
+  summary: The partner profile collection operations implementation.
   syntax:
-    content: "public class PartnerProfileCollectionOperations extends BasePartnerComponentString implements IPartnerProfileCollection"
+    content: public class PartnerProfileCollectionOperations extends BasePartnerComponentString implements IPartnerProfileCollection
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
-  - "com.microsoft.store.partnercenter.BasePartnerComponentString"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
   implements:
-  - "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection"
+  - com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
-  id: "PartnerProfileCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
-  parent: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations(com.microsoft.store.partnercenter.IPartner)
+  id: PartnerProfileCollectionOperations(com.microsoft.store.partnercenter.IPartner)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations
   langs:
-  - "java"
-  name: "PartnerProfileCollectionOperations(IPartner rootPartnerOperations)"
-  nameWithType: "PartnerProfileCollectionOperations.PartnerProfileCollectionOperations(IPartner rootPartnerOperations)"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations(IPartner rootPartnerOperations)"
-  overload: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Initializes a new instance of the PartnerProfileCollectionOperations class."
+  - java
+  name: PartnerProfileCollectionOperations(IPartner rootPartnerOperations)
+  nameWithType: PartnerProfileCollectionOperations.PartnerProfileCollectionOperations(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations(IPartner rootPartnerOperations)
+  overload: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Initializes a new instance of the PartnerProfileCollectionOperations class.
   syntax:
-    content: "public PartnerProfileCollectionOperations(IPartner rootPartnerOperations)"
+    content: public PartnerProfileCollectionOperations(IPartner rootPartnerOperations)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile()"
-  id: "getBillingProfile()"
-  parent: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile()
+  id: getBillingProfile()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations
   langs:
-  - "java"
-  name: "getBillingProfile()"
-  nameWithType: "PartnerProfileCollectionOperations.getBillingProfile()"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile()"
-  overload: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Gets the operations available for the partner billing profile."
+  - java
+  name: getBillingProfile()
+  nameWithType: PartnerProfileCollectionOperations.getBillingProfile()
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile()
+  overload: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile*
+  type: Method
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Gets the operations available for the partner billing profile.
   syntax:
-    content: "public IBillingProfile getBillingProfile()"
+    content: public IBillingProfile getBillingProfile()
     return:
-      type: "com.microsoft.store.partnercenter.profiles.IBillingProfile"
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile()"
-  id: "getLegalBusinessProfile()"
-  parent: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations"
+      type: com.microsoft.store.partnercenter.profiles.IBillingProfile
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile()
+  id: getLegalBusinessProfile()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations
   langs:
-  - "java"
-  name: "getLegalBusinessProfile()"
-  nameWithType: "PartnerProfileCollectionOperations.getLegalBusinessProfile()"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile()"
-  overload: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Gets the operations available for the legal business profile."
+  - java
+  name: getLegalBusinessProfile()
+  nameWithType: PartnerProfileCollectionOperations.getLegalBusinessProfile()
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile()
+  overload: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile*
+  type: Method
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Gets the operations available for the legal business profile.
   syntax:
-    content: "public ILegalBusinessProfile getLegalBusinessProfile()"
+    content: public ILegalBusinessProfile getLegalBusinessProfile()
     return:
-      type: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile"
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile()"
-  id: "getMpnProfile()"
-  parent: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations"
+      type: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile()
+  id: getMpnProfile()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations
   langs:
-  - "java"
-  name: "getMpnProfile()"
-  nameWithType: "PartnerProfileCollectionOperations.getMpnProfile()"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile()"
-  overload: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Gets the operations available for the partner network profile."
+  - java
+  name: getMpnProfile()
+  nameWithType: PartnerProfileCollectionOperations.getMpnProfile()
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile()
+  overload: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile*
+  type: Method
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Gets the operations available for the partner network profile.
   syntax:
-    content: "public IMpnProfile getMpnProfile()"
+    content: public IMpnProfile getMpnProfile()
     return:
-      type: "com.microsoft.store.partnercenter.profiles.IMpnProfile"
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile()"
-  id: "getOrganizationProfile()"
-  parent: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations"
+      type: com.microsoft.store.partnercenter.profiles.IMpnProfile
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile()
+  id: getOrganizationProfile()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations
   langs:
-  - "java"
-  name: "getOrganizationProfile()"
-  nameWithType: "PartnerProfileCollectionOperations.getOrganizationProfile()"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile()"
-  overload: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Gets the operations available for the organization profile."
+  - java
+  name: getOrganizationProfile()
+  nameWithType: PartnerProfileCollectionOperations.getOrganizationProfile()
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile()
+  overload: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile*
+  type: Method
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Gets the operations available for the organization profile.
   syntax:
-    content: "public IOrganizationProfile getOrganizationProfile()"
+    content: public IOrganizationProfile getOrganizationProfile()
     return:
-      type: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile"
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile()"
-  id: "getSupportProfile()"
-  parent: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations"
+      type: com.microsoft.store.partnercenter.profiles.IOrganizationProfile
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile()
+  id: getSupportProfile()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations
   langs:
-  - "java"
-  name: "getSupportProfile()"
-  nameWithType: "PartnerProfileCollectionOperations.getSupportProfile()"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile()"
-  overload: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Gets the operations available for the partner network profile."
+  - java
+  name: getSupportProfile()
+  nameWithType: PartnerProfileCollectionOperations.getSupportProfile()
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile()
+  overload: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile*
+  type: Method
+  package: com.microsoft.store.partnercenter.profiles
+  summary: Gets the operations available for the partner network profile.
   syntax:
-    content: "public ISupportProfile getSupportProfile()"
+    content: public ISupportProfile getSupportProfile()
     return:
-      type: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
+      type: com.microsoft.store.partnercenter.profiles.ISupportProfile
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations*"
-  name: "PartnerProfileCollectionOperations"
-  nameWithType: "PartnerProfileCollectionOperations.PartnerProfileCollectionOperations"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations"
-  package: "com.microsoft.store.partnercenter.profiles"
-- uid: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile"
-  name: "ILegalBusinessProfile"
-  nameWithType: "ILegalBusinessProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile"
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile*"
-  name: "getLegalBusinessProfile"
-  nameWithType: "PartnerProfileCollectionOperations.getLegalBusinessProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile"
-  package: "com.microsoft.store.partnercenter.profiles"
-- uid: "com.microsoft.store.partnercenter.profiles.IMpnProfile"
-  name: "IMpnProfile"
-  nameWithType: "IMpnProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.IMpnProfile"
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile*"
-  name: "getMpnProfile"
-  nameWithType: "PartnerProfileCollectionOperations.getMpnProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile"
-  package: "com.microsoft.store.partnercenter.profiles"
-- uid: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
-  name: "ISupportProfile"
-  nameWithType: "ISupportProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile*"
-  name: "getSupportProfile"
-  nameWithType: "PartnerProfileCollectionOperations.getSupportProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile"
-  package: "com.microsoft.store.partnercenter.profiles"
-- uid: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile"
-  name: "IOrganizationProfile"
-  nameWithType: "IOrganizationProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile"
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile*"
-  name: "getOrganizationProfile"
-  nameWithType: "PartnerProfileCollectionOperations.getOrganizationProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile"
-  package: "com.microsoft.store.partnercenter.profiles"
-- uid: "com.microsoft.store.partnercenter.profiles.IBillingProfile"
-  name: "IBillingProfile"
-  nameWithType: "IBillingProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.IBillingProfile"
-- uid: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile*"
-  name: "getBillingProfile"
-  nameWithType: "PartnerProfileCollectionOperations.getBillingProfile"
-  fullName: "com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile"
-  package: "com.microsoft.store.partnercenter.profiles"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  name: "BasePartnerComponentString"
-  nameWithType: "BasePartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection"
-  name: "IPartnerProfileCollection"
-  nameWithType: "IPartnerProfileCollection"
-  fullName: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations*
+  name: PartnerProfileCollectionOperations
+  nameWithType: PartnerProfileCollectionOperations.PartnerProfileCollectionOperations
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.PartnerProfileCollectionOperations
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
+  name: ILegalBusinessProfile
+  nameWithType: ILegalBusinessProfile
+  fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile*
+  name: getLegalBusinessProfile
+  nameWithType: PartnerProfileCollectionOperations.getLegalBusinessProfile
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getLegalBusinessProfile
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.profiles.IMpnProfile
+  name: IMpnProfile
+  nameWithType: IMpnProfile
+  fullName: com.microsoft.store.partnercenter.profiles.IMpnProfile
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile*
+  name: getMpnProfile
+  nameWithType: PartnerProfileCollectionOperations.getMpnProfile
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getMpnProfile
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.profiles.ISupportProfile
+  name: ISupportProfile
+  nameWithType: ISupportProfile
+  fullName: com.microsoft.store.partnercenter.profiles.ISupportProfile
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile*
+  name: getSupportProfile
+  nameWithType: PartnerProfileCollectionOperations.getSupportProfile
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getSupportProfile
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.profiles.IOrganizationProfile
+  name: IOrganizationProfile
+  nameWithType: IOrganizationProfile
+  fullName: com.microsoft.store.partnercenter.profiles.IOrganizationProfile
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile*
+  name: getOrganizationProfile
+  nameWithType: PartnerProfileCollectionOperations.getOrganizationProfile
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getOrganizationProfile
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile
+  name: IBillingProfile
+  nameWithType: IBillingProfile
+  fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile
+- uid: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile*
+  name: getBillingProfile
+  nameWithType: PartnerProfileCollectionOperations.getBillingProfile
+  fullName: com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations.getBillingProfile
+  package: com.microsoft.store.partnercenter.profiles
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
+  name: IPartnerProfileCollection
+  nameWithType: IPartnerProfileCollection
+  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()

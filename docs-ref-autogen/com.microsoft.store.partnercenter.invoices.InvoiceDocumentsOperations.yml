@@ -1,158 +1,161 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations"
-  id: "InvoiceDocumentsOperations"
-  parent: "com.microsoft.store.partnercenter.invoices"
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations
+  id: InvoiceDocumentsOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices
   children:
-  - "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  - "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement()"
+  - com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  - com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement()
   langs:
-  - "java"
-  name: "InvoiceDocumentsOperations"
-  nameWithType: "InvoiceDocumentsOperations"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.invoices"
+  - java
+  name: InvoiceDocumentsOperations
+  nameWithType: InvoiceDocumentsOperations
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.invoices
   syntax:
-    content: "public class InvoiceDocumentsOperations extends BasePartnerComponentString implements IInvoiceDocuments"
+    content: public class InvoiceDocumentsOperations extends BasePartnerComponentString implements IInvoiceDocuments
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
-  - "com.microsoft.store.partnercenter.BasePartnerComponentString"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
   implements:
-  - "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments"
+  - com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  id: "InvoiceDocumentsOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  id: InvoiceDocumentsOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations
   langs:
-  - "java"
-  name: "InvoiceDocumentsOperations(IPartner rootPartnerOperations, String invoiceId)"
-  nameWithType: "InvoiceDocumentsOperations.InvoiceDocumentsOperations(IPartner rootPartnerOperations, String invoiceId)"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations(IPartner rootPartnerOperations, String invoiceId)"
-  overload: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Initializes a new instance of the InvoiceDocumentsOperations class."
+  - java
+  name: InvoiceDocumentsOperations(IPartner rootPartnerOperations, String invoiceId)
+  nameWithType: InvoiceDocumentsOperations.InvoiceDocumentsOperations(IPartner rootPartnerOperations, String invoiceId)
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations(IPartner rootPartnerOperations, String invoiceId)
+  overload: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Initializes a new instance of the InvoiceDocumentsOperations class.
   syntax:
-    content: "public InvoiceDocumentsOperations(IPartner rootPartnerOperations, String invoiceId)"
+    content: public InvoiceDocumentsOperations(IPartner rootPartnerOperations, String invoiceId)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-    - id: "invoiceId"
-      type: "java.lang.String"
-      description: "The invoice identifier."
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement()"
-  id: "getStatement()"
-  parent: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+    - id: invoiceId
+      type: java.lang.String
+      description: The invoice identifier.
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement()
+  id: getStatement()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations
   langs:
-  - "java"
-  name: "getStatement()"
-  nameWithType: "InvoiceDocumentsOperations.getStatement()"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement()"
-  overload: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.invoices"
-  summary: "Gets an invoice statement operations."
+  - java
+  name: getStatement()
+  nameWithType: InvoiceDocumentsOperations.getStatement()
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement()
+  overload: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement*
+  type: Method
+  package: com.microsoft.store.partnercenter.invoices
+  summary: Gets an invoice statement operations.
   syntax:
-    content: "public IInvoiceStatement getStatement()"
+    content: public IInvoiceStatement getStatement()
     return:
-      type: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement"
+      type: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations*"
-  name: "InvoiceDocumentsOperations"
-  nameWithType: "InvoiceDocumentsOperations.InvoiceDocumentsOperations"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations"
-  package: "com.microsoft.store.partnercenter.invoices"
-- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement"
-  name: "IInvoiceStatement"
-  nameWithType: "IInvoiceStatement"
-  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement"
-- uid: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement*"
-  name: "getStatement"
-  nameWithType: "InvoiceDocumentsOperations.getStatement"
-  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement"
-  package: "com.microsoft.store.partnercenter.invoices"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  name: "BasePartnerComponentString"
-  nameWithType: "BasePartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments"
-  name: "IInvoiceDocuments"
-  nameWithType: "IInvoiceDocuments"
-  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations*
+  name: InvoiceDocumentsOperations
+  nameWithType: InvoiceDocumentsOperations.InvoiceDocumentsOperations
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
+  name: IInvoiceStatement
+  nameWithType: IInvoiceStatement
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement*
+  name: getStatement
+  nameWithType: InvoiceDocumentsOperations.getStatement
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement
+  package: com.microsoft.store.partnercenter.invoices
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+- uid: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
+  name: IInvoiceDocuments
+  nameWithType: IInvoiceDocuments
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()

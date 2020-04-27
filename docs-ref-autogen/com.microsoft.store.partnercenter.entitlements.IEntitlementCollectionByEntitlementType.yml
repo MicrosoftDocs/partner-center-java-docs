@@ -1,100 +1,102 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType"
-  id: "IEntitlementCollectionByEntitlementType"
-  parent: "com.microsoft.store.partnercenter.entitlements"
+- uid: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType
+  id: IEntitlementCollectionByEntitlementType
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.entitlements
   children:
-  - "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get(java.lang.Boolean)"
+  - com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get(java.lang.Boolean)
   langs:
-  - "java"
-  name: "IEntitlementCollectionByEntitlementType"
-  nameWithType: "IEntitlementCollectionByEntitlementType"
-  fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.entitlements"
-  summary: "Represents the operations that can be performed on entitlements (by type) associated to the customer based on the logged in partner."
+  - java
+  name: IEntitlementCollectionByEntitlementType
+  nameWithType: IEntitlementCollectionByEntitlementType
+  fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType
+  type: Interface
+  package: com.microsoft.store.partnercenter.entitlements
+  summary: Represents the operations that can be performed on entitlements (by type) associated to the customer based on the logged in partner.
   syntax:
-    content: "public interface IEntitlementCollectionByEntitlementType extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>"
+    content: public interface IEntitlementCollectionByEntitlementType extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>>"
-- uid: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get(java.lang.Boolean)"
-  id: "get(java.lang.Boolean)"
-  parent: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType"
+  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>>
+- uid: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get(java.lang.Boolean)
+  id: get(java.lang.Boolean)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType
   langs:
-  - "java"
-  name: "get(Boolean showExpiry)"
-  nameWithType: "IEntitlementCollectionByEntitlementType.get(Boolean showExpiry)"
-  fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get(Boolean showExpiry)"
-  overload: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.entitlements"
-  summary: "Gets an entitlement collection with the given entitlement type."
+  - java
+  name: get(Boolean showExpiry)
+  nameWithType: IEntitlementCollectionByEntitlementType.get(Boolean showExpiry)
+  fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get(Boolean showExpiry)
+  overload: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.entitlements
+  summary: Gets an entitlement collection with the given entitlement type.
   syntax:
-    content: "public abstract ResourceCollection<Entitlement> get(Boolean showExpiry)"
+    content: public abstract ResourceCollection<Entitlement> get(Boolean showExpiry)
     parameters:
-    - id: "showExpiry"
-      type: "java.lang.Boolean"
-      description: "A flag to indicate if the expiry date is required to be returned along with the entitlement (if applicable)."
+    - id: showExpiry
+      type: java.lang.Boolean
+      description: A flag to indicate if the expiry date is required to be returned along with the entitlement (if applicable).
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>"
-      description: "The collection of entitlements corresponding to a specific entitlement type for the customer."
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>
+      description: The collection of entitlements corresponding to a specific entitlement type for the customer.
 references:
-- uid: "java.lang.Boolean"
+- uid: java.lang.Boolean
   spec.java:
-  - uid: "java.lang.Boolean"
-    name: "Boolean"
-    fullName: "java.lang.Boolean"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>"
+  - uid: java.lang.Boolean
+    name: Boolean
+    fullName: java.lang.Boolean
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
-    name: "Entitlement"
-    fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get*"
-  name: "get"
-  nameWithType: "IEntitlementCollectionByEntitlementType.get"
-  fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get"
-  package: "com.microsoft.store.partnercenter.entitlements"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  name: "IPartnerComponent<Tuple<String,String>>"
-  nameWithType: "IPartnerComponent<Tuple<String,String>>"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>>"
-  name: "IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>"
-  nameWithType: "IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>>"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "ResourceCollection"
-  nameWithType: "ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
-  name: "Entitlement"
-  nameWithType: "Entitlement"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  name: "IPartnerComponent"
-  nameWithType: "IPartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
-- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  name: "Tuple"
-  nameWithType: "Tuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
-- uid: "java.lang.String,java.lang.String"
-  name: "String,String"
-  nameWithType: "String,String"
-  fullName: "java.lang.String,java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "Entitlement,ResourceCollection"
-  nameWithType: "Entitlement,ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  name: "IEntireEntityCollectionRetrievalOperations"
-  nameWithType: "IEntireEntityCollectionRetrievalOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement
+    name: Entitlement
+    fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get*
+  name: get
+  nameWithType: IEntitlementCollectionByEntitlementType.get
+  fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get
+  package: com.microsoft.store.partnercenter.entitlements
+- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+  name: IPartnerComponent<Tuple<String,String>>
+  nameWithType: IPartnerComponent<Tuple<String,String>>
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>>
+  name: IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>
+  nameWithType: IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>>
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  name: ResourceCollection
+  nameWithType: ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement
+  name: Entitlement
+  nameWithType: Entitlement
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
+  name: IPartnerComponent
+  nameWithType: IPartnerComponent
+  fullName: com.microsoft.store.partnercenter.IPartnerComponent
+- uid: com.microsoft.store.partnercenter.models.utils.Tuple
+  name: Tuple
+  nameWithType: Tuple
+  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
+- uid: java.lang.String,java.lang.String
+  name: String,String
+  nameWithType: String,String
+  fullName: java.lang.String,java.lang.String
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection
+  name: Entitlement,ResourceCollection
+  nameWithType: Entitlement,ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+  name: IEntireEntityCollectionRetrievalOperations
+  nameWithType: IEntireEntityCollectionRetrievalOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations

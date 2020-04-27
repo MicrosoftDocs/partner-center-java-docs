@@ -1,94 +1,98 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.logging.ILogger"
-  id: "ILogger"
-  parent: "com.microsoft.store.partnercenter.logging"
+- uid: com.microsoft.store.partnercenter.logging.ILogger
+  id: ILogger
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.logging
   children:
-  - "com.microsoft.store.partnercenter.logging.ILogger.logError(java.lang.String)"
-  - "com.microsoft.store.partnercenter.logging.ILogger.logInformation(java.lang.String)"
-  - "com.microsoft.store.partnercenter.logging.ILogger.logWarning(java.lang.String)"
+  - com.microsoft.store.partnercenter.logging.ILogger.logError(java.lang.String)
+  - com.microsoft.store.partnercenter.logging.ILogger.logInformation(java.lang.String)
+  - com.microsoft.store.partnercenter.logging.ILogger.logWarning(java.lang.String)
   langs:
-  - "java"
-  name: "ILogger"
-  nameWithType: "ILogger"
-  fullName: "com.microsoft.store.partnercenter.logging.ILogger"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.logging"
-  summary: "Defines logger behavior."
+  - java
+  name: ILogger
+  nameWithType: ILogger
+  fullName: com.microsoft.store.partnercenter.logging.ILogger
+  type: Interface
+  package: com.microsoft.store.partnercenter.logging
+  summary: Defines logger behavior.
   syntax:
-    content: "public interface ILogger"
-- uid: "com.microsoft.store.partnercenter.logging.ILogger.logError(java.lang.String)"
-  id: "logError(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.logging.ILogger"
+    content: public interface ILogger
+- uid: com.microsoft.store.partnercenter.logging.ILogger.logError(java.lang.String)
+  id: logError(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.logging.ILogger
   langs:
-  - "java"
-  name: "logError(String message)"
-  nameWithType: "ILogger.logError(String message)"
-  fullName: "com.microsoft.store.partnercenter.logging.ILogger.logError(String message)"
-  overload: "com.microsoft.store.partnercenter.logging.ILogger.logError*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.logging"
-  summary: "Logs an error."
+  - java
+  name: logError(String message)
+  nameWithType: ILogger.logError(String message)
+  fullName: com.microsoft.store.partnercenter.logging.ILogger.logError(String message)
+  overload: com.microsoft.store.partnercenter.logging.ILogger.logError*
+  type: Method
+  package: com.microsoft.store.partnercenter.logging
+  summary: Logs an error.
   syntax:
-    content: "public abstract void logError(String message)"
+    content: public abstract void logError(String message)
     parameters:
-    - id: "message"
-      type: "java.lang.String"
-      description: "The error message."
-- uid: "com.microsoft.store.partnercenter.logging.ILogger.logInformation(java.lang.String)"
-  id: "logInformation(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.logging.ILogger"
+    - id: message
+      type: java.lang.String
+      description: The error message.
+- uid: com.microsoft.store.partnercenter.logging.ILogger.logInformation(java.lang.String)
+  id: logInformation(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.logging.ILogger
   langs:
-  - "java"
-  name: "logInformation(String message)"
-  nameWithType: "ILogger.logInformation(String message)"
-  fullName: "com.microsoft.store.partnercenter.logging.ILogger.logInformation(String message)"
-  overload: "com.microsoft.store.partnercenter.logging.ILogger.logInformation*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.logging"
-  summary: "Logs a piece of information."
+  - java
+  name: logInformation(String message)
+  nameWithType: ILogger.logInformation(String message)
+  fullName: com.microsoft.store.partnercenter.logging.ILogger.logInformation(String message)
+  overload: com.microsoft.store.partnercenter.logging.ILogger.logInformation*
+  type: Method
+  package: com.microsoft.store.partnercenter.logging
+  summary: Logs a piece of information.
   syntax:
-    content: "public abstract void logInformation(String message)"
+    content: public abstract void logInformation(String message)
     parameters:
-    - id: "message"
-      type: "java.lang.String"
-      description: "The informational message."
-- uid: "com.microsoft.store.partnercenter.logging.ILogger.logWarning(java.lang.String)"
-  id: "logWarning(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.logging.ILogger"
+    - id: message
+      type: java.lang.String
+      description: The informational message.
+- uid: com.microsoft.store.partnercenter.logging.ILogger.logWarning(java.lang.String)
+  id: logWarning(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.logging.ILogger
   langs:
-  - "java"
-  name: "logWarning(String message)"
-  nameWithType: "ILogger.logWarning(String message)"
-  fullName: "com.microsoft.store.partnercenter.logging.ILogger.logWarning(String message)"
-  overload: "com.microsoft.store.partnercenter.logging.ILogger.logWarning*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.logging"
-  summary: "Logs a warning."
+  - java
+  name: logWarning(String message)
+  nameWithType: ILogger.logWarning(String message)
+  fullName: com.microsoft.store.partnercenter.logging.ILogger.logWarning(String message)
+  overload: com.microsoft.store.partnercenter.logging.ILogger.logWarning*
+  type: Method
+  package: com.microsoft.store.partnercenter.logging
+  summary: Logs a warning.
   syntax:
-    content: "public abstract void logWarning(String message)"
+    content: public abstract void logWarning(String message)
     parameters:
-    - id: "message"
-      type: "java.lang.String"
-      description: "The warning message."
+    - id: message
+      type: java.lang.String
+      description: The warning message.
 references:
-- uid: "java.lang.String"
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.logging.ILogger.logInformation*"
-  name: "logInformation"
-  nameWithType: "ILogger.logInformation"
-  fullName: "com.microsoft.store.partnercenter.logging.ILogger.logInformation"
-  package: "com.microsoft.store.partnercenter.logging"
-- uid: "com.microsoft.store.partnercenter.logging.ILogger.logWarning*"
-  name: "logWarning"
-  nameWithType: "ILogger.logWarning"
-  fullName: "com.microsoft.store.partnercenter.logging.ILogger.logWarning"
-  package: "com.microsoft.store.partnercenter.logging"
-- uid: "com.microsoft.store.partnercenter.logging.ILogger.logError*"
-  name: "logError"
-  nameWithType: "ILogger.logError"
-  fullName: "com.microsoft.store.partnercenter.logging.ILogger.logError"
-  package: "com.microsoft.store.partnercenter.logging"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.logging.ILogger.logInformation*
+  name: logInformation
+  nameWithType: ILogger.logInformation
+  fullName: com.microsoft.store.partnercenter.logging.ILogger.logInformation
+  package: com.microsoft.store.partnercenter.logging
+- uid: com.microsoft.store.partnercenter.logging.ILogger.logWarning*
+  name: logWarning
+  nameWithType: ILogger.logWarning
+  fullName: com.microsoft.store.partnercenter.logging.ILogger.logWarning
+  package: com.microsoft.store.partnercenter.logging
+- uid: com.microsoft.store.partnercenter.logging.ILogger.logError*
+  name: logError
+  nameWithType: ILogger.logError
+  fullName: com.microsoft.store.partnercenter.logging.ILogger.logError
+  package: com.microsoft.store.partnercenter.logging

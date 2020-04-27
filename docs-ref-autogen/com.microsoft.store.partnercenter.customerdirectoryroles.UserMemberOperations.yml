@@ -1,170 +1,173 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations"
-  id: "UserMemberOperations"
-  parent: "com.microsoft.store.partnercenter.customerdirectoryroles"
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations
+  id: UserMemberOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles
   children:
-  - "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)"
-  - "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete()"
+  - com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
+  - com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete()
   langs:
-  - "java"
-  name: "UserMemberOperations"
-  nameWithType: "UserMemberOperations"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-  summary: "Implementation of Member Operations Use for management of directory roles and memberships"
+  - java
+  name: UserMemberOperations
+  nameWithType: UserMemberOperations
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: Implementation of Member Operations Use for management of directory roles and memberships
   syntax:
-    content: "public class UserMemberOperations extends BasePartnerComponent<TripletTuple<String,String,String>> implements IUserMember"
+    content: public class UserMemberOperations extends BasePartnerComponent<TripletTuple<String,String,String>> implements IUserMember
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
   implements:
-  - "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
+  - com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)"
-  id: "UserMemberOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
+  id: UserMemberOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations
   langs:
-  - "java"
-  name: "UserMemberOperations(IPartner rootPartnerOperations, String customerId, String roleId, String userId)"
-  nameWithType: "UserMemberOperations.UserMemberOperations(IPartner rootPartnerOperations, String customerId, String roleId, String userId)"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations(IPartner rootPartnerOperations, String customerId, String roleId, String userId)"
-  overload: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-  summary: "Initializes a new instance of the UserMemberOperations class."
+  - java
+  name: UserMemberOperations(IPartner rootPartnerOperations, String customerId, String roleId, String userId)
+  nameWithType: UserMemberOperations.UserMemberOperations(IPartner rootPartnerOperations, String customerId, String roleId, String userId)
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations(IPartner rootPartnerOperations, String customerId, String roleId, String userId)
+  overload: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: Initializes a new instance of the UserMemberOperations class.
   syntax:
-    content: "public UserMemberOperations(IPartner rootPartnerOperations, String customerId, String roleId, String userId)"
+    content: public UserMemberOperations(IPartner rootPartnerOperations, String customerId, String roleId, String userId)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The partner operations instance."
-    - id: "customerId"
-      type: "java.lang.String"
-      description: "The customer identifier."
-    - id: "roleId"
-      type: "java.lang.String"
-      description: "The directory role identifier."
-    - id: "userId"
-      type: "java.lang.String"
-      description: "The user identifier."
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete()"
-  id: "delete()"
-  parent: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The partner operations instance.
+    - id: customerId
+      type: java.lang.String
+      description: The customer identifier.
+    - id: roleId
+      type: java.lang.String
+      description: The directory role identifier.
+    - id: userId
+      type: java.lang.String
+      description: The user identifier.
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete()
+  id: delete()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations
   langs:
-  - "java"
-  name: "delete()"
-  nameWithType: "UserMemberOperations.delete()"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete()"
-  overload: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-  summary: "Remove directory user member from directory role."
+  - java
+  name: delete()
+  nameWithType: UserMemberOperations.delete()
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete()
+  overload: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete*
+  type: Method
+  package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: Remove directory user member from directory role.
   syntax:
-    content: "public void delete()"
+    content: public void delete()
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations*"
-  name: "UserMemberOperations"
-  nameWithType: "UserMemberOperations.UserMemberOperations"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete*"
-  name: "delete"
-  nameWithType: "UserMemberOperations.delete"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
-  name: "BasePartnerComponent<TripletTuple<String,String,String>>"
-  nameWithType: "BasePartnerComponent<TripletTuple<String,String,String>>"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
-  name: "IUserMember"
-  nameWithType: "IUserMember"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-- uid: "java.lang.String,java.lang.String,java.lang.String"
-  name: "String,String,String"
-  nameWithType: "String,String,String"
-  fullName: "java.lang.String,java.lang.String,java.lang.String"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  name: "BasePartnerComponent"
-  nameWithType: "BasePartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
-- uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-  name: "TripletTuple"
-  nameWithType: "TripletTuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations*
+  name: UserMemberOperations
+  nameWithType: UserMemberOperations.UserMemberOperations
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations
+  package: com.microsoft.store.partnercenter.customerdirectoryroles
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete*
+  name: delete
+  nameWithType: UserMemberOperations.delete
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete
+  package: com.microsoft.store.partnercenter.customerdirectoryroles
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
+  name: BasePartnerComponent<TripletTuple<String,String,String>>
+  nameWithType: BasePartnerComponent<TripletTuple<String,String,String>>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
+  name: IUserMember
+  nameWithType: IUserMember
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- uid: java.lang.String,java.lang.String,java.lang.String
+  name: String,String,String
+  nameWithType: String,String,String
+  fullName: java.lang.String,java.lang.String,java.lang.String
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  name: BasePartnerComponent
+  nameWithType: BasePartnerComponent
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
+- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
+  name: TripletTuple
+  nameWithType: TripletTuple
+  fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple

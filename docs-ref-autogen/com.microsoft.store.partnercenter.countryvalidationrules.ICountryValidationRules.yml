@@ -1,59 +1,61 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules"
-  id: "ICountryValidationRules"
-  parent: "com.microsoft.store.partnercenter.countryvalidationrules"
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
+  id: ICountryValidationRules
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.countryvalidationrules
   children:
-  - "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get()"
+  - com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get()
   langs:
-  - "java"
-  name: "ICountryValidationRules"
-  nameWithType: "ICountryValidationRules"
-  fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.countryvalidationrules"
-  summary: "Represents the behavior of a specific country validation rules."
+  - java
+  name: ICountryValidationRules
+  nameWithType: ICountryValidationRules
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
+  type: Interface
+  package: com.microsoft.store.partnercenter.countryvalidationrules
+  summary: Represents the behavior of a specific country validation rules.
   syntax:
-    content: "public interface ICountryValidationRules extends IPartnerComponentString, IEntityGetOperations<CountryValidationRules>"
+    content: public interface ICountryValidationRules extends IPartnerComponentString, IEntityGetOperations<CountryValidationRules>
   implements:
-  - "com.microsoft.store.partnercenter.IPartnerComponentString"
-  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules>"
-- uid: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules"
+  - com.microsoft.store.partnercenter.IPartnerComponentString
+  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules>
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "ICountryValidationRules.get()"
-  fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get()"
-  overload: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.countryvalidationrules"
-  summary: "Retrieves the country validation rules."
+  - java
+  name: get()
+  nameWithType: ICountryValidationRules.get()
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get()
+  overload: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.countryvalidationrules
+  summary: Retrieves the country validation rules.
   syntax:
-    content: "public abstract CountryValidationRules get()"
+    content: public abstract CountryValidationRules get()
     return:
-      type: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules"
-      description: "The validation rules for the country."
+      type: com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules
+      description: The validation rules for the country.
 references:
-- uid: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules"
-  name: "CountryValidationRules"
-  nameWithType: "CountryValidationRules"
-  fullName: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules"
-- uid: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get*"
-  name: "get"
-  nameWithType: "ICountryValidationRules.get"
-  fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get"
-  package: "com.microsoft.store.partnercenter.countryvalidationrules"
-- uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  name: "IPartnerComponentString"
-  nameWithType: "IPartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules>"
-  name: "IEntityGetOperations<CountryValidationRules>"
-  nameWithType: "IEntityGetOperations<CountryValidationRules>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules>"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  name: "IEntityGetOperations"
-  nameWithType: "IEntityGetOperations"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+- uid: com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules
+  name: CountryValidationRules
+  nameWithType: CountryValidationRules
+  fullName: com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules
+- uid: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get*
+  name: get
+  nameWithType: ICountryValidationRules.get
+  fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get
+  package: com.microsoft.store.partnercenter.countryvalidationrules
+- uid: com.microsoft.store.partnercenter.IPartnerComponentString
+  name: IPartnerComponentString
+  nameWithType: IPartnerComponentString
+  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules>
+  name: IEntityGetOperations<CountryValidationRules>
+  nameWithType: IEntityGetOperations<CountryValidationRules>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules>
+- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+  name: IEntityGetOperations
+  nameWithType: IEntityGetOperations
+  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations

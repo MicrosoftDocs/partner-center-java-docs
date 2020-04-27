@@ -1,64 +1,66 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations"
-  id: "IPagedEntityCollectionRetrievalOperations"
-  parent: "com.microsoft.store.partnercenter.genericoperations"
+- uid: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations
+  id: IPagedEntityCollectionRetrievalOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.genericoperations
   children:
-  - "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get(int,int)"
+  - com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get(int,int)
   langs:
-  - "java"
-  name: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
-  nameWithType: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
-  type: "Interface"
-  package: "com.microsoft.store.partnercenter.genericoperations"
-  summary: "A generic interface which represents paged entity retrieval operations. The entity type.The entity collection type."
+  - java
+  name: IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
+  nameWithType: IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
+  fullName: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
+  type: Interface
+  package: com.microsoft.store.partnercenter.genericoperations
+  summary: A generic interface which represents paged entity retrieval operations. The entity type.The entity collection type.
   syntax:
-    content: "public interface IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
+    content: public interface IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
     typeParameters:
-    - id: "T"
-    - id: "TResourceCollection"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get(int,int)"
-  id: "get(int,int)"
-  parent: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations"
+    - id: T
+    - id: TResourceCollection
+- uid: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get(int,int)
+  id: get(int,int)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations
   langs:
-  - "java"
-  name: "get(int offset, int size)"
-  nameWithType: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get(int offset, int size)"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get(int offset, int size)"
-  overload: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.genericoperations"
-  summary: "Retrieves a subset of entities."
+  - java
+  name: get(int offset, int size)
+  nameWithType: IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get(int offset, int size)
+  fullName: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get(int offset, int size)
+  overload: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.genericoperations
+  summary: Retrieves a subset of entities.
   syntax:
-    content: "public abstract TResourceCollection get(int offset, int size)"
+    content: public abstract TResourceCollection get(int offset, int size)
     parameters:
-    - id: "offset"
-      type: "int"
-      description: "The starting index."
-    - id: "size"
-      type: "int"
-      description: "The maximum number of entities to return."
+    - id: offset
+      type: int
+      description: The starting index.
+    - id: size
+      type: int
+      description: The maximum number of entities to return.
     return:
-      type: "TResourceCollection"
-      description: "The requested entities subset."
+      type: TResourceCollection
+      description: The requested entities subset.
 references:
-- uid: "int"
+- uid: int
   spec.java:
-  - uid: "int"
-    name: "int"
-    fullName: "int"
-- uid: "TResourceCollection"
+  - uid: int
+    name: int
+    fullName: int
+- uid: TResourceCollection
   spec.java:
-  - uid: "TResourceCollection"
-    name: "TResourceCollection"
-    fullName: "TResourceCollection"
-- uid: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get*"
-  name: "get"
-  nameWithType: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get"
-  fullName: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get"
-  package: "com.microsoft.store.partnercenter.genericoperations"
-- uid: "T"
-  name: "T"
-  nameWithType: "T"
-  fullName: "T"
+  - uid: TResourceCollection
+    name: TResourceCollection
+    fullName: TResourceCollection
+- uid: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get*
+  name: get
+  nameWithType: IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get
+  fullName: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get
+  package: com.microsoft.store.partnercenter.genericoperations
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

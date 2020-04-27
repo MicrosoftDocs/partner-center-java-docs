@@ -1,872 +1,902 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations"
-  id: "CustomerOperations"
-  parent: "com.microsoft.store.partnercenter.customers"
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations
+  id: CustomerOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers
   children:
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.delete()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.get()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers()"
-  - "com.microsoft.store.partnercenter.customers.CustomerOperations.patch(com.microsoft.store.partnercenter.models.customers.Customer)"
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.delete()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.get()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers()
+  - com.microsoft.store.partnercenter.customers.CustomerOperations.patch(com.microsoft.store.partnercenter.models.customers.Customer)
   langs:
-  - "java"
-  name: "CustomerOperations"
-  nameWithType: "CustomerOperations"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Implements a single customer operations."
+  - java
+  name: CustomerOperations
+  nameWithType: CustomerOperations
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.customers
+  summary: Implements a single customer operations.
   syntax:
-    content: "public class CustomerOperations extends BasePartnerComponentString implements ICustomer"
+    content: public class CustomerOperations extends BasePartnerComponentString implements ICustomer
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
-  - "com.microsoft.store.partnercenter.BasePartnerComponentString"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
   implements:
-  - "com.microsoft.store.partnercenter.customers.ICustomer"
+  - com.microsoft.store.partnercenter.customers.ICustomer
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  id: "CustomerOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  id: CustomerOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "CustomerOperations(IPartner rootPartnerOperations, String customerId)"
-  nameWithType: "CustomerOperations.CustomerOperations(IPartner rootPartnerOperations, String customerId)"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations(IPartner rootPartnerOperations, String customerId)"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Initializes a new instance of the CustomerOperations class."
+  - java
+  name: CustomerOperations(IPartner rootPartnerOperations, String customerId)
+  nameWithType: CustomerOperations.CustomerOperations(IPartner rootPartnerOperations, String customerId)
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations(IPartner rootPartnerOperations, String customerId)
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.customers
+  summary: Initializes a new instance of the CustomerOperations class.
   syntax:
-    content: "public CustomerOperations(IPartner rootPartnerOperations, String customerId)"
+    content: public CustomerOperations(IPartner rootPartnerOperations, String customerId)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-    - id: "customerId"
-      type: "java.lang.String"
-      description: "The customer identifier."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.delete()"
-  id: "delete()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+    - id: customerId
+      type: java.lang.String
+      description: The customer identifier.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.delete()
+  id: delete()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "delete()"
-  nameWithType: "CustomerOperations.delete()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.delete()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.delete*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Deletes the customer from a testing in production account. This only works for customer in the integration sandbox."
+  - java
+  name: delete()
+  nameWithType: CustomerOperations.delete()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.delete()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.delete*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Deletes the customer from a testing in production account. This only works for customer in the integration sandbox.
   syntax:
-    content: "public void delete()"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+    content: public void delete()
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "CustomerOperations.get()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.get()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Retrieves information of a specific customer."
+  - java
+  name: get()
+  nameWithType: CustomerOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.get()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Retrieves information of a specific customer.
   syntax:
-    content: "public Customer get()"
+    content: public Customer get()
     return:
-      type: "com.microsoft.store.partnercenter.models.customers.Customer"
-      description: "The customer object."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements()"
-  id: "getAgreements()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.models.customers.Customer
+      description: The customer object.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements()
+  id: getAgreements()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getAgreements()"
-  nameWithType: "CustomerOperations.getAgreements()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the accepted agreements for the customer."
+  - java
+  name: getAgreements()
+  nameWithType: CustomerOperations.getAgreements()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the accepted agreements for the customer.
   syntax:
-    content: "public ICustomerAgreementCollection getAgreements()"
+    content: public ICustomerAgreementCollection getAgreements()
     return:
-      type: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
-      description: "The customer accepted agreements."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics()"
-  id: "getAnalytics()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+      description: The customer accepted agreements.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics()
+  id: getAnalytics()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getAnalytics()"
-  nameWithType: "CustomerOperations.getAnalytics()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the customer level analytics collection object."
+  - java
+  name: getAnalytics()
+  nameWithType: CustomerOperations.getAnalytics()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the customer level analytics collection object.
   syntax:
-    content: "public ICustomerAnalyticsCollection getAnalytics()"
+    content: public ICustomerAnalyticsCollection getAnalytics()
     return:
-      type: "com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents()"
-  id: "getApplicationConsents()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents()
+  id: getApplicationConsents()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getApplicationConsents()"
-  nameWithType: "CustomerOperations.getApplicationConsents()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the application consents for the customer."
+  - java
+  name: getApplicationConsents()
+  nameWithType: CustomerOperations.getApplicationConsents()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the application consents for the customer.
   syntax:
-    content: "public ICustomerApplicationConsentCollection getApplicationConsents()"
+    content: public ICustomerApplicationConsentCollection getApplicationConsents()
     return:
-      type: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection"
-      description: "The customer application consents."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus()"
-  id: "getBatchUploadStatus()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+      description: The customer application consents.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus()
+  id: getBatchUploadStatus()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getBatchUploadStatus()"
-  nameWithType: "CustomerOperations.getBatchUploadStatus()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the devices batch upload job status behavior of the customer."
+  - java
+  name: getBatchUploadStatus()
+  nameWithType: CustomerOperations.getBatchUploadStatus()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the devices batch upload job status behavior of the customer.
   syntax:
-    content: "public IBatchJobStatusCollection getBatchUploadStatus()"
+    content: public IBatchJobStatusCollection getBatchUploadStatus()
     return:
-      type: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection"
-      description: "The device batch upload job status beavior of the customer."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts()"
-  id: "getCarts()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+      description: The device batch upload job status beavior of the customer.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts()
+  id: getCarts()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getCarts()"
-  nameWithType: "CustomerOperations.getCarts()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Gets the cart behavior for the customer."
+  - java
+  name: getCarts()
+  nameWithType: CustomerOperations.getCarts()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Gets the cart behavior for the customer.
   syntax:
-    content: "public ICartCollection getCarts()"
+    content: public ICartCollection getCarts()
     return:
-      type: "com.microsoft.store.partnercenter.carts.ICartCollection"
-      description: "The customer carts."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies()"
-  id: "getConfigurationPolicies()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.carts.ICartCollection
+      description: The customer carts.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies()
+  id: getConfigurationPolicies()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getConfigurationPolicies()"
-  nameWithType: "CustomerOperations.getConfigurationPolicies()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the configuration policies behavior for the customer."
+  - java
+  name: getConfigurationPolicies()
+  nameWithType: CustomerOperations.getConfigurationPolicies()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the configuration policies behavior for the customer.
   syntax:
-    content: "public IConfigurationPolicyCollection getConfigurationPolicies()"
+    content: public IConfigurationPolicyCollection getConfigurationPolicies()
     return:
-      type: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches()"
-  id: "getDeviceBatches()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches()
+  id: getDeviceBatches()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getDeviceBatches()"
-  nameWithType: "CustomerOperations.getDeviceBatches()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the devices batches behavior of the customer."
+  - java
+  name: getDeviceBatches()
+  nameWithType: CustomerOperations.getDeviceBatches()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the devices batches behavior of the customer.
   syntax:
-    content: "public IDevicesBatchCollection getDeviceBatches()"
+    content: public IDevicesBatchCollection getDeviceBatches()
     return:
-      type: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection"
-      description: "The devices batches behavior of the customer."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy()"
-  id: "getDevicePolicy()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+      description: The devices batches behavior of the customer.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy()
+  id: getDevicePolicy()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getDevicePolicy()"
-  nameWithType: "CustomerOperations.getDevicePolicy()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the device policy behavior of the customer."
+  - java
+  name: getDevicePolicy()
+  nameWithType: CustomerOperations.getDevicePolicy()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the device policy behavior of the customer.
   syntax:
-    content: "public ICustomerDeviceCollection getDevicePolicy()"
+    content: public ICustomerDeviceCollection getDevicePolicy()
     return:
-      type: "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection"
-      description: "The device policy behavior of the customer."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles()"
-  id: "getDirectoryRoles()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+      description: The device policy behavior of the customer.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles()
+  id: getDirectoryRoles()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getDirectoryRoles()"
-  nameWithType: "CustomerOperations.getDirectoryRoles()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the Customer qualification."
+  - java
+  name: getDirectoryRoles()
+  nameWithType: CustomerOperations.getDirectoryRoles()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the Customer qualification.
   syntax:
-    content: "public IDirectoryRoleCollection getDirectoryRoles()"
+    content: public IDirectoryRoleCollection getDirectoryRoles()
     return:
-      type: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements()"
-  id: "getEntitlements()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements()
+  id: getEntitlements()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getEntitlements()"
-  nameWithType: "CustomerOperations.getEntitlements()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the entitlement collection object."
+  - java
+  name: getEntitlements()
+  nameWithType: CustomerOperations.getEntitlements()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the entitlement collection object.
   syntax:
-    content: "public IEntitlementCollection getEntitlements()"
+    content: public IEntitlementCollection getEntitlements()
     return:
-      type: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices()"
-  id: "getManagedServices()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices()
+  id: getManagedServices()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getManagedServices()"
-  nameWithType: "CustomerOperations.getManagedServices()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the managed services behavior for the customer."
+  - java
+  name: getManagedServices()
+  nameWithType: CustomerOperations.getManagedServices()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the managed services behavior for the customer.
   syntax:
-    content: "public IManagedServiceCollection getManagedServices()"
+    content: public IManagedServiceCollection getManagedServices()
     return:
-      type: "com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection"
-      description: "The customer managed services operations."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories()"
-  id: "getOfferCategories()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+      description: The customer managed services operations.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories()
+  id: getOfferCategories()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getOfferCategories()"
-  nameWithType: "CustomerOperations.getOfferCategories()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the Offer Categories behavior for the customer."
+  - java
+  name: getOfferCategories()
+  nameWithType: CustomerOperations.getOfferCategories()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the Offer Categories behavior for the customer.
   syntax:
-    content: "public ICustomerOfferCategoryCollection getOfferCategories()"
+    content: public ICustomerOfferCategoryCollection getOfferCategories()
     return:
-      type: "com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers()"
-  id: "getOffers()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers()
+  id: getOffers()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getOffers()"
-  nameWithType: "CustomerOperations.getOffers()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the Offers behavior for the customer."
+  - java
+  name: getOffers()
+  nameWithType: CustomerOperations.getOffers()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the Offers behavior for the customer.
   syntax:
-    content: "public ICustomerOfferCollection getOffers()"
+    content: public ICustomerOfferCollection getOffers()
     return:
-      type: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders()"
-  id: "getOrders()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders()
+  id: getOrders()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getOrders()"
-  nameWithType: "CustomerOperations.getOrders()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Gets the orders behavior for the customer."
+  - java
+  name: getOrders()
+  nameWithType: CustomerOperations.getOrders()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Gets the orders behavior for the customer.
   syntax:
-    content: "public IOrderCollection getOrders()"
+    content: public IOrderCollection getOrders()
     return:
-      type: "com.microsoft.store.partnercenter.orders.IOrderCollection"
-      description: "The customer orders."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts()"
-  id: "getProducts()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.orders.IOrderCollection
+      description: The customer orders.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts()
+  id: getProducts()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getProducts()"
-  nameWithType: "CustomerOperations.getProducts()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Gets the cart behavior for the customer."
+  - java
+  name: getProducts()
+  nameWithType: CustomerOperations.getProducts()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Gets the cart behavior for the customer.
   syntax:
-    content: "public ICustomerProductCollection getProducts()"
+    content: public ICustomerProductCollection getProducts()
     return:
-      type: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection"
-      description: "The customer carts."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles()"
-  id: "getProfiles()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection
+      description: The customer carts.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles()
+  id: getProfiles()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getProfiles()"
-  nameWithType: "CustomerOperations.getProfiles()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the profiles behavior for the customer."
+  - java
+  name: getProfiles()
+  nameWithType: CustomerOperations.getProfiles()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the profiles behavior for the customer.
   syntax:
-    content: "public ICustomerProfileCollection getProfiles()"
+    content: public ICustomerProfileCollection getProfiles()
     return:
-      type: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
-      description: "The customer profiles."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification()"
-  id: "getQualification()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
+      description: The customer profiles.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification()
+  id: getQualification()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getQualification()"
-  nameWithType: "CustomerOperations.getQualification()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the Customer qualification."
+  - java
+  name: getQualification()
+  nameWithType: CustomerOperations.getQualification()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the Customer qualification.
   syntax:
-    content: "public ICustomerQualification getQualification()"
+    content: public ICustomerQualification getQualification()
     return:
-      type: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships()"
-  id: "getRelationships()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships()
+  id: getRelationships()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getRelationships()"
-  nameWithType: "CustomerOperations.getRelationships()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the relationship collection behavior for the customer."
+  - java
+  name: getRelationships()
+  nameWithType: CustomerOperations.getRelationships()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the relationship collection behavior for the customer.
   syntax:
-    content: "public ICustomerRelationshipCollection getRelationships()"
+    content: public ICustomerRelationshipCollection getRelationships()
     return:
-      type: "com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts()"
-  id: "getServiceCosts()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts()
+  id: getServiceCosts()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getServiceCosts()"
-  nameWithType: "CustomerOperations.getServiceCosts()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Gets the cart behavior for the customer."
+  - java
+  name: getServiceCosts()
+  nameWithType: CustomerOperations.getServiceCosts()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Gets the cart behavior for the customer.
   syntax:
-    content: "public ICustomerServiceCostsCollection getServiceCosts()"
+    content: public ICustomerServiceCostsCollection getServiceCosts()
     return:
-      type: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection"
-      description: "The customer carts."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests()"
-  id: "getServiceRequests()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
+      description: The customer carts.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests()
+  id: getServiceRequests()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getServiceRequests()"
-  nameWithType: "CustomerOperations.getServiceRequests()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the service requests behavior for the customer."
+  - java
+  name: getServiceRequests()
+  nameWithType: CustomerOperations.getServiceRequests()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the service requests behavior for the customer.
   syntax:
-    content: "public IServiceRequestCollection getServiceRequests()"
+    content: public IServiceRequestCollection getServiceRequests()
     return:
-      type: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
-      description: "The customer service request operations."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus()"
-  id: "getSubscribedSkus()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+      description: The customer service request operations.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus()
+  id: getSubscribedSkus()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getSubscribedSkus()"
-  nameWithType: "CustomerOperations.getSubscribedSkus()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the subscribed SKUs for the customer."
+  - java
+  name: getSubscribedSkus()
+  nameWithType: CustomerOperations.getSubscribedSkus()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the subscribed SKUs for the customer.
   syntax:
-    content: "public ICustomerSubscribedSkuCollection getSubscribedSkus()"
+    content: public ICustomerSubscribedSkuCollection getSubscribedSkus()
     return:
-      type: "com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection"
-      description: "The customer usage spending budget operations."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions()"
-  id: "getSubscriptions()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+      description: The customer usage spending budget operations.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions()
+  id: getSubscriptions()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getSubscriptions()"
-  nameWithType: "CustomerOperations.getSubscriptions()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
+  - java
+  name: getSubscriptions()
+  nameWithType: CustomerOperations.getSubscriptions()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
   syntax:
-    content: "public ISubscriptionCollection getSubscriptions()"
+    content: public ISubscriptionCollection getSubscriptions()
     return:
-      type: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget()"
-  id: "getUsageBudget()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget()
+  id: getUsageBudget()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getUsageBudget()"
-  nameWithType: "CustomerOperations.getUsageBudget()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the usage spending budget behavior for the customer."
+  - java
+  name: getUsageBudget()
+  nameWithType: CustomerOperations.getUsageBudget()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the usage spending budget behavior for the customer.
   syntax:
-    content: "public ICustomerUsageSpendingBudget getUsageBudget()"
+    content: public ICustomerUsageSpendingBudget getUsageBudget()
     return:
-      type: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget"
-      description: "The customer usage spending budget operations."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary()"
-  id: "getUsageSummary()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+      description: The customer usage spending budget operations.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary()
+  id: getUsageSummary()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getUsageSummary()"
-  nameWithType: "CustomerOperations.getUsageSummary()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the customer usage summary behavior for the customer."
+  - java
+  name: getUsageSummary()
+  nameWithType: CustomerOperations.getUsageSummary()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the customer usage summary behavior for the customer.
   syntax:
-    content: "public ICustomerUsageSummary getUsageSummary()"
+    content: public ICustomerUsageSummary getUsageSummary()
     return:
-      type: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary"
-      description: "The customer usage summary operations."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers()"
-  id: "getUsers()"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
+      description: The customer usage summary operations.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers()
+  id: getUsers()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "getUsers()"
-  nameWithType: "CustomerOperations.getUsers()"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers()"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Obtains the users for the customer."
+  - java
+  name: getUsers()
+  nameWithType: CustomerOperations.getUsers()
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers()
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Obtains the users for the customer.
   syntax:
-    content: "public ICustomerUserCollection getUsers()"
+    content: public ICustomerUserCollection getUsers()
     return:
-      type: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
-      description: "The customer usage spending budget operations."
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.patch(com.microsoft.store.partnercenter.models.customers.Customer)"
-  id: "patch(com.microsoft.store.partnercenter.models.customers.Customer)"
-  parent: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+      type: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+      description: The customer usage spending budget operations.
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.patch(com.microsoft.store.partnercenter.models.customers.Customer)
+  id: patch(com.microsoft.store.partnercenter.models.customers.Customer)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.CustomerOperations
   langs:
-  - "java"
-  name: "patch(Customer customer)"
-  nameWithType: "CustomerOperations.patch(Customer customer)"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.patch(Customer customer)"
-  overload: "com.microsoft.store.partnercenter.customers.CustomerOperations.patch*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers"
-  summary: "Removes the relationship between the partner and customer when RelationshipToPartner == CustomerPartnerRelationship.NONE."
+  - java
+  name: patch(Customer customer)
+  nameWithType: CustomerOperations.patch(Customer customer)
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.patch(Customer customer)
+  overload: com.microsoft.store.partnercenter.customers.CustomerOperations.patch*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers
+  summary: Removes the relationship between the partner and customer when RelationshipToPartner == CustomerPartnerRelationship.NONE.
   syntax:
-    content: "public Customer patch(Customer customer)"
+    content: public Customer patch(Customer customer)
     parameters:
-    - id: "customer"
-      type: "com.microsoft.store.partnercenter.models.customers.Customer"
-      description: "A customer with RelationshipToPartner == CustomerPartnerRelationship.NONE."
+    - id: customer
+      type: com.microsoft.store.partnercenter.models.customers.Customer
+      description: A customer with RelationshipToPartner == CustomerPartnerRelationship.NONE.
     return:
-      type: "com.microsoft.store.partnercenter.models.customers.Customer"
-      description: "The information for the modified customer."
+      type: com.microsoft.store.partnercenter.models.customers.Customer
+      description: The information for the modified customer.
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "java.lang.String"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations*"
-  name: "CustomerOperations"
-  nameWithType: "CustomerOperations.CustomerOperations"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
-  name: "ICustomerAgreementCollection"
-  nameWithType: "ICustomerAgreementCollection"
-  fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements*"
-  name: "getAgreements"
-  nameWithType: "CustomerOperations.getAgreements"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection"
-  name: "ICustomerApplicationConsentCollection"
-  nameWithType: "ICustomerApplicationConsentCollection"
-  fullName: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents*"
-  name: "getApplicationConsents"
-  nameWithType: "CustomerOperations.getApplicationConsents"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.orders.IOrderCollection"
-  name: "IOrderCollection"
-  nameWithType: "IOrderCollection"
-  fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders*"
-  name: "getOrders"
-  nameWithType: "CustomerOperations.getOrders"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
-  name: "ICustomerProfileCollection"
-  nameWithType: "ICustomerProfileCollection"
-  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles*"
-  name: "getProfiles"
-  nameWithType: "CustomerOperations.getProfiles"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection"
-  name: "ISubscriptionCollection"
-  nameWithType: "ISubscriptionCollection"
-  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions*"
-  name: "getSubscriptions"
-  nameWithType: "CustomerOperations.getSubscriptions"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
-  name: "IServiceRequestCollection"
-  nameWithType: "IServiceRequestCollection"
-  fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests*"
-  name: "getServiceRequests"
-  nameWithType: "CustomerOperations.getServiceRequests"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection"
-  name: "IManagedServiceCollection"
-  nameWithType: "IManagedServiceCollection"
-  fullName: "com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices*"
-  name: "getManagedServices"
-  nameWithType: "CustomerOperations.getManagedServices"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection"
-  name: "ICustomerOfferCategoryCollection"
-  nameWithType: "ICustomerOfferCategoryCollection"
-  fullName: "com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories*"
-  name: "getOfferCategories"
-  nameWithType: "CustomerOperations.getOfferCategories"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection"
-  name: "ICustomerOfferCollection"
-  nameWithType: "ICustomerOfferCollection"
-  fullName: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers*"
-  name: "getOffers"
-  nameWithType: "CustomerOperations.getOffers"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary"
-  name: "ICustomerUsageSummary"
-  nameWithType: "ICustomerUsageSummary"
-  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary*"
-  name: "getUsageSummary"
-  nameWithType: "CustomerOperations.getUsageSummary"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget"
-  name: "ICustomerUsageSpendingBudget"
-  nameWithType: "ICustomerUsageSpendingBudget"
-  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget*"
-  name: "getUsageBudget"
-  nameWithType: "CustomerOperations.getUsageBudget"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
-  name: "ICustomerQualification"
-  nameWithType: "ICustomerQualification"
-  fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification*"
-  name: "getQualification"
-  nameWithType: "CustomerOperations.getQualification"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
-  name: "ICustomerUserCollection"
-  nameWithType: "ICustomerUserCollection"
-  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers*"
-  name: "getUsers"
-  nameWithType: "CustomerOperations.getUsers"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection"
-  name: "IDirectoryRoleCollection"
-  nameWithType: "IDirectoryRoleCollection"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles*"
-  name: "getDirectoryRoles"
-  nameWithType: "CustomerOperations.getDirectoryRoles"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection"
-  name: "ICustomerSubscribedSkuCollection"
-  nameWithType: "ICustomerSubscribedSkuCollection"
-  fullName: "com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus*"
-  name: "getSubscribedSkus"
-  nameWithType: "CustomerOperations.getSubscribedSkus"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.carts.ICartCollection"
-  name: "ICartCollection"
-  nameWithType: "ICartCollection"
-  fullName: "com.microsoft.store.partnercenter.carts.ICartCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts*"
-  name: "getCarts"
-  nameWithType: "CustomerOperations.getCarts"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection"
-  name: "ICustomerProductCollection"
-  nameWithType: "ICustomerProductCollection"
-  fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts*"
-  name: "getProducts"
-  nameWithType: "CustomerOperations.getProducts"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection"
-  name: "ICustomerServiceCostsCollection"
-  nameWithType: "ICustomerServiceCostsCollection"
-  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts*"
-  name: "getServiceCosts"
-  nameWithType: "CustomerOperations.getServiceCosts"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection"
-  name: "IDevicesBatchCollection"
-  nameWithType: "IDevicesBatchCollection"
-  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches*"
-  name: "getDeviceBatches"
-  nameWithType: "CustomerOperations.getDeviceBatches"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection"
-  name: "ICustomerDeviceCollection"
-  nameWithType: "ICustomerDeviceCollection"
-  fullName: "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy*"
-  name: "getDevicePolicy"
-  nameWithType: "CustomerOperations.getDevicePolicy"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection"
-  name: "IBatchJobStatusCollection"
-  nameWithType: "IBatchJobStatusCollection"
-  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus*"
-  name: "getBatchUploadStatus"
-  nameWithType: "CustomerOperations.getBatchUploadStatus"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection"
-  name: "ICustomerRelationshipCollection"
-  nameWithType: "ICustomerRelationshipCollection"
-  fullName: "com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships*"
-  name: "getRelationships"
-  nameWithType: "CustomerOperations.getRelationships"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection"
-  name: "ICustomerAnalyticsCollection"
-  nameWithType: "ICustomerAnalyticsCollection"
-  fullName: "com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics*"
-  name: "getAnalytics"
-  nameWithType: "CustomerOperations.getAnalytics"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection"
-  name: "IEntitlementCollection"
-  nameWithType: "IEntitlementCollection"
-  fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements*"
-  name: "getEntitlements"
-  nameWithType: "CustomerOperations.getEntitlements"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection"
-  name: "IConfigurationPolicyCollection"
-  nameWithType: "IConfigurationPolicyCollection"
-  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies*"
-  name: "getConfigurationPolicies"
-  nameWithType: "CustomerOperations.getConfigurationPolicies"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.models.customers.Customer"
-  name: "Customer"
-  nameWithType: "Customer"
-  fullName: "com.microsoft.store.partnercenter.models.customers.Customer"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.get*"
-  name: "get"
-  nameWithType: "CustomerOperations.get"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.get"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.patch*"
-  name: "patch"
-  nameWithType: "CustomerOperations.patch"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.patch"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations.delete*"
-  name: "delete"
-  nameWithType: "CustomerOperations.delete"
-  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.delete"
-  package: "com.microsoft.store.partnercenter.customers"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  name: "BasePartnerComponentString"
-  nameWithType: "BasePartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.customers.ICustomer"
-  name: "ICustomer"
-  nameWithType: "ICustomer"
-  fullName: "com.microsoft.store.partnercenter.customers.ICustomer"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations*
+  name: CustomerOperations
+  nameWithType: CustomerOperations.CustomerOperations
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+  name: ICustomerAgreementCollection
+  nameWithType: ICustomerAgreementCollection
+  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements*
+  name: getAgreements
+  nameWithType: CustomerOperations.getAgreements
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+  name: ICustomerApplicationConsentCollection
+  nameWithType: ICustomerApplicationConsentCollection
+  fullName: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents*
+  name: getApplicationConsents
+  nameWithType: CustomerOperations.getApplicationConsents
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollection
+  name: IOrderCollection
+  nameWithType: IOrderCollection
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders*
+  name: getOrders
+  nameWithType: CustomerOperations.getOrders
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
+  name: ICustomerProfileCollection
+  nameWithType: ICustomerProfileCollection
+  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles*
+  name: getProfiles
+  nameWithType: CustomerOperations.getProfiles
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+  name: ISubscriptionCollection
+  nameWithType: ISubscriptionCollection
+  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions*
+  name: getSubscriptions
+  nameWithType: CustomerOperations.getSubscriptions
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+  name: IServiceRequestCollection
+  nameWithType: IServiceRequestCollection
+  fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests*
+  name: getServiceRequests
+  nameWithType: CustomerOperations.getServiceRequests
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+  name: IManagedServiceCollection
+  nameWithType: IManagedServiceCollection
+  fullName: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices*
+  name: getManagedServices
+  nameWithType: CustomerOperations.getManagedServices
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+  name: ICustomerOfferCategoryCollection
+  nameWithType: ICustomerOfferCategoryCollection
+  fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories*
+  name: getOfferCategories
+  nameWithType: CustomerOperations.getOfferCategories
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+  name: ICustomerOfferCollection
+  nameWithType: ICustomerOfferCollection
+  fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers*
+  name: getOffers
+  nameWithType: CustomerOperations.getOffers
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
+  name: ICustomerUsageSummary
+  nameWithType: ICustomerUsageSummary
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary*
+  name: getUsageSummary
+  nameWithType: CustomerOperations.getUsageSummary
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+  name: ICustomerUsageSpendingBudget
+  nameWithType: ICustomerUsageSpendingBudget
+  fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget*
+  name: getUsageBudget
+  nameWithType: CustomerOperations.getUsageBudget
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+  name: ICustomerQualification
+  nameWithType: ICustomerQualification
+  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification*
+  name: getQualification
+  nameWithType: CustomerOperations.getQualification
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+  name: ICustomerUserCollection
+  nameWithType: ICustomerUserCollection
+  fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers*
+  name: getUsers
+  nameWithType: CustomerOperations.getUsers
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+  name: IDirectoryRoleCollection
+  nameWithType: IDirectoryRoleCollection
+  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles*
+  name: getDirectoryRoles
+  nameWithType: CustomerOperations.getDirectoryRoles
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+  name: ICustomerSubscribedSkuCollection
+  nameWithType: ICustomerSubscribedSkuCollection
+  fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus*
+  name: getSubscribedSkus
+  nameWithType: CustomerOperations.getSubscribedSkus
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.carts.ICartCollection
+  name: ICartCollection
+  nameWithType: ICartCollection
+  fullName: com.microsoft.store.partnercenter.carts.ICartCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts*
+  name: getCarts
+  nameWithType: CustomerOperations.getCarts
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection
+  name: ICustomerProductCollection
+  nameWithType: ICustomerProductCollection
+  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts*
+  name: getProducts
+  nameWithType: CustomerOperations.getProducts
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
+  name: ICustomerServiceCostsCollection
+  nameWithType: ICustomerServiceCostsCollection
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts*
+  name: getServiceCosts
+  nameWithType: CustomerOperations.getServiceCosts
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+  name: IDevicesBatchCollection
+  nameWithType: IDevicesBatchCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches*
+  name: getDeviceBatches
+  nameWithType: CustomerOperations.getDeviceBatches
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+  name: ICustomerDeviceCollection
+  nameWithType: ICustomerDeviceCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy*
+  name: getDevicePolicy
+  nameWithType: CustomerOperations.getDevicePolicy
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+  name: IBatchJobStatusCollection
+  nameWithType: IBatchJobStatusCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus*
+  name: getBatchUploadStatus
+  nameWithType: CustomerOperations.getBatchUploadStatus
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+  name: ICustomerRelationshipCollection
+  nameWithType: ICustomerRelationshipCollection
+  fullName: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships*
+  name: getRelationships
+  nameWithType: CustomerOperations.getRelationships
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
+  name: ICustomerAnalyticsCollection
+  nameWithType: ICustomerAnalyticsCollection
+  fullName: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics*
+  name: getAnalytics
+  nameWithType: CustomerOperations.getAnalytics
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+  name: IEntitlementCollection
+  nameWithType: IEntitlementCollection
+  fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements*
+  name: getEntitlements
+  nameWithType: CustomerOperations.getEntitlements
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+  name: IConfigurationPolicyCollection
+  nameWithType: IConfigurationPolicyCollection
+  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies*
+  name: getConfigurationPolicies
+  nameWithType: CustomerOperations.getConfigurationPolicies
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.models.customers.Customer
+  name: Customer
+  nameWithType: Customer
+  fullName: com.microsoft.store.partnercenter.models.customers.Customer
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.get*
+  name: get
+  nameWithType: CustomerOperations.get
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.get
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.patch*
+  name: patch
+  nameWithType: CustomerOperations.patch
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.patch
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.customers.CustomerOperations.delete*
+  name: delete
+  nameWithType: CustomerOperations.delete
+  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations.delete
+  package: com.microsoft.store.partnercenter.customers
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+- uid: com.microsoft.store.partnercenter.customers.ICustomer
+  name: ICustomer
+  nameWithType: ICustomer
+  fullName: com.microsoft.store.partnercenter.customers.ICustomer
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()

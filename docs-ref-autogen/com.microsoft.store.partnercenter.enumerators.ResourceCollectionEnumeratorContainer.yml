@@ -1,532 +1,543 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
-  id: "ResourceCollectionEnumeratorContainer"
-  parent: "com.microsoft.store.partnercenter.enumerators"
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
+  id: ResourceCollectionEnumeratorContainer
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.enumerators
   children:
-  - "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer(com.microsoft.store.partnercenter.IPartner)"
-  - "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords()"
-  - "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers()"
-  - "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers()"
-  - "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems()"
-  - "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices()"
-  - "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers()"
-  - "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts()"
-  - "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests()"
-  - "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization()"
+  - com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer(com.microsoft.store.partnercenter.IPartner)
+  - com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords()
+  - com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers()
+  - com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers()
+  - com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems()
+  - com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices()
+  - com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers()
+  - com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts()
+  - com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests()
+  - com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization()
   langs:
-  - "java"
-  name: "ResourceCollectionEnumeratorContainer"
-  nameWithType: "ResourceCollectionEnumeratorContainer"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.enumerators"
-  summary: "Contains supported resource collection enumerators."
+  - java
+  name: ResourceCollectionEnumeratorContainer
+  nameWithType: ResourceCollectionEnumeratorContainer
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
+  type: Class
+  package: com.microsoft.store.partnercenter.enumerators
+  summary: Contains supported resource collection enumerators.
   syntax:
-    content: "public class ResourceCollectionEnumeratorContainer extends BasePartnerComponentString implements IResourceCollectionEnumeratorContainer"
+    content: public class ResourceCollectionEnumeratorContainer extends BasePartnerComponentString implements IResourceCollectionEnumeratorContainer
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
-  - "com.microsoft.store.partnercenter.BasePartnerComponentString"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - com.microsoft.store.partnercenter.BasePartnerComponentString
   implements:
-  - "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer"
+  - com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer(com.microsoft.store.partnercenter.IPartner)"
-  id: "ResourceCollectionEnumeratorContainer(com.microsoft.store.partnercenter.IPartner)"
-  parent: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer(com.microsoft.store.partnercenter.IPartner)
+  id: ResourceCollectionEnumeratorContainer(com.microsoft.store.partnercenter.IPartner)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   langs:
-  - "java"
-  name: "ResourceCollectionEnumeratorContainer(IPartner rootPartnerOperations)"
-  nameWithType: "ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer(IPartner rootPartnerOperations)"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer(IPartner rootPartnerOperations)"
-  overload: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.enumerators"
-  summary: "Initializes a new instance of the ResourceCollectionEnumeratorContainer class."
+  - java
+  name: ResourceCollectionEnumeratorContainer(IPartner rootPartnerOperations)
+  nameWithType: ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer(IPartner rootPartnerOperations)
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer(IPartner rootPartnerOperations)
+  overload: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.enumerators
+  summary: Initializes a new instance of the ResourceCollectionEnumeratorContainer class.
   syntax:
-    content: "public ResourceCollectionEnumeratorContainer(IPartner rootPartnerOperations)"
+    content: public ResourceCollectionEnumeratorContainer(IPartner rootPartnerOperations)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords()"
-  id: "getAuditRecords()"
-  parent: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords()
+  id: getAuditRecords()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   langs:
-  - "java"
-  name: "getAuditRecords()"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getAuditRecords()"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords()"
-  overload: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.enumerators"
-  summary: "Gets a factory that creates audit records collection enumerators."
+  - java
+  name: getAuditRecords()
+  nameWithType: ResourceCollectionEnumeratorContainer.getAuditRecords()
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords()
+  overload: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords*
+  type: Method
+  package: com.microsoft.store.partnercenter.enumerators
+  summary: Gets a factory that creates audit records collection enumerators.
   syntax:
-    content: "public IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<AuditRecord>> getAuditRecords()"
+    content: public IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<AuditRecord>> getAuditRecords()
     return:
-      type: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>>"
-      description: "A factory that creates audit records collection enumerators."
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers()"
-  id: "getCustomerUsers()"
-  parent: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
+      type: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>>
+      description: A factory that creates audit records collection enumerators.
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers()
+  id: getCustomerUsers()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   langs:
-  - "java"
-  name: "getCustomerUsers()"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getCustomerUsers()"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers()"
-  overload: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.enumerators"
-  summary: "Gets a factory that creates customer collection enumerators."
+  - java
+  name: getCustomerUsers()
+  nameWithType: ResourceCollectionEnumeratorContainer.getCustomerUsers()
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers()
+  overload: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers*
+  type: Method
+  package: com.microsoft.store.partnercenter.enumerators
+  summary: Gets a factory that creates customer collection enumerators.
   syntax:
-    content: "public IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<CustomerUser>> getCustomerUsers()"
+    content: public IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<CustomerUser>> getCustomerUsers()
     return:
-      type: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>>"
-      description: "A factory that creates customer collection enumerators."
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers()"
-  id: "getCustomers()"
-  parent: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
+      type: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>>
+      description: A factory that creates customer collection enumerators.
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers()
+  id: getCustomers()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   langs:
-  - "java"
-  name: "getCustomers()"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getCustomers()"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers()"
-  overload: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.enumerators"
-  summary: "Gets a factory that creates customer collection enumerators."
+  - java
+  name: getCustomers()
+  nameWithType: ResourceCollectionEnumeratorContainer.getCustomers()
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers()
+  overload: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers*
+  type: Method
+  package: com.microsoft.store.partnercenter.enumerators
+  summary: Gets a factory that creates customer collection enumerators.
   syntax:
-    content: "public IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<Customer>> getCustomers()"
+    content: public IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<Customer>> getCustomers()
     return:
-      type: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.customers.Customer>>"
-      description: "A factory that creates customer collection enumerators."
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems()"
-  id: "getInvoiceLineItems()"
-  parent: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
+      type: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.customers.Customer>>
+      description: A factory that creates customer collection enumerators.
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems()
+  id: getInvoiceLineItems()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   langs:
-  - "java"
-  name: "getInvoiceLineItems()"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getInvoiceLineItems()"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems()"
-  overload: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.enumerators"
-  summary: "Gets a factory that creates invoice line item collection enumerators."
+  - java
+  name: getInvoiceLineItems()
+  nameWithType: ResourceCollectionEnumeratorContainer.getInvoiceLineItems()
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems()
+  overload: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems*
+  type: Method
+  package: com.microsoft.store.partnercenter.enumerators
+  summary: Gets a factory that creates invoice line item collection enumerators.
   syntax:
-    content: "public IResourceCollectionEnumeratorFactory<ResourceCollection<InvoiceLineItem>> getInvoiceLineItems()"
+    content: public IResourceCollectionEnumeratorFactory<ResourceCollection<InvoiceLineItem>> getInvoiceLineItems()
     return:
-      type: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
-      description: "A factory that creates invoice line item collection enumerators."
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices()"
-  id: "getInvoices()"
-  parent: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
+      type: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>
+      description: A factory that creates invoice line item collection enumerators.
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices()
+  id: getInvoices()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   langs:
-  - "java"
-  name: "getInvoices()"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getInvoices()"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices()"
-  overload: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.enumerators"
-  summary: "Gets a factory that creates invoice collection enumerators."
+  - java
+  name: getInvoices()
+  nameWithType: ResourceCollectionEnumeratorContainer.getInvoices()
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices()
+  overload: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices*
+  type: Method
+  package: com.microsoft.store.partnercenter.enumerators
+  summary: Gets a factory that creates invoice collection enumerators.
   syntax:
-    content: "public IResourceCollectionEnumeratorFactory<ResourceCollection<Invoice>> getInvoices()"
+    content: public IResourceCollectionEnumeratorFactory<ResourceCollection<Invoice>> getInvoices()
     return:
-      type: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.Invoice>>"
-      description: "A factory that creates invoice collection enumerators."
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers()"
-  id: "getOffers()"
-  parent: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
+      type: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.Invoice>>
+      description: A factory that creates invoice collection enumerators.
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers()
+  id: getOffers()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   langs:
-  - "java"
-  name: "getOffers()"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getOffers()"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers()"
-  overload: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.enumerators"
-  summary: "Gets a factory that creates offer collection enumerators."
+  - java
+  name: getOffers()
+  nameWithType: ResourceCollectionEnumeratorContainer.getOffers()
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers()
+  overload: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers*
+  type: Method
+  package: com.microsoft.store.partnercenter.enumerators
+  summary: Gets a factory that creates offer collection enumerators.
   syntax:
-    content: "public IResourceCollectionEnumeratorFactory<ResourceCollection<Offer>> getOffers()"
+    content: public IResourceCollectionEnumeratorFactory<ResourceCollection<Offer>> getOffers()
     return:
-      type: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>>"
-      description: "A factory that creates offer collection enumerators."
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts()"
-  id: "getProducts()"
-  parent: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
+      type: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>>
+      description: A factory that creates offer collection enumerators.
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts()
+  id: getProducts()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   langs:
-  - "java"
-  name: "getProducts()"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getProducts()"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts()"
-  overload: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.enumerators"
-  summary: "Gets a factory that creates product collection enumerators."
+  - java
+  name: getProducts()
+  nameWithType: ResourceCollectionEnumeratorContainer.getProducts()
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts()
+  overload: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts*
+  type: Method
+  package: com.microsoft.store.partnercenter.enumerators
+  summary: Gets a factory that creates product collection enumerators.
   syntax:
-    content: "public IResourceCollectionEnumeratorFactory<ResourceCollection<Product>> getProducts()"
+    content: public IResourceCollectionEnumeratorFactory<ResourceCollection<Product>> getProducts()
     return:
-      type: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>"
-      description: "A factory that creates product collection enumerators."
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests()"
-  id: "getServiceRequests()"
-  parent: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
+      type: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>
+      description: A factory that creates product collection enumerators.
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests()
+  id: getServiceRequests()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   langs:
-  - "java"
-  name: "getServiceRequests()"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getServiceRequests()"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests()"
-  overload: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.enumerators"
-  summary: "Gets a factory that creates service request collection enumerators."
+  - java
+  name: getServiceRequests()
+  nameWithType: ResourceCollectionEnumeratorContainer.getServiceRequests()
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests()
+  overload: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests*
+  type: Method
+  package: com.microsoft.store.partnercenter.enumerators
+  summary: Gets a factory that creates service request collection enumerators.
   syntax:
-    content: "public IResourceCollectionEnumeratorFactory<ResourceCollection<ServiceRequest>> getServiceRequests()"
+    content: public IResourceCollectionEnumeratorFactory<ResourceCollection<ServiceRequest>> getServiceRequests()
     return:
-      type: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>>"
-      description: "A factory that creates service request collection enumerators."
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization()"
-  id: "getUtilization()"
-  parent: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer"
+      type: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>>
+      description: A factory that creates service request collection enumerators.
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization()
+  id: getUtilization()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer
   langs:
-  - "java"
-  name: "getUtilization()"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getUtilization()"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization()"
-  overload: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.enumerators"
-  summary: "Gets a factory that create enumerators for utilization records for different subscriptions."
+  - java
+  name: getUtilization()
+  nameWithType: ResourceCollectionEnumeratorContainer.getUtilization()
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization()
+  overload: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization*
+  type: Method
+  package: com.microsoft.store.partnercenter.enumerators
+  summary: Gets a factory that create enumerators for utilization records for different subscriptions.
   syntax:
-    content: "public IUtilizationCollectionEnumeratorContainer getUtilization()"
+    content: public IUtilizationCollectionEnumeratorContainer getUtilization()
     return:
-      type: "com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer"
-      description: "A factory that create enumerators for utilization records for different subscriptions."
+      type: com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer
+      description: A factory that create enumerators for utilization records for different subscriptions.
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer*"
-  name: "ResourceCollectionEnumeratorContainer"
-  nameWithType: "ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer"
-  package: "com.microsoft.store.partnercenter.enumerators"
-- uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>>"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer*
+  name: ResourceCollectionEnumeratorContainer
+  nameWithType: ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.ResourceCollectionEnumeratorContainer
+  package: com.microsoft.store.partnercenter.enumerators
+- uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-    name: "IResourceCollectionEnumeratorFactory"
-    fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.offers.Offer"
-    name: "Offer"
-    fullName: "com.microsoft.store.partnercenter.models.offers.Offer"
-  - name: ">"
-    fullName: ">"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers*"
-  name: "getOffers"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getOffers"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers"
-  package: "com.microsoft.store.partnercenter.enumerators"
-- uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.customers.Customer>>"
+  - uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+    name: IResourceCollectionEnumeratorFactory
+    fullName: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.offers.Offer
+    name: Offer
+    fullName: com.microsoft.store.partnercenter.models.offers.Offer
+  - name: '>'
+    fullName: '>'
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers*
+  name: getOffers
+  nameWithType: ResourceCollectionEnumeratorContainer.getOffers
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getOffers
+  package: com.microsoft.store.partnercenter.enumerators
+- uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.customers.Customer>>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-    name: "IResourceCollectionEnumeratorFactory"
-    fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-    name: "SeekBasedResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.customers.Customer"
-    name: "Customer"
-    fullName: "com.microsoft.store.partnercenter.models.customers.Customer"
-  - name: ">"
-    fullName: ">"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers*"
-  name: "getCustomers"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getCustomers"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers"
-  package: "com.microsoft.store.partnercenter.enumerators"
-- uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>>"
+  - uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+    name: IResourceCollectionEnumeratorFactory
+    fullName: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+    name: SeekBasedResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.customers.Customer
+    name: Customer
+    fullName: com.microsoft.store.partnercenter.models.customers.Customer
+  - name: '>'
+    fullName: '>'
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers*
+  name: getCustomers
+  nameWithType: ResourceCollectionEnumeratorContainer.getCustomers
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomers
+  package: com.microsoft.store.partnercenter.enumerators
+- uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-    name: "IResourceCollectionEnumeratorFactory"
-    fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-    name: "SeekBasedResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-    name: "CustomerUser"
-    fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-  - name: ">"
-    fullName: ">"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers*"
-  name: "getCustomerUsers"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getCustomerUsers"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers"
-  package: "com.microsoft.store.partnercenter.enumerators"
-- uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.Invoice>>"
+  - uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+    name: IResourceCollectionEnumeratorFactory
+    fullName: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+    name: SeekBasedResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.users.CustomerUser
+    name: CustomerUser
+    fullName: com.microsoft.store.partnercenter.models.users.CustomerUser
+  - name: '>'
+    fullName: '>'
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers*
+  name: getCustomerUsers
+  nameWithType: ResourceCollectionEnumeratorContainer.getCustomerUsers
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getCustomerUsers
+  package: com.microsoft.store.partnercenter.enumerators
+- uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.Invoice>>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-    name: "IResourceCollectionEnumeratorFactory"
-    fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.invoices.Invoice"
-    name: "Invoice"
-    fullName: "com.microsoft.store.partnercenter.models.invoices.Invoice"
-  - name: ">"
-    fullName: ">"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices*"
-  name: "getInvoices"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getInvoices"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices"
-  package: "com.microsoft.store.partnercenter.enumerators"
-- uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>>"
+  - uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+    name: IResourceCollectionEnumeratorFactory
+    fullName: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.invoices.Invoice
+    name: Invoice
+    fullName: com.microsoft.store.partnercenter.models.invoices.Invoice
+  - name: '>'
+    fullName: '>'
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices*
+  name: getInvoices
+  nameWithType: ResourceCollectionEnumeratorContainer.getInvoices
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoices
+  package: com.microsoft.store.partnercenter.enumerators
+- uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-    name: "IResourceCollectionEnumeratorFactory"
-    fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
-    name: "ServiceRequest"
-    fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
-  - name: ">"
-    fullName: ">"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests*"
-  name: "getServiceRequests"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getServiceRequests"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests"
-  package: "com.microsoft.store.partnercenter.enumerators"
-- uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
+  - uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+    name: IResourceCollectionEnumeratorFactory
+    fullName: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest
+    name: ServiceRequest
+    fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest
+  - name: '>'
+    fullName: '>'
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests*
+  name: getServiceRequests
+  nameWithType: ResourceCollectionEnumeratorContainer.getServiceRequests
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getServiceRequests
+  package: com.microsoft.store.partnercenter.enumerators
+- uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-    name: "IResourceCollectionEnumeratorFactory"
-    fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
-    name: "InvoiceLineItem"
-    fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
-  - name: ">"
-    fullName: ">"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems*"
-  name: "getInvoiceLineItems"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getInvoiceLineItems"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems"
-  package: "com.microsoft.store.partnercenter.enumerators"
-- uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>>"
+  - uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+    name: IResourceCollectionEnumeratorFactory
+    fullName: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+    name: InvoiceLineItem
+    fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+  - name: '>'
+    fullName: '>'
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems*
+  name: getInvoiceLineItems
+  nameWithType: ResourceCollectionEnumeratorContainer.getInvoiceLineItems
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getInvoiceLineItems
+  package: com.microsoft.store.partnercenter.enumerators
+- uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-    name: "IResourceCollectionEnumeratorFactory"
-    fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-    name: "SeekBasedResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
-    name: "AuditRecord"
-    fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
-  - name: ">"
-    fullName: ">"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords*"
-  name: "getAuditRecords"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getAuditRecords"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords"
-  package: "com.microsoft.store.partnercenter.enumerators"
-- uid: "com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer"
-  name: "IUtilizationCollectionEnumeratorContainer"
-  nameWithType: "IUtilizationCollectionEnumeratorContainer"
-  fullName: "com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer"
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization*"
-  name: "getUtilization"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getUtilization"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization"
-  package: "com.microsoft.store.partnercenter.enumerators"
-- uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>"
+  - uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+    name: IResourceCollectionEnumeratorFactory
+    fullName: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+    name: SeekBasedResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.auditing.AuditRecord
+    name: AuditRecord
+    fullName: com.microsoft.store.partnercenter.models.auditing.AuditRecord
+  - name: '>'
+    fullName: '>'
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords*
+  name: getAuditRecords
+  nameWithType: ResourceCollectionEnumeratorContainer.getAuditRecords
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getAuditRecords
+  package: com.microsoft.store.partnercenter.enumerators
+- uid: com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer
+  name: IUtilizationCollectionEnumeratorContainer
+  nameWithType: IUtilizationCollectionEnumeratorContainer
+  fullName: com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization*
+  name: getUtilization
+  nameWithType: ResourceCollectionEnumeratorContainer.getUtilization
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getUtilization
+  package: com.microsoft.store.partnercenter.enumerators
+- uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-    name: "IResourceCollectionEnumeratorFactory"
-    fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.products.Product"
-    name: "Product"
-    fullName: "com.microsoft.store.partnercenter.models.products.Product"
-  - name: ">"
-    fullName: ">"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts*"
-  name: "getProducts"
-  nameWithType: "ResourceCollectionEnumeratorContainer.getProducts"
-  fullName: "com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts"
-  package: "com.microsoft.store.partnercenter.enumerators"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  name: "BasePartnerComponentString"
-  nameWithType: "BasePartnerComponentString"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-- uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer"
-  name: "IResourceCollectionEnumeratorContainer"
-  nameWithType: "IResourceCollectionEnumeratorContainer"
-  fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "ResourceCollection"
-  nameWithType: "ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  name: "IResourceCollectionEnumeratorFactory"
-  nameWithType: "IResourceCollectionEnumeratorFactory"
-  fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-- uid: "com.microsoft.store.partnercenter.models.offers.Offer"
-  name: "Offer"
-  nameWithType: "Offer"
-  fullName: "com.microsoft.store.partnercenter.models.offers.Offer"
-- uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  name: "SeekBasedResourceCollection"
-  nameWithType: "SeekBasedResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-- uid: "com.microsoft.store.partnercenter.models.customers.Customer"
-  name: "Customer"
-  nameWithType: "Customer"
-  fullName: "com.microsoft.store.partnercenter.models.customers.Customer"
-- uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-  name: "CustomerUser"
-  nameWithType: "CustomerUser"
-  fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-- uid: "com.microsoft.store.partnercenter.models.invoices.Invoice"
-  name: "Invoice"
-  nameWithType: "Invoice"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.Invoice"
-- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
-  name: "ServiceRequest"
-  nameWithType: "ServiceRequest"
-  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
-  name: "InvoiceLineItem"
-  nameWithType: "InvoiceLineItem"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
-- uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
-  name: "AuditRecord"
-  nameWithType: "AuditRecord"
-  fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
-- uid: "com.microsoft.store.partnercenter.models.products.Product"
-  name: "Product"
-  nameWithType: "Product"
-  fullName: "com.microsoft.store.partnercenter.models.products.Product"
+  - uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+    name: IResourceCollectionEnumeratorFactory
+    fullName: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.products.Product
+    name: Product
+    fullName: com.microsoft.store.partnercenter.models.products.Product
+  - name: '>'
+    fullName: '>'
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts*
+  name: getProducts
+  nameWithType: ResourceCollectionEnumeratorContainer.getProducts
+  fullName: com.microsoft.store.partnercenter.enumerators.ResourceCollectionEnumeratorContainer.getProducts
+  package: com.microsoft.store.partnercenter.enumerators
+- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
+  name: BasePartnerComponentString
+  nameWithType: BasePartnerComponentString
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
+- uid: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
+  name: IResourceCollectionEnumeratorContainer
+  nameWithType: IResourceCollectionEnumeratorContainer
+  fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  name: ResourceCollection
+  nameWithType: ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+  name: IResourceCollectionEnumeratorFactory
+  nameWithType: IResourceCollectionEnumeratorFactory
+  fullName: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+- uid: com.microsoft.store.partnercenter.models.offers.Offer
+  name: Offer
+  nameWithType: Offer
+  fullName: com.microsoft.store.partnercenter.models.offers.Offer
+- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+  name: SeekBasedResourceCollection
+  nameWithType: SeekBasedResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
+- uid: com.microsoft.store.partnercenter.models.customers.Customer
+  name: Customer
+  nameWithType: Customer
+  fullName: com.microsoft.store.partnercenter.models.customers.Customer
+- uid: com.microsoft.store.partnercenter.models.users.CustomerUser
+  name: CustomerUser
+  nameWithType: CustomerUser
+  fullName: com.microsoft.store.partnercenter.models.users.CustomerUser
+- uid: com.microsoft.store.partnercenter.models.invoices.Invoice
+  name: Invoice
+  nameWithType: Invoice
+  fullName: com.microsoft.store.partnercenter.models.invoices.Invoice
+- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest
+  name: ServiceRequest
+  nameWithType: ServiceRequest
+  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest
+- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+  name: InvoiceLineItem
+  nameWithType: InvoiceLineItem
+  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
+- uid: com.microsoft.store.partnercenter.models.auditing.AuditRecord
+  name: AuditRecord
+  nameWithType: AuditRecord
+  fullName: com.microsoft.store.partnercenter.models.auditing.AuditRecord
+- uid: com.microsoft.store.partnercenter.models.products.Product
+  name: Product
+  nameWithType: Product
+  fullName: com.microsoft.store.partnercenter.models.products.Product

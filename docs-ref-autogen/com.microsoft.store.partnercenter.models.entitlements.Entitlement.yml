@@ -1,660 +1,682 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
-  id: "Entitlement"
-  parent: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement
+  id: Entitlement
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements
   children:
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement()"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts()"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType()"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate()"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState()"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements()"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId()"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity()"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails()"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder()"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId()"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>)"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate(org.joda.time.DateTime)"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>)"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity(java.lang.Integer)"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>)"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder(com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder)"
-  - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId(java.lang.String)"
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement()
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts()
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType()
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate()
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState()
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements()
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId()
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity()
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails()
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder()
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId()
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>)
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType(java.lang.String)
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate(org.joda.time.DateTime)
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState(java.lang.String)
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>)
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId(java.lang.String)
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity(java.lang.Integer)
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>)
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder(com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder)
+  - com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId(java.lang.String)
   langs:
-  - "java"
-  name: "Entitlement"
-  nameWithType: "Entitlement"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Class that represents an entitlement."
+  - java
+  name: Entitlement
+  nameWithType: Entitlement
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement
+  type: Class
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Class that represents an entitlement.
   syntax:
-    content: "public class Entitlement extends ResourceBaseWithLinks<StandardResourceLinks>"
+    content: public class Entitlement extends ResourceBaseWithLinks<StandardResourceLinks>
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.models.ResourceBase"
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.models.ResourceBase
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement()"
-  id: "Entitlement()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement()
+  id: Entitlement()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "Entitlement()"
-  nameWithType: "Entitlement.Entitlement()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
+  - java
+  name: Entitlement()
+  nameWithType: Entitlement.Entitlement()
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement()
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.models.entitlements
   syntax:
-    content: "public Entitlement()"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts()"
-  id: "getEntitledArtifacts()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+    content: public Entitlement()
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts()
+  id: getEntitledArtifacts()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "getEntitledArtifacts()"
-  nameWithType: "Entitlement.getEntitledArtifacts()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Gets the collection of entitled artifacts."
+  - java
+  name: getEntitledArtifacts()
+  nameWithType: Entitlement.getEntitledArtifacts()
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts()
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Gets the collection of entitled artifacts.
   syntax:
-    content: "public Iterable<Artifact> getEntitledArtifacts()"
+    content: public Iterable<Artifact> getEntitledArtifacts()
     return:
-      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>"
-      description: "The collection of entitled artifacts."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType()"
-  id: "getEntitlementType()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>
+      description: The collection of entitled artifacts.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType()
+  id: getEntitlementType()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "getEntitlementType()"
-  nameWithType: "Entitlement.getEntitlementType()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Gets the entitlement type."
+  - java
+  name: getEntitlementType()
+  nameWithType: Entitlement.getEntitlementType()
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType()
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Gets the entitlement type.
   syntax:
-    content: "public String getEntitlementType()"
+    content: public String getEntitlementType()
     return:
-      type: "java.lang.String"
-      description: "The entitlement type."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate()"
-  id: "getExpiryDate()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+      type: java.lang.String
+      description: The entitlement type.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate()
+  id: getExpiryDate()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "getExpiryDate()"
-  nameWithType: "Entitlement.getExpiryDate()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Gets the expiry date for the entitlement."
+  - java
+  name: getExpiryDate()
+  nameWithType: Entitlement.getExpiryDate()
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate()
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Gets the expiry date for the entitlement.
   syntax:
-    content: "public DateTime getExpiryDate()"
+    content: public DateTime getExpiryDate()
     return:
-      type: "org.joda.time.DateTime"
-      description: "The expiry date for the entitlement."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState()"
-  id: "getFulfillmentState()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+      type: org.joda.time.DateTime
+      description: The expiry date for the entitlement.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState()
+  id: getFulfillmentState()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "getFulfillmentState()"
-  nameWithType: "Entitlement.getFulfillmentState()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Gets the fulfillment state for the entitlement."
+  - java
+  name: getFulfillmentState()
+  nameWithType: Entitlement.getFulfillmentState()
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState()
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Gets the fulfillment state for the entitlement.
   syntax:
-    content: "public String getFulfillmentState()"
+    content: public String getFulfillmentState()
     return:
-      type: "java.lang.String"
-      description: "The fulfillment state for the entitlement."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements()"
-  id: "getIncludedEntitlements()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+      type: java.lang.String
+      description: The fulfillment state for the entitlement.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements()
+  id: getIncludedEntitlements()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "getIncludedEntitlements()"
-  nameWithType: "Entitlement.getIncludedEntitlements()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Gets the included entitlements."
+  - java
+  name: getIncludedEntitlements()
+  nameWithType: Entitlement.getIncludedEntitlements()
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements()
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Gets the included entitlements.
   syntax:
-    content: "public Iterable<Entitlement> getIncludedEntitlements()"
+    content: public Iterable<Entitlement> getIncludedEntitlements()
     return:
-      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>"
-      description: "The included entitlements."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId()"
-  id: "getProductId()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>
+      description: The included entitlements.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId()
+  id: getProductId()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "getProductId()"
-  nameWithType: "Entitlement.getProductId()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Gets the product identifier."
+  - java
+  name: getProductId()
+  nameWithType: Entitlement.getProductId()
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId()
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Gets the product identifier.
   syntax:
-    content: "public String getProductId()"
+    content: public String getProductId()
     return:
-      type: "java.lang.String"
-      description: "The product identifier."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity()"
-  id: "getQuantity()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+      type: java.lang.String
+      description: The product identifier.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity()
+  id: getQuantity()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "getQuantity()"
-  nameWithType: "Entitlement.getQuantity()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Gets the quantity."
+  - java
+  name: getQuantity()
+  nameWithType: Entitlement.getQuantity()
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity()
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Gets the quantity.
   syntax:
-    content: "public Integer getQuantity()"
+    content: public Integer getQuantity()
     return:
-      type: "java.lang.Integer"
-      description: "The quantity."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails()"
-  id: "getQuantityDetails()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+      type: java.lang.Integer
+      description: The quantity.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails()
+  id: getQuantityDetails()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "getQuantityDetails()"
-  nameWithType: "Entitlement.getQuantityDetails()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Gets the quantity details (quantity - state)."
+  - java
+  name: getQuantityDetails()
+  nameWithType: Entitlement.getQuantityDetails()
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails()
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Gets the quantity details (quantity - state).
   syntax:
-    content: "public Iterable<QuantityDetail> getQuantityDetails()"
+    content: public Iterable<QuantityDetail> getQuantityDetails()
     return:
-      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>"
-      description: "The quantity details (quantity - state)."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder()"
-  id: "getReferenceOrder()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>
+      description: The quantity details (quantity - state).
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder()
+  id: getReferenceOrder()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "getReferenceOrder()"
-  nameWithType: "Entitlement.getReferenceOrder()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Gets the reference order related to the entitlement."
+  - java
+  name: getReferenceOrder()
+  nameWithType: Entitlement.getReferenceOrder()
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder()
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Gets the reference order related to the entitlement.
   syntax:
-    content: "public ReferenceOrder getReferenceOrder()"
+    content: public ReferenceOrder getReferenceOrder()
     return:
-      type: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
-      description: "The reference order related to the entitlement."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId()"
-  id: "getSkuId()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+      type: com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder
+      description: The reference order related to the entitlement.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId()
+  id: getSkuId()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "getSkuId()"
-  nameWithType: "Entitlement.getSkuId()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Gets the SKU identifier."
+  - java
+  name: getSkuId()
+  nameWithType: Entitlement.getSkuId()
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId()
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Gets the SKU identifier.
   syntax:
-    content: "public String getSkuId()"
+    content: public String getSkuId()
     return:
-      type: "java.lang.String"
-      description: "The SKU identifier."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>)"
-  id: "setEntitledArtifacts(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+      type: java.lang.String
+      description: The SKU identifier.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>)
+  id: setEntitledArtifacts(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "setEntitledArtifacts(Iterable<Artifact> value)"
-  nameWithType: "Entitlement.setEntitledArtifacts(Iterable<Artifact> value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts(Iterable<Artifact> value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the collection of entitled artifacts."
+  - java
+  name: setEntitledArtifacts(Iterable<Artifact> value)
+  nameWithType: Entitlement.setEntitledArtifacts(Iterable<Artifact> value)
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts(Iterable<Artifact> value)
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Sets the collection of entitled artifacts.
   syntax:
-    content: "public void setEntitledArtifacts(Iterable<Artifact> value)"
+    content: public void setEntitledArtifacts(Iterable<Artifact> value)
     parameters:
-    - id: "value"
-      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>"
-      description: "The collection of entitled artifacts."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType(java.lang.String)"
-  id: "setEntitlementType(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+    - id: value
+      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>
+      description: The collection of entitled artifacts.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType(java.lang.String)
+  id: setEntitlementType(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "setEntitlementType(String value)"
-  nameWithType: "Entitlement.setEntitlementType(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType(String value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the entitlement type."
+  - java
+  name: setEntitlementType(String value)
+  nameWithType: Entitlement.setEntitlementType(String value)
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType(String value)
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Sets the entitlement type.
   syntax:
-    content: "public void setEntitlementType(String value)"
+    content: public void setEntitlementType(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The entitlement type."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate(org.joda.time.DateTime)"
-  id: "setExpiryDate(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+    - id: value
+      type: java.lang.String
+      description: The entitlement type.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate(org.joda.time.DateTime)
+  id: setExpiryDate(org.joda.time.DateTime)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "setExpiryDate(DateTime value)"
-  nameWithType: "Entitlement.setExpiryDate(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the expiry date for the entitlement."
+  - java
+  name: setExpiryDate(DateTime value)
+  nameWithType: Entitlement.setExpiryDate(DateTime value)
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate(DateTime value)
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Sets the expiry date for the entitlement.
   syntax:
-    content: "public void setExpiryDate(DateTime value)"
+    content: public void setExpiryDate(DateTime value)
     parameters:
-    - id: "value"
-      type: "org.joda.time.DateTime"
-      description: "The expiry date for the entitlement."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState(java.lang.String)"
-  id: "setFulfillmentState(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+    - id: value
+      type: org.joda.time.DateTime
+      description: The expiry date for the entitlement.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState(java.lang.String)
+  id: setFulfillmentState(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "setFulfillmentState(String value)"
-  nameWithType: "Entitlement.setFulfillmentState(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState(String value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the fulfillment state for the entitlement."
+  - java
+  name: setFulfillmentState(String value)
+  nameWithType: Entitlement.setFulfillmentState(String value)
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState(String value)
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Sets the fulfillment state for the entitlement.
   syntax:
-    content: "public void setFulfillmentState(String value)"
+    content: public void setFulfillmentState(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The the fulfillment state for the entitlement."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>)"
-  id: "setIncludedEntitlements(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+    - id: value
+      type: java.lang.String
+      description: The the fulfillment state for the entitlement.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>)
+  id: setIncludedEntitlements(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "setIncludedEntitlements(Iterable<Entitlement> value)"
-  nameWithType: "Entitlement.setIncludedEntitlements(Iterable<Entitlement> value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements(Iterable<Entitlement> value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the included entitlements."
+  - java
+  name: setIncludedEntitlements(Iterable<Entitlement> value)
+  nameWithType: Entitlement.setIncludedEntitlements(Iterable<Entitlement> value)
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements(Iterable<Entitlement> value)
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Sets the included entitlements.
   syntax:
-    content: "public void setIncludedEntitlements(Iterable<Entitlement> value)"
+    content: public void setIncludedEntitlements(Iterable<Entitlement> value)
     parameters:
-    - id: "value"
-      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>"
-      description: "The included entitlements."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId(java.lang.String)"
-  id: "setProductId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+    - id: value
+      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>
+      description: The included entitlements.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId(java.lang.String)
+  id: setProductId(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "setProductId(String value)"
-  nameWithType: "Entitlement.setProductId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the product identifier."
+  - java
+  name: setProductId(String value)
+  nameWithType: Entitlement.setProductId(String value)
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId(String value)
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Sets the product identifier.
   syntax:
-    content: "public void setProductId(String value)"
+    content: public void setProductId(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The product identifier."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity(java.lang.Integer)"
-  id: "setQuantity(java.lang.Integer)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+    - id: value
+      type: java.lang.String
+      description: The product identifier.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity(java.lang.Integer)
+  id: setQuantity(java.lang.Integer)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "setQuantity(Integer value)"
-  nameWithType: "Entitlement.setQuantity(Integer value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity(Integer value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the quantity."
+  - java
+  name: setQuantity(Integer value)
+  nameWithType: Entitlement.setQuantity(Integer value)
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity(Integer value)
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Sets the quantity.
   syntax:
-    content: "public void setQuantity(Integer value)"
+    content: public void setQuantity(Integer value)
     parameters:
-    - id: "value"
-      type: "java.lang.Integer"
-      description: "The quantity."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>)"
-  id: "setQuantityDetails(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+    - id: value
+      type: java.lang.Integer
+      description: The quantity.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>)
+  id: setQuantityDetails(java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "setQuantityDetails(Iterable<QuantityDetail> value)"
-  nameWithType: "Entitlement.setQuantityDetails(Iterable<QuantityDetail> value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails(Iterable<QuantityDetail> value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the quantity details (quantity - state)."
+  - java
+  name: setQuantityDetails(Iterable<QuantityDetail> value)
+  nameWithType: Entitlement.setQuantityDetails(Iterable<QuantityDetail> value)
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails(Iterable<QuantityDetail> value)
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Sets the quantity details (quantity - state).
   syntax:
-    content: "public void setQuantityDetails(Iterable<QuantityDetail> value)"
+    content: public void setQuantityDetails(Iterable<QuantityDetail> value)
     parameters:
-    - id: "value"
-      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>"
-      description: "The quantity details (quantity - state)."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder(com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder)"
-  id: "setReferenceOrder(com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+    - id: value
+      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>
+      description: The quantity details (quantity - state).
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder(com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder)
+  id: setReferenceOrder(com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "setReferenceOrder(ReferenceOrder value)"
-  nameWithType: "Entitlement.setReferenceOrder(ReferenceOrder value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder(ReferenceOrder value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the reference order related to the entitlement."
+  - java
+  name: setReferenceOrder(ReferenceOrder value)
+  nameWithType: Entitlement.setReferenceOrder(ReferenceOrder value)
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder(ReferenceOrder value)
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Sets the reference order related to the entitlement.
   syntax:
-    content: "public void setReferenceOrder(ReferenceOrder value)"
+    content: public void setReferenceOrder(ReferenceOrder value)
     parameters:
-    - id: "value"
-      type: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
-      description: "The reference order related to the entitlement."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId(java.lang.String)"
-  id: "setSkuId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+    - id: value
+      type: com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder
+      description: The reference order related to the entitlement.
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId(java.lang.String)
+  id: setSkuId(java.lang.String)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   langs:
-  - "java"
-  name: "setSkuId(String value)"
-  nameWithType: "Entitlement.setSkuId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the SKU identifier."
+  - java
+  name: setSkuId(String value)
+  nameWithType: Entitlement.setSkuId(String value)
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId(String value)
+  overload: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId*
+  type: Method
+  package: com.microsoft.store.partnercenter.models.entitlements
+  summary: Sets the SKU identifier.
   syntax:
-    content: "public void setSkuId(String value)"
+    content: public void setSkuId(String value)
     parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The SKU identifier."
+    - id: value
+      type: java.lang.String
+      description: The SKU identifier.
 references:
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement*"
-  name: "Entitlement"
-  nameWithType: "Entitlement.Entitlement"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>"
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement*
+  name: Entitlement
+  nameWithType: Entitlement.Entitlement
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>
   spec.java:
-  - uid: "java.lang.Iterable"
-    name: "Iterable"
-    fullName: "java.lang.Iterable"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.entitlements.Artifact"
-    name: "Artifact"
-    fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts*"
-  name: "getEntitledArtifacts"
-  nameWithType: "Entitlement.getEntitledArtifacts"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts*"
-  name: "setEntitledArtifacts"
-  nameWithType: "Entitlement.setEntitledArtifacts"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "java.lang.String"
+  - uid: java.lang.Iterable
+    name: Iterable
+    fullName: java.lang.Iterable
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.entitlements.Artifact
+    name: Artifact
+    fullName: com.microsoft.store.partnercenter.models.entitlements.Artifact
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts*
+  name: getEntitledArtifacts
+  nameWithType: Entitlement.getEntitledArtifacts
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitledArtifacts
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts*
+  name: setEntitledArtifacts
+  nameWithType: Entitlement.setEntitledArtifacts
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType*"
-  name: "getEntitlementType"
-  nameWithType: "Entitlement.getEntitlementType"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType*"
-  name: "setEntitlementType"
-  nameWithType: "Entitlement.setEntitlementType"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "org.joda.time.DateTime"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType*
+  name: getEntitlementType
+  nameWithType: Entitlement.getEntitlementType
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getEntitlementType
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType*
+  name: setEntitlementType
+  nameWithType: Entitlement.setEntitlementType
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: org.joda.time.DateTime
   spec.java:
-  - uid: "org.joda.time.DateTime"
-    name: "DateTime"
-    fullName: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate*"
-  name: "getExpiryDate"
-  nameWithType: "Entitlement.getExpiryDate"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate*"
-  name: "setExpiryDate"
-  nameWithType: "Entitlement.setExpiryDate"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState*"
-  name: "getFulfillmentState"
-  nameWithType: "Entitlement.getFulfillmentState"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState*"
-  name: "setFulfillmentState"
-  nameWithType: "Entitlement.setFulfillmentState"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>"
+  - uid: org.joda.time.DateTime
+    name: DateTime
+    fullName: org.joda.time.DateTime
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate*
+  name: getExpiryDate
+  nameWithType: Entitlement.getExpiryDate
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getExpiryDate
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate*
+  name: setExpiryDate
+  nameWithType: Entitlement.setExpiryDate
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setExpiryDate
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState*
+  name: getFulfillmentState
+  nameWithType: Entitlement.getFulfillmentState
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getFulfillmentState
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState*
+  name: setFulfillmentState
+  nameWithType: Entitlement.setFulfillmentState
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>
   spec.java:
-  - uid: "java.lang.Iterable"
-    name: "Iterable"
-    fullName: "java.lang.Iterable"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
-    name: "Entitlement"
-    fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements*"
-  name: "getIncludedEntitlements"
-  nameWithType: "Entitlement.getIncludedEntitlements"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements*"
-  name: "setIncludedEntitlements"
-  nameWithType: "Entitlement.setIncludedEntitlements"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId*"
-  name: "getProductId"
-  nameWithType: "Entitlement.getProductId"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId*"
-  name: "setProductId"
-  nameWithType: "Entitlement.setProductId"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "java.lang.Integer"
+  - uid: java.lang.Iterable
+    name: Iterable
+    fullName: java.lang.Iterable
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement
+    name: Entitlement
+    fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements*
+  name: getIncludedEntitlements
+  nameWithType: Entitlement.getIncludedEntitlements
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getIncludedEntitlements
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements*
+  name: setIncludedEntitlements
+  nameWithType: Entitlement.setIncludedEntitlements
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setIncludedEntitlements
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId*
+  name: getProductId
+  nameWithType: Entitlement.getProductId
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getProductId
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId*
+  name: setProductId
+  nameWithType: Entitlement.setProductId
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: java.lang.Integer
   spec.java:
-  - uid: "java.lang.Integer"
-    name: "Integer"
-    fullName: "java.lang.Integer"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity*"
-  name: "getQuantity"
-  nameWithType: "Entitlement.getQuantity"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity*"
-  name: "setQuantity"
-  nameWithType: "Entitlement.setQuantity"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>"
+  - uid: java.lang.Integer
+    name: Integer
+    fullName: java.lang.Integer
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity*
+  name: getQuantity
+  nameWithType: Entitlement.getQuantity
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantity
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity*
+  name: setQuantity
+  nameWithType: Entitlement.setQuantity
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>
   spec.java:
-  - uid: "java.lang.Iterable"
-    name: "Iterable"
-    fullName: "java.lang.Iterable"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail"
-    name: "QuantityDetail"
-    fullName: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails*"
-  name: "getQuantityDetails"
-  nameWithType: "Entitlement.getQuantityDetails"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails*"
-  name: "setQuantityDetails"
-  nameWithType: "Entitlement.setQuantityDetails"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
-  name: "ReferenceOrder"
-  nameWithType: "ReferenceOrder"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder*"
-  name: "getReferenceOrder"
-  nameWithType: "Entitlement.getReferenceOrder"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder*"
-  name: "setReferenceOrder"
-  nameWithType: "Entitlement.setReferenceOrder"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId*"
-  name: "getSkuId"
-  nameWithType: "Entitlement.getSkuId"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId*"
-  name: "setSkuId"
-  nameWithType: "Entitlement.setSkuId"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  name: "ResourceBaseWithLinks<StandardResourceLinks>"
-  nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-  name: "ResourceBase.getAttributes()"
-  nameWithType: "ResourceBase.getAttributes()"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
-  name: "ResourceBaseWithLinks.getLinks()"
-  nameWithType: "ResourceBaseWithLinks.getLinks()"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
-  name: "ResourceBaseWithLinks.setLinks(TLinks)"
-  nameWithType: "ResourceBaseWithLinks.setLinks(TLinks)"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.Artifact"
-  name: "Artifact"
-  nameWithType: "Artifact"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact"
-- uid: "java.lang.Iterable"
-  name: "Iterable"
-  nameWithType: "Iterable"
-  fullName: "java.lang.Iterable"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail"
-  name: "QuantityDetail"
-  nameWithType: "QuantityDetail"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail"
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  name: "ResourceBaseWithLinks"
-  nameWithType: "ResourceBaseWithLinks"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-- uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  name: "StandardResourceLinks"
-  nameWithType: "StandardResourceLinks"
-  fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
+  - uid: java.lang.Iterable
+    name: Iterable
+    fullName: java.lang.Iterable
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.entitlements.QuantityDetail
+    name: QuantityDetail
+    fullName: com.microsoft.store.partnercenter.models.entitlements.QuantityDetail
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails*
+  name: getQuantityDetails
+  nameWithType: Entitlement.getQuantityDetails
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getQuantityDetails
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails*
+  name: setQuantityDetails
+  nameWithType: Entitlement.setQuantityDetails
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder
+  name: ReferenceOrder
+  nameWithType: ReferenceOrder
+  fullName: com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder*
+  name: getReferenceOrder
+  nameWithType: Entitlement.getReferenceOrder
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getReferenceOrder
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder*
+  name: setReferenceOrder
+  nameWithType: Entitlement.setReferenceOrder
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId*
+  name: getSkuId
+  nameWithType: Entitlement.getSkuId
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.getSkuId
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId*
+  name: setSkuId
+  nameWithType: Entitlement.setSkuId
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId
+  package: com.microsoft.store.partnercenter.models.entitlements
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>
+  name: ResourceBaseWithLinks<StandardResourceLinks>
+  nameWithType: ResourceBaseWithLinks<StandardResourceLinks>
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+  name: ResourceBase.getAttributes()
+  nameWithType: ResourceBase.getAttributes()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+  name: ResourceBaseWithLinks.getLinks()
+  nameWithType: ResourceBaseWithLinks.getLinks()
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+  name: ResourceBaseWithLinks.setLinks(TLinks)
+  nameWithType: ResourceBaseWithLinks.setLinks(TLinks)
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+- uid: com.microsoft.store.partnercenter.models.entitlements.Artifact
+  name: Artifact
+  nameWithType: Artifact
+  fullName: com.microsoft.store.partnercenter.models.entitlements.Artifact
+- uid: java.lang.Iterable
+  name: Iterable
+  nameWithType: Iterable
+  fullName: java.lang.Iterable
+- uid: com.microsoft.store.partnercenter.models.entitlements.QuantityDetail
+  name: QuantityDetail
+  nameWithType: QuantityDetail
+  fullName: com.microsoft.store.partnercenter.models.entitlements.QuantityDetail
+- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  name: ResourceBaseWithLinks
+  nameWithType: ResourceBaseWithLinks
+  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+- uid: com.microsoft.store.partnercenter.models.StandardResourceLinks
+  name: StandardResourceLinks
+  nameWithType: StandardResourceLinks
+  fullName: com.microsoft.store.partnercenter.models.StandardResourceLinks

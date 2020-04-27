@@ -1,199 +1,202 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations"
-  id: "ServiceCostLineItemsOperations"
-  parent: "com.microsoft.store.partnercenter.customers.servicecosts"
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations
+  id: ServiceCostLineItemsOperations
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.servicecosts
   children:
-  - "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(com.microsoft.store.partnercenter.IPartner,com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>)"
-  - "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get()"
+  - com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(com.microsoft.store.partnercenter.IPartner,com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>)
+  - com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get()
   langs:
-  - "java"
-  name: "ServiceCostLineItemsOperations"
-  nameWithType: "ServiceCostLineItemsOperations"
-  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations"
-  type: "Class"
-  package: "com.microsoft.store.partnercenter.customers.servicecosts"
-  summary: "Represents the behavior of the customer service cost line items as a whole."
+  - java
+  name: ServiceCostLineItemsOperations
+  nameWithType: ServiceCostLineItemsOperations
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations
+  type: Class
+  package: com.microsoft.store.partnercenter.customers.servicecosts
+  summary: Represents the behavior of the customer service cost line items as a whole.
   syntax:
-    content: "public class ServiceCostLineItemsOperations extends BasePartnerComponent<Tuple<String,String>> implements IServiceCostLineItemsCollection"
+    content: public class ServiceCostLineItemsOperations extends BasePartnerComponent<Tuple<String,String>> implements IServiceCostLineItemsCollection
   inheritance:
-  - "java.lang.Object"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - java.lang.Object
+  - com.microsoft.store.partnercenter.BasePartnerComponent
   implements:
-  - "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection"
+  - com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection
   inheritedMembers:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(com.microsoft.store.partnercenter.IPartner,com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>)"
-  id: "ServiceCostLineItemsOperations(com.microsoft.store.partnercenter.IPartner,com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>)"
-  parent: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations"
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(com.microsoft.store.partnercenter.IPartner,com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>)
+  id: ServiceCostLineItemsOperations(com.microsoft.store.partnercenter.IPartner,com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>)
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations
   langs:
-  - "java"
-  name: "ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
-  nameWithType: "ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
-  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
-  overload: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.customers.servicecosts"
-  summary: "Initializes a new instance of the ServiceCostLineItemsOperations class."
+  - java
+  name: ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)
+  nameWithType: ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)
+  overload: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations*
+  type: Constructor
+  package: com.microsoft.store.partnercenter.customers.servicecosts
+  summary: Initializes a new instance of the ServiceCostLineItemsOperations class.
   syntax:
-    content: "public ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
+    content: public ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)
     parameters:
-    - id: "rootPartnerOperations"
-      type: "com.microsoft.store.partnercenter.IPartner"
-      description: "The root partner operations instance."
-    - id: "context"
-      type: "com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>"
-      description: "The context, including customer id and billing period.."
-- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations"
+    - id: rootPartnerOperations
+      type: com.microsoft.store.partnercenter.IPartner
+      description: The root partner operations instance.
+    - id: context
+      type: com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>
+      description: The context, including customer id and billing period..
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get()
+  id: get()
+  artifact: com.microsoft.store:partnercenter:1.15.3
+  parent: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations
   langs:
-  - "java"
-  name: "get()"
-  nameWithType: "ServiceCostLineItemsOperations.get()"
-  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get()"
-  overload: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customers.servicecosts"
-  summary: "Retrieves a customer's service cost line items."
+  - java
+  name: get()
+  nameWithType: ServiceCostLineItemsOperations.get()
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get()
+  overload: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get*
+  type: Method
+  package: com.microsoft.store.partnercenter.customers.servicecosts
+  summary: Retrieves a customer's service cost line items.
   syntax:
-    content: "public ResourceCollection<ServiceCostLineItem> get()"
+    content: public ResourceCollection<ServiceCostLineItem> get()
     return:
-      type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem>"
-      description: "The service cost line items."
+      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem>
+      description: The service cost line items.
 references:
-- uid: "com.microsoft.store.partnercenter.IPartner"
-  name: "IPartner"
-  nameWithType: "IPartner"
-  fullName: "com.microsoft.store.partnercenter.IPartner"
-- uid: "com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>"
+- uid: com.microsoft.store.partnercenter.IPartner
+  name: IPartner
+  nameWithType: IPartner
+  fullName: com.microsoft.store.partnercenter.IPartner
+- uid: com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-    name: "Tuple"
-    fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  - name: "<"
-    fullName: "<"
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ","
-    fullName: ","
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations*"
-  name: "ServiceCostLineItemsOperations"
-  nameWithType: "ServiceCostLineItemsOperations.ServiceCostLineItemsOperations"
-  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations"
-  package: "com.microsoft.store.partnercenter.customers.servicecosts"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem>"
+  - uid: com.microsoft.store.partnercenter.models.utils.Tuple
+    name: Tuple
+    fullName: com.microsoft.store.partnercenter.models.utils.Tuple
+  - name: <
+    fullName: <
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: ','
+    fullName: ','
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations*
+  name: ServiceCostLineItemsOperations
+  nameWithType: ServiceCostLineItemsOperations.ServiceCostLineItemsOperations
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations
+  package: com.microsoft.store.partnercenter.customers.servicecosts
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem>
   spec.java:
-  - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "ResourceCollection"
-    fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  - name: "<"
-    fullName: "<"
-  - uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem"
-    name: "ServiceCostLineItem"
-    fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get*"
-  name: "get"
-  nameWithType: "ServiceCostLineItemsOperations.get"
-  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get"
-  package: "com.microsoft.store.partnercenter.customers.servicecosts"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  name: "BasePartnerComponent<Tuple<String,String>>"
-  nameWithType: "BasePartnerComponent<Tuple<String,String>>"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-- uid: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection"
-  name: "IServiceCostLineItemsCollection"
-  nameWithType: "IServiceCostLineItemsCollection"
-  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-  name: "BasePartnerComponent.getPartner()"
-  nameWithType: "BasePartnerComponent.getPartner()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-  name: "BasePartnerComponent.getContext()"
-  nameWithType: "BasePartnerComponent.getContext()"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-- uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  name: "Tuple"
-  nameWithType: "Tuple"
-  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
-- uid: "java.lang.String,java.lang.String"
-  name: "String,String"
-  nameWithType: "String,String"
-  fullName: "java.lang.String,java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  name: "ResourceCollection"
-  nameWithType: "ResourceCollection"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
-- uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem"
-  name: "ServiceCostLineItem"
-  nameWithType: "ServiceCostLineItem"
-  fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem"
-- uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  name: "BasePartnerComponent"
-  nameWithType: "BasePartnerComponent"
-  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
+    name: ResourceCollection
+    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+  - name: <
+    fullName: <
+  - uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+    name: ServiceCostLineItem
+    fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get*
+  name: get
+  nameWithType: ServiceCostLineItemsOperations.get
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get
+  package: com.microsoft.store.partnercenter.customers.servicecosts
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+  name: BasePartnerComponent<Tuple<String,String>>
+  nameWithType: BasePartnerComponent<Tuple<String,String>>
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
+- uid: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection
+  name: IServiceCostLineItemsCollection
+  nameWithType: IServiceCostLineItemsCollection
+  fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+  name: BasePartnerComponent.getPartner()
+  nameWithType: BasePartnerComponent.getPartner()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+  name: BasePartnerComponent.getContext()
+  nameWithType: BasePartnerComponent.getContext()
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- uid: com.microsoft.store.partnercenter.models.utils.Tuple
+  name: Tuple
+  nameWithType: Tuple
+  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
+- uid: java.lang.String,java.lang.String
+  name: String,String
+  nameWithType: String,String
+  fullName: java.lang.String,java.lang.String
+- uid: com.microsoft.store.partnercenter.models.ResourceCollection
+  name: ResourceCollection
+  nameWithType: ResourceCollection
+  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+  name: ServiceCostLineItem
+  nameWithType: ServiceCostLineItem
+  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem
+- uid: com.microsoft.store.partnercenter.BasePartnerComponent
+  name: BasePartnerComponent
+  nameWithType: BasePartnerComponent
+  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
