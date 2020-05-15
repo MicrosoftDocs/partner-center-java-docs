@@ -18,7 +18,6 @@ items:
   - com.microsoft.store.partnercenter.PartnerService.getRefreshCredentialsHandler()
   - com.microsoft.store.partnercenter.PartnerService.getSdkVersion()
   - com.microsoft.store.partnercenter.PartnerService.setApiRootUrl(java.lang.String)
-  - com.microsoft.store.partnercenter.PartnerService.setFactory(com.microsoft.store.partnercenter.factory.IPartnerFactory)
   - com.microsoft.store.partnercenter.PartnerService.setProxyOptions(java.lang.String,java.lang.Integer)
   - com.microsoft.store.partnercenter.PartnerService.setRefreshCredentialsHandler(com.microsoft.store.partnercenter.IPartnerCredentials)
   langs:
@@ -285,23 +284,6 @@ items:
     - id: value
       type: java.lang.String
       description: The API root URL.
-- uid: com.microsoft.store.partnercenter.PartnerService.setFactory(com.microsoft.store.partnercenter.factory.IPartnerFactory)
-  id: setFactory(com.microsoft.store.partnercenter.factory.IPartnerFactory)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.PartnerService
-  langs:
-  - java
-  name: setFactory(IPartnerFactory value)
-  nameWithType: PartnerService.setFactory(IPartnerFactory value)
-  fullName: com.microsoft.store.partnercenter.PartnerService.setFactory(IPartnerFactory value)
-  overload: com.microsoft.store.partnercenter.PartnerService.setFactory*
-  type: Method
-  package: com.microsoft.store.partnercenter
-  syntax:
-    content: " void setFactory(IPartnerFactory value)"
-    parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.factory.IPartnerFactory
 - uid: com.microsoft.store.partnercenter.PartnerService.setProxyOptions(java.lang.String,java.lang.Integer)
   id: setProxyOptions(java.lang.String,java.lang.Integer)
   artifact: com.microsoft.store:partnercenter:1.15.3
@@ -391,11 +373,6 @@ references:
   name: getFactory
   nameWithType: PartnerService.getFactory
   fullName: com.microsoft.store.partnercenter.PartnerService.getFactory
-  package: com.microsoft.store.partnercenter
-- uid: com.microsoft.store.partnercenter.PartnerService.setFactory*
-  name: setFactory
-  nameWithType: PartnerService.setFactory
-  fullName: com.microsoft.store.partnercenter.PartnerService.setFactory
   package: com.microsoft.store.partnercenter
 - uid: com.microsoft.store.partnercenter.IPartnerCredentials
   name: IPartnerCredentials

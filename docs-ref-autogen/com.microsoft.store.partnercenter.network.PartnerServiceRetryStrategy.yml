@@ -5,9 +5,7 @@ items:
   artifact: com.microsoft.store:partnercenter:1.15.3
   parent: com.microsoft.store.partnercenter.network
   children:
-  - com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.Name
   - com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int)
-  - com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.nonRetryableHttpCodes
   - com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,okhttp3.Response)
   langs:
   - java
@@ -37,22 +35,6 @@ items:
   - java.lang.Object.wait()
   - java.lang.Object.wait(long)
   - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.Name
-  id: Name
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-  langs:
-  - java
-  name: Name
-  nameWithType: PartnerServiceRetryStrategy.Name
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.Name
-  type: Field
-  package: com.microsoft.store.partnercenter.network
-  summary: The name of the retry strategy.
-  syntax:
-    content: static final String Name
-    return:
-      type: java.lang.String
 - uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int)
   id: PartnerServiceRetryStrategy(int)
   artifact: com.microsoft.store:partnercenter:1.15.3
@@ -72,22 +54,6 @@ items:
     - id: maxRetryAttempts
       type: int
       description: The maximum number of retry attempts.
-- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.nonRetryableHttpCodes
-  id: nonRetryableHttpCodes
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-  langs:
-  - java
-  name: nonRetryableHttpCodes
-  nameWithType: PartnerServiceRetryStrategy.nonRetryableHttpCodes
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.nonRetryableHttpCodes
-  type: Field
-  package: com.microsoft.store.partnercenter.network
-  summary: The response codes that should not be retried.
-  syntax:
-    content: static final List<Integer> nonRetryableHttpCodes
-    return:
-      type: java.util.List<java.lang.Integer>
 - uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,okhttp3.Response)
   id: shouldRetry(int,okhttp3.Response)
   artifact: com.microsoft.store:partnercenter:1.15.3
@@ -139,23 +105,6 @@ references:
   nameWithType: PartnerServiceRetryStrategy.shouldRetry
   fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry
   package: com.microsoft.store.partnercenter.network
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: java.util.List<java.lang.Integer>
-  spec.java:
-  - uid: java.util.List
-    name: List
-    fullName: java.util.List
-  - name: <
-    fullName: <
-  - uid: java.lang.Integer
-    name: Integer
-    fullName: java.lang.Integer
-  - name: '>'
-    fullName: '>'
 - uid: com.microsoft.rest.retry.RetryStrategy
   name: RetryStrategy
   nameWithType: RetryStrategy
@@ -216,11 +165,3 @@ references:
   name: RetryStrategy.shouldRetry(int,Response)
   nameWithType: RetryStrategy.shouldRetry(int,Response)
   fullName: com.microsoft.rest.retry.RetryStrategy.shouldRetry(int,okhttp3.Response)
-- uid: java.util.List
-  name: List
-  nameWithType: List
-  fullName: java.util.List
-- uid: java.lang.Integer
-  name: Integer
-  nameWithType: Integer
-  fullName: java.lang.Integer
