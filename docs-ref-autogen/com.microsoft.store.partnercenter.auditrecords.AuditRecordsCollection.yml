@@ -66,6 +66,7 @@ items:
   overload: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query*
   type: Method
   package: com.microsoft.store.partnercenter.auditrecords
+  summary: 'Queries audit records associated to the partner. The following queries are supported: - Specify the number of audit record to return. - Filter the result with a customer name.'
   syntax:
     content: public SeekBasedResourceCollection<AuditRecord> query(DateTime startDate, DateTime endDate, IQuery query)
     parameters:
