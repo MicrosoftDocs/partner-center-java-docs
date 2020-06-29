@@ -61,6 +61,7 @@ items:
   - com.fasterxml.jackson.databind.deser.std.StdDeserializer._nonNullNumber(java.lang.Number)
   - com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseBooleanFromInt(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)
   - com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseBooleanPrimitive(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)
+  - com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseBooleanPrimitive(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.core.JsonParser,java.lang.Class<?>)
   - com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseBytePrimitive(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)
   - com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseDate(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)
   - com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseDate(java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)
@@ -437,6 +438,10 @@ references:
   name: StdDeserializer._isEmptyOrTextualNull(String)
   nameWithType: StdDeserializer._isEmptyOrTextualNull(String)
   fullName: com.fasterxml.jackson.databind.deser.std.StdDeserializer._isEmptyOrTextualNull(java.lang.String)
+- uid: com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseBooleanPrimitive(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.core.JsonParser,java.lang.Class<?>)
+  name: StdDeserializer._parseBooleanPrimitive(DeserializationContext,JsonParser,Class<?>)
+  nameWithType: StdDeserializer._parseBooleanPrimitive(DeserializationContext,JsonParser,Class<?>)
+  fullName: com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseBooleanPrimitive(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.core.JsonParser,java.lang.Class<?>)
 - uid: com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseBytePrimitive(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)
   name: StdDeserializer._parseBytePrimitive(JsonParser,DeserializationContext)
   nameWithType: StdDeserializer._parseBytePrimitive(JsonParser,DeserializationContext)
@@ -605,6 +610,10 @@ references:
   name: StdDeserializer.findContentNullProvider(DeserializationContext,BeanProperty,JsonDeserializer
   nameWithType: StdDeserializer.findContentNullProvider(DeserializationContext,BeanProperty,JsonDeserializer
   fullName: com.fasterxml.jackson.databind.deser.std.StdDeserializer.findContentNullProvider(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.BeanProperty,com.fasterxml.jackson.databind.JsonDeserializer
+- uid: com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseBooleanPrimitive(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.core.JsonParser,java.lang.Class
+  name: StdDeserializer._parseBooleanPrimitive(DeserializationContext,JsonParser,Class
+  nameWithType: StdDeserializer._parseBooleanPrimitive(DeserializationContext,JsonParser,Class
+  fullName: com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseBooleanPrimitive(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.core.JsonParser,java.lang.Class
 - uid: com.fasterxml.jackson.databind.JsonDeserializer.replaceDelegatee(com.fasterxml.jackson.databind.JsonDeserializer
   name: JsonDeserializer.replaceDelegatee(JsonDeserializer
   nameWithType: JsonDeserializer.replaceDelegatee(JsonDeserializer
