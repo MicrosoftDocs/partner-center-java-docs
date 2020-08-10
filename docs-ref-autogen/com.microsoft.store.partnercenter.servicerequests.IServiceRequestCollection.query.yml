@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.query*
+fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.query(IQuery serviceRequestsQuery)
+name: query(IQuery serviceRequestsQuery)
+nameWithType: IServiceRequestCollection.query(IQuery serviceRequestsQuery)
+members:
+- uid: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)
+  fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.query(IQuery serviceRequestsQuery)
+  name: query(IQuery serviceRequestsQuery)
+  nameWithType: IServiceRequestCollection.query(IQuery serviceRequestsQuery)
+  summary: |-
+    Queries service requests associated to an organization. - Count queries are not supported by this operation. -
+     You can set the page size or filter or do both at the same time. - Sort is not supported. Default sorting is on
+     status field
+  parameters:
+  - description: |-
+      A query to apply onto service requests. Check <xref uid="QueryFactory" data-throw-if-not-resolved="false">QueryFactory</xref> to see how to
+                  build queries.
+    name: serviceRequestsQuery
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+  syntax: public abstract ResourceCollection<ServiceRequest> query(IQuery serviceRequestsQuery)
+  returns:
+    description: The requested service requests.
+    type: <xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest?alt=com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest&text=ServiceRequest" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.microsoft.store.partnercenter.servicerequests
+artifact: com.microsoft.store:partnercenter:1.15.3

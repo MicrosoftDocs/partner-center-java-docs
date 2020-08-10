@@ -1,196 +1,34 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations
-  id: CustomerProductCollectionByTargetViewByReservationScopeOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.products
-  children:
-  - com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.CustomerProductCollectionByTargetViewByReservationScopeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
-  - com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.get()
-  langs:
-  - java
-  name: CustomerProductCollectionByTargetViewByReservationScopeOperations
-  nameWithType: CustomerProductCollectionByTargetViewByReservationScopeOperations
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.customers.products
-  summary: Implements the product operations by customer and by reservation scope operations.
-  syntax:
-    content: public class CustomerProductCollectionByTargetViewByReservationScopeOperations extends BasePartnerComponent<TripletTuple<String,String,String>> implements ICustomerProductCollectionByTargetViewByReservationScope
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  implements:
-  - com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByReservationScope
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.CustomerProductCollectionByTargetViewByReservationScopeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
-  id: CustomerProductCollectionByTargetViewByReservationScopeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations
-  langs:
-  - java
-  name: CustomerProductCollectionByTargetViewByReservationScopeOperations(IPartner rootPartnerOperations, String customerId, String targetView, String reservationScope)
-  nameWithType: CustomerProductCollectionByTargetViewByReservationScopeOperations.CustomerProductCollectionByTargetViewByReservationScopeOperations(IPartner rootPartnerOperations, String customerId, String targetView, String reservationScope)
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.CustomerProductCollectionByTargetViewByReservationScopeOperations(IPartner rootPartnerOperations, String customerId, String targetView, String reservationScope)
-  overload: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.CustomerProductCollectionByTargetViewByReservationScopeOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.customers.products
-  summary: Initializes a new instance of the CustomerProductCollectionByTargetViewByReservationScopeOperations class.
-  syntax:
-    content: public CustomerProductCollectionByTargetViewByReservationScopeOperations(IPartner rootPartnerOperations, String customerId, String targetView, String reservationScope)
-    parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The root partner operations instance.
-    - id: customerId
-      type: java.lang.String
-      description: Identifier for the customer.
-    - id: targetView
-      type: java.lang.String
-      description: The target view which contains the products.
-    - id: reservationScope
-      type: java.lang.String
-      description: The reservation scope which contains the products.
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations
-  langs:
-  - java
-  name: get()
-  nameWithType: CustomerProductCollectionByTargetViewByReservationScopeOperations.get()
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.get()
-  overload: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.customers.products
-  summary: Gets all the products in a given product collection and that apply to a given customer, filtered by reservation scope.
-  syntax:
-    content: public ResourceCollection<Product> get()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Product>
-      description: All the products in a given product collection and that apply to a given customer, filtered by reservation scope.
-references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.CustomerProductCollectionByTargetViewByReservationScopeOperations*
-  name: CustomerProductCollectionByTargetViewByReservationScopeOperations
-  nameWithType: CustomerProductCollectionByTargetViewByReservationScopeOperations.CustomerProductCollectionByTargetViewByReservationScopeOperations
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.CustomerProductCollectionByTargetViewByReservationScopeOperations
-  package: com.microsoft.store.partnercenter.customers.products
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Product>
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.offers.Product
-    name: Product
-    fullName: com.microsoft.store.partnercenter.models.offers.Product
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.get*
-  name: get
-  nameWithType: CustomerProductCollectionByTargetViewByReservationScopeOperations.get
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.get
-  package: com.microsoft.store.partnercenter.customers.products
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-  name: BasePartnerComponent<TripletTuple<String,String,String>>
-  nameWithType: BasePartnerComponent<TripletTuple<String,String,String>>
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByReservationScope
-  name: ICustomerProductCollectionByTargetViewByReservationScope
-  nameWithType: ICustomerProductCollectionByTargetViewByReservationScope
-  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByReservationScope
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- uid: com.microsoft.store.partnercenter.models.offers.Product
-  name: Product
-  nameWithType: Product
-  fullName: com.microsoft.store.partnercenter.models.offers.Product
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: java.lang.String,java.lang.String,java.lang.String
-  name: String,String,String
-  nameWithType: String,String,String
-  fullName: java.lang.String,java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent
-  name: BasePartnerComponent
-  nameWithType: BasePartnerComponent
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
-  name: TripletTuple
-  nameWithType: TripletTuple
-  fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations
+fullName: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations
+name: CustomerProductCollectionByTargetViewByReservationScopeOperations
+nameWithType: CustomerProductCollectionByTargetViewByReservationScopeOperations
+summary: Implements the product operations by customer and by reservation scope operations.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent?alt=com.microsoft.store.partnercenter.BasePartnerComponent&text=BasePartnerComponent" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class CustomerProductCollectionByTargetViewByReservationScopeOperations extends BasePartnerComponent<TripletTuple<String,String,String>> implements ICustomerProductCollectionByTargetViewByReservationScope
+constructors:
+- com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.CustomerProductCollectionByTargetViewByReservationScopeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
+methods:
+- com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByReservationScopeOperations.get()
+type: class
+implements:
+- <xref href="com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByReservationScope?alt=com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByReservationScope&text=ICustomerProductCollectionByTargetViewByReservationScope" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.customers.products
+artifact: com.microsoft.store:partnercenter:1.15.3

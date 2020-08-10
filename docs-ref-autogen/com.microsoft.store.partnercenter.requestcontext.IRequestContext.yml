@@ -1,100 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-  id: IRequestContext
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.requestcontext
-  children:
-  - com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId()
-  - com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale()
-  - com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()
-  langs:
-  - java
-  name: IRequestContext
-  nameWithType: IRequestContext
-  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-  type: Interface
-  package: com.microsoft.store.partnercenter.requestcontext
-  summary: Bundles context information which is amended to the partner SDK operations.
-  syntax:
-    content: public interface IRequestContext
-- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId()
-  id: getCorrelationId()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-  langs:
-  - java
-  name: getCorrelationId()
-  nameWithType: IRequestContext.getCorrelationId()
-  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId()
-  overload: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId*
-  type: Method
-  package: com.microsoft.store.partnercenter.requestcontext
-  summary: Gets the correlation identifier. This identifier is used to group logical operations together.
-  syntax:
-    content: public abstract UUID getCorrelationId()
-    return:
-      type: java.util.UUID
-      description: The correlation identifier.
-- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale()
-  id: getLocale()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-  langs:
-  - java
-  name: getLocale()
-  nameWithType: IRequestContext.getLocale()
-  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale()
-  overload: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale*
-  type: Method
-  package: com.microsoft.store.partnercenter.requestcontext
-  summary: Gets the locale.
-  syntax:
-    content: public abstract String getLocale()
-    return:
-      type: java.lang.String
-      description: The locale.
-- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()
-  id: getRequestId()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-  langs:
-  - java
-  name: getRequestId()
-  nameWithType: IRequestContext.getRequestId()
-  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()
-  overload: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId*
-  type: Method
-  package: com.microsoft.store.partnercenter.requestcontext
-  summary: Gets the request identifier. Uniquely identifies the partner service operation.
-  syntax:
-    content: public abstract UUID getRequestId()
-    return:
-      type: java.util.UUID
-      description: The request identifier.
-references:
-- uid: java.util.UUID
-  spec.java:
-  - uid: java.util.UUID
-    name: UUID
-    fullName: java.util.UUID
-- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId*
-  name: getRequestId
-  nameWithType: IRequestContext.getRequestId
-  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId
-  package: com.microsoft.store.partnercenter.requestcontext
-- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId*
-  name: getCorrelationId
-  nameWithType: IRequestContext.getCorrelationId
-  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId
-  package: com.microsoft.store.partnercenter.requestcontext
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale*
-  name: getLocale
-  nameWithType: IRequestContext.getLocale
-  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale
-  package: com.microsoft.store.partnercenter.requestcontext
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+name: IRequestContext
+nameWithType: IRequestContext
+summary: Bundles context information which is amended to the partner SDK operations.
+syntax: public interface IRequestContext
+methods:
+- com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId()
+- com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale()
+- com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()
+type: interface
+metadata: {}
+package: com.microsoft.store.partnercenter.requestcontext
+artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,73 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
-  id: IBatchJobStatus
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment
-  children:
-  - com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get()
-  langs:
-  - java
-  name: IBatchJobStatus
-  nameWithType: IBatchJobStatus
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
-  type: Interface
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Represents the operations that can be done on the partner's device.
-  syntax:
-    content: public interface IBatchJobStatus extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<BatchUploadDetails>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails>
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
-  langs:
-  - java
-  name: get()
-  nameWithType: IBatchJobStatus.get()
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get()
-  overload: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Retrieves a specific customer devices batch upload status details.
-  syntax:
-    content: public abstract BatchUploadDetails get()
-    return:
-      type: com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails
-      description: The devices batch upload status details.
-references:
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails
-  name: BatchUploadDetails
-  nameWithType: BatchUploadDetails
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get*
-  name: get
-  nameWithType: IBatchJobStatus.get
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails>
-  name: IEntityGetOperations<BatchUploadDetails>
-  nameWithType: IEntityGetOperations<BatchUploadDetails>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
+fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
+name: IBatchJobStatus
+nameWithType: IBatchJobStatus
+summary: Represents the operations that can be done on the partner's device.
+syntax: public interface IBatchJobStatus extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<BatchUploadDetails>
+methods:
+- com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails?alt=com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails&text=BatchUploadDetails" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.devicesdeployment
+artifact: com.microsoft.store:partnercenter:1.15.3

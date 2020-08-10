@@ -1,92 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
-  id: ISubscriptionUsageRecordCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage
-  children:
-  - com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byMeter()
-  - com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byResource()
-  langs:
-  - java
-  name: ISubscriptionUsageRecordCollection
-  nameWithType: ISubscriptionUsageRecordCollection
-  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.usage
-  summary: Represents the operations for a customer's subscription usage records.
-  syntax:
-    content: public interface ISubscriptionUsageRecordCollection extends IPartnerComponent<Tuple<String,String>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byMeter()
-  id: byMeter()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
-  langs:
-  - java
-  name: byMeter()
-  nameWithType: ISubscriptionUsageRecordCollection.byMeter()
-  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byMeter()
-  overload: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byMeter*
-  type: Method
-  package: com.microsoft.store.partnercenter.usage
-  summary: Gets the subscription usage records grouped by meter.
-  syntax:
-    content: public abstract IUsageRecordByMeterCollection byMeter()
-    return:
-      type: com.microsoft.store.partnercenter.usage.IUsageRecordByMeterCollection
-      description: The subscription usage records grouped by meter.
-- uid: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byResource()
-  id: byResource()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
-  langs:
-  - java
-  name: byResource()
-  nameWithType: ISubscriptionUsageRecordCollection.byResource()
-  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byResource()
-  overload: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byResource*
-  type: Method
-  package: com.microsoft.store.partnercenter.usage
-  summary: Gets the subscription usage records grouped by resource.
-  syntax:
-    content: public abstract IUsageRecordByResourceCollection byResource()
-    return:
-      type: com.microsoft.store.partnercenter.usage.IUsageRecordByResourceCollection
-      description: Gets the subscription usage records grouped by resource.
-references:
-- uid: com.microsoft.store.partnercenter.usage.IUsageRecordByMeterCollection
-  name: IUsageRecordByMeterCollection
-  nameWithType: IUsageRecordByMeterCollection
-  fullName: com.microsoft.store.partnercenter.usage.IUsageRecordByMeterCollection
-- uid: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byMeter*
-  name: byMeter
-  nameWithType: ISubscriptionUsageRecordCollection.byMeter
-  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byMeter
-  package: com.microsoft.store.partnercenter.usage
-- uid: com.microsoft.store.partnercenter.usage.IUsageRecordByResourceCollection
-  name: IUsageRecordByResourceCollection
-  nameWithType: IUsageRecordByResourceCollection
-  fullName: com.microsoft.store.partnercenter.usage.IUsageRecordByResourceCollection
-- uid: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byResource*
-  name: byResource
-  nameWithType: ISubscriptionUsageRecordCollection.byResource
-  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byResource
-  package: com.microsoft.store.partnercenter.usage
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
+fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection
+name: ISubscriptionUsageRecordCollection
+nameWithType: ISubscriptionUsageRecordCollection
+summary: Represents the operations for a customer's subscription usage records.
+syntax: public interface ISubscriptionUsageRecordCollection extends IPartnerComponent<Tuple<String,String>>
+methods:
+- com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byMeter()
+- com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection.byResource()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.usage
+artifact: com.microsoft.store:partnercenter:1.15.3

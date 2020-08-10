@@ -1,48 +1,14 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
-  id: IOrderLineItemCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.orders
-  langs:
-  - java
-  name: IOrderLineItemCollection
-  nameWithType: IOrderLineItemCollection
-  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.orders
-  summary: Represents the available order line item collection operations.
-  syntax:
-    content: public interface IOrderLineItemCollection extends IPartnerComponent<Tuple<String,String>>, IEntitySelector<Integer,IOrderLineItem>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem>
-references:
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem>
-  name: IEntitySelector<Integer,IOrderLineItem>
-  nameWithType: IEntitySelector<Integer,IOrderLineItem>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  name: IEntitySelector
-  nameWithType: IEntitySelector
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-- uid: java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem
-  name: Integer,IOrderLineItem
-  nameWithType: Integer,IOrderLineItem
-  fullName: java.lang.Integer,com.microsoft.store.partnercenter.orders.IOrderLineItem
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
+fullName: com.microsoft.store.partnercenter.orders.IOrderLineItemCollection
+name: IOrderLineItemCollection
+nameWithType: IOrderLineItemCollection
+summary: Represents the available order line item collection operations.
+syntax: public interface IOrderLineItemCollection extends IPartnerComponent<Tuple<String,String>>, IEntitySelector<Integer,IOrderLineItem>
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.orders.IOrderLineItem?alt=com.microsoft.store.partnercenter.orders.IOrderLineItem&text=IOrderLineItem" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.orders
+artifact: com.microsoft.store:partnercenter:1.15.3

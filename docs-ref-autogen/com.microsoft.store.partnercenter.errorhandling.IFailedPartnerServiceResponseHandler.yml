@@ -1,85 +1,14 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
-  id: IFailedPartnerServiceResponseHandler
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.errorhandling
-  children:
-  - com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response)
-  - com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response,com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-  langs:
-  - java
-  name: IFailedPartnerServiceResponseHandler
-  nameWithType: IFailedPartnerServiceResponseHandler
-  fullName: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
-  type: Interface
-  package: com.microsoft.store.partnercenter.errorhandling
-  summary: Defines behavior for handling non successful responses from the partner service.
-  syntax:
-    content: public interface IFailedPartnerServiceResponseHandler
-- uid: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response)
-  id: handleFailedResponse(okhttp3.Response)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
-  langs:
-  - java
-  name: handleFailedResponse(Response response)
-  nameWithType: IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response)
-  fullName: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response)
-  overload: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse*
-  type: Method
-  package: com.microsoft.store.partnercenter.errorhandling
-  summary: Handles failed partner service responses.
-  syntax:
-    content: public abstract PartnerException handleFailedResponse(Response response)
-    parameters:
-    - id: response
-      type: okhttp3.Response
-      description: The partner service response.
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerException
-      description: The exception to throw.
-- uid: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response,com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-  id: handleFailedResponse(okhttp3.Response,com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
-  langs:
-  - java
-  name: handleFailedResponse(Response response, IRequestContext context)
-  nameWithType: IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response, IRequestContext context)
-  fullName: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response, IRequestContext context)
-  overload: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse*
-  type: Method
-  package: com.microsoft.store.partnercenter.errorhandling
-  summary: Handles failed partner service responses.
-  syntax:
-    content: public abstract PartnerException handleFailedResponse(Response response, IRequestContext context)
-    parameters:
-    - id: response
-      type: okhttp3.Response
-      description: The partner service response.
-    - id: context
-      type: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-      description: The reqeust context.
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerException
-      description: The exception to throw.
-references:
-- uid: okhttp3.Response
-  spec.java:
-  - uid: okhttp3.Response
-    name: Response
-    fullName: okhttp3.Response
-- uid: com.microsoft.store.partnercenter.exception.PartnerException
-  name: PartnerException
-  nameWithType: PartnerException
-  fullName: com.microsoft.store.partnercenter.exception.PartnerException
-- uid: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse*
-  name: handleFailedResponse
-  nameWithType: IFailedPartnerServiceResponseHandler.handleFailedResponse
-  fullName: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse
-  package: com.microsoft.store.partnercenter.errorhandling
-- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-  name: IRequestContext
-  nameWithType: IRequestContext
-  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
+fullName: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
+name: IFailedPartnerServiceResponseHandler
+nameWithType: IFailedPartnerServiceResponseHandler
+summary: Defines behavior for handling non successful responses from the partner service.
+syntax: public interface IFailedPartnerServiceResponseHandler
+methods:
+- com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response)
+- com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response,com.microsoft.store.partnercenter.requestcontext.IRequestContext)
+type: interface
+metadata: {}
+package: com.microsoft.store.partnercenter.errorhandling
+artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,61 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
-  id: ICustomerRelationshipRequest
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.relationshiprequests
-  children:
-  - com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.get()
-  langs:
-  - java
-  name: ICustomerRelationshipRequest
-  nameWithType: ICustomerRelationshipRequest
-  fullName: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
-  type: Interface
-  package: com.microsoft.store.partnercenter.relationshiprequests
-  summary: Holds operations that apply to customer relationship requests.
-  syntax:
-    content: public interface ICustomerRelationshipRequest extends IPartnerComponentString, IEntityGetOperations<CustomerRelationshipRequest>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest>
-- uid: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
-  langs:
-  - java
-  name: get()
-  nameWithType: ICustomerRelationshipRequest.get()
-  fullName: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.get()
-  overload: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.relationshiprequests
-  summary: Retrieves the customer relationship request which can be used by a customer to establish a relationship with the current partner.
-  syntax:
-    content: public abstract CustomerRelationshipRequest get()
-    return:
-      type: com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest
-      description: A customer relationship request.
-references:
-- uid: com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest
-  name: CustomerRelationshipRequest
-  nameWithType: CustomerRelationshipRequest
-  fullName: com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest
-- uid: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.get*
-  name: get
-  nameWithType: ICustomerRelationshipRequest.get
-  fullName: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.get
-  package: com.microsoft.store.partnercenter.relationshiprequests
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest>
-  name: IEntityGetOperations<CustomerRelationshipRequest>
-  nameWithType: IEntityGetOperations<CustomerRelationshipRequest>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
+fullName: com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest
+name: ICustomerRelationshipRequest
+nameWithType: ICustomerRelationshipRequest
+summary: Holds operations that apply to customer relationship requests.
+syntax: public interface ICustomerRelationshipRequest extends IPartnerComponentString, IEntityGetOperations<CustomerRelationshipRequest>
+methods:
+- com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.get()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest?alt=com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest&text=CustomerRelationshipRequest" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.relationshiprequests
+artifact: com.microsoft.store:partnercenter:1.15.3

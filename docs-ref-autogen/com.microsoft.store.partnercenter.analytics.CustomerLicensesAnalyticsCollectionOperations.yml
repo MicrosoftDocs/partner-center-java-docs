@@ -1,191 +1,36 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations
-  id: CustomerLicensesAnalyticsCollectionOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.analytics
-  children:
-  - com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  - com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getDeployment()
-  - com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getUsage()
-  langs:
-  - java
-  name: CustomerLicensesAnalyticsCollectionOperations
-  nameWithType: CustomerLicensesAnalyticsCollectionOperations
-  fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.analytics
-  summary: Implements the operations on a customer licenses analytics collection.
-  syntax:
-    content: public class CustomerLicensesAnalyticsCollectionOperations extends BasePartnerComponentString implements ICustomerLicensesAnalyticsCollection
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  - com.microsoft.store.partnercenter.BasePartnerComponentString
-  implements:
-  - com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  id: CustomerLicensesAnalyticsCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations
-  langs:
-  - java
-  name: CustomerLicensesAnalyticsCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  nameWithType: CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  overload: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.analytics
-  summary: Initializes a new instance of the CustomerLicensesAnalyticsCollectionOperations class.
-  syntax:
-    content: public CustomerLicensesAnalyticsCollectionOperations(IPartner rootPartnerOperations, String customerId)
-    parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The root partner operations instance.
-    - id: customerId
-      type: java.lang.String
-      description: The identifier of the customer.
-- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getDeployment()
-  id: getDeployment()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations
-  langs:
-  - java
-  name: getDeployment()
-  nameWithType: CustomerLicensesAnalyticsCollectionOperations.getDeployment()
-  fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getDeployment()
-  overload: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getDeployment*
-  type: Method
-  package: com.microsoft.store.partnercenter.analytics
-  summary: Gets the customer level licenses deployment analytics.
-  syntax:
-    content: public ICustomerLicensesDeploymentInsightsCollection getDeployment()
-    return:
-      type: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection
-      description: The customer level licenses deployment analytics
-- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getUsage()
-  id: getUsage()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations
-  langs:
-  - java
-  name: getUsage()
-  nameWithType: CustomerLicensesAnalyticsCollectionOperations.getUsage()
-  fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getUsage()
-  overload: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getUsage*
-  type: Method
-  package: com.microsoft.store.partnercenter.analytics
-  summary: Gets the customer level licenses usage analytics.
-  syntax:
-    content: public ICustomerLicensesUsageInsightsCollection getUsage()
-    return:
-      type: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection
-      description: The customer level licenses usage analytics.
-references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations*
-  name: CustomerLicensesAnalyticsCollectionOperations
-  nameWithType: CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations
-  fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations
-  package: com.microsoft.store.partnercenter.analytics
-- uid: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection
-  name: ICustomerLicensesDeploymentInsightsCollection
-  nameWithType: ICustomerLicensesDeploymentInsightsCollection
-  fullName: com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection
-- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getDeployment*
-  name: getDeployment
-  nameWithType: CustomerLicensesAnalyticsCollectionOperations.getDeployment
-  fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getDeployment
-  package: com.microsoft.store.partnercenter.analytics
-- uid: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection
-  name: ICustomerLicensesUsageInsightsCollection
-  nameWithType: ICustomerLicensesUsageInsightsCollection
-  fullName: com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection
-- uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getUsage*
-  name: getUsage
-  nameWithType: CustomerLicensesAnalyticsCollectionOperations.getUsage
-  fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getUsage
-  package: com.microsoft.store.partnercenter.analytics
-- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
-  name: BasePartnerComponentString
-  nameWithType: BasePartnerComponentString
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
-- uid: com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection
-  name: ICustomerLicensesAnalyticsCollection
-  nameWithType: ICustomerLicensesAnalyticsCollection
-  fullName: com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations
+fullName: com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations
+name: CustomerLicensesAnalyticsCollectionOperations
+nameWithType: CustomerLicensesAnalyticsCollectionOperations
+summary: Implements the operations on a customer licenses analytics collection.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent?alt=com.microsoft.store.partnercenter.BasePartnerComponent&text=BasePartnerComponent" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponentString?alt=com.microsoft.store.partnercenter.BasePartnerComponentString&text=BasePartnerComponentString" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class CustomerLicensesAnalyticsCollectionOperations extends BasePartnerComponentString implements ICustomerLicensesAnalyticsCollection
+constructors:
+- com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+methods:
+- com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getDeployment()
+- com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getUsage()
+type: class
+implements:
+- <xref href="com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection?alt=com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection&text=ICustomerLicensesAnalyticsCollection" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.analytics
+artifact: com.microsoft.store:partnercenter:1.15.3

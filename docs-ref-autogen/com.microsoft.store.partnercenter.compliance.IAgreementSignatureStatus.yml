@@ -1,68 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus
-  id: IAgreementSignatureStatus
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.compliance
-  children:
-  - com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus.get(java.lang.String,java.lang.String)
-  langs:
-  - java
-  name: IAgreementSignatureStatus
-  nameWithType: IAgreementSignatureStatus
-  fullName: com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus
-  type: Interface
-  package: com.microsoft.store.partnercenter.compliance
-  summary: Represents the agreement signature status operations.
-  syntax:
-    content: public interface IAgreementSignatureStatus extends IPartnerComponent<String>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>
-- uid: com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus.get(java.lang.String,java.lang.String)
-  id: get(java.lang.String,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus
-  langs:
-  - java
-  name: get(String mpnId, String tenantId)
-  nameWithType: IAgreementSignatureStatus.get(String mpnId, String tenantId)
-  fullName: com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus.get(String mpnId, String tenantId)
-  overload: com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.compliance
-  summary: Gets the agreement signature status by Microsoft Partner Network identifier or tenant identifier.
-  syntax:
-    content: public abstract AgreementSignatureStatus get(String mpnId, String tenantId)
-    parameters:
-    - id: mpnId
-      type: java.lang.String
-      description: Optional identifier for the Microsoft Partner Network.
-    - id: tenantId
-      type: java.lang.String
-      description: Optional identifier for the tenant.
-    return:
-      type: com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus
-      description: The agreement signature status by Microsoft Partner Network identifier or tenant identifier.
-references:
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus
-  name: AgreementSignatureStatus
-  nameWithType: AgreementSignatureStatus
-  fullName: com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus
-- uid: com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus.get*
-  name: get
-  nameWithType: IAgreementSignatureStatus.get
-  fullName: com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus.get
-  package: com.microsoft.store.partnercenter.compliance
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>
-  name: IPartnerComponent<String>
-  nameWithType: IPartnerComponent<String>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus
+fullName: com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus
+name: IAgreementSignatureStatus
+nameWithType: IAgreementSignatureStatus
+summary: Represents the agreement signature status operations.
+syntax: public interface IAgreementSignatureStatus extends IPartnerComponent<String>
+methods:
+- com.microsoft.store.partnercenter.compliance.IAgreementSignatureStatus.get(java.lang.String,java.lang.String)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.compliance
+artifact: com.microsoft.store:partnercenter:1.15.3

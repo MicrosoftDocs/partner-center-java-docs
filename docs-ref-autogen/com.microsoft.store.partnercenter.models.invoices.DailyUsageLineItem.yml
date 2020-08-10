@@ -1,701 +1,95 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  id: DailyUsageLineItem
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices
-  children:
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.DailyUsageLineItem()
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getCustomerBillableAccount()
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getInvoiceLineItemType()
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredRegion()
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredService()
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredServiceType()
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getProject()
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getServiceInfo()
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getUsageDate()
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setCustomerBillableAccount(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredRegion(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredService(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredServiceType(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setProject(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setServiceInfo(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setUsageDate(org.joda.time.DateTime)
-  langs:
-  - java
-  name: DailyUsageLineItem
-  nameWithType: DailyUsageLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  type: Class
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Invoice Usage Line item for usage based subscriptions
-  syntax:
-    content: public class DailyUsageLineItem extends BaseUsageBasedLineItem
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  - com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getBillingCycleType()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getBillingProvider()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getChargeEndDate()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getChargeStartDate()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getConsumedQuantity()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getCustomerCompanyName()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getCustomerId()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getDomainName()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getInvoiceNumber()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getMpnId()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getOrderId()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerBillableAccountId()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerId()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerName()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getRegion()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getResourceGuid()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getResourceName()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getServiceName()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getServiceType()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionDescription()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionId()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionName()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getTier2MpnId()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getUnit()
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setBillingCycleType(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setChargeEndDate(org.joda.time.DateTime)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setChargeStartDate(org.joda.time.DateTime)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setConsumedQuantity(double)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setCustomerCompanyName(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setCustomerId(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setDomainName(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setInvoiceNumber(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setMpnId(int)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setOrderId(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerBillableAccountId(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerId(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerName(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setRegion(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setResourceGuid(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setResourceName(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setServiceName(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setServiceType(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionDescription(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionId(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionName(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setTier2MpnId(int)
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setUnit(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.DailyUsageLineItem()
-  id: DailyUsageLineItem()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: DailyUsageLineItem()
-  nameWithType: DailyUsageLineItem.DailyUsageLineItem()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.DailyUsageLineItem()
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.DailyUsageLineItem*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public DailyUsageLineItem()
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getCustomerBillableAccount()
-  id: getCustomerBillableAccount()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: getCustomerBillableAccount()
-  nameWithType: DailyUsageLineItem.getCustomerBillableAccount()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getCustomerBillableAccount()
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getCustomerBillableAccount*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public String getCustomerBillableAccount()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getInvoiceLineItemType()
-  id: getInvoiceLineItemType()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: getInvoiceLineItemType()
-  nameWithType: DailyUsageLineItem.getInvoiceLineItemType()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getInvoiceLineItemType()
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getInvoiceLineItemType*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Returns the type of invoice line item
-  syntax:
-    content: public InvoiceLineItemType getInvoiceLineItemType()
-    return:
-      type: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
-      description: The type of invoice line item.
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredRegion()
-  id: getMeteredRegion()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: getMeteredRegion()
-  nameWithType: DailyUsageLineItem.getMeteredRegion()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredRegion()
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredRegion*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public String getMeteredRegion()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredService()
-  id: getMeteredService()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: getMeteredService()
-  nameWithType: DailyUsageLineItem.getMeteredService()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredService()
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredService*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public String getMeteredService()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredServiceType()
-  id: getMeteredServiceType()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: getMeteredServiceType()
-  nameWithType: DailyUsageLineItem.getMeteredServiceType()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredServiceType()
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredServiceType*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public String getMeteredServiceType()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getProject()
-  id: getProject()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: getProject()
-  nameWithType: DailyUsageLineItem.getProject()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getProject()
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getProject*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public String getProject()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getServiceInfo()
-  id: getServiceInfo()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: getServiceInfo()
-  nameWithType: DailyUsageLineItem.getServiceInfo()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getServiceInfo()
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getServiceInfo*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public String getServiceInfo()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getUsageDate()
-  id: getUsageDate()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: getUsageDate()
-  nameWithType: DailyUsageLineItem.getUsageDate()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getUsageDate()
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getUsageDate*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public DateTime getUsageDate()
-    return:
-      type: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setCustomerBillableAccount(java.lang.String)
-  id: setCustomerBillableAccount(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: setCustomerBillableAccount(String value)
-  nameWithType: DailyUsageLineItem.setCustomerBillableAccount(String value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setCustomerBillableAccount(String value)
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setCustomerBillableAccount*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public void setCustomerBillableAccount(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredRegion(java.lang.String)
-  id: setMeteredRegion(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: setMeteredRegion(String value)
-  nameWithType: DailyUsageLineItem.setMeteredRegion(String value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredRegion(String value)
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredRegion*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public void setMeteredRegion(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredService(java.lang.String)
-  id: setMeteredService(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: setMeteredService(String value)
-  nameWithType: DailyUsageLineItem.setMeteredService(String value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredService(String value)
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredService*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public void setMeteredService(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredServiceType(java.lang.String)
-  id: setMeteredServiceType(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: setMeteredServiceType(String value)
-  nameWithType: DailyUsageLineItem.setMeteredServiceType(String value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredServiceType(String value)
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredServiceType*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public void setMeteredServiceType(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setProject(java.lang.String)
-  id: setProject(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: setProject(String value)
-  nameWithType: DailyUsageLineItem.setProject(String value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setProject(String value)
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setProject*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public void setProject(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setServiceInfo(java.lang.String)
-  id: setServiceInfo(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: setServiceInfo(String value)
-  nameWithType: DailyUsageLineItem.setServiceInfo(String value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setServiceInfo(String value)
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setServiceInfo*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public void setServiceInfo(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setUsageDate(org.joda.time.DateTime)
-  id: setUsageDate(org.joda.time.DateTime)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  langs:
-  - java
-  name: setUsageDate(DateTime value)
-  nameWithType: DailyUsageLineItem.setUsageDate(DateTime value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setUsageDate(DateTime value)
-  overload: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setUsageDate*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public void setUsageDate(DateTime value)
-    parameters:
-    - id: value
-      type: org.joda.time.DateTime
-references:
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.DailyUsageLineItem*
-  name: DailyUsageLineItem
-  nameWithType: DailyUsageLineItem.DailyUsageLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.DailyUsageLineItem
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getCustomerBillableAccount*
-  name: getCustomerBillableAccount
-  nameWithType: DailyUsageLineItem.getCustomerBillableAccount
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getCustomerBillableAccount
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setCustomerBillableAccount*
-  name: setCustomerBillableAccount
-  nameWithType: DailyUsageLineItem.setCustomerBillableAccount
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setCustomerBillableAccount
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: org.joda.time.DateTime
-  spec.java:
-  - uid: org.joda.time.DateTime
-    name: DateTime
-    fullName: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getUsageDate*
-  name: getUsageDate
-  nameWithType: DailyUsageLineItem.getUsageDate
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getUsageDate
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setUsageDate*
-  name: setUsageDate
-  nameWithType: DailyUsageLineItem.setUsageDate
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setUsageDate
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredService*
-  name: getMeteredService
-  nameWithType: DailyUsageLineItem.getMeteredService
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredService
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredService*
-  name: setMeteredService
-  nameWithType: DailyUsageLineItem.setMeteredService
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredService
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredServiceType*
-  name: getMeteredServiceType
-  nameWithType: DailyUsageLineItem.getMeteredServiceType
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredServiceType
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredServiceType*
-  name: setMeteredServiceType
-  nameWithType: DailyUsageLineItem.setMeteredServiceType
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredServiceType
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredRegion*
-  name: getMeteredRegion
-  nameWithType: DailyUsageLineItem.getMeteredRegion
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredRegion
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredRegion*
-  name: setMeteredRegion
-  nameWithType: DailyUsageLineItem.setMeteredRegion
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredRegion
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getProject*
-  name: getProject
-  nameWithType: DailyUsageLineItem.getProject
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getProject
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setProject*
-  name: setProject
-  nameWithType: DailyUsageLineItem.setProject
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setProject
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getServiceInfo*
-  name: getServiceInfo
-  nameWithType: DailyUsageLineItem.getServiceInfo
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getServiceInfo
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setServiceInfo*
-  name: setServiceInfo
-  nameWithType: DailyUsageLineItem.setServiceInfo
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setServiceInfo
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
-  name: InvoiceLineItemType
-  nameWithType: InvoiceLineItemType
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getInvoiceLineItemType*
-  name: getInvoiceLineItemType
-  nameWithType: DailyUsageLineItem.getInvoiceLineItemType
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getInvoiceLineItemType
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem
-  name: BaseUsageBasedLineItem
-  nameWithType: BaseUsageBasedLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionName(java.lang.String)
-  name: BaseUsageBasedLineItem.setSubscriptionName(String)
-  nameWithType: BaseUsageBasedLineItem.setSubscriptionName(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionName(java.lang.String)
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getCustomerId()
-  name: BaseUsageBasedLineItem.getCustomerId()
-  nameWithType: BaseUsageBasedLineItem.getCustomerId()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getCustomerId()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setChargeEndDate(org.joda.time.DateTime)
-  name: BaseUsageBasedLineItem.setChargeEndDate(DateTime)
-  nameWithType: BaseUsageBasedLineItem.setChargeEndDate(DateTime)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setChargeEndDate(org.joda.time.DateTime)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionName()
-  name: BaseUsageBasedLineItem.getSubscriptionName()
-  nameWithType: BaseUsageBasedLineItem.getSubscriptionName()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionName()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getCustomerCompanyName()
-  name: BaseUsageBasedLineItem.getCustomerCompanyName()
-  nameWithType: BaseUsageBasedLineItem.getCustomerCompanyName()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getCustomerCompanyName()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getTier2MpnId()
-  name: BaseUsageBasedLineItem.getTier2MpnId()
-  nameWithType: BaseUsageBasedLineItem.getTier2MpnId()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getTier2MpnId()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setBillingCycleType(java.lang.String)
-  name: BaseUsageBasedLineItem.setBillingCycleType(String)
-  nameWithType: BaseUsageBasedLineItem.setBillingCycleType(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setBillingCycleType(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getUnit()
-  name: BaseUsageBasedLineItem.getUnit()
-  nameWithType: BaseUsageBasedLineItem.getUnit()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getUnit()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionId()
-  name: BaseUsageBasedLineItem.getSubscriptionId()
-  nameWithType: BaseUsageBasedLineItem.getSubscriptionId()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionId()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getResourceName()
-  name: BaseUsageBasedLineItem.getResourceName()
-  nameWithType: BaseUsageBasedLineItem.getResourceName()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getResourceName()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setResourceName(java.lang.String)
-  name: BaseUsageBasedLineItem.setResourceName(String)
-  nameWithType: BaseUsageBasedLineItem.setResourceName(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setResourceName(java.lang.String)
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerName(java.lang.String)
-  name: BaseUsageBasedLineItem.setPartnerName(String)
-  nameWithType: BaseUsageBasedLineItem.setPartnerName(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerName(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  name: ResourceBase.getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getOrderId()
-  name: BaseUsageBasedLineItem.getOrderId()
-  nameWithType: BaseUsageBasedLineItem.getOrderId()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getOrderId()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getConsumedQuantity()
-  name: BaseUsageBasedLineItem.getConsumedQuantity()
-  nameWithType: BaseUsageBasedLineItem.getConsumedQuantity()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getConsumedQuantity()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getChargeStartDate()
-  name: BaseUsageBasedLineItem.getChargeStartDate()
-  nameWithType: BaseUsageBasedLineItem.getChargeStartDate()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getChargeStartDate()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionId(java.lang.String)
-  name: BaseUsageBasedLineItem.setSubscriptionId(String)
-  nameWithType: BaseUsageBasedLineItem.setSubscriptionId(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionId(java.lang.String)
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getResourceGuid()
-  name: BaseUsageBasedLineItem.getResourceGuid()
-  nameWithType: BaseUsageBasedLineItem.getResourceGuid()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getResourceGuid()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getDomainName()
-  name: BaseUsageBasedLineItem.getDomainName()
-  nameWithType: BaseUsageBasedLineItem.getDomainName()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getDomainName()
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setDomainName(java.lang.String)
-  name: BaseUsageBasedLineItem.setDomainName(String)
-  nameWithType: BaseUsageBasedLineItem.setDomainName(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setDomainName(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setInvoiceNumber(java.lang.String)
-  name: BaseUsageBasedLineItem.setInvoiceNumber(String)
-  nameWithType: BaseUsageBasedLineItem.setInvoiceNumber(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setInvoiceNumber(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setServiceType(java.lang.String)
-  name: BaseUsageBasedLineItem.setServiceType(String)
-  nameWithType: BaseUsageBasedLineItem.setServiceType(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setServiceType(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerId(java.lang.String)
-  name: BaseUsageBasedLineItem.setPartnerId(String)
-  nameWithType: BaseUsageBasedLineItem.setPartnerId(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerId(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerName()
-  name: BaseUsageBasedLineItem.getPartnerName()
-  nameWithType: BaseUsageBasedLineItem.getPartnerName()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerName()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerId()
-  name: BaseUsageBasedLineItem.getPartnerId()
-  nameWithType: BaseUsageBasedLineItem.getPartnerId()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerId()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getChargeEndDate()
-  name: BaseUsageBasedLineItem.getChargeEndDate()
-  nameWithType: BaseUsageBasedLineItem.getChargeEndDate()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getChargeEndDate()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getServiceName()
-  name: BaseUsageBasedLineItem.getServiceName()
-  nameWithType: BaseUsageBasedLineItem.getServiceName()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getServiceName()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerBillableAccountId()
-  name: BaseUsageBasedLineItem.getPartnerBillableAccountId()
-  nameWithType: BaseUsageBasedLineItem.getPartnerBillableAccountId()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerBillableAccountId()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionDescription(java.lang.String)
-  name: BaseUsageBasedLineItem.setSubscriptionDescription(String)
-  nameWithType: BaseUsageBasedLineItem.setSubscriptionDescription(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionDescription(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setMpnId(int)
-  name: BaseUsageBasedLineItem.setMpnId(int)
-  nameWithType: BaseUsageBasedLineItem.setMpnId(int)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setMpnId(int)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerBillableAccountId(java.lang.String)
-  name: BaseUsageBasedLineItem.setPartnerBillableAccountId(String)
-  nameWithType: BaseUsageBasedLineItem.setPartnerBillableAccountId(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerBillableAccountId(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getBillingCycleType()
-  name: BaseUsageBasedLineItem.getBillingCycleType()
-  nameWithType: BaseUsageBasedLineItem.getBillingCycleType()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getBillingCycleType()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setCustomerId(java.lang.String)
-  name: BaseUsageBasedLineItem.setCustomerId(String)
-  nameWithType: BaseUsageBasedLineItem.setCustomerId(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setCustomerId(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getRegion()
-  name: BaseUsageBasedLineItem.getRegion()
-  nameWithType: BaseUsageBasedLineItem.getRegion()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getRegion()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionDescription()
-  name: BaseUsageBasedLineItem.getSubscriptionDescription()
-  nameWithType: BaseUsageBasedLineItem.getSubscriptionDescription()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionDescription()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setCustomerCompanyName(java.lang.String)
-  name: BaseUsageBasedLineItem.setCustomerCompanyName(String)
-  nameWithType: BaseUsageBasedLineItem.setCustomerCompanyName(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setCustomerCompanyName(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setConsumedQuantity(double)
-  name: BaseUsageBasedLineItem.setConsumedQuantity(double)
-  nameWithType: BaseUsageBasedLineItem.setConsumedQuantity(double)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setConsumedQuantity(double)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getMpnId()
-  name: BaseUsageBasedLineItem.getMpnId()
-  nameWithType: BaseUsageBasedLineItem.getMpnId()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getMpnId()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setRegion(java.lang.String)
-  name: BaseUsageBasedLineItem.setRegion(String)
-  nameWithType: BaseUsageBasedLineItem.setRegion(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setRegion(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setServiceName(java.lang.String)
-  name: BaseUsageBasedLineItem.setServiceName(String)
-  nameWithType: BaseUsageBasedLineItem.setServiceName(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setServiceName(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()
-  name: InvoiceLineItem.getInvoiceLineItemType()
-  nameWithType: InvoiceLineItem.getInvoiceLineItemType()
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setOrderId(java.lang.String)
-  name: BaseUsageBasedLineItem.setOrderId(String)
-  nameWithType: BaseUsageBasedLineItem.setOrderId(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setOrderId(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getBillingProvider()
-  name: BaseUsageBasedLineItem.getBillingProvider()
-  nameWithType: BaseUsageBasedLineItem.getBillingProvider()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getBillingProvider()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setUnit(java.lang.String)
-  name: BaseUsageBasedLineItem.setUnit(String)
-  nameWithType: BaseUsageBasedLineItem.setUnit(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setUnit(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getInvoiceNumber()
-  name: BaseUsageBasedLineItem.getInvoiceNumber()
-  nameWithType: BaseUsageBasedLineItem.getInvoiceNumber()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getInvoiceNumber()
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setTier2MpnId(int)
-  name: BaseUsageBasedLineItem.setTier2MpnId(int)
-  nameWithType: BaseUsageBasedLineItem.setTier2MpnId(int)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setTier2MpnId(int)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setResourceGuid(java.lang.String)
-  name: BaseUsageBasedLineItem.setResourceGuid(String)
-  nameWithType: BaseUsageBasedLineItem.setResourceGuid(String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setResourceGuid(java.lang.String)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setChargeStartDate(org.joda.time.DateTime)
-  name: BaseUsageBasedLineItem.setChargeStartDate(DateTime)
-  nameWithType: BaseUsageBasedLineItem.setChargeStartDate(DateTime)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setChargeStartDate(org.joda.time.DateTime)
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getServiceType()
-  name: BaseUsageBasedLineItem.getServiceType()
-  nameWithType: BaseUsageBasedLineItem.getServiceType()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getServiceType()
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
+fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
+name: DailyUsageLineItem
+nameWithType: DailyUsageLineItem
+summary: Invoice Usage Line item for usage based subscriptions
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.models.ResourceBase?alt=com.microsoft.store.partnercenter.models.ResourceBase&text=ResourceBase" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem&text=InvoiceLineItem" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem?alt=com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem&text=BaseUsageBasedLineItem" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getBillingCycleType()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getBillingProvider()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getChargeEndDate()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getChargeStartDate()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getConsumedQuantity()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getCustomerCompanyName()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getCustomerId()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getDomainName()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getInvoiceNumber()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getMpnId()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getOrderId()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerBillableAccountId()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerId()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerName()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getRegion()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getResourceGuid()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getResourceName()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getServiceName()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getServiceType()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionDescription()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionId()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionName()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getTier2MpnId()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getUnit()
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setBillingCycleType(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setChargeEndDate(org.joda.time.DateTime)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setChargeStartDate(org.joda.time.DateTime)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setConsumedQuantity(double)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setCustomerCompanyName(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setCustomerId(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setDomainName(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setInvoiceNumber(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setMpnId(int)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setOrderId(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerBillableAccountId(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerId(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerName(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setRegion(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setResourceGuid(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setResourceName(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setServiceName(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setServiceType(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionDescription(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionId(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionName(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setTier2MpnId(int)
+- com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setUnit(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class DailyUsageLineItem extends BaseUsageBasedLineItem
+constructors:
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.DailyUsageLineItem()
+methods:
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getCustomerBillableAccount()
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getInvoiceLineItemType()
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredRegion()
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredService()
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredServiceType()
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getProject()
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getServiceInfo()
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getUsageDate()
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setCustomerBillableAccount(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredRegion(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredService(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredServiceType(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setProject(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setServiceInfo(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setUsageDate(org.joda.time.DateTime)
+type: class
+metadata: {}
+package: com.microsoft.store.partnercenter.models.invoices
+artifact: com.microsoft.store:partnercenter:1.15.3

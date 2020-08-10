@@ -1,25 +1,11 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.errorhandling
-  id: errorhandling
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  children:
-  - com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler
-  - com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
-  langs:
-  - java
-  name: com.microsoft.store.partnercenter.errorhandling
-  nameWithType: com.microsoft.store.partnercenter.errorhandling
-  fullName: com.microsoft.store.partnercenter.errorhandling
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter.errorhandling
-references:
-- uid: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler
-  name: DefaultPartnerServiceErrorHandler
-  nameWithType: DefaultPartnerServiceErrorHandler
-  fullName: com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler
-- uid: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
-  name: IFailedPartnerServiceResponseHandler
-  nameWithType: IFailedPartnerServiceResponseHandler
-  fullName: com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
+### YamlMime:JavaPackage
+uid: com.microsoft.store.partnercenter.errorhandling
+fullName: com.microsoft.store.partnercenter.errorhandling
+name: com.microsoft.store.partnercenter.errorhandling
+classes:
+- com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler
+interfaces:
+- com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler
+metadata: {}
+package: com.microsoft.store.partnercenter.errorhandling
+artifact: com.microsoft.store:partnercenter:1.15.3

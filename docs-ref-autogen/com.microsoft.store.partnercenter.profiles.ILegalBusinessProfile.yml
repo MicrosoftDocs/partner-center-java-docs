@@ -1,98 +1,18 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
-  id: ILegalBusinessProfile
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles
-  children:
-  - com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get()
-  - com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update(com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile)
-  langs:
-  - java
-  name: ILegalBusinessProfile
-  nameWithType: ILegalBusinessProfile
-  fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
-  type: Interface
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Encapsulates behavior of a legal business profile.
-  syntax:
-    content: public interface ILegalBusinessProfile extends IPartnerComponentString, IEntityGetOperations<LegalBusinessProfile>, IEntityUpdateOperations<LegalBusinessProfile>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile>
-- uid: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
-  langs:
-  - java
-  name: get()
-  nameWithType: ILegalBusinessProfile.get()
-  fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get()
-  overload: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Retrieves the legal business profile.
-  syntax:
-    content: public abstract LegalBusinessProfile get()
-    return:
-      type: com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile
-      description: The legal business profile.
-- uid: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update(com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile)
-  id: update(com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
-  langs:
-  - java
-  name: update(LegalBusinessProfile legalBusinessProfile)
-  nameWithType: ILegalBusinessProfile.update(LegalBusinessProfile legalBusinessProfile)
-  fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update(LegalBusinessProfile legalBusinessProfile)
-  overload: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update*
-  type: Method
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Updates the partner's legal business profile.
-  syntax:
-    content: public abstract LegalBusinessProfile update(LegalBusinessProfile legalBusinessProfile)
-    parameters:
-    - id: legalBusinessProfile
-      type: com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile
-      description: The legal business profile information.
-    return:
-      type: com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile
-      description: The updated legal business profile.
-references:
-- uid: com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile
-  name: LegalBusinessProfile
-  nameWithType: LegalBusinessProfile
-  fullName: com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile
-- uid: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get*
-  name: get
-  nameWithType: ILegalBusinessProfile.get
-  fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get
-  package: com.microsoft.store.partnercenter.profiles
-- uid: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update*
-  name: update
-  nameWithType: ILegalBusinessProfile.update
-  fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update
-  package: com.microsoft.store.partnercenter.profiles
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile>
-  name: IEntityGetOperations<LegalBusinessProfile>
-  nameWithType: IEntityGetOperations<LegalBusinessProfile>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile>
-  name: IEntityUpdateOperations<LegalBusinessProfile>
-  nameWithType: IEntityUpdateOperations<LegalBusinessProfile>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
-  name: IEntityUpdateOperations
-  nameWithType: IEntityUpdateOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
+fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
+name: ILegalBusinessProfile
+nameWithType: ILegalBusinessProfile
+summary: Encapsulates behavior of a legal business profile.
+syntax: public interface ILegalBusinessProfile extends IPartnerComponentString, IEntityGetOperations<LegalBusinessProfile>, IEntityUpdateOperations<LegalBusinessProfile>
+methods:
+- com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get()
+- com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update(com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile?alt=com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile&text=LegalBusinessProfile" data-throw-if-not-resolved="False" />&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations&text=IEntityUpdateOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile?alt=com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile&text=LegalBusinessProfile" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.profiles
+artifact: com.microsoft.store:partnercenter:1.15.3

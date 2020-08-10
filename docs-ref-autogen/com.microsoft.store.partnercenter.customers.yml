@@ -1,35 +1,13 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.customers
-  id: customers
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  children:
-  - com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
-  - com.microsoft.store.partnercenter.customers.CustomerOperations
-  - com.microsoft.store.partnercenter.customers.ICustomer
-  - com.microsoft.store.partnercenter.customers.ICustomerCollection
-  langs:
-  - java
-  name: com.microsoft.store.partnercenter.customers
-  nameWithType: com.microsoft.store.partnercenter.customers
-  fullName: com.microsoft.store.partnercenter.customers
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter.customers
-references:
-- uid: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
-  name: CustomerCollectionOperations
-  nameWithType: CustomerCollectionOperations
-  fullName: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
-- uid: com.microsoft.store.partnercenter.customers.CustomerOperations
-  name: CustomerOperations
-  nameWithType: CustomerOperations
-  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations
-- uid: com.microsoft.store.partnercenter.customers.ICustomer
-  name: ICustomer
-  nameWithType: ICustomer
-  fullName: com.microsoft.store.partnercenter.customers.ICustomer
-- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection
-  name: ICustomerCollection
-  nameWithType: ICustomerCollection
-  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection
+### YamlMime:JavaPackage
+uid: com.microsoft.store.partnercenter.customers
+fullName: com.microsoft.store.partnercenter.customers
+name: com.microsoft.store.partnercenter.customers
+classes:
+- com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
+- com.microsoft.store.partnercenter.customers.CustomerOperations
+interfaces:
+- com.microsoft.store.partnercenter.customers.ICustomer
+- com.microsoft.store.partnercenter.customers.ICustomerCollection
+metadata: {}
+package: com.microsoft.store.partnercenter.customers
+artifact: com.microsoft.store:partnercenter:1.15.3

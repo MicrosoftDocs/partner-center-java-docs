@@ -1,35 +1,13 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.extensions.products
-  id: products
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  children:
-  - com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-  - com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
-  - com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations
-  - com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
-  langs:
-  - java
-  name: com.microsoft.store.partnercenter.extensions.products
-  nameWithType: com.microsoft.store.partnercenter.extensions.products
-  fullName: com.microsoft.store.partnercenter.extensions.products
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter.extensions.products
-references:
-- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-  name: IProductExtensions
-  nameWithType: IProductExtensions
-  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
-  name: IProductExtensionsByCountry
-  nameWithType: IProductExtensionsByCountry
-  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
-- uid: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations
-  name: ProductExtensionsByCountryOperations
-  nameWithType: ProductExtensionsByCountryOperations
-  fullName: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations
-- uid: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
-  name: ProductExtensionsOperations
-  nameWithType: ProductExtensionsOperations
-  fullName: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
+### YamlMime:JavaPackage
+uid: com.microsoft.store.partnercenter.extensions.products
+fullName: com.microsoft.store.partnercenter.extensions.products
+name: com.microsoft.store.partnercenter.extensions.products
+classes:
+- com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations
+- com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
+interfaces:
+- com.microsoft.store.partnercenter.extensions.products.IProductExtensions
+- com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
+metadata: {}
+package: com.microsoft.store.partnercenter.extensions.products
+artifact: com.microsoft.store:partnercenter:1.15.3

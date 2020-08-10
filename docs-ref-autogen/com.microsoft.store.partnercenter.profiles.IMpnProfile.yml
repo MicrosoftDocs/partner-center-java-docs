@@ -1,89 +1,17 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.profiles.IMpnProfile
-  id: IMpnProfile
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles
-  children:
-  - com.microsoft.store.partnercenter.profiles.IMpnProfile.get()
-  - com.microsoft.store.partnercenter.profiles.IMpnProfile.get(java.lang.String)
-  langs:
-  - java
-  name: IMpnProfile
-  nameWithType: IMpnProfile
-  fullName: com.microsoft.store.partnercenter.profiles.IMpnProfile
-  type: Interface
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Operations for MpnProfile
-  syntax:
-    content: public interface IMpnProfile extends IPartnerComponentString, IEntityGetOperations<MpnProfile>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.MpnProfile>
-- uid: com.microsoft.store.partnercenter.profiles.IMpnProfile.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles.IMpnProfile
-  langs:
-  - java
-  name: get()
-  nameWithType: IMpnProfile.get()
-  fullName: com.microsoft.store.partnercenter.profiles.IMpnProfile.get()
-  overload: com.microsoft.store.partnercenter.profiles.IMpnProfile.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Retrieves the logged in partner's MPN profile.
-  syntax:
-    content: public abstract MpnProfile get()
-    return:
-      type: com.microsoft.store.partnercenter.models.partners.MpnProfile
-      description: The partner's MPN profile.
-- uid: com.microsoft.store.partnercenter.profiles.IMpnProfile.get(java.lang.String)
-  id: get(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles.IMpnProfile
-  langs:
-  - java
-  name: get(String mpnId)
-  nameWithType: IMpnProfile.get(String mpnId)
-  fullName: com.microsoft.store.partnercenter.profiles.IMpnProfile.get(String mpnId)
-  overload: com.microsoft.store.partnercenter.profiles.IMpnProfile.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Retrieves a partner's MPN profile by MPN Id.
-  syntax:
-    content: public abstract MpnProfile get(String mpnId)
-    parameters:
-    - id: mpnId
-      type: java.lang.String
-      description: The MPN id.
-    return:
-      type: com.microsoft.store.partnercenter.models.partners.MpnProfile
-      description: The partner's MPN profile.
-references:
-- uid: com.microsoft.store.partnercenter.models.partners.MpnProfile
-  name: MpnProfile
-  nameWithType: MpnProfile
-  fullName: com.microsoft.store.partnercenter.models.partners.MpnProfile
-- uid: com.microsoft.store.partnercenter.profiles.IMpnProfile.get*
-  name: get
-  nameWithType: IMpnProfile.get
-  fullName: com.microsoft.store.partnercenter.profiles.IMpnProfile.get
-  package: com.microsoft.store.partnercenter.profiles
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.MpnProfile>
-  name: IEntityGetOperations<MpnProfile>
-  nameWithType: IEntityGetOperations<MpnProfile>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.MpnProfile>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.profiles.IMpnProfile
+fullName: com.microsoft.store.partnercenter.profiles.IMpnProfile
+name: IMpnProfile
+nameWithType: IMpnProfile
+summary: Operations for MpnProfile
+syntax: public interface IMpnProfile extends IPartnerComponentString, IEntityGetOperations<MpnProfile>
+methods:
+- com.microsoft.store.partnercenter.profiles.IMpnProfile.get()
+- com.microsoft.store.partnercenter.profiles.IMpnProfile.get(java.lang.String)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.partners.MpnProfile?alt=com.microsoft.store.partnercenter.models.partners.MpnProfile&text=MpnProfile" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.profiles
+artifact: com.microsoft.store:partnercenter:1.15.3

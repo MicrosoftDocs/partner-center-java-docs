@@ -1,25 +1,11 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.serviceincidents
-  id: serviceincidents
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  children:
-  - com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
-  - com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
-  langs:
-  - java
-  name: com.microsoft.store.partnercenter.serviceincidents
-  nameWithType: com.microsoft.store.partnercenter.serviceincidents
-  fullName: com.microsoft.store.partnercenter.serviceincidents
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter.serviceincidents
-references:
-- uid: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
-  name: IServiceIncidentCollection
-  nameWithType: IServiceIncidentCollection
-  fullName: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
-- uid: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
-  name: ServiceIncidentCollectionOperations
-  nameWithType: ServiceIncidentCollectionOperations
-  fullName: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
+### YamlMime:JavaPackage
+uid: com.microsoft.store.partnercenter.serviceincidents
+fullName: com.microsoft.store.partnercenter.serviceincidents
+name: com.microsoft.store.partnercenter.serviceincidents
+classes:
+- com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
+interfaces:
+- com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
+metadata: {}
+package: com.microsoft.store.partnercenter.serviceincidents
+artifact: com.microsoft.store:partnercenter:1.15.3

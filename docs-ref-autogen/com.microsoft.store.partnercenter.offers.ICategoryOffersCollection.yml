@@ -1,123 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
-  id: ICategoryOffersCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.offers
-  children:
-  - com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get()
-  - com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get(int,int)
-  langs:
-  - java
-  name: ICategoryOffersCollection
-  nameWithType: ICategoryOffersCollection
-  fullName: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.offers
-  syntax:
-    content: public interface ICategoryOffersCollection extends IPartnerComponent<Tuple<String,String>>, IEntityCollectionRetrievalOperations<Offer,ResourceCollection<Offer>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.offers.Offer,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>>
-- uid: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
-  langs:
-  - java
-  name: get()
-  nameWithType: ICategoryOffersCollection.get()
-  fullName: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get()
-  overload: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.offers
-  summary: Retrieves all the offers in the given offer category.
-  syntax:
-    content: public abstract ResourceCollection<Offer> get()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>
-      description: The offers in the given offer category.
-- uid: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get(int,int)
-  id: get(int,int)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
-  langs:
-  - java
-  name: get(int offset, int size)
-  nameWithType: ICategoryOffersCollection.get(int offset, int size)
-  fullName: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get(int offset, int size)
-  overload: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.offers
-  summary: Retrieves a subset of offers in the given offer category.
-  syntax:
-    content: public abstract ResourceCollection<Offer> get(int offset, int size)
-    parameters:
-    - id: offset
-      type: int
-      description: The starting index.
-    - id: size
-      type: int
-      description: The maximum number of offers to return.
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>
-      description: The requested segment of the offers in the given offer category.
-references:
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.offers.Offer
-    name: Offer
-    fullName: com.microsoft.store.partnercenter.models.offers.Offer
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get*
-  name: get
-  nameWithType: ICategoryOffersCollection.get
-  fullName: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get
-  package: com.microsoft.store.partnercenter.offers
-- uid: int
-  spec.java:
-  - uid: int
-    name: int
-    fullName: int
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.offers.Offer,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>>
-  name: IEntityCollectionRetrievalOperations<Offer,ResourceCollection<Offer>>
-  nameWithType: IEntityCollectionRetrievalOperations<Offer,ResourceCollection<Offer>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.offers.Offer,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.offers.Offer
-  name: Offer
-  nameWithType: Offer
-  fullName: com.microsoft.store.partnercenter.models.offers.Offer
-- uid: com.microsoft.store.partnercenter.models.offers.Offer,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: Offer,ResourceCollection
-  nameWithType: Offer,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.offers.Offer,com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations
-  name: IEntityCollectionRetrievalOperations
-  nameWithType: IEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
+fullName: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection
+name: ICategoryOffersCollection
+nameWithType: ICategoryOffersCollection
+syntax: public interface ICategoryOffersCollection extends IPartnerComponent<Tuple<String,String>>, IEntityCollectionRetrievalOperations<Offer,ResourceCollection<Offer>>
+methods:
+- com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get()
+- com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get(int,int)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations&text=IEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.offers
+artifact: com.microsoft.store:partnercenter:1.15.3

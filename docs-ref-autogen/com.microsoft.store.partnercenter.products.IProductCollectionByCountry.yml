@@ -1,106 +1,17 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountry
-  id: IProductCollectionByCountry
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products
-  children:
-  - com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byId(java.lang.String)
-  - com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byTargetView(java.lang.String)
-  langs:
-  - java
-  name: IProductCollectionByCountry
-  nameWithType: IProductCollectionByCountry
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountry
-  type: Interface
-  package: com.microsoft.store.partnercenter.products
-  summary: Holds operations that can be performed on products from a given country.
-  syntax:
-    content: public interface IProductCollectionByCountry extends IPartnerComponentString, IEntitySelector<String,IProduct>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IProduct>
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byId(java.lang.String)
-  id: byId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.IProductCollectionByCountry
-  langs:
-  - java
-  name: byId(String productId)
-  nameWithType: IProductCollectionByCountry.byId(String productId)
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byId(String productId)
-  overload: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byId*
-  type: Method
-  package: com.microsoft.store.partnercenter.products
-  summary: Retrieves the operations tied with a specific product.
-  syntax:
-    content: public abstract IProduct byId(String productId)
-    parameters:
-    - id: productId
-      type: java.lang.String
-      description: The identifier for the product.
-    return:
-      type: com.microsoft.store.partnercenter.products.IProduct
-      description: The available product operations.
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byTargetView(java.lang.String)
-  id: byTargetView(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.IProductCollectionByCountry
-  langs:
-  - java
-  name: byTargetView(String targetView)
-  nameWithType: IProductCollectionByCountry.byTargetView(String targetView)
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byTargetView(String targetView)
-  overload: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byTargetView*
-  type: Method
-  package: com.microsoft.store.partnercenter.products
-  summary: Retrieves the operations that can be applied on products that belong to a given country, catalog view and target segment.
-  syntax:
-    content: public abstract IProductCollectionByCountryByTargetView byTargetView(String targetView)
-    parameters:
-    - id: targetView
-      type: java.lang.String
-      description: The product target view.
-    return:
-      type: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView
-      description: The product collection operations by country and by target view.
-references:
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.products.IProduct
-  name: IProduct
-  nameWithType: IProduct
-  fullName: com.microsoft.store.partnercenter.products.IProduct
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byId*
-  name: byId
-  nameWithType: IProductCollectionByCountry.byId
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byId
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView
-  name: IProductCollectionByCountryByTargetView
-  nameWithType: IProductCollectionByCountryByTargetView
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView
-- uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byTargetView*
-  name: byTargetView
-  nameWithType: IProductCollectionByCountry.byTargetView
-  fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byTargetView
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IProduct>
-  name: IEntitySelector<String,IProduct>
-  nameWithType: IEntitySelector<String,IProduct>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IProduct>
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  name: IEntitySelector
-  nameWithType: IEntitySelector
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-- uid: java.lang.String,com.microsoft.store.partnercenter.products.IProduct
-  name: String,IProduct
-  nameWithType: String,IProduct
-  fullName: java.lang.String,com.microsoft.store.partnercenter.products.IProduct
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.products.IProductCollectionByCountry
+fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountry
+name: IProductCollectionByCountry
+nameWithType: IProductCollectionByCountry
+summary: Holds operations that can be performed on products from a given country.
+syntax: public interface IProductCollectionByCountry extends IPartnerComponentString, IEntitySelector<String,IProduct>
+methods:
+- com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byId(java.lang.String)
+- com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byTargetView(java.lang.String)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.products.IProduct?alt=com.microsoft.store.partnercenter.products.IProduct&text=IProduct" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.products
+artifact: com.microsoft.store:partnercenter:1.15.3

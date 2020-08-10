@@ -1,73 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary
-  id: IServiceCostSummary
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.servicecosts
-  children:
-  - com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get()
-  langs:
-  - java
-  name: IServiceCostSummary
-  nameWithType: IServiceCostSummary
-  fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary
-  type: Interface
-  package: com.microsoft.store.partnercenter.customers.servicecosts
-  summary: Holds the operations related to a customer's service costs.
-  syntax:
-    content: public interface IServiceCostSummary extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<ServiceCostsSummary>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary>
-- uid: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary
-  langs:
-  - java
-  name: get()
-  nameWithType: IServiceCostSummary.get()
-  fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get()
-  overload: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.customers.servicecosts
-  summary: Retrieves the customer's service cost summary.
-  syntax:
-    content: public abstract ServiceCostsSummary get()
-    return:
-      type: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
-      description: The customer's service cost summary.
-references:
-- uid: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
-  name: ServiceCostsSummary
-  nameWithType: ServiceCostsSummary
-  fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary
-- uid: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get*
-  name: get
-  nameWithType: IServiceCostSummary.get
-  fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get
-  package: com.microsoft.store.partnercenter.customers.servicecosts
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary>
-  name: IEntityGetOperations<ServiceCostsSummary>
-  nameWithType: IEntityGetOperations<ServiceCostsSummary>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary
+fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary
+name: IServiceCostSummary
+nameWithType: IServiceCostSummary
+summary: Holds the operations related to a customer's service costs.
+syntax: public interface IServiceCostSummary extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<ServiceCostsSummary>
+methods:
+- com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary?alt=com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary&text=ServiceCostsSummary" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.customers.servicecosts
+artifact: com.microsoft.store:partnercenter:1.15.3

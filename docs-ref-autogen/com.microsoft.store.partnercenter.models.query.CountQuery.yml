@@ -1,296 +1,47 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery
-  id: CountQuery
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query
-  children:
-  - com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery()
-  - com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery(java.lang.Object)
-  - com.microsoft.store.partnercenter.models.query.CountQuery.getFilter()
-  - com.microsoft.store.partnercenter.models.query.CountQuery.getType()
-  - com.microsoft.store.partnercenter.models.query.CountQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-  - com.microsoft.store.partnercenter.models.query.CountQuery.toString()
-  langs:
-  - java
-  name: CountQuery
-  nameWithType: CountQuery
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery
-  type: Class
-  package: com.microsoft.store.partnercenter.models.query
-  summary: A query that returns the number of entities that may optionally fit a filter.
-  syntax:
-    content: public class CountQuery extends BaseQuery
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.query.BaseQuery
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.getType()
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)
-  - com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery()
-  id: CountQuery()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.CountQuery
-  langs:
-  - java
-  name: CountQuery()
-  nameWithType: CountQuery.CountQuery()
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery()
-  overload: com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.query
-  syntax:
-    content: protected CountQuery()
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery(java.lang.Object)
-  id: CountQuery(java.lang.Object)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.CountQuery
-  langs:
-  - java
-  name: CountQuery(Object token)
-  nameWithType: CountQuery.CountQuery(Object token)
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery(Object token)
-  overload: com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.query
-  syntax:
-    content: protected CountQuery(Object token)
-    parameters:
-    - id: token
-      type: java.lang.Object
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery.getFilter()
-  id: getFilter()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.CountQuery
-  langs:
-  - java
-  name: getFilter()
-  nameWithType: CountQuery.getFilter()
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery.getFilter()
-  overload: com.microsoft.store.partnercenter.models.query.CountQuery.getFilter*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
-  summary: Gets or sets the query filter.
-  syntax:
-    content: public FieldFilter getFilter()
-    return:
-      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery.getType()
-  id: getType()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.CountQuery
-  langs:
-  - java
-  name: getType()
-  nameWithType: CountQuery.getType()
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery.getType()
-  overload: com.microsoft.store.partnercenter.models.query.CountQuery.getType*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
-  summary: Gets the query type.
-  syntax:
-    content: public QueryType getType()
-    return:
-      type: com.microsoft.store.partnercenter.models.query.QueryType
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-  id: setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.CountQuery
-  langs:
-  - java
-  name: setFilter(FieldFilter value)
-  nameWithType: CountQuery.setFilter(FieldFilter value)
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery.setFilter(FieldFilter value)
-  overload: com.microsoft.store.partnercenter.models.query.CountQuery.setFilter*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
-  summary: The query filter.
-  syntax:
-    content: public void setFilter(FieldFilter value)
-    parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery.toString()
-  id: toString()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.query.CountQuery
-  langs:
-  - java
-  name: toString()
-  nameWithType: CountQuery.toString()
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery.toString()
-  overload: com.microsoft.store.partnercenter.models.query.CountQuery.toString*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.query
-  summary: Returns a string representation of the query.
-  syntax:
-    content: public String toString()
-    return:
-      type: java.lang.String
-      description: A string representation of the query.
-references:
-- uid: java.lang.Object
-  spec.java:
-  - uid: java.lang.Object
-    name: Object
-    fullName: java.lang.Object
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery*
-  name: CountQuery
-  nameWithType: CountQuery.CountQuery
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.QueryType
-  name: QueryType
-  nameWithType: QueryType
-  fullName: com.microsoft.store.partnercenter.models.query.QueryType
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery.getType*
-  name: getType
-  nameWithType: CountQuery.getType
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery.getType
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
-  name: FieldFilter
-  nameWithType: FieldFilter
-  fullName: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery.getFilter*
-  name: getFilter
-  nameWithType: CountQuery.getFilter
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery.getFilter
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery.setFilter*
-  name: setFilter
-  nameWithType: CountQuery.setFilter
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery.setFilter
-  package: com.microsoft.store.partnercenter.models.query
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.query.CountQuery.toString*
-  name: toString
-  nameWithType: CountQuery.toString
-  fullName: com.microsoft.store.partnercenter.models.query.CountQuery.toString
-  package: com.microsoft.store.partnercenter.models.query
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery
-  name: BaseQuery
-  nameWithType: BaseQuery
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
-  name: BaseQuery.setPageSize(int)
-  nameWithType: BaseQuery.setPageSize(int)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
-  name: BaseQuery.setIndex(int)
-  nameWithType: BaseQuery.setIndex(int)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-  name: BaseQuery.setFilter(FieldFilter)
-  nameWithType: BaseQuery.setFilter(FieldFilter)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
-  name: BaseQuery.getToken()
-  nameWithType: BaseQuery.getToken()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()
-  name: BaseQuery.getFilter()
-  nameWithType: BaseQuery.getFilter()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
-  name: BaseQuery.getPageSize()
-  nameWithType: BaseQuery.getPageSize()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)
-  name: BaseQuery.setSeekOperation(SeekOperation)
-  nameWithType: BaseQuery.setSeekOperation(SeekOperation)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)
-  name: BaseQuery.setSort(Sort)
-  nameWithType: BaseQuery.setSort(Sort)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)
-  name: BaseQuery.setToken(Object)
-  nameWithType: BaseQuery.setToken(Object)
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
-  name: BaseQuery.getIndex()
-  nameWithType: BaseQuery.getIndex()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()
-  name: BaseQuery.getSort()
-  nameWithType: BaseQuery.getSort()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getType()
-  name: BaseQuery.getType()
-  nameWithType: BaseQuery.getType()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getType()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
-  name: BaseQuery.getSeekOperation()
-  nameWithType: BaseQuery.getSeekOperation()
-  fullName: com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.models.query.CountQuery
+fullName: com.microsoft.store.partnercenter.models.query.CountQuery
+name: CountQuery
+nameWithType: CountQuery
+summary: A query that returns the number of entities that may optionally fit a filter.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.models.query.BaseQuery?alt=com.microsoft.store.partnercenter.models.query.BaseQuery&text=BaseQuery" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()
+- com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
+- com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
+- com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
+- com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()
+- com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
+- com.microsoft.store.partnercenter.models.query.BaseQuery.getType()
+- com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
+- com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
+- com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
+- com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)
+- com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)
+- com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class CountQuery extends BaseQuery
+constructors:
+- com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery()
+- com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery(java.lang.Object)
+methods:
+- com.microsoft.store.partnercenter.models.query.CountQuery.getFilter()
+- com.microsoft.store.partnercenter.models.query.CountQuery.getType()
+- com.microsoft.store.partnercenter.models.query.CountQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
+- com.microsoft.store.partnercenter.models.query.CountQuery.toString()
+type: class
+metadata: {}
+package: com.microsoft.store.partnercenter.models.query
+artifact: com.microsoft.store:partnercenter:1.15.3

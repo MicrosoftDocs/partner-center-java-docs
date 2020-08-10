@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry*
+fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int retryCount, Response response)
+name: shouldRetry(int retryCount, Response response)
+nameWithType: PartnerServiceRetryStrategy.shouldRetry(int retryCount, Response response)
+members:
+- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,okhttp3.Response)
+  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int retryCount, Response response)
+  name: shouldRetry(int retryCount, Response response)
+  nameWithType: PartnerServiceRetryStrategy.shouldRetry(int retryCount, Response response)
+  summary: |-
+    Returns if a request should be retried based on the retry count, current response,
+     and the current strategy.
+  overridden: com.microsoft.rest.retry.RetryStrategy.shouldRetry(int,okhttp3.Response)
+  parameters:
+  - description: The current retry attempt count.
+    name: retryCount
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: The exception that caused the retry conditions to occur.
+    name: response
+    type: <xref href="okhttp3.Response?alt=okhttp3.Response&text=Response" data-throw-if-not-resolved="False" />
+  syntax: public boolean shouldRetry(int retryCount, Response response)
+  returns:
+    description: true if the request should be retried; false otherwise.
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.microsoft.store.partnercenter.network
+artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,54 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  id: IEntireEntityCollectionRetrievalOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.genericoperations
-  children:
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
-  langs:
-  - java
-  name: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-  type: Interface
-  package: com.microsoft.store.partnercenter.genericoperations
-  summary: A generic interface which represents operations for getting an entire collection of entities. The entity type.The entity collection type.
-  syntax:
-    content: public interface IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-    typeParameters:
-    - id: T
-    - id: TResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  langs:
-  - java
-  name: get()
-  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()
-  overload: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.genericoperations
-  summary: Retrieves all entities.
-  syntax:
-    content: public abstract TResourceCollection get()
-    return:
-      type: TResourceCollection
-      description: The entities.
-references:
-- uid: TResourceCollection
-  spec.java:
-  - uid: TResourceCollection
-    name: TResourceCollection
-    fullName: TResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get*
-  name: get
-  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get
-  package: com.microsoft.store.partnercenter.genericoperations
-- uid: T
-  name: T
-  nameWithType: T
-  fullName: T
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+name: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+summary: A generic interface which represents operations for getting an entire collection of entities. The entity type.The entity collection type.
+syntax: public interface IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
+methods:
+- com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()
+type: interface
+typeParameters:
+- name: T
+- name: TResourceCollection
+metadata: {}
+package: com.microsoft.store.partnercenter.genericoperations
+artifact: com.microsoft.store:partnercenter:1.15.3

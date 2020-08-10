@@ -1,550 +1,135 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  id: ResourceType
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing
-  children:
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.AGREEMENT
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.APPLICATION
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.APPLICATION_CREDENTIAL
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.CREDIT_LIMIT
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.CUSTOMER
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.CUSTOMER_USER
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.INVOICE
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.LICENSE
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.MPN_ASSOCIATION
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.ORDER
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.PARTNER_RELATIONSHIP
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.PARTNER_USER
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.REFERRAL
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.SOFTWARE_DOWNLOAD_LINK
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.SOFTWARE_KEY
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.SUBSCRIPTION
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.THIRD_PARTY_ADD_ON
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.TRANSFER
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.UNDEFINED
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.toString()
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.valueOf(java.lang.String)
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType.values()
-  langs:
-  - java
-  name: ResourceType
-  nameWithType: ResourceType
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  type: Enum
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Enumeration to represent type of resource being performed.
-  syntax:
-    content: public enum ResourceType extends Enum<ResourceType>
-  inheritance:
-  - java.lang.Object
-  - java.lang.Enum
-  inheritedMembers:
-  - java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  - java.lang.Enum.clone()
-  - java.lang.Enum.compareTo(E)
-  - java.lang.Enum.equals(java.lang.Object)
-  - java.lang.Enum.finalize()
-  - java.lang.Enum.getDeclaringClass()
-  - java.lang.Enum.hashCode()
-  - java.lang.Enum.name()
-  - java.lang.Enum.ordinal()
-  - java.lang.Enum.toString()
-  - java.lang.Object.getClass()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
+### YamlMime:JavaEnum
+uid: com.microsoft.store.partnercenter.models.auditing.ResourceType
+fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType
+name: ResourceType
+nameWithType: ResourceType
+summary: Enumeration to represent type of resource being performed.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="java.lang.Enum?alt=java.lang.Enum&text=Enum" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+- java.lang.Enum.clone()
+- java.lang.Enum.compareTo(E)
+- java.lang.Enum.equals(java.lang.Object)
+- java.lang.Enum.finalize()
+- java.lang.Enum.getDeclaringClass()
+- java.lang.Enum.hashCode()
+- java.lang.Enum.name()
+- java.lang.Enum.ordinal()
+- java.lang.Enum.toString()
+- java.lang.Object.getClass()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public enum ResourceType extends Enum<ResourceType>
+fields:
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.AGREEMENT
-  id: AGREEMENT
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.AGREEMENT
   name: AGREEMENT
   nameWithType: ResourceType.AGREEMENT
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.AGREEMENT
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: The agreement resource
-  syntax:
-    content: public static final ResourceType AGREEMENT
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.APPLICATION
-  id: APPLICATION
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.APPLICATION
   name: APPLICATION
   nameWithType: ResourceType.APPLICATION
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.APPLICATION
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Application Resource
-  syntax:
-    content: public static final ResourceType APPLICATION
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.APPLICATION_CREDENTIAL
-  id: APPLICATION_CREDENTIAL
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.APPLICATION_CREDENTIAL
   name: APPLICATION_CREDENTIAL
   nameWithType: ResourceType.APPLICATION_CREDENTIAL
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.APPLICATION_CREDENTIAL
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Application Credential Resource
-  syntax:
-    content: public static final ResourceType APPLICATION_CREDENTIAL
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.CREDIT_LIMIT
-  id: CREDIT_LIMIT
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.CREDIT_LIMIT
   name: CREDIT_LIMIT
   nameWithType: ResourceType.CREDIT_LIMIT
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.CREDIT_LIMIT
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: The credit limit resource
-  syntax:
-    content: public static final ResourceType CREDIT_LIMIT
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.CUSTOMER
-  id: CUSTOMER
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.CUSTOMER
   name: CUSTOMER
   nameWithType: ResourceType.CUSTOMER
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.CUSTOMER
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Customer Resource
-  syntax:
-    content: public static final ResourceType CUSTOMER
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.CUSTOMER_USER
-  id: CUSTOMER_USER
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.CUSTOMER_USER
   name: CUSTOMER_USER
   nameWithType: ResourceType.CUSTOMER_USER
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.CUSTOMER_USER
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Customer User
-  syntax:
-    content: public static final ResourceType CUSTOMER_USER
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.INVOICE
-  id: INVOICE
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.INVOICE
   name: INVOICE
   nameWithType: ResourceType.INVOICE
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.INVOICE
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: The invoice resource
-  syntax:
-    content: public static final ResourceType INVOICE
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.LICENSE
-  id: LICENSE
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.LICENSE
   name: LICENSE
   nameWithType: ResourceType.LICENSE
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.LICENSE
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: License Resource
-  syntax:
-    content: public static final ResourceType LICENSE
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.MPN_ASSOCIATION
-  id: MPN_ASSOCIATION
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.MPN_ASSOCIATION
   name: MPN_ASSOCIATION
   nameWithType: ResourceType.MPN_ASSOCIATION
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.MPN_ASSOCIATION
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: MPN association Resource
-  syntax:
-    content: public static final ResourceType MPN_ASSOCIATION
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.ORDER
-  id: ORDER
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.ORDER
   name: ORDER
   nameWithType: ResourceType.ORDER
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.ORDER
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Order Resource
-  syntax:
-    content: public static final ResourceType ORDER
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.PARTNER_RELATIONSHIP
-  id: PARTNER_RELATIONSHIP
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.PARTNER_RELATIONSHIP
   name: PARTNER_RELATIONSHIP
   nameWithType: ResourceType.PARTNER_RELATIONSHIP
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.PARTNER_RELATIONSHIP
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Partner Relationship Resource
-  syntax:
-    content: public static final ResourceType PARTNER_RELATIONSHIP
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.PARTNER_USER
-  id: PARTNER_USER
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.PARTNER_USER
   name: PARTNER_USER
   nameWithType: ResourceType.PARTNER_USER
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.PARTNER_USER
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Partner User Resource
-  syntax:
-    content: public static final ResourceType PARTNER_USER
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.REFERRAL
-  id: REFERRAL
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.REFERRAL
   name: REFERRAL
   nameWithType: ResourceType.REFERRAL
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.REFERRAL
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: The referral resource
-  syntax:
-    content: public static final ResourceType REFERRAL
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
-- uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.ResourceType(java.lang.String)
-  id: ResourceType(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
-  name: ResourceType(String value)
-  nameWithType: ResourceType.ResourceType(String value)
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.ResourceType(String value)
-  overload: com.microsoft.store.partnercenter.models.auditing.ResourceType.ResourceType*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.auditing
-  syntax:
-    content: private ResourceType(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.SOFTWARE_DOWNLOAD_LINK
-  id: SOFTWARE_DOWNLOAD_LINK
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.SOFTWARE_DOWNLOAD_LINK
   name: SOFTWARE_DOWNLOAD_LINK
   nameWithType: ResourceType.SOFTWARE_DOWNLOAD_LINK
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.SOFTWARE_DOWNLOAD_LINK
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: The software download link resource
-  syntax:
-    content: public static final ResourceType SOFTWARE_DOWNLOAD_LINK
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.SOFTWARE_KEY
-  id: SOFTWARE_KEY
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.SOFTWARE_KEY
   name: SOFTWARE_KEY
   nameWithType: ResourceType.SOFTWARE_KEY
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.SOFTWARE_KEY
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: The software key resource
-  syntax:
-    content: public static final ResourceType SOFTWARE_KEY
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.SUBSCRIPTION
-  id: SUBSCRIPTION
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.SUBSCRIPTION
   name: SUBSCRIPTION
   nameWithType: ResourceType.SUBSCRIPTION
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.SUBSCRIPTION
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Subscription Resource
-  syntax:
-    content: public static final ResourceType SUBSCRIPTION
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.THIRD_PARTY_ADD_ON
-  id: THIRD_PARTY_ADD_ON
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.THIRD_PARTY_ADD_ON
   name: THIRD_PARTY_ADD_ON
   nameWithType: ResourceType.THIRD_PARTY_ADD_ON
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.THIRD_PARTY_ADD_ON
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Third party add on Resource
-  syntax:
-    content: public static final ResourceType THIRD_PARTY_ADD_ON
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.TRANSFER
-  id: TRANSFER
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.TRANSFER
   name: TRANSFER
   nameWithType: ResourceType.TRANSFER
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.TRANSFER
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Transfer Resource
-  syntax:
-    content: public static final ResourceType TRANSFER
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.UNDEFINED
-  id: UNDEFINED
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.UNDEFINED
   name: UNDEFINED
   nameWithType: ResourceType.UNDEFINED
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.UNDEFINED
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: The undefined
-  syntax:
-    content: public static final ResourceType UNDEFINED
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
+methods:
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.toString()
-  id: toString()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.toString()
   name: toString()
   nameWithType: ResourceType.toString()
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.toString()
-  overload: com.microsoft.store.partnercenter.models.auditing.ResourceType.toString*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.auditing
   summary: Converts the object to a string.
-  syntax:
-    content: public String toString()
-    return:
-      type: java.lang.String
-      description: A string that represents this object.
+  overridden: java.lang.Enum.toString()
+  syntax: public String toString()
+  returns:
+    description: A string that represents this object.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.valueOf(java.lang.String)
-  id: valueOf(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.valueOf(String name)
   name: valueOf(String name)
   nameWithType: ResourceType.valueOf(String name)
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.valueOf(String name)
-  overload: com.microsoft.store.partnercenter.models.auditing.ResourceType.valueOf*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.auditing
-  syntax:
-    content: public static ResourceType valueOf(String name)
-    parameters:
-    - id: name
-      type: java.lang.String
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType
+  parameters:
+  - name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static ResourceType valueOf(String name)
+  returns:
+    type: <xref href="com.microsoft.store.partnercenter.models.auditing.ResourceType?alt=com.microsoft.store.partnercenter.models.auditing.ResourceType&text=ResourceType" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.values()
-  id: values()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.values()
   name: values()
   nameWithType: ResourceType.values()
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.values()
-  overload: com.microsoft.store.partnercenter.models.auditing.ResourceType.values*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.auditing
-  syntax:
-    content: public static ResourceType[] values()
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.ResourceType[]
-references:
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.ResourceType*
-  name: ResourceType
-  nameWithType: ResourceType.ResourceType
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.ResourceType
-  package: com.microsoft.store.partnercenter.models.auditing
-- uid: com.microsoft.store.partnercenter.models.auditing.ResourceType[]
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.auditing.ResourceType
-    name: ResourceType
-    fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  - name: '[]'
-    fullName: '[]'
-- uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.values*
-  name: values
-  nameWithType: ResourceType.values
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.values
-  package: com.microsoft.store.partnercenter.models.auditing
-- uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.valueOf*
-  name: valueOf
-  nameWithType: ResourceType.valueOf
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.valueOf
-  package: com.microsoft.store.partnercenter.models.auditing
-- uid: com.microsoft.store.partnercenter.models.auditing.ResourceType.toString*
-  name: toString
-  nameWithType: ResourceType.toString
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType.toString
-  package: com.microsoft.store.partnercenter.models.auditing
-- uid: java.lang.Enum<com.microsoft.store.partnercenter.models.auditing.ResourceType>
-  name: Enum<ResourceType>
-  nameWithType: Enum<ResourceType>
-  fullName: java.lang.Enum<com.microsoft.store.partnercenter.models.auditing.ResourceType>
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Enum.toString()
-  name: Enum.toString()
-  nameWithType: Enum.toString()
-  fullName: java.lang.Enum.toString()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Enum.clone()
-  name: Enum.clone()
-  nameWithType: Enum.clone()
-  fullName: java.lang.Enum.clone()
-- uid: java.lang.Enum.finalize()
-  name: Enum.finalize()
-  nameWithType: Enum.finalize()
-  fullName: java.lang.Enum.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Enum.compareTo(E)
-  name: Enum.compareTo(E)
-  nameWithType: Enum.compareTo(E)
-  fullName: java.lang.Enum.compareTo(E)
-- uid: java.lang.Enum.name()
-  name: Enum.name()
-  nameWithType: Enum.name()
-  fullName: java.lang.Enum.name()
-- uid: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  name: Enum.<T>valueOf(Class<T>,String)
-  nameWithType: Enum.<T>valueOf(Class<T>,String)
-  fullName: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Enum.getDeclaringClass()
-  name: Enum.getDeclaringClass()
-  nameWithType: Enum.getDeclaringClass()
-  fullName: java.lang.Enum.getDeclaringClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Enum.ordinal()
-  name: Enum.ordinal()
-  nameWithType: Enum.ordinal()
-  fullName: java.lang.Enum.ordinal()
-- uid: java.lang.Enum.hashCode()
-  name: Enum.hashCode()
-  nameWithType: Enum.hashCode()
-  fullName: java.lang.Enum.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Enum.equals(java.lang.Object)
-  name: Enum.equals(Object)
-  nameWithType: Enum.equals(Object)
-  fullName: java.lang.Enum.equals(java.lang.Object)
-- uid: java.lang.Enum
-  name: Enum
-  nameWithType: Enum
-  fullName: java.lang.Enum
-- uid: java.lang.Enum.
-  name: Enum.
-  nameWithType: Enum.
-  fullName: java.lang.Enum.
-- uid: T>,java.lang.String)
-  name: T>,String)
-  nameWithType: T>,String)
-  fullName: T>,java.lang.String)
-- uid: T>valueOf(java.lang.Class
-  name: T>valueOf(Class
-  nameWithType: T>valueOf(Class
-  fullName: T>valueOf(java.lang.Class
+  syntax: public static ResourceType[] values()
+  returns:
+    type: <xref href="com.microsoft.store.partnercenter.models.auditing.ResourceType?alt=com.microsoft.store.partnercenter.models.auditing.ResourceType&text=ResourceType" data-throw-if-not-resolved="False" />[]
+metadata: {}
+package: com.microsoft.store.partnercenter.models.auditing
+artifact: com.microsoft.store:partnercenter:1.15.3

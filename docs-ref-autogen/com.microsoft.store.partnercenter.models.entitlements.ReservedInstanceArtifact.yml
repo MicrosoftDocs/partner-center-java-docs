@@ -1,253 +1,42 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
-  id: ReservedInstanceArtifact
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.entitlements
-  children:
-  - com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.ReservedInstanceArtifact()
-  - com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getLink()
-  - com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId()
-  - com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setLink(com.microsoft.store.partnercenter.models.Link)
-  - com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setResourceId(java.lang.String)
-  langs:
-  - java
-  name: ReservedInstanceArtifact
-  nameWithType: ReservedInstanceArtifact
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
-  type: Class
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: Class that represents reserved instance artifact.
-  syntax:
-    content: public class ReservedInstanceArtifact extends Artifact
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  - com.microsoft.store.partnercenter.models.entitlements.Artifact
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-  - com.microsoft.store.partnercenter.models.entitlements.Artifact.getArtifactType()
-  - com.microsoft.store.partnercenter.models.entitlements.Artifact.getDynamicAttributes()
-  - com.microsoft.store.partnercenter.models.entitlements.Artifact.setArtifactType(java.lang.String)
-  - com.microsoft.store.partnercenter.models.entitlements.Artifact.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.ReservedInstanceArtifact()
-  id: ReservedInstanceArtifact()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
-  langs:
-  - java
-  name: ReservedInstanceArtifact()
-  nameWithType: ReservedInstanceArtifact.ReservedInstanceArtifact()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.ReservedInstanceArtifact()
-  overload: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.ReservedInstanceArtifact*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.entitlements
-  syntax:
-    content: public ReservedInstanceArtifact()
-- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getLink()
-  id: getLink()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
-  langs:
-  - java
-  name: getLink()
-  nameWithType: ReservedInstanceArtifact.getLink()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getLink()
-  overload: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getLink*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: Gets the link for the reserved instance artifact.
-  syntax:
-    content: public Link getLink()
-    return:
-      type: com.microsoft.store.partnercenter.models.Link
-      description: The link for the reserved instance artifact.
-- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId()
-  id: getResourceId()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
-  langs:
-  - java
-  name: getResourceId()
-  nameWithType: ReservedInstanceArtifact.getResourceId()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId()
-  overload: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: Gets the resource identifier for the reserved instance artifact.
-  syntax:
-    content: public String getResourceId()
-    return:
-      type: java.lang.String
-      description: The resource identifier for the reserved instance artifact.
-- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setLink(com.microsoft.store.partnercenter.models.Link)
-  id: setLink(com.microsoft.store.partnercenter.models.Link)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
-  langs:
-  - java
-  name: setLink(Link value)
-  nameWithType: ReservedInstanceArtifact.setLink(Link value)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setLink(Link value)
-  overload: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setLink*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: Sets the link for the reserved instance artifact.
-  syntax:
-    content: public void setLink(Link value)
-    parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.Link
-      description: The link for the reserved instance artifact.
-- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setResourceId(java.lang.String)
-  id: setResourceId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
-  langs:
-  - java
-  name: setResourceId(String value)
-  nameWithType: ReservedInstanceArtifact.setResourceId(String value)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setResourceId(String value)
-  overload: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setResourceId*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: Sets the resource identifier for the reserved instance artifact.
-  syntax:
-    content: public void setResourceId(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-      description: The resource identifier for the reserved instance artifact.
-references:
-- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.ReservedInstanceArtifact*
-  name: ReservedInstanceArtifact
-  nameWithType: ReservedInstanceArtifact.ReservedInstanceArtifact
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.ReservedInstanceArtifact
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.Link
-  name: Link
-  nameWithType: Link
-  fullName: com.microsoft.store.partnercenter.models.Link
-- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getLink*
-  name: getLink
-  nameWithType: ReservedInstanceArtifact.getLink
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getLink
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setLink*
-  name: setLink
-  nameWithType: ReservedInstanceArtifact.setLink
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setLink
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId*
-  name: getResourceId
-  nameWithType: ReservedInstanceArtifact.getResourceId
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setResourceId*
-  name: setResourceId
-  nameWithType: ReservedInstanceArtifact.setResourceId
-  fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setResourceId
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Artifact
-  name: Artifact
-  nameWithType: Artifact
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Artifact
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  name: ResourceBase.getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: com.microsoft.store.partnercenter.models.entitlements.Artifact.setArtifactType(java.lang.String)
-  name: Artifact.setArtifactType(String)
-  nameWithType: Artifact.setArtifactType(String)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Artifact.setArtifactType(java.lang.String)
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  name: ResourceBaseWithLinks.getLinks()
-  nameWithType: ResourceBaseWithLinks.getLinks()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.models.entitlements.Artifact.getArtifactType()
-  name: Artifact.getArtifactType()
-  nameWithType: Artifact.getArtifactType()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Artifact.getArtifactType()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: com.microsoft.store.partnercenter.models.entitlements.Artifact.getDynamicAttributes()
-  name: Artifact.getDynamicAttributes()
-  nameWithType: Artifact.getDynamicAttributes()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Artifact.getDynamicAttributes()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: com.microsoft.store.partnercenter.models.entitlements.Artifact.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)
-  name: Artifact.setDynamicAttributes(Map<String,Object>)
-  nameWithType: Artifact.setDynamicAttributes(Map<String,Object>)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Artifact.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-  name: ResourceBaseWithLinks.setLinks(TLinks)
-  nameWithType: ResourceBaseWithLinks.setLinks(TLinks)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- uid: com.microsoft.store.partnercenter.models.entitlements.Artifact.setDynamicAttributes(java.util.Map
-  name: Artifact.setDynamicAttributes(Map
-  nameWithType: Artifact.setDynamicAttributes(Map
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Artifact.setDynamicAttributes(java.util.Map
-- uid: java.lang.String,java.lang.Object>)
-  name: String,Object>)
-  nameWithType: String,Object>)
-  fullName: java.lang.String,java.lang.Object>)
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
+fullName: com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact
+name: ReservedInstanceArtifact
+nameWithType: ReservedInstanceArtifact
+summary: Class that represents reserved instance artifact.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.models.ResourceBase?alt=com.microsoft.store.partnercenter.models.ResourceBase&text=ResourceBase" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.models.ResourceBaseWithLinks?alt=com.microsoft.store.partnercenter.models.ResourceBaseWithLinks&text=ResourceBaseWithLinks" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.models.entitlements.Artifact?alt=com.microsoft.store.partnercenter.models.entitlements.Artifact&text=Artifact" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
+- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
+- com.microsoft.store.partnercenter.models.entitlements.Artifact.getArtifactType()
+- com.microsoft.store.partnercenter.models.entitlements.Artifact.getDynamicAttributes()
+- com.microsoft.store.partnercenter.models.entitlements.Artifact.setArtifactType(java.lang.String)
+- com.microsoft.store.partnercenter.models.entitlements.Artifact.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class ReservedInstanceArtifact extends Artifact
+constructors:
+- com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.ReservedInstanceArtifact()
+methods:
+- com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getLink()
+- com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId()
+- com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setLink(com.microsoft.store.partnercenter.models.Link)
+- com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setResourceId(java.lang.String)
+type: class
+metadata: {}
+package: com.microsoft.store.partnercenter.models.entitlements
+artifact: com.microsoft.store:partnercenter:1.15.3

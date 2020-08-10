@@ -1,61 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.customers.products.ICustomerSku
-  id: ICustomerSku
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.products
-  children:
-  - com.microsoft.store.partnercenter.customers.products.ICustomerSku.byCustomerReservationScope(java.lang.String)
-  langs:
-  - java
-  name: ICustomerSku
-  nameWithType: ICustomerSku
-  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerSku
-  type: Interface
-  package: com.microsoft.store.partnercenter.customers.products
-  summary: Represents the operations that can be performed on a single SKU.
-  syntax:
-    content: public interface ICustomerSku extends ISku
-  implements:
-  - com.microsoft.store.partnercenter.products.ISku
-- uid: com.microsoft.store.partnercenter.customers.products.ICustomerSku.byCustomerReservationScope(java.lang.String)
-  id: byCustomerReservationScope(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.products.ICustomerSku
-  langs:
-  - java
-  name: byCustomerReservationScope(String reservationScope)
-  nameWithType: ICustomerSku.byCustomerReservationScope(String reservationScope)
-  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerSku.byCustomerReservationScope(String reservationScope)
-  overload: com.microsoft.store.partnercenter.customers.products.ICustomerSku.byCustomerReservationScope*
-  type: Method
-  package: com.microsoft.store.partnercenter.customers.products
-  summary: Gets the operations that can be applied on a customer's SKU identifiers filtered by a specific reservation scope.
-  syntax:
-    content: public abstract ICustomerSkuByReservationScope byCustomerReservationScope(String reservationScope)
-    parameters:
-    - id: reservationScope
-      type: java.lang.String
-      description: The reservation scope filter.
-    return:
-      type: com.microsoft.store.partnercenter.customers.products.ICustomerSkuByReservationScope
-      description: The individual SKU operations sorted by reservation scope.
-references:
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.customers.products.ICustomerSkuByReservationScope
-  name: ICustomerSkuByReservationScope
-  nameWithType: ICustomerSkuByReservationScope
-  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerSkuByReservationScope
-- uid: com.microsoft.store.partnercenter.customers.products.ICustomerSku.byCustomerReservationScope*
-  name: byCustomerReservationScope
-  nameWithType: ICustomerSku.byCustomerReservationScope
-  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerSku.byCustomerReservationScope
-  package: com.microsoft.store.partnercenter.customers.products
-- uid: com.microsoft.store.partnercenter.products.ISku
-  name: ISku
-  nameWithType: ISku
-  fullName: com.microsoft.store.partnercenter.products.ISku
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.customers.products.ICustomerSku
+fullName: com.microsoft.store.partnercenter.customers.products.ICustomerSku
+name: ICustomerSku
+nameWithType: ICustomerSku
+summary: Represents the operations that can be performed on a single SKU.
+syntax: public interface ICustomerSku extends ISku
+methods:
+- com.microsoft.store.partnercenter.customers.products.ICustomerSku.byCustomerReservationScope(java.lang.String)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.products.ISku?alt=com.microsoft.store.partnercenter.products.ISku&text=ISku" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.customers.products
+artifact: com.microsoft.store:partnercenter:1.15.3

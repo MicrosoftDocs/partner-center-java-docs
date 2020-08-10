@@ -1,81 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
-  id: ISubscriptionMonthlyUsageRecordCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage
-  children:
-  - com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.get()
-  langs:
-  - java
-  name: ISubscriptionMonthlyUsageRecordCollection
-  nameWithType: ISubscriptionMonthlyUsageRecordCollection
-  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.usage
-  summary: Defines the behavior for a subscription's daily usage records.
-  syntax:
-    content: public interface ISubscriptionMonthlyUsageRecordCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<SubscriptionMonthlyUsageRecord,ResourceCollection<SubscriptionMonthlyUsageRecord>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord>>
-- uid: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
-  langs:
-  - java
-  name: get()
-  nameWithType: ISubscriptionMonthlyUsageRecordCollection.get()
-  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.get()
-  overload: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.usage
-  summary: Retrieves the customer's subscription usage records.
-  syntax:
-    content: public abstract ResourceCollection<SubscriptionMonthlyUsageRecord> get()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord>
-      description: The customer's subscription usage records.
-references:
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord>
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
-    name: SubscriptionMonthlyUsageRecord
-    fullName: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.get*
-  name: get
-  nameWithType: ISubscriptionMonthlyUsageRecordCollection.get
-  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.get
-  package: com.microsoft.store.partnercenter.usage
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord>>
-  name: IEntireEntityCollectionRetrievalOperations<SubscriptionMonthlyUsageRecord,ResourceCollection<SubscriptionMonthlyUsageRecord>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<SubscriptionMonthlyUsageRecord,ResourceCollection<SubscriptionMonthlyUsageRecord>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord>>
-- uid: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
-  name: SubscriptionMonthlyUsageRecord
-  nameWithType: SubscriptionMonthlyUsageRecord
-  fullName: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: SubscriptionMonthlyUsageRecord,ResourceCollection
-  nameWithType: SubscriptionMonthlyUsageRecord,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+fullName: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
+name: ISubscriptionMonthlyUsageRecordCollection
+nameWithType: ISubscriptionMonthlyUsageRecordCollection
+summary: Defines the behavior for a subscription's daily usage records.
+syntax: public interface ISubscriptionMonthlyUsageRecordCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<SubscriptionMonthlyUsageRecord,ResourceCollection<SubscriptionMonthlyUsageRecord>>
+methods:
+- com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.get()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord?alt=com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord&text=SubscriptionMonthlyUsageRecord" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord?alt=com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord&text=SubscriptionMonthlyUsageRecord" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.usage
+artifact: com.microsoft.store:partnercenter:1.15.3

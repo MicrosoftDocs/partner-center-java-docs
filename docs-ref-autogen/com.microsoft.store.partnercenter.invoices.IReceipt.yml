@@ -1,64 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.invoices.IReceipt
-  id: IReceipt
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices
-  children:
-  - com.microsoft.store.partnercenter.invoices.IReceipt.getDocuments()
-  langs:
-  - java
-  name: IReceipt
-  nameWithType: IReceipt
-  fullName: com.microsoft.store.partnercenter.invoices.IReceipt
-  type: Interface
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Represents the available receipt operations.
-  syntax:
-    content: public interface IReceipt extends IPartnerComponent<Tuple<String,String>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.invoices.IReceipt.getDocuments()
-  id: getDocuments()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices.IReceipt
-  langs:
-  - java
-  name: getDocuments()
-  nameWithType: IReceipt.getDocuments()
-  fullName: com.microsoft.store.partnercenter.invoices.IReceipt.getDocuments()
-  overload: com.microsoft.store.partnercenter.invoices.IReceipt.getDocuments*
-  type: Method
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Gets the available document operations.
-  syntax:
-    content: public abstract IReceiptDocuments getDocuments()
-    return:
-      type: com.microsoft.store.partnercenter.invoices.IReceiptDocuments
-      description: The available document operations.
-references:
-- uid: com.microsoft.store.partnercenter.invoices.IReceiptDocuments
-  name: IReceiptDocuments
-  nameWithType: IReceiptDocuments
-  fullName: com.microsoft.store.partnercenter.invoices.IReceiptDocuments
-- uid: com.microsoft.store.partnercenter.invoices.IReceipt.getDocuments*
-  name: getDocuments
-  nameWithType: IReceipt.getDocuments
-  fullName: com.microsoft.store.partnercenter.invoices.IReceipt.getDocuments
-  package: com.microsoft.store.partnercenter.invoices
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.invoices.IReceipt
+fullName: com.microsoft.store.partnercenter.invoices.IReceipt
+name: IReceipt
+nameWithType: IReceipt
+summary: Represents the available receipt operations.
+syntax: public interface IReceipt extends IPartnerComponent<Tuple<String,String>>
+methods:
+- com.microsoft.store.partnercenter.invoices.IReceipt.getDocuments()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.invoices
+artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,203 +1,32 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  id: OrderLineItemActivationLink
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.orders
-  children:
-  - com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.OrderLineItemActivationLink()
-  - com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLineItemNumber()
-  - com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLink()
-  - com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLineItemNumber(int)
-  - com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLink(com.microsoft.store.partnercenter.models.Link)
-  langs:
-  - java
-  name: OrderLineItemActivationLink
-  nameWithType: OrderLineItemActivationLink
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  type: Class
-  package: com.microsoft.store.partnercenter.models.orders
-  summary: Represents the activation link for the order line item.
-  syntax:
-    content: public class OrderLineItemActivationLink
-  inheritance:
-  - java.lang.Object
-  inheritedMembers:
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.OrderLineItemActivationLink()
-  id: OrderLineItemActivationLink()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  langs:
-  - java
-  name: OrderLineItemActivationLink()
-  nameWithType: OrderLineItemActivationLink.OrderLineItemActivationLink()
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.OrderLineItemActivationLink()
-  overload: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.OrderLineItemActivationLink*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.orders
-  syntax:
-    content: public OrderLineItemActivationLink()
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLineItemNumber()
-  id: getLineItemNumber()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  langs:
-  - java
-  name: getLineItemNumber()
-  nameWithType: OrderLineItemActivationLink.getLineItemNumber()
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLineItemNumber()
-  overload: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLineItemNumber*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.orders
-  summary: Gets the order line item number.
-  syntax:
-    content: public int getLineItemNumber()
-    return:
-      type: int
-      description: The order line item number.
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLink()
-  id: getLink()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  langs:
-  - java
-  name: getLink()
-  nameWithType: OrderLineItemActivationLink.getLink()
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLink()
-  overload: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLink*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.orders
-  summary: Gets the activation link.
-  syntax:
-    content: public Link getLink()
-    return:
-      type: com.microsoft.store.partnercenter.models.Link
-      description: The activation link for the order line item.
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLineItemNumber(int)
-  id: setLineItemNumber(int)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  langs:
-  - java
-  name: setLineItemNumber(int value)
-  nameWithType: OrderLineItemActivationLink.setLineItemNumber(int value)
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLineItemNumber(int value)
-  overload: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLineItemNumber*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.orders
-  summary: Sets the order line item number.
-  syntax:
-    content: public void setLineItemNumber(int value)
-    parameters:
-    - id: value
-      type: int
-      description: The order line item number.
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLink(com.microsoft.store.partnercenter.models.Link)
-  id: setLink(com.microsoft.store.partnercenter.models.Link)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  langs:
-  - java
-  name: setLink(Link value)
-  nameWithType: OrderLineItemActivationLink.setLink(Link value)
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLink(Link value)
-  overload: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLink*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.orders
-  summary: Sets the activation link.
-  syntax:
-    content: public void setLink(Link value)
-    parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.Link
-      description: The activation link.
-references:
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.OrderLineItemActivationLink*
-  name: OrderLineItemActivationLink
-  nameWithType: OrderLineItemActivationLink.OrderLineItemActivationLink
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.OrderLineItemActivationLink
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: int
-  spec.java:
-  - uid: int
-    name: int
-    fullName: int
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLineItemNumber*
-  name: getLineItemNumber
-  nameWithType: OrderLineItemActivationLink.getLineItemNumber
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLineItemNumber
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLineItemNumber*
-  name: setLineItemNumber
-  nameWithType: OrderLineItemActivationLink.setLineItemNumber
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLineItemNumber
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.Link
-  name: Link
-  nameWithType: Link
-  fullName: com.microsoft.store.partnercenter.models.Link
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLink*
-  name: getLink
-  nameWithType: OrderLineItemActivationLink.getLink
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLink
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLink*
-  name: setLink
-  nameWithType: OrderLineItemActivationLink.setLink
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLink
-  package: com.microsoft.store.partnercenter.models.orders
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
+fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
+name: OrderLineItemActivationLink
+nameWithType: OrderLineItemActivationLink
+summary: Represents the activation link for the order line item.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class OrderLineItemActivationLink
+constructors:
+- com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.OrderLineItemActivationLink()
+methods:
+- com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLineItemNumber()
+- com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLink()
+- com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLineItemNumber(int)
+- com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLink(com.microsoft.store.partnercenter.models.Link)
+type: class
+metadata: {}
+package: com.microsoft.store.partnercenter.models.orders
+artifact: com.microsoft.store:partnercenter:1.15.3

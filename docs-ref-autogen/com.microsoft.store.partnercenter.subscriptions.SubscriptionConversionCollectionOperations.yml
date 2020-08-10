@@ -1,225 +1,35 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations
-  id: SubscriptionConversionCollectionOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions
-  children:
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.create(com.microsoft.store.partnercenter.models.subscriptions.Conversion)
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get()
-  langs:
-  - java
-  name: SubscriptionConversionCollectionOperations
-  nameWithType: SubscriptionConversionCollectionOperations
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: The customer subscription conversion implementation.
-  syntax:
-    content: public class SubscriptionConversionCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscriptionConversionCollection
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  implements:
-  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  id: SubscriptionConversionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations
-  langs:
-  - java
-  name: SubscriptionConversionCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
-  nameWithType: SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Initializes a new instance of the SubscriptionConversionCollectionOperations class.
-  syntax:
-    content: public SubscriptionConversionCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
-    parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The root partner operations instance.
-    - id: customerId
-      type: java.lang.String
-      description: The customer Id to whom the subscriptions belong.
-    - id: subscriptionId
-      type: java.lang.String
-      description: The subscription Id where the upgrade is occurring.
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.create(com.microsoft.store.partnercenter.models.subscriptions.Conversion)
-  id: create(com.microsoft.store.partnercenter.models.subscriptions.Conversion)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations
-  langs:
-  - java
-  name: create(Conversion conversion)
-  nameWithType: SubscriptionConversionCollectionOperations.create(Conversion conversion)
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.create(Conversion conversion)
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.create*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Submits a trial subscription conversion.
-  syntax:
-    content: public ConversionResult create(Conversion conversion)
-    parameters:
-    - id: conversion
-      type: com.microsoft.store.partnercenter.models.subscriptions.Conversion
-      description: The new subscription conversion information
-    return:
-      type: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
-      description: The customer subscription usage record.
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations
-  langs:
-  - java
-  name: get()
-  nameWithType: SubscriptionConversionCollectionOperations.get()
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get()
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Retrieves all conversions for the trial subscription.
-  syntax:
-    content: public ResourceCollection<Conversion> get()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Conversion>
-      description: The subscription conversions.
-references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations*
-  name: SubscriptionConversionCollectionOperations
-  nameWithType: SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion
-  name: Conversion
-  nameWithType: Conversion
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion
-- uid: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
-  name: ConversionResult
-  nameWithType: ConversionResult
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.ConversionResult
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.create*
-  name: create
-  nameWithType: SubscriptionConversionCollectionOperations.create
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.create
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Conversion>
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.subscriptions.Conversion
-    name: Conversion
-    fullName: com.microsoft.store.partnercenter.models.subscriptions.Conversion
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get*
-  name: get
-  nameWithType: SubscriptionConversionCollectionOperations.get
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: BasePartnerComponent<Tuple<String,String>>
-  nameWithType: BasePartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
-  name: ISubscriptionConversionCollection
-  nameWithType: ISubscriptionConversionCollection
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent
-  name: BasePartnerComponent
-  nameWithType: BasePartnerComponent
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations
+fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations
+name: SubscriptionConversionCollectionOperations
+nameWithType: SubscriptionConversionCollectionOperations
+summary: The customer subscription conversion implementation.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent?alt=com.microsoft.store.partnercenter.BasePartnerComponent&text=BasePartnerComponent" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class SubscriptionConversionCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscriptionConversionCollection
+constructors:
+- com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+methods:
+- com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.create(com.microsoft.store.partnercenter.models.subscriptions.Conversion)
+- com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get()
+type: class
+implements:
+- <xref href="com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection?alt=com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection&text=ISubscriptionConversionCollection" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.subscriptions
+artifact: com.microsoft.store:partnercenter:1.15.3

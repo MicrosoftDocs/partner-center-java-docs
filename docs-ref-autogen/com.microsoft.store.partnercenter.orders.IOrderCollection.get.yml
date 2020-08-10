@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.microsoft.store.partnercenter.orders.IOrderCollection.get*
+fullName: com.microsoft.store.partnercenter.orders.IOrderCollection.get(Boolean includePrice)
+name: get(Boolean includePrice)
+nameWithType: IOrderCollection.get(Boolean includePrice)
+members:
+- uid: com.microsoft.store.partnercenter.orders.IOrderCollection.get(java.lang.Boolean)
+  fullName: com.microsoft.store.partnercenter.orders.IOrderCollection.get(Boolean includePrice)
+  name: get(Boolean includePrice)
+  nameWithType: IOrderCollection.get(Boolean includePrice)
+  summary: Gets a collection of orders.
+  parameters:
+  - description: A flag indicating whether to include pricing details in the order information or not.
+    name: includePrice
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public abstract ResourceCollection<Order> get(Boolean includePrice)
+  returns:
+    description: The collection of orders including pricing details (based on access permissions) when requested.
+    type: <xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.microsoft.store.partnercenter.orders
+artifact: com.microsoft.store:partnercenter:1.15.3

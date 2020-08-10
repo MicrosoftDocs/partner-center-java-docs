@@ -1,270 +1,35 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  id: LicenseUpdate
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses
-  children:
-  - com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.LicenseUpdate()
-  - com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicenseWarnings()
-  - com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToAssign()
-  - com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToRemove()
-  - com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToAssign(java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseAssignment>)
-  - com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToRemove(java.lang.Iterable<java.lang.String>)
-  langs:
-  - java
-  name: LicenseUpdate
-  nameWithType: LicenseUpdate
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  type: Class
-  package: com.microsoft.store.partnercenter.models.licenses
-  summary: Model for assigning and removing licenses to user.
-  syntax:
-    content: public class LicenseUpdate extends ResourceBase
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.LicenseUpdate()
-  id: LicenseUpdate()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  langs:
-  - java
-  name: LicenseUpdate()
-  nameWithType: LicenseUpdate.LicenseUpdate()
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.LicenseUpdate()
-  overload: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.LicenseUpdate*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.licenses
-  syntax:
-    content: public LicenseUpdate()
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicenseWarnings()
-  id: getLicenseWarnings()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  langs:
-  - java
-  name: getLicenseWarnings()
-  nameWithType: LicenseUpdate.getLicenseWarnings()
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicenseWarnings()
-  overload: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicenseWarnings*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.licenses
-  syntax:
-    content: public Iterable<LicenseWarning> getLicenseWarnings()
-    return:
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseWarning>
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToAssign()
-  id: getLicensesToAssign()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  langs:
-  - java
-  name: getLicensesToAssign()
-  nameWithType: LicenseUpdate.getLicensesToAssign()
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToAssign()
-  overload: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToAssign*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.licenses
-  syntax:
-    content: public Iterable<LicenseAssignment> getLicensesToAssign()
-    return:
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseAssignment>
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToRemove()
-  id: getLicensesToRemove()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  langs:
-  - java
-  name: getLicensesToRemove()
-  nameWithType: LicenseUpdate.getLicensesToRemove()
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToRemove()
-  overload: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToRemove*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.licenses
-  syntax:
-    content: public Iterable<String> getLicensesToRemove()
-    return:
-      type: java.lang.Iterable<java.lang.String>
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToAssign(java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseAssignment>)
-  id: setLicensesToAssign(java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseAssignment>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  langs:
-  - java
-  name: setLicensesToAssign(Iterable<LicenseAssignment> value)
-  nameWithType: LicenseUpdate.setLicensesToAssign(Iterable<LicenseAssignment> value)
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToAssign(Iterable<LicenseAssignment> value)
-  overload: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToAssign*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.licenses
-  syntax:
-    content: public void setLicensesToAssign(Iterable<LicenseAssignment> value)
-    parameters:
-    - id: value
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseAssignment>
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToRemove(java.lang.Iterable<java.lang.String>)
-  id: setLicensesToRemove(java.lang.Iterable<java.lang.String>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  langs:
-  - java
-  name: setLicensesToRemove(Iterable<String> value)
-  nameWithType: LicenseUpdate.setLicensesToRemove(Iterable<String> value)
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToRemove(Iterable<String> value)
-  overload: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToRemove*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.licenses
-  syntax:
-    content: public void setLicensesToRemove(Iterable<String> value)
-    parameters:
-    - id: value
-      type: java.lang.Iterable<java.lang.String>
-references:
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.LicenseUpdate*
-  name: LicenseUpdate
-  nameWithType: LicenseUpdate.LicenseUpdate
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.LicenseUpdate
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseAssignment>
-  spec.java:
-  - uid: java.lang.Iterable
-    name: Iterable
-    fullName: java.lang.Iterable
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-    name: LicenseAssignment
-    fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToAssign*
-  name: getLicensesToAssign
-  nameWithType: LicenseUpdate.getLicensesToAssign
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToAssign
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToAssign*
-  name: setLicensesToAssign
-  nameWithType: LicenseUpdate.setLicensesToAssign
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToAssign
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: java.lang.Iterable<java.lang.String>
-  spec.java:
-  - uid: java.lang.Iterable
-    name: Iterable
-    fullName: java.lang.Iterable
-  - name: <
-    fullName: <
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToRemove*
-  name: getLicensesToRemove
-  nameWithType: LicenseUpdate.getLicensesToRemove
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToRemove
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToRemove*
-  name: setLicensesToRemove
-  nameWithType: LicenseUpdate.setLicensesToRemove
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToRemove
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseWarning>
-  spec.java:
-  - uid: java.lang.Iterable
-    name: Iterable
-    fullName: java.lang.Iterable
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.licenses.LicenseWarning
-    name: LicenseWarning
-    fullName: com.microsoft.store.partnercenter.models.licenses.LicenseWarning
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicenseWarnings*
-  name: getLicenseWarnings
-  nameWithType: LicenseUpdate.getLicenseWarnings
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicenseWarnings
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: com.microsoft.store.partnercenter.models.ResourceBase
-  name: ResourceBase
-  nameWithType: ResourceBase
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  name: ResourceBase.getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-  name: LicenseAssignment
-  nameWithType: LicenseAssignment
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-- uid: java.lang.Iterable
-  name: Iterable
-  nameWithType: Iterable
-  fullName: java.lang.Iterable
-- uid: java.lang.String
-  name: String
-  nameWithType: String
-  fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseWarning
-  name: LicenseWarning
-  nameWithType: LicenseWarning
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseWarning
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
+fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
+name: LicenseUpdate
+nameWithType: LicenseUpdate
+summary: Model for assigning and removing licenses to user.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.models.ResourceBase?alt=com.microsoft.store.partnercenter.models.ResourceBase&text=ResourceBase" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class LicenseUpdate extends ResourceBase
+constructors:
+- com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.LicenseUpdate()
+methods:
+- com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicenseWarnings()
+- com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToAssign()
+- com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToRemove()
+- com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToAssign(java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseAssignment>)
+- com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToRemove(java.lang.Iterable<java.lang.String>)
+type: class
+metadata: {}
+package: com.microsoft.store.partnercenter.models.licenses
+artifact: com.microsoft.store:partnercenter:1.15.3

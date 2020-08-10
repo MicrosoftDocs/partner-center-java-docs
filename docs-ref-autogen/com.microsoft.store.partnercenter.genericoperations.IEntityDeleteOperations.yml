@@ -1,45 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
-  id: IEntityDeleteOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.genericoperations
-  children:
-  - com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations.delete()
-  langs:
-  - java
-  name: IEntityDeleteOperations<T>
-  nameWithType: IEntityDeleteOperations<T>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<T>
-  type: Interface
-  package: com.microsoft.store.partnercenter.genericoperations
-  summary: Groups operations for getting a single entity. The entity type.
-  syntax:
-    content: public interface IEntityDeleteOperations<T>
-    typeParameters:
-    - id: T
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations.delete()
-  id: delete()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
-  langs:
-  - java
-  name: delete()
-  nameWithType: IEntityDeleteOperations<T>.delete()
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<T>.delete()
-  overload: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations.delete*
-  type: Method
-  package: com.microsoft.store.partnercenter.genericoperations
-  summary: Deletes an entity.
-  syntax:
-    content: public abstract void delete()
-references:
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations.delete*
-  name: delete
-  nameWithType: IEntityDeleteOperations<T>.delete
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<T>.delete
-  package: com.microsoft.store.partnercenter.genericoperations
-- uid: T
-  name: T
-  nameWithType: T
-  fullName: T
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
+fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<T>
+name: IEntityDeleteOperations<T>
+nameWithType: IEntityDeleteOperations<T>
+summary: Groups operations for getting a single entity. The entity type.
+syntax: public interface IEntityDeleteOperations<T>
+methods:
+- com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations.delete()
+type: interface
+typeParameters:
+- name: T
+metadata: {}
+package: com.microsoft.store.partnercenter.genericoperations
+artifact: com.microsoft.store:partnercenter:1.15.3

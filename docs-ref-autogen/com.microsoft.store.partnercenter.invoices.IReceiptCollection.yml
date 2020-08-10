@@ -1,36 +1,14 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.invoices.IReceiptCollection
-  id: IReceiptCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices
-  langs:
-  - java
-  name: IReceiptCollection
-  nameWithType: IReceiptCollection
-  fullName: com.microsoft.store.partnercenter.invoices.IReceiptCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Represents the available operations for receipts.
-  syntax:
-    content: public interface IReceiptCollection extends IPartnerComponentString, IEntitySelector<String,IReceipt>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.invoices.IReceipt>
-references:
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.invoices.IReceipt>
-  name: IEntitySelector<String,IReceipt>
-  nameWithType: IEntitySelector<String,IReceipt>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.invoices.IReceipt>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  name: IEntitySelector
-  nameWithType: IEntitySelector
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-- uid: java.lang.String,com.microsoft.store.partnercenter.invoices.IReceipt
-  name: String,IReceipt
-  nameWithType: String,IReceipt
-  fullName: java.lang.String,com.microsoft.store.partnercenter.invoices.IReceipt
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.invoices.IReceiptCollection
+fullName: com.microsoft.store.partnercenter.invoices.IReceiptCollection
+name: IReceiptCollection
+nameWithType: IReceiptCollection
+summary: Represents the available operations for receipts.
+syntax: public interface IReceiptCollection extends IPartnerComponentString, IEntitySelector<String,IReceipt>
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.invoices.IReceipt?alt=com.microsoft.store.partnercenter.invoices.IReceipt&text=IReceipt" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.invoices
+artifact: com.microsoft.store:partnercenter:1.15.3

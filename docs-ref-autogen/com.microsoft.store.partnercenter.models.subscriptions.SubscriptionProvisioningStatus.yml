@@ -1,305 +1,38 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
-  id: SubscriptionProvisioningStatus
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.subscriptions
-  children:
-  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.SubscriptionProvisioningStatus()
-  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate()
-  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity()
-  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getSkuId()
-  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getStatus()
-  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setEndDate(org.joda.time.DateTime)
-  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity(int)
-  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId(java.lang.String)
-  - com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus(com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus)
-  langs:
-  - java
-  name: SubscriptionProvisioningStatus
-  nameWithType: SubscriptionProvisioningStatus
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
-  type: Class
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  summary: The subscription provisioning status details.
-  syntax:
-    content: public class SubscriptionProvisioningStatus extends ResourceBase
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.SubscriptionProvisioningStatus()
-  id: SubscriptionProvisioningStatus()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
-  langs:
-  - java
-  name: SubscriptionProvisioningStatus()
-  nameWithType: SubscriptionProvisioningStatus.SubscriptionProvisioningStatus()
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.SubscriptionProvisioningStatus()
-  overload: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.SubscriptionProvisioningStatus*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  syntax:
-    content: public SubscriptionProvisioningStatus()
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate()
-  id: getEndDate()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
-  langs:
-  - java
-  name: getEndDate()
-  nameWithType: SubscriptionProvisioningStatus.getEndDate()
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate()
-  overload: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  syntax:
-    content: public DateTime getEndDate()
-    return:
-      type: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity()
-  id: getQuantity()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
-  langs:
-  - java
-  name: getQuantity()
-  nameWithType: SubscriptionProvisioningStatus.getQuantity()
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity()
-  overload: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  syntax:
-    content: public int getQuantity()
-    return:
-      type: int
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getSkuId()
-  id: getSkuId()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
-  langs:
-  - java
-  name: getSkuId()
-  nameWithType: SubscriptionProvisioningStatus.getSkuId()
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getSkuId()
-  overload: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getSkuId*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  syntax:
-    content: public String getSkuId()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getStatus()
-  id: getStatus()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
-  langs:
-  - java
-  name: getStatus()
-  nameWithType: SubscriptionProvisioningStatus.getStatus()
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getStatus()
-  overload: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getStatus*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  syntax:
-    content: public ProvisioningStatus getStatus()
-    return:
-      type: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setEndDate(org.joda.time.DateTime)
-  id: setEndDate(org.joda.time.DateTime)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
-  langs:
-  - java
-  name: setEndDate(DateTime value)
-  nameWithType: SubscriptionProvisioningStatus.setEndDate(DateTime value)
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setEndDate(DateTime value)
-  overload: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setEndDate*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  syntax:
-    content: public void setEndDate(DateTime value)
-    parameters:
-    - id: value
-      type: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity(int)
-  id: setQuantity(int)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
-  langs:
-  - java
-  name: setQuantity(int value)
-  nameWithType: SubscriptionProvisioningStatus.setQuantity(int value)
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity(int value)
-  overload: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  syntax:
-    content: public void setQuantity(int value)
-    parameters:
-    - id: value
-      type: int
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId(java.lang.String)
-  id: setSkuId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
-  langs:
-  - java
-  name: setSkuId(String value)
-  nameWithType: SubscriptionProvisioningStatus.setSkuId(String value)
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId(String value)
-  overload: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  syntax:
-    content: public void setSkuId(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus(com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus)
-  id: setStatus(com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
-  langs:
-  - java
-  name: setStatus(ProvisioningStatus value)
-  nameWithType: SubscriptionProvisioningStatus.setStatus(ProvisioningStatus value)
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus(ProvisioningStatus value)
-  overload: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.subscriptions
-  syntax:
-    content: public void setStatus(ProvisioningStatus value)
-    parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
-references:
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.SubscriptionProvisioningStatus*
-  name: SubscriptionProvisioningStatus
-  nameWithType: SubscriptionProvisioningStatus.SubscriptionProvisioningStatus
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.SubscriptionProvisioningStatus
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getSkuId*
-  name: getSkuId
-  nameWithType: SubscriptionProvisioningStatus.getSkuId
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getSkuId
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId*
-  name: setSkuId
-  nameWithType: SubscriptionProvisioningStatus.setSkuId
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
-  name: ProvisioningStatus
-  nameWithType: ProvisioningStatus
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getStatus*
-  name: getStatus
-  nameWithType: SubscriptionProvisioningStatus.getStatus
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getStatus
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus*
-  name: setStatus
-  nameWithType: SubscriptionProvisioningStatus.setStatus
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: int
-  spec.java:
-  - uid: int
-    name: int
-    fullName: int
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity*
-  name: getQuantity
-  nameWithType: SubscriptionProvisioningStatus.getQuantity
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity*
-  name: setQuantity
-  nameWithType: SubscriptionProvisioningStatus.setQuantity
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: org.joda.time.DateTime
-  spec.java:
-  - uid: org.joda.time.DateTime
-    name: DateTime
-    fullName: org.joda.time.DateTime
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate*
-  name: getEndDate
-  nameWithType: SubscriptionProvisioningStatus.getEndDate
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setEndDate*
-  name: setEndDate
-  nameWithType: SubscriptionProvisioningStatus.setEndDate
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setEndDate
-  package: com.microsoft.store.partnercenter.models.subscriptions
-- uid: com.microsoft.store.partnercenter.models.ResourceBase
-  name: ResourceBase
-  nameWithType: ResourceBase
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  name: ResourceBase.getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
+fullName: com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus
+name: SubscriptionProvisioningStatus
+nameWithType: SubscriptionProvisioningStatus
+summary: The subscription provisioning status details.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.models.ResourceBase?alt=com.microsoft.store.partnercenter.models.ResourceBase&text=ResourceBase" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class SubscriptionProvisioningStatus extends ResourceBase
+constructors:
+- com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.SubscriptionProvisioningStatus()
+methods:
+- com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate()
+- com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity()
+- com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getSkuId()
+- com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getStatus()
+- com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setEndDate(org.joda.time.DateTime)
+- com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity(int)
+- com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId(java.lang.String)
+- com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus(com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus)
+type: class
+metadata: {}
+package: com.microsoft.store.partnercenter.models.subscriptions
+artifact: com.microsoft.store:partnercenter:1.15.3

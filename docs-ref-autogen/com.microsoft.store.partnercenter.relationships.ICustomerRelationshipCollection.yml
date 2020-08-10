@@ -1,81 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
-  id: ICustomerRelationshipCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.relationships
-  children:
-  - com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.get()
-  langs:
-  - java
-  name: ICustomerRelationshipCollection
-  nameWithType: ICustomerRelationshipCollection
-  fullName: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.relationships
-  summary: For two-tier partner scenarios, holds the operations for retrieving partner relationships of a customer with respect to the logged in partner.
-  syntax:
-    content: public interface ICustomerRelationshipCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<PartnerRelationship,ResourceCollection<PartnerRelationship>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>>
-- uid: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
-  langs:
-  - java
-  name: get()
-  nameWithType: ICustomerRelationshipCollection.get()
-  fullName: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.get()
-  overload: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.relationships
-  summary: Retrieves all the partner relationships associated to the customer based on the logged in partner.
-  syntax:
-    content: public abstract ResourceCollection<PartnerRelationship> get()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>
-      description: The partner relationships.
-references:
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship
-    name: PartnerRelationship
-    fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.get*
-  name: get
-  nameWithType: ICustomerRelationshipCollection.get
-  fullName: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.get
-  package: com.microsoft.store.partnercenter.relationships
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>>
-  name: IEntireEntityCollectionRetrievalOperations<PartnerRelationship,ResourceCollection<PartnerRelationship>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<PartnerRelationship,ResourceCollection<PartnerRelationship>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>>
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship
-  name: PartnerRelationship
-  nameWithType: PartnerRelationship
-  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: PartnerRelationship,ResourceCollection
-  nameWithType: PartnerRelationship,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship,com.microsoft.store.partnercenter.models.ResourceCollection
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+fullName: com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection
+name: ICustomerRelationshipCollection
+nameWithType: ICustomerRelationshipCollection
+summary: For two-tier partner scenarios, holds the operations for retrieving partner relationships of a customer with respect to the logged in partner.
+syntax: public interface ICustomerRelationshipCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<PartnerRelationship,ResourceCollection<PartnerRelationship>>
+methods:
+- com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.get()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.relationships.PartnerRelationship?alt=com.microsoft.store.partnercenter.models.relationships.PartnerRelationship&text=PartnerRelationship" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.relationships.PartnerRelationship?alt=com.microsoft.store.partnercenter.models.relationships.PartnerRelationship&text=PartnerRelationship" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.relationships
+artifact: com.microsoft.store:partnercenter:1.15.3

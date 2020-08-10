@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update*
+fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(CustomerQualification customerQualification)
+name: update(CustomerQualification customerQualification)
+nameWithType: ICustomerQualification.update(CustomerQualification customerQualification)
+members:
+- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification)
+  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(CustomerQualification customerQualification)
+  name: update(CustomerQualification customerQualification)
+  nameWithType: ICustomerQualification.update(CustomerQualification customerQualification)
+  summary: Updates the customer qualification.
+  parameters:
+  - description: Customer Qualification.
+    name: customerQualification
+    type: <xref href="com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification" data-throw-if-not-resolved="False" />
+  syntax: public abstract CustomerQualification update(CustomerQualification customerQualification)
+  returns:
+    description: The updated customer qualification.
+    type: <xref href="com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification" data-throw-if-not-resolved="False" />
+- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification,com.microsoft.store.partnercenter.models.validationcodes.ValidationCode)
+  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)
+  name: update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)
+  nameWithType: ICustomerQualification.update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)
+  summary: Updates the customer qualification. Used for GovernmentCommunityCloud with validation code after successful registration through Microsoft.
+  parameters:
+  - description: The customer qualification value.
+    name: customerQualification
+    type: <xref href="com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification" data-throw-if-not-resolved="False" />
+  - description: Validation code necessary to complete only Government Community Cloud customer creation.
+    name: governmentCommunityCloudValidationCode
+    type: <xref href="com.microsoft.store.partnercenter.models.validationcodes.ValidationCode?alt=com.microsoft.store.partnercenter.models.validationcodes.ValidationCode&text=ValidationCode" data-throw-if-not-resolved="False" />
+  syntax: public abstract CustomerQualification update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)
+  returns:
+    description: The updated customer qualification.
+    type: <xref href="com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.microsoft.store.partnercenter.qualification
+artifact: com.microsoft.store:partnercenter:1.15.3

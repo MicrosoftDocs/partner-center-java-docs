@@ -1,403 +1,96 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  id: PartnerErrorCategory
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception
-  children:
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.ALREADY_EXISTS
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.BAD_INPUT
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.FORBIDDEN
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.INVALID_OPERATION
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.NOT_FOUND
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.NOT_SPECIFIED
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.REQUEST_PARSING
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.RESPONSE_PARSING
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.SERVER_BUSY
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.SERVER_ERROR
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.TIMEOUT
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.UNAUTHORIZED
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.valueOf(java.lang.String)
-  - com.microsoft.store.partnercenter.exception.PartnerErrorCategory.values()
-  langs:
-  - java
-  name: PartnerErrorCategory
-  nameWithType: PartnerErrorCategory
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  type: Enum
-  package: com.microsoft.store.partnercenter.exception
-  syntax:
-    content: public enum PartnerErrorCategory extends Enum<PartnerErrorCategory>
-  inheritance:
-  - java.lang.Object
-  - java.lang.Enum
-  inheritedMembers:
-  - java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  - java.lang.Enum.clone()
-  - java.lang.Enum.compareTo(E)
-  - java.lang.Enum.equals(java.lang.Object)
-  - java.lang.Enum.finalize()
-  - java.lang.Enum.getDeclaringClass()
-  - java.lang.Enum.hashCode()
-  - java.lang.Enum.name()
-  - java.lang.Enum.ordinal()
-  - java.lang.Enum.toString()
-  - java.lang.Object.getClass()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
+### YamlMime:JavaEnum
+uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
+fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
+name: PartnerErrorCategory
+nameWithType: PartnerErrorCategory
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="java.lang.Enum?alt=java.lang.Enum&text=Enum" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+- java.lang.Enum.clone()
+- java.lang.Enum.compareTo(E)
+- java.lang.Enum.equals(java.lang.Object)
+- java.lang.Enum.finalize()
+- java.lang.Enum.getDeclaringClass()
+- java.lang.Enum.hashCode()
+- java.lang.Enum.name()
+- java.lang.Enum.ordinal()
+- java.lang.Enum.toString()
+- java.lang.Object.getClass()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public enum PartnerErrorCategory extends Enum<PartnerErrorCategory>
+fields:
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.ALREADY_EXISTS
-  id: ALREADY_EXISTS
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.ALREADY_EXISTS
   name: ALREADY_EXISTS
   nameWithType: PartnerErrorCategory.ALREADY_EXISTS
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.ALREADY_EXISTS
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: The resource already exists.
-  syntax:
-    content: public static final PartnerErrorCategory ALREADY_EXISTS
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.BAD_INPUT
-  id: BAD_INPUT
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.BAD_INPUT
   name: BAD_INPUT
   nameWithType: PartnerErrorCategory.BAD_INPUT
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.BAD_INPUT
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: The error was due to bad inputs from the user.
-  syntax:
-    content: public static final PartnerErrorCategory BAD_INPUT
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.FORBIDDEN
-  id: FORBIDDEN
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.FORBIDDEN
   name: FORBIDDEN
   nameWithType: PartnerErrorCategory.FORBIDDEN
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.FORBIDDEN
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: The operation was not granted to the caller.
-  syntax:
-    content: public static final PartnerErrorCategory FORBIDDEN
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.INVALID_OPERATION
-  id: INVALID_OPERATION
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.INVALID_OPERATION
   name: INVALID_OPERATION
   nameWithType: PartnerErrorCategory.INVALID_OPERATION
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.INVALID_OPERATION
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: The requested operation is invalid.
-  syntax:
-    content: public static final PartnerErrorCategory INVALID_OPERATION
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.NOT_FOUND
-  id: NOT_FOUND
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.NOT_FOUND
   name: NOT_FOUND
   nameWithType: PartnerErrorCategory.NOT_FOUND
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.NOT_FOUND
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: The resource was not found.
-  syntax:
-    content: public static final PartnerErrorCategory NOT_FOUND
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.NOT_SPECIFIED
-  id: NOT_SPECIFIED
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.NOT_SPECIFIED
   name: NOT_SPECIFIED
   nameWithType: PartnerErrorCategory.NOT_SPECIFIED
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.NOT_SPECIFIED
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: Defines the error categories of the partner SDK. Unknown error type.
-  syntax:
-    content: public static final PartnerErrorCategory NOT_SPECIFIED
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-- uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.PartnerErrorCategory()
-  id: PartnerErrorCategory()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
-  name: PartnerErrorCategory()
-  nameWithType: PartnerErrorCategory.PartnerErrorCategory()
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.PartnerErrorCategory()
-  overload: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.PartnerErrorCategory*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.exception
-  syntax:
-    content: private PartnerErrorCategory()
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.REQUEST_PARSING
-  id: REQUEST_PARSING
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.REQUEST_PARSING
   name: REQUEST_PARSING
   nameWithType: PartnerErrorCategory.REQUEST_PARSING
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.REQUEST_PARSING
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: The partner service request body could not be parsed according to the preset expectation.
-  syntax:
-    content: public static final PartnerErrorCategory REQUEST_PARSING
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.RESPONSE_PARSING
-  id: RESPONSE_PARSING
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.RESPONSE_PARSING
   name: RESPONSE_PARSING
   nameWithType: PartnerErrorCategory.RESPONSE_PARSING
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.RESPONSE_PARSING
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: The partner service response could not be parsed according to the preset expectation.
-  syntax:
-    content: public static final PartnerErrorCategory RESPONSE_PARSING
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.SERVER_BUSY
-  id: SERVER_BUSY
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.SERVER_BUSY
   name: SERVER_BUSY
   nameWithType: PartnerErrorCategory.SERVER_BUSY
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.SERVER_BUSY
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: The partner service is overloaded currently.
-  syntax:
-    content: public static final PartnerErrorCategory SERVER_BUSY
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.SERVER_ERROR
-  id: SERVER_ERROR
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.SERVER_ERROR
   name: SERVER_ERROR
   nameWithType: PartnerErrorCategory.SERVER_ERROR
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.SERVER_ERROR
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: The partner service failed to process the request.
-  syntax:
-    content: public static final PartnerErrorCategory SERVER_ERROR
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.TIMEOUT
-  id: TIMEOUT
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.TIMEOUT
   name: TIMEOUT
   nameWithType: PartnerErrorCategory.TIMEOUT
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.TIMEOUT
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: The partner service did not respond in a timely manner.
-  syntax:
-    content: public static final PartnerErrorCategory TIMEOUT
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.UNAUTHORIZED
-  id: UNAUTHORIZED
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.UNAUTHORIZED
   name: UNAUTHORIZED
   nameWithType: PartnerErrorCategory.UNAUTHORIZED
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.UNAUTHORIZED
-  type: Field
-  package: com.microsoft.store.partnercenter.exception
-  summary: The user is not authorized to perform the requested action.
-  syntax:
-    content: public static final PartnerErrorCategory UNAUTHORIZED
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
+methods:
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.valueOf(java.lang.String)
-  id: valueOf(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.valueOf(String name)
   name: valueOf(String name)
   nameWithType: PartnerErrorCategory.valueOf(String name)
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.valueOf(String name)
-  overload: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.valueOf*
-  type: Method
-  package: com.microsoft.store.partnercenter.exception
-  syntax:
-    content: public static PartnerErrorCategory valueOf(String name)
-    parameters:
-    - id: name
-      type: java.lang.String
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
+  parameters:
+  - name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static PartnerErrorCategory valueOf(String name)
+  returns:
+    type: <xref href="com.microsoft.store.partnercenter.exception.PartnerErrorCategory?alt=com.microsoft.store.partnercenter.exception.PartnerErrorCategory&text=PartnerErrorCategory" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.values()
-  id: values()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.values()
   name: values()
   nameWithType: PartnerErrorCategory.values()
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.values()
-  overload: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.values*
-  type: Method
-  package: com.microsoft.store.partnercenter.exception
-  syntax:
-    content: public static PartnerErrorCategory[] values()
-    return:
-      type: com.microsoft.store.partnercenter.exception.PartnerErrorCategory[]
-references:
-- uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.PartnerErrorCategory*
-  name: PartnerErrorCategory
-  nameWithType: PartnerErrorCategory.PartnerErrorCategory
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.PartnerErrorCategory
-  package: com.microsoft.store.partnercenter.exception
-- uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory[]
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-    name: PartnerErrorCategory
-    fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory
-  - name: '[]'
-    fullName: '[]'
-- uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.values*
-  name: values
-  nameWithType: PartnerErrorCategory.values
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.values
-  package: com.microsoft.store.partnercenter.exception
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.valueOf*
-  name: valueOf
-  nameWithType: PartnerErrorCategory.valueOf
-  fullName: com.microsoft.store.partnercenter.exception.PartnerErrorCategory.valueOf
-  package: com.microsoft.store.partnercenter.exception
-- uid: java.lang.Enum<com.microsoft.store.partnercenter.exception.PartnerErrorCategory>
-  name: Enum<PartnerErrorCategory>
-  nameWithType: Enum<PartnerErrorCategory>
-  fullName: java.lang.Enum<com.microsoft.store.partnercenter.exception.PartnerErrorCategory>
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Enum.toString()
-  name: Enum.toString()
-  nameWithType: Enum.toString()
-  fullName: java.lang.Enum.toString()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Enum.clone()
-  name: Enum.clone()
-  nameWithType: Enum.clone()
-  fullName: java.lang.Enum.clone()
-- uid: java.lang.Enum.finalize()
-  name: Enum.finalize()
-  nameWithType: Enum.finalize()
-  fullName: java.lang.Enum.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Enum.compareTo(E)
-  name: Enum.compareTo(E)
-  nameWithType: Enum.compareTo(E)
-  fullName: java.lang.Enum.compareTo(E)
-- uid: java.lang.Enum.name()
-  name: Enum.name()
-  nameWithType: Enum.name()
-  fullName: java.lang.Enum.name()
-- uid: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  name: Enum.<T>valueOf(Class<T>,String)
-  nameWithType: Enum.<T>valueOf(Class<T>,String)
-  fullName: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Enum.getDeclaringClass()
-  name: Enum.getDeclaringClass()
-  nameWithType: Enum.getDeclaringClass()
-  fullName: java.lang.Enum.getDeclaringClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Enum.ordinal()
-  name: Enum.ordinal()
-  nameWithType: Enum.ordinal()
-  fullName: java.lang.Enum.ordinal()
-- uid: java.lang.Enum.hashCode()
-  name: Enum.hashCode()
-  nameWithType: Enum.hashCode()
-  fullName: java.lang.Enum.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Enum.equals(java.lang.Object)
-  name: Enum.equals(Object)
-  nameWithType: Enum.equals(Object)
-  fullName: java.lang.Enum.equals(java.lang.Object)
-- uid: java.lang.Enum
-  name: Enum
-  nameWithType: Enum
-  fullName: java.lang.Enum
-- uid: java.lang.Enum.
-  name: Enum.
-  nameWithType: Enum.
-  fullName: java.lang.Enum.
-- uid: T>,java.lang.String)
-  name: T>,String)
-  nameWithType: T>,String)
-  fullName: T>,java.lang.String)
-- uid: T>valueOf(java.lang.Class
-  name: T>valueOf(Class
-  nameWithType: T>valueOf(Class
-  fullName: T>valueOf(java.lang.Class
+  syntax: public static PartnerErrorCategory[] values()
+  returns:
+    type: <xref href="com.microsoft.store.partnercenter.exception.PartnerErrorCategory?alt=com.microsoft.store.partnercenter.exception.PartnerErrorCategory&text=PartnerErrorCategory" data-throw-if-not-resolved="False" />[]
+metadata: {}
+package: com.microsoft.store.partnercenter.exception
+artifact: com.microsoft.store:partnercenter:1.15.3

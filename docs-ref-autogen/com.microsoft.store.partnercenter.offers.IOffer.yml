@@ -1,92 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.offers.IOffer
-  id: IOffer
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.offers
-  children:
-  - com.microsoft.store.partnercenter.offers.IOffer.get()
-  - com.microsoft.store.partnercenter.offers.IOffer.getAddOns()
-  langs:
-  - java
-  name: IOffer
-  nameWithType: IOffer
-  fullName: com.microsoft.store.partnercenter.offers.IOffer
-  type: Interface
-  package: com.microsoft.store.partnercenter.offers
-  summary: Holds operations that can be performed on a single offer.
-  syntax:
-    content: public interface IOffer extends IPartnerComponent<Tuple<String,String>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.offers.IOffer.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.offers.IOffer
-  langs:
-  - java
-  name: get()
-  nameWithType: IOffer.get()
-  fullName: com.microsoft.store.partnercenter.offers.IOffer.get()
-  overload: com.microsoft.store.partnercenter.offers.IOffer.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.offers
-  summary: Retrieves an offer for the provided offer identifer, country.
-  syntax:
-    content: public abstract Offer get()
-    return:
-      type: com.microsoft.store.partnercenter.models.offers.Offer
-      description: The requested offer for the given country and identifier.
-- uid: com.microsoft.store.partnercenter.offers.IOffer.getAddOns()
-  id: getAddOns()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.offers.IOffer
-  langs:
-  - java
-  name: getAddOns()
-  nameWithType: IOffer.getAddOns()
-  fullName: com.microsoft.store.partnercenter.offers.IOffer.getAddOns()
-  overload: com.microsoft.store.partnercenter.offers.IOffer.getAddOns*
-  type: Method
-  package: com.microsoft.store.partnercenter.offers
-  summary: Gets the operations for the current offer's add-ons.
-  syntax:
-    content: public abstract IOfferAddOns getAddOns()
-    return:
-      type: com.microsoft.store.partnercenter.offers.IOfferAddOns
-      description: The operations for the current offer's add-ons
-references:
-- uid: com.microsoft.store.partnercenter.offers.IOfferAddOns
-  name: IOfferAddOns
-  nameWithType: IOfferAddOns
-  fullName: com.microsoft.store.partnercenter.offers.IOfferAddOns
-- uid: com.microsoft.store.partnercenter.offers.IOffer.getAddOns*
-  name: getAddOns
-  nameWithType: IOffer.getAddOns
-  fullName: com.microsoft.store.partnercenter.offers.IOffer.getAddOns
-  package: com.microsoft.store.partnercenter.offers
-- uid: com.microsoft.store.partnercenter.models.offers.Offer
-  name: Offer
-  nameWithType: Offer
-  fullName: com.microsoft.store.partnercenter.models.offers.Offer
-- uid: com.microsoft.store.partnercenter.offers.IOffer.get*
-  name: get
-  nameWithType: IOffer.get
-  fullName: com.microsoft.store.partnercenter.offers.IOffer.get
-  package: com.microsoft.store.partnercenter.offers
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.offers.IOffer
+fullName: com.microsoft.store.partnercenter.offers.IOffer
+name: IOffer
+nameWithType: IOffer
+summary: Holds operations that can be performed on a single offer.
+syntax: public interface IOffer extends IPartnerComponent<Tuple<String,String>>
+methods:
+- com.microsoft.store.partnercenter.offers.IOffer.get()
+- com.microsoft.store.partnercenter.offers.IOffer.getAddOns()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.offers
+artifact: com.microsoft.store:partnercenter:1.15.3

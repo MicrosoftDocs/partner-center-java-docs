@@ -1,124 +1,17 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
-  id: ICustomerSubscribedSkuCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscribedskus
-  children:
-  - com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get()
-  - com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get(java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>)
-  langs:
-  - java
-  name: ICustomerSubscribedSkuCollection
-  nameWithType: ICustomerSubscribedSkuCollection
-  fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.subscribedskus
-  summary: Represents the behavior of the customers users
-  syntax:
-    content: public interface ICustomerSubscribedSkuCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<SubscribedSku,ResourceCollection<SubscribedSku>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.licenses.SubscribedSku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.SubscribedSku>>
-- uid: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
-  langs:
-  - java
-  name: get()
-  nameWithType: ICustomerSubscribedSkuCollection.get()
-  fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get()
-  overload: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscribedskus
-  summary: Retrieves all the customer subscribed products.
-  syntax:
-    content: public abstract ResourceCollection<SubscribedSku> get()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.SubscribedSku>
-      description: All the customer subscribed products.
-- uid: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get(java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>)
-  id: get(java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
-  langs:
-  - java
-  name: get(List<LicenseGroupId> licenseGroupIds)
-  nameWithType: ICustomerSubscribedSkuCollection.get(List<LicenseGroupId> licenseGroupIds)
-  fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get(List<LicenseGroupId> licenseGroupIds)
-  overload: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscribedskus
-  summary: Retrieves all the customer subscribed products.
-  syntax:
-    content: public abstract ResourceCollection<SubscribedSku> get(List<LicenseGroupId> licenseGroupIds)
-    parameters:
-    - id: licenseGroupIds
-      type: java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>
-      description: group identifiers.
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.SubscribedSku>
-      description: All the customer subscribed products.
-references:
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.SubscribedSku>
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
-    name: SubscribedSku
-    fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get*
-  name: get
-  nameWithType: ICustomerSubscribedSkuCollection.get
-  fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get
-  package: com.microsoft.store.partnercenter.subscribedskus
-- uid: java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>
-  spec.java:
-  - uid: java.util.List
-    name: List
-    fullName: java.util.List
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
-    name: LicenseGroupId
-    fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.licenses.SubscribedSku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.SubscribedSku>>
-  name: IEntireEntityCollectionRetrievalOperations<SubscribedSku,ResourceCollection<SubscribedSku>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<SubscribedSku,ResourceCollection<SubscribedSku>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.licenses.SubscribedSku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.SubscribedSku>>
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
-  name: SubscribedSku
-  nameWithType: SubscribedSku
-  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
-- uid: java.util.List
-  name: List
-  nameWithType: List
-  fullName: java.util.List
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
-  name: LicenseGroupId
-  nameWithType: LicenseGroupId
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: SubscribedSku,ResourceCollection
-  nameWithType: SubscribedSku,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku,com.microsoft.store.partnercenter.models.ResourceCollection
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
+name: ICustomerSubscribedSkuCollection
+nameWithType: ICustomerSubscribedSkuCollection
+summary: Represents the behavior of the customers users
+syntax: public interface ICustomerSubscribedSkuCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<SubscribedSku,ResourceCollection<SubscribedSku>>
+methods:
+- com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get()
+- com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get(java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.licenses.SubscribedSku?alt=com.microsoft.store.partnercenter.models.licenses.SubscribedSku&text=SubscribedSku" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.licenses.SubscribedSku?alt=com.microsoft.store.partnercenter.models.licenses.SubscribedSku&text=SubscribedSku" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.subscribedskus
+artifact: com.microsoft.store:partnercenter:1.15.3

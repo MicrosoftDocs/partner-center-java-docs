@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+uid: com.microsoft.store.partnercenter.invoices.InvoiceCollection.get*
+fullName: com.microsoft.store.partnercenter.invoices.InvoiceCollection.get()
+name: get()
+nameWithType: InvoiceCollection.get()
+members:
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceCollection.get()
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceCollection.get()
+  name: get()
+  nameWithType: InvoiceCollection.get()
+  summary: Gets all invoices associated to the partner.
+  syntax: public SeekBasedResourceCollection<Invoice> get()
+  returns:
+    description: The collection of invoices.
+    type: <xref href="com.microsoft.store.partnercenter.models.SeekBasedResourceCollection?alt=com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&text=SeekBasedResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.invoices.Invoice?alt=com.microsoft.store.partnercenter.models.invoices.Invoice&text=Invoice" data-throw-if-not-resolved="False" />&gt;
+- uid: com.microsoft.store.partnercenter.invoices.InvoiceCollection.get(int,int)
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceCollection.get(int offset, int size)
+  name: get(int offset, int size)
+  nameWithType: InvoiceCollection.get(int offset, int size)
+  summary: Gets all invoices associated to the partner.
+  parameters:
+  - description: The page offset.
+    name: offset
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: The maximum number of invoices to return.
+    name: size
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public SeekBasedResourceCollection<Invoice> get(int offset, int size)
+  returns:
+    description: The subset of invoices.
+    type: <xref href="com.microsoft.store.partnercenter.models.SeekBasedResourceCollection?alt=com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&text=SeekBasedResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.invoices.Invoice?alt=com.microsoft.store.partnercenter.models.invoices.Invoice&text=Invoice" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.microsoft.store.partnercenter.invoices
+artifact: com.microsoft.store:partnercenter:1.15.3

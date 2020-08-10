@@ -1,167 +1,33 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-  id: PartnerServiceRetryStrategy
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.network
-  children:
-  - com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int)
-  - com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,okhttp3.Response)
-  langs:
-  - java
-  name: PartnerServiceRetryStrategy
-  nameWithType: PartnerServiceRetryStrategy
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-  type: Class
-  package: com.microsoft.store.partnercenter.network
-  summary: Represents a retry strategy that determines the number of retry attempts and the interval between retries.
-  syntax:
-    content: public class PartnerServiceRetryStrategy extends RetryStrategy
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.rest.retry.RetryStrategy
-  inheritedMembers:
-  - com.microsoft.rest.retry.RetryStrategy.isFastFirstRetry()
-  - com.microsoft.rest.retry.RetryStrategy.name()
-  - com.microsoft.rest.retry.RetryStrategy.shouldRetry(int,okhttp3.Response)
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int)
-  id: PartnerServiceRetryStrategy(int)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-  langs:
-  - java
-  name: PartnerServiceRetryStrategy(int maxRetryAttempts)
-  nameWithType: PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int maxRetryAttempts)
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int maxRetryAttempts)
-  overload: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.network
-  summary: Initializes a new instance of the <xref uid="com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy" data-throw-if-not-resolved="false">PartnerServiceRetryStrategy</xref> class.
-  syntax:
-    content: public PartnerServiceRetryStrategy(int maxRetryAttempts)
-    parameters:
-    - id: maxRetryAttempts
-      type: int
-      description: The maximum number of retry attempts.
-- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,okhttp3.Response)
-  id: shouldRetry(int,okhttp3.Response)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-  langs:
-  - java
-  name: shouldRetry(int retryCount, Response response)
-  nameWithType: PartnerServiceRetryStrategy.shouldRetry(int retryCount, Response response)
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int retryCount, Response response)
-  overload: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry*
-  type: Method
-  package: com.microsoft.store.partnercenter.network
-  summary: Returns if a request should be retried based on the retry count, current response, and the current strategy.
-  syntax:
-    content: public boolean shouldRetry(int retryCount, Response response)
-    parameters:
-    - id: retryCount
-      type: int
-      description: The current retry attempt count.
-    - id: response
-      type: okhttp3.Response
-      description: The exception that caused the retry conditions to occur.
-    return:
-      type: boolean
-      description: true if the request should be retried; false otherwise.
-references:
-- uid: int
-  spec.java:
-  - uid: int
-    name: int
-    fullName: int
-- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy*
-  name: PartnerServiceRetryStrategy
-  nameWithType: PartnerServiceRetryStrategy.PartnerServiceRetryStrategy
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy
-  package: com.microsoft.store.partnercenter.network
-- uid: okhttp3.Response
-  spec.java:
-  - uid: okhttp3.Response
-    name: Response
-    fullName: okhttp3.Response
-- uid: boolean
-  spec.java:
-  - uid: boolean
-    name: boolean
-    fullName: boolean
-- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry*
-  name: shouldRetry
-  nameWithType: PartnerServiceRetryStrategy.shouldRetry
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry
-  package: com.microsoft.store.partnercenter.network
-- uid: com.microsoft.rest.retry.RetryStrategy
-  name: RetryStrategy
-  nameWithType: RetryStrategy
-  fullName: com.microsoft.rest.retry.RetryStrategy
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: com.microsoft.rest.retry.RetryStrategy.isFastFirstRetry()
-  name: RetryStrategy.isFastFirstRetry()
-  nameWithType: RetryStrategy.isFastFirstRetry()
-  fullName: com.microsoft.rest.retry.RetryStrategy.isFastFirstRetry()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: com.microsoft.rest.retry.RetryStrategy.name()
-  name: RetryStrategy.name()
-  nameWithType: RetryStrategy.name()
-  fullName: com.microsoft.rest.retry.RetryStrategy.name()
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.rest.retry.RetryStrategy.shouldRetry(int,okhttp3.Response)
-  name: RetryStrategy.shouldRetry(int,Response)
-  nameWithType: RetryStrategy.shouldRetry(int,Response)
-  fullName: com.microsoft.rest.retry.RetryStrategy.shouldRetry(int,okhttp3.Response)
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
+fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
+name: PartnerServiceRetryStrategy
+nameWithType: PartnerServiceRetryStrategy
+summary: Represents a retry strategy that determines the number of retry attempts and the interval between retries.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.rest.retry.RetryStrategy?alt=com.microsoft.rest.retry.RetryStrategy&text=RetryStrategy" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.rest.retry.RetryStrategy.isFastFirstRetry()
+- com.microsoft.rest.retry.RetryStrategy.name()
+- com.microsoft.rest.retry.RetryStrategy.shouldRetry(int,okhttp3.Response)
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class PartnerServiceRetryStrategy extends RetryStrategy
+constructors:
+- com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int)
+methods:
+- com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,okhttp3.Response)
+type: class
+metadata: {}
+package: com.microsoft.store.partnercenter.network
+artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,75 +1,21 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter
-  id: partnercenter
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  children:
-  - com.microsoft.store.partnercenter.AggregatePartnerOperations
-  - com.microsoft.store.partnercenter.AuthenticationToken
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  - com.microsoft.store.partnercenter.BasePartnerComponentString
-  - com.microsoft.store.partnercenter.IAadLoginHandler
-  - com.microsoft.store.partnercenter.IAggregatePartner
-  - com.microsoft.store.partnercenter.IPartner
-  - com.microsoft.store.partnercenter.IPartnerComponent
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.IPartnerCredentials
-  - com.microsoft.store.partnercenter.PartnerOperations
-  - com.microsoft.store.partnercenter.PartnerService
-  langs:
-  - java
-  name: com.microsoft.store.partnercenter
-  nameWithType: com.microsoft.store.partnercenter
-  fullName: com.microsoft.store.partnercenter
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter
-references:
-- uid: com.microsoft.store.partnercenter.AggregatePartnerOperations
-  name: AggregatePartnerOperations
-  nameWithType: AggregatePartnerOperations
-  fullName: com.microsoft.store.partnercenter.AggregatePartnerOperations
-- uid: com.microsoft.store.partnercenter.AuthenticationToken
-  name: AuthenticationToken
-  nameWithType: AuthenticationToken
-  fullName: com.microsoft.store.partnercenter.AuthenticationToken
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent
-  name: BasePartnerComponent<TContext>
-  nameWithType: BasePartnerComponent<TContext>
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>
-- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
-  name: BasePartnerComponentString
-  nameWithType: BasePartnerComponentString
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
-- uid: com.microsoft.store.partnercenter.IAadLoginHandler
-  name: IAadLoginHandler
-  nameWithType: IAadLoginHandler
-  fullName: com.microsoft.store.partnercenter.IAadLoginHandler
-- uid: com.microsoft.store.partnercenter.IAggregatePartner
-  name: IAggregatePartner
-  nameWithType: IAggregatePartner
-  fullName: com.microsoft.store.partnercenter.IAggregatePartner
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent<TContext>
-  nameWithType: IPartnerComponent<TContext>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.IPartnerCredentials
-  name: IPartnerCredentials
-  nameWithType: IPartnerCredentials
-  fullName: com.microsoft.store.partnercenter.IPartnerCredentials
-- uid: com.microsoft.store.partnercenter.PartnerOperations
-  name: PartnerOperations
-  nameWithType: PartnerOperations
-  fullName: com.microsoft.store.partnercenter.PartnerOperations
-- uid: com.microsoft.store.partnercenter.PartnerService
-  name: PartnerService
-  nameWithType: PartnerService
-  fullName: com.microsoft.store.partnercenter.PartnerService
+### YamlMime:JavaPackage
+uid: com.microsoft.store.partnercenter
+fullName: com.microsoft.store.partnercenter
+name: com.microsoft.store.partnercenter
+classes:
+- com.microsoft.store.partnercenter.AggregatePartnerOperations
+- com.microsoft.store.partnercenter.AuthenticationToken
+- com.microsoft.store.partnercenter.BasePartnerComponent
+- com.microsoft.store.partnercenter.BasePartnerComponentString
+- com.microsoft.store.partnercenter.PartnerOperations
+- com.microsoft.store.partnercenter.PartnerService
+interfaces:
+- com.microsoft.store.partnercenter.IAadLoginHandler
+- com.microsoft.store.partnercenter.IAggregatePartner
+- com.microsoft.store.partnercenter.IPartner
+- com.microsoft.store.partnercenter.IPartnerComponent
+- com.microsoft.store.partnercenter.IPartnerComponentString
+- com.microsoft.store.partnercenter.IPartnerCredentials
+metadata: {}
+package: com.microsoft.store.partnercenter
+artifact: com.microsoft.store:partnercenter:1.15.3

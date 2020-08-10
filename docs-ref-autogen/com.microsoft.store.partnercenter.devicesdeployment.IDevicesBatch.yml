@@ -1,64 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
-  id: IDevicesBatch
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment
-  children:
-  - com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch.getDevices()
-  langs:
-  - java
-  name: IDevicesBatch
-  nameWithType: IDevicesBatch
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
-  type: Interface
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Represents the operations that can be done on the partner's devices batches.
-  syntax:
-    content: public interface IDevicesBatch extends IPartnerComponent<Tuple<String,String>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch.getDevices()
-  id: getDevices()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
-  langs:
-  - java
-  name: getDevices()
-  nameWithType: IDevicesBatch.getDevices()
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch.getDevices()
-  overload: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch.getDevices*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Obtains the devices behavior of the devices batch.
-  syntax:
-    content: public abstract IDeviceCollection getDevices()
-    return:
-      type: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
-      description: The devices behavior of the devices batch.
-references:
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
-  name: IDeviceCollection
-  nameWithType: IDeviceCollection
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch.getDevices*
-  name: getDevices
-  nameWithType: IDevicesBatch.getDevices
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch.getDevices
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
+fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
+name: IDevicesBatch
+nameWithType: IDevicesBatch
+summary: Represents the operations that can be done on the partner's devices batches.
+syntax: public interface IDevicesBatch extends IPartnerComponent<Tuple<String,String>>
+methods:
+- com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch.getDevices()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.devicesdeployment
+artifact: com.microsoft.store:partnercenter:1.15.3

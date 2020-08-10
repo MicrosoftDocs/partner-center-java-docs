@@ -1,52 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
-  id: IPartnerAnalyticsCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.analytics
-  children:
-  - com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection.getLicenses()
-  langs:
-  - java
-  name: IPartnerAnalyticsCollection
-  nameWithType: IPartnerAnalyticsCollection
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.analytics
-  summary: Encapsulates collection of partner's analytics.
-  syntax:
-    content: public interface IPartnerAnalyticsCollection extends IPartnerComponentString
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection.getLicenses()
-  id: getLicenses()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
-  langs:
-  - java
-  name: getLicenses()
-  nameWithType: IPartnerAnalyticsCollection.getLicenses()
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection.getLicenses()
-  overload: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection.getLicenses*
-  type: Method
-  package: com.microsoft.store.partnercenter.analytics
-  summary: Gets the partner's licenses analytics collection.
-  syntax:
-    content: public abstract IPartnerLicensesAnalyticsCollection getLicenses()
-    return:
-      type: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
-      description: The partner's licenses analytics collection.
-references:
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
-  name: IPartnerLicensesAnalyticsCollection
-  nameWithType: IPartnerLicensesAnalyticsCollection
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection.getLicenses*
-  name: getLicenses
-  nameWithType: IPartnerAnalyticsCollection.getLicenses
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection.getLicenses
-  package: com.microsoft.store.partnercenter.analytics
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
+fullName: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
+name: IPartnerAnalyticsCollection
+nameWithType: IPartnerAnalyticsCollection
+summary: Encapsulates collection of partner's analytics.
+syntax: public interface IPartnerAnalyticsCollection extends IPartnerComponentString
+methods:
+- com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection.getLicenses()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.analytics
+artifact: com.microsoft.store:partnercenter:1.15.3

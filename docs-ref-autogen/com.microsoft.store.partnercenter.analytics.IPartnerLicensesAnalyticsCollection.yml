@@ -1,80 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
-  id: IPartnerLicensesAnalyticsCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.analytics
-  children:
-  - com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getDeployment()
-  - com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getUsage()
-  langs:
-  - java
-  name: IPartnerLicensesAnalyticsCollection
-  nameWithType: IPartnerLicensesAnalyticsCollection
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.analytics
-  summary: Encapsulates collection of partner level licenses' analytics.
-  syntax:
-    content: public interface IPartnerLicensesAnalyticsCollection extends IPartnerComponentString
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getDeployment()
-  id: getDeployment()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
-  langs:
-  - java
-  name: getDeployment()
-  nameWithType: IPartnerLicensesAnalyticsCollection.getDeployment()
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getDeployment()
-  overload: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getDeployment*
-  type: Method
-  package: com.microsoft.store.partnercenter.analytics
-  summary: Gets the partner's licenses' deployment analytics.
-  syntax:
-    content: public abstract IPartnerLicensesDeploymentInsightsCollection getDeployment()
-    return:
-      type: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection
-      description: The partner's licenses' deployment analytics.
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getUsage()
-  id: getUsage()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
-  langs:
-  - java
-  name: getUsage()
-  nameWithType: IPartnerLicensesAnalyticsCollection.getUsage()
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getUsage()
-  overload: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getUsage*
-  type: Method
-  package: com.microsoft.store.partnercenter.analytics
-  summary: Gets the partner's licenses' usage analytics.
-  syntax:
-    content: public abstract IPartnerLicensesUsageInsightsCollection getUsage()
-    return:
-      type: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
-      description: The partner's licenses' usage analytics.
-references:
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection
-  name: IPartnerLicensesDeploymentInsightsCollection
-  nameWithType: IPartnerLicensesDeploymentInsightsCollection
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getDeployment*
-  name: getDeployment
-  nameWithType: IPartnerLicensesAnalyticsCollection.getDeployment
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getDeployment
-  package: com.microsoft.store.partnercenter.analytics
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
-  name: IPartnerLicensesUsageInsightsCollection
-  nameWithType: IPartnerLicensesUsageInsightsCollection
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getUsage*
-  name: getUsage
-  nameWithType: IPartnerLicensesAnalyticsCollection.getUsage
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getUsage
-  package: com.microsoft.store.partnercenter.analytics
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
+fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection
+name: IPartnerLicensesAnalyticsCollection
+nameWithType: IPartnerLicensesAnalyticsCollection
+summary: Encapsulates collection of partner level licenses' analytics.
+syntax: public interface IPartnerLicensesAnalyticsCollection extends IPartnerComponentString
+methods:
+- com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getDeployment()
+- com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getUsage()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.analytics
+artifact: com.microsoft.store:partnercenter:1.15.3

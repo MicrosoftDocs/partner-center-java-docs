@@ -1,313 +1,36 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
-  id: ServiceIncidents
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.serviceincidents
-  children:
-  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.ServiceIncidents()
-  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getIncidents()
-  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getMessageCenterMessages()
-  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getStatus()
-  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getWorkload()
-  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setIncidents(java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>)
-  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setMessageCenterMessages(java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>)
-  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setStatus(com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus)
-  - com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setWorkload(java.lang.String)
-  langs:
-  - java
-  name: ServiceIncidents
-  nameWithType: ServiceIncidents
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
-  type: Class
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-  summary: Represents a service incident.
-  syntax:
-    content: public class ServiceIncidents
-  inheritance:
-  - java.lang.Object
-  inheritedMembers:
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.ServiceIncidents()
-  id: ServiceIncidents()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
-  langs:
-  - java
-  name: ServiceIncidents()
-  nameWithType: ServiceIncidents.ServiceIncidents()
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.ServiceIncidents()
-  overload: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.ServiceIncidents*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-  syntax:
-    content: public ServiceIncidents()
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getIncidents()
-  id: getIncidents()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
-  langs:
-  - java
-  name: getIncidents()
-  nameWithType: ServiceIncidents.getIncidents()
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getIncidents()
-  overload: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getIncidents*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-  syntax:
-    content: public Iterable<ServiceIncidentDetail> getIncidents()
-    return:
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>
-      description: the __Incidents
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getMessageCenterMessages()
-  id: getMessageCenterMessages()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
-  langs:
-  - java
-  name: getMessageCenterMessages()
-  nameWithType: ServiceIncidents.getMessageCenterMessages()
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getMessageCenterMessages()
-  overload: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getMessageCenterMessages*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-  syntax:
-    content: public Iterable<ServiceIncidentDetail> getMessageCenterMessages()
-    return:
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>
-      description: the __MessageCenterMessages
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getStatus()
-  id: getStatus()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
-  langs:
-  - java
-  name: getStatus()
-  nameWithType: ServiceIncidents.getStatus()
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getStatus()
-  overload: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getStatus*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-  syntax:
-    content: public ServiceIncidentStatus getStatus()
-    return:
-      type: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus
-      description: the __Status
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getWorkload()
-  id: getWorkload()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
-  langs:
-  - java
-  name: getWorkload()
-  nameWithType: ServiceIncidents.getWorkload()
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getWorkload()
-  overload: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getWorkload*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-  syntax:
-    content: public String getWorkload()
-    return:
-      type: java.lang.String
-      description: the __Workload
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setIncidents(java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>)
-  id: setIncidents(java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
-  langs:
-  - java
-  name: setIncidents(Iterable<ServiceIncidentDetail> __Incidents)
-  nameWithType: ServiceIncidents.setIncidents(Iterable<ServiceIncidentDetail> __Incidents)
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setIncidents(Iterable<ServiceIncidentDetail> __Incidents)
-  overload: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setIncidents*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-  syntax:
-    content: public void setIncidents(Iterable<ServiceIncidentDetail> __Incidents)
-    parameters:
-    - id: __Incidents
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>
-      description: the __Incidents to set
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setMessageCenterMessages(java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>)
-  id: setMessageCenterMessages(java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
-  langs:
-  - java
-  name: setMessageCenterMessages(Iterable<ServiceIncidentDetail> __MessageCenterMessages)
-  nameWithType: ServiceIncidents.setMessageCenterMessages(Iterable<ServiceIncidentDetail> __MessageCenterMessages)
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setMessageCenterMessages(Iterable<ServiceIncidentDetail> __MessageCenterMessages)
-  overload: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setMessageCenterMessages*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-  syntax:
-    content: public void setMessageCenterMessages(Iterable<ServiceIncidentDetail> __MessageCenterMessages)
-    parameters:
-    - id: __MessageCenterMessages
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>
-      description: the __MessageCenterMessages to set
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setStatus(com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus)
-  id: setStatus(com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
-  langs:
-  - java
-  name: setStatus(ServiceIncidentStatus __Status)
-  nameWithType: ServiceIncidents.setStatus(ServiceIncidentStatus __Status)
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setStatus(ServiceIncidentStatus __Status)
-  overload: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setStatus*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-  syntax:
-    content: public void setStatus(ServiceIncidentStatus __Status)
-    parameters:
-    - id: __Status
-      type: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus
-      description: the __Status to set
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setWorkload(java.lang.String)
-  id: setWorkload(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
-  langs:
-  - java
-  name: setWorkload(String __Workload)
-  nameWithType: ServiceIncidents.setWorkload(String __Workload)
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setWorkload(String __Workload)
-  overload: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setWorkload*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-  syntax:
-    content: public void setWorkload(String __Workload)
-    parameters:
-    - id: __Workload
-      type: java.lang.String
-      description: the __Workload to set
-references:
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.ServiceIncidents*
-  name: ServiceIncidents
-  nameWithType: ServiceIncidents.ServiceIncidents
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.ServiceIncidents
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getWorkload*
-  name: getWorkload
-  nameWithType: ServiceIncidents.getWorkload
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getWorkload
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setWorkload*
-  name: setWorkload
-  nameWithType: ServiceIncidents.setWorkload
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setWorkload
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-- uid: java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>
-  spec.java:
-  - uid: java.lang.Iterable
-    name: Iterable
-    fullName: java.lang.Iterable
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail
-    name: ServiceIncidentDetail
-    fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getIncidents*
-  name: getIncidents
-  nameWithType: ServiceIncidents.getIncidents
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getIncidents
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setIncidents*
-  name: setIncidents
-  nameWithType: ServiceIncidents.setIncidents
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setIncidents
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus
-  name: ServiceIncidentStatus
-  nameWithType: ServiceIncidentStatus
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getStatus*
-  name: getStatus
-  nameWithType: ServiceIncidents.getStatus
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getStatus
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setStatus*
-  name: setStatus
-  nameWithType: ServiceIncidents.setStatus
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setStatus
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getMessageCenterMessages*
-  name: getMessageCenterMessages
-  nameWithType: ServiceIncidents.getMessageCenterMessages
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getMessageCenterMessages
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setMessageCenterMessages*
-  name: setMessageCenterMessages
-  nameWithType: ServiceIncidents.setMessageCenterMessages
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setMessageCenterMessages
-  package: com.microsoft.store.partnercenter.models.serviceincidents
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail
-  name: ServiceIncidentDetail
-  nameWithType: ServiceIncidentDetail
-  fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail
-- uid: java.lang.Iterable
-  name: Iterable
-  nameWithType: Iterable
-  fullName: java.lang.Iterable
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
+fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
+name: ServiceIncidents
+nameWithType: ServiceIncidents
+summary: Represents a service incident.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class ServiceIncidents
+constructors:
+- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.ServiceIncidents()
+methods:
+- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getIncidents()
+- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getMessageCenterMessages()
+- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getStatus()
+- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.getWorkload()
+- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setIncidents(java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>)
+- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setMessageCenterMessages(java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>)
+- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setStatus(com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus)
+- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setWorkload(java.lang.String)
+type: class
+metadata: {}
+package: com.microsoft.store.partnercenter.models.serviceincidents
+artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,140 +1,20 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
-  id: IConfigurationPolicy
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment
-  children:
-  - com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete()
-  - com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.get()
-  - com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.patch(com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy)
-  langs:
-  - java
-  name: IConfigurationPolicy
-  nameWithType: IConfigurationPolicy
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
-  type: Interface
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Represents all the operations that can be done on a configuration policy.
-  syntax:
-    content: public interface IConfigurationPolicy extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<ConfigurationPolicy>, IEntityPatchOperations<ConfigurationPolicy>, IEntityDeleteOperations<ConfigurationPolicy>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete()
-  id: delete()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
-  langs:
-  - java
-  name: delete()
-  nameWithType: IConfigurationPolicy.delete()
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete()
-  overload: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Deletes the configuration policy.
-  syntax:
-    content: public abstract void delete()
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
-  langs:
-  - java
-  name: get()
-  nameWithType: IConfigurationPolicy.get()
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.get()
-  overload: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Retrieves the configuration policy.
-  syntax:
-    content: public abstract ConfigurationPolicy get()
-    return:
-      type: com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy
-      description: The configuration policy.
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.patch(com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy)
-  id: patch(com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
-  langs:
-  - java
-  name: patch(ConfigurationPolicy policy)
-  nameWithType: IConfigurationPolicy.patch(ConfigurationPolicy policy)
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.patch(ConfigurationPolicy policy)
-  overload: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.patch*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Patches the configuration policy.
-  syntax:
-    content: public abstract ConfigurationPolicy patch(ConfigurationPolicy policy)
-    parameters:
-    - id: policy
-      type: com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy
-      description: The policy to be updated.
-    return:
-      type: com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy
-      description: The updated configuration policy.
-references:
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy
-  name: ConfigurationPolicy
-  nameWithType: ConfigurationPolicy
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.get*
-  name: get
-  nameWithType: IConfigurationPolicy.get
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.get
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.patch*
-  name: patch
-  nameWithType: IConfigurationPolicy.patch
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.patch
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete*
-  name: delete
-  nameWithType: IConfigurationPolicy.delete
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>
-  name: IEntityDeleteOperations<ConfigurationPolicy>
-  nameWithType: IEntityDeleteOperations<ConfigurationPolicy>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>
-  name: IEntityPatchOperations<ConfigurationPolicy>
-  nameWithType: IEntityPatchOperations<ConfigurationPolicy>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>
-  name: IEntityGetOperations<ConfigurationPolicy>
-  nameWithType: IEntityGetOperations<ConfigurationPolicy>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
-  name: IEntityDeleteOperations
-  nameWithType: IEntityDeleteOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
-  name: IEntityPatchOperations
-  nameWithType: IEntityPatchOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
+fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
+name: IConfigurationPolicy
+nameWithType: IConfigurationPolicy
+summary: Represents all the operations that can be done on a configuration policy.
+syntax: public interface IConfigurationPolicy extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<ConfigurationPolicy>, IEntityPatchOperations<ConfigurationPolicy>, IEntityDeleteOperations<ConfigurationPolicy>
+methods:
+- com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete()
+- com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.get()
+- com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.patch(com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations&text=IEntityDeleteOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy?alt=com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy&text=ConfigurationPolicy" data-throw-if-not-resolved="False" />&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy?alt=com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy&text=ConfigurationPolicy" data-throw-if-not-resolved="False" />&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&text=IEntityPatchOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy?alt=com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy&text=ConfigurationPolicy" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.devicesdeployment
+artifact: com.microsoft.store:partnercenter:1.15.3

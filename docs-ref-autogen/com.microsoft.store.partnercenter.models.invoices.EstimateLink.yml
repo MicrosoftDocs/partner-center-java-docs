@@ -1,301 +1,36 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  id: EstimateLink
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices
-  children:
-  - com.microsoft.store.partnercenter.models.invoices.EstimateLink.EstimateLink()
-  - com.microsoft.store.partnercenter.models.invoices.EstimateLink.getDescription()
-  - com.microsoft.store.partnercenter.models.invoices.EstimateLink.getLink()
-  - com.microsoft.store.partnercenter.models.invoices.EstimateLink.getPeriod()
-  - com.microsoft.store.partnercenter.models.invoices.EstimateLink.getTitle()
-  - com.microsoft.store.partnercenter.models.invoices.EstimateLink.setDescription(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.EstimateLink.setLink(com.microsoft.store.partnercenter.models.Link)
-  - com.microsoft.store.partnercenter.models.invoices.EstimateLink.setPeriod(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.EstimateLink.setTitle(java.lang.String)
-  langs:
-  - java
-  name: EstimateLink
-  nameWithType: EstimateLink
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  type: Class
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Represents a URI and the HTTP method which indicates the desired action for accessing the resource.
-  syntax:
-    content: public class EstimateLink
-  inheritance:
-  - java.lang.Object
-  inheritedMembers:
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.EstimateLink()
-  id: EstimateLink()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  langs:
-  - java
-  name: EstimateLink()
-  nameWithType: EstimateLink.EstimateLink()
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.EstimateLink()
-  overload: com.microsoft.store.partnercenter.models.invoices.EstimateLink.EstimateLink*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public EstimateLink()
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getDescription()
-  id: getDescription()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  langs:
-  - java
-  name: getDescription()
-  nameWithType: EstimateLink.getDescription()
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getDescription()
-  overload: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getDescription*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Gets the description for the link.
-  syntax:
-    content: public String getDescription()
-    return:
-      type: java.lang.String
-      description: The description for the link.
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getLink()
-  id: getLink()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  langs:
-  - java
-  name: getLink()
-  nameWithType: EstimateLink.getLink()
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getLink()
-  overload: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getLink*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Gets URI and HTTP method used for accessing the resource.
-  syntax:
-    content: public Link getLink()
-    return:
-      type: com.microsoft.store.partnercenter.models.Link
-      description: The URI and HTTP method used for accessing the resource.
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getPeriod()
-  id: getPeriod()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  langs:
-  - java
-  name: getPeriod()
-  nameWithType: EstimateLink.getPeriod()
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getPeriod()
-  overload: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getPeriod*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Gets the period associated with the estimate.
-  syntax:
-    content: public String getPeriod()
-    return:
-      type: java.lang.String
-      description: The period associated with the estimate.
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getTitle()
-  id: getTitle()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  langs:
-  - java
-  name: getTitle()
-  nameWithType: EstimateLink.getTitle()
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getTitle()
-  overload: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getTitle*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Gets the title associated with the estimate.
-  syntax:
-    content: public String getTitle()
-    return:
-      type: java.lang.String
-      description: The title associated with the estimate.
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setDescription(java.lang.String)
-  id: setDescription(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  langs:
-  - java
-  name: setDescription(String value)
-  nameWithType: EstimateLink.setDescription(String value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setDescription(String value)
-  overload: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setDescription*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Sets the description for the link.
-  syntax:
-    content: public void setDescription(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-      description: The description for the link.
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setLink(com.microsoft.store.partnercenter.models.Link)
-  id: setLink(com.microsoft.store.partnercenter.models.Link)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  langs:
-  - java
-  name: setLink(Link value)
-  nameWithType: EstimateLink.setLink(Link value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setLink(Link value)
-  overload: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setLink*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Sets the URI and HTTP method used for accessing the resource.
-  syntax:
-    content: public void setLink(Link value)
-    parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.Link
-      description: The URI and HTTP method used for accessing the resource.
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setPeriod(java.lang.String)
-  id: setPeriod(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  langs:
-  - java
-  name: setPeriod(String value)
-  nameWithType: EstimateLink.setPeriod(String value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setPeriod(String value)
-  overload: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setPeriod*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Sets the period associated with the estimate.
-  syntax:
-    content: public void setPeriod(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-      description: The period associated with the estimate.
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setTitle(java.lang.String)
-  id: setTitle(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  langs:
-  - java
-  name: setTitle(String value)
-  nameWithType: EstimateLink.setTitle(String value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setTitle(String value)
-  overload: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setTitle*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Sets title associated with the estimate.
-  syntax:
-    content: public void setTitle(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-      description: The title associated with the estimate.
-references:
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.EstimateLink*
-  name: EstimateLink
-  nameWithType: EstimateLink.EstimateLink
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.EstimateLink
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getDescription*
-  name: getDescription
-  nameWithType: EstimateLink.getDescription
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getDescription
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setDescription*
-  name: setDescription
-  nameWithType: EstimateLink.setDescription
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setDescription
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.Link
-  name: Link
-  nameWithType: Link
-  fullName: com.microsoft.store.partnercenter.models.Link
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getLink*
-  name: getLink
-  nameWithType: EstimateLink.getLink
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getLink
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setLink*
-  name: setLink
-  nameWithType: EstimateLink.setLink
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setLink
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getPeriod*
-  name: getPeriod
-  nameWithType: EstimateLink.getPeriod
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getPeriod
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setPeriod*
-  name: setPeriod
-  nameWithType: EstimateLink.setPeriod
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setPeriod
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getTitle*
-  name: getTitle
-  nameWithType: EstimateLink.getTitle
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.getTitle
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setTitle*
-  name: setTitle
-  nameWithType: EstimateLink.setTitle
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink.setTitle
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink
+fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink
+name: EstimateLink
+nameWithType: EstimateLink
+summary: Represents a URI and the HTTP method which indicates the desired action for accessing the resource.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class EstimateLink
+constructors:
+- com.microsoft.store.partnercenter.models.invoices.EstimateLink.EstimateLink()
+methods:
+- com.microsoft.store.partnercenter.models.invoices.EstimateLink.getDescription()
+- com.microsoft.store.partnercenter.models.invoices.EstimateLink.getLink()
+- com.microsoft.store.partnercenter.models.invoices.EstimateLink.getPeriod()
+- com.microsoft.store.partnercenter.models.invoices.EstimateLink.getTitle()
+- com.microsoft.store.partnercenter.models.invoices.EstimateLink.setDescription(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.EstimateLink.setLink(com.microsoft.store.partnercenter.models.Link)
+- com.microsoft.store.partnercenter.models.invoices.EstimateLink.setPeriod(java.lang.String)
+- com.microsoft.store.partnercenter.models.invoices.EstimateLink.setTitle(java.lang.String)
+type: class
+metadata: {}
+package: com.microsoft.store.partnercenter.models.invoices
+artifact: com.microsoft.store:partnercenter:1.15.3

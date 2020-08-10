@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+uid: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get*
+fullName: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get()
+name: get()
+nameWithType: ICategoryOffersCollection.get()
+members:
+- uid: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get()
+  fullName: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get()
+  name: get()
+  nameWithType: ICategoryOffersCollection.get()
+  summary: Retrieves all the offers in the given offer category.
+  syntax: public abstract ResourceCollection<Offer> get()
+  returns:
+    description: The offers in the given offer category.
+    type: <xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer" data-throw-if-not-resolved="False" />&gt;
+- uid: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get(int,int)
+  fullName: com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get(int offset, int size)
+  name: get(int offset, int size)
+  nameWithType: ICategoryOffersCollection.get(int offset, int size)
+  summary: Retrieves a subset of offers in the given offer category.
+  parameters:
+  - description: The starting index.
+    name: offset
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: The maximum number of offers to return.
+    name: size
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public abstract ResourceCollection<Offer> get(int offset, int size)
+  returns:
+    description: The requested segment of the offers in the given offer category.
+    type: <xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.microsoft.store.partnercenter.offers
+artifact: com.microsoft.store:partnercenter:1.15.3

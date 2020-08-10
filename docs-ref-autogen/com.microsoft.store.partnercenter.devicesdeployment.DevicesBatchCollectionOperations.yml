@@ -1,243 +1,37 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
-  id: DevicesBatchCollectionOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment
-  children:
-  - com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  - com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId(java.lang.String)
-  - com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create(com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest)
-  - com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get()
-  langs:
-  - java
-  name: DevicesBatchCollectionOperations
-  nameWithType: DevicesBatchCollectionOperations
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Implements operations that apply to devices batch collection.
-  syntax:
-    content: public class DevicesBatchCollectionOperations extends BasePartnerComponentString implements IDevicesBatchCollection
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  - com.microsoft.store.partnercenter.BasePartnerComponentString
-  implements:
-  - com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  id: DevicesBatchCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
-  langs:
-  - java
-  name: DevicesBatchCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  nameWithType: DevicesBatchCollectionOperations.DevicesBatchCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  overload: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Initializes a new instance of the DevicesBatchOperations class.
-  syntax:
-    content: public DevicesBatchCollectionOperations(IPartner rootPartnerOperations, String customerId)
-    parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The root partner operations instance.
-    - id: customerId
-      type: java.lang.String
-      description: Identifier for the customer.
-- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId(java.lang.String)
-  id: byId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
-  langs:
-  - java
-  name: byId(String deviceBatchId)
-  nameWithType: DevicesBatchCollectionOperations.byId(String deviceBatchId)
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId(String deviceBatchId)
-  overload: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Retrieves a specific customer devices batch behavior.
-  syntax:
-    content: public IDevicesBatch byId(String deviceBatchId)
-    parameters:
-    - id: deviceBatchId
-      type: java.lang.String
-      description: The devices batch identifier.
-    return:
-      type: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
-      description: The devices batch behavior.
-- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create(com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest)
-  id: create(com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
-  langs:
-  - java
-  name: create(DeviceBatchCreationRequest newDeviceBatch)
-  nameWithType: DevicesBatchCollectionOperations.create(DeviceBatchCreationRequest newDeviceBatch)
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create(DeviceBatchCreationRequest newDeviceBatch)
-  overload: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Creates a new devices batch along with the devices.
-  syntax:
-    content: public String create(DeviceBatchCreationRequest newDeviceBatch)
-    parameters:
-    - id: newDeviceBatch
-      type: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest
-      description: The new devices batch.
-    return:
-      type: java.lang.String
-      description: The location which indicates the URL of the API to query for status of the create request.
-- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
-  langs:
-  - java
-  name: get()
-  nameWithType: DevicesBatchCollectionOperations.get()
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get()
-  overload: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Retrieves all devices batches.
-  syntax:
-    content: public ResourceCollection<DeviceBatch> get()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>
-      description: All of the device batches.
-references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations*
-  name: DevicesBatchCollectionOperations
-  nameWithType: DevicesBatchCollectionOperations.DevicesBatchCollectionOperations
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
-  name: IDevicesBatch
-  nameWithType: IDevicesBatch
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
-- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId*
-  name: byId
-  nameWithType: DevicesBatchCollectionOperations.byId
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest
-  name: DeviceBatchCreationRequest
-  nameWithType: DeviceBatchCreationRequest
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest
-- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create*
-  name: create
-  nameWithType: DevicesBatchCollectionOperations.create
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
-    name: DeviceBatch
-    fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get*
-  name: get
-  nameWithType: DevicesBatchCollectionOperations.get
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
-  name: BasePartnerComponentString
-  nameWithType: BasePartnerComponentString
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
-  name: IDevicesBatchCollection
-  nameWithType: IDevicesBatchCollection
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
-  name: DeviceBatch
-  nameWithType: DeviceBatch
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
+fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations
+name: DevicesBatchCollectionOperations
+nameWithType: DevicesBatchCollectionOperations
+summary: Implements operations that apply to devices batch collection.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent?alt=com.microsoft.store.partnercenter.BasePartnerComponent&text=BasePartnerComponent" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponentString?alt=com.microsoft.store.partnercenter.BasePartnerComponentString&text=BasePartnerComponentString" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class DevicesBatchCollectionOperations extends BasePartnerComponentString implements IDevicesBatchCollection
+constructors:
+- com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+methods:
+- com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId(java.lang.String)
+- com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create(com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest)
+- com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get()
+type: class
+implements:
+- <xref href="com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection?alt=com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection&text=IDevicesBatchCollection" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.devicesdeployment
+artifact: com.microsoft.store:partnercenter:1.15.3

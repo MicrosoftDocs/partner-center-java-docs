@@ -1,57 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.domains.IDomain
-  id: IDomain
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.domains
-  children:
-  - com.microsoft.store.partnercenter.domains.IDomain.exists()
-  langs:
-  - java
-  name: IDomain
-  nameWithType: IDomain
-  fullName: com.microsoft.store.partnercenter.domains.IDomain
-  type: Interface
-  package: com.microsoft.store.partnercenter.domains
-  syntax:
-    content: public interface IDomain extends IPartnerComponentString, IEntityExistsOperations
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
-- uid: com.microsoft.store.partnercenter.domains.IDomain.exists()
-  id: exists()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.domains.IDomain
-  langs:
-  - java
-  name: exists()
-  nameWithType: IDomain.exists()
-  fullName: com.microsoft.store.partnercenter.domains.IDomain.exists()
-  overload: com.microsoft.store.partnercenter.domains.IDomain.exists*
-  type: Method
-  package: com.microsoft.store.partnercenter.domains
-  summary: Checks if the domain is available or not.
-  syntax:
-    content: public abstract boolean exists()
-    return:
-      type: boolean
-      description: true if the domain exists, false otherwise.
-references:
-- uid: boolean
-  spec.java:
-  - uid: boolean
-    name: boolean
-    fullName: boolean
-- uid: com.microsoft.store.partnercenter.domains.IDomain.exists*
-  name: exists
-  nameWithType: IDomain.exists
-  fullName: com.microsoft.store.partnercenter.domains.IDomain.exists
-  package: com.microsoft.store.partnercenter.domains
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
-  name: IEntityExistsOperations
-  nameWithType: IEntityExistsOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.domains.IDomain
+fullName: com.microsoft.store.partnercenter.domains.IDomain
+name: IDomain
+nameWithType: IDomain
+syntax: public interface IDomain extends IPartnerComponentString, IEntityExistsOperations
+methods:
+- com.microsoft.store.partnercenter.domains.IDomain.exists()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations&text=IEntityExistsOperations" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.domains
+artifact: com.microsoft.store:partnercenter:1.15.3

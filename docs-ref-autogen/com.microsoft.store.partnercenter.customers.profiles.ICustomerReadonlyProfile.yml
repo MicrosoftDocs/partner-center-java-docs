@@ -1,64 +1,18 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
-  id: ICustomerReadonlyProfile
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.profiles
-  children:
-  - com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get()
-  langs:
-  - java
-  name: ICustomerReadonlyProfile<T>
-  nameWithType: ICustomerReadonlyProfile<T>
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>
-  type: Interface
-  package: com.microsoft.store.partnercenter.customers.profiles
-  summary: Encapsulates a single customer read-only profile behavior.
-  syntax:
-    content: public interface ICustomerReadonlyProfile<T> extends IPartnerComponentString, IEntityGetOperations<T>
-    typeParameters:
-    - id: T
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
-  langs:
-  - java
-  name: get()
-  nameWithType: ICustomerReadonlyProfile<T>.get()
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>.get()
-  overload: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.customers.profiles
-  summary: Retrieves the customer profile.
-  syntax:
-    content: public abstract T get()
-    return:
-      type: T
-      description: The customer profile.
-references:
-- uid: T
-  spec.java:
-  - uid: T
-    name: T
-    fullName: T
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get*
-  name: get
-  nameWithType: ICustomerReadonlyProfile<T>.get
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>.get
-  package: com.microsoft.store.partnercenter.customers.profiles
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>
-  name: IEntityGetOperations<T>
-  nameWithType: IEntityGetOperations<T>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
+fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>
+name: ICustomerReadonlyProfile<T>
+nameWithType: ICustomerReadonlyProfile<T>
+summary: Encapsulates a single customer read-only profile behavior.
+syntax: public interface ICustomerReadonlyProfile<T> extends IPartnerComponentString, IEntityGetOperations<T>
+methods:
+- com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get()
+type: interface
+typeParameters:
+- name: T
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.customers.profiles
+artifact: com.microsoft.store:partnercenter:1.15.3

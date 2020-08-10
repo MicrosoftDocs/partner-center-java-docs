@@ -1,52 +1,14 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
-  id: IOrderLineItemActivationLink
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.orders
-  langs:
-  - java
-  name: IOrderLineItemActivationLink
-  nameWithType: IOrderLineItemActivationLink
-  fullName: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
-  type: Interface
-  package: com.microsoft.store.partnercenter.orders
-  summary: Represents the customer order line item activation link operations.
-  syntax:
-    content: public interface IOrderLineItemActivationLink extends IPartnerComponent<TripletTuple<String,String,Integer>>, IEntityGetOperations<ResourceCollection<OrderLineItemActivationLink>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>
-references:
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>
-  name: IEntityGetOperations<ResourceCollection<OrderLineItemActivationLink>>
-  nameWithType: IEntityGetOperations<ResourceCollection<OrderLineItemActivationLink>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>
-  name: IPartnerComponent<TripletTuple<String,String,Integer>>
-  nameWithType: IPartnerComponent<TripletTuple<String,String,Integer>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  name: OrderLineItemActivationLink
-  nameWithType: OrderLineItemActivationLink
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
-  name: TripletTuple
-  nameWithType: TripletTuple
-  fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple
-- uid: java.lang.String,java.lang.String,java.lang.Integer
-  name: String,String,Integer
-  nameWithType: String,String,Integer
-  fullName: java.lang.String,java.lang.String,java.lang.Integer
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+fullName: com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink
+name: IOrderLineItemActivationLink
+nameWithType: IOrderLineItemActivationLink
+summary: Represents the customer order line item activation link operations.
+syntax: public interface IOrderLineItemActivationLink extends IPartnerComponent<TripletTuple<String,String,Integer>>, IEntityGetOperations<ResourceCollection<OrderLineItemActivationLink>>
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.TripletTuple?alt=com.microsoft.store.partnercenter.models.utils.TripletTuple&text=TripletTuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />&gt;&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink?alt=com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink&text=OrderLineItemActivationLink" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.orders
+artifact: com.microsoft.store:partnercenter:1.15.3

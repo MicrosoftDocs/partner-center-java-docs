@@ -1,60 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummary
-  id: IInvoiceSummary
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices
-  children:
-  - com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get()
-  langs:
-  - java
-  name: IInvoiceSummary
-  nameWithType: IInvoiceSummary
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummary
-  type: Interface
-  package: com.microsoft.store.partnercenter.invoices
-  syntax:
-    content: public interface IInvoiceSummary extends IPartnerComponentString, IEntityGetOperations<InvoiceSummary>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>
-- uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices.IInvoiceSummary
-  langs:
-  - java
-  name: get()
-  nameWithType: IInvoiceSummary.get()
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get()
-  overload: com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Retrieves the invoice summary. This operation is currently only supported for user based credentials.
-  syntax:
-    content: public abstract InvoiceSummary get()
-    return:
-      type: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
-      description: The invoice summary.
-references:
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
-  name: InvoiceSummary
-  nameWithType: InvoiceSummary
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
-- uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get*
-  name: get
-  nameWithType: IInvoiceSummary.get
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get
-  package: com.microsoft.store.partnercenter.invoices
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>
-  name: IEntityGetOperations<InvoiceSummary>
-  nameWithType: IEntityGetOperations<InvoiceSummary>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.invoices.IInvoiceSummary
+fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummary
+name: IInvoiceSummary
+nameWithType: IInvoiceSummary
+syntax: public interface IInvoiceSummary extends IPartnerComponentString, IEntityGetOperations<InvoiceSummary>
+methods:
+- com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.invoices.InvoiceSummary?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceSummary&text=InvoiceSummary" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.invoices
+artifact: com.microsoft.store:partnercenter:1.15.3

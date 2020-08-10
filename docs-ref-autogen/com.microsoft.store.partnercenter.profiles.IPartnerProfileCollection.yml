@@ -1,164 +1,19 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
-  id: IPartnerProfileCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles
-  children:
-  - com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile()
-  - com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getLegalBusinessProfile()
-  - com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getMpnProfile()
-  - com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getOrganizationProfile()
-  - com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile()
-  langs:
-  - java
-  name: IPartnerProfileCollection
-  nameWithType: IPartnerProfileCollection
-  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Represents the behavior of a partner's profiles.
-  syntax:
-    content: public interface IPartnerProfileCollection extends IPartnerComponentString
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile()
-  id: getBillingProfile()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
-  langs:
-  - java
-  name: getBillingProfile()
-  nameWithType: IPartnerProfileCollection.getBillingProfile()
-  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile()
-  overload: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile*
-  type: Method
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Gets the operations available for the partner billing profile.
-  syntax:
-    content: public abstract IBillingProfile getBillingProfile()
-    return:
-      type: com.microsoft.store.partnercenter.profiles.IBillingProfile
-      description: The operations available for the partner billing profile.
-- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getLegalBusinessProfile()
-  id: getLegalBusinessProfile()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
-  langs:
-  - java
-  name: getLegalBusinessProfile()
-  nameWithType: IPartnerProfileCollection.getLegalBusinessProfile()
-  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getLegalBusinessProfile()
-  overload: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getLegalBusinessProfile*
-  type: Method
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Gets the operations available for the legal business profile.
-  syntax:
-    content: public abstract ILegalBusinessProfile getLegalBusinessProfile()
-    return:
-      type: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
-      description: The operations available for the legal business profile.
-- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getMpnProfile()
-  id: getMpnProfile()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
-  langs:
-  - java
-  name: getMpnProfile()
-  nameWithType: IPartnerProfileCollection.getMpnProfile()
-  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getMpnProfile()
-  overload: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getMpnProfile*
-  type: Method
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Gets the operations available for the partner network profile.
-  syntax:
-    content: public abstract IMpnProfile getMpnProfile()
-    return:
-      type: com.microsoft.store.partnercenter.profiles.IMpnProfile
-      description: The operations available for the partner network profile.
-- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getOrganizationProfile()
-  id: getOrganizationProfile()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
-  langs:
-  - java
-  name: getOrganizationProfile()
-  nameWithType: IPartnerProfileCollection.getOrganizationProfile()
-  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getOrganizationProfile()
-  overload: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getOrganizationProfile*
-  type: Method
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Gets the operations available for the organization profile.
-  syntax:
-    content: public abstract IOrganizationProfile getOrganizationProfile()
-    return:
-      type: com.microsoft.store.partnercenter.profiles.IOrganizationProfile
-      description: The operations available for the organization profile.
-- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile()
-  id: getSupportProfile()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
-  langs:
-  - java
-  name: getSupportProfile()
-  nameWithType: IPartnerProfileCollection.getSupportProfile()
-  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile()
-  overload: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile*
-  type: Method
-  package: com.microsoft.store.partnercenter.profiles
-  summary: Gets the operations available for the partner support profile.
-  syntax:
-    content: public abstract ISupportProfile getSupportProfile()
-    return:
-      type: com.microsoft.store.partnercenter.profiles.ISupportProfile
-      description: The operations available for the partner support profile.
-references:
-- uid: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
-  name: ILegalBusinessProfile
-  nameWithType: ILegalBusinessProfile
-  fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile
-- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getLegalBusinessProfile*
-  name: getLegalBusinessProfile
-  nameWithType: IPartnerProfileCollection.getLegalBusinessProfile
-  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getLegalBusinessProfile
-  package: com.microsoft.store.partnercenter.profiles
-- uid: com.microsoft.store.partnercenter.profiles.IMpnProfile
-  name: IMpnProfile
-  nameWithType: IMpnProfile
-  fullName: com.microsoft.store.partnercenter.profiles.IMpnProfile
-- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getMpnProfile*
-  name: getMpnProfile
-  nameWithType: IPartnerProfileCollection.getMpnProfile
-  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getMpnProfile
-  package: com.microsoft.store.partnercenter.profiles
-- uid: com.microsoft.store.partnercenter.profiles.ISupportProfile
-  name: ISupportProfile
-  nameWithType: ISupportProfile
-  fullName: com.microsoft.store.partnercenter.profiles.ISupportProfile
-- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile*
-  name: getSupportProfile
-  nameWithType: IPartnerProfileCollection.getSupportProfile
-  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile
-  package: com.microsoft.store.partnercenter.profiles
-- uid: com.microsoft.store.partnercenter.profiles.IOrganizationProfile
-  name: IOrganizationProfile
-  nameWithType: IOrganizationProfile
-  fullName: com.microsoft.store.partnercenter.profiles.IOrganizationProfile
-- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getOrganizationProfile*
-  name: getOrganizationProfile
-  nameWithType: IPartnerProfileCollection.getOrganizationProfile
-  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getOrganizationProfile
-  package: com.microsoft.store.partnercenter.profiles
-- uid: com.microsoft.store.partnercenter.profiles.IBillingProfile
-  name: IBillingProfile
-  nameWithType: IBillingProfile
-  fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile
-- uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile*
-  name: getBillingProfile
-  nameWithType: IPartnerProfileCollection.getBillingProfile
-  fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile
-  package: com.microsoft.store.partnercenter.profiles
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
+fullName: com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection
+name: IPartnerProfileCollection
+nameWithType: IPartnerProfileCollection
+summary: Represents the behavior of a partner's profiles.
+syntax: public interface IPartnerProfileCollection extends IPartnerComponentString
+methods:
+- com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile()
+- com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getLegalBusinessProfile()
+- com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getMpnProfile()
+- com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getOrganizationProfile()
+- com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.profiles
+artifact: com.microsoft.store:partnercenter:1.15.3

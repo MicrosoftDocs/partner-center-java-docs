@@ -1,0 +1,50 @@
+### YamlMime:JavaMember
+uid: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext*
+fullName: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext()
+name: RequestContext()
+nameWithType: RequestContext.RequestContext()
+members:
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext()
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext()
+  name: RequestContext()
+  nameWithType: RequestContext.RequestContext()
+  summary: |-
+    Initializes a new instance of the RequestContext class. Correlation Id will be generated. The request Id
+     will be automatically generated for each service API call.
+  syntax: public RequestContext()
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext(java.lang.String)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext(String locale)
+  name: RequestContext(String locale)
+  nameWithType: RequestContext.RequestContext(String locale)
+  summary: |-
+    Initializes a new instance of the RequestContext class with provided locale. Correlation Id will be
+     generated. The request Id will be automatically generated for each service API call.
+  syntax: public RequestContext(String locale)
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext(java.util.UUID)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext(UUID correlationId)
+  name: RequestContext(UUID correlationId)
+  nameWithType: RequestContext.RequestContext(UUID correlationId)
+  summary: |-
+    Initializes a new instance of the RequestContext class with a correlation Id. The request Id will be
+     automatically generated and a default Locale is set for each service API call.
+  syntax: public RequestContext(UUID correlationId)
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext(java.util.UUID,java.lang.String)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext(UUID correlationId, String locale)
+  name: RequestContext(UUID correlationId, String locale)
+  nameWithType: RequestContext.RequestContext(UUID correlationId, String locale)
+  summary: |-
+    Initializes a new instance of the RequestContext class with a correlation Id and the provided locale.
+     The request Id will be automatically generated for each service API call.
+  syntax: public RequestContext(UUID correlationId, String locale)
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext(java.util.UUID,java.util.UUID,java.lang.String)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext(UUID correlationId, UUID requestId, String locale)
+  name: RequestContext(UUID correlationId, UUID requestId, String locale)
+  nameWithType: RequestContext.RequestContext(UUID correlationId, UUID requestId, String locale)
+  summary: |-
+    Initializes a new instance of the RequestContext class with the given correlation, request identifier and
+     locale.
+  syntax: public RequestContext(UUID correlationId, UUID requestId, String locale)
+type: constructor
+metadata: {}
+package: com.microsoft.store.partnercenter.requestcontext
+artifact: com.microsoft.store:partnercenter:1.15.3

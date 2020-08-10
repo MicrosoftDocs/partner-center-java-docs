@@ -1,420 +1,106 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  id: CartErrorCode
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts
-  children:
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.CATALOG_ITEM_ID_IS_NOT_VALID
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.CURRENCY_IS_NOT_SUPPORTED
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.INVENTORY_NOT_AVAILABLE
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.PARTICIPANTS_IS_NOT_SUPPORTED_FOR_PARTNER
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.QUOTA_NOT_AVAILABLE
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.SANDBOX_LIMIT_EXCEEDED
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.SUBSCRIPTION_IS_NOT_ENABLED_FOR_RI
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.SUBSCRIPTION_IS_NOT_VALID
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.UNABLE_TO_PROCESS_CART_LINE_ITEM
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.UNKNOWN
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.intValue()
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf(int)
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf(java.lang.String)
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode.values()
-  langs:
-  - java
-  name: CartErrorCode
-  nameWithType: CartErrorCode
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  type: Enum
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: Types of cart error code.
-  syntax:
-    content: public enum CartErrorCode extends Enum<CartErrorCode>
-  inheritance:
-  - java.lang.Object
-  - java.lang.Enum
-  inheritedMembers:
-  - java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  - java.lang.Enum.clone()
-  - java.lang.Enum.compareTo(E)
-  - java.lang.Enum.equals(java.lang.Object)
-  - java.lang.Enum.finalize()
-  - java.lang.Enum.getDeclaringClass()
-  - java.lang.Enum.hashCode()
-  - java.lang.Enum.name()
-  - java.lang.Enum.ordinal()
-  - java.lang.Enum.toString()
-  - java.lang.Object.getClass()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
+### YamlMime:JavaEnum
+uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode
+fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode
+name: CartErrorCode
+nameWithType: CartErrorCode
+summary: Types of cart error code.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="java.lang.Enum?alt=java.lang.Enum&text=Enum" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+- java.lang.Enum.clone()
+- java.lang.Enum.compareTo(E)
+- java.lang.Enum.equals(java.lang.Object)
+- java.lang.Enum.finalize()
+- java.lang.Enum.getDeclaringClass()
+- java.lang.Enum.hashCode()
+- java.lang.Enum.name()
+- java.lang.Enum.ordinal()
+- java.lang.Enum.toString()
+- java.lang.Object.getClass()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public enum CartErrorCode extends Enum<CartErrorCode>
+fields:
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.CATALOG_ITEM_ID_IS_NOT_VALID
-  id: CATALOG_ITEM_ID_IS_NOT_VALID
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.CATALOG_ITEM_ID_IS_NOT_VALID
   name: CATALOG_ITEM_ID_IS_NOT_VALID
   nameWithType: CartErrorCode.CATALOG_ITEM_ID_IS_NOT_VALID
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.CATALOG_ITEM_ID_IS_NOT_VALID
-  type: Field
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: Catalog item id is not valid
-  syntax:
-    content: public static final CartErrorCode CATALOG_ITEM_ID_IS_NOT_VALID
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.CURRENCY_IS_NOT_SUPPORTED
-  id: CURRENCY_IS_NOT_SUPPORTED
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.CURRENCY_IS_NOT_SUPPORTED
   name: CURRENCY_IS_NOT_SUPPORTED
   nameWithType: CartErrorCode.CURRENCY_IS_NOT_SUPPORTED
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.CURRENCY_IS_NOT_SUPPORTED
-  type: Field
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: Currency is not supported for given market
-  syntax:
-    content: public static final CartErrorCode CURRENCY_IS_NOT_SUPPORTED
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-- uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.CartErrorCode(int)
-  id: CartErrorCode(int)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
-  name: CartErrorCode(int value)
-  nameWithType: CartErrorCode.CartErrorCode(int value)
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.CartErrorCode(int value)
-  overload: com.microsoft.store.partnercenter.models.carts.CartErrorCode.CartErrorCode*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.carts
-  syntax:
-    content: private CartErrorCode(int value)
-    parameters:
-    - id: value
-      type: int
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.INVENTORY_NOT_AVAILABLE
-  id: INVENTORY_NOT_AVAILABLE
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.INVENTORY_NOT_AVAILABLE
   name: INVENTORY_NOT_AVAILABLE
   nameWithType: CartErrorCode.INVENTORY_NOT_AVAILABLE
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.INVENTORY_NOT_AVAILABLE
-  type: Field
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: Inventory is not available for selected offer
-  syntax:
-    content: public static final CartErrorCode INVENTORY_NOT_AVAILABLE
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.PARTICIPANTS_IS_NOT_SUPPORTED_FOR_PARTNER
-  id: PARTICIPANTS_IS_NOT_SUPPORTED_FOR_PARTNER
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.PARTICIPANTS_IS_NOT_SUPPORTED_FOR_PARTNER
   name: PARTICIPANTS_IS_NOT_SUPPORTED_FOR_PARTNER
   nameWithType: CartErrorCode.PARTICIPANTS_IS_NOT_SUPPORTED_FOR_PARTNER
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.PARTICIPANTS_IS_NOT_SUPPORTED_FOR_PARTNER
-  type: Field
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: Setting participants is not supported for Partner
-  syntax:
-    content: public static final CartErrorCode PARTICIPANTS_IS_NOT_SUPPORTED_FOR_PARTNER
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.QUOTA_NOT_AVAILABLE
-  id: QUOTA_NOT_AVAILABLE
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.QUOTA_NOT_AVAILABLE
   name: QUOTA_NOT_AVAILABLE
   nameWithType: CartErrorCode.QUOTA_NOT_AVAILABLE
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.QUOTA_NOT_AVAILABLE
-  type: Field
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: Not enough quota available
-  syntax:
-    content: public static final CartErrorCode QUOTA_NOT_AVAILABLE
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.SANDBOX_LIMIT_EXCEEDED
-  id: SANDBOX_LIMIT_EXCEEDED
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.SANDBOX_LIMIT_EXCEEDED
   name: SANDBOX_LIMIT_EXCEEDED
   nameWithType: CartErrorCode.SANDBOX_LIMIT_EXCEEDED
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.SANDBOX_LIMIT_EXCEEDED
-  type: Field
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: The sandbox limit has been exceeded.
-  syntax:
-    content: public static final CartErrorCode SANDBOX_LIMIT_EXCEEDED
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.SUBSCRIPTION_IS_NOT_ENABLED_FOR_RI
-  id: SUBSCRIPTION_IS_NOT_ENABLED_FOR_RI
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.SUBSCRIPTION_IS_NOT_ENABLED_FOR_RI
   name: SUBSCRIPTION_IS_NOT_ENABLED_FOR_RI
   nameWithType: CartErrorCode.SUBSCRIPTION_IS_NOT_ENABLED_FOR_RI
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.SUBSCRIPTION_IS_NOT_ENABLED_FOR_RI
-  type: Field
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: Subscription is not enabled for RI purchase.
-  syntax:
-    content: public static final CartErrorCode SUBSCRIPTION_IS_NOT_ENABLED_FOR_RI
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.SUBSCRIPTION_IS_NOT_VALID
-  id: SUBSCRIPTION_IS_NOT_VALID
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.SUBSCRIPTION_IS_NOT_VALID
   name: SUBSCRIPTION_IS_NOT_VALID
   nameWithType: CartErrorCode.SUBSCRIPTION_IS_NOT_VALID
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.SUBSCRIPTION_IS_NOT_VALID
-  type: Field
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: Subscription is not valid.
-  syntax:
-    content: public static final CartErrorCode SUBSCRIPTION_IS_NOT_VALID
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.UNABLE_TO_PROCESS_CART_LINE_ITEM
-  id: UNABLE_TO_PROCESS_CART_LINE_ITEM
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.UNABLE_TO_PROCESS_CART_LINE_ITEM
   name: UNABLE_TO_PROCESS_CART_LINE_ITEM
   nameWithType: CartErrorCode.UNABLE_TO_PROCESS_CART_LINE_ITEM
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.UNABLE_TO_PROCESS_CART_LINE_ITEM
-  type: Field
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: Unable to process cart line item.
-  syntax:
-    content: public static final CartErrorCode UNABLE_TO_PROCESS_CART_LINE_ITEM
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.UNKNOWN
-  id: UNKNOWN
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.UNKNOWN
   name: UNKNOWN
   nameWithType: CartErrorCode.UNKNOWN
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.UNKNOWN
-  type: Field
-  package: com.microsoft.store.partnercenter.models.carts
-  summary: Default value
-  syntax:
-    content: public static final CartErrorCode UNKNOWN
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
+methods:
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.intValue()
-  id: intValue()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.intValue()
   name: intValue()
   nameWithType: CartErrorCode.intValue()
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.intValue()
-  overload: com.microsoft.store.partnercenter.models.carts.CartErrorCode.intValue*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
-  syntax:
-    content: public int intValue()
-    return:
-      type: int
+  syntax: public int intValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf(int)
-  id: valueOf(int)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf(int i)
   name: valueOf(int i)
   nameWithType: CartErrorCode.valueOf(int i)
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf(int i)
-  overload: com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
-  syntax:
-    content: public static CartErrorCode valueOf(int i)
-    parameters:
-    - id: i
-      type: int
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
+  parameters:
+  - name: i
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public static CartErrorCode valueOf(int i)
+  returns:
+    type: <xref href="com.microsoft.store.partnercenter.models.carts.CartErrorCode?alt=com.microsoft.store.partnercenter.models.carts.CartErrorCode&text=CartErrorCode" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf(java.lang.String)
-  id: valueOf(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf(String name)
   name: valueOf(String name)
   nameWithType: CartErrorCode.valueOf(String name)
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf(String name)
-  overload: com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
-  syntax:
-    content: public static CartErrorCode valueOf(String name)
-    parameters:
-    - id: name
-      type: java.lang.String
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode
+  parameters:
+  - name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static CartErrorCode valueOf(String name)
+  returns:
+    type: <xref href="com.microsoft.store.partnercenter.models.carts.CartErrorCode?alt=com.microsoft.store.partnercenter.models.carts.CartErrorCode&text=CartErrorCode" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.values()
-  id: values()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.values()
   name: values()
   nameWithType: CartErrorCode.values()
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.values()
-  overload: com.microsoft.store.partnercenter.models.carts.CartErrorCode.values*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.carts
-  syntax:
-    content: public static CartErrorCode[] values()
-    return:
-      type: com.microsoft.store.partnercenter.models.carts.CartErrorCode[]
-references:
-- uid: int
-  spec.java:
-  - uid: int
-    name: int
-    fullName: int
-- uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.CartErrorCode*
-  name: CartErrorCode
-  nameWithType: CartErrorCode.CartErrorCode
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.CartErrorCode
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode[]
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-    name: CartErrorCode
-    fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  - name: '[]'
-    fullName: '[]'
-- uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.values*
-  name: values
-  nameWithType: CartErrorCode.values
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.values
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf*
-  name: valueOf
-  nameWithType: CartErrorCode.valueOf
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode.intValue*
-  name: intValue
-  nameWithType: CartErrorCode.intValue
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode.intValue
-  package: com.microsoft.store.partnercenter.models.carts
-- uid: java.lang.Enum<com.microsoft.store.partnercenter.models.carts.CartErrorCode>
-  name: Enum<CartErrorCode>
-  nameWithType: Enum<CartErrorCode>
-  fullName: java.lang.Enum<com.microsoft.store.partnercenter.models.carts.CartErrorCode>
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Enum.toString()
-  name: Enum.toString()
-  nameWithType: Enum.toString()
-  fullName: java.lang.Enum.toString()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Enum.clone()
-  name: Enum.clone()
-  nameWithType: Enum.clone()
-  fullName: java.lang.Enum.clone()
-- uid: java.lang.Enum.finalize()
-  name: Enum.finalize()
-  nameWithType: Enum.finalize()
-  fullName: java.lang.Enum.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Enum.compareTo(E)
-  name: Enum.compareTo(E)
-  nameWithType: Enum.compareTo(E)
-  fullName: java.lang.Enum.compareTo(E)
-- uid: java.lang.Enum.name()
-  name: Enum.name()
-  nameWithType: Enum.name()
-  fullName: java.lang.Enum.name()
-- uid: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  name: Enum.<T>valueOf(Class<T>,String)
-  nameWithType: Enum.<T>valueOf(Class<T>,String)
-  fullName: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Enum.getDeclaringClass()
-  name: Enum.getDeclaringClass()
-  nameWithType: Enum.getDeclaringClass()
-  fullName: java.lang.Enum.getDeclaringClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Enum.ordinal()
-  name: Enum.ordinal()
-  nameWithType: Enum.ordinal()
-  fullName: java.lang.Enum.ordinal()
-- uid: java.lang.Enum.hashCode()
-  name: Enum.hashCode()
-  nameWithType: Enum.hashCode()
-  fullName: java.lang.Enum.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Enum.equals(java.lang.Object)
-  name: Enum.equals(Object)
-  nameWithType: Enum.equals(Object)
-  fullName: java.lang.Enum.equals(java.lang.Object)
-- uid: java.lang.Enum
-  name: Enum
-  nameWithType: Enum
-  fullName: java.lang.Enum
-- uid: java.lang.Enum.
-  name: Enum.
-  nameWithType: Enum.
-  fullName: java.lang.Enum.
-- uid: T>,java.lang.String)
-  name: T>,String)
-  nameWithType: T>,String)
-  fullName: T>,java.lang.String)
-- uid: T>valueOf(java.lang.Class
-  name: T>valueOf(Class
-  nameWithType: T>valueOf(Class
-  fullName: T>valueOf(java.lang.Class
+  syntax: public static CartErrorCode[] values()
+  returns:
+    type: <xref href="com.microsoft.store.partnercenter.models.carts.CartErrorCode?alt=com.microsoft.store.partnercenter.models.carts.CartErrorCode&text=CartErrorCode" data-throw-if-not-resolved="False" />[]
+metadata: {}
+package: com.microsoft.store.partnercenter.models.carts
+artifact: com.microsoft.store:partnercenter:1.15.3

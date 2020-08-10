@@ -1,51 +1,14 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
-  id: IInvoiceDocuments
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices
-  children:
-  - com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement()
-  langs:
-  - java
-  name: IInvoiceDocuments
-  nameWithType: IInvoiceDocuments
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
-  type: Interface
-  package: com.microsoft.store.partnercenter.invoices
-  syntax:
-    content: public interface IInvoiceDocuments extends IPartnerComponentString
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement()
-  id: getStatement()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
-  langs:
-  - java
-  name: getStatement()
-  nameWithType: IInvoiceDocuments.getStatement()
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement()
-  overload: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement*
-  type: Method
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Gets an invoice statement operations.
-  syntax:
-    content: public abstract IInvoiceStatement getStatement()
-    return:
-      type: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
-      description: An invoice statement operations.
-references:
-- uid: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
-  name: IInvoiceStatement
-  nameWithType: IInvoiceStatement
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
-- uid: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement*
-  name: getStatement
-  nameWithType: IInvoiceDocuments.getStatement
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement
-  package: com.microsoft.store.partnercenter.invoices
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
+fullName: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments
+name: IInvoiceDocuments
+nameWithType: IInvoiceDocuments
+syntax: public interface IInvoiceDocuments extends IPartnerComponentString
+methods:
+- com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.invoices
+artifact: com.microsoft.store:partnercenter:1.15.3

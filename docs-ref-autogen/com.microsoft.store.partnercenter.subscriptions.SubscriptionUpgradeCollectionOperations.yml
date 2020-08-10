@@ -1,225 +1,35 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
-  id: SubscriptionUpgradeCollectionOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions
-  children:
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)
-  - com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get()
-  langs:
-  - java
-  name: SubscriptionUpgradeCollectionOperations
-  nameWithType: SubscriptionUpgradeCollectionOperations
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: The customer subscription upgrade implementation.
-  syntax:
-    content: public class SubscriptionUpgradeCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscriptionUpgradeCollection
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  implements:
-  - com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  id: SubscriptionUpgradeCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
-  langs:
-  - java
-  name: SubscriptionUpgradeCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
-  nameWithType: SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Initializes a new instance of the SubscriptionUpgradeCollectionOperations class.
-  syntax:
-    content: public SubscriptionUpgradeCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)
-    parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The root partner operations instance.
-    - id: customerId
-      type: java.lang.String
-      description: The customer Id to whom the subscriptions belong.
-    - id: subscriptionId
-      type: java.lang.String
-      description: The subscription Id where the upgrade is occurring.
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)
-  id: create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
-  langs:
-  - java
-  name: create(Upgrade subscriptionUpgrade)
-  nameWithType: SubscriptionUpgradeCollectionOperations.create(Upgrade subscriptionUpgrade)
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create(Upgrade subscriptionUpgrade)
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Performs a subscription upgrade.
-  syntax:
-    content: public UpgradeResult create(Upgrade subscriptionUpgrade)
-    parameters:
-    - id: subscriptionUpgrade
-      type: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
-      description: The subscription upgrade to perform.
-    return:
-      type: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
-      description: The subscription upgrade result.
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
-  langs:
-  - java
-  name: get()
-  nameWithType: SubscriptionUpgradeCollectionOperations.get()
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get()
-  overload: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.subscriptions
-  summary: Retrieves all subscription upgrades.
-  syntax:
-    content: public ResourceCollection<Upgrade> get()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>
-      description: The subscription upgrades.
-references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations*
-  name: SubscriptionUpgradeCollectionOperations
-  nameWithType: SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
-    name: Upgrade
-    fullName: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get*
-  name: get
-  nameWithType: SubscriptionUpgradeCollectionOperations.get
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
-  name: Upgrade
-  nameWithType: Upgrade
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.Upgrade
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
-  name: UpgradeResult
-  nameWithType: UpgradeResult
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult
-- uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create*
-  name: create
-  nameWithType: SubscriptionUpgradeCollectionOperations.create
-  fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create
-  package: com.microsoft.store.partnercenter.subscriptions
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: BasePartnerComponent<Tuple<String,String>>
-  nameWithType: BasePartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
-  name: ISubscriptionUpgradeCollection
-  nameWithType: ISubscriptionUpgradeCollection
-  fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent
-  name: BasePartnerComponent
-  nameWithType: BasePartnerComponent
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
+fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations
+name: SubscriptionUpgradeCollectionOperations
+nameWithType: SubscriptionUpgradeCollectionOperations
+summary: The customer subscription upgrade implementation.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent?alt=com.microsoft.store.partnercenter.BasePartnerComponent&text=BasePartnerComponent" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class SubscriptionUpgradeCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscriptionUpgradeCollection
+constructors:
+- com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+methods:
+- com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)
+- com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get()
+type: class
+implements:
+- <xref href="com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection?alt=com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection&text=ISubscriptionUpgradeCollection" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.subscriptions
+artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,52 +1,14 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.usage.IUsageRecordByMeterCollection
-  id: IUsageRecordByMeterCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage
-  langs:
-  - java
-  name: IUsageRecordByMeterCollection
-  nameWithType: IUsageRecordByMeterCollection
-  fullName: com.microsoft.store.partnercenter.usage.IUsageRecordByMeterCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.usage
-  summary: Represents the operations for a subscription's meter usage records.
-  syntax:
-    content: public interface IUsageRecordByMeterCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<MeterUsageRecord,ResourceCollection<MeterUsageRecord>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.MeterUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.MeterUsageRecord>>
-references:
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.MeterUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.MeterUsageRecord>>
-  name: IEntireEntityCollectionRetrievalOperations<MeterUsageRecord,ResourceCollection<MeterUsageRecord>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<MeterUsageRecord,ResourceCollection<MeterUsageRecord>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.MeterUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.MeterUsageRecord>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.models.usage.MeterUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: MeterUsageRecord,ResourceCollection
-  nameWithType: MeterUsageRecord,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.usage.MeterUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.models.usage.MeterUsageRecord
-  name: MeterUsageRecord
-  nameWithType: MeterUsageRecord
-  fullName: com.microsoft.store.partnercenter.models.usage.MeterUsageRecord
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.usage.IUsageRecordByMeterCollection
+fullName: com.microsoft.store.partnercenter.usage.IUsageRecordByMeterCollection
+name: IUsageRecordByMeterCollection
+nameWithType: IUsageRecordByMeterCollection
+summary: Represents the operations for a subscription's meter usage records.
+syntax: public interface IUsageRecordByMeterCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<MeterUsageRecord,ResourceCollection<MeterUsageRecord>>
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.usage.MeterUsageRecord?alt=com.microsoft.store.partnercenter.models.usage.MeterUsageRecord&text=MeterUsageRecord" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.usage.MeterUsageRecord?alt=com.microsoft.store.partnercenter.models.usage.MeterUsageRecord&text=MeterUsageRecord" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.usage
+artifact: com.microsoft.store:partnercenter:1.15.3

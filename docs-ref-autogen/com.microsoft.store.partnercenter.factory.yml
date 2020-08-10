@@ -1,35 +1,13 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.factory
-  id: factory
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  children:
-  - com.microsoft.store.partnercenter.factory.IPartnerFactory
-  - com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
-  - com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory
-  - com.microsoft.store.partnercenter.factory.StandardPartnerFactory
-  langs:
-  - java
-  name: com.microsoft.store.partnercenter.factory
-  nameWithType: com.microsoft.store.partnercenter.factory
-  fullName: com.microsoft.store.partnercenter.factory
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter.factory
-references:
-- uid: com.microsoft.store.partnercenter.factory.IPartnerFactory
-  name: IPartnerFactory
-  nameWithType: IPartnerFactory
-  fullName: com.microsoft.store.partnercenter.factory.IPartnerFactory
-- uid: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
-  name: IResourceCollectionEnumeratorFactory<T>
-  nameWithType: IResourceCollectionEnumeratorFactory<T>
-  fullName: com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<T>
-- uid: com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory
-  name: IndexBasedCollectionEnumeratorFactory<T,TResourceCollection>
-  nameWithType: IndexBasedCollectionEnumeratorFactory<T,TResourceCollection>
-  fullName: com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory<T,TResourceCollection>
-- uid: com.microsoft.store.partnercenter.factory.StandardPartnerFactory
-  name: StandardPartnerFactory
-  nameWithType: StandardPartnerFactory
-  fullName: com.microsoft.store.partnercenter.factory.StandardPartnerFactory
+### YamlMime:JavaPackage
+uid: com.microsoft.store.partnercenter.factory
+fullName: com.microsoft.store.partnercenter.factory
+name: com.microsoft.store.partnercenter.factory
+classes:
+- com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory
+- com.microsoft.store.partnercenter.factory.StandardPartnerFactory
+interfaces:
+- com.microsoft.store.partnercenter.factory.IPartnerFactory
+- com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory
+metadata: {}
+package: com.microsoft.store.partnercenter.factory
+artifact: com.microsoft.store:partnercenter:1.15.3

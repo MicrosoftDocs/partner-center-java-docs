@@ -1,342 +1,42 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.Profile
-  id: Profile
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models
-  children:
-  - com.microsoft.store.partnercenter.models.Profile.Profile()
-  - com.microsoft.store.partnercenter.models.Profile.getCountry()
-  - com.microsoft.store.partnercenter.models.Profile.getEmail()
-  - com.microsoft.store.partnercenter.models.Profile.getId()
-  - com.microsoft.store.partnercenter.models.Profile.getLanguage()
-  - com.microsoft.store.partnercenter.models.Profile.getRegion()
-  - com.microsoft.store.partnercenter.models.Profile.setCountry(java.lang.String)
-  - com.microsoft.store.partnercenter.models.Profile.setEmail(java.lang.String)
-  - com.microsoft.store.partnercenter.models.Profile.setId(java.lang.String)
-  - com.microsoft.store.partnercenter.models.Profile.setLanguage(java.lang.String)
-  - com.microsoft.store.partnercenter.models.Profile.setRegion(java.lang.String)
-  langs:
-  - java
-  name: Profile<T>
-  nameWithType: Profile<T>
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>
-  type: Class
-  package: com.microsoft.store.partnercenter.models
-  summary: Common profile template profile type
-  syntax:
-    content: public abstract class Profile<T> extends ResourceBase
-    typeParameters:
-    - id: T
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.Profile.Profile()
-  id: Profile()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.Profile
-  langs:
-  - java
-  name: Profile()
-  nameWithType: Profile<T>.Profile()
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.Profile()
-  overload: com.microsoft.store.partnercenter.models.Profile.Profile*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: public Profile()
-- uid: com.microsoft.store.partnercenter.models.Profile.getCountry()
-  id: getCountry()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.Profile
-  langs:
-  - java
-  name: getCountry()
-  nameWithType: Profile<T>.getCountry()
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.getCountry()
-  overload: com.microsoft.store.partnercenter.models.Profile.getCountry*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: public String getCountry()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.Profile.getEmail()
-  id: getEmail()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.Profile
-  langs:
-  - java
-  name: getEmail()
-  nameWithType: Profile<T>.getEmail()
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.getEmail()
-  overload: com.microsoft.store.partnercenter.models.Profile.getEmail*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: public String getEmail()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.Profile.getId()
-  id: getId()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.Profile
-  langs:
-  - java
-  name: getId()
-  nameWithType: Profile<T>.getId()
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.getId()
-  overload: com.microsoft.store.partnercenter.models.Profile.getId*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: public String getId()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.Profile.getLanguage()
-  id: getLanguage()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.Profile
-  langs:
-  - java
-  name: getLanguage()
-  nameWithType: Profile<T>.getLanguage()
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.getLanguage()
-  overload: com.microsoft.store.partnercenter.models.Profile.getLanguage*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: public String getLanguage()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.Profile.getRegion()
-  id: getRegion()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.Profile
-  langs:
-  - java
-  name: getRegion()
-  nameWithType: Profile<T>.getRegion()
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.getRegion()
-  overload: com.microsoft.store.partnercenter.models.Profile.getRegion*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: public String getRegion()
-    return:
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.Profile.setCountry(java.lang.String)
-  id: setCountry(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.Profile
-  langs:
-  - java
-  name: setCountry(String value)
-  nameWithType: Profile<T>.setCountry(String value)
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.setCountry(String value)
-  overload: com.microsoft.store.partnercenter.models.Profile.setCountry*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: public void setCountry(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.Profile.setEmail(java.lang.String)
-  id: setEmail(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.Profile
-  langs:
-  - java
-  name: setEmail(String value)
-  nameWithType: Profile<T>.setEmail(String value)
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.setEmail(String value)
-  overload: com.microsoft.store.partnercenter.models.Profile.setEmail*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: public void setEmail(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.Profile.setId(java.lang.String)
-  id: setId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.Profile
-  langs:
-  - java
-  name: setId(String value)
-  nameWithType: Profile<T>.setId(String value)
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.setId(String value)
-  overload: com.microsoft.store.partnercenter.models.Profile.setId*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: public void setId(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.Profile.setLanguage(java.lang.String)
-  id: setLanguage(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.Profile
-  langs:
-  - java
-  name: setLanguage(String value)
-  nameWithType: Profile<T>.setLanguage(String value)
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.setLanguage(String value)
-  overload: com.microsoft.store.partnercenter.models.Profile.setLanguage*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: public void setLanguage(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.Profile.setRegion(java.lang.String)
-  id: setRegion(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.Profile
-  langs:
-  - java
-  name: setRegion(String value)
-  nameWithType: Profile<T>.setRegion(String value)
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.setRegion(String value)
-  overload: com.microsoft.store.partnercenter.models.Profile.setRegion*
-  type: Method
-  package: com.microsoft.store.partnercenter.models
-  syntax:
-    content: public void setRegion(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
-references:
-- uid: com.microsoft.store.partnercenter.models.Profile.Profile*
-  name: Profile
-  nameWithType: Profile<T>.Profile
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.Profile
-  package: com.microsoft.store.partnercenter.models
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.Profile.getId*
-  name: getId
-  nameWithType: Profile<T>.getId
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.getId
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.Profile.setId*
-  name: setId
-  nameWithType: Profile<T>.setId
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.setId
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.Profile.getEmail*
-  name: getEmail
-  nameWithType: Profile<T>.getEmail
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.getEmail
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.Profile.setEmail*
-  name: setEmail
-  nameWithType: Profile<T>.setEmail
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.setEmail
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.Profile.getCountry*
-  name: getCountry
-  nameWithType: Profile<T>.getCountry
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.getCountry
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.Profile.setCountry*
-  name: setCountry
-  nameWithType: Profile<T>.setCountry
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.setCountry
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.Profile.getRegion*
-  name: getRegion
-  nameWithType: Profile<T>.getRegion
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.getRegion
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.Profile.setRegion*
-  name: setRegion
-  nameWithType: Profile<T>.setRegion
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.setRegion
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.Profile.getLanguage*
-  name: getLanguage
-  nameWithType: Profile<T>.getLanguage
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.getLanguage
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.Profile.setLanguage*
-  name: setLanguage
-  nameWithType: Profile<T>.setLanguage
-  fullName: com.microsoft.store.partnercenter.models.Profile<T>.setLanguage
-  package: com.microsoft.store.partnercenter.models
-- uid: T
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: com.microsoft.store.partnercenter.models.ResourceBase
-  name: ResourceBase
-  nameWithType: ResourceBase
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  name: ResourceBase.getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.models.Profile
+fullName: com.microsoft.store.partnercenter.models.Profile<T>
+name: Profile<T>
+nameWithType: Profile<T>
+summary: Common profile template profile type
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.models.ResourceBase?alt=com.microsoft.store.partnercenter.models.ResourceBase&text=ResourceBase" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public abstract class Profile<T> extends ResourceBase
+constructors:
+- com.microsoft.store.partnercenter.models.Profile.Profile()
+methods:
+- com.microsoft.store.partnercenter.models.Profile.getCountry()
+- com.microsoft.store.partnercenter.models.Profile.getEmail()
+- com.microsoft.store.partnercenter.models.Profile.getId()
+- com.microsoft.store.partnercenter.models.Profile.getLanguage()
+- com.microsoft.store.partnercenter.models.Profile.getRegion()
+- com.microsoft.store.partnercenter.models.Profile.setCountry(java.lang.String)
+- com.microsoft.store.partnercenter.models.Profile.setEmail(java.lang.String)
+- com.microsoft.store.partnercenter.models.Profile.setId(java.lang.String)
+- com.microsoft.store.partnercenter.models.Profile.setLanguage(java.lang.String)
+- com.microsoft.store.partnercenter.models.Profile.setRegion(java.lang.String)
+type: class
+typeParameters:
+- name: T
+metadata: {}
+package: com.microsoft.store.partnercenter.models
+artifact: com.microsoft.store:partnercenter:1.15.3

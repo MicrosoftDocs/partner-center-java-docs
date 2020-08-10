@@ -1,164 +1,35 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
-  id: ProductExtensionsOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.extensions.products
-  children:
-  - com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.ProductExtensionsOperations(com.microsoft.store.partnercenter.IPartner)
-  - com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.byCountry(java.lang.String)
-  langs:
-  - java
-  name: ProductExtensionsOperations
-  nameWithType: ProductExtensionsOperations
-  fullName: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.extensions.products
-  summary: Extensions operations implementation.
-  syntax:
-    content: public class ProductExtensionsOperations extends BasePartnerComponentString implements IProductExtensions
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  - com.microsoft.store.partnercenter.BasePartnerComponentString
-  implements:
-  - com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.ProductExtensionsOperations(com.microsoft.store.partnercenter.IPartner)
-  id: ProductExtensionsOperations(com.microsoft.store.partnercenter.IPartner)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
-  langs:
-  - java
-  name: ProductExtensionsOperations(IPartner rootPartnerOperations)
-  nameWithType: ProductExtensionsOperations.ProductExtensionsOperations(IPartner rootPartnerOperations)
-  fullName: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.ProductExtensionsOperations(IPartner rootPartnerOperations)
-  overload: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.ProductExtensionsOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.extensions.products
-  summary: Initializes a new instance of the ProductExtensionsOperations class.
-  syntax:
-    content: public ProductExtensionsOperations(IPartner rootPartnerOperations)
-    parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The root partner operations instance.
-- uid: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.byCountry(java.lang.String)
-  id: byCountry(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
-  langs:
-  - java
-  name: byCountry(String country)
-  nameWithType: ProductExtensionsOperations.byCountry(String country)
-  fullName: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.byCountry(String country)
-  overload: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.byCountry*
-  type: Method
-  package: com.microsoft.store.partnercenter.extensions.products
-  summary: Retrieves the extension operations that can be applied on products from a given country.
-  syntax:
-    content: public IProductExtensionsByCountry byCountry(String country)
-    parameters:
-    - id: country
-      type: java.lang.String
-      description: The country name.
-    return:
-      type: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
-      description: The product extensions operations by country.
-references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.ProductExtensionsOperations*
-  name: ProductExtensionsOperations
-  nameWithType: ProductExtensionsOperations.ProductExtensionsOperations
-  fullName: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.ProductExtensionsOperations
-  package: com.microsoft.store.partnercenter.extensions.products
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
-  name: IProductExtensionsByCountry
-  nameWithType: IProductExtensionsByCountry
-  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
-- uid: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.byCountry*
-  name: byCountry
-  nameWithType: ProductExtensionsOperations.byCountry
-  fullName: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.byCountry
-  package: com.microsoft.store.partnercenter.extensions.products
-- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
-  name: BasePartnerComponentString
-  nameWithType: BasePartnerComponentString
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
-- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-  name: IProductExtensions
-  nameWithType: IProductExtensions
-  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
+fullName: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
+name: ProductExtensionsOperations
+nameWithType: ProductExtensionsOperations
+summary: Extensions operations implementation.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent?alt=com.microsoft.store.partnercenter.BasePartnerComponent&text=BasePartnerComponent" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponentString?alt=com.microsoft.store.partnercenter.BasePartnerComponentString&text=BasePartnerComponentString" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class ProductExtensionsOperations extends BasePartnerComponentString implements IProductExtensions
+constructors:
+- com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.ProductExtensionsOperations(com.microsoft.store.partnercenter.IPartner)
+methods:
+- com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.byCountry(java.lang.String)
+type: class
+implements:
+- <xref href="com.microsoft.store.partnercenter.extensions.products.IProductExtensions?alt=com.microsoft.store.partnercenter.extensions.products.IProductExtensions&text=IProductExtensions" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.extensions.products
+artifact: com.microsoft.store:partnercenter:1.15.3

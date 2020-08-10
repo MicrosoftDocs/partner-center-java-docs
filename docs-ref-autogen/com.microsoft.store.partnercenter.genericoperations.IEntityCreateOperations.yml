@@ -1,59 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-  id: IEntityCreateOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.genericoperations
-  children:
-  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
-  langs:
-  - java
-  name: IEntityCreateOperations<T,T1>
-  nameWithType: IEntityCreateOperations<T,T1>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T,T1>
-  type: Interface
-  package: com.microsoft.store.partnercenter.genericoperations
-  summary: Groups operations for creating a single entity. The entity type request.The entity type response.
-  syntax:
-    content: public interface IEntityCreateOperations<T,T1>
-    typeParameters:
-    - id: T
-    - id: T1
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
-  id: create(T)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-  langs:
-  - java
-  name: create(T newEntity)
-  nameWithType: IEntityCreateOperations<T,T1>.create(T newEntity)
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T,T1>.create(T newEntity)
-  overload: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create*
-  type: Method
-  package: com.microsoft.store.partnercenter.genericoperations
-  summary: Creates a new entity.
-  syntax:
-    content: public abstract T1 create(T newEntity)
-    parameters:
-    - id: newEntity
-      type: T
-      description: The new entity information.
-    return:
-      type: T1
-      description: The entity information that was just created.
-references:
-- uid: T
-  spec.java:
-  - uid: T
-    name: T
-    fullName: T
-- uid: T1
-  spec.java:
-  - uid: T1
-    name: T1
-    fullName: T1
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create*
-  name: create
-  nameWithType: IEntityCreateOperations<T,T1>.create
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T,T1>.create
-  package: com.microsoft.store.partnercenter.genericoperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
+fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T,T1>
+name: IEntityCreateOperations<T,T1>
+nameWithType: IEntityCreateOperations<T,T1>
+summary: Groups operations for creating a single entity. The entity type request.The entity type response.
+syntax: public interface IEntityCreateOperations<T,T1>
+methods:
+- com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)
+type: interface
+typeParameters:
+- name: T
+- name: T1
+metadata: {}
+package: com.microsoft.store.partnercenter.genericoperations
+artifact: com.microsoft.store:partnercenter:1.15.3

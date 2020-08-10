@@ -1,179 +1,35 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations
-  id: SubscriptionMonthlyUsageRecordCollectionOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage
-  children:
-  - com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.SubscriptionMonthlyUsageRecordCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  - com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.get()
-  langs:
-  - java
-  name: SubscriptionMonthlyUsageRecordCollectionOperations
-  nameWithType: SubscriptionMonthlyUsageRecordCollectionOperations
-  fullName: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.usage
-  summary: Implements operations related to a single subscription monthly usage records.
-  syntax:
-    content: public class SubscriptionMonthlyUsageRecordCollectionOperations extends BasePartnerComponentString implements ISubscriptionMonthlyUsageRecordCollection
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  - com.microsoft.store.partnercenter.BasePartnerComponentString
-  implements:
-  - com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.SubscriptionMonthlyUsageRecordCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  id: SubscriptionMonthlyUsageRecordCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations
-  langs:
-  - java
-  name: SubscriptionMonthlyUsageRecordCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  nameWithType: SubscriptionMonthlyUsageRecordCollectionOperations.SubscriptionMonthlyUsageRecordCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  fullName: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.SubscriptionMonthlyUsageRecordCollectionOperations(IPartner rootPartnerOperations, String customerId)
-  overload: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.SubscriptionMonthlyUsageRecordCollectionOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.usage
-  summary: Initializes a new instance of the SubscriptionMonthlyUsageRecordCollectionOperations class.
-  syntax:
-    content: public SubscriptionMonthlyUsageRecordCollectionOperations(IPartner rootPartnerOperations, String customerId)
-    parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The root partner operations instance.
-    - id: customerId
-      type: java.lang.String
-      description: The customer identifier.
-- uid: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations
-  langs:
-  - java
-  name: get()
-  nameWithType: SubscriptionMonthlyUsageRecordCollectionOperations.get()
-  fullName: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.get()
-  overload: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.usage
-  summary: Retrieves the subscription monthly usage records.
-  syntax:
-    content: public ResourceCollection<SubscriptionMonthlyUsageRecord> get()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord>
-      description: Collection of subscription monthly usage records.
-references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.SubscriptionMonthlyUsageRecordCollectionOperations*
-  name: SubscriptionMonthlyUsageRecordCollectionOperations
-  nameWithType: SubscriptionMonthlyUsageRecordCollectionOperations.SubscriptionMonthlyUsageRecordCollectionOperations
-  fullName: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.SubscriptionMonthlyUsageRecordCollectionOperations
-  package: com.microsoft.store.partnercenter.usage
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord>
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
-    name: SubscriptionMonthlyUsageRecord
-    fullName: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.get*
-  name: get
-  nameWithType: SubscriptionMonthlyUsageRecordCollectionOperations.get
-  fullName: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.get
-  package: com.microsoft.store.partnercenter.usage
-- uid: com.microsoft.store.partnercenter.BasePartnerComponentString
-  name: BasePartnerComponentString
-  nameWithType: BasePartnerComponentString
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponentString
-- uid: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
-  name: ISubscriptionMonthlyUsageRecordCollection
-  nameWithType: ISubscriptionMonthlyUsageRecordCollection
-  fullName: com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- uid: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
-  name: SubscriptionMonthlyUsageRecord
-  nameWithType: SubscriptionMonthlyUsageRecord
-  fullName: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations
+fullName: com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations
+name: SubscriptionMonthlyUsageRecordCollectionOperations
+nameWithType: SubscriptionMonthlyUsageRecordCollectionOperations
+summary: Implements operations related to a single subscription monthly usage records.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent?alt=com.microsoft.store.partnercenter.BasePartnerComponent&text=BasePartnerComponent" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponentString?alt=com.microsoft.store.partnercenter.BasePartnerComponentString&text=BasePartnerComponentString" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class SubscriptionMonthlyUsageRecordCollectionOperations extends BasePartnerComponentString implements ISubscriptionMonthlyUsageRecordCollection
+constructors:
+- com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.SubscriptionMonthlyUsageRecordCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+methods:
+- com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations.get()
+type: class
+implements:
+- <xref href="com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection?alt=com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection&text=ISubscriptionMonthlyUsageRecordCollection" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.usage
+artifact: com.microsoft.store:partnercenter:1.15.3

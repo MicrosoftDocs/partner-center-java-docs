@@ -1,295 +1,75 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  id: OperationStatus
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing
-  children:
-  - com.microsoft.store.partnercenter.models.auditing.OperationStatus.DECLINE
-  - com.microsoft.store.partnercenter.models.auditing.OperationStatus.FAILED
-  - com.microsoft.store.partnercenter.models.auditing.OperationStatus.PROGRESS
-  - com.microsoft.store.partnercenter.models.auditing.OperationStatus.SUCCEEDED
-  - com.microsoft.store.partnercenter.models.auditing.OperationStatus.toString()
-  - com.microsoft.store.partnercenter.models.auditing.OperationStatus.valueOf(java.lang.String)
-  - com.microsoft.store.partnercenter.models.auditing.OperationStatus.values()
-  langs:
-  - java
-  name: OperationStatus
-  nameWithType: OperationStatus
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  type: Enum
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Represents status of an operation
-  syntax:
-    content: public enum OperationStatus extends Enum<OperationStatus>
-  inheritance:
-  - java.lang.Object
-  - java.lang.Enum
-  inheritedMembers:
-  - java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  - java.lang.Enum.clone()
-  - java.lang.Enum.compareTo(E)
-  - java.lang.Enum.equals(java.lang.Object)
-  - java.lang.Enum.finalize()
-  - java.lang.Enum.getDeclaringClass()
-  - java.lang.Enum.hashCode()
-  - java.lang.Enum.name()
-  - java.lang.Enum.ordinal()
-  - java.lang.Enum.toString()
-  - java.lang.Object.getClass()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
+### YamlMime:JavaEnum
+uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus
+fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus
+name: OperationStatus
+nameWithType: OperationStatus
+summary: Represents status of an operation
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="java.lang.Enum?alt=java.lang.Enum&text=Enum" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+- java.lang.Enum.clone()
+- java.lang.Enum.compareTo(E)
+- java.lang.Enum.equals(java.lang.Object)
+- java.lang.Enum.finalize()
+- java.lang.Enum.getDeclaringClass()
+- java.lang.Enum.hashCode()
+- java.lang.Enum.name()
+- java.lang.Enum.ordinal()
+- java.lang.Enum.toString()
+- java.lang.Object.getClass()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public enum OperationStatus extends Enum<OperationStatus>
+fields:
 - uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.DECLINE
-  id: DECLINE
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.DECLINE
   name: DECLINE
   nameWithType: OperationStatus.DECLINE
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.DECLINE
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Indicates that the operation is declined
-  syntax:
-    content: public static final OperationStatus DECLINE
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.OperationStatus
 - uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.FAILED
-  id: FAILED
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.FAILED
   name: FAILED
   nameWithType: OperationStatus.FAILED
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.FAILED
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Indicates failure of the operation
-  syntax:
-    content: public static final OperationStatus FAILED
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-- uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.OperationStatus(java.lang.String)
-  id: OperationStatus(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  langs:
-  - java
-  name: OperationStatus(String value)
-  nameWithType: OperationStatus.OperationStatus(String value)
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.OperationStatus(String value)
-  overload: com.microsoft.store.partnercenter.models.auditing.OperationStatus.OperationStatus*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.auditing
-  syntax:
-    content: private OperationStatus(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
 - uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.PROGRESS
-  id: PROGRESS
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.PROGRESS
   name: PROGRESS
   nameWithType: OperationStatus.PROGRESS
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.PROGRESS
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Indicates that the operation is still in progress
-  syntax:
-    content: public static final OperationStatus PROGRESS
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.OperationStatus
 - uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.SUCCEEDED
-  id: SUCCEEDED
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.SUCCEEDED
   name: SUCCEEDED
   nameWithType: OperationStatus.SUCCEEDED
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.SUCCEEDED
-  type: Field
-  package: com.microsoft.store.partnercenter.models.auditing
-  summary: Indicates success of the operation
-  syntax:
-    content: public static final OperationStatus SUCCEEDED
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.OperationStatus
+methods:
 - uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.toString()
-  id: toString()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.toString()
   name: toString()
   nameWithType: OperationStatus.toString()
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.toString()
-  overload: com.microsoft.store.partnercenter.models.auditing.OperationStatus.toString*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.auditing
   summary: Converts the object to a string.
-  syntax:
-    content: public String toString()
-    return:
-      type: java.lang.String
-      description: A string that represents this object.
+  overridden: java.lang.Enum.toString()
+  syntax: public String toString()
+  returns:
+    description: A string that represents this object.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.valueOf(java.lang.String)
-  id: valueOf(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.valueOf(String name)
   name: valueOf(String name)
   nameWithType: OperationStatus.valueOf(String name)
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.valueOf(String name)
-  overload: com.microsoft.store.partnercenter.models.auditing.OperationStatus.valueOf*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.auditing
-  syntax:
-    content: public static OperationStatus valueOf(String name)
-    parameters:
-    - id: name
-      type: java.lang.String
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.OperationStatus
+  parameters:
+  - name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static OperationStatus valueOf(String name)
+  returns:
+    type: <xref href="com.microsoft.store.partnercenter.models.auditing.OperationStatus?alt=com.microsoft.store.partnercenter.models.auditing.OperationStatus&text=OperationStatus" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.values()
-  id: values()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.values()
   name: values()
   nameWithType: OperationStatus.values()
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.values()
-  overload: com.microsoft.store.partnercenter.models.auditing.OperationStatus.values*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.auditing
-  syntax:
-    content: public static OperationStatus[] values()
-    return:
-      type: com.microsoft.store.partnercenter.models.auditing.OperationStatus[]
-references:
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.OperationStatus*
-  name: OperationStatus
-  nameWithType: OperationStatus.OperationStatus
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.OperationStatus
-  package: com.microsoft.store.partnercenter.models.auditing
-- uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus[]
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-    name: OperationStatus
-    fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  - name: '[]'
-    fullName: '[]'
-- uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.values*
-  name: values
-  nameWithType: OperationStatus.values
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.values
-  package: com.microsoft.store.partnercenter.models.auditing
-- uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.valueOf*
-  name: valueOf
-  nameWithType: OperationStatus.valueOf
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.valueOf
-  package: com.microsoft.store.partnercenter.models.auditing
-- uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus.toString*
-  name: toString
-  nameWithType: OperationStatus.toString
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus.toString
-  package: com.microsoft.store.partnercenter.models.auditing
-- uid: java.lang.Enum<com.microsoft.store.partnercenter.models.auditing.OperationStatus>
-  name: Enum<OperationStatus>
-  nameWithType: Enum<OperationStatus>
-  fullName: java.lang.Enum<com.microsoft.store.partnercenter.models.auditing.OperationStatus>
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Enum.toString()
-  name: Enum.toString()
-  nameWithType: Enum.toString()
-  fullName: java.lang.Enum.toString()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Enum.clone()
-  name: Enum.clone()
-  nameWithType: Enum.clone()
-  fullName: java.lang.Enum.clone()
-- uid: java.lang.Enum.finalize()
-  name: Enum.finalize()
-  nameWithType: Enum.finalize()
-  fullName: java.lang.Enum.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Enum.compareTo(E)
-  name: Enum.compareTo(E)
-  nameWithType: Enum.compareTo(E)
-  fullName: java.lang.Enum.compareTo(E)
-- uid: java.lang.Enum.name()
-  name: Enum.name()
-  nameWithType: Enum.name()
-  fullName: java.lang.Enum.name()
-- uid: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  name: Enum.<T>valueOf(Class<T>,String)
-  nameWithType: Enum.<T>valueOf(Class<T>,String)
-  fullName: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Enum.getDeclaringClass()
-  name: Enum.getDeclaringClass()
-  nameWithType: Enum.getDeclaringClass()
-  fullName: java.lang.Enum.getDeclaringClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Enum.ordinal()
-  name: Enum.ordinal()
-  nameWithType: Enum.ordinal()
-  fullName: java.lang.Enum.ordinal()
-- uid: java.lang.Enum.hashCode()
-  name: Enum.hashCode()
-  nameWithType: Enum.hashCode()
-  fullName: java.lang.Enum.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Enum.equals(java.lang.Object)
-  name: Enum.equals(Object)
-  nameWithType: Enum.equals(Object)
-  fullName: java.lang.Enum.equals(java.lang.Object)
-- uid: java.lang.Enum
-  name: Enum
-  nameWithType: Enum
-  fullName: java.lang.Enum
-- uid: java.lang.Enum.
-  name: Enum.
-  nameWithType: Enum.
-  fullName: java.lang.Enum.
-- uid: T>,java.lang.String)
-  name: T>,String)
-  nameWithType: T>,String)
-  fullName: T>,java.lang.String)
-- uid: T>valueOf(java.lang.Class
-  name: T>valueOf(Class
-  nameWithType: T>valueOf(Class
-  fullName: T>valueOf(java.lang.Class
+  syntax: public static OperationStatus[] values()
+  returns:
+    type: <xref href="com.microsoft.store.partnercenter.models.auditing.OperationStatus?alt=com.microsoft.store.partnercenter.models.auditing.OperationStatus&text=OperationStatus" data-throw-if-not-resolved="False" />[]
+metadata: {}
+package: com.microsoft.store.partnercenter.models.auditing
+artifact: com.microsoft.store:partnercenter:1.15.3

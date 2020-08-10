@@ -1,48 +1,14 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency
-  id: IEstimateLinkCollectionByCurrency
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices
-  langs:
-  - java
-  name: IEstimateLinkCollectionByCurrency
-  nameWithType: IEstimateLinkCollectionByCurrency
-  fullName: com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency
-  type: Interface
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Holds operations that can be performed on estimate link collection that belong to a given currency.
-  syntax:
-    content: public interface IEstimateLinkCollectionByCurrency extends IPartnerComponent<String>, IEntityGetOperations<ResourceCollection<EstimateLink>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.EstimateLink>>
-references:
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.EstimateLink>>
-  name: IEntityGetOperations<ResourceCollection<EstimateLink>>
-  nameWithType: IEntityGetOperations<ResourceCollection<EstimateLink>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.EstimateLink>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>
-  name: IPartnerComponent<String>
-  nameWithType: IPartnerComponent<String>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  name: EstimateLink
-  nameWithType: EstimateLink
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: java.lang.String
-  name: String
-  nameWithType: String
-  fullName: java.lang.String
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency
+fullName: com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency
+name: IEstimateLinkCollectionByCurrency
+nameWithType: IEstimateLinkCollectionByCurrency
+summary: Holds operations that can be performed on estimate link collection that belong to a given currency.
+syntax: public interface IEstimateLinkCollectionByCurrency extends IPartnerComponent<String>, IEntityGetOperations<ResourceCollection<EstimateLink>>
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.invoices.EstimateLink?alt=com.microsoft.store.partnercenter.models.invoices.EstimateLink&text=EstimateLink" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.invoices
+artifact: com.microsoft.store:partnercenter:1.15.3

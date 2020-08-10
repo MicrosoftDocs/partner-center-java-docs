@@ -1,220 +1,34 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.licenses.License
-  id: License
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses
-  children:
-  - com.microsoft.store.partnercenter.models.licenses.License.License()
-  - com.microsoft.store.partnercenter.models.licenses.License.getProductSku()
-  - com.microsoft.store.partnercenter.models.licenses.License.getServicePlans()
-  - com.microsoft.store.partnercenter.models.licenses.License.setProductSku(com.microsoft.store.partnercenter.models.licenses.ProductSku)
-  - com.microsoft.store.partnercenter.models.licenses.License.setServicePlans(java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.ServicePlan>)
-  langs:
-  - java
-  name: License
-  nameWithType: License
-  fullName: com.microsoft.store.partnercenter.models.licenses.License
-  type: Class
-  package: com.microsoft.store.partnercenter.models.licenses
-  summary: Model for user licenses assigned to a user.
-  syntax:
-    content: public class License extends ResourceBase
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.licenses.License.License()
-  id: License()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses.License
-  langs:
-  - java
-  name: License()
-  nameWithType: License.License()
-  fullName: com.microsoft.store.partnercenter.models.licenses.License.License()
-  overload: com.microsoft.store.partnercenter.models.licenses.License.License*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.licenses
-  syntax:
-    content: public License()
-- uid: com.microsoft.store.partnercenter.models.licenses.License.getProductSku()
-  id: getProductSku()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses.License
-  langs:
-  - java
-  name: getProductSku()
-  nameWithType: License.getProductSku()
-  fullName: com.microsoft.store.partnercenter.models.licenses.License.getProductSku()
-  overload: com.microsoft.store.partnercenter.models.licenses.License.getProductSku*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.licenses
-  syntax:
-    content: public ProductSku getProductSku()
-    return:
-      type: com.microsoft.store.partnercenter.models.licenses.ProductSku
-- uid: com.microsoft.store.partnercenter.models.licenses.License.getServicePlans()
-  id: getServicePlans()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses.License
-  langs:
-  - java
-  name: getServicePlans()
-  nameWithType: License.getServicePlans()
-  fullName: com.microsoft.store.partnercenter.models.licenses.License.getServicePlans()
-  overload: com.microsoft.store.partnercenter.models.licenses.License.getServicePlans*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.licenses
-  syntax:
-    content: public Iterable<ServicePlan> getServicePlans()
-    return:
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.ServicePlan>
-- uid: com.microsoft.store.partnercenter.models.licenses.License.setProductSku(com.microsoft.store.partnercenter.models.licenses.ProductSku)
-  id: setProductSku(com.microsoft.store.partnercenter.models.licenses.ProductSku)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses.License
-  langs:
-  - java
-  name: setProductSku(ProductSku value)
-  nameWithType: License.setProductSku(ProductSku value)
-  fullName: com.microsoft.store.partnercenter.models.licenses.License.setProductSku(ProductSku value)
-  overload: com.microsoft.store.partnercenter.models.licenses.License.setProductSku*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.licenses
-  syntax:
-    content: public void setProductSku(ProductSku value)
-    parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.licenses.ProductSku
-- uid: com.microsoft.store.partnercenter.models.licenses.License.setServicePlans(java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.ServicePlan>)
-  id: setServicePlans(java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.ServicePlan>)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.licenses.License
-  langs:
-  - java
-  name: setServicePlans(Iterable<ServicePlan> value)
-  nameWithType: License.setServicePlans(Iterable<ServicePlan> value)
-  fullName: com.microsoft.store.partnercenter.models.licenses.License.setServicePlans(Iterable<ServicePlan> value)
-  overload: com.microsoft.store.partnercenter.models.licenses.License.setServicePlans*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.licenses
-  syntax:
-    content: public void setServicePlans(Iterable<ServicePlan> value)
-    parameters:
-    - id: value
-      type: java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.ServicePlan>
-references:
-- uid: com.microsoft.store.partnercenter.models.licenses.License.License*
-  name: License
-  nameWithType: License.License
-  fullName: com.microsoft.store.partnercenter.models.licenses.License.License
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.ServicePlan>
-  spec.java:
-  - uid: java.lang.Iterable
-    name: Iterable
-    fullName: java.lang.Iterable
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.licenses.ServicePlan
-    name: ServicePlan
-    fullName: com.microsoft.store.partnercenter.models.licenses.ServicePlan
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.models.licenses.License.getServicePlans*
-  name: getServicePlans
-  nameWithType: License.getServicePlans
-  fullName: com.microsoft.store.partnercenter.models.licenses.License.getServicePlans
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: com.microsoft.store.partnercenter.models.licenses.License.setServicePlans*
-  name: setServicePlans
-  nameWithType: License.setServicePlans
-  fullName: com.microsoft.store.partnercenter.models.licenses.License.setServicePlans
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: com.microsoft.store.partnercenter.models.licenses.ProductSku
-  name: ProductSku
-  nameWithType: ProductSku
-  fullName: com.microsoft.store.partnercenter.models.licenses.ProductSku
-- uid: com.microsoft.store.partnercenter.models.licenses.License.getProductSku*
-  name: getProductSku
-  nameWithType: License.getProductSku
-  fullName: com.microsoft.store.partnercenter.models.licenses.License.getProductSku
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: com.microsoft.store.partnercenter.models.licenses.License.setProductSku*
-  name: setProductSku
-  nameWithType: License.setProductSku
-  fullName: com.microsoft.store.partnercenter.models.licenses.License.setProductSku
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: com.microsoft.store.partnercenter.models.ResourceBase
-  name: ResourceBase
-  nameWithType: ResourceBase
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  name: ResourceBase.getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.models.licenses.ServicePlan
-  name: ServicePlan
-  nameWithType: ServicePlan
-  fullName: com.microsoft.store.partnercenter.models.licenses.ServicePlan
-- uid: java.lang.Iterable
-  name: Iterable
-  nameWithType: Iterable
-  fullName: java.lang.Iterable
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.models.licenses.License
+fullName: com.microsoft.store.partnercenter.models.licenses.License
+name: License
+nameWithType: License
+summary: Model for user licenses assigned to a user.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.models.ResourceBase?alt=com.microsoft.store.partnercenter.models.ResourceBase&text=ResourceBase" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class License extends ResourceBase
+constructors:
+- com.microsoft.store.partnercenter.models.licenses.License.License()
+methods:
+- com.microsoft.store.partnercenter.models.licenses.License.getProductSku()
+- com.microsoft.store.partnercenter.models.licenses.License.getServicePlans()
+- com.microsoft.store.partnercenter.models.licenses.License.setProductSku(com.microsoft.store.partnercenter.models.licenses.ProductSku)
+- com.microsoft.store.partnercenter.models.licenses.License.setServicePlans(java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.ServicePlan>)
+type: class
+metadata: {}
+package: com.microsoft.store.partnercenter.models.licenses
+artifact: com.microsoft.store:partnercenter:1.15.3

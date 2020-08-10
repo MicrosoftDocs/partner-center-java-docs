@@ -1,74 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
-  id: IBatchJobStatusCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment
-  children:
-  - com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId(java.lang.String)
-  langs:
-  - java
-  name: IBatchJobStatusCollection
-  nameWithType: IBatchJobStatusCollection
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Represents the operations that can be done on the partner's batch upload status collection.
-  syntax:
-    content: public interface IBatchJobStatusCollection extends IPartnerComponentString, IEntitySelector<String,IBatchJobStatus>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus>
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId(java.lang.String)
-  id: byId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
-  langs:
-  - java
-  name: byId(String trackingId)
-  nameWithType: IBatchJobStatusCollection.byId(String trackingId)
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId(String trackingId)
-  overload: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Retrieves a specific customer's devices batch upload status behavior.
-  syntax:
-    content: public abstract IBatchJobStatus byId(String trackingId)
-    parameters:
-    - id: trackingId
-      type: java.lang.String
-      description: The tracking identifier.
-    return:
-      type: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
-      description: The customer's devices batch upload status operations.
-references:
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
-  name: IBatchJobStatus
-  nameWithType: IBatchJobStatus
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId*
-  name: byId
-  nameWithType: IBatchJobStatusCollection.byId
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus>
-  name: IEntitySelector<String,IBatchJobStatus>
-  nameWithType: IEntitySelector<String,IBatchJobStatus>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  name: IEntitySelector
-  nameWithType: IEntitySelector
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-- uid: java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
-  name: String,IBatchJobStatus
-  nameWithType: String,IBatchJobStatus
-  fullName: java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
+name: IBatchJobStatusCollection
+nameWithType: IBatchJobStatusCollection
+summary: Represents the operations that can be done on the partner's batch upload status collection.
+syntax: public interface IBatchJobStatusCollection extends IPartnerComponentString, IEntitySelector<String,IBatchJobStatus>
+methods:
+- com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId(java.lang.String)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus?alt=com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus&text=IBatchJobStatus" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.devicesdeployment
+artifact: com.microsoft.store:partnercenter:1.15.3

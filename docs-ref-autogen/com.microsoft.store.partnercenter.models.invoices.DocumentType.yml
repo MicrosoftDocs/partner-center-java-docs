@@ -1,295 +1,75 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  id: DocumentType
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices
-  children:
-  - com.microsoft.store.partnercenter.models.invoices.DocumentType.ADJUSTMENT_NOTE
-  - com.microsoft.store.partnercenter.models.invoices.DocumentType.INVOICE
-  - com.microsoft.store.partnercenter.models.invoices.DocumentType.NONE
-  - com.microsoft.store.partnercenter.models.invoices.DocumentType.VOID_NOTE
-  - com.microsoft.store.partnercenter.models.invoices.DocumentType.toString()
-  - com.microsoft.store.partnercenter.models.invoices.DocumentType.valueOf(java.lang.String)
-  - com.microsoft.store.partnercenter.models.invoices.DocumentType.values()
-  langs:
-  - java
-  name: DocumentType
-  nameWithType: DocumentType
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  type: Enum
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Different providers of billing information.
-  syntax:
-    content: public enum DocumentType extends Enum<DocumentType>
-  inheritance:
-  - java.lang.Object
-  - java.lang.Enum
-  inheritedMembers:
-  - java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  - java.lang.Enum.clone()
-  - java.lang.Enum.compareTo(E)
-  - java.lang.Enum.equals(java.lang.Object)
-  - java.lang.Enum.finalize()
-  - java.lang.Enum.getDeclaringClass()
-  - java.lang.Enum.hashCode()
-  - java.lang.Enum.name()
-  - java.lang.Enum.ordinal()
-  - java.lang.Enum.toString()
-  - java.lang.Object.getClass()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
+### YamlMime:JavaEnum
+uid: com.microsoft.store.partnercenter.models.invoices.DocumentType
+fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType
+name: DocumentType
+nameWithType: DocumentType
+summary: Different providers of billing information.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="java.lang.Enum?alt=java.lang.Enum&text=Enum" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+- java.lang.Enum.clone()
+- java.lang.Enum.compareTo(E)
+- java.lang.Enum.equals(java.lang.Object)
+- java.lang.Enum.finalize()
+- java.lang.Enum.getDeclaringClass()
+- java.lang.Enum.hashCode()
+- java.lang.Enum.name()
+- java.lang.Enum.ordinal()
+- java.lang.Enum.toString()
+- java.lang.Object.getClass()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public enum DocumentType extends Enum<DocumentType>
+fields:
 - uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.ADJUSTMENT_NOTE
-  id: ADJUSTMENT_NOTE
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.ADJUSTMENT_NOTE
   name: ADJUSTMENT_NOTE
   nameWithType: DocumentType.ADJUSTMENT_NOTE
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.ADJUSTMENT_NOTE
-  type: Field
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Indicates that document type is an adjustment note.
-  syntax:
-    content: public static final DocumentType ADJUSTMENT_NOTE
-    return:
-      type: com.microsoft.store.partnercenter.models.invoices.DocumentType
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.DocumentType(java.lang.String)
-  id: DocumentType(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  langs:
-  - java
-  name: DocumentType(String value)
-  nameWithType: DocumentType.DocumentType(String value)
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.DocumentType(String value)
-  overload: com.microsoft.store.partnercenter.models.invoices.DocumentType.DocumentType*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: private DocumentType(String value)
-    parameters:
-    - id: value
-      type: java.lang.String
 - uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.INVOICE
-  id: INVOICE
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.INVOICE
   name: INVOICE
   nameWithType: DocumentType.INVOICE
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.INVOICE
-  type: Field
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Indicates that document type is an invoice.
-  syntax:
-    content: public static final DocumentType INVOICE
-    return:
-      type: com.microsoft.store.partnercenter.models.invoices.DocumentType
 - uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.NONE
-  id: NONE
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.NONE
   name: NONE
   nameWithType: DocumentType.NONE
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.NONE
-  type: Field
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Value if not set.
-  syntax:
-    content: public static final DocumentType NONE
-    return:
-      type: com.microsoft.store.partnercenter.models.invoices.DocumentType
 - uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.VOID_NOTE
-  id: VOID_NOTE
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.VOID_NOTE
   name: VOID_NOTE
   nameWithType: DocumentType.VOID_NOTE
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.VOID_NOTE
-  type: Field
-  package: com.microsoft.store.partnercenter.models.invoices
-  summary: Indicates that document type is an void note.
-  syntax:
-    content: public static final DocumentType VOID_NOTE
-    return:
-      type: com.microsoft.store.partnercenter.models.invoices.DocumentType
+methods:
 - uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString()
-  id: toString()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString()
   name: toString()
   nameWithType: DocumentType.toString()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString()
-  overload: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
   summary: Converts the object to a string.
-  syntax:
-    content: public String toString()
-    return:
-      type: java.lang.String
-      description: A string that represents this object.
+  overridden: java.lang.Enum.toString()
+  syntax: public String toString()
+  returns:
+    description: A string that represents this object.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.valueOf(java.lang.String)
-  id: valueOf(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.valueOf(String name)
   name: valueOf(String name)
   nameWithType: DocumentType.valueOf(String name)
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.valueOf(String name)
-  overload: com.microsoft.store.partnercenter.models.invoices.DocumentType.valueOf*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public static DocumentType valueOf(String name)
-    parameters:
-    - id: name
-      type: java.lang.String
-    return:
-      type: com.microsoft.store.partnercenter.models.invoices.DocumentType
+  parameters:
+  - name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static DocumentType valueOf(String name)
+  returns:
+    type: <xref href="com.microsoft.store.partnercenter.models.invoices.DocumentType?alt=com.microsoft.store.partnercenter.models.invoices.DocumentType&text=DocumentType" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.values()
-  id: values()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  langs:
-  - java
+  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.values()
   name: values()
   nameWithType: DocumentType.values()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.values()
-  overload: com.microsoft.store.partnercenter.models.invoices.DocumentType.values*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.invoices
-  syntax:
-    content: public static DocumentType[] values()
-    return:
-      type: com.microsoft.store.partnercenter.models.invoices.DocumentType[]
-references:
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.DocumentType*
-  name: DocumentType
-  nameWithType: DocumentType.DocumentType
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.DocumentType
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType[]
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.invoices.DocumentType
-    name: DocumentType
-    fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  - name: '[]'
-    fullName: '[]'
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.values*
-  name: values
-  nameWithType: DocumentType.values
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.values
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.valueOf*
-  name: valueOf
-  nameWithType: DocumentType.valueOf
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.valueOf
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString*
-  name: toString
-  nameWithType: DocumentType.toString
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString
-  package: com.microsoft.store.partnercenter.models.invoices
-- uid: java.lang.Enum<com.microsoft.store.partnercenter.models.invoices.DocumentType>
-  name: Enum<DocumentType>
-  nameWithType: Enum<DocumentType>
-  fullName: java.lang.Enum<com.microsoft.store.partnercenter.models.invoices.DocumentType>
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Enum.toString()
-  name: Enum.toString()
-  nameWithType: Enum.toString()
-  fullName: java.lang.Enum.toString()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Enum.clone()
-  name: Enum.clone()
-  nameWithType: Enum.clone()
-  fullName: java.lang.Enum.clone()
-- uid: java.lang.Enum.finalize()
-  name: Enum.finalize()
-  nameWithType: Enum.finalize()
-  fullName: java.lang.Enum.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Enum.compareTo(E)
-  name: Enum.compareTo(E)
-  nameWithType: Enum.compareTo(E)
-  fullName: java.lang.Enum.compareTo(E)
-- uid: java.lang.Enum.name()
-  name: Enum.name()
-  nameWithType: Enum.name()
-  fullName: java.lang.Enum.name()
-- uid: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-  name: Enum.<T>valueOf(Class<T>,String)
-  nameWithType: Enum.<T>valueOf(Class<T>,String)
-  fullName: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Enum.getDeclaringClass()
-  name: Enum.getDeclaringClass()
-  nameWithType: Enum.getDeclaringClass()
-  fullName: java.lang.Enum.getDeclaringClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Enum.ordinal()
-  name: Enum.ordinal()
-  nameWithType: Enum.ordinal()
-  fullName: java.lang.Enum.ordinal()
-- uid: java.lang.Enum.hashCode()
-  name: Enum.hashCode()
-  nameWithType: Enum.hashCode()
-  fullName: java.lang.Enum.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Enum.equals(java.lang.Object)
-  name: Enum.equals(Object)
-  nameWithType: Enum.equals(Object)
-  fullName: java.lang.Enum.equals(java.lang.Object)
-- uid: java.lang.Enum
-  name: Enum
-  nameWithType: Enum
-  fullName: java.lang.Enum
-- uid: java.lang.Enum.
-  name: Enum.
-  nameWithType: Enum.
-  fullName: java.lang.Enum.
-- uid: T>,java.lang.String)
-  name: T>,String)
-  nameWithType: T>,String)
-  fullName: T>,java.lang.String)
-- uid: T>valueOf(java.lang.Class
-  name: T>valueOf(Class
-  nameWithType: T>valueOf(Class
-  fullName: T>valueOf(java.lang.Class
+  syntax: public static DocumentType[] values()
+  returns:
+    type: <xref href="com.microsoft.store.partnercenter.models.invoices.DocumentType?alt=com.microsoft.store.partnercenter.models.invoices.DocumentType&text=DocumentType" data-throw-if-not-resolved="False" />[]
+metadata: {}
+package: com.microsoft.store.partnercenter.models.invoices
+artifact: com.microsoft.store:partnercenter:1.15.3

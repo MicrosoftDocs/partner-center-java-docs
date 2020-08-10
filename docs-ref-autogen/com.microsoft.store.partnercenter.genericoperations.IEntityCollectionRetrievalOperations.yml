@@ -1,51 +1,17 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations
-  id: IEntityCollectionRetrievalOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.genericoperations
-  langs:
-  - java
-  name: IEntityCollectionRetrievalOperations<T,TResourceCollection>
-  nameWithType: IEntityCollectionRetrievalOperations<T,TResourceCollection>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<T,TResourceCollection>
-  type: Interface
-  package: com.microsoft.store.partnercenter.genericoperations
-  summary: Groups all operations related to retrieving a collection of entities. The entity type.The entity collection type.
-  syntax:
-    content: public interface IEntityCollectionRetrievalOperations<T,TResourceCollection> extends IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>, IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
-    typeParameters:
-    - id: T
-    - id: TResourceCollection
-  implements:
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-  - com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
-references:
-- uid: T
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: TResourceCollection
-  name: TResourceCollection
-  nameWithType: TResourceCollection
-  fullName: TResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
-  name: IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
-  nameWithType: IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-  name: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-- uid: T,TResourceCollection
-  name: T,TResourceCollection
-  nameWithType: T,TResourceCollection
-  fullName: T,TResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations
-  name: IPagedEntityCollectionRetrievalOperations
-  nameWithType: IPagedEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations
+fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<T,TResourceCollection>
+name: IEntityCollectionRetrievalOperations<T,TResourceCollection>
+nameWithType: IEntityCollectionRetrievalOperations<T,TResourceCollection>
+summary: Groups all operations related to retrieving a collection of entities. The entity type.The entity collection type.
+syntax: public interface IEntityCollectionRetrievalOperations<T,TResourceCollection> extends IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>, IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
+type: interface
+typeParameters:
+- name: T
+- name: TResourceCollection
+implements:
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />,<xref href="TResourceCollection?alt=TResourceCollection&text=TResourceCollection" data-throw-if-not-resolved="False" />&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations&text=IPagedEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />,<xref href="TResourceCollection?alt=TResourceCollection&text=TResourceCollection" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.genericoperations
+artifact: com.microsoft.store:partnercenter:1.15.3

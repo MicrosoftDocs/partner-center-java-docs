@@ -1,40 +1,14 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
-  id: IPartnerLicensesUsageInsightsCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.analytics
-  langs:
-  - java
-  name: IPartnerLicensesUsageInsightsCollection
-  nameWithType: IPartnerLicensesUsageInsightsCollection
-  fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.analytics
-  summary: Encapsulates the operations on the partner's licenses' usage insights collection.
-  syntax:
-    content: public interface IPartnerLicensesUsageInsightsCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<PartnerLicensesUsageInsights,ResourceCollection<PartnerLicensesUsageInsights>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights>>
-references:
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights>>
-  name: IEntireEntityCollectionRetrievalOperations<PartnerLicensesUsageInsights,ResourceCollection<PartnerLicensesUsageInsights>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<PartnerLicensesUsageInsights,ResourceCollection<PartnerLicensesUsageInsights>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights>>
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: PartnerLicensesUsageInsights,ResourceCollection
-  nameWithType: PartnerLicensesUsageInsights,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights,com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
-  name: PartnerLicensesUsageInsights
-  nameWithType: PartnerLicensesUsageInsights
-  fullName: com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
+fullName: com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection
+name: IPartnerLicensesUsageInsightsCollection
+nameWithType: IPartnerLicensesUsageInsightsCollection
+summary: Encapsulates the operations on the partner's licenses' usage insights collection.
+syntax: public interface IPartnerLicensesUsageInsightsCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<PartnerLicensesUsageInsights,ResourceCollection<PartnerLicensesUsageInsights>>
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights?alt=com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights&text=PartnerLicensesUsageInsights" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights?alt=com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights&text=PartnerLicensesUsageInsights" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.analytics
+artifact: com.microsoft.store:partnercenter:1.15.3

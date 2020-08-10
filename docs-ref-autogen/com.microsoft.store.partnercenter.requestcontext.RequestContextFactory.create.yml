@@ -1,0 +1,104 @@
+### YamlMime:JavaMember
+uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create*
+fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create()
+name: create()
+nameWithType: RequestContextFactory.create()
+members:
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create()
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create()
+  name: create()
+  nameWithType: RequestContextFactory.create()
+  summary: |-
+    Creates a request context object which will use a randomly generated correlation Id and a unique request Id for
+     each partner API call.
+  syntax: public IRequestContext create()
+  returns:
+    description: A request context object.
+    type: <xref href="com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext" data-throw-if-not-resolved="False" />
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.lang.String)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(String locale)
+  name: create(String locale)
+  nameWithType: RequestContextFactory.create(String locale)
+  summary: |-
+    Creates a request context object which will use a randomly generated correlation Id, a unique request Id and
+     provided locale for each partner API call.
+  parameters:
+  - description: The locale.
+    name: locale
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public IRequestContext create(String locale)
+  returns:
+    description: A request context object.
+    type: <xref href="com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext" data-throw-if-not-resolved="False" />
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId)
+  name: create(UUID correlationId)
+  nameWithType: RequestContextFactory.create(UUID correlationId)
+  summary: |-
+    Creates a request context object with the provided correlation Id and a unique request Id for each partner API
+     call.
+  parameters:
+  - description: The correlation Id.
+    name: correlationId
+    type: <xref href="java.util.UUID?alt=java.util.UUID&text=UUID" data-throw-if-not-resolved="False" />
+  syntax: public IRequestContext create(UUID correlationId)
+  returns:
+    description: A request context object.
+    type: <xref href="com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext" data-throw-if-not-resolved="False" />
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.lang.String)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId, String locale)
+  name: create(UUID correlationId, String locale)
+  nameWithType: RequestContextFactory.create(UUID correlationId, String locale)
+  summary: |-
+    Creates a request context object with the provided correlation Id, a unique request Id and provided locale for
+     each partner API call.
+  parameters:
+  - description: The correlation Id.
+    name: correlationId
+    type: <xref href="java.util.UUID?alt=java.util.UUID&text=UUID" data-throw-if-not-resolved="False" />
+  - description: The locale
+    name: locale
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public IRequestContext create(UUID correlationId, String locale)
+  returns:
+    description: A request context object.
+    type: <xref href="com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext" data-throw-if-not-resolved="False" />
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId, UUID requestId)
+  name: create(UUID correlationId, UUID requestId)
+  nameWithType: RequestContextFactory.create(UUID correlationId, UUID requestId)
+  summary: Creates a request context object with the provided correlation and request Ids.
+  parameters:
+  - description: The correlation Id.
+    name: correlationId
+    type: <xref href="java.util.UUID?alt=java.util.UUID&text=UUID" data-throw-if-not-resolved="False" />
+  - description: The request Id.
+    name: requestId
+    type: <xref href="java.util.UUID?alt=java.util.UUID&text=UUID" data-throw-if-not-resolved="False" />
+  syntax: public IRequestContext create(UUID correlationId, UUID requestId)
+  returns:
+    description: A request context object.
+    type: <xref href="com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext" data-throw-if-not-resolved="False" />
+- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID,java.lang.String)
+  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(UUID correlationId, UUID requestId, String locale)
+  name: create(UUID correlationId, UUID requestId, String locale)
+  nameWithType: RequestContextFactory.create(UUID correlationId, UUID requestId, String locale)
+  summary: Creates a request context object with the provided correlation, request Ids and locale.
+  parameters:
+  - description: The correlation Id.
+    name: correlationId
+    type: <xref href="java.util.UUID?alt=java.util.UUID&text=UUID" data-throw-if-not-resolved="False" />
+  - description: The request Id.
+    name: requestId
+    type: <xref href="java.util.UUID?alt=java.util.UUID&text=UUID" data-throw-if-not-resolved="False" />
+  - description: The locale.
+    name: locale
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public IRequestContext create(UUID correlationId, UUID requestId, String locale)
+  returns:
+    description: A request context object.
+    type: <xref href="com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.microsoft.store.partnercenter.requestcontext
+artifact: com.microsoft.store:partnercenter:1.15.3

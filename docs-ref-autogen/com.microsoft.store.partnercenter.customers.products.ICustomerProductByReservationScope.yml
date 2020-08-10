@@ -1,48 +1,14 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.customers.products.ICustomerProductByReservationScope
-  id: ICustomerProductByReservationScope
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customers.products
-  langs:
-  - java
-  name: ICustomerProductByReservationScope
-  nameWithType: ICustomerProductByReservationScope
-  fullName: com.microsoft.store.partnercenter.customers.products.ICustomerProductByReservationScope
-  type: Interface
-  package: com.microsoft.store.partnercenter.customers.products
-  summary: Represents operations that can be performed on a single product filtered by reservation scope.
-  syntax:
-    content: public interface ICustomerProductByReservationScope extends IPartnerComponent<TripletTuple<String,String,String>>, IEntityGetOperations<Product>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.offers.Product>
-references:
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-  name: IPartnerComponent<TripletTuple<String,String,String>>
-  nameWithType: IPartnerComponent<TripletTuple<String,String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.offers.Product>
-  name: IEntityGetOperations<Product>
-  nameWithType: IEntityGetOperations<Product>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.offers.Product>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: java.lang.String,java.lang.String,java.lang.String
-  name: String,String,String
-  nameWithType: String,String,String
-  fullName: java.lang.String,java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
-  name: TripletTuple
-  nameWithType: TripletTuple
-  fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple
-- uid: com.microsoft.store.partnercenter.models.offers.Product
-  name: Product
-  nameWithType: Product
-  fullName: com.microsoft.store.partnercenter.models.offers.Product
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  name: IEntityGetOperations
-  nameWithType: IEntityGetOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.customers.products.ICustomerProductByReservationScope
+fullName: com.microsoft.store.partnercenter.customers.products.ICustomerProductByReservationScope
+name: ICustomerProductByReservationScope
+nameWithType: ICustomerProductByReservationScope
+summary: Represents operations that can be performed on a single product filtered by reservation scope.
+syntax: public interface ICustomerProductByReservationScope extends IPartnerComponent<TripletTuple<String,String,String>>, IEntityGetOperations<Product>
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.TripletTuple?alt=com.microsoft.store.partnercenter.models.utils.TripletTuple&text=TripletTuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.offers.Product?alt=com.microsoft.store.partnercenter.models.offers.Product&text=Product" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.customers.products
+artifact: com.microsoft.store:partnercenter:1.15.3

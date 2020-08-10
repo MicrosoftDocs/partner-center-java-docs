@@ -1,142 +1,18 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
-  id: ICustomerAgreementCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.agreements
-  children:
-  - com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType(java.lang.String)
-  - com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create(com.microsoft.store.partnercenter.models.agreements.Agreement)
-  - com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()
-  langs:
-  - java
-  name: ICustomerAgreementCollection
-  nameWithType: ICustomerAgreementCollection
-  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.agreements
-  summary: Encapsulates the operations on the Agreement collection.
-  syntax:
-    content: public interface ICustomerAgreementCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Agreement,ResourceCollection<Agreement>>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.agreements.Agreement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>>
-- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType(java.lang.String)
-  id: byAgreementType(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
-  langs:
-  - java
-  name: byAgreementType(String agreementType)
-  nameWithType: ICustomerAgreementCollection.byAgreementType(String agreementType)
-  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType(String agreementType)
-  overload: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType*
-  type: Method
-  package: com.microsoft.store.partnercenter.agreements
-  summary: Retrieves the operations tied with a specified agreement type.
-  syntax:
-    content: public abstract ICustomerAgreementCollection byAgreementType(String agreementType)
-    parameters:
-    - id: agreementType
-      type: java.lang.String
-      description: The agreement type used to filter.
-    return:
-      type: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
-      description: The customer agreement collection operations customized for the given type.
-- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create(com.microsoft.store.partnercenter.models.agreements.Agreement)
-  id: create(com.microsoft.store.partnercenter.models.agreements.Agreement)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
-  langs:
-  - java
-  name: create(Agreement newEntity)
-  nameWithType: ICustomerAgreementCollection.create(Agreement newEntity)
-  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create(Agreement newEntity)
-  overload: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create*
-  type: Method
-  package: com.microsoft.store.partnercenter.agreements
-  summary: Creates an agreement between the partner and customer.
-  syntax:
-    content: public abstract Agreement create(Agreement newEntity)
-    parameters:
-    - id: newEntity
-      type: com.microsoft.store.partnercenter.models.agreements.Agreement
-      description: The agreement to be created.
-    return:
-      type: com.microsoft.store.partnercenter.models.agreements.Agreement
-      description: The newly created agreement.
-- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
-  langs:
-  - java
-  name: get()
-  nameWithType: ICustomerAgreementCollection.get()
-  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()
-  overload: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.agreements
-  summary: Gets the list of agreements between a partner and customer.
-  syntax:
-    content: public abstract ResourceCollection<Agreement> get()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>
-      description: The list of the customer's agreements.
-references:
-- uid: com.microsoft.store.partnercenter.models.agreements.Agreement
-  name: Agreement
-  nameWithType: Agreement
-  fullName: com.microsoft.store.partnercenter.models.agreements.Agreement
-- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create*
-  name: create
-  nameWithType: ICustomerAgreementCollection.create
-  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create
-  package: com.microsoft.store.partnercenter.agreements
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.ResourceCollection
-    name: ResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.agreements.Agreement
-    name: Agreement
-    fullName: com.microsoft.store.partnercenter.models.agreements.Agreement
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get*
-  name: get
-  nameWithType: ICustomerAgreementCollection.get
-  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get
-  package: com.microsoft.store.partnercenter.agreements
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType*
-  name: byAgreementType
-  nameWithType: ICustomerAgreementCollection.byAgreementType
-  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType
-  package: com.microsoft.store.partnercenter.agreements
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.agreements.Agreement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>>
-  name: IEntireEntityCollectionRetrievalOperations<Agreement,ResourceCollection<Agreement>>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<Agreement,ResourceCollection<Agreement>>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.agreements.Agreement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>>
-- uid: com.microsoft.store.partnercenter.models.ResourceCollection
-  name: ResourceCollection
-  nameWithType: ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.ResourceCollection
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  name: IEntireEntityCollectionRetrievalOperations
-  nameWithType: IEntireEntityCollectionRetrievalOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-- uid: com.microsoft.store.partnercenter.models.agreements.Agreement,com.microsoft.store.partnercenter.models.ResourceCollection
-  name: Agreement,ResourceCollection
-  nameWithType: Agreement,ResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.agreements.Agreement,com.microsoft.store.partnercenter.models.ResourceCollection
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
+name: ICustomerAgreementCollection
+nameWithType: ICustomerAgreementCollection
+summary: Encapsulates the operations on the Agreement collection.
+syntax: public interface ICustomerAgreementCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Agreement,ResourceCollection<Agreement>>
+methods:
+- com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType(java.lang.String)
+- com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create(com.microsoft.store.partnercenter.models.agreements.Agreement)
+- com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.agreements.Agreement?alt=com.microsoft.store.partnercenter.models.agreements.Agreement&text=Agreement" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.agreements.Agreement?alt=com.microsoft.store.partnercenter.models.agreements.Agreement&text=Agreement" data-throw-if-not-resolved="False" />&gt;&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.agreements
+artifact: com.microsoft.store:partnercenter:1.15.3

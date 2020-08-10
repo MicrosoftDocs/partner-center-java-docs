@@ -1,87 +1,17 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.carts.ICartCollection
-  id: ICartCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.carts
-  children:
-  - com.microsoft.store.partnercenter.carts.ICartCollection.byId(java.lang.String)
-  langs:
-  - java
-  name: ICartCollection
-  nameWithType: ICartCollection
-  fullName: com.microsoft.store.partnercenter.carts.ICartCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.carts
-  summary: Encapsulates a customer cart behavior.
-  syntax:
-    content: public interface ICartCollection extends IPartnerComponentString, IEntityCreateOperations<Cart,Cart>, IEntitySelector<String,ICart>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.carts.Cart,com.microsoft.store.partnercenter.models.carts.Cart>
-  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.carts.ICart>
-- uid: com.microsoft.store.partnercenter.carts.ICartCollection.byId(java.lang.String)
-  id: byId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.carts.ICartCollection
-  langs:
-  - java
-  name: byId(String cartId)
-  nameWithType: ICartCollection.byId(String cartId)
-  fullName: com.microsoft.store.partnercenter.carts.ICartCollection.byId(String cartId)
-  overload: com.microsoft.store.partnercenter.carts.ICartCollection.byId*
-  type: Method
-  package: com.microsoft.store.partnercenter.carts
-  summary: Obtains a specific cart behavior.
-  syntax:
-    content: public abstract ICart byId(String cartId)
-    parameters:
-    - id: cartId
-      type: java.lang.String
-      description: Identifier for the cart.
-    return:
-      type: com.microsoft.store.partnercenter.carts.ICart
-      description: The available cart operations.
-references:
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.carts.ICart
-  name: ICart
-  nameWithType: ICart
-  fullName: com.microsoft.store.partnercenter.carts.ICart
-- uid: com.microsoft.store.partnercenter.carts.ICartCollection.byId*
-  name: byId
-  nameWithType: ICartCollection.byId
-  fullName: com.microsoft.store.partnercenter.carts.ICartCollection.byId
-  package: com.microsoft.store.partnercenter.carts
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.carts.ICart>
-  name: IEntitySelector<String,ICart>
-  nameWithType: IEntitySelector<String,ICart>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.carts.ICart>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.carts.Cart,com.microsoft.store.partnercenter.models.carts.Cart>
-  name: IEntityCreateOperations<Cart,Cart>
-  nameWithType: IEntityCreateOperations<Cart,Cart>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.carts.Cart,com.microsoft.store.partnercenter.models.carts.Cart>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  name: IEntitySelector
-  nameWithType: IEntitySelector
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-- uid: java.lang.String,com.microsoft.store.partnercenter.carts.ICart
-  name: String,ICart
-  nameWithType: String,ICart
-  fullName: java.lang.String,com.microsoft.store.partnercenter.carts.ICart
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-  name: IEntityCreateOperations
-  nameWithType: IEntityCreateOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-- uid: com.microsoft.store.partnercenter.models.carts.Cart,com.microsoft.store.partnercenter.models.carts.Cart
-  name: Cart,Cart
-  nameWithType: Cart,Cart
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart,com.microsoft.store.partnercenter.models.carts.Cart
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.carts.ICartCollection
+fullName: com.microsoft.store.partnercenter.carts.ICartCollection
+name: ICartCollection
+nameWithType: ICartCollection
+summary: Encapsulates a customer cart behavior.
+syntax: public interface ICartCollection extends IPartnerComponentString, IEntityCreateOperations<Cart,Cart>, IEntitySelector<String,ICart>
+methods:
+- com.microsoft.store.partnercenter.carts.ICartCollection.byId(java.lang.String)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.carts.Cart?alt=com.microsoft.store.partnercenter.models.carts.Cart&text=Cart" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.carts.Cart?alt=com.microsoft.store.partnercenter.models.carts.Cart&text=Cart" data-throw-if-not-resolved="False" />&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.carts.ICart?alt=com.microsoft.store.partnercenter.carts.ICart&text=ICart" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.carts
+artifact: com.microsoft.store:partnercenter:1.15.3

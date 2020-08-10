@@ -1,285 +1,37 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
-  id: UserMemberCollectionOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customerdirectoryroles
-  children:
-  - com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.UserMemberCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  - com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId(java.lang.String)
-  - com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create(com.microsoft.store.partnercenter.models.roles.UserMember)
-  - com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get()
-  - com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query(com.microsoft.store.partnercenter.models.query.IQuery)
-  langs:
-  - java
-  name: UserMemberCollectionOperations
-  nameWithType: UserMemberCollectionOperations
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.customerdirectoryroles
-  summary: UserMemberCollectionOperations Used for managing membership and access to directory roles.
-  syntax:
-    content: public class UserMemberCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IUserMemberCollection
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  implements:
-  - com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.UserMemberCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  id: UserMemberCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
-  langs:
-  - java
-  name: UserMemberCollectionOperations(IPartner rootPartnerOperations, String customerId, String roleId)
-  nameWithType: UserMemberCollectionOperations.UserMemberCollectionOperations(IPartner rootPartnerOperations, String customerId, String roleId)
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.UserMemberCollectionOperations(IPartner rootPartnerOperations, String customerId, String roleId)
-  overload: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.UserMemberCollectionOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.customerdirectoryroles
-  summary: Initializes a new instance of the UserMemberCollectionOperations class
-  syntax:
-    content: public UserMemberCollectionOperations(IPartner rootPartnerOperations, String customerId, String roleId)
-    parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The partner operations instance.
-    - id: customerId
-      type: java.lang.String
-      description: The customer identifier.
-    - id: roleId
-      type: java.lang.String
-      description: The directory role identifier.
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId(java.lang.String)
-  id: byId(java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
-  langs:
-  - java
-  name: byId(String userId)
-  nameWithType: UserMemberCollectionOperations.byId(String userId)
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId(String userId)
-  overload: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId*
-  type: Method
-  package: com.microsoft.store.partnercenter.customerdirectoryroles
-  summary: Get a single user member operations object.
-  syntax:
-    content: public IUserMember byId(String userId)
-    parameters:
-    - id: userId
-      type: java.lang.String
-      description: The user identifier.
-    return:
-      type: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
-      description: The user member operations instance.
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create(com.microsoft.store.partnercenter.models.roles.UserMember)
-  id: create(com.microsoft.store.partnercenter.models.roles.UserMember)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
-  langs:
-  - java
-  name: create(UserMember newEntity)
-  nameWithType: UserMemberCollectionOperations.create(UserMember newEntity)
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create(UserMember newEntity)
-  overload: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create*
-  type: Method
-  package: com.microsoft.store.partnercenter.customerdirectoryroles
-  summary: Adds customer user to a directory role.
-  syntax:
-    content: public UserMember create(UserMember newEntity)
-    parameters:
-    - id: newEntity
-      type: com.microsoft.store.partnercenter.models.roles.UserMember
-      description: The user to be added,
-    return:
-      type: com.microsoft.store.partnercenter.models.roles.UserMember
-      description: The customer directory role user member.
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
-  langs:
-  - java
-  name: get()
-  nameWithType: UserMemberCollectionOperations.get()
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get()
-  overload: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.customerdirectoryroles
-  summary: Gets all the user members of a customer directory role.
-  syntax:
-    content: public SeekBasedResourceCollection<UserMember> get()
-    return:
-      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>
-      description: The directory role user memberships.
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query(com.microsoft.store.partnercenter.models.query.IQuery)
-  id: query(com.microsoft.store.partnercenter.models.query.IQuery)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
-  langs:
-  - java
-  name: query(IQuery query)
-  nameWithType: UserMemberCollectionOperations.query(IQuery query)
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query(IQuery query)
-  overload: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query*
-  type: Method
-  package: com.microsoft.store.partnercenter.customerdirectoryroles
-  summary: Retrieves the user members of a customer directory role.
-  syntax:
-    content: public SeekBasedResourceCollection<UserMember> query(IQuery query)
-    parameters:
-    - id: query
-      type: com.microsoft.store.partnercenter.models.query.IQuery
-      description: A query to apply onto user member collection.
-    return:
-      type: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>
-      description: The  directory role user memberships.
-references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.UserMemberCollectionOperations*
-  name: UserMemberCollectionOperations
-  nameWithType: UserMemberCollectionOperations.UserMemberCollectionOperations
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.UserMemberCollectionOperations
-  package: com.microsoft.store.partnercenter.customerdirectoryroles
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
-  name: IUserMember
-  nameWithType: IUserMember
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId*
-  name: byId
-  nameWithType: UserMemberCollectionOperations.byId
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId
-  package: com.microsoft.store.partnercenter.customerdirectoryroles
-- uid: com.microsoft.store.partnercenter.models.roles.UserMember
-  name: UserMember
-  nameWithType: UserMember
-  fullName: com.microsoft.store.partnercenter.models.roles.UserMember
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create*
-  name: create
-  nameWithType: UserMemberCollectionOperations.create
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create
-  package: com.microsoft.store.partnercenter.customerdirectoryroles
-- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>
-  spec.java:
-  - uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
-    name: SeekBasedResourceCollection
-    fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
-  - name: <
-    fullName: <
-  - uid: com.microsoft.store.partnercenter.models.roles.UserMember
-    name: UserMember
-    fullName: com.microsoft.store.partnercenter.models.roles.UserMember
-  - name: '>'
-    fullName: '>'
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get*
-  name: get
-  nameWithType: UserMemberCollectionOperations.get
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get
-  package: com.microsoft.store.partnercenter.customerdirectoryroles
-- uid: com.microsoft.store.partnercenter.models.query.IQuery
-  name: IQuery
-  nameWithType: IQuery
-  fullName: com.microsoft.store.partnercenter.models.query.IQuery
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query*
-  name: query
-  nameWithType: UserMemberCollectionOperations.query
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query
-  package: com.microsoft.store.partnercenter.customerdirectoryroles
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: BasePartnerComponent<Tuple<String,String>>
-  nameWithType: BasePartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
-  name: IUserMemberCollection
-  nameWithType: IUserMemberCollection
-  fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
-  name: SeekBasedResourceCollection
-  nameWithType: SeekBasedResourceCollection
-  fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent
-  name: BasePartnerComponent
-  nameWithType: BasePartnerComponent
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
+fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
+name: UserMemberCollectionOperations
+nameWithType: UserMemberCollectionOperations
+summary: UserMemberCollectionOperations Used for managing membership and access to directory roles.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent?alt=com.microsoft.store.partnercenter.BasePartnerComponent&text=BasePartnerComponent" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class UserMemberCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IUserMemberCollection
+constructors:
+- com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.UserMemberCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+methods:
+- com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId(java.lang.String)
+- com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create(com.microsoft.store.partnercenter.models.roles.UserMember)
+- com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get()
+- com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query(com.microsoft.store.partnercenter.models.query.IQuery)
+type: class
+implements:
+- <xref href="com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection?alt=com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection&text=IUserMemberCollection" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.customerdirectoryroles
+artifact: com.microsoft.store:partnercenter:1.15.3

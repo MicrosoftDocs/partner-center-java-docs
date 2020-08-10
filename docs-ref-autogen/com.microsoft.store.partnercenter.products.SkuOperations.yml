@@ -1,208 +1,35 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.products.SkuOperations
-  id: SkuOperations
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products
-  children:
-  - com.microsoft.store.partnercenter.products.SkuOperations.SkuOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
-  - com.microsoft.store.partnercenter.products.SkuOperations.get()
-  - com.microsoft.store.partnercenter.products.SkuOperations.getAvailabilities()
-  langs:
-  - java
-  name: SkuOperations
-  nameWithType: SkuOperations
-  fullName: com.microsoft.store.partnercenter.products.SkuOperations
-  type: Class
-  package: com.microsoft.store.partnercenter.products
-  summary: Implements a single sku operations.
-  syntax:
-    content: public class SkuOperations extends BasePartnerComponent<TripletTuple<String,String,String>> implements ISku
-  inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.BasePartnerComponent
-  implements:
-  - com.microsoft.store.partnercenter.products.ISku
-  inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.products.SkuOperations.SkuOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
-  id: SkuOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.SkuOperations
-  langs:
-  - java
-  name: SkuOperations(IPartner rootPartnerOperations, String productId, String skuId, String country)
-  nameWithType: SkuOperations.SkuOperations(IPartner rootPartnerOperations, String productId, String skuId, String country)
-  fullName: com.microsoft.store.partnercenter.products.SkuOperations.SkuOperations(IPartner rootPartnerOperations, String productId, String skuId, String country)
-  overload: com.microsoft.store.partnercenter.products.SkuOperations.SkuOperations*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.products
-  summary: Initializes a new instance of the SkuOperations class.
-  syntax:
-    content: public SkuOperations(IPartner rootPartnerOperations, String productId, String skuId, String country)
-    parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: The root partner operations instance.
-    - id: productId
-      type: java.lang.String
-      description: Identifier of the product.
-    - id: skuId
-      type: java.lang.String
-      description: Identifier of the SKU.
-    - id: country
-      type: java.lang.String
-      description: The country on which to base the availability.
-- uid: com.microsoft.store.partnercenter.products.SkuOperations.get()
-  id: get()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.SkuOperations
-  langs:
-  - java
-  name: get()
-  nameWithType: SkuOperations.get()
-  fullName: com.microsoft.store.partnercenter.products.SkuOperations.get()
-  overload: com.microsoft.store.partnercenter.products.SkuOperations.get*
-  type: Method
-  package: com.microsoft.store.partnercenter.products
-  summary: Retrieves the SKU information.
-  syntax:
-    content: public Sku get()
-    return:
-      type: com.microsoft.store.partnercenter.models.products.Sku
-      description: The SKUs information.
-- uid: com.microsoft.store.partnercenter.products.SkuOperations.getAvailabilities()
-  id: getAvailabilities()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.products.SkuOperations
-  langs:
-  - java
-  name: getAvailabilities()
-  nameWithType: SkuOperations.getAvailabilities()
-  fullName: com.microsoft.store.partnercenter.products.SkuOperations.getAvailabilities()
-  overload: com.microsoft.store.partnercenter.products.SkuOperations.getAvailabilities*
-  type: Method
-  package: com.microsoft.store.partnercenter.products
-  summary: Retrieves the operations for the current SKU's availabilities.
-  syntax:
-    content: public IAvailabilityCollection getAvailabilities()
-    return:
-      type: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-      description: The operations for the current SKU's availabilities.
-references:
-- uid: com.microsoft.store.partnercenter.IPartner
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.products.SkuOperations.SkuOperations*
-  name: SkuOperations
-  nameWithType: SkuOperations.SkuOperations
-  fullName: com.microsoft.store.partnercenter.products.SkuOperations.SkuOperations
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-  name: IAvailabilityCollection
-  nameWithType: IAvailabilityCollection
-  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-- uid: com.microsoft.store.partnercenter.products.SkuOperations.getAvailabilities*
-  name: getAvailabilities
-  nameWithType: SkuOperations.getAvailabilities
-  fullName: com.microsoft.store.partnercenter.products.SkuOperations.getAvailabilities
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.models.products.Sku
-  name: Sku
-  nameWithType: Sku
-  fullName: com.microsoft.store.partnercenter.models.products.Sku
-- uid: com.microsoft.store.partnercenter.products.SkuOperations.get*
-  name: get
-  nameWithType: SkuOperations.get
-  fullName: com.microsoft.store.partnercenter.products.SkuOperations.get
-  package: com.microsoft.store.partnercenter.products
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-  name: BasePartnerComponent<TripletTuple<String,String,String>>
-  nameWithType: BasePartnerComponent<TripletTuple<String,String,String>>
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.products.ISku
-  name: ISku
-  nameWithType: ISku
-  fullName: com.microsoft.store.partnercenter.products.ISku
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  name: BasePartnerComponent.getPartner()
-  nameWithType: BasePartnerComponent.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  name: BasePartnerComponent.getContext()
-  nameWithType: BasePartnerComponent.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- uid: java.lang.String,java.lang.String,java.lang.String
-  name: String,String,String
-  nameWithType: String,String,String
-  fullName: java.lang.String,java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent
-  name: BasePartnerComponent
-  nameWithType: BasePartnerComponent
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
-  name: TripletTuple
-  nameWithType: TripletTuple
-  fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.products.SkuOperations
+fullName: com.microsoft.store.partnercenter.products.SkuOperations
+name: SkuOperations
+nameWithType: SkuOperations
+summary: Implements a single sku operations.
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent?alt=com.microsoft.store.partnercenter.BasePartnerComponent&text=BasePartnerComponent" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
+- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class SkuOperations extends BasePartnerComponent<TripletTuple<String,String,String>> implements ISku
+constructors:
+- com.microsoft.store.partnercenter.products.SkuOperations.SkuOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
+methods:
+- com.microsoft.store.partnercenter.products.SkuOperations.get()
+- com.microsoft.store.partnercenter.products.SkuOperations.getAvailabilities()
+type: class
+implements:
+- <xref href="com.microsoft.store.partnercenter.products.ISku?alt=com.microsoft.store.partnercenter.products.ISku&text=ISku" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.products
+artifact: com.microsoft.store:partnercenter:1.15.3

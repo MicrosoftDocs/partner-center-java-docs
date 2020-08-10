@@ -1,70 +1,16 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
-  id: IApplicationConsent
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.applicationconsents
-  children:
-  - com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.delete()
-  langs:
-  - java
-  name: IApplicationConsent
-  nameWithType: IApplicationConsent
-  fullName: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
-  type: Interface
-  package: com.microsoft.store.partnercenter.applicationconsents
-  summary: Represents an application consent
-  syntax:
-    content: public interface IApplicationConsent extends IPartnerComponent<Tuple<String,String>>, IEntityDeleteOperations<ApplicationConsent>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent>
-- uid: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.delete()
-  id: delete()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
-  langs:
-  - java
-  name: delete()
-  nameWithType: IApplicationConsent.delete()
-  fullName: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.delete()
-  overload: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.delete*
-  type: Method
-  package: com.microsoft.store.partnercenter.applicationconsents
-  summary: Remove application consent.
-  syntax:
-    content: public abstract void delete()
-references:
-- uid: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.delete*
-  name: delete
-  nameWithType: IApplicationConsent.delete
-  fullName: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.delete
-  package: com.microsoft.store.partnercenter.applicationconsents
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-  name: IPartnerComponent<Tuple<String,String>>
-  nameWithType: IPartnerComponent<Tuple<String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent>
-  name: IEntityDeleteOperations<ApplicationConsent>
-  nameWithType: IEntityDeleteOperations<ApplicationConsent>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  name: Tuple
-  nameWithType: Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple
-- uid: java.lang.String,java.lang.String
-  name: String,String
-  nameWithType: String,String
-  fullName: java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent
-  name: ApplicationConsent
-  nameWithType: ApplicationConsent
-  fullName: com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
-  name: IEntityDeleteOperations
-  nameWithType: IEntityDeleteOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
+fullName: com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent
+name: IApplicationConsent
+nameWithType: IApplicationConsent
+summary: Represents an application consent
+syntax: public interface IApplicationConsent extends IPartnerComponent<Tuple<String,String>>, IEntityDeleteOperations<ApplicationConsent>
+methods:
+- com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.delete()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations&text=IEntityDeleteOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent?alt=com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent&text=ApplicationConsent" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.applicationconsents
+artifact: com.microsoft.store:partnercenter:1.15.3

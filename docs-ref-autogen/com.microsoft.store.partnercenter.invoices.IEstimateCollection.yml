@@ -1,60 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.invoices.IEstimateCollection
-  id: IEstimateCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices
-  children:
-  - com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks()
-  langs:
-  - java
-  name: IEstimateCollection
-  nameWithType: IEstimateCollection
-  fullName: com.microsoft.store.partnercenter.invoices.IEstimateCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Represents the operations that can be done on the partner's estimate collection.
-  syntax:
-    content: public interface IEstimateCollection extends IPartnerComponent<String>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>
-- uid: com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks()
-  id: getLinks()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.invoices.IEstimateCollection
-  langs:
-  - java
-  name: getLinks()
-  nameWithType: IEstimateCollection.getLinks()
-  fullName: com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks()
-  overload: com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks*
-  type: Method
-  package: com.microsoft.store.partnercenter.invoices
-  summary: Gets the estimate links for the recon line items.
-  syntax:
-    content: public abstract IEstimateLink getLinks()
-    return:
-      type: com.microsoft.store.partnercenter.invoices.IEstimateLink
-      description: The estimate links for the recon line items.
-references:
-- uid: com.microsoft.store.partnercenter.invoices.IEstimateLink
-  name: IEstimateLink
-  nameWithType: IEstimateLink
-  fullName: com.microsoft.store.partnercenter.invoices.IEstimateLink
-- uid: com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks*
-  name: getLinks
-  nameWithType: IEstimateCollection.getLinks
-  fullName: com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks
-  package: com.microsoft.store.partnercenter.invoices
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>
-  name: IPartnerComponent<String>
-  nameWithType: IPartnerComponent<String>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: java.lang.String
-  name: String
-  nameWithType: String
-  fullName: java.lang.String
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.invoices.IEstimateCollection
+fullName: com.microsoft.store.partnercenter.invoices.IEstimateCollection
+name: IEstimateCollection
+nameWithType: IEstimateCollection
+summary: Represents the operations that can be done on the partner's estimate collection.
+syntax: public interface IEstimateCollection extends IPartnerComponent<String>
+methods:
+- com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.invoices
+artifact: com.microsoft.store:partnercenter:1.15.3

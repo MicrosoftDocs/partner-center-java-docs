@@ -1,203 +1,34 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple
-  id: Tuple
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.utils
-  children:
-  - com.microsoft.store.partnercenter.models.utils.Tuple.Tuple(T1,T2)
-  - com.microsoft.store.partnercenter.models.utils.Tuple.getItem1()
-  - com.microsoft.store.partnercenter.models.utils.Tuple.getItem2()
-  - com.microsoft.store.partnercenter.models.utils.Tuple.setItem1(T1)
-  - com.microsoft.store.partnercenter.models.utils.Tuple.setItem2(T2)
-  langs:
-  - java
-  name: Tuple<T1,T2>
-  nameWithType: Tuple<T1,T2>
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>
-  type: Class
-  package: com.microsoft.store.partnercenter.models.utils
-  syntax:
-    content: public class Tuple<T1,T2>
-    typeParameters:
-    - id: T1
-    - id: T2
-  inheritance:
-  - java.lang.Object
-  inheritedMembers:
-  - java.lang.Object.clone()
-  - java.lang.Object.equals(java.lang.Object)
-  - java.lang.Object.finalize()
-  - java.lang.Object.getClass()
-  - java.lang.Object.hashCode()
-  - java.lang.Object.notify()
-  - java.lang.Object.notifyAll()
-  - java.lang.Object.toString()
-  - java.lang.Object.wait()
-  - java.lang.Object.wait(long)
-  - java.lang.Object.wait(long,int)
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple.Tuple(T1,T2)
-  id: Tuple(T1,T2)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.utils.Tuple
-  langs:
-  - java
-  name: Tuple(T1 item1, T2 item2)
-  nameWithType: Tuple<T1,T2>.Tuple(T1 item1, T2 item2)
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.Tuple(T1 item1, T2 item2)
-  overload: com.microsoft.store.partnercenter.models.utils.Tuple.Tuple*
-  type: Constructor
-  package: com.microsoft.store.partnercenter.models.utils
-  syntax:
-    content: public Tuple(T1 item1, T2 item2)
-    parameters:
-    - id: item1
-      type: T1
-    - id: item2
-      type: T2
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple.getItem1()
-  id: getItem1()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.utils.Tuple
-  langs:
-  - java
-  name: getItem1()
-  nameWithType: Tuple<T1,T2>.getItem1()
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.getItem1()
-  overload: com.microsoft.store.partnercenter.models.utils.Tuple.getItem1*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.utils
-  syntax:
-    content: public T1 getItem1()
-    return:
-      type: T1
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple.getItem2()
-  id: getItem2()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.utils.Tuple
-  langs:
-  - java
-  name: getItem2()
-  nameWithType: Tuple<T1,T2>.getItem2()
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.getItem2()
-  overload: com.microsoft.store.partnercenter.models.utils.Tuple.getItem2*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.utils
-  syntax:
-    content: public T2 getItem2()
-    return:
-      type: T2
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple.setItem1(T1)
-  id: setItem1(T1)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.utils.Tuple
-  langs:
-  - java
-  name: setItem1(T1 item1)
-  nameWithType: Tuple<T1,T2>.setItem1(T1 item1)
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.setItem1(T1 item1)
-  overload: com.microsoft.store.partnercenter.models.utils.Tuple.setItem1*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.utils
-  syntax:
-    content: public void setItem1(T1 item1)
-    parameters:
-    - id: item1
-      type: T1
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple.setItem2(T2)
-  id: setItem2(T2)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.models.utils.Tuple
-  langs:
-  - java
-  name: setItem2(T2 item2)
-  nameWithType: Tuple<T1,T2>.setItem2(T2 item2)
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.setItem2(T2 item2)
-  overload: com.microsoft.store.partnercenter.models.utils.Tuple.setItem2*
-  type: Method
-  package: com.microsoft.store.partnercenter.models.utils
-  syntax:
-    content: public void setItem2(T2 item2)
-    parameters:
-    - id: item2
-      type: T2
-references:
-- uid: T1
-  spec.java:
-  - uid: T1
-    name: T1
-    fullName: T1
-- uid: T2
-  spec.java:
-  - uid: T2
-    name: T2
-    fullName: T2
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple.Tuple*
-  name: Tuple
-  nameWithType: Tuple<T1,T2>.Tuple
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.Tuple
-  package: com.microsoft.store.partnercenter.models.utils
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple.getItem1*
-  name: getItem1
-  nameWithType: Tuple<T1,T2>.getItem1
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.getItem1
-  package: com.microsoft.store.partnercenter.models.utils
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple.setItem1*
-  name: setItem1
-  nameWithType: Tuple<T1,T2>.setItem1
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.setItem1
-  package: com.microsoft.store.partnercenter.models.utils
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple.getItem2*
-  name: getItem2
-  nameWithType: Tuple<T1,T2>.getItem2
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.getItem2
-  package: com.microsoft.store.partnercenter.models.utils
-- uid: com.microsoft.store.partnercenter.models.utils.Tuple.setItem2*
-  name: setItem2
-  nameWithType: Tuple<T1,T2>.setItem2
-  fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.setItem2
-  package: com.microsoft.store.partnercenter.models.utils
-- uid: java.lang.Object.notify()
-  name: Object.notify()
-  nameWithType: Object.notify()
-  fullName: java.lang.Object.notify()
-- uid: java.lang.Object.wait()
-  name: Object.wait()
-  nameWithType: Object.wait()
-  fullName: java.lang.Object.wait()
-- uid: java.lang.Object.finalize()
-  name: Object.finalize()
-  nameWithType: Object.finalize()
-  fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.clone()
-  name: Object.clone()
-  nameWithType: Object.clone()
-  fullName: java.lang.Object.clone()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
-- uid: java.lang.Object.equals(java.lang.Object)
-  name: Object.equals(Object)
-  nameWithType: Object.equals(Object)
-  fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.getClass()
-  name: Object.getClass()
-  nameWithType: Object.getClass()
-  fullName: java.lang.Object.getClass()
-- uid: java.lang.Object.wait(long)
-  name: Object.wait(long)
-  nameWithType: Object.wait(long)
-  fullName: java.lang.Object.wait(long)
-- uid: java.lang.Object.hashCode()
-  name: Object.hashCode()
-  nameWithType: Object.hashCode()
-  fullName: java.lang.Object.hashCode()
-- uid: java.lang.Object.wait(long,int)
-  name: Object.wait(long,int)
-  nameWithType: Object.wait(long,int)
-  fullName: java.lang.Object.wait(long,int)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.models.utils.Tuple
+fullName: com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>
+name: Tuple<T1,T2>
+nameWithType: Tuple<T1,T2>
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+inheritedMembers:
+- java.lang.Object.clone()
+- java.lang.Object.equals(java.lang.Object)
+- java.lang.Object.finalize()
+- java.lang.Object.getClass()
+- java.lang.Object.hashCode()
+- java.lang.Object.notify()
+- java.lang.Object.notifyAll()
+- java.lang.Object.toString()
+- java.lang.Object.wait()
+- java.lang.Object.wait(long)
+- java.lang.Object.wait(long,int)
+syntax: public class Tuple<T1,T2>
+constructors:
+- com.microsoft.store.partnercenter.models.utils.Tuple.Tuple(T1,T2)
+methods:
+- com.microsoft.store.partnercenter.models.utils.Tuple.getItem1()
+- com.microsoft.store.partnercenter.models.utils.Tuple.getItem2()
+- com.microsoft.store.partnercenter.models.utils.Tuple.setItem1(T1)
+- com.microsoft.store.partnercenter.models.utils.Tuple.setItem2(T2)
+type: class
+typeParameters:
+- name: T1
+- name: T2
+metadata: {}
+package: com.microsoft.store.partnercenter.models.utils
+artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,35 +1,13 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.productupgrades
-  id: productupgrades
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  children:
-  - com.microsoft.store.partnercenter.productupgrades.IProductUpgrade
-  - com.microsoft.store.partnercenter.productupgrades.IProductUpgradeCollection
-  - com.microsoft.store.partnercenter.productupgrades.ProductUpgradeCollectionOperations
-  - com.microsoft.store.partnercenter.productupgrades.ProductUpgradeOperations
-  langs:
-  - java
-  name: com.microsoft.store.partnercenter.productupgrades
-  nameWithType: com.microsoft.store.partnercenter.productupgrades
-  fullName: com.microsoft.store.partnercenter.productupgrades
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter.productupgrades
-references:
-- uid: com.microsoft.store.partnercenter.productupgrades.IProductUpgrade
-  name: IProductUpgrade
-  nameWithType: IProductUpgrade
-  fullName: com.microsoft.store.partnercenter.productupgrades.IProductUpgrade
-- uid: com.microsoft.store.partnercenter.productupgrades.IProductUpgradeCollection
-  name: IProductUpgradeCollection
-  nameWithType: IProductUpgradeCollection
-  fullName: com.microsoft.store.partnercenter.productupgrades.IProductUpgradeCollection
-- uid: com.microsoft.store.partnercenter.productupgrades.ProductUpgradeCollectionOperations
-  name: ProductUpgradeCollectionOperations
-  nameWithType: ProductUpgradeCollectionOperations
-  fullName: com.microsoft.store.partnercenter.productupgrades.ProductUpgradeCollectionOperations
-- uid: com.microsoft.store.partnercenter.productupgrades.ProductUpgradeOperations
-  name: ProductUpgradeOperations
-  nameWithType: ProductUpgradeOperations
-  fullName: com.microsoft.store.partnercenter.productupgrades.ProductUpgradeOperations
+### YamlMime:JavaPackage
+uid: com.microsoft.store.partnercenter.productupgrades
+fullName: com.microsoft.store.partnercenter.productupgrades
+name: com.microsoft.store.partnercenter.productupgrades
+classes:
+- com.microsoft.store.partnercenter.productupgrades.ProductUpgradeCollectionOperations
+- com.microsoft.store.partnercenter.productupgrades.ProductUpgradeOperations
+interfaces:
+- com.microsoft.store.partnercenter.productupgrades.IProductUpgrade
+- com.microsoft.store.partnercenter.productupgrades.IProductUpgradeCollection
+metadata: {}
+package: com.microsoft.store.partnercenter.productupgrades
+artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,52 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
-  id: IRateCardCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.ratecards
-  children:
-  - com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure()
-  langs:
-  - java
-  name: IRateCardCollection
-  nameWithType: IRateCardCollection
-  fullName: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.ratecards
-  summary: Holds operations that apply to rate cards.
-  syntax:
-    content: public interface IRateCardCollection extends IPartnerComponentString
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure()
-  id: getAzure()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
-  langs:
-  - java
-  name: getAzure()
-  nameWithType: IRateCardCollection.getAzure()
-  fullName: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure()
-  overload: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure*
-  type: Method
-  package: com.microsoft.store.partnercenter.ratecards
-  summary: Gets the Azure rate card operations.
-  syntax:
-    content: public abstract IAzureRateCard getAzure()
-    return:
-      type: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
-      description: The Azure rate card operations.
-references:
-- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
-  name: IAzureRateCard
-  nameWithType: IAzureRateCard
-  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
-- uid: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure*
-  name: getAzure
-  nameWithType: IRateCardCollection.getAzure
-  fullName: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure
-  package: com.microsoft.store.partnercenter.ratecards
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
+fullName: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
+name: IRateCardCollection
+nameWithType: IRateCardCollection
+summary: Holds operations that apply to rate cards.
+syntax: public interface IRateCardCollection extends IPartnerComponentString
+methods:
+- com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure()
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.ratecards
+artifact: com.microsoft.store:partnercenter:1.15.3

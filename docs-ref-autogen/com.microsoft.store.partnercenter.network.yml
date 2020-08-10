@@ -1,35 +1,13 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.network
-  id: network
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  children:
-  - com.microsoft.store.partnercenter.network.HttpStatusCode
-  - com.microsoft.store.partnercenter.network.IPartnerServiceClient
-  - com.microsoft.store.partnercenter.network.PartnerServiceClient
-  - com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-  langs:
-  - java
-  name: com.microsoft.store.partnercenter.network
-  nameWithType: com.microsoft.store.partnercenter.network
-  fullName: com.microsoft.store.partnercenter.network
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter.network
-references:
-- uid: com.microsoft.store.partnercenter.network.HttpStatusCode
-  name: HttpStatusCode
-  nameWithType: HttpStatusCode
-  fullName: com.microsoft.store.partnercenter.network.HttpStatusCode
-- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient
-  name: IPartnerServiceClient
-  nameWithType: IPartnerServiceClient
-  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient
-- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient
-  name: PartnerServiceClient
-  nameWithType: PartnerServiceClient
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient
-- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-  name: PartnerServiceRetryStrategy
-  nameWithType: PartnerServiceRetryStrategy
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
+### YamlMime:JavaPackage
+uid: com.microsoft.store.partnercenter.network
+fullName: com.microsoft.store.partnercenter.network
+name: com.microsoft.store.partnercenter.network
+classes:
+- com.microsoft.store.partnercenter.network.HttpStatusCode
+- com.microsoft.store.partnercenter.network.PartnerServiceClient
+- com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
+interfaces:
+- com.microsoft.store.partnercenter.network.IPartnerServiceClient
+metadata: {}
+package: com.microsoft.store.partnercenter.network
+artifact: com.microsoft.store:partnercenter:1.15.3

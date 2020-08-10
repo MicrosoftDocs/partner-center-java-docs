@@ -1,61 +1,15 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
-  id: ICustomerDeviceCollection
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment
-  children:
-  - com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update(com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest)
-  langs:
-  - java
-  name: ICustomerDeviceCollection
-  nameWithType: ICustomerDeviceCollection
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
-  type: Interface
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Represents the operations that can be done on the partner's devices.
-  syntax:
-    content: public interface ICustomerDeviceCollection extends IPartnerComponentString
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update(com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest)
-  id: update(com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
-  langs:
-  - java
-  name: update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)
-  nameWithType: ICustomerDeviceCollection.update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)
-  overload: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Updates the devices with configuration policies.
-  syntax:
-    content: public abstract String update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)
-    parameters:
-    - id: devicePolicyUpdateRequest
-      type: com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest
-      description: The device policy update request with devices to be updated.
-    return:
-      type: java.lang.String
-      description: The location of the status to track the update.
-references:
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest
-  name: DevicePolicyUpdateRequest
-  nameWithType: DevicePolicyUpdateRequest
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update*
-  name: update
-  nameWithType: ICustomerDeviceCollection.update
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.IPartnerComponentString
-  name: IPartnerComponentString
-  nameWithType: IPartnerComponentString
-  fullName: com.microsoft.store.partnercenter.IPartnerComponentString
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+fullName: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
+name: ICustomerDeviceCollection
+nameWithType: ICustomerDeviceCollection
+summary: Represents the operations that can be done on the partner's devices.
+syntax: public interface ICustomerDeviceCollection extends IPartnerComponentString
+methods:
+- com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update(com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
+metadata: {}
+package: com.microsoft.store.partnercenter.devicesdeployment
+artifact: com.microsoft.store:partnercenter:1.15.3

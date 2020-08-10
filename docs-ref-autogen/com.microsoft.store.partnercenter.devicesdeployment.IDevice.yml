@@ -1,107 +1,18 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevice
-  id: IDevice
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment
-  children:
-  - com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete()
-  - com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch(com.microsoft.store.partnercenter.models.devicesdeployment.Device)
-  langs:
-  - java
-  name: IDevice
-  nameWithType: IDevice
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice
-  type: Interface
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Represents the operations that can be done on the partner's device.
-  syntax:
-    content: public interface IDevice extends IPartnerComponent<TripletTuple<String,String,String>>, IEntityDeleteOperations<Device>, IEntityPatchOperations<Device>
-  implements:
-  - com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>
-  - com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete()
-  id: delete()
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.IDevice
-  langs:
-  - java
-  name: delete()
-  nameWithType: IDevice.delete()
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete()
-  overload: com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Deletes the device.
-  syntax:
-    content: public abstract void delete()
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch(com.microsoft.store.partnercenter.models.devicesdeployment.Device)
-  id: patch(com.microsoft.store.partnercenter.models.devicesdeployment.Device)
-  artifact: com.microsoft.store:partnercenter:1.15.3
-  parent: com.microsoft.store.partnercenter.devicesdeployment.IDevice
-  langs:
-  - java
-  name: patch(Device updateDevice)
-  nameWithType: IDevice.patch(Device updateDevice)
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch(Device updateDevice)
-  overload: com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch*
-  type: Method
-  package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: Updates a device associated to the customer with a configuration policy.
-  syntax:
-    content: public abstract Device patch(Device updateDevice)
-    parameters:
-    - id: updateDevice
-      type: com.microsoft.store.partnercenter.models.devicesdeployment.Device
-      description: The device to be updated.
-    return:
-      type: com.microsoft.store.partnercenter.models.devicesdeployment.Device
-      description: The device that was updated.
-references:
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.Device
-  name: Device
-  nameWithType: Device
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.Device
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch*
-  name: patch
-  nameWithType: IDevice.patch
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete*
-  name: delete
-  nameWithType: IDevice.delete
-  fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete
-  package: com.microsoft.store.partnercenter.devicesdeployment
-- uid: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-  name: IPartnerComponent<TripletTuple<String,String,String>>
-  nameWithType: IPartnerComponent<TripletTuple<String,String,String>>
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>
-  name: IEntityDeleteOperations<Device>
-  nameWithType: IEntityDeleteOperations<Device>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>
-  name: IEntityPatchOperations<Device>
-  nameWithType: IEntityPatchOperations<Device>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>
-- uid: com.microsoft.store.partnercenter.IPartnerComponent
-  name: IPartnerComponent
-  nameWithType: IPartnerComponent
-  fullName: com.microsoft.store.partnercenter.IPartnerComponent
-- uid: java.lang.String,java.lang.String,java.lang.String
-  name: String,String,String
-  nameWithType: String,String,String
-  fullName: java.lang.String,java.lang.String,java.lang.String
-- uid: com.microsoft.store.partnercenter.models.utils.TripletTuple
-  name: TripletTuple
-  nameWithType: TripletTuple
-  fullName: com.microsoft.store.partnercenter.models.utils.TripletTuple
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
-  name: IEntityDeleteOperations
-  nameWithType: IEntityDeleteOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
-  name: IEntityPatchOperations
-  nameWithType: IEntityPatchOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
+### YamlMime:JavaType
+uid: com.microsoft.store.partnercenter.devicesdeployment.IDevice
+fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice
+name: IDevice
+nameWithType: IDevice
+summary: Represents the operations that can be done on the partner's device.
+syntax: public interface IDevice extends IPartnerComponent<TripletTuple<String,String,String>>, IEntityDeleteOperations<Device>, IEntityPatchOperations<Device>
+methods:
+- com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete()
+- com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch(com.microsoft.store.partnercenter.models.devicesdeployment.Device)
+type: interface
+implements:
+- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.TripletTuple?alt=com.microsoft.store.partnercenter.models.utils.TripletTuple&text=TripletTuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations&text=IEntityDeleteOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.devicesdeployment.Device?alt=com.microsoft.store.partnercenter.models.devicesdeployment.Device&text=Device" data-throw-if-not-resolved="False" />&gt;
+- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&text=IEntityPatchOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.devicesdeployment.Device?alt=com.microsoft.store.partnercenter.models.devicesdeployment.Device&text=Device" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.microsoft.store.partnercenter.devicesdeployment
+artifact: com.microsoft.store:partnercenter:1.15.3
