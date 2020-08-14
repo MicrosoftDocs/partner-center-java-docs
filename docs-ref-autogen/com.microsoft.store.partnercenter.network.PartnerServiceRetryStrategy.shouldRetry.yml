@@ -15,14 +15,14 @@ members:
   parameters:
   - description: The current retry attempt count.
     name: retryCount
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: The exception that caused the retry conditions to occur.
     name: response
-    type: <xref href="okhttp3.Response?alt=okhttp3.Response&text=Response" data-throw-if-not-resolved="False" />
+    type: <xref href="okhttp3.Response" data-throw-if-not-resolved="False" />
   syntax: public boolean shouldRetry(int retryCount, Response response)
   returns:
     description: true if the request should be retried; false otherwise.
-    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+    type: <xref href="boolean" data-throw-if-not-resolved="False" />
 type: method
 metadata: {}
 package: com.microsoft.store.partnercenter.network

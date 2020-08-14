@@ -12,14 +12,14 @@ members:
   parameters:
   - description: The billing provider.
     name: billingProvider
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingProvider?alt=com.microsoft.store.partnercenter.models.invoices.BillingProvider&text=BillingProvider" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingProvider" data-throw-if-not-resolved="False" />
   - description: The invoice line item type.
     name: invoiceLineItemType
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType&text=InvoiceLineItemType" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType" data-throw-if-not-resolved="False" />
   syntax: public IInvoiceLineItemCollection by(BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType)
   returns:
     description: The invoice line item collection operations.
-    type: <xref href="com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection?alt=com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection&text=IInvoiceLineItemCollection" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod)
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
   name: by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
@@ -28,19 +28,19 @@ members:
   parameters:
   - description: The type of billing provider.
     name: provider
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingProvider?alt=com.microsoft.store.partnercenter.models.invoices.BillingProvider&text=BillingProvider" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingProvider" data-throw-if-not-resolved="False" />
   - description: The type of invoice line item type.
     name: invoiceLineItemType
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType&text=InvoiceLineItemType" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType" data-throw-if-not-resolved="False" />
   - description: The currency code.
     name: currencyCode
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+    type: <xref href="java.lang.String" data-throw-if-not-resolved="False" />
   - description: The period for unbilled recon.
     name: period
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingPeriod?alt=com.microsoft.store.partnercenter.models.invoices.BillingPeriod&text=BillingPeriod" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingPeriod" data-throw-if-not-resolved="False" />
   syntax: public IReconciliationLineItemCollection by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection?alt=com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection&text=IReconciliationLineItemCollection" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod,int)
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
   name: by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
@@ -49,22 +49,22 @@ members:
   parameters:
   - description: The type of billing provider.
     name: provider
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingProvider?alt=com.microsoft.store.partnercenter.models.invoices.BillingProvider&text=BillingProvider" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingProvider" data-throw-if-not-resolved="False" />
   - description: The type of invoice line item type.
     name: invoiceLineItemType
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType&text=InvoiceLineItemType" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType" data-throw-if-not-resolved="False" />
   - description: The currency code.
     name: currencyCode
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+    type: <xref href="java.lang.String" data-throw-if-not-resolved="False" />
   - description: The period for unbilled recon.
     name: period
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingPeriod?alt=com.microsoft.store.partnercenter.models.invoices.BillingPeriod&text=BillingPeriod" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingPeriod" data-throw-if-not-resolved="False" />
   - description: The number of records returned in a single operation.
     name: pageSize
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   syntax: public IReconciliationLineItemCollection by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection?alt=com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection&text=IReconciliationLineItemCollection" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection" data-throw-if-not-resolved="False" />
 type: method
 metadata: {}
 package: com.microsoft.store.partnercenter.invoices

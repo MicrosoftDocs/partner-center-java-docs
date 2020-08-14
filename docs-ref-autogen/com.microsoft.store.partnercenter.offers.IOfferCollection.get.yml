@@ -12,7 +12,7 @@ members:
   syntax: public abstract ResourceCollection<Offer> get()
   returns:
     description: The offers for the provided country.
-    type: <xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer" data-throw-if-not-resolved="False" />&gt;
+    type: <xref href="com.microsoft.store.partnercenter.models.ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.offers.Offer" data-throw-if-not-resolved="False" />&gt;
 - uid: com.microsoft.store.partnercenter.offers.IOfferCollection.get(int,int)
   fullName: com.microsoft.store.partnercenter.offers.IOfferCollection.get(int offset, int size)
   name: get(int offset, int size)
@@ -21,14 +21,14 @@ members:
   parameters:
   - description: The starting index
     name: offset
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: The maximum number of offers to return.
     name: size
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   syntax: public abstract ResourceCollection<Offer> get(int offset, int size)
   returns:
     description: The requested segment of the offers for the given country.
-    type: <xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer" data-throw-if-not-resolved="False" />&gt;
+    type: <xref href="com.microsoft.store.partnercenter.models.ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.offers.Offer" data-throw-if-not-resolved="False" />&gt;
 type: method
 metadata: {}
 package: com.microsoft.store.partnercenter.offers

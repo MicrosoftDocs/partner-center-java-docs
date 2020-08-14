@@ -12,17 +12,17 @@ members:
   parameters:
   - description: An instance of the partner operations.
     name: rootPartnerOperations
-    type: <xref href="com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.IPartner" data-throw-if-not-resolved="False" />
   - description: The relative address of the request.
     name: relativeUri
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+    type: <xref href="java.lang.String" data-throw-if-not-resolved="False" />
   - description: The value for the accept type header.
     name: acceptType
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+    type: <xref href="java.lang.String" data-throw-if-not-resolved="False" />
   syntax: public abstract InputStream getFileContents(IPartner rootPartnerOperations, String relativeUri, String acceptType)
   returns:
     description: The response from the file content request.
-    type: <xref href="java.io.InputStream?alt=java.io.InputStream&text=InputStream" data-throw-if-not-resolved="False" />
+    type: <xref href="java.io.InputStream" data-throw-if-not-resolved="False" />
 type: method
 metadata: {}
 package: com.microsoft.store.partnercenter.network

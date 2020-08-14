@@ -12,11 +12,11 @@ members:
   parameters:
   - description: The number of results to return.
     name: pageSize
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   syntax: public IQuery buildIndexedQuery(int pageSize)
   returns:
     description: A paged query.
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int)
   fullName: com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int pageSize, int index)
   name: buildIndexedQuery(int pageSize, int index)
@@ -25,14 +25,14 @@ members:
   parameters:
   - description: The number of results to return.
     name: pageSize
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: The results starting index.
     name: index
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   syntax: public IQuery buildIndexedQuery(int pageSize, int index)
   returns:
     description: A paged query.
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
   fullName: com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int pageSize, int index, FieldFilter filter)
   name: buildIndexedQuery(int pageSize, int index, FieldFilter filter)
@@ -41,17 +41,17 @@ members:
   parameters:
   - description: The number of results to return.
     name: pageSize
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: The results starting index.
     name: index
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: An optional filter.
     name: filter
-    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilter&text=FieldFilter" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter" data-throw-if-not-resolved="False" />
   syntax: public IQuery buildIndexedQuery(int pageSize, int index, FieldFilter filter)
   returns:
     description: A paged query.
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort)
   fullName: com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int pageSize, int index, FieldFilter filter, Sort sortOption)
   name: buildIndexedQuery(int pageSize, int index, FieldFilter filter, Sort sortOption)
@@ -60,20 +60,20 @@ members:
   parameters:
   - description: The number of results to return.
     name: pageSize
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: The results starting index.
     name: index
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: An optional filter.
     name: filter
-    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilter&text=FieldFilter" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter" data-throw-if-not-resolved="False" />
   - description: An optional sorting options.
     name: sortOption
-    type: <xref href="com.microsoft.store.partnercenter.models.query.sort.Sort?alt=com.microsoft.store.partnercenter.models.query.sort.Sort&text=Sort" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.sort.Sort" data-throw-if-not-resolved="False" />
   syntax: public IQuery buildIndexedQuery(int pageSize, int index, FieldFilter filter, Sort sortOption)
   returns:
     description: A paged query.
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort,java.lang.Object)
   fullName: com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int pageSize, int index, FieldFilter filter, Sort sortOption, Object token)
   name: buildIndexedQuery(int pageSize, int index, FieldFilter filter, Sort sortOption, Object token)
@@ -82,23 +82,23 @@ members:
   parameters:
   - description: The number of results to return.
     name: pageSize
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: The results starting index.
     name: index
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: An optional filter.
     name: filter
-    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilter&text=FieldFilter" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter" data-throw-if-not-resolved="False" />
   - description: An optional sorting options.
     name: sortOption
-    type: <xref href="com.microsoft.store.partnercenter.models.query.sort.Sort?alt=com.microsoft.store.partnercenter.models.query.sort.Sort&text=Sort" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.sort.Sort" data-throw-if-not-resolved="False" />
   - description: An optional query token.
     name: token
-    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+    type: <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
   syntax: public IQuery buildIndexedQuery(int pageSize, int index, FieldFilter filter, Sort sortOption, Object token)
   returns:
     description: A paged query.
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
 type: method
 metadata: {}
 package: com.microsoft.store.partnercenter.models.query

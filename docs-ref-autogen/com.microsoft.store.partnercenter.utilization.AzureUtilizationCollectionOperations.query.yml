@@ -12,23 +12,23 @@ members:
   parameters:
   - description: The starting time of when the utilization was metered in the billing system.
     name: startTime
-    type: <xref href="org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime" data-throw-if-not-resolved="False" />
+    type: <xref href="org.joda.time.DateTime" data-throw-if-not-resolved="False" />
   - description: The ending time of when the utilization was metered in the billing system.
     name: endTime
-    type: <xref href="org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime" data-throw-if-not-resolved="False" />
+    type: <xref href="org.joda.time.DateTime" data-throw-if-not-resolved="False" />
   - description: The resource usage time granularity. Can either be daily or hourly. Default is daily.
     name: granularity
-    type: <xref href="com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity?alt=com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity&text=AzureUtilizationGranularity" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity" data-throw-if-not-resolved="False" />
   - description: "If set to true, the utilization records will be split by the resource instance levels. If set to false, the utilization records\n\t\t\t\t\t\t   will be aggregated on the resource level. Default is true."
     name: showDetails
-    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+    type: <xref href="boolean" data-throw-if-not-resolved="False" />
   - description: "An optional maximum number of records to return. The returned resource collection will specify a next link in case there\n\t\t\t\t\twere more utilization records available."
     name: size
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   syntax: public ResourceCollection<AzureUtilizationRecord> query(DateTime startTime, DateTime endTime, AzureUtilizationGranularity granularity, boolean showDetails, int size)
   returns:
     description: The Azure resource utilization for the subscription.
-    type: <xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord?alt=com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord&text=AzureUtilizationRecord" data-throw-if-not-resolved="False" />&gt;
+    type: <xref href="com.microsoft.store.partnercenter.models.ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord" data-throw-if-not-resolved="False" />&gt;
 type: method
 metadata: {}
 package: com.microsoft.store.partnercenter.utilization

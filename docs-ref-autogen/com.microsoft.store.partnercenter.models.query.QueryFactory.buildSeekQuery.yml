@@ -12,11 +12,11 @@ members:
   parameters:
   - description: The seek operation to perform.
     name: seekOperation
-    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation?alt=com.microsoft.store.partnercenter.models.query.SeekOperation&text=SeekOperation" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation" data-throw-if-not-resolved="False" />
   syntax: public IQuery buildSeekQuery(SeekOperation seekOperation)
   returns:
     description: The seek query.
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int)
   fullName: com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(SeekOperation seekOperation, int pageSize)
   name: buildSeekQuery(SeekOperation seekOperation, int pageSize)
@@ -25,14 +25,14 @@ members:
   parameters:
   - description: The seek operation to perform.
     name: seekOperation
-    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation?alt=com.microsoft.store.partnercenter.models.query.SeekOperation&text=SeekOperation" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation" data-throw-if-not-resolved="False" />
   - description: The desired result page size.
     name: pageSize
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   syntax: public IQuery buildSeekQuery(SeekOperation seekOperation, int pageSize)
   returns:
     description: The seek query.
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int)
   fullName: com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(SeekOperation seekOperation, int pageSize, int index)
   name: buildSeekQuery(SeekOperation seekOperation, int pageSize, int index)
@@ -41,17 +41,17 @@ members:
   parameters:
   - description: The seek operation to perform.
     name: seekOperation
-    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation?alt=com.microsoft.store.partnercenter.models.query.SeekOperation&text=SeekOperation" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation" data-throw-if-not-resolved="False" />
   - description: The desired result page size.
     name: pageSize
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: The index of the page to retrieve. This is only used if the seek operation specified a page index.
     name: index
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   syntax: public IQuery buildSeekQuery(SeekOperation seekOperation, int pageSize, int index)
   returns:
     description: The seek query.
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
   fullName: com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(SeekOperation seekOperation, int pageSize, int index, FieldFilter filter)
   name: buildSeekQuery(SeekOperation seekOperation, int pageSize, int index, FieldFilter filter)
@@ -60,20 +60,20 @@ members:
   parameters:
   - description: The seek operation to perform.
     name: seekOperation
-    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation?alt=com.microsoft.store.partnercenter.models.query.SeekOperation&text=SeekOperation" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation" data-throw-if-not-resolved="False" />
   - description: The desired result page size.
     name: pageSize
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: The index of the page to retrieve. This is only used if the seek operation specified a page index.
     name: index
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: An optional filter to apply.
     name: filter
-    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilter&text=FieldFilter" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter" data-throw-if-not-resolved="False" />
   syntax: public IQuery buildSeekQuery(SeekOperation seekOperation, int pageSize, int index, FieldFilter filter)
   returns:
     description: The seek query.
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort)
   fullName: com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(SeekOperation seekOperation, int pageSize, int index, FieldFilter filter, Sort sortingOption)
   name: buildSeekQuery(SeekOperation seekOperation, int pageSize, int index, FieldFilter filter, Sort sortingOption)
@@ -82,23 +82,23 @@ members:
   parameters:
   - description: The seek operation to perform.
     name: seekOperation
-    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation?alt=com.microsoft.store.partnercenter.models.query.SeekOperation&text=SeekOperation" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation" data-throw-if-not-resolved="False" />
   - description: The desired result page size.
     name: pageSize
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: The index of the page to retrieve. This is only used if the seek operation specified a page index.
     name: index
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: An optional filter to apply.
     name: filter
-    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilter&text=FieldFilter" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter" data-throw-if-not-resolved="False" />
   - description: An optional sorting options.
     name: sortingOption
-    type: <xref href="com.microsoft.store.partnercenter.models.query.sort.Sort?alt=com.microsoft.store.partnercenter.models.query.sort.Sort&text=Sort" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.sort.Sort" data-throw-if-not-resolved="False" />
   syntax: public IQuery buildSeekQuery(SeekOperation seekOperation, int pageSize, int index, FieldFilter filter, Sort sortingOption)
   returns:
     description: The seek query.
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
 - uid: com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort,java.lang.Object)
   fullName: com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(SeekOperation seekOperation, int pageSize, int index, FieldFilter filter, Sort sortingOption, Object token)
   name: buildSeekQuery(SeekOperation seekOperation, int pageSize, int index, FieldFilter filter, Sort sortingOption, Object token)
@@ -107,26 +107,26 @@ members:
   parameters:
   - description: The seek operation to perform.
     name: seekOperation
-    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation?alt=com.microsoft.store.partnercenter.models.query.SeekOperation&text=SeekOperation" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.SeekOperation" data-throw-if-not-resolved="False" />
   - description: The desired result page size.
     name: pageSize
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: The index of the page to retrieve. This is only used if the seek operation specified a page index.
     name: index
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+    type: <xref href="int" data-throw-if-not-resolved="False" />
   - description: An optional filter to apply.
     name: filter
-    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilter&text=FieldFilter" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter" data-throw-if-not-resolved="False" />
   - description: An optional sorting options.
     name: sortingOption
-    type: <xref href="com.microsoft.store.partnercenter.models.query.sort.Sort?alt=com.microsoft.store.partnercenter.models.query.sort.Sort&text=Sort" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.sort.Sort" data-throw-if-not-resolved="False" />
   - description: An optional query token.
     name: token
-    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+    type: <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
   syntax: public IQuery buildSeekQuery(SeekOperation seekOperation, int pageSize, int index, FieldFilter filter, Sort sortingOption, Object token)
   returns:
     description: The seek query.
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
 type: method
 metadata: {}
 package: com.microsoft.store.partnercenter.models.query

@@ -15,14 +15,14 @@ members:
      - Filter the result with a customer name.
   parameters:
   - name: startDate
-    type: <xref href="org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime" data-throw-if-not-resolved="False" />
+    type: <xref href="org.joda.time.DateTime" data-throw-if-not-resolved="False" />
   - name: endDate
-    type: <xref href="org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime" data-throw-if-not-resolved="False" />
+    type: <xref href="org.joda.time.DateTime" data-throw-if-not-resolved="False" />
   - name: query
-    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+    type: <xref href="com.microsoft.store.partnercenter.models.query.IQuery" data-throw-if-not-resolved="False" />
   syntax: public SeekBasedResourceCollection<AuditRecord> query(DateTime startDate, DateTime endDate, IQuery query)
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.SeekBasedResourceCollection?alt=com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&text=SeekBasedResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.auditing.AuditRecord?alt=com.microsoft.store.partnercenter.models.auditing.AuditRecord&text=AuditRecord" data-throw-if-not-resolved="False" />&gt;
+    type: <xref href="com.microsoft.store.partnercenter.models.SeekBasedResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.auditing.AuditRecord" data-throw-if-not-resolved="False" />&gt;
 type: method
 metadata: {}
 package: com.microsoft.store.partnercenter.auditrecords
