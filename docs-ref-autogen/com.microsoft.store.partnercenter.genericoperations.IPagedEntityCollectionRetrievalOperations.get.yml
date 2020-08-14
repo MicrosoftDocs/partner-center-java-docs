@@ -12,14 +12,14 @@ members:
   parameters:
   - description: The starting index.
     name: offset
-    type: <xref href="int" data-throw-if-not-resolved="False" />
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
   - description: The maximum number of entities to return.
     name: size
-    type: <xref href="int" data-throw-if-not-resolved="False" />
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
   syntax: public abstract TResourceCollection get(int offset, int size)
   returns:
     description: The requested entities subset.
-    type: <xref href="TResourceCollection" data-throw-if-not-resolved="False" />
+    type: <xref href="TResourceCollection?alt=TResourceCollection&text=TResourceCollection" data-throw-if-not-resolved="False" />
 type: method
 metadata: {}
 package: com.microsoft.store.partnercenter.genericoperations
