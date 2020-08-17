@@ -1,14 +1,27 @@
 ### YamlMime:JavaMember
 uid: com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator.IndexBasedCollectionEnumerator*
-fullName: com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator<T,TResourceCollection>.IndexBasedCollectionEnumerator(IPartner partnerOperations, TResourceCollection pagedResourceCollection, ObjectMapper resourceCollectionConverter, TypeReference<TResourceCollection> responseType)
-name: IndexBasedCollectionEnumerator(IPartner partnerOperations, TResourceCollection pagedResourceCollection, ObjectMapper resourceCollectionConverter, TypeReference<TResourceCollection> responseType)
-nameWithType: IndexBasedCollectionEnumerator<T,TResourceCollection>.IndexBasedCollectionEnumerator(IPartner partnerOperations, TResourceCollection pagedResourceCollection, ObjectMapper resourceCollectionConverter, TypeReference<TResourceCollection> responseType)
+fullName: com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator<T,TResourceCollection>.IndexBasedCollectionEnumerator
+name: IndexBasedCollectionEnumerator
+nameWithType: IndexBasedCollectionEnumerator<T,TResourceCollection>.IndexBasedCollectionEnumerator
 members:
 - uid: com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator.IndexBasedCollectionEnumerator(com.microsoft.store.partnercenter.IPartner,TResourceCollection,com.fasterxml.jackson.databind.ObjectMapper,com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>)
   fullName: com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator<T,TResourceCollection>.IndexBasedCollectionEnumerator(IPartner partnerOperations, TResourceCollection pagedResourceCollection, ObjectMapper resourceCollectionConverter, TypeReference<TResourceCollection> responseType)
   name: IndexBasedCollectionEnumerator(IPartner partnerOperations, TResourceCollection pagedResourceCollection, ObjectMapper resourceCollectionConverter, TypeReference<TResourceCollection> responseType)
   nameWithType: IndexBasedCollectionEnumerator<T,TResourceCollection>.IndexBasedCollectionEnumerator(IPartner partnerOperations, TResourceCollection pagedResourceCollection, ObjectMapper resourceCollectionConverter, TypeReference<TResourceCollection> responseType)
   summary: Initializes a new instance of the IndexBasedCollectionEnumerator class.
+  parameters:
+  - description: A partner operations instance.
+    name: partnerOperations
+    type: <xref href="com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner" data-throw-if-not-resolved="False" />
+  - description: The paged resource collection to enumerate from.
+    name: pagedResourceCollection
+    type: <xref href="TResourceCollection?alt=TResourceCollection&text=TResourceCollection" data-throw-if-not-resolved="False" />
+  - description: The resource collection converter.
+    name: resourceCollectionConverter
+    type: <xref href="com.fasterxml.jackson.databind.ObjectMapper?alt=com.fasterxml.jackson.databind.ObjectMapper&text=ObjectMapper" data-throw-if-not-resolved="False" />
+  - description: The type of resource collection.
+    name: responseType
+    type: <xref href="com.fasterxml.jackson.core.type.TypeReference?alt=com.fasterxml.jackson.core.type.TypeReference&text=TypeReference" data-throw-if-not-resolved="False" />&lt;<xref href="TResourceCollection?alt=TResourceCollection&text=TResourceCollection" data-throw-if-not-resolved="False" />&gt;
   syntax: public IndexBasedCollectionEnumerator(IPartner partnerOperations, TResourceCollection pagedResourceCollection, ObjectMapper resourceCollectionConverter, TypeReference<TResourceCollection> responseType)
 type: constructor
 metadata: {}

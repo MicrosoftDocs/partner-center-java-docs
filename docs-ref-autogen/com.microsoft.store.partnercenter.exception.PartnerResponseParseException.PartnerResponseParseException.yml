@@ -1,8 +1,8 @@
 ### YamlMime:JavaMember
 uid: com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException*
-fullName: com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException()
-name: PartnerResponseParseException()
-nameWithType: PartnerResponseParseException.PartnerResponseParseException()
+fullName: com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException
+name: PartnerResponseParseException
+nameWithType: PartnerResponseParseException.PartnerResponseParseException
 members:
 - uid: com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException()
   fullName: com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException()
@@ -15,18 +15,46 @@ members:
   name: PartnerResponseParseException(String message)
   nameWithType: PartnerResponseParseException.PartnerResponseParseException(String message)
   summary: Initializes a new instance of the PartnerResponseParseException class.
+  parameters:
+  - description: The exception message.
+    name: message
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
   syntax: public PartnerResponseParseException(String message)
 - uid: com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException(java.lang.String,com.microsoft.store.partnercenter.requestcontext.IRequestContext,java.lang.String,java.lang.Exception)
   fullName: com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException(String response, IRequestContext context, String message, Exception innerException)
   name: PartnerResponseParseException(String response, IRequestContext context, String message, Exception innerException)
   nameWithType: PartnerResponseParseException.PartnerResponseParseException(String response, IRequestContext context, String message, Exception innerException)
   summary: Initializes a new instance of the PartnerResponseParseException class.
+  parameters:
+  - description: The HTTP response payload which could not be parsed.
+    name: response
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The partner context.
+    name: context
+    type: <xref href="com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext" data-throw-if-not-resolved="False" />
+  - description: The exception message.
+    name: message
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The exception that is the cause of the current exception, or a null reference if no inner
+                  exception is specified.
+    name: innerException
+    type: <xref href="java.lang.Exception?alt=java.lang.Exception&text=Exception" data-throw-if-not-resolved="False" />
   syntax: public PartnerResponseParseException(String response, IRequestContext context, String message, Exception innerException)
 - uid: com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException(java.lang.String,java.lang.Exception)
   fullName: com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException(String message, Exception innerException)
   name: PartnerResponseParseException(String message, Exception innerException)
   nameWithType: PartnerResponseParseException.PartnerResponseParseException(String message, Exception innerException)
   summary: Initializes a new instance of the PartnerResponseParseException class.
+  parameters:
+  - description: The exception message.
+    name: message
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The exception that is the cause of the current exception, or a null reference if no inner
+                  exception is specified.
+    name: innerException
+    type: <xref href="java.lang.Exception?alt=java.lang.Exception&text=Exception" data-throw-if-not-resolved="False" />
   syntax: public PartnerResponseParseException(String message, Exception innerException)
 type: constructor
 metadata: {}

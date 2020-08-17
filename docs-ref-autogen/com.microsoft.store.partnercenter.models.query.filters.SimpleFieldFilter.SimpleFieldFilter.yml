@@ -1,8 +1,8 @@
 ### YamlMime:JavaMember
 uid: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter*
-fullName: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter()
-name: SimpleFieldFilter()
-nameWithType: SimpleFieldFilter.SimpleFieldFilter()
+fullName: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter
+name: SimpleFieldFilter
+nameWithType: SimpleFieldFilter.SimpleFieldFilter
 members:
 - uid: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter()
   fullName: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter()
@@ -15,18 +15,51 @@ members:
   name: SimpleFieldFilter(String field, FieldFilterOperation operation, String value)
   nameWithType: SimpleFieldFilter.SimpleFieldFilter(String field, FieldFilterOperation operation, String value)
   summary: Initializes a new instance of the SimpleFieldFilter class.
+  parameters:
+  - description: The filter field name
+    name: field
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The operator value.
+    name: operation
+    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation&text=FieldFilterOperation" data-throw-if-not-resolved="False" />
+  - description: The value to execute the operator on.
+    name: value
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
   syntax: public SimpleFieldFilter(String field, FieldFilterOperation operation, String value)
 - uid: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter(java.lang.String,java.lang.String,com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)
   fullName: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter(String field, String value, FieldFilterOperation operation)
   name: SimpleFieldFilter(String field, String value, FieldFilterOperation operation)
   nameWithType: SimpleFieldFilter.SimpleFieldFilter(String field, String value, FieldFilterOperation operation)
   summary: Initializes a new instance of the SimpleFieldFilter class.
+  parameters:
+  - description: The filter field name
+    name: field
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The value to execute the operator on.
+    name: value
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The operator value.
+    name: operation
+    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation&text=FieldFilterOperation" data-throw-if-not-resolved="False" />
   syntax: public SimpleFieldFilter(String field, String value, FieldFilterOperation operation)
 - uid: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter(java.lang.String,java.lang.String,com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation,com.microsoft.store.partnercenter.models.query.filters.FieldType)
   fullName: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter(String field, String value, FieldFilterOperation operation, FieldType fieldType)
   name: SimpleFieldFilter(String field, String value, FieldFilterOperation operation, FieldType fieldType)
   nameWithType: SimpleFieldFilter.SimpleFieldFilter(String field, String value, FieldFilterOperation operation, FieldType fieldType)
   summary: Initializes a new instance of the SimpleFieldFilter class.
+  parameters:
+  - description: The filter field name
+    name: field
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The value to execute the operator on.
+    name: value
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The operator value.
+    name: operation
+    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation&text=FieldFilterOperation" data-throw-if-not-resolved="False" />
+  - description: The field type.x
+    name: fieldType
+    type: <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldType?alt=com.microsoft.store.partnercenter.models.query.filters.FieldType&text=FieldType" data-throw-if-not-resolved="False" />
   syntax: public SimpleFieldFilter(String field, String value, FieldFilterOperation operation, FieldType fieldType)
 type: constructor
 metadata: {}

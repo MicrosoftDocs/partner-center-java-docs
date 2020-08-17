@@ -1,8 +1,8 @@
 ### YamlMime:JavaMember
 uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.CustomerSkuCollectionByTargetSegmentOperations*
-fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.CustomerSkuCollectionByTargetSegmentOperations(IPartner rootPartnerOperations, String customerId, String productId, String targetSegment)
-name: CustomerSkuCollectionByTargetSegmentOperations(IPartner rootPartnerOperations, String customerId, String productId, String targetSegment)
-nameWithType: CustomerSkuCollectionByTargetSegmentOperations.CustomerSkuCollectionByTargetSegmentOperations(IPartner rootPartnerOperations, String customerId, String productId, String targetSegment)
+fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.CustomerSkuCollectionByTargetSegmentOperations
+name: CustomerSkuCollectionByTargetSegmentOperations
+nameWithType: CustomerSkuCollectionByTargetSegmentOperations.CustomerSkuCollectionByTargetSegmentOperations
 members:
 - uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.CustomerSkuCollectionByTargetSegmentOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)
   fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.CustomerSkuCollectionByTargetSegmentOperations(IPartner rootPartnerOperations, String customerId, String productId, String targetSegment)
@@ -11,6 +11,19 @@ members:
   summary: |-
     Initializes a new instance of the
      CustomerSkuCollectionByTargetSegmentOperations class.
+  parameters:
+  - description: The root partner operations instance.
+    name: rootPartnerOperations
+    type: <xref href="com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner" data-throw-if-not-resolved="False" />
+  - description: The customer id for which to retrieve the SKUs.
+    name: customerId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The product id for which to retrieve its SKUs.
+    name: productId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The target segment used for filtering the SKUs.
+    name: targetSegment
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
   syntax: public CustomerSkuCollectionByTargetSegmentOperations(IPartner rootPartnerOperations, String customerId, String productId, String targetSegment)
 type: constructor
 metadata: {}
