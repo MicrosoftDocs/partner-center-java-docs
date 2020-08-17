@@ -29,14 +29,19 @@ fields:
   fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.BILLINGLINEITEMS
   name: BILLINGLINEITEMS
   nameWithType: InvoiceLineItemType.BILLINGLINEITEMS
+  summary: Billing line items associated with an invoice. Contains information such as cost per use, tax charged, etc.
 - uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.NONE
   fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.NONE
   name: NONE
   nameWithType: InvoiceLineItemType.NONE
+  summary: Lists invoice line item types. Default value.
 - uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.USAGELINEITEMS
   fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.USAGELINEITEMS
   name: USAGELINEITEMS
   nameWithType: InvoiceLineItemType.USAGELINEITEMS
+  summary: |-
+    Daily usage information for associated with an invoice. This information does not contain data about cost per
+     use.
 methods:
 - uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.getUrlName()
   fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.getUrlName()

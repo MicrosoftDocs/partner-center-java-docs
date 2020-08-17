@@ -29,18 +29,24 @@ fields:
   fullName: com.microsoft.store.partnercenter.models.query.QueryType.COUNT
   name: COUNT
   nameWithType: QueryType.COUNT
+  summary: A query that returns the count of results according to an optional filter.
 - uid: com.microsoft.store.partnercenter.models.query.QueryType.INDEXED
   fullName: com.microsoft.store.partnercenter.models.query.QueryType.INDEXED
   name: INDEXED
   nameWithType: QueryType.INDEXED
+  summary: A query that supports paging using an index and a page size in addition to the standard filtering and sorting.
 - uid: com.microsoft.store.partnercenter.models.query.QueryType.SEEK
   fullName: com.microsoft.store.partnercenter.models.query.QueryType.SEEK
   name: SEEK
   nameWithType: QueryType.SEEK
+  summary: |-
+    A query that is a continuation of a previous one. Used to retrieve more records of the same query relative
+     to the last made query by seeking to pages.
 - uid: com.microsoft.store.partnercenter.models.query.QueryType.SIMPLE
   fullName: com.microsoft.store.partnercenter.models.query.QueryType.SIMPLE
   name: SIMPLE
   nameWithType: QueryType.SIMPLE
+  summary: Enumerates query types. A standard query that supports filtering and sorting.
 methods:
 - uid: com.microsoft.store.partnercenter.models.query.QueryType.valueOf(java.lang.String)
   fullName: com.microsoft.store.partnercenter.models.query.QueryType.valueOf(String name)

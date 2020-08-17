@@ -29,42 +29,54 @@ fields:
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONCURRENCY_CONFLICTS
   name: CONCURRENCY_CONFLICTS
   nameWithType: UpgradeErrorCode.CONCURRENCY_CONFLICTS
+  summary: Upgrade cannot be performed due to concurrent subscription restrictions.
 - uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONFLICTING_SERVICE_TYPES
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONFLICTING_SERVICE_TYPES
   name: CONFLICTING_SERVICE_TYPES
   nameWithType: UpgradeErrorCode.CONFLICTING_SERVICE_TYPES
+  summary: Upgrade cannot be performed because of conflicting source service types.
 - uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED
   name: DELEGATED_ADMIN_PERMISSIONS_DISABLED
   nameWithType: UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED
+  summary: Upgrade cannot be performed because administrative permissions have been removed.
 - uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.OTHER
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.OTHER
   name: OTHER
   nameWithType: UpgradeErrorCode.OTHER
+  summary: The type of errors that prevent subscription upgrading from happening General error.
 - uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT
   name: SUBSCRIPTION_ADD_ONS_PRESENT
   nameWithType: UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT
+  summary: Upgrade cannot be performed because the source subscription has previously purchased add-ons.
 - uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
   name: SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
   nameWithType: UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
+  summary: Upgrade cannot be performed because the source subscription does not have upgrade paths.
 - uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED
   name: SUBSCRIPTION_NOT_PROVISIONED
   nameWithType: UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED
+  summary: |-
+    The subscription is not provisioned yet. Happens when the order is still being processed. Eventually the
+     subscription ill be provisioned and an entitlement is created.
 - uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE
   name: SUBSCRIPTION_STATUS_NOT_ACTIVE
   nameWithType: UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE
+  summary: Upgrade cannot be performed because the subscription status is suspended or deleted.
 - uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
   name: SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
   nameWithType: UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
+  summary: Upgrade cannot be performed because the specified upgrade path is not an available upgrade path.
 - uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.USER_CONTEXT_REQUIRED
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.USER_CONTEXT_REQUIRED
   name: USER_CONTEXT_REQUIRED
   nameWithType: UpgradeErrorCode.USER_CONTEXT_REQUIRED
+  summary: Upgrade cannot be performed because the current request is using app context.
 methods:
 - uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString()
   fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString()

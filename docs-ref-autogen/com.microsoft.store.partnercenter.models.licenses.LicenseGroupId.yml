@@ -30,14 +30,19 @@ fields:
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP1
   name: GROUP1
   nameWithType: LicenseGroupId.GROUP1
+  summary: Azure Active Directory This indicates that product SKU is managed by Azure AD.
 - uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP2
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP2
   name: GROUP2
   nameWithType: LicenseGroupId.GROUP2
+  summary: Store for Business This indicates that product SKU is not managed by Azure AD.
 - uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE
   name: NONE
   nameWithType: LicenseGroupId.NONE
+  summary: |-
+    Indicates nothing - no type, used as an initializer. If any invalid value is
+     passed, then it will be defaulted to this.
 methods:
 - uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()
