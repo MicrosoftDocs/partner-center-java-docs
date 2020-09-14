@@ -31,7 +31,7 @@ This will create a new Azure AD application that is configured for use with the 
 
 ```java
 IPartnerCredentials appCredentials = PartnerCredentials.getInstance().generateByApplicationCredentials(
-    "ApplicationId"
+    "ApplicationId",
     "ApplicationSecret",
     "AccountId");
 ```
