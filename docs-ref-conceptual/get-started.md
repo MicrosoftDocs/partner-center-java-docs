@@ -148,7 +148,7 @@ mvn compile exec:java
 
 When the program finishes, you will be able to verify that a new customer has been created through the [Partner Center Dashboard](https://partner.microsoft.com/pcv/dashboard/overview).
 
-## Create an oder
+## Create an order
 
 To create a subscription for a customer you must submit an order. Replace the main method in `PartnerApp.java` with the below, be sure to update the credential values and customer identifier. This code will create an Azure subscription for the specified customer.
 
