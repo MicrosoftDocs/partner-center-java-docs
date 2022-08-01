@@ -4,9 +4,9 @@ fullName: "com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperation
 name: "ReceiptCollectionOperations"
 nameWithType: "ReceiptCollectionOperations"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -23,9 +23,33 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class ReceiptCollectionOperations extends BasePartnerComponentString implements IReceiptCollection"
 constructors:
-- "com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.ReceiptCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.ReceiptCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.ReceiptCollectionOperations(IPartner rootPartnerOperations, String invoiceId)"
+  name: "ReceiptCollectionOperations(IPartner rootPartnerOperations, String invoiceId)"
+  nameWithType: "ReceiptCollectionOperations.ReceiptCollectionOperations(IPartner rootPartnerOperations, String invoiceId)"
+  summary: "Initializes a new instance of the ReceiptCollectionOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The invoice identifier."
+    name: "invoiceId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ReceiptCollectionOperations(IPartner rootPartnerOperations, String invoiceId)"
 methods:
-- "com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.byId(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.byId(String id)"
+  name: "byId(String id)"
+  nameWithType: "ReceiptCollectionOperations.byId(String id)"
+  summary: "Retrieves a specific Invoice receipt behavior."
+  parameters:
+  - description: "The receipt identifier."
+    name: "id"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public IReceipt byId(String id)"
+  returns:
+    description: "The available receipt operations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IReceipt?alt=com.microsoft.store.partnercenter.invoices.IReceipt&text=IReceipt\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.invoices.IReceiptCollection?alt=com.microsoft.store.partnercenter.invoices.IReceiptCollection&text=IReceiptCollection\" data-throw-if-not-resolved=\"False\" />"

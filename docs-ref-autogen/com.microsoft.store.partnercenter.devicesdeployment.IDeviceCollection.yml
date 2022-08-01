@@ -6,9 +6,47 @@ nameWithType: "IDeviceCollection"
 summary: "Represents the operations that can be done on the partner's devices."
 syntax: "public interface IDeviceCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Device,ResourceCollection<Device>>, IEntityCreateOperations<List<Device>,String>, IEntitySelector<String,IDevice>"
 methods:
-- "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.byId(java.lang.String)"
-- "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.create(java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>)"
-- "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.get()"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.byId(String deviceId)"
+  name: "byId(String deviceId)"
+  nameWithType: "IDeviceCollection.byId(String deviceId)"
+  summary: "Retrieves a specific customer's device behavior."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The device identifier."
+    name: "deviceId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IDevice byId(String deviceId)"
+  returns:
+    description: "The customer device behavior."
+    type: "<xref href=\"com.microsoft.store.partnercenter.devicesdeployment.IDevice?alt=com.microsoft.store.partnercenter.devicesdeployment.IDevice&text=IDevice\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.create(java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>)"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.create(List<Device> newDevices)"
+  name: "create(List<Device> newDevices)"
+  nameWithType: "IDeviceCollection.create(List<Device> newDevices)"
+  summary: "Adds devices to existing devices batch."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The new devices to be created."
+    name: "newDevices"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.Device?alt=com.microsoft.store.partnercenter.models.devicesdeployment.Device&text=Device\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract String create(List<Device> newDevices)"
+  returns:
+    description: "The location which indicates the URL of the API to query for status of the create request."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.get()"
+  name: "get()"
+  nameWithType: "IDeviceCollection.get()"
+  summary: "Retrieves all devices."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<Device> get()"
+  returns:
+    description: "All of the devices."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.Device?alt=com.microsoft.store.partnercenter.models.devicesdeployment.Device&text=Device\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

@@ -6,8 +6,35 @@ nameWithType: "IPartnerServiceRequestCollection"
 summary: "Represents the behavior of partner service requests."
 syntax: "public interface IPartnerServiceRequestCollection extends IServiceRequestCollection"
 methods:
-- "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,java.lang.String)"
-- "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics()"
+- uid: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create(ServiceRequest newEntity, String agentLocale)"
+  name: "create(ServiceRequest newEntity, String agentLocale)"
+  nameWithType: "IPartnerServiceRequestCollection.create(ServiceRequest newEntity, String agentLocale)"
+  summary: "Creates a new ServiceRequest."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The new ServiceRequest information."
+    name: "newEntity"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest?alt=com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest&text=ServiceRequest\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The locale."
+    name: "agentLocale"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ServiceRequest create(ServiceRequest newEntity, String agentLocale)"
+  returns:
+    description: "The ServiceRequest information that was just created."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest?alt=com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest&text=ServiceRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics()"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics()"
+  name: "getSupportTopics()"
+  nameWithType: "IPartnerServiceRequestCollection.getSupportTopics()"
+  summary: "Gets a set of operations that can be performed on Support Topics."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ISupportTopicsCollection getSupportTopics()"
+  returns:
+    description: "Collection of Support Topic Operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection?alt=com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection&text=ISupportTopicsCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection?alt=com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection&text=IServiceRequestCollection\" data-throw-if-not-resolved=\"False\" />"

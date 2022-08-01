@@ -5,8 +5,8 @@ name: "CartErrorCode"
 nameWithType: "CartErrorCode"
 summary: "Types of cart error code."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -88,6 +88,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf(int i)"
   name: "valueOf(int i)"
   nameWithType: "CartErrorCode.valueOf(int i)"
+  modifiers:
+  - "static"
   parameters:
   - name: "i"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
@@ -98,6 +100,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "CartErrorCode.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -108,6 +112,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartErrorCode.values()"
   name: "values()"
   nameWithType: "CartErrorCode.values()"
+  modifiers:
+  - "static"
   syntax: "public static CartErrorCode[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.carts.CartErrorCode?alt=com.microsoft.store.partnercenter.models.carts.CartErrorCode&text=CartErrorCode\" data-throw-if-not-resolved=\"False\" />[]"

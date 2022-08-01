@@ -6,8 +6,32 @@ nameWithType: "ISubscriptionUpgradeCollection"
 summary: "This interface defines the upgrade operations available on a customer's subscription."
 syntax: "public interface ISubscriptionUpgradeCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>, IEntityCreateOperations<Upgrade,UpgradeResult>"
 methods:
-- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)"
-- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(Upgrade upgrade)"
+  name: "create(Upgrade upgrade)"
+  nameWithType: "ISubscriptionUpgradeCollection.create(Upgrade upgrade)"
+  summary: "Submits a subscription upgrade."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The new subscription upgrade information."
+    name: "upgrade"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Upgrade?alt=com.microsoft.store.partnercenter.models.subscriptions.Upgrade&text=Upgrade\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract UpgradeResult create(Upgrade upgrade)"
+  returns:
+    description: "The subscription upgrade results."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult?alt=com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult&text=UpgradeResult\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()"
+  name: "get()"
+  nameWithType: "ISubscriptionUpgradeCollection.get()"
+  summary: "Retrieves all subscription upgrades."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<Upgrade> get()"
+  returns:
+    description: "The subscription upgrades."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Upgrade?alt=com.microsoft.store.partnercenter.models.subscriptions.Upgrade&text=Upgrade\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

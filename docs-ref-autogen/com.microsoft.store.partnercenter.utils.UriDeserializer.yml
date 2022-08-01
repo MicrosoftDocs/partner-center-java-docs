@@ -4,8 +4,8 @@ fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer"
 name: "UriDeserializer"
 nameWithType: "UriDeserializer"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.fasterxml.jackson.databind.JsonDeserializer\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.fasterxml.jackson.databind.JsonDeserializer?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
 - "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,T)"
@@ -41,9 +41,28 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class UriDeserializer extends JsonDeserializer<URI>"
 constructors:
-- "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer()"
+- uid: "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer()"
+  fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer()"
+  name: "UriDeserializer()"
+  nameWithType: "UriDeserializer.UriDeserializer()"
+  syntax: "public UriDeserializer()"
 methods:
-- "com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+- uid: "com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize(JsonParser parser, DeserializationContext context)"
+  name: "deserialize(JsonParser parser, DeserializationContext context)"
+  nameWithType: "UriDeserializer.deserialize(JsonParser parser, DeserializationContext context)"
+  overridden: "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  parameters:
+  - name: "parser"
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
+  - name: "context"
+    type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationContext?alt=com.fasterxml.jackson.databind.DeserializationContext&text=DeserializationContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public URI deserialize(JsonParser parser, DeserializationContext context)"
+  exceptions:
+  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - type: "<xref href=\"com.fasterxml.jackson.core.JsonProcessingException?alt=com.fasterxml.jackson.core.JsonProcessingException&text=JsonProcessingException\" data-throw-if-not-resolved=\"False\" />"
+  returns:
+    type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.utils"

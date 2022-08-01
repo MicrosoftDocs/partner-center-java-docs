@@ -6,7 +6,17 @@ nameWithType: "IBatchJobStatus"
 summary: "Represents the operations that can be done on the partner's device."
 syntax: "public interface IBatchJobStatus extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<BatchUploadDetails>"
 methods:
-- "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get()"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get()"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get()"
+  name: "get()"
+  nameWithType: "IBatchJobStatus.get()"
+  summary: "Retrieves a specific customer devices batch upload status details."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract BatchUploadDetails get()"
+  returns:
+    description: "The devices batch upload status details."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails?alt=com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails&text=BatchUploadDetails\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

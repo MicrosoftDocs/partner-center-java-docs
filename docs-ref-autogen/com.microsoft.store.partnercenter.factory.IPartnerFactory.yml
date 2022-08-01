@@ -6,7 +6,21 @@ nameWithType: "IPartnerFactory"
 summary: "Creates instances of <xref uid=\"com.microsoft.store.partnercenter.IPartner\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.microsoft.store.partnercenter.IPartner\"></xref>."
 syntax: "public interface IPartnerFactory"
 methods:
-- "com.microsoft.store.partnercenter.factory.IPartnerFactory.build(com.microsoft.store.partnercenter.IPartnerCredentials)"
+- uid: "com.microsoft.store.partnercenter.factory.IPartnerFactory.build(com.microsoft.store.partnercenter.IPartnerCredentials)"
+  fullName: "com.microsoft.store.partnercenter.factory.IPartnerFactory.build(IPartnerCredentials credentials)"
+  name: "build(IPartnerCredentials credentials)"
+  nameWithType: "IPartnerFactory.build(IPartnerCredentials credentials)"
+  summary: "Builds a <xref uid=\"com.microsoft.store.partnercenter.IAggregatePartner\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IAggregatePartner\"></xref> instance and configures it using the provided partner credentials."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The partner credentials. Use the extensions to obtain these."
+    name: "credentials"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartnerCredentials?alt=com.microsoft.store.partnercenter.IPartnerCredentials&text=IPartnerCredentials\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IAggregatePartner build(IPartnerCredentials credentials)"
+  returns:
+    description: "A configured partner object."
+    type: "<xref href=\"com.microsoft.store.partnercenter.IAggregatePartner?alt=com.microsoft.store.partnercenter.IAggregatePartner&text=IAggregatePartner\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 metadata: {}
 package: "com.microsoft.store.partnercenter.factory"

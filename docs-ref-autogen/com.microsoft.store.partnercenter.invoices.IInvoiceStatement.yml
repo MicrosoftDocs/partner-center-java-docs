@@ -6,7 +6,17 @@ nameWithType: "IInvoiceStatement"
 summary: "Represents the operations available to an invoice statement."
 syntax: "public interface IInvoiceStatement extends IPartnerComponentString"
 methods:
-- "com.microsoft.store.partnercenter.invoices.IInvoiceStatement.get()"
+- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement.get()"
+  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement.get()"
+  name: "get()"
+  nameWithType: "IInvoiceStatement.get()"
+  summary: "Retrieves the invoice statement. This operation is currently only supported for user based credentials."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract InputStream get()"
+  returns:
+    description: "The invoice statement."
+    type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

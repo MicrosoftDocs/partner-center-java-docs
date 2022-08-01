@@ -4,9 +4,9 @@ fullName: "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperati
 name: "RateCardCollectionOperations"
 nameWithType: "RateCardCollectionOperations"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -23,9 +23,26 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class RateCardCollectionOperations extends BasePartnerComponentString implements IRateCardCollection"
 constructors:
-- "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.RateCardCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+- uid: "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.RateCardCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+  fullName: "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.RateCardCollectionOperations(IPartner rootPartnerOperations)"
+  name: "RateCardCollectionOperations(IPartner rootPartnerOperations)"
+  nameWithType: "RateCardCollectionOperations.RateCardCollectionOperations(IPartner rootPartnerOperations)"
+  summary: "Initializes a new instance of the RateCardCollectionOperationsclass."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public RateCardCollectionOperations(IPartner rootPartnerOperations)"
 methods:
-- "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.getAzure()"
+- uid: "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.getAzure()"
+  fullName: "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.getAzure()"
+  name: "getAzure()"
+  nameWithType: "RateCardCollectionOperations.getAzure()"
+  summary: "Gets the Azure rate card operations."
+  syntax: "public IAzureRateCard getAzure()"
+  returns:
+    description: "The Azure rate card operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.ratecards.IAzureRateCard?alt=com.microsoft.store.partnercenter.ratecards.IAzureRateCard&text=IAzureRateCard\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.ratecards.IRateCardCollection?alt=com.microsoft.store.partnercenter.ratecards.IRateCardCollection&text=IRateCardCollection\" data-throw-if-not-resolved=\"False\" />"

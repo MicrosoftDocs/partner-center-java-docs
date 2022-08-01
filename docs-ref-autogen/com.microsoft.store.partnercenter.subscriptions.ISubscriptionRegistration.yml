@@ -6,7 +6,17 @@ nameWithType: "ISubscriptionRegistration"
 summary: "Defines the operations available on a customer's subscription registrations."
 syntax: "public interface ISubscriptionRegistration extends IPartnerComponent<Tuple<String,String>>"
 methods:
-- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register()"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register()"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register()"
+  name: "register()"
+  nameWithType: "ISubscriptionRegistration.register()"
+  summary: "Register a subscription to enable Azure Reserved instance purchase."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String register()"
+  returns:
+    description: "The location which indicates the URL of the API to query for status."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

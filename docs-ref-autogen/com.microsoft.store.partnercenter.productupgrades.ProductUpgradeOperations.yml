@@ -5,9 +5,9 @@ name: "ProductUpgradeOperations"
 nameWithType: "ProductUpgradeOperations"
 summary: "Implements the operations for product upgrades"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -24,9 +24,33 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class ProductUpgradeOperations extends BasePartnerComponentString implements IProductUpgrade"
 constructors:
-- "com.microsoft.store.partnercenter.productupgrades.ProductUpgradeOperations.ProductUpgradeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.productupgrades.ProductUpgradeOperations.ProductUpgradeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.productupgrades.ProductUpgradeOperations.ProductUpgradeOperations(IPartner rootPartnerOperations, String upgradeId)"
+  name: "ProductUpgradeOperations(IPartner rootPartnerOperations, String upgradeId)"
+  nameWithType: "ProductUpgradeOperations.ProductUpgradeOperations(IPartner rootPartnerOperations, String upgradeId)"
+  summary: "Initializes a new instance of the ProductUpgradeOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The identifier for the product upgrade."
+    name: "upgradeId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ProductUpgradeOperations(IPartner rootPartnerOperations, String upgradeId)"
 methods:
-- "com.microsoft.store.partnercenter.productupgrades.ProductUpgradeOperations.checkStatus(com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest)"
+- uid: "com.microsoft.store.partnercenter.productupgrades.ProductUpgradeOperations.checkStatus(com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest)"
+  fullName: "com.microsoft.store.partnercenter.productupgrades.ProductUpgradeOperations.checkStatus(ProductUpgradeRequest productUpgradeRequest)"
+  name: "checkStatus(ProductUpgradeRequest productUpgradeRequest)"
+  nameWithType: "ProductUpgradeOperations.checkStatus(ProductUpgradeRequest productUpgradeRequest)"
+  summary: "Checks the product upgrade status"
+  parameters:
+  - description: "The product upgrade status request."
+    name: "productUpgradeRequest"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest?alt=com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest&text=ProductUpgradeRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ProductUpgradeStatus checkStatus(ProductUpgradeRequest productUpgradeRequest)"
+  returns:
+    description: "The status of the product upgrade."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeStatus?alt=com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeStatus&text=ProductUpgradeStatus\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.productupgrades.IProductUpgrade?alt=com.microsoft.store.partnercenter.productupgrades.IProductUpgrade&text=IProductUpgrade\" data-throw-if-not-resolved=\"False\" />"

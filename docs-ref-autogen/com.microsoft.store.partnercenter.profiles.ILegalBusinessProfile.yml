@@ -6,8 +6,32 @@ nameWithType: "ILegalBusinessProfile"
 summary: "Encapsulates behavior of a legal business profile."
 syntax: "public interface ILegalBusinessProfile extends IPartnerComponentString, IEntityGetOperations<LegalBusinessProfile>, IEntityUpdateOperations<LegalBusinessProfile>"
 methods:
-- "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get()"
-- "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update(com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile)"
+- uid: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get()"
+  fullName: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get()"
+  name: "get()"
+  nameWithType: "ILegalBusinessProfile.get()"
+  summary: "Retrieves the legal business profile."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LegalBusinessProfile get()"
+  returns:
+    description: "The legal business profile."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile?alt=com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile&text=LegalBusinessProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update(com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile)"
+  fullName: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update(LegalBusinessProfile legalBusinessProfile)"
+  name: "update(LegalBusinessProfile legalBusinessProfile)"
+  nameWithType: "ILegalBusinessProfile.update(LegalBusinessProfile legalBusinessProfile)"
+  summary: "Updates the partner's legal business profile."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The legal business profile information."
+    name: "legalBusinessProfile"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile?alt=com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile&text=LegalBusinessProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract LegalBusinessProfile update(LegalBusinessProfile legalBusinessProfile)"
+  returns:
+    description: "The updated legal business profile."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile?alt=com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile&text=LegalBusinessProfile\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

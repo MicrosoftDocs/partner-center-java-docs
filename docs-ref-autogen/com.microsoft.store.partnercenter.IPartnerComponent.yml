@@ -6,8 +6,28 @@ nameWithType: "IPartnerComponent<TContext>"
 summary: "Represents a partner SDK component. The type of the component's context object."
 syntax: "public interface IPartnerComponent<TContext>"
 methods:
-- "com.microsoft.store.partnercenter.IPartnerComponent.getContext()"
-- "com.microsoft.store.partnercenter.IPartnerComponent.getPartner()"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent.getContext()"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()"
+  name: "getContext()"
+  nameWithType: "IPartnerComponent<TContext>.getContext()"
+  summary: "Gets the component context object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract TContext getContext()"
+  returns:
+    description: "The component context object."
+    type: "<xref href=\"TContext?alt=TContext&text=TContext\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.IPartnerComponent.getPartner()"
+  fullName: "com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner()"
+  name: "getPartner()"
+  nameWithType: "IPartnerComponent<TContext>.getPartner()"
+  summary: "Gets a reference to the partner operations instance that generated this component."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IPartner getPartner()"
+  returns:
+    description: "A reference to the partner operations instance that generated this component."
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
 - name: "TContext"

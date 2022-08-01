@@ -5,7 +5,7 @@ name: "BasePartnerComponent<TContext>"
 nameWithType: "BasePartnerComponent<TContext>"
 summary: "Holds common partner component properties and behavior. All components should inherit from this class. The context object type."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -20,10 +20,38 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public abstract class BasePartnerComponent<TContext> implements IPartnerComponent<TContext>"
 constructors:
-- "com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(com.microsoft.store.partnercenter.IPartner,TContext)"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(com.microsoft.store.partnercenter.IPartner,TContext)"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)"
+  name: "BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)"
+  nameWithType: "BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)"
+  summary: "Initializes a new instance of the BasePartnerComponent class."
+  modifiers:
+  - "protected"
+  parameters:
+  - description: "The root partner operations that created this component."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "A component context object to work with."
+    name: "componentContext"
+    type: "<xref href=\"TContext?alt=TContext&text=TContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)"
 methods:
-- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
-- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()"
+  name: "getContext()"
+  nameWithType: "BasePartnerComponent<TContext>.getContext()"
+  summary: "Gets the component context object."
+  syntax: "public TContext getContext()"
+  returns:
+    type: "<xref href=\"TContext?alt=TContext&text=TContext\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()"
+  name: "getPartner()"
+  nameWithType: "BasePartnerComponent<TContext>.getPartner()"
+  summary: "Gets a reference to the partner operations instance that generated this component."
+  syntax: "public IPartner getPartner()"
+  returns:
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 typeParameters:
 - name: "TContext"

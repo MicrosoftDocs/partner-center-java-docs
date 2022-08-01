@@ -4,9 +4,9 @@ fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations"
 name: "InvoiceSummaryOperations"
 nameWithType: "InvoiceSummaryOperations"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -23,9 +23,25 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class InvoiceSummaryOperations extends BasePartnerComponentString implements IInvoiceSummary"
 constructors:
-- "com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations.InvoiceSummaryOperations(com.microsoft.store.partnercenter.IPartner)"
+- uid: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations.InvoiceSummaryOperations(com.microsoft.store.partnercenter.IPartner)"
+  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations.InvoiceSummaryOperations(IPartner rootPartnerOperations)"
+  name: "InvoiceSummaryOperations(IPartner rootPartnerOperations)"
+  nameWithType: "InvoiceSummaryOperations.InvoiceSummaryOperations(IPartner rootPartnerOperations)"
+  summary: "Initializes a new instance of the InvoiceSummaryOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InvoiceSummaryOperations(IPartner rootPartnerOperations)"
 methods:
-- "com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations.get()"
+- uid: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations.get()"
+  name: "get()"
+  nameWithType: "InvoiceSummaryOperations.get()"
+  summary: "Retrieves summary of the partner's billing information."
+  syntax: "public InvoiceSummary get()"
+  returns:
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.InvoiceSummary?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceSummary&text=InvoiceSummary\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.invoices.IInvoiceSummary?alt=com.microsoft.store.partnercenter.invoices.IInvoiceSummary&text=IInvoiceSummary\" data-throw-if-not-resolved=\"False\" />"

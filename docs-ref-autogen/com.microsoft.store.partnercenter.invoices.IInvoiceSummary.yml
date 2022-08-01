@@ -5,7 +5,17 @@ name: "IInvoiceSummary"
 nameWithType: "IInvoiceSummary"
 syntax: "public interface IInvoiceSummary extends IPartnerComponentString, IEntityGetOperations<InvoiceSummary>"
 methods:
-- "com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get()"
+- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get()"
+  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get()"
+  name: "get()"
+  nameWithType: "IInvoiceSummary.get()"
+  summary: "Retrieves the invoice summary. This operation is currently only supported for user based credentials."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract InvoiceSummary get()"
+  returns:
+    description: "The invoice summary."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.InvoiceSummary?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceSummary&text=InvoiceSummary\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

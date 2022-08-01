@@ -6,10 +6,62 @@ nameWithType: "IUserMemberCollection"
 summary: "Interface for Managing User Membership in Directory Roles"
 syntax: "public interface IUserMemberCollection extends IPartnerComponent<Tuple<String,String>>, IEntityCreateOperations<UserMember,UserMember>, IEntireEntityCollectionRetrievalOperations<UserMember,SeekBasedResourceCollection<UserMember>>, IEntitySelector<String,IUserMember>"
 methods:
-- "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.byId(java.lang.String)"
-- "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.create(com.microsoft.store.partnercenter.models.roles.UserMember)"
-- "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get()"
-- "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
+- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.byId(String userId)"
+  name: "byId(String userId)"
+  nameWithType: "IUserMemberCollection.byId(String userId)"
+  summary: "Gets a single user member behavior."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The user identifier."
+    name: "userId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IUserMember byId(String userId)"
+  returns:
+    description: "The user member operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember?alt=com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember&text=IUserMember\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.create(com.microsoft.store.partnercenter.models.roles.UserMember)"
+  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.create(UserMember newEntity)"
+  name: "create(UserMember newEntity)"
+  nameWithType: "IUserMemberCollection.create(UserMember newEntity)"
+  summary: "Adds customer user to a directory role."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "UserMember to add."
+    name: "newEntity"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.roles.UserMember?alt=com.microsoft.store.partnercenter.models.roles.UserMember&text=UserMember\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract UserMember create(UserMember newEntity)"
+  returns:
+    description: "The customer directory role user member."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.roles.UserMember?alt=com.microsoft.store.partnercenter.models.roles.UserMember&text=UserMember\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get()"
+  name: "get()"
+  nameWithType: "IUserMemberCollection.get()"
+  summary: "Gets all the user members of a customer directory role."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SeekBasedResourceCollection<UserMember> get()"
+  returns:
+    description: "The directory role user memberships."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.SeekBasedResourceCollection?alt=com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&text=SeekBasedResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.roles.UserMember?alt=com.microsoft.store.partnercenter.models.roles.UserMember&text=UserMember\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
+  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.query(IQuery query)"
+  name: "query(IQuery query)"
+  nameWithType: "IUserMemberCollection.query(IQuery query)"
+  summary: "Queries the user members of a customer directory role."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "A query to apply onto user member collection."
+    name: "query"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SeekBasedResourceCollection<UserMember> query(IQuery query)"
+  returns:
+    description: "The directory role user members."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.SeekBasedResourceCollection?alt=com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&text=SeekBasedResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.roles.UserMember?alt=com.microsoft.store.partnercenter.models.roles.UserMember&text=UserMember\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

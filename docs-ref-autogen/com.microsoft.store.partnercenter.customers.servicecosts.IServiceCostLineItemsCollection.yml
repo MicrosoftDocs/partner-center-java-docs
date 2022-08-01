@@ -6,7 +6,17 @@ nameWithType: "IServiceCostLineItemsCollection"
 summary: "Represents the behavior of the customer service cost line items as a whole."
 syntax: "public interface IServiceCostLineItemsCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<ServiceCostLineItem,ResourceCollection<ServiceCostLineItem>>"
 methods:
-- "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection.get()"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection.get()"
+  name: "get()"
+  nameWithType: "IServiceCostLineItemsCollection.get()"
+  summary: "Retrieves a customer's service cost line items."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<ServiceCostLineItem> get()"
+  returns:
+    description: "The service cost line items."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem?alt=com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem&text=ServiceCostLineItem\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

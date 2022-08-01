@@ -6,7 +6,17 @@ nameWithType: "ISubscriptionAddOnCollection"
 summary: "Defines the behavior for a subscription's add-ons."
 syntax: "public interface ISubscriptionAddOnCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>"
 methods:
-- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.get()"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.get()"
+  name: "get()"
+  nameWithType: "ISubscriptionAddOnCollection.get()"
+  summary: "Retrieves all subscription add-ons."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<Subscription> get()"
+  returns:
+    description: "The subscription add-ons."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

@@ -6,7 +6,14 @@ nameWithType: "IApplicationConsent"
 summary: "Represents an application consent"
 syntax: "public interface IApplicationConsent extends IPartnerComponent<Tuple<String,String>>, IEntityDeleteOperations<ApplicationConsent>"
 methods:
-- "com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.delete()"
+- uid: "com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.delete()"
+  fullName: "com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.delete()"
+  name: "delete()"
+  nameWithType: "IApplicationConsent.delete()"
+  summary: "Remove application consent."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract void delete()"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

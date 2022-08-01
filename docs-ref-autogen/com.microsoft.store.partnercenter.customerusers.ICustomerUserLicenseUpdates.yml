@@ -6,7 +6,21 @@ nameWithType: "ICustomerUserLicenseUpdates"
 summary: "Represents the behavior of the customers user's directory roles."
 syntax: "public interface ICustomerUserLicenseUpdates extends IPartnerComponent<Tuple<String,String>>, IEntityCreateOperations<LicenseUpdate,LicenseUpdate>"
 methods:
-- "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create(com.microsoft.store.partnercenter.models.licenses.LicenseUpdate)"
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create(com.microsoft.store.partnercenter.models.licenses.LicenseUpdate)"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create(LicenseUpdate newLicenseUpdate)"
+  name: "create(LicenseUpdate newLicenseUpdate)"
+  nameWithType: "ICustomerUserLicenseUpdates.create(LicenseUpdate newLicenseUpdate)"
+  summary: "Assign licenses to a user. This method serves three scenarios: 1. Add license to a customer user. 2. Remove license from a customer user. 3. Update existing license for a customer user."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "License update object."
+    name: "newLicenseUpdate"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.licenses.LicenseUpdate?alt=com.microsoft.store.partnercenter.models.licenses.LicenseUpdate&text=LicenseUpdate\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract LicenseUpdate create(LicenseUpdate newLicenseUpdate)"
+  returns:
+    description: "The customer user's directory roles."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.licenses.LicenseUpdate?alt=com.microsoft.store.partnercenter.models.licenses.LicenseUpdate&text=LicenseUpdate\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

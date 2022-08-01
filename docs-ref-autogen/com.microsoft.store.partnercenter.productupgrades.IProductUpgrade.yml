@@ -6,7 +6,21 @@ nameWithType: "IProductUpgrade"
 summary: "Represents operations that apply to product upgrades."
 syntax: "public interface IProductUpgrade extends IPartnerComponent<String>"
 methods:
-- "com.microsoft.store.partnercenter.productupgrades.IProductUpgrade.checkStatus(com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest)"
+- uid: "com.microsoft.store.partnercenter.productupgrades.IProductUpgrade.checkStatus(com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest)"
+  fullName: "com.microsoft.store.partnercenter.productupgrades.IProductUpgrade.checkStatus(ProductUpgradeRequest productUpgradeRequest)"
+  name: "checkStatus(ProductUpgradeRequest productUpgradeRequest)"
+  nameWithType: "IProductUpgrade.checkStatus(ProductUpgradeRequest productUpgradeRequest)"
+  summary: "Checks the product upgrade status"
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The product upgrade status request."
+    name: "productUpgradeRequest"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest?alt=com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest&text=ProductUpgradeRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ProductUpgradeStatus checkStatus(ProductUpgradeRequest productUpgradeRequest)"
+  returns:
+    description: "The status of the product upgrade."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeStatus?alt=com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeStatus&text=ProductUpgradeStatus\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"

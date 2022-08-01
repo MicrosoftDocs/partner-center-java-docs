@@ -6,7 +6,21 @@ nameWithType: "ICustomerDeviceCollection"
 summary: "Represents the operations that can be done on the partner's devices."
 syntax: "public interface ICustomerDeviceCollection extends IPartnerComponentString"
 methods:
-- "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update(com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest)"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update(com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest)"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)"
+  name: "update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)"
+  nameWithType: "ICustomerDeviceCollection.update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)"
+  summary: "Updates the devices with configuration policies."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The device policy update request with devices to be updated."
+    name: "devicePolicyUpdateRequest"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest?alt=com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest&text=DevicePolicyUpdateRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract String update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)"
+  returns:
+    description: "The location of the status to track the update."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

@@ -6,7 +6,21 @@ nameWithType: "IEntityCreateOperations<T,T1>"
 summary: "Groups operations for creating a single entity. The entity type request.The entity type response."
 syntax: "public interface IEntityCreateOperations<T,T1>"
 methods:
-- "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create(T)"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T,T1>.create(T newEntity)"
+  name: "create(T newEntity)"
+  nameWithType: "IEntityCreateOperations<T,T1>.create(T newEntity)"
+  summary: "Creates a new entity."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The new entity information."
+    name: "newEntity"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract T1 create(T newEntity)"
+  returns:
+    description: "The entity information that was just created."
+    type: "<xref href=\"T1?alt=T1&text=T1\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
 - name: "T"

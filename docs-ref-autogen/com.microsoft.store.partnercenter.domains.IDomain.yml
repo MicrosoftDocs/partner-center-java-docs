@@ -5,7 +5,17 @@ name: "IDomain"
 nameWithType: "IDomain"
 syntax: "public interface IDomain extends IPartnerComponentString, IEntityExistsOperations"
 methods:
-- "com.microsoft.store.partnercenter.domains.IDomain.exists()"
+- uid: "com.microsoft.store.partnercenter.domains.IDomain.exists()"
+  fullName: "com.microsoft.store.partnercenter.domains.IDomain.exists()"
+  name: "exists()"
+  nameWithType: "IDomain.exists()"
+  summary: "Checks if the domain is available or not."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract boolean exists()"
+  returns:
+    description: "true if the domain exists, false otherwise."
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

@@ -6,8 +6,36 @@ nameWithType: "IEntitlementCollection"
 summary: "Represents the operations that can be performed on entitlements associated to the customer based on the logged in partner."
 syntax: "public interface IEntitlementCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>"
 methods:
-- "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.byEntitlementType(java.lang.String)"
-- "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.get(java.lang.Boolean)"
+- uid: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.byEntitlementType(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.byEntitlementType(String entitlementType)"
+  name: "byEntitlementType(String entitlementType)"
+  nameWithType: "IEntitlementCollection.byEntitlementType(String entitlementType)"
+  summary: "Retrieves the operations that can be applied on entitlements with a given entitlement type."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The type of entitlement."
+    name: "entitlementType"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>> byEntitlementType(String entitlementType)"
+  returns:
+    description: "The entitlement collection operations by entitlement type."
+    type: "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.get(java.lang.Boolean)"
+  fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.get(Boolean showExpiry)"
+  name: "get(Boolean showExpiry)"
+  nameWithType: "IEntitlementCollection.get(Boolean showExpiry)"
+  summary: "Gets the entitlements for a customer."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "A flag to indicate if the expiry date is required to be returned along with the entitlement (if applicable)."
+    name: "showExpiry"
+    type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ResourceCollection<Entitlement> get(Boolean showExpiry)"
+  returns:
+    description: "The collection of entitlements for the customer."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

@@ -6,10 +6,62 @@ nameWithType: "ICustomerUserCollection"
 summary: "Represents the behavior of the customers users"
 syntax: "public interface ICustomerUserCollection extends IPartnerComponentString, IEntityCreateOperations<CustomerUser,CustomerUser>, IEntireEntityCollectionRetrievalOperations<CustomerUser,SeekBasedResourceCollection<CustomerUser>>"
 methods:
-- "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.byId(java.lang.String)"
-- "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.create(com.microsoft.store.partnercenter.models.users.CustomerUser)"
-- "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get()"
-- "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.byId(String userId)"
+  name: "byId(String userId)"
+  nameWithType: "ICustomerUserCollection.byId(String userId)"
+  summary: "Gets a single customer user operations."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The user identifier."
+    name: "userId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ICustomerUser byId(String userId)"
+  returns:
+    description: "The customer user operations for the specified user."
+    type: "<xref href=\"com.microsoft.store.partnercenter.customerusers.ICustomerUser?alt=com.microsoft.store.partnercenter.customerusers.ICustomerUser&text=ICustomerUser\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.create(com.microsoft.store.partnercenter.models.users.CustomerUser)"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.create(CustomerUser newEntity)"
+  name: "create(CustomerUser newEntity)"
+  nameWithType: "ICustomerUserCollection.create(CustomerUser newEntity)"
+  summary: "Create a new user for the customer."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The user object containing details for the new user to be created."
+    name: "newEntity"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CustomerUser create(CustomerUser newEntity)"
+  returns:
+    description: "User entity"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get()"
+  name: "get()"
+  nameWithType: "ICustomerUserCollection.get()"
+  summary: "Retrieves all the customer users."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SeekBasedResourceCollection<CustomerUser> get()"
+  returns:
+    description: "All the customer users."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.SeekBasedResourceCollection?alt=com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&text=SeekBasedResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(IQuery customerUsersQuery)"
+  name: "query(IQuery customerUsersQuery)"
+  nameWithType: "ICustomerUserCollection.query(IQuery customerUsersQuery)"
+  summary: "Queries users associated to the customer. - Count queries are not supported by this operation. - You can set page size, filter and sort option. - You can navigate to other pages by specifying a seek query with the seek operation and the continuation token sent by the previous operation."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "A query to apply onto customer users. Check <xref uid=\"com.microsoft.store.partnercenter.models.query.QueryFactory\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.microsoft.store.partnercenter.models.query.QueryFactory\"></xref> to see how to build queries."
+    name: "customerUsersQuery"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SeekBasedResourceCollection<CustomerUser> query(IQuery customerUsersQuery)"
+  returns:
+    description: "The requested customer users."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.SeekBasedResourceCollection?alt=com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&text=SeekBasedResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

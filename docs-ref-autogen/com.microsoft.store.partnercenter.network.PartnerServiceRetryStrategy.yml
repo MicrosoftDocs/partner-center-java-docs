@@ -5,8 +5,8 @@ name: "PartnerServiceRetryStrategy"
 nameWithType: "PartnerServiceRetryStrategy"
 summary: "Represents a retry strategy that determines the number of retry attempts and the interval between retries."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.rest.retry.RetryStrategy\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.rest.retry.RetryStrategy?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.rest.retry.RetryStrategy.isFastFirstRetry()"
 - "com.microsoft.rest.retry.RetryStrategy.name()"
@@ -24,9 +24,34 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class PartnerServiceRetryStrategy extends RetryStrategy"
 constructors:
-- "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int)"
+- uid: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int)"
+  fullName: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int maxRetryAttempts)"
+  name: "PartnerServiceRetryStrategy(int maxRetryAttempts)"
+  nameWithType: "PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int maxRetryAttempts)"
+  summary: "Initializes a new instance of the <xref uid=\"com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PartnerServiceRetryStrategy\"></xref> class."
+  parameters:
+  - description: "The maximum number of retry attempts."
+    name: "maxRetryAttempts"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PartnerServiceRetryStrategy(int maxRetryAttempts)"
 methods:
-- "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,okhttp3.Response)"
+- uid: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,okhttp3.Response)"
+  fullName: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int retryCount, Response response)"
+  name: "shouldRetry(int retryCount, Response response)"
+  nameWithType: "PartnerServiceRetryStrategy.shouldRetry(int retryCount, Response response)"
+  summary: "Returns if a request should be retried based on the retry count, current response, and the current strategy."
+  overridden: "com.microsoft.rest.retry.RetryStrategy.shouldRetry(int,okhttp3.Response)"
+  parameters:
+  - description: "The current retry attempt count."
+    name: "retryCount"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The exception that caused the retry conditions to occur."
+    name: "response"
+    type: "<xref href=\"okhttp3.Response?alt=okhttp3.Response&text=Response\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public boolean shouldRetry(int retryCount, Response response)"
+  returns:
+    description: "true if the request should be retried; false otherwise."
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.network"

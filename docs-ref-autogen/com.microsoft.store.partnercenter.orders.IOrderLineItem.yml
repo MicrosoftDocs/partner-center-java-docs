@@ -6,7 +6,17 @@ nameWithType: "IOrderLineItem"
 summary: "Represents the available order line item operations."
 syntax: "public interface IOrderLineItem extends IPartnerComponent<TripletTuple<String,String,Integer>>"
 methods:
-- "com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()"
+- uid: "com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink()"
+  name: "getActivationLink()"
+  nameWithType: "IOrderLineItem.getActivationLink()"
+  summary: "Gets the available customer order line item activation link operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IOrderLineItemActivationLink getActivationLink()"
+  returns:
+    description: "The available customer order line item activation link operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink?alt=com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink&text=IOrderLineItemActivationLink\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.TripletTuple?alt=com.microsoft.store.partnercenter.models.utils.TripletTuple&text=TripletTuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.Integer?alt=java.lang.Integer&text=Integer\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

@@ -4,7 +4,7 @@ fullName: "com.microsoft.store.partnercenter.utils.StringHelper"
 name: "StringHelper"
 nameWithType: "StringHelper"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -19,13 +19,74 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class StringHelper"
 constructors:
-- "com.microsoft.store.partnercenter.utils.StringHelper.StringHelper()"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.StringHelper()"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.StringHelper()"
+  name: "StringHelper()"
+  nameWithType: "StringHelper.StringHelper()"
+  syntax: "public StringHelper()"
 methods:
-- "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(java.io.InputStream)"
-- "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(java.io.InputStream,java.lang.String)"
-- "com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace(java.lang.String)"
-- "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty(java.lang.String)"
-- "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(java.io.InputStream)"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(InputStream is)"
+  name: "fromInputStream(InputStream is)"
+  nameWithType: "StringHelper.fromInputStream(InputStream is)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "is"
+    type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static String fromInputStream(InputStream is)"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(java.io.InputStream,java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(InputStream is, String encoding)"
+  name: "fromInputStream(InputStream is, String encoding)"
+  nameWithType: "StringHelper.fromInputStream(InputStream is, String encoding)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "is"
+    type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"
+  - name: "encoding"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static String fromInputStream(InputStream is, String encoding)"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace(String string)"
+  name: "isEmptyOrContainsWhiteSpace(String string)"
+  nameWithType: "StringHelper.isEmptyOrContainsWhiteSpace(String string)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "string"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static boolean isEmptyOrContainsWhiteSpace(String string)"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty(String string)"
+  name: "isNullOrEmpty(String string)"
+  nameWithType: "StringHelper.isNullOrEmpty(String string)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "string"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static boolean isNullOrEmpty(String string)"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace(String string)"
+  name: "isNullOrWhiteSpace(String string)"
+  nameWithType: "StringHelper.isNullOrWhiteSpace(String string)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "string"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static boolean isNullOrWhiteSpace(String string)"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.utils"

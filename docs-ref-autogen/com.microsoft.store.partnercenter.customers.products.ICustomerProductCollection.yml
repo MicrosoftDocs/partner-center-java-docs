@@ -6,8 +6,36 @@ nameWithType: "ICustomerProductCollection"
 summary: "Holds operations that can be performed on products that apply to a given customer."
 syntax: "public interface ICustomerProductCollection extends IPartnerComponentString, IEntitySelector<String,IProduct>"
 methods:
-- "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection.byId(java.lang.String)"
-- "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection.byTargetView(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection.byId(String productId)"
+  name: "byId(String productId)"
+  nameWithType: "ICustomerProductCollection.byId(String productId)"
+  summary: "Retrieves the operations tied with a specific product for a given customer."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Identifier for the product."
+    name: "productId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IProduct byId(String productId)"
+  returns:
+    description: "The operations that can be performed on a single product."
+    type: "<xref href=\"com.microsoft.store.partnercenter.products.IProduct?alt=com.microsoft.store.partnercenter.products.IProduct&text=IProduct\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection.byTargetView(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection.byTargetView(String targetView)"
+  name: "byTargetView(String targetView)"
+  nameWithType: "ICustomerProductCollection.byTargetView(String targetView)"
+  summary: "Retrieves the operations that can be applied on products in a given catalog view and that apply to a given customer."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The product target view."
+    name: "targetView"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ICustomerProductCollectionByTargetView byTargetView(String targetView)"
+  returns:
+    description: "The catalog view operations by target view"
+    type: "<xref href=\"com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView?alt=com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView&text=ICustomerProductCollectionByTargetView\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

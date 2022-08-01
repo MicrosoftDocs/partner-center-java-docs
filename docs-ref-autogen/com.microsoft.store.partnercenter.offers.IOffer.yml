@@ -6,8 +6,28 @@ nameWithType: "IOffer"
 summary: "Holds operations that can be performed on a single offer."
 syntax: "public interface IOffer extends IPartnerComponent<Tuple<String,String>>"
 methods:
-- "com.microsoft.store.partnercenter.offers.IOffer.get()"
-- "com.microsoft.store.partnercenter.offers.IOffer.getAddOns()"
+- uid: "com.microsoft.store.partnercenter.offers.IOffer.get()"
+  fullName: "com.microsoft.store.partnercenter.offers.IOffer.get()"
+  name: "get()"
+  nameWithType: "IOffer.get()"
+  summary: "Retrieves an offer for the provided offer identifer, country."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Offer get()"
+  returns:
+    description: "The requested offer for the given country and identifier."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.offers.IOffer.getAddOns()"
+  fullName: "com.microsoft.store.partnercenter.offers.IOffer.getAddOns()"
+  name: "getAddOns()"
+  nameWithType: "IOffer.getAddOns()"
+  summary: "Gets the operations for the current offer's add-ons."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IOfferAddOns getAddOns()"
+  returns:
+    description: "The operations for the current offer's add-ons"
+    type: "<xref href=\"com.microsoft.store.partnercenter.offers.IOfferAddOns?alt=com.microsoft.store.partnercenter.offers.IOfferAddOns&text=IOfferAddOns\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

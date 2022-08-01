@@ -6,11 +6,73 @@ nameWithType: "ISubscriptionCollection"
 summary: "Represents the behavior of the customer subscriptions as a whole."
 syntax: "public interface ISubscriptionCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>"
 methods:
-- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byId(java.lang.String)"
-- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byOrder(java.lang.String)"
-- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner(java.lang.String)"
-- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get()"
-- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.getUsageRecords()"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byId(String subscriptionId)"
+  name: "byId(String subscriptionId)"
+  nameWithType: "ISubscriptionCollection.byId(String subscriptionId)"
+  summary: "Retrieves a specific customer subscription behavior."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The subscription identifier"
+    name: "subscriptionId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ISubscription byId(String subscriptionId)"
+  returns:
+    description: "The customer subscription."
+    type: "<xref href=\"com.microsoft.store.partnercenter.subscriptions.ISubscription?alt=com.microsoft.store.partnercenter.subscriptions.ISubscription&text=ISubscription\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byOrder(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byOrder(String orderId)"
+  name: "byOrder(String orderId)"
+  nameWithType: "ISubscriptionCollection.byOrder(String orderId)"
+  summary: "Groups customer subscriptions by an order."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The order id."
+    name: "orderId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>> byOrder(String orderId)"
+  returns:
+    description: "The order subscriptions operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner(String partnerId)"
+  name: "byPartner(String partnerId)"
+  nameWithType: "ISubscriptionCollection.byPartner(String partnerId)"
+  summary: "Groups customer subscriptions by a partner."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The partner id."
+    name: "partnerId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>> byPartner(String partnerId)"
+  returns:
+    description: "The partner subscriptions operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get()"
+  name: "get()"
+  nameWithType: "ISubscriptionCollection.get()"
+  summary: "Retrieves all subscriptions."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<Subscription> get()"
+  returns:
+    description: "The subscriptions."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.getUsageRecords()"
+  fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.getUsageRecords()"
+  name: "getUsageRecords()"
+  nameWithType: "ISubscriptionCollection.getUsageRecords()"
+  summary: "Obtains the subscription usage records behavior for the customer."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ISubscriptionMonthlyUsageRecordCollection getUsageRecords()"
+  returns:
+    description: "The customer subscription usage record."
+    type: "<xref href=\"com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection?alt=com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection&text=ISubscriptionMonthlyUsageRecordCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

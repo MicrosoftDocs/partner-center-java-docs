@@ -4,8 +4,8 @@ fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserRoleColle
 name: "CustomerUserRoleCollectionOperations"
 nameWithType: "CustomerUserRoleCollectionOperations"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -22,9 +22,31 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class CustomerUserRoleCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements ICustomerUserRoleCollection"
 constructors:
-- "com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.CustomerUserRoleCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.CustomerUserRoleCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.CustomerUserRoleCollectionOperations(IPartner rootPartnerOperations, String customerId, String userId)"
+  name: "CustomerUserRoleCollectionOperations(IPartner rootPartnerOperations, String customerId, String userId)"
+  nameWithType: "CustomerUserRoleCollectionOperations.CustomerUserRoleCollectionOperations(IPartner rootPartnerOperations, String customerId, String userId)"
+  summary: "Initializes a new instance of the CustomerUserRoleCollectionOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The customer identifier."
+    name: "customerId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The user identifier."
+    name: "userId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CustomerUserRoleCollectionOperations(IPartner rootPartnerOperations, String customerId, String userId)"
 methods:
-- "com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.get()"
+- uid: "com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.get()"
+  name: "get()"
+  nameWithType: "CustomerUserRoleCollectionOperations.get()"
+  summary: "Gets the customer user's directory roles."
+  syntax: "public ResourceCollection<DirectoryRole> get()"
+  returns:
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.roles.DirectoryRole?alt=com.microsoft.store.partnercenter.models.roles.DirectoryRole&text=DirectoryRole\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection?alt=com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection&text=ICustomerUserRoleCollection\" data-throw-if-not-resolved=\"False\" />"

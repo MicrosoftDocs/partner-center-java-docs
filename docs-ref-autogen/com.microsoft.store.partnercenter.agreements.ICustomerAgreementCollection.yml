@@ -6,9 +6,47 @@ nameWithType: "ICustomerAgreementCollection"
 summary: "Encapsulates the operations on the Agreement collection."
 syntax: "public interface ICustomerAgreementCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Agreement,ResourceCollection<Agreement>>"
 methods:
-- "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType(java.lang.String)"
-- "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create(com.microsoft.store.partnercenter.models.agreements.Agreement)"
-- "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()"
+- uid: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.byAgreementType(String agreementType)"
+  name: "byAgreementType(String agreementType)"
+  nameWithType: "ICustomerAgreementCollection.byAgreementType(String agreementType)"
+  summary: "Retrieves the operations tied with a specified agreement type."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The agreement type used to filter."
+    name: "agreementType"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ICustomerAgreementCollection byAgreementType(String agreementType)"
+  returns:
+    description: "The customer agreement collection operations customized for the given type."
+    type: "<xref href=\"com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection?alt=com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection&text=ICustomerAgreementCollection\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create(com.microsoft.store.partnercenter.models.agreements.Agreement)"
+  fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create(Agreement newEntity)"
+  name: "create(Agreement newEntity)"
+  nameWithType: "ICustomerAgreementCollection.create(Agreement newEntity)"
+  summary: "Creates an agreement between the partner and customer."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The agreement to be created."
+    name: "newEntity"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.agreements.Agreement?alt=com.microsoft.store.partnercenter.models.agreements.Agreement&text=Agreement\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Agreement create(Agreement newEntity)"
+  returns:
+    description: "The newly created agreement."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.agreements.Agreement?alt=com.microsoft.store.partnercenter.models.agreements.Agreement&text=Agreement\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()"
+  name: "get()"
+  nameWithType: "ICustomerAgreementCollection.get()"
+  summary: "Gets the list of agreements between a partner and customer."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<Agreement> get()"
+  returns:
+    description: "The list of the customer's agreements."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.agreements.Agreement?alt=com.microsoft.store.partnercenter.models.agreements.Agreement&text=Agreement\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

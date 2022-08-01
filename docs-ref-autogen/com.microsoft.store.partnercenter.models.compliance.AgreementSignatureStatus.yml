@@ -5,7 +5,7 @@ name: "AgreementSignatureStatus"
 nameWithType: "AgreementSignatureStatus"
 summary: "Represent the agreement signature status"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -20,10 +20,31 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class AgreementSignatureStatus"
 constructors:
-- "com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus.AgreementSignatureStatus()"
+- uid: "com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus.AgreementSignatureStatus()"
+  fullName: "com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus.AgreementSignatureStatus()"
+  name: "AgreementSignatureStatus()"
+  nameWithType: "AgreementSignatureStatus.AgreementSignatureStatus()"
+  syntax: "public AgreementSignatureStatus()"
 methods:
-- "com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus.getIsAgreementSigned()"
-- "com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus.setIsAgreementSigned(boolean)"
+- uid: "com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus.getIsAgreementSigned()"
+  fullName: "com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus.getIsAgreementSigned()"
+  name: "getIsAgreementSigned()"
+  nameWithType: "AgreementSignatureStatus.getIsAgreementSigned()"
+  summary: "Gets a value indicating whether agreement is signed."
+  syntax: "public boolean getIsAgreementSigned()"
+  returns:
+    description: "A value indicating whether agreement is signed."
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus.setIsAgreementSigned(boolean)"
+  fullName: "com.microsoft.store.partnercenter.models.compliance.AgreementSignatureStatus.setIsAgreementSigned(boolean value)"
+  name: "setIsAgreementSigned(boolean value)"
+  nameWithType: "AgreementSignatureStatus.setIsAgreementSigned(boolean value)"
+  summary: "Sets a value indicating whether agreement is signed."
+  parameters:
+  - description: "A value indicating whether agreement is signed."
+    name: "value"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void setIsAgreementSigned(boolean value)"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.compliance"

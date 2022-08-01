@@ -5,7 +5,7 @@ name: "RenewsTo"
 nameWithType: "RenewsTo"
 summary: "Represent the renews to for a order line item."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -20,10 +20,31 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class RenewsTo"
 constructors:
-- "com.microsoft.store.partnercenter.models.orders.RenewsTo.RenewsTo()"
+- uid: "com.microsoft.store.partnercenter.models.orders.RenewsTo.RenewsTo()"
+  fullName: "com.microsoft.store.partnercenter.models.orders.RenewsTo.RenewsTo()"
+  name: "RenewsTo()"
+  nameWithType: "RenewsTo.RenewsTo()"
+  syntax: "public RenewsTo()"
 methods:
-- "com.microsoft.store.partnercenter.models.orders.RenewsTo.getTermDuration()"
-- "com.microsoft.store.partnercenter.models.orders.RenewsTo.setTermDuration(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.models.orders.RenewsTo.getTermDuration()"
+  fullName: "com.microsoft.store.partnercenter.models.orders.RenewsTo.getTermDuration()"
+  name: "getTermDuration()"
+  nameWithType: "RenewsTo.getTermDuration()"
+  summary: "Gets the term duration if applicable."
+  syntax: "public String getTermDuration()"
+  returns:
+    description: "The term duration if applicable."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.orders.RenewsTo.setTermDuration(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.orders.RenewsTo.setTermDuration(String value)"
+  name: "setTermDuration(String value)"
+  nameWithType: "RenewsTo.setTermDuration(String value)"
+  summary: "Sets the term duration if applicable."
+  parameters:
+  - description: "The term duration if applicable."
+    name: "value"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void setTermDuration(String value)"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.orders"

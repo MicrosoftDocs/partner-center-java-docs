@@ -4,9 +4,9 @@ fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer"
 name: "InvoiceLineItemDeserializer"
 nameWithType: "InvoiceLineItemDeserializer"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.fasterxml.jackson.databind.JsonDeserializer\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.fasterxml.jackson.databind.deser.std.StdDeserializer\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.fasterxml.jackson.databind.JsonDeserializer?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.fasterxml.jackson.databind.deser.std.StdDeserializer?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
 - "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,T)"
@@ -124,10 +124,36 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class InvoiceLineItemDeserializer extends StdDeserializer<InvoiceLineItem>"
 constructors:
-- "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()"
-- "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(java.lang.Class<?>)"
+- uid: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()"
+  fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()"
+  name: "InvoiceLineItemDeserializer()"
+  nameWithType: "InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()"
+  syntax: "public InvoiceLineItemDeserializer()"
+- uid: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(java.lang.Class<?>)"
+  fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(Class<?> vc)"
+  name: "InvoiceLineItemDeserializer(Class<?> vc)"
+  nameWithType: "InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(Class<?> vc)"
+  parameters:
+  - name: "vc"
+    type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
+  syntax: "public InvoiceLineItemDeserializer(Class<?> vc)"
 methods:
-- "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+- uid: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize(JsonParser parser, DeserializationContext ctxt)"
+  name: "deserialize(JsonParser parser, DeserializationContext ctxt)"
+  nameWithType: "InvoiceLineItemDeserializer.deserialize(JsonParser parser, DeserializationContext ctxt)"
+  overridden: "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  parameters:
+  - name: "parser"
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
+  - name: "ctxt"
+    type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationContext?alt=com.fasterxml.jackson.databind.DeserializationContext&text=DeserializationContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InvoiceLineItem deserialize(JsonParser parser, DeserializationContext ctxt)"
+  exceptions:
+  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - type: "<xref href=\"com.fasterxml.jackson.core.JsonProcessingException?alt=com.fasterxml.jackson.core.JsonProcessingException&text=JsonProcessingException\" data-throw-if-not-resolved=\"False\" />"
+  returns:
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem&text=InvoiceLineItem\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.utils"

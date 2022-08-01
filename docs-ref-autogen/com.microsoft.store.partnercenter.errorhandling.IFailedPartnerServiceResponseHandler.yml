@@ -6,8 +6,39 @@ nameWithType: "IFailedPartnerServiceResponseHandler"
 summary: "Defines behavior for handling non successful responses from the partner service."
 syntax: "public interface IFailedPartnerServiceResponseHandler"
 methods:
-- "com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response)"
-- "com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response,com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+- uid: "com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response)"
+  fullName: "com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response)"
+  name: "handleFailedResponse(Response response)"
+  nameWithType: "IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response)"
+  summary: "Handles failed partner service responses."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The partner service response."
+    name: "response"
+    type: "<xref href=\"okhttp3.Response?alt=okhttp3.Response&text=Response\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PartnerException handleFailedResponse(Response response)"
+  returns:
+    description: "The exception to throw."
+    type: "<xref href=\"com.microsoft.store.partnercenter.exception.PartnerException?alt=com.microsoft.store.partnercenter.exception.PartnerException&text=PartnerException\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response,com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+  fullName: "com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response, IRequestContext context)"
+  name: "handleFailedResponse(Response response, IRequestContext context)"
+  nameWithType: "IFailedPartnerServiceResponseHandler.handleFailedResponse(Response response, IRequestContext context)"
+  summary: "Handles failed partner service responses."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The partner service response."
+    name: "response"
+    type: "<xref href=\"okhttp3.Response?alt=okhttp3.Response&text=Response\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The reqeust context."
+    name: "context"
+    type: "<xref href=\"com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PartnerException handleFailedResponse(Response response, IRequestContext context)"
+  returns:
+    description: "The exception to throw."
+    type: "<xref href=\"com.microsoft.store.partnercenter.exception.PartnerException?alt=com.microsoft.store.partnercenter.exception.PartnerException&text=PartnerException\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 metadata: {}
 package: "com.microsoft.store.partnercenter.errorhandling"

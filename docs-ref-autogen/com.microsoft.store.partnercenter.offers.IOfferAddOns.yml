@@ -6,8 +6,35 @@ nameWithType: "IOfferAddOns"
 summary: "Defines the behavior of an offer's add-ons."
 syntax: "public interface IOfferAddOns extends IPartnerComponent<Tuple<String,String>>, IEntityCollectionRetrievalOperations<Offer,ResourceCollection<Offer>>"
 methods:
-- "com.microsoft.store.partnercenter.offers.IOfferAddOns.get()"
-- "com.microsoft.store.partnercenter.offers.IOfferAddOns.get(int,int)"
+- uid: "com.microsoft.store.partnercenter.offers.IOfferAddOns.get()"
+  fullName: "com.microsoft.store.partnercenter.offers.IOfferAddOns.get()"
+  name: "get()"
+  nameWithType: "IOfferAddOns.get()"
+  summary: "Retrieves all the offers for the provided country."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<Offer> get()"
+  returns:
+    description: "The offers for the provided country."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.store.partnercenter.offers.IOfferAddOns.get(int,int)"
+  fullName: "com.microsoft.store.partnercenter.offers.IOfferAddOns.get(int offset, int size)"
+  name: "get(int offset, int size)"
+  nameWithType: "IOfferAddOns.get(int offset, int size)"
+  summary: "Retrieves a subset of offers for the provided country."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The starting index."
+    name: "offset"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The maximum number of offers to return."
+    name: "size"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ResourceCollection<Offer> get(int offset, int size)"
+  returns:
+    description: "The requested segment of the offers for the given country."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

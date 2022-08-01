@@ -6,7 +6,17 @@ nameWithType: "ICustomerReadonlyProfile<T>"
 summary: "Encapsulates a single customer read-only profile behavior."
 syntax: "public interface ICustomerReadonlyProfile<T> extends IPartnerComponentString, IEntityGetOperations<T>"
 methods:
-- "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get()"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get()"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>.get()"
+  name: "get()"
+  nameWithType: "ICustomerReadonlyProfile<T>.get()"
+  summary: "Retrieves the customer profile."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract T get()"
+  returns:
+    description: "The customer profile."
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
 - name: "T"

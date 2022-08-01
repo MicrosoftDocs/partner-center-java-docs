@@ -6,8 +6,32 @@ nameWithType: "ICustomerUsageSpendingBudget"
 summary: "This interface defines the operations available on a customer's usage spending budget."
 syntax: "public interface ICustomerUsageSpendingBudget extends IPartnerComponentString, IEntityGetOperations<SpendingBudget>, IEntityPatchOperations<SpendingBudget>"
 methods:
-- "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()"
-- "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(com.microsoft.store.partnercenter.models.usage.SpendingBudget)"
+- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()"
+  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()"
+  name: "get()"
+  nameWithType: "ICustomerUsageSpendingBudget.get()"
+  summary: "Retrieves the customer's usage spending budget."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SpendingBudget get()"
+  returns:
+    description: "The customer's usage spending budget."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.usage.SpendingBudget?alt=com.microsoft.store.partnercenter.models.usage.SpendingBudget&text=SpendingBudget\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(com.microsoft.store.partnercenter.models.usage.SpendingBudget)"
+  fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch(SpendingBudget spendingBudget)"
+  name: "patch(SpendingBudget spendingBudget)"
+  nameWithType: "ICustomerUsageSpendingBudget.patch(SpendingBudget spendingBudget)"
+  summary: "Patches the customer's usage spending budget."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The new customer's usage spending budget."
+    name: "spendingBudget"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.usage.SpendingBudget?alt=com.microsoft.store.partnercenter.models.usage.SpendingBudget&text=SpendingBudget\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SpendingBudget patch(SpendingBudget spendingBudget)"
+  returns:
+    description: "The updated customer's usage spending budget."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.usage.SpendingBudget?alt=com.microsoft.store.partnercenter.models.usage.SpendingBudget&text=SpendingBudget\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

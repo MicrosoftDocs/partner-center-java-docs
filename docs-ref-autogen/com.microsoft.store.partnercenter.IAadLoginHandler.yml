@@ -6,7 +6,15 @@ nameWithType: "IAadLoginHandler"
 summary: "Represents the interface for Azure Active Directory handler."
 syntax: "public interface IAadLoginHandler"
 methods:
-- "com.microsoft.store.partnercenter.IAadLoginHandler.authenticate()"
+- uid: "com.microsoft.store.partnercenter.IAadLoginHandler.authenticate()"
+  fullName: "com.microsoft.store.partnercenter.IAadLoginHandler.authenticate()"
+  name: "authenticate()"
+  nameWithType: "IAadLoginHandler.authenticate()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AuthenticationToken authenticate()"
+  returns:
+    type: "<xref href=\"com.microsoft.store.partnercenter.AuthenticationToken?alt=com.microsoft.store.partnercenter.AuthenticationToken&text=AuthenticationToken\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 metadata: {}
 package: "com.microsoft.store.partnercenter"

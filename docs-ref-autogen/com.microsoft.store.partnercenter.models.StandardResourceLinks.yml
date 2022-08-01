@@ -5,7 +5,7 @@ name: "StandardResourceLinks"
 nameWithType: "StandardResourceLinks"
 summary: "Represents the links associated with a resource."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -20,10 +20,27 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class StandardResourceLinks"
 constructors:
-- "com.microsoft.store.partnercenter.models.StandardResourceLinks.StandardResourceLinks()"
+- uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks.StandardResourceLinks()"
+  fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks.StandardResourceLinks()"
+  name: "StandardResourceLinks()"
+  nameWithType: "StandardResourceLinks.StandardResourceLinks()"
+  syntax: "public StandardResourceLinks()"
 methods:
-- "com.microsoft.store.partnercenter.models.StandardResourceLinks.getSelf()"
-- "com.microsoft.store.partnercenter.models.StandardResourceLinks.setSelf(com.microsoft.store.partnercenter.models.Link)"
+- uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks.getSelf()"
+  fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks.getSelf()"
+  name: "getSelf()"
+  nameWithType: "StandardResourceLinks.getSelf()"
+  syntax: "public Link getSelf()"
+  returns:
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.Link?alt=com.microsoft.store.partnercenter.models.Link&text=Link\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks.setSelf(com.microsoft.store.partnercenter.models.Link)"
+  fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks.setSelf(Link value)"
+  name: "setSelf(Link value)"
+  nameWithType: "StandardResourceLinks.setSelf(Link value)"
+  parameters:
+  - name: "value"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.Link?alt=com.microsoft.store.partnercenter.models.Link&text=Link\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void setSelf(Link value)"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models"

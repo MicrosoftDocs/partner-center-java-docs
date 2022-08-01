@@ -4,8 +4,8 @@ fullName: "com.microsoft.store.partnercenter.applicationconsents.ApplicationCons
 name: "ApplicationConsentOperations"
 nameWithType: "ApplicationConsentOperations"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -22,9 +22,29 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class ApplicationConsentOperations extends BasePartnerComponent<Tuple<String,String>> implements IApplicationConsent"
 constructors:
-- "com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations.ApplicationConsentOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations.ApplicationConsentOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations.ApplicationConsentOperations(IPartner rootPartnerOperations, String customerId, String applicationId)"
+  name: "ApplicationConsentOperations(IPartner rootPartnerOperations, String customerId, String applicationId)"
+  nameWithType: "ApplicationConsentOperations.ApplicationConsentOperations(IPartner rootPartnerOperations, String customerId, String applicationId)"
+  summary: "Initializes a new instance of the ApplicationConsentOperations class."
+  parameters:
+  - description: "The partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The customer identifier."
+    name: "customerId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The application identifier."
+    name: "applicationId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ApplicationConsentOperations(IPartner rootPartnerOperations, String customerId, String applicationId)"
 methods:
-- "com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations.delete()"
+- uid: "com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations.delete()"
+  fullName: "com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations.delete()"
+  name: "delete()"
+  nameWithType: "ApplicationConsentOperations.delete()"
+  summary: "Remove application consent."
+  syntax: "public void delete()"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent?alt=com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent&text=IApplicationConsent\" data-throw-if-not-resolved=\"False\" />"

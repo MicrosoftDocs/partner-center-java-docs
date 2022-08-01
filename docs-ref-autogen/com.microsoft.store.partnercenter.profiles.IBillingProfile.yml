@@ -6,8 +6,32 @@ nameWithType: "IBillingProfile"
 summary: "Encapsulates behavior of a partner billing profile."
 syntax: "public interface IBillingProfile extends IPartnerComponentString, IEntityGetOperations<BillingProfile>, IEntityUpdateOperations<BillingProfile>"
 methods:
-- "com.microsoft.store.partnercenter.profiles.IBillingProfile.get()"
-- "com.microsoft.store.partnercenter.profiles.IBillingProfile.update(com.microsoft.store.partnercenter.models.partners.BillingProfile)"
+- uid: "com.microsoft.store.partnercenter.profiles.IBillingProfile.get()"
+  fullName: "com.microsoft.store.partnercenter.profiles.IBillingProfile.get()"
+  name: "get()"
+  nameWithType: "IBillingProfile.get()"
+  summary: "Retrieves a partner's billing profile."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract BillingProfile get()"
+  returns:
+    description: "The billing profile."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.BillingProfile?alt=com.microsoft.store.partnercenter.models.partners.BillingProfile&text=BillingProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.profiles.IBillingProfile.update(com.microsoft.store.partnercenter.models.partners.BillingProfile)"
+  fullName: "com.microsoft.store.partnercenter.profiles.IBillingProfile.update(BillingProfile billingProfile)"
+  name: "update(BillingProfile billingProfile)"
+  nameWithType: "IBillingProfile.update(BillingProfile billingProfile)"
+  summary: "Updates the partner's billing profile."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The billing profile information."
+    name: "billingProfile"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.BillingProfile?alt=com.microsoft.store.partnercenter.models.partners.BillingProfile&text=BillingProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract BillingProfile update(BillingProfile billingProfile)"
+  returns:
+    description: "The updated billing profile."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.BillingProfile?alt=com.microsoft.store.partnercenter.models.partners.BillingProfile&text=BillingProfile\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

@@ -5,9 +5,9 @@ name: "EstimateCollectionOperations"
 nameWithType: "EstimateCollectionOperations"
 summary: "Defines the operations available for estimate collection."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -24,9 +24,26 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class EstimateCollectionOperations extends BasePartnerComponentString implements IEstimateCollection"
 constructors:
-- "com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.EstimateCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+- uid: "com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.EstimateCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+  fullName: "com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.EstimateCollectionOperations(IPartner rootPartnerOperations)"
+  name: "EstimateCollectionOperations(IPartner rootPartnerOperations)"
+  nameWithType: "EstimateCollectionOperations.EstimateCollectionOperations(IPartner rootPartnerOperations)"
+  summary: "Initializes a new instance of the EstimateCollectionOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public EstimateCollectionOperations(IPartner rootPartnerOperations)"
 methods:
-- "com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.getLinks()"
+- uid: "com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.getLinks()"
+  fullName: "com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.getLinks()"
+  name: "getLinks()"
+  nameWithType: "EstimateCollectionOperations.getLinks()"
+  summary: "Gets the estimate links of the recon line items."
+  syntax: "public IEstimateLink getLinks()"
+  returns:
+    description: "The estimate links of the recon line items."
+    type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IEstimateLink?alt=com.microsoft.store.partnercenter.invoices.IEstimateLink&text=IEstimateLink\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.invoices.IEstimateCollection?alt=com.microsoft.store.partnercenter.invoices.IEstimateCollection&text=IEstimateCollection\" data-throw-if-not-resolved=\"False\" />"

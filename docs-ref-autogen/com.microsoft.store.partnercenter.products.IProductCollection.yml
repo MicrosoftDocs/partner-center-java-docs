@@ -6,7 +6,21 @@ nameWithType: "IProductCollection"
 summary: "Holds operations that can be performed on products."
 syntax: "public interface IProductCollection extends IPartnerComponentString"
 methods:
-- "com.microsoft.store.partnercenter.products.IProductCollection.byCountry(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.products.IProductCollection.byCountry(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.products.IProductCollection.byCountry(String country)"
+  name: "byCountry(String country)"
+  nameWithType: "IProductCollection.byCountry(String country)"
+  summary: "Retrieves the operations that can be applied on products from a given country."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The country name."
+    name: "country"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IProductCollectionByCountry byCountry(String country)"
+  returns:
+    description: "The product collection operations by country."
+    type: "<xref href=\"com.microsoft.store.partnercenter.products.IProductCollectionByCountry?alt=com.microsoft.store.partnercenter.products.IProductCollectionByCountry&text=IProductCollectionByCountry\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

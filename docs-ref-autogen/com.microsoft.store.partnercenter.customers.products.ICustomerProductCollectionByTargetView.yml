@@ -6,8 +6,36 @@ nameWithType: "ICustomerProductCollectionByTargetView"
 summary: "Holds operations that can be performed on products in a given catalog view that apply to a given customer."
 syntax: "public interface ICustomerProductCollectionByTargetView extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Product,ResourceCollection<Product>>"
 methods:
-- "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.byReservationScope(java.lang.String)"
-- "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.byTargetSegment(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.byReservationScope(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.byReservationScope(String reservationScope)"
+  name: "byReservationScope(String reservationScope)"
+  nameWithType: "ICustomerProductCollectionByTargetView.byReservationScope(String reservationScope)"
+  summary: "Gets the operations that can be applied on products in a given catalog view and that apply to a given customer, filtered by reservation scope."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The reservation scope filter."
+    name: "reservationScope"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ICustomerProductCollectionByTargetViewByReservationScope byReservationScope(String reservationScope)"
+  returns:
+    description: "The product collection operations by customer, by target view and by reservation scope."
+    type: "<xref href=\"com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByReservationScope?alt=com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByReservationScope&text=ICustomerProductCollectionByTargetViewByReservationScope\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.byTargetSegment(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.byTargetSegment(String targetSegment)"
+  name: "byTargetSegment(String targetSegment)"
+  nameWithType: "ICustomerProductCollectionByTargetView.byTargetSegment(String targetSegment)"
+  summary: "Gets the operations that can be applied on products in a given catalog view and that apply to a given customer, filtered by target segment."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The product segment filter."
+    name: "targetSegment"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ICustomerProductCollectionByTargetViewByTargetSegment byTargetSegment(String targetSegment)"
+  returns:
+    description: "The product collection operations by customer, by target view and by target segment."
+    type: "<xref href=\"com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment?alt=com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment&text=ICustomerProductCollectionByTargetViewByTargetSegment\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

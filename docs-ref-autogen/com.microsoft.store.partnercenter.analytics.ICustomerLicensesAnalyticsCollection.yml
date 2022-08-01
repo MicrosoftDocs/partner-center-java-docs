@@ -6,8 +6,28 @@ nameWithType: "ICustomerLicensesAnalyticsCollection"
 summary: "Encapsulates collection of customer level analytics."
 syntax: "public interface ICustomerLicensesAnalyticsCollection extends IPartnerComponentString"
 methods:
-- "com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection.getDeployment()"
-- "com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection.getUsage()"
+- uid: "com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection.getDeployment()"
+  fullName: "com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection.getDeployment()"
+  name: "getDeployment()"
+  nameWithType: "ICustomerLicensesAnalyticsCollection.getDeployment()"
+  summary: "Gets the customer level licenses deployment analytics."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ICustomerLicensesDeploymentInsightsCollection getDeployment()"
+  returns:
+    description: "The customer level licenses deployment analytics"
+    type: "<xref href=\"com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection?alt=com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection&text=ICustomerLicensesDeploymentInsightsCollection\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection.getUsage()"
+  fullName: "com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection.getUsage()"
+  name: "getUsage()"
+  nameWithType: "ICustomerLicensesAnalyticsCollection.getUsage()"
+  summary: "Gets the customer level licenses usage analytics."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ICustomerLicensesUsageInsightsCollection getUsage()"
+  returns:
+    description: "The customer level licenses usage analytics."
+    type: "<xref href=\"com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection?alt=com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection&text=ICustomerLicensesUsageInsightsCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

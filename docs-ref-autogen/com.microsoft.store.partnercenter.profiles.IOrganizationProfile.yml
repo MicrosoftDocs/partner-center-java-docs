@@ -6,8 +6,32 @@ nameWithType: "IOrganizationProfile"
 summary: "Encapsulates behavior of a organization profile."
 syntax: "public interface IOrganizationProfile extends IPartnerComponentString, IEntityGetOperations<OrganizationProfile>, IEntityUpdateOperations<OrganizationProfile>"
 methods:
-- "com.microsoft.store.partnercenter.profiles.IOrganizationProfile.get()"
-- "com.microsoft.store.partnercenter.profiles.IOrganizationProfile.update(com.microsoft.store.partnercenter.models.partners.OrganizationProfile)"
+- uid: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile.get()"
+  fullName: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile.get()"
+  name: "get()"
+  nameWithType: "IOrganizationProfile.get()"
+  summary: "Retrieves the partner's organization profile."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OrganizationProfile get()"
+  returns:
+    description: "The organization profile."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.OrganizationProfile?alt=com.microsoft.store.partnercenter.models.partners.OrganizationProfile&text=OrganizationProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile.update(com.microsoft.store.partnercenter.models.partners.OrganizationProfile)"
+  fullName: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile.update(OrganizationProfile entity)"
+  name: "update(OrganizationProfile entity)"
+  nameWithType: "IOrganizationProfile.update(OrganizationProfile entity)"
+  summary: "Updates the partner's organization profile."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The organization profile."
+    name: "entity"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.OrganizationProfile?alt=com.microsoft.store.partnercenter.models.partners.OrganizationProfile&text=OrganizationProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract OrganizationProfile update(OrganizationProfile entity)"
+  returns:
+    description: "The updated organization profile."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.OrganizationProfile?alt=com.microsoft.store.partnercenter.models.partners.OrganizationProfile&text=OrganizationProfile\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

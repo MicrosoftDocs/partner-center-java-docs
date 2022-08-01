@@ -6,9 +6,43 @@ nameWithType: "IOrder"
 summary: "Encapsulates a customer order behavior."
 syntax: "public interface IOrder extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<Order>, IEntityPatchOperations<Order>"
 methods:
-- "com.microsoft.store.partnercenter.orders.IOrder.get(java.lang.Boolean)"
-- "com.microsoft.store.partnercenter.orders.IOrder.getOrderLineItems()"
-- "com.microsoft.store.partnercenter.orders.IOrder.getProvisioningStatus()"
+- uid: "com.microsoft.store.partnercenter.orders.IOrder.get(java.lang.Boolean)"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrder.get(Boolean includePrice)"
+  name: "get(Boolean includePrice)"
+  nameWithType: "IOrder.get(Boolean includePrice)"
+  summary: "Gets the order information."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "A flag indicating whether to include pricing details in the order information or not."
+    name: "includePrice"
+    type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Order get(Boolean includePrice)"
+  returns:
+    description: "The order information including pricing details (based on access permissions) when requested."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.orders.IOrder.getOrderLineItems()"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrder.getOrderLineItems()"
+  name: "getOrderLineItems()"
+  nameWithType: "IOrder.getOrderLineItems()"
+  summary: "Gets the line item collection operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IOrderLineItemCollection getOrderLineItems()"
+  returns:
+    description: "The line item collection operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.orders.IOrderLineItemCollection?alt=com.microsoft.store.partnercenter.orders.IOrderLineItemCollection&text=IOrderLineItemCollection\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.orders.IOrder.getProvisioningStatus()"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrder.getProvisioningStatus()"
+  name: "getProvisioningStatus()"
+  nameWithType: "IOrder.getProvisioningStatus()"
+  summary: "Gets the order provisioning status operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IOrderProvisioningStatus getProvisioningStatus()"
+  returns:
+    description: "The order provisioning status operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus?alt=com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus&text=IOrderProvisioningStatus\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

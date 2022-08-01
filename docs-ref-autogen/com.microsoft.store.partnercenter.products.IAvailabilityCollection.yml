@@ -6,9 +6,47 @@ nameWithType: "IAvailabilityCollection"
 summary: "Holds operations that can be performed on availabilities."
 syntax: "public interface IAvailabilityCollection extends IPartnerComponent<TripletTuple<String,String,String>>, IEntireEntityCollectionRetrievalOperations<Availability,ResourceCollection<Availability>>, IEntitySelector<String,IAvailability>"
 methods:
-- "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(java.lang.String)"
-- "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(java.lang.String)"
-- "com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()"
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(String availabilityId)"
+  name: "byId(String availabilityId)"
+  nameWithType: "IAvailabilityCollection.byId(String availabilityId)"
+  summary: "Retrieves the operations tied with a specific availability."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Identifier for the availability."
+    name: "availabilityId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IAvailability byId(String availabilityId)"
+  returns:
+    description: "The availability operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.products.IAvailability?alt=com.microsoft.store.partnercenter.products.IAvailability&text=IAvailability\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment(String targetSegment)"
+  name: "byTargetSegment(String targetSegment)"
+  nameWithType: "IAvailabilityCollection.byTargetSegment(String targetSegment)"
+  summary: "Retrieves the operations that can be applied on availabilities filtered by a specific target segment."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The availability segment filter."
+    name: "targetSegment"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IAvailabilityCollectionByTargetSegment byTargetSegment(String targetSegment)"
+  returns:
+    description: "The availability collection operations by target segment."
+    type: "<xref href=\"com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment?alt=com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment&text=IAvailabilityCollectionByTargetSegment\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.get()"
+  name: "get()"
+  nameWithType: "IAvailabilityCollection.get()"
+  summary: "Retrieves all the availabilities for the provided SKU."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<Availability> get()"
+  returns:
+    description: "The availabilities for the provided SKU."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.products.Availability?alt=com.microsoft.store.partnercenter.models.products.Availability&text=Availability\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.TripletTuple?alt=com.microsoft.store.partnercenter.models.utils.TripletTuple&text=TripletTuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

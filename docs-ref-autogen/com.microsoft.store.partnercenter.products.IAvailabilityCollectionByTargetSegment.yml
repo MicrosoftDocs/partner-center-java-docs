@@ -6,7 +6,21 @@ nameWithType: "IAvailabilityCollectionByTargetSegment"
 summary: "Holds operations that can be performed on availabilities for a specific target segment."
 syntax: "public interface IAvailabilityCollectionByTargetSegment extends IPartnerComponent<QuadrupleTuple<String,String,String,String>>, IEntireEntityCollectionRetrievalOperations<Availability,ResourceCollection<Availability>>"
 methods:
-- "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment.byReservationScope(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment.byReservationScope(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment.byReservationScope(String reservationScope)"
+  name: "byReservationScope(String reservationScope)"
+  nameWithType: "IAvailabilityCollectionByTargetSegment.byReservationScope(String reservationScope)"
+  summary: "Gets the operations that can be applied on products that belong to a given target segment, and reservation scope."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The reservation scope filter."
+    name: "reservationScope"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IAvailabilityCollectionByTargetSegmentByReservationScopeOperations byReservationScope(String reservationScope)"
+  returns:
+    description: "The availability collection operations by target segment by reservation scope."
+    type: "<xref href=\"com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegmentByReservationScopeOperations?alt=com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegmentByReservationScopeOperations&text=IAvailabilityCollectionByTargetSegmentByReservationScopeOperations\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.QuadrupleTuple?alt=com.microsoft.store.partnercenter.models.utils.QuadrupleTuple&text=QuadrupleTuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

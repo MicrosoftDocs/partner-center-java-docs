@@ -6,7 +6,21 @@ nameWithType: "IEntitlementCollectionByEntitlementType"
 summary: "Represents the operations that can be performed on entitlements (by type) associated to the customer based on the logged in partner."
 syntax: "public interface IEntitlementCollectionByEntitlementType extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>"
 methods:
-- "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get(java.lang.Boolean)"
+- uid: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get(java.lang.Boolean)"
+  fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get(Boolean showExpiry)"
+  name: "get(Boolean showExpiry)"
+  nameWithType: "IEntitlementCollectionByEntitlementType.get(Boolean showExpiry)"
+  summary: "Gets an entitlement collection with the given entitlement type."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "A flag to indicate if the expiry date is required to be returned along with the entitlement (if applicable)."
+    name: "showExpiry"
+    type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ResourceCollection<Entitlement> get(Boolean showExpiry)"
+  returns:
+    description: "The collection of entitlements corresponding to a specific entitlement type for the customer."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

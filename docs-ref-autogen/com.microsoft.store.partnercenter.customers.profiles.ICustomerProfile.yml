@@ -6,7 +6,21 @@ nameWithType: "ICustomerProfile<T>"
 summary: "Encapsulates a single customer profile behavior. The type of the customer profile."
 syntax: "public interface ICustomerProfile<T> extends ICustomerReadonlyProfile<T>, IEntityUpdateOperations<T>"
 methods:
-- "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.update(T)"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.update(T)"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<T>.update(T customerProfile)"
+  name: "update(T customerProfile)"
+  nameWithType: "ICustomerProfile<T>.update(T customerProfile)"
+  summary: "Updates the customer profile."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The customer profile information."
+    name: "customerProfile"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract T update(T customerProfile)"
+  returns:
+    description: "The updated customer profile."
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
 - name: "T"

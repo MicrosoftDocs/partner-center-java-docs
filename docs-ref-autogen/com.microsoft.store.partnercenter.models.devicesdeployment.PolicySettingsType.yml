@@ -5,8 +5,8 @@ name: "PolicySettingsType"
 nameWithType: "PolicySettingsType"
 summary: "Represents the settings for an OOBE(Out of box experience) policy."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -71,6 +71,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "PolicySettingsType.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -81,6 +83,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
   name: "values()"
   nameWithType: "PolicySettingsType.values()"
+  modifiers:
+  - "static"
   syntax: "public static PolicySettingsType[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType?alt=com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType&text=PolicySettingsType\" data-throw-if-not-resolved=\"False\" />[]"

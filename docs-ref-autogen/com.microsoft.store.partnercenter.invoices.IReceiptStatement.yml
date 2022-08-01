@@ -6,7 +6,17 @@ nameWithType: "IReceiptStatement"
 summary: "Represents the operations available to an invoice receipt statement."
 syntax: "public interface IReceiptStatement extends IPartnerComponent<Tuple<String,String>>"
 methods:
-- "com.microsoft.store.partnercenter.invoices.IReceiptStatement.get()"
+- uid: "com.microsoft.store.partnercenter.invoices.IReceiptStatement.get()"
+  fullName: "com.microsoft.store.partnercenter.invoices.IReceiptStatement.get()"
+  name: "get()"
+  nameWithType: "IReceiptStatement.get()"
+  summary: "Retrieves the invoice statement. This operation is currently only supported for user based credentials."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract InputStream get()"
+  returns:
+    description: "The invoice statement."
+    type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

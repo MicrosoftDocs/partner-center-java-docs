@@ -6,8 +6,32 @@ nameWithType: "IServiceRequest"
 summary: "Groups operations that can be performed on a single service request."
 syntax: "public interface IServiceRequest extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<ServiceRequest>, IEntityPatchOperations<ServiceRequest>"
 methods:
-- "com.microsoft.store.partnercenter.servicerequests.IServiceRequest.get()"
-- "com.microsoft.store.partnercenter.servicerequests.IServiceRequest.patch(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest)"
+- uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest.get()"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest.get()"
+  name: "get()"
+  nameWithType: "IServiceRequest.get()"
+  summary: "Retrieves the service request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ServiceRequest get()"
+  returns:
+    description: "The service request information."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest?alt=com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest&text=ServiceRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest.patch(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest)"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest.patch(ServiceRequest serviceRequest)"
+  name: "patch(ServiceRequest serviceRequest)"
+  nameWithType: "IServiceRequest.patch(ServiceRequest serviceRequest)"
+  summary: "Patches a service request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The service request that has the properties to be patched set."
+    name: "serviceRequest"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest?alt=com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest&text=ServiceRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ServiceRequest patch(ServiceRequest serviceRequest)"
+  returns:
+    description: "The updated service request."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest?alt=com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest&text=ServiceRequest\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

@@ -4,8 +4,8 @@ fullName: "com.microsoft.store.partnercenter.utilization.UtilizationCollectionOp
 name: "UtilizationCollectionOperations"
 nameWithType: "UtilizationCollectionOperations"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -22,9 +22,32 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class UtilizationCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IUtilizationCollection"
 constructors:
-- "com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations.UtilizationCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations.UtilizationCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations.UtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
+  name: "UtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
+  nameWithType: "UtilizationCollectionOperations.UtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
+  summary: "Initializes a new instance of the UtilizationCollectionOperations class."
+  parameters:
+  - description: "The root partner operations."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The customer identifier."
+    name: "customerId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The subscription identifer."
+    name: "subscriptionId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public UtilizationCollectionOperations(IPartner rootPartnerOperations, String customerId, String subscriptionId)"
 methods:
-- "com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations.getAzure()"
+- uid: "com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations.getAzure()"
+  fullName: "com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations.getAzure()"
+  name: "getAzure()"
+  nameWithType: "UtilizationCollectionOperations.getAzure()"
+  summary: "Gets the Azure subscription utilization behavior."
+  syntax: "public IAzureUtilizationCollection getAzure()"
+  returns:
+    description: "the Azure subscription utilization behavior."
+    type: "<xref href=\"com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection?alt=com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection&text=IAzureUtilizationCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.utilization.IUtilizationCollection?alt=com.microsoft.store.partnercenter.utilization.IUtilizationCollection&text=IUtilizationCollection\" data-throw-if-not-resolved=\"False\" />"

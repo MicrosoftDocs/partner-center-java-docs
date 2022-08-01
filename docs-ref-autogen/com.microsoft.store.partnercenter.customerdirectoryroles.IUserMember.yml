@@ -6,7 +6,14 @@ nameWithType: "IUserMember"
 summary: "Represents a Directory User"
 syntax: "public interface IUserMember extends IPartnerComponent<TripletTuple<String,String,String>>, IEntityDeleteOperations<UserMember>"
 methods:
-- "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete()"
+- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete()"
+  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete()"
+  name: "delete()"
+  nameWithType: "IUserMember.delete()"
+  summary: "Remove directory user member from directory role."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract void delete()"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.TripletTuple?alt=com.microsoft.store.partnercenter.models.utils.TripletTuple&text=TripletTuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

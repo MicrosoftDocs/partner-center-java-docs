@@ -5,8 +5,8 @@ name: "ServiceCostsSummaryLinks"
 nameWithType: "ServiceCostsSummaryLinks"
 summary: "Holds the operations related to a customer's service costs."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.StandardResourceLinks\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.StandardResourceLinks?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.StandardResourceLinks.getSelf()"
 - "com.microsoft.store.partnercenter.models.StandardResourceLinks.setSelf(com.microsoft.store.partnercenter.models.Link)"
@@ -23,10 +23,27 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class ServiceCostsSummaryLinks extends StandardResourceLinks"
 constructors:
-- "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.ServiceCostsSummaryLinks()"
+- uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.ServiceCostsSummaryLinks()"
+  fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.ServiceCostsSummaryLinks()"
+  name: "ServiceCostsSummaryLinks()"
+  nameWithType: "ServiceCostsSummaryLinks.ServiceCostsSummaryLinks()"
+  syntax: "public ServiceCostsSummaryLinks()"
 methods:
-- "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.getServiceCostLineItems()"
-- "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.setServiceCostLineItems(com.microsoft.store.partnercenter.models.Link)"
+- uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.getServiceCostLineItems()"
+  fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.getServiceCostLineItems()"
+  name: "getServiceCostLineItems()"
+  nameWithType: "ServiceCostsSummaryLinks.getServiceCostLineItems()"
+  syntax: "public Link getServiceCostLineItems()"
+  returns:
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.Link?alt=com.microsoft.store.partnercenter.models.Link&text=Link\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.setServiceCostLineItems(com.microsoft.store.partnercenter.models.Link)"
+  fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.setServiceCostLineItems(Link value)"
+  name: "setServiceCostLineItems(Link value)"
+  nameWithType: "ServiceCostsSummaryLinks.setServiceCostLineItems(Link value)"
+  parameters:
+  - name: "value"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.Link?alt=com.microsoft.store.partnercenter.models.Link&text=Link\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void setServiceCostLineItems(Link value)"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.servicecosts"

@@ -6,7 +6,21 @@ nameWithType: "IResourceCollectionEnumeratorFactory<T>"
 summary: "Creates resource collection enumerators which can enumerate through resource collections. The collection type."
 syntax: "public interface IResourceCollectionEnumeratorFactory<T>"
 methods:
-- "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory.create(T)"
+- uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory.create(T)"
+  fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<T>.create(T customerResourceCollection)"
+  name: "create(T customerResourceCollection)"
+  nameWithType: "IResourceCollectionEnumeratorFactory<T>.create(T customerResourceCollection)"
+  summary: "Creates a customer collection enumerator capable of traversing customers."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The initial customer resource collection to start from."
+    name: "customerResourceCollection"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IResourceCollectionEnumerator<T> create(T customerResourceCollection)"
+  returns:
+    description: "A customer collection enumerator capable of traversing customers."
+    type: "<xref href=\"com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator?alt=com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator&text=IResourceCollectionEnumerator\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 typeParameters:
 - name: "T"

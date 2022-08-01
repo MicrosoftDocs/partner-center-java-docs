@@ -5,7 +5,17 @@ name: "IInvoiceDocuments"
 nameWithType: "IInvoiceDocuments"
 syntax: "public interface IInvoiceDocuments extends IPartnerComponentString"
 methods:
-- "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement()"
+- uid: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement()"
+  fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement()"
+  name: "getStatement()"
+  nameWithType: "IInvoiceDocuments.getStatement()"
+  summary: "Gets an invoice statement operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IInvoiceStatement getStatement()"
+  returns:
+    description: "An invoice statement operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IInvoiceStatement?alt=com.microsoft.store.partnercenter.invoices.IInvoiceStatement&text=IInvoiceStatement\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

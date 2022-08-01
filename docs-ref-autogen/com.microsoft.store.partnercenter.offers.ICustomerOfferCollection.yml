@@ -5,8 +5,35 @@ name: "ICustomerOfferCollection"
 nameWithType: "ICustomerOfferCollection"
 syntax: "public interface ICustomerOfferCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Offer,ResourceCollection<Offer>>"
 methods:
-- "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.get()"
-- "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.get(int,int)"
+- uid: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.get()"
+  name: "get()"
+  nameWithType: "ICustomerOfferCollection.get()"
+  summary: "Retrieves all the offers for the provided Customer."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<Offer> get()"
+  returns:
+    description: "The offers for the provided customer."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.get(int,int)"
+  fullName: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.get(int offset, int size)"
+  name: "get(int offset, int size)"
+  nameWithType: "ICustomerOfferCollection.get(int offset, int size)"
+  summary: "Retrieves a subset of offers for the provided customer."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The starting index."
+    name: "offset"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The maximum number of offers to return."
+    name: "size"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ResourceCollection<Offer> get(int offset, int size)"
+  returns:
+    description: "The requested segment of the offers for the provided customer."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

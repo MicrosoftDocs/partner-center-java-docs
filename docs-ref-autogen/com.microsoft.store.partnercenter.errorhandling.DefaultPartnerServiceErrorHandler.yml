@@ -5,7 +5,7 @@ name: "DefaultPartnerServiceErrorHandler"
 nameWithType: "DefaultPartnerServiceErrorHandler"
 summary: "The default handling policy for failed partner service responses."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -20,10 +20,41 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class DefaultPartnerServiceErrorHandler implements IFailedPartnerServiceResponseHandler"
 constructors:
-- "com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.DefaultPartnerServiceErrorHandler()"
+- uid: "com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.DefaultPartnerServiceErrorHandler()"
+  fullName: "com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.DefaultPartnerServiceErrorHandler()"
+  name: "DefaultPartnerServiceErrorHandler()"
+  nameWithType: "DefaultPartnerServiceErrorHandler.DefaultPartnerServiceErrorHandler()"
+  syntax: "public DefaultPartnerServiceErrorHandler()"
 methods:
-- "com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(okhttp3.Response)"
-- "com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(okhttp3.Response,com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+- uid: "com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(okhttp3.Response)"
+  fullName: "com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(Response response)"
+  name: "handleFailedResponse(Response response)"
+  nameWithType: "DefaultPartnerServiceErrorHandler.handleFailedResponse(Response response)"
+  summary: "Handles failed partner service responses."
+  parameters:
+  - description: "The partner service response."
+    name: "response"
+    type: "<xref href=\"okhttp3.Response?alt=okhttp3.Response&text=Response\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PartnerException handleFailedResponse(Response response)"
+  returns:
+    description: "The exception to throw."
+    type: "<xref href=\"com.microsoft.store.partnercenter.exception.PartnerException?alt=com.microsoft.store.partnercenter.exception.PartnerException&text=PartnerException\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(okhttp3.Response,com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+  fullName: "com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse(Response response, IRequestContext context)"
+  name: "handleFailedResponse(Response response, IRequestContext context)"
+  nameWithType: "DefaultPartnerServiceErrorHandler.handleFailedResponse(Response response, IRequestContext context)"
+  summary: "Handles failed partner service responses."
+  parameters:
+  - description: "The partner service response."
+    name: "response"
+    type: "<xref href=\"okhttp3.Response?alt=okhttp3.Response&text=Response\" data-throw-if-not-resolved=\"False\" />"
+  - description: "An optional partner context."
+    name: "context"
+    type: "<xref href=\"com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PartnerException handleFailedResponse(Response response, IRequestContext context)"
+  returns:
+    description: "The exception to throw."
+    type: "<xref href=\"com.microsoft.store.partnercenter.exception.PartnerException?alt=com.microsoft.store.partnercenter.exception.PartnerException&text=PartnerException\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler?alt=com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler&text=IFailedPartnerServiceResponseHandler\" data-throw-if-not-resolved=\"False\" />"

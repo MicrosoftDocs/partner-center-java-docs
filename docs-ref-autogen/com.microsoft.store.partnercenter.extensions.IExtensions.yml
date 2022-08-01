@@ -6,7 +6,17 @@ nameWithType: "IExtensions"
 summary: "Holds operations that extend another set of operations."
 syntax: "public interface IExtensions extends IPartnerComponentString"
 methods:
-- "com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()"
+- uid: "com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()"
+  fullName: "com.microsoft.store.partnercenter.extensions.IExtensions.getProduct()"
+  name: "getProduct()"
+  nameWithType: "IExtensions.getProduct()"
+  summary: "Retrieves the product extension operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IProductExtensions getProduct()"
+  returns:
+    description: "The product extensions operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.extensions.products.IProductExtensions?alt=com.microsoft.store.partnercenter.extensions.products.IProductExtensions&text=IProductExtensions\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

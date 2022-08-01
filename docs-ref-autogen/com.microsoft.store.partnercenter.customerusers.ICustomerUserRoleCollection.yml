@@ -6,7 +6,17 @@ nameWithType: "ICustomerUserRoleCollection"
 summary: "Represents the behavior of the customers user's directory roles."
 syntax: "public interface ICustomerUserRoleCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<DirectoryRole,ResourceCollection<DirectoryRole>>"
 methods:
-- "com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection.get()"
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection.get()"
+  name: "get()"
+  nameWithType: "ICustomerUserRoleCollection.get()"
+  summary: "Gets the customer user's directory roles."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<DirectoryRole> get()"
+  returns:
+    description: "The customer user's directory roles."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.roles.DirectoryRole?alt=com.microsoft.store.partnercenter.models.roles.DirectoryRole&text=DirectoryRole\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

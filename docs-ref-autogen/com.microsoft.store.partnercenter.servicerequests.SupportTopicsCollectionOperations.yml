@@ -5,9 +5,9 @@ name: "SupportTopicsCollectionOperations"
 nameWithType: "SupportTopicsCollectionOperations"
 summary: "The operations that can be performed on support topics. Support Topics operations are localizable."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -24,9 +24,26 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class SupportTopicsCollectionOperations extends BasePartnerComponentString implements ISupportTopicsCollection"
 constructors:
-- "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.SupportTopicsCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+- uid: "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.SupportTopicsCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.SupportTopicsCollectionOperations(IPartner rootPartnerOperations)"
+  name: "SupportTopicsCollectionOperations(IPartner rootPartnerOperations)"
+  nameWithType: "SupportTopicsCollectionOperations.SupportTopicsCollectionOperations(IPartner rootPartnerOperations)"
+  summary: "Initializes a new instance of the SupportTopicsCollectionOperations class with default locale."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SupportTopicsCollectionOperations(IPartner rootPartnerOperations)"
 methods:
-- "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.get()"
+- uid: "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.get()"
+  name: "get()"
+  nameWithType: "SupportTopicsCollectionOperations.get()"
+  summary: "Gets a collection of available support topics to create service request."
+  syntax: "public ResourceCollection<SupportTopic> get()"
+  returns:
+    description: "Collection of Support Topic Info."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.servicerequests.SupportTopic?alt=com.microsoft.store.partnercenter.models.servicerequests.SupportTopic&text=SupportTopic\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection?alt=com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection&text=ISupportTopicsCollection\" data-throw-if-not-resolved=\"False\" />"

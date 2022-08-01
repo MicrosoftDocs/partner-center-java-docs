@@ -5,9 +5,9 @@ name: "AuditRecordsCollection"
 nameWithType: "AuditRecordsCollection"
 summary: "An Implementation of `IAuditRecordsCollection` for handling common partner component properties and behavior. See parent class `BasePartnerComponentString` for additional details."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -24,9 +24,30 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class AuditRecordsCollection extends BasePartnerComponentString implements IAuditRecordsCollection"
 constructors:
-- "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection(com.microsoft.store.partnercenter.IPartner)"
+- uid: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection(com.microsoft.store.partnercenter.IPartner)"
+  fullName: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection(IPartner rootPartnerOperations)"
+  name: "AuditRecordsCollection(IPartner rootPartnerOperations)"
+  nameWithType: "AuditRecordsCollection.AuditRecordsCollection(IPartner rootPartnerOperations)"
+  parameters:
+  - name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AuditRecordsCollection(IPartner rootPartnerOperations)"
 methods:
-- "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.query.IQuery)"
+- uid: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.query.IQuery)"
+  fullName: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query(DateTime startDate, DateTime endDate, IQuery query)"
+  name: "query(DateTime startDate, DateTime endDate, IQuery query)"
+  nameWithType: "AuditRecordsCollection.query(DateTime startDate, DateTime endDate, IQuery query)"
+  summary: "Queries audit records associated to the partner. The following queries are supported: - Specify the number of audit record to return. - Filter the result with a customer name."
+  parameters:
+  - name: "startDate"
+    type: "<xref href=\"org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime\" data-throw-if-not-resolved=\"False\" />"
+  - name: "endDate"
+    type: "<xref href=\"org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime\" data-throw-if-not-resolved=\"False\" />"
+  - name: "query"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SeekBasedResourceCollection<AuditRecord> query(DateTime startDate, DateTime endDate, IQuery query)"
+  returns:
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.SeekBasedResourceCollection?alt=com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&text=SeekBasedResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.auditing.AuditRecord?alt=com.microsoft.store.partnercenter.models.auditing.AuditRecord&text=AuditRecord\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection?alt=com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection&text=IAuditRecordsCollection\" data-throw-if-not-resolved=\"False\" />"

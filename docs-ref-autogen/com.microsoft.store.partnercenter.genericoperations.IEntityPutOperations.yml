@@ -6,7 +6,21 @@ nameWithType: "IEntityPutOperations<T>"
 summary: "Groups operations for updating a single entity."
 syntax: "public interface IEntityPutOperations<T>"
 methods:
-- "com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations.put(T)"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations.put(T)"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations<T>.put(T entity)"
+  name: "put(T entity)"
+  nameWithType: "IEntityPutOperations<T>.put(T entity)"
+  summary: "Updates an entity."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The modified entity object."
+    name: "entity"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract T put(T entity)"
+  returns:
+    description: "The updated entity."
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
 - name: "T"

@@ -5,9 +5,9 @@ name: "CustomerServiceCostsCollectionOperations"
 nameWithType: "CustomerServiceCostsCollectionOperations"
 summary: "Holds customer service costs behavior."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -24,9 +24,33 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class CustomerServiceCostsCollectionOperations extends BasePartnerComponentString implements ICustomerServiceCostsCollection"
 constructors:
-- "com.microsoft.store.partnercenter.customers.servicecosts.CustomerServiceCostsCollectionOperations.CustomerServiceCostsCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.CustomerServiceCostsCollectionOperations.CustomerServiceCostsCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.CustomerServiceCostsCollectionOperations.CustomerServiceCostsCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+  name: "CustomerServiceCostsCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+  nameWithType: "CustomerServiceCostsCollectionOperations.CustomerServiceCostsCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+  summary: "Initializes a new instance of the CustomerServiceCostsCollectionOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Identifier for the customer."
+    name: "customerId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CustomerServiceCostsCollectionOperations(IPartner rootPartnerOperations, String customerId)"
 methods:
-- "com.microsoft.store.partnercenter.customers.servicecosts.CustomerServiceCostsCollectionOperations.byBillingPeriod(com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.CustomerServiceCostsCollectionOperations.byBillingPeriod(com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.CustomerServiceCostsCollectionOperations.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  name: "byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  nameWithType: "CustomerServiceCostsCollectionOperations.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  summary: "Obtains the service cost operations by billing period."
+  parameters:
+  - description: "The billing period."
+    name: "billingPeriod"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod?alt=com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod&text=ServiceCostsBillingPeriod\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public IServiceCostsCollection byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  returns:
+    description: "The service cost operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection?alt=com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection&text=IServiceCostsCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection?alt=com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection&text=ICustomerServiceCostsCollection\" data-throw-if-not-resolved=\"False\" />"

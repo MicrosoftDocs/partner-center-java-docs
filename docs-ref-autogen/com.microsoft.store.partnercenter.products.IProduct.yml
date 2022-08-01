@@ -6,8 +6,28 @@ nameWithType: "IProduct"
 summary: "Holds operations that can be performed on products that apply to a given customer."
 syntax: "public interface IProduct extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<Product>"
 methods:
-- "com.microsoft.store.partnercenter.products.IProduct.get()"
-- "com.microsoft.store.partnercenter.products.IProduct.getSkus()"
+- uid: "com.microsoft.store.partnercenter.products.IProduct.get()"
+  fullName: "com.microsoft.store.partnercenter.products.IProduct.get()"
+  name: "get()"
+  nameWithType: "IProduct.get()"
+  summary: "Retrieves the product information"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Product get()"
+  returns:
+    description: "The product information."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.products.Product?alt=com.microsoft.store.partnercenter.models.products.Product&text=Product\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.products.IProduct.getSkus()"
+  fullName: "com.microsoft.store.partnercenter.products.IProduct.getSkus()"
+  name: "getSkus()"
+  nameWithType: "IProduct.getSkus()"
+  summary: "Retrieves the SKUs for the product."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ISkuCollection getSkus()"
+  returns:
+    description: "The SKUs for the product."
+    type: "<xref href=\"com.microsoft.store.partnercenter.products.ISkuCollection?alt=com.microsoft.store.partnercenter.products.ISkuCollection&text=ISkuCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

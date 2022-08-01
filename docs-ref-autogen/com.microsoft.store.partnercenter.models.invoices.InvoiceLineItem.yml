@@ -5,8 +5,8 @@ name: "InvoiceLineItem"
 nameWithType: "InvoiceLineItem"
 summary: "Represents a line item on an invoice."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -22,10 +22,34 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public abstract class InvoiceLineItem extends ResourceBase"
 constructors:
-- "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem()"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem()"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem()"
+  name: "InvoiceLineItem()"
+  nameWithType: "InvoiceLineItem.InvoiceLineItem()"
+  syntax: "public InvoiceLineItem()"
 methods:
-- "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()"
-- "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()"
+  name: "getBillingProvider()"
+  nameWithType: "InvoiceLineItem.getBillingProvider()"
+  summary: "Gets the billing provider."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract BillingProvider getBillingProvider()"
+  returns:
+    description: "The billing provider."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.BillingProvider?alt=com.microsoft.store.partnercenter.models.invoices.BillingProvider&text=BillingProvider\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
+  name: "getInvoiceLineItemType()"
+  nameWithType: "InvoiceLineItem.getInvoiceLineItemType()"
+  summary: "Gets the type of invoice line item."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract InvoiceLineItemType getInvoiceLineItemType()"
+  returns:
+    description: "The type of invoice line item."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType&text=InvoiceLineItemType\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.invoices"

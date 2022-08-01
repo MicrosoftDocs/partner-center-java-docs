@@ -6,7 +6,17 @@ nameWithType: "IDirectoryRole"
 summary: "Represents a Directory Role"
 syntax: "public interface IDirectoryRole extends IPartnerComponent<Tuple<String,String>>"
 methods:
-- "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers()"
+- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers()"
+  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers()"
+  name: "getUserMembers()"
+  nameWithType: "IDirectoryRole.getUserMembers()"
+  summary: "Gets the current directory role's user member collection operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IUserMemberCollection getUserMembers()"
+  returns:
+    description: "The current directory role's user member collection operations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection?alt=com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection&text=IUserMemberCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

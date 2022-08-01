@@ -6,8 +6,32 @@ nameWithType: "ISupportProfile"
 summary: "Encapsulates behavior of a partner support profile."
 syntax: "public interface ISupportProfile extends IPartnerComponentString, IEntityGetOperations<SupportProfile>, IEntityUpdateOperations<SupportProfile>"
 methods:
-- "com.microsoft.store.partnercenter.profiles.ISupportProfile.get()"
-- "com.microsoft.store.partnercenter.profiles.ISupportProfile.update(com.microsoft.store.partnercenter.models.partners.SupportProfile)"
+- uid: "com.microsoft.store.partnercenter.profiles.ISupportProfile.get()"
+  fullName: "com.microsoft.store.partnercenter.profiles.ISupportProfile.get()"
+  name: "get()"
+  nameWithType: "ISupportProfile.get()"
+  summary: "Retrieves the partner's support profile. This operation is currently only supported for user based credentials."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SupportProfile get()"
+  returns:
+    description: "The partner's support profile."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.SupportProfile?alt=com.microsoft.store.partnercenter.models.partners.SupportProfile&text=SupportProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.profiles.ISupportProfile.update(com.microsoft.store.partnercenter.models.partners.SupportProfile)"
+  fullName: "com.microsoft.store.partnercenter.profiles.ISupportProfile.update(SupportProfile supportProfile)"
+  name: "update(SupportProfile supportProfile)"
+  nameWithType: "ISupportProfile.update(SupportProfile supportProfile)"
+  summary: "Updates the partner's support profile. This operation is currently only supported for user based credentials."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The support profile."
+    name: "supportProfile"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.SupportProfile?alt=com.microsoft.store.partnercenter.models.partners.SupportProfile&text=SupportProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SupportProfile update(SupportProfile supportProfile)"
+  returns:
+    description: "The updated support profile."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.SupportProfile?alt=com.microsoft.store.partnercenter.models.partners.SupportProfile&text=SupportProfile\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

@@ -6,7 +6,17 @@ nameWithType: "IEstimateCollection"
 summary: "Represents the operations that can be done on the partner's estimate collection."
 syntax: "public interface IEstimateCollection extends IPartnerComponent<String>"
 methods:
-- "com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks()"
+- uid: "com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks()"
+  fullName: "com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks()"
+  name: "getLinks()"
+  nameWithType: "IEstimateCollection.getLinks()"
+  summary: "Gets the estimate links for the recon line items."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IEstimateLink getLinks()"
+  returns:
+    description: "The estimate links for the recon line items."
+    type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IEstimateLink?alt=com.microsoft.store.partnercenter.invoices.IEstimateLink&text=IEstimateLink\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"

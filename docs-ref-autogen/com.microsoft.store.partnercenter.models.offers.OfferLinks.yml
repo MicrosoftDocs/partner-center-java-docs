@@ -5,8 +5,8 @@ name: "OfferLinks"
 nameWithType: "OfferLinks"
 summary: "Bundles offer links."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.StandardResourceLinks\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.StandardResourceLinks?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.StandardResourceLinks.getSelf()"
 - "com.microsoft.store.partnercenter.models.StandardResourceLinks.setSelf(com.microsoft.store.partnercenter.models.Link)"
@@ -23,10 +23,27 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class OfferLinks extends StandardResourceLinks"
 constructors:
-- "com.microsoft.store.partnercenter.models.offers.OfferLinks.OfferLinks()"
+- uid: "com.microsoft.store.partnercenter.models.offers.OfferLinks.OfferLinks()"
+  fullName: "com.microsoft.store.partnercenter.models.offers.OfferLinks.OfferLinks()"
+  name: "OfferLinks()"
+  nameWithType: "OfferLinks.OfferLinks()"
+  syntax: "public OfferLinks()"
 methods:
-- "com.microsoft.store.partnercenter.models.offers.OfferLinks.getLearnMore()"
-- "com.microsoft.store.partnercenter.models.offers.OfferLinks.setLearnMore(com.microsoft.store.partnercenter.models.Link)"
+- uid: "com.microsoft.store.partnercenter.models.offers.OfferLinks.getLearnMore()"
+  fullName: "com.microsoft.store.partnercenter.models.offers.OfferLinks.getLearnMore()"
+  name: "getLearnMore()"
+  nameWithType: "OfferLinks.getLearnMore()"
+  syntax: "public Link getLearnMore()"
+  returns:
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.Link?alt=com.microsoft.store.partnercenter.models.Link&text=Link\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.offers.OfferLinks.setLearnMore(com.microsoft.store.partnercenter.models.Link)"
+  fullName: "com.microsoft.store.partnercenter.models.offers.OfferLinks.setLearnMore(Link value)"
+  name: "setLearnMore(Link value)"
+  nameWithType: "OfferLinks.setLearnMore(Link value)"
+  parameters:
+  - name: "value"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.Link?alt=com.microsoft.store.partnercenter.models.Link&text=Link\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void setLearnMore(Link value)"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.offers"

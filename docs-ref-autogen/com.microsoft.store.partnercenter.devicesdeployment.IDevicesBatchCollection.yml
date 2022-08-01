@@ -6,8 +6,32 @@ nameWithType: "IDevicesBatchCollection"
 summary: "Represents the operations that can be done on the partner's devices batches."
 syntax: "public interface IDevicesBatchCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<DeviceBatch,ResourceCollection<DeviceBatch>>, IEntitySelector<String,IDevicesBatch>, IEntityCreateOperations<DeviceBatchCreationRequest,String>"
 methods:
-- "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(java.lang.String)"
-- "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(String deviceBatchId)"
+  name: "byId(String deviceBatchId)"
+  nameWithType: "IDevicesBatchCollection.byId(String deviceBatchId)"
+  summary: "Retrieves a specific customer devices batch behavior."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The devices batch id"
+    name: "deviceBatchId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IDevicesBatch byId(String deviceBatchId)"
+  returns:
+    description: "The devices batch behavior."
+    type: "<xref href=\"com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch?alt=com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch&text=IDevicesBatch\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()"
+  name: "get()"
+  nameWithType: "IDevicesBatchCollection.get()"
+  summary: "Retrieves all devices batches."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<DeviceBatch> get()"
+  returns:
+    description: "All of the device batches."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch?alt=com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch&text=DeviceBatch\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

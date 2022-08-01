@@ -6,7 +6,21 @@ nameWithType: "IEntityUpdateOperations<T>"
 summary: "Groups operations for updating a single entity. The entity type."
 syntax: "public interface IEntityUpdateOperations<T>"
 methods:
-- "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations.update(T)"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations.update(T)"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>.update(T entity)"
+  name: "update(T entity)"
+  nameWithType: "IEntityUpdateOperations<T>.update(T entity)"
+  summary: "Updates an entity."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The entity information."
+    name: "entity"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract T update(T entity)"
+  returns:
+    description: "The updated entity."
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
 - name: "T"

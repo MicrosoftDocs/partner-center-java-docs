@@ -5,9 +5,9 @@ name: "ProductExtensionsOperations"
 nameWithType: "ProductExtensionsOperations"
 summary: "Extensions operations implementation."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -24,9 +24,30 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class ProductExtensionsOperations extends BasePartnerComponentString implements IProductExtensions"
 constructors:
-- "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.ProductExtensionsOperations(com.microsoft.store.partnercenter.IPartner)"
+- uid: "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.ProductExtensionsOperations(com.microsoft.store.partnercenter.IPartner)"
+  fullName: "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.ProductExtensionsOperations(IPartner rootPartnerOperations)"
+  name: "ProductExtensionsOperations(IPartner rootPartnerOperations)"
+  nameWithType: "ProductExtensionsOperations.ProductExtensionsOperations(IPartner rootPartnerOperations)"
+  summary: "Initializes a new instance of the ProductExtensionsOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ProductExtensionsOperations(IPartner rootPartnerOperations)"
 methods:
-- "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.byCountry(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.byCountry(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.byCountry(String country)"
+  name: "byCountry(String country)"
+  nameWithType: "ProductExtensionsOperations.byCountry(String country)"
+  summary: "Retrieves the extension operations that can be applied on products from a given country."
+  parameters:
+  - description: "The country name."
+    name: "country"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public IProductExtensionsByCountry byCountry(String country)"
+  returns:
+    description: "The product extensions operations by country."
+    type: "<xref href=\"com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry?alt=com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry&text=IProductExtensionsByCountry\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.extensions.products.IProductExtensions?alt=com.microsoft.store.partnercenter.extensions.products.IProductExtensions&text=IProductExtensions\" data-throw-if-not-resolved=\"False\" />"

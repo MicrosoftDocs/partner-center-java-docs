@@ -5,7 +5,21 @@ name: "IEntitySelector<TTYpe,TEntity>"
 nameWithType: "IEntitySelector<TTYpe,TEntity>"
 syntax: "public interface IEntitySelector<TTYpe,TEntity>"
 methods:
-- "com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId(TTYpe)"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe,TEntity>.byId(TTYpe id)"
+  name: "byId(TTYpe id)"
+  nameWithType: "IEntitySelector<TTYpe,TEntity>.byId(TTYpe id)"
+  summary: "Retrieves the behavior for an entity using the entity's identifier."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The entity's identifier."
+    name: "id"
+    type: "<xref href=\"TTYpe?alt=TTYpe&text=TTYpe\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract TEntity byId(TTYpe id)"
+  returns:
+    description: "The entity's behavior."
+    type: "<xref href=\"TEntity?alt=TEntity&text=TEntity\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
 - name: "TTYpe"

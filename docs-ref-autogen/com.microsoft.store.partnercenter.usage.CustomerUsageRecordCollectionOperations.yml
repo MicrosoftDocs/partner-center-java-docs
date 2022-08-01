@@ -5,9 +5,9 @@ name: "CustomerUsageRecordCollectionOperations"
 nameWithType: "CustomerUsageRecordCollectionOperations"
 summary: "Implements operations related to a partner's customers usage record."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -24,9 +24,26 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class CustomerUsageRecordCollectionOperations extends BasePartnerComponentString implements ICustomerUsageRecordCollection"
 constructors:
-- "com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.CustomerUsageRecordCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+- uid: "com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.CustomerUsageRecordCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+  fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.CustomerUsageRecordCollectionOperations(IPartner rootPartnerOperations)"
+  name: "CustomerUsageRecordCollectionOperations(IPartner rootPartnerOperations)"
+  nameWithType: "CustomerUsageRecordCollectionOperations.CustomerUsageRecordCollectionOperations(IPartner rootPartnerOperations)"
+  summary: "Initializes a new instance of the CustomerUsageRecordCollectionOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CustomerUsageRecordCollectionOperations(IPartner rootPartnerOperations)"
 methods:
-- "com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.get()"
+- uid: "com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.get()"
+  name: "get()"
+  nameWithType: "CustomerUsageRecordCollectionOperations.get()"
+  summary: "Retrieves the collection of customer monthly usage records for a partner."
+  syntax: "public ResourceCollection<CustomerMonthlyUsageRecord> get()"
+  returns:
+    description: "The collection of customer monthly usage records."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord?alt=com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord&text=CustomerMonthlyUsageRecord\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection?alt=com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection&text=ICustomerUsageRecordCollection\" data-throw-if-not-resolved=\"False\" />"

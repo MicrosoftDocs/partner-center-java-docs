@@ -6,8 +6,36 @@ nameWithType: "ICustomerApplicationConsentCollection"
 summary: "Encapsulates the operations on the ApplicationConsent collection."
 syntax: "public interface ICustomerApplicationConsentCollection extends IPartnerComponentString, IEntitySelector<String,IApplicationConsent>, IEntityCreateOperations<ApplicationConsent,ApplicationConsent>"
 methods:
-- "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId(java.lang.String)"
-- "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent)"
+- uid: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId(String applicationId)"
+  name: "byId(String applicationId)"
+  nameWithType: "ICustomerApplicationConsentCollection.byId(String applicationId)"
+  summary: "Gets a single application consent behavior."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The application identifier."
+    name: "applicationId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IApplicationConsent byId(String applicationId)"
+  returns:
+    description: "The application consent operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent?alt=com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent&text=IApplicationConsent\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent)"
+  fullName: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create(ApplicationConsent newEntity)"
+  name: "create(ApplicationConsent newEntity)"
+  nameWithType: "ICustomerApplicationConsentCollection.create(ApplicationConsent newEntity)"
+  summary: "Adds application consents."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "ApplicationConsent to add."
+    name: "newEntity"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent?alt=com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent&text=ApplicationConsent\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ApplicationConsent create(ApplicationConsent newEntity)"
+  returns:
+    description: "ApplicationConsent entity."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent?alt=com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent&text=ApplicationConsent\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

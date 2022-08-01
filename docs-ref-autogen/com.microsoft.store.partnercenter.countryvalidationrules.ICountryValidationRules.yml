@@ -6,7 +6,17 @@ nameWithType: "ICountryValidationRules"
 summary: "Represents the behavior of a specific country validation rules."
 syntax: "public interface ICountryValidationRules extends IPartnerComponentString, IEntityGetOperations<CountryValidationRules>"
 methods:
-- "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get()"
+- uid: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get()"
+  fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get()"
+  name: "get()"
+  nameWithType: "ICountryValidationRules.get()"
+  summary: "Retrieves the country validation rules."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract CountryValidationRules get()"
+  returns:
+    description: "The validation rules for the country."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules?alt=com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules&text=CountryValidationRules\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

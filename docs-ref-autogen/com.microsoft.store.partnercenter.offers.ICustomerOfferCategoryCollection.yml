@@ -5,7 +5,17 @@ name: "ICustomerOfferCategoryCollection"
 nameWithType: "ICustomerOfferCategoryCollection"
 syntax: "public interface ICustomerOfferCategoryCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<OfferCategory,ResourceCollection<OfferCategory>>"
 methods:
-- "com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection.get()"
+- uid: "com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection.get()"
+  name: "get()"
+  nameWithType: "ICustomerOfferCategoryCollection.get()"
+  summary: "Retrieves all the offer categories for the provided customer."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<OfferCategory> get()"
+  returns:
+    description: "The offer categories for the provided customer."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.OfferCategory?alt=com.microsoft.store.partnercenter.models.offers.OfferCategory&text=OfferCategory\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

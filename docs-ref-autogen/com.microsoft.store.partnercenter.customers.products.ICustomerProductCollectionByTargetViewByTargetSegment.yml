@@ -6,7 +6,21 @@ nameWithType: "ICustomerProductCollectionByTargetViewByTargetSegment"
 summary: "Holds operations that can be performed on products in a given catalog view and that apply to a given customer, filtered by target segment."
 syntax: "public interface ICustomerProductCollectionByTargetViewByTargetSegment extends IPartnerComponent<TripletTuple<String,String,String>>, IEntireEntityCollectionRetrievalOperations<Product,ResourceCollection<Product>>"
 methods:
-- "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment.byReservationScope(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment.byReservationScope(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment.byReservationScope(String reservationScope)"
+  name: "byReservationScope(String reservationScope)"
+  nameWithType: "ICustomerProductCollectionByTargetViewByTargetSegment.byReservationScope(String reservationScope)"
+  summary: "Gets the operations that can be applied on customer products filtered by a specific reservation scope."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The reservation scope filter."
+    name: "reservationScope"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ICustomerProductCollectionByTargetViewByTargetSegmentByReservationScope byReservationScope(String reservationScope)"
+  returns:
+    description: "The customer products collection operations by reservation scope."
+    type: "<xref href=\"com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegmentByReservationScope?alt=com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegmentByReservationScope&text=ICustomerProductCollectionByTargetViewByTargetSegmentByReservationScope\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.TripletTuple?alt=com.microsoft.store.partnercenter.models.utils.TripletTuple&text=TripletTuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

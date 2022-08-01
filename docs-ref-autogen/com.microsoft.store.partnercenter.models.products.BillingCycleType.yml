@@ -5,8 +5,8 @@ name: "BillingCycleType"
 nameWithType: "BillingCycleType"
 summary: "Types of Participants"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -66,6 +66,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.products.BillingCycleType.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "BillingCycleType.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -76,6 +78,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.products.BillingCycleType.values()"
   name: "values()"
   nameWithType: "BillingCycleType.values()"
+  modifiers:
+  - "static"
   syntax: "public static BillingCycleType[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.products.BillingCycleType?alt=com.microsoft.store.partnercenter.models.products.BillingCycleType&text=BillingCycleType\" data-throw-if-not-resolved=\"False\" />[]"

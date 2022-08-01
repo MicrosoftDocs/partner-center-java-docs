@@ -6,7 +6,17 @@ nameWithType: "ISubscriptionUsageSummary"
 summary: "This interface defines the operations available on a customer's subscription usage summary."
 syntax: "public interface ISubscriptionUsageSummary extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<SubscriptionUsageSummary>"
 methods:
-- "com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary.get()"
+- uid: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary.get()"
+  fullName: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary.get()"
+  name: "get()"
+  nameWithType: "ISubscriptionUsageSummary.get()"
+  summary: "Retrieves the customer's subscription usage summary."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SubscriptionUsageSummary get()"
+  returns:
+    description: "The customer's subscription usage summary."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary?alt=com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary&text=SubscriptionUsageSummary\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

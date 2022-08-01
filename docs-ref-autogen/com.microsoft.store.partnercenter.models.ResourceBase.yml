@@ -5,7 +5,7 @@ name: "ResourceBase"
 nameWithType: "ResourceBase"
 summary: "Base class for resources"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -20,10 +20,36 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public abstract class ResourceBase"
 constructors:
-- "com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()"
-- "com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()"
+  name: "ResourceBase()"
+  nameWithType: "ResourceBase.ResourceBase()"
+  summary: "Initializes a new instance of the ResourceBase class."
+  modifiers:
+  - "protected"
+  syntax: "protected ResourceBase()"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String objectType)"
+  name: "ResourceBase(String objectType)"
+  nameWithType: "ResourceBase.ResourceBase(String objectType)"
+  summary: "Initializes a new instance of the ResourceBase class."
+  modifiers:
+  - "protected"
+  parameters:
+  - description: "Type of the object."
+    name: "objectType"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected ResourceBase(String objectType)"
 methods:
-- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  name: "getAttributes()"
+  nameWithType: "ResourceBase.getAttributes()"
+  summary: "Gets the attributes."
+  syntax: "public ResourceAttributes getAttributes()"
+  returns:
+    description: "The resource attributes."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceAttributes?alt=com.microsoft.store.partnercenter.models.ResourceAttributes&text=ResourceAttributes\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models"

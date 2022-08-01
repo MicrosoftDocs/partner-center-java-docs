@@ -4,9 +4,9 @@ fullName: "com.microsoft.store.partnercenter.utils.NestedResourceDeserializer"
 name: "NestedResourceDeserializer"
 nameWithType: "NestedResourceDeserializer"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.fasterxml.jackson.databind.JsonDeserializer\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.fasterxml.jackson.databind.deser.std.StdDeserializer\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.fasterxml.jackson.databind.JsonDeserializer?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.fasterxml.jackson.databind.deser.std.StdDeserializer?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
 - "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,T)"
@@ -124,10 +124,36 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class NestedResourceDeserializer extends StdDeserializer<Map<String,Object>>"
 constructors:
-- "com.microsoft.store.partnercenter.utils.NestedResourceDeserializer.NestedResourceDeserializer()"
-- "com.microsoft.store.partnercenter.utils.NestedResourceDeserializer.NestedResourceDeserializer(java.lang.Class<?>)"
+- uid: "com.microsoft.store.partnercenter.utils.NestedResourceDeserializer.NestedResourceDeserializer()"
+  fullName: "com.microsoft.store.partnercenter.utils.NestedResourceDeserializer.NestedResourceDeserializer()"
+  name: "NestedResourceDeserializer()"
+  nameWithType: "NestedResourceDeserializer.NestedResourceDeserializer()"
+  syntax: "public NestedResourceDeserializer()"
+- uid: "com.microsoft.store.partnercenter.utils.NestedResourceDeserializer.NestedResourceDeserializer(java.lang.Class<?>)"
+  fullName: "com.microsoft.store.partnercenter.utils.NestedResourceDeserializer.NestedResourceDeserializer(Class<?> vc)"
+  name: "NestedResourceDeserializer(Class<?> vc)"
+  nameWithType: "NestedResourceDeserializer.NestedResourceDeserializer(Class<?> vc)"
+  parameters:
+  - name: "vc"
+    type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
+  syntax: "public NestedResourceDeserializer(Class<?> vc)"
 methods:
-- "com.microsoft.store.partnercenter.utils.NestedResourceDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+- uid: "com.microsoft.store.partnercenter.utils.NestedResourceDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  fullName: "com.microsoft.store.partnercenter.utils.NestedResourceDeserializer.deserialize(JsonParser p, DeserializationContext ctxt)"
+  name: "deserialize(JsonParser p, DeserializationContext ctxt)"
+  nameWithType: "NestedResourceDeserializer.deserialize(JsonParser p, DeserializationContext ctxt)"
+  overridden: "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  parameters:
+  - name: "p"
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
+  - name: "ctxt"
+    type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationContext?alt=com.fasterxml.jackson.databind.DeserializationContext&text=DeserializationContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Map<String,Object> deserialize(JsonParser p, DeserializationContext ctxt)"
+  exceptions:
+  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - type: "<xref href=\"com.fasterxml.jackson.core.JsonProcessingException?alt=com.fasterxml.jackson.core.JsonProcessingException&text=JsonProcessingException\" data-throw-if-not-resolved=\"False\" />"
+  returns:
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.utils"

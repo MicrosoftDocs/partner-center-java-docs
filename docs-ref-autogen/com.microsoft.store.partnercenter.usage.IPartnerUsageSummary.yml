@@ -6,7 +6,17 @@ nameWithType: "IPartnerUsageSummary"
 summary: "This interface defines the operations available on a partner's usage summary."
 syntax: "public interface IPartnerUsageSummary extends IPartnerComponentString, IEntityGetOperations<PartnerUsageSummary>"
 methods:
-- "com.microsoft.store.partnercenter.usage.IPartnerUsageSummary.get()"
+- uid: "com.microsoft.store.partnercenter.usage.IPartnerUsageSummary.get()"
+  fullName: "com.microsoft.store.partnercenter.usage.IPartnerUsageSummary.get()"
+  name: "get()"
+  nameWithType: "IPartnerUsageSummary.get()"
+  summary: "Retrieves the partner's usage summary."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PartnerUsageSummary get()"
+  returns:
+    description: "The partner's usage summary."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary?alt=com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary&text=PartnerUsageSummary\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

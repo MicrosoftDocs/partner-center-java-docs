@@ -6,8 +6,32 @@ nameWithType: "IProductCollectionByCountryByTargetView"
 summary: "Holds operations that can be performed on products that belong to a given country and a catalog view."
 syntax: "public interface IProductCollectionByCountryByTargetView extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Product,ResourceCollection<Product>>"
 methods:
-- "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment(java.lang.String)"
-- "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get()"
+- uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment(String targetSegment)"
+  name: "byTargetSegment(String targetSegment)"
+  nameWithType: "IProductCollectionByCountryByTargetView.byTargetSegment(String targetSegment)"
+  summary: "Retrieves the operations that can be applied on products that belong to a given country, catalog view and target segment."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The target segment filter."
+    name: "targetSegment"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IProductCollectionByCountryByTargetViewByTargetSegment byTargetSegment(String targetSegment)"
+  returns:
+    description: "The product collection operations by country, by target view and by target segment."
+    type: "<xref href=\"com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment?alt=com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment&text=IProductCollectionByCountryByTargetViewByTargetSegment\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get()"
+  fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get()"
+  name: "get()"
+  nameWithType: "IProductCollectionByCountryByTargetView.get()"
+  summary: "Retrieves all the products in the given country and catalog view."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<Product> get()"
+  returns:
+    description: "The products in the given country and catalog view."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.products.Product?alt=com.microsoft.store.partnercenter.models.products.Product&text=Product\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

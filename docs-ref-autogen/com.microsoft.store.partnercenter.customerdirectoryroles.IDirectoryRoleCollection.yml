@@ -6,8 +6,32 @@ nameWithType: "IDirectoryRoleCollection"
 summary: "Interface for Directory Roles Collection"
 syntax: "public interface IDirectoryRoleCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<DirectoryRole,ResourceCollection<DirectoryRole>>, IEntitySelector<String,IDirectoryRole>"
 methods:
-- "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.byId(java.lang.String)"
-- "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.get()"
+- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.byId(String roleId)"
+  name: "byId(String roleId)"
+  nameWithType: "IDirectoryRoleCollection.byId(String roleId)"
+  summary: "Gets a directory role behavior."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The directory role identifier."
+    name: "roleId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IDirectoryRole byId(String roleId)"
+  returns:
+    description: "The directory role operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole?alt=com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole&text=IDirectoryRole\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.get()"
+  name: "get()"
+  nameWithType: "IDirectoryRoleCollection.get()"
+  summary: "Retrieves all customer directory roles."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<DirectoryRole> get()"
+  returns:
+    description: "All the customer directory roles."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.roles.DirectoryRole?alt=com.microsoft.store.partnercenter.models.roles.DirectoryRole&text=DirectoryRole\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

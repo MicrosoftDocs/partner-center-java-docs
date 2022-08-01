@@ -6,7 +6,17 @@ nameWithType: "ICustomerRelationshipRequest"
 summary: "Holds operations that apply to customer relationship requests."
 syntax: "public interface ICustomerRelationshipRequest extends IPartnerComponentString, IEntityGetOperations<CustomerRelationshipRequest>"
 methods:
-- "com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.get()"
+- uid: "com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.get()"
+  fullName: "com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.get()"
+  name: "get()"
+  nameWithType: "ICustomerRelationshipRequest.get()"
+  summary: "Retrieves the customer relationship request which can be used by a customer to establish a relationship with the current partner."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract CustomerRelationshipRequest get()"
+  returns:
+    description: "A customer relationship request."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest?alt=com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest&text=CustomerRelationshipRequest\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

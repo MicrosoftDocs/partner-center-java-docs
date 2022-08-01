@@ -5,9 +5,9 @@ name: "PartnerLicensesDeploymentInsightsCollectionOperations"
 nameWithType: "PartnerLicensesDeploymentInsightsCollectionOperations"
 summary: "Implements the operations on partner licenses deployment insights collection."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -24,9 +24,26 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class PartnerLicensesDeploymentInsightsCollectionOperations extends BasePartnerComponentString implements IPartnerLicensesDeploymentInsightsCollection"
 constructors:
-- "com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.PartnerLicensesDeploymentInsightsCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+- uid: "com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.PartnerLicensesDeploymentInsightsCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+  fullName: "com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.PartnerLicensesDeploymentInsightsCollectionOperations(IPartner rootPartnerOperations)"
+  name: "PartnerLicensesDeploymentInsightsCollectionOperations(IPartner rootPartnerOperations)"
+  nameWithType: "PartnerLicensesDeploymentInsightsCollectionOperations.PartnerLicensesDeploymentInsightsCollectionOperations(IPartner rootPartnerOperations)"
+  summary: "Initializes a new instance of the PartnerLicensesDeploymentInsightsCollectionOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PartnerLicensesDeploymentInsightsCollectionOperations(IPartner rootPartnerOperations)"
 methods:
-- "com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.get()"
+- uid: "com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.get()"
+  name: "get()"
+  nameWithType: "PartnerLicensesDeploymentInsightsCollectionOperations.get()"
+  summary: "Retrieves the collection of partner's licenses' deployment insights."
+  syntax: "public ResourceCollection<PartnerLicensesDeploymentInsights> get()"
+  returns:
+    description: "Collection of partner's licenses' deployment insights."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights?alt=com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights&text=PartnerLicensesDeploymentInsights\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection?alt=com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection&text=IPartnerLicensesDeploymentInsightsCollection\" data-throw-if-not-resolved=\"False\" />"

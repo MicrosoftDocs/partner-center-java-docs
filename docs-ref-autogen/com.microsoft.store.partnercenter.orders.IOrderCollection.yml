@@ -6,8 +6,36 @@ nameWithType: "IOrderCollection"
 summary: "Encapsulates customer orders behavior."
 syntax: "public interface IOrderCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>, IEntityCreateOperations<Order,Order>, IEntitySelector<String,IOrder>"
 methods:
-- "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
-- "com.microsoft.store.partnercenter.orders.IOrderCollection.get(java.lang.Boolean)"
+- uid: "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(BillingCycleType billingCycleType)"
+  name: "byBillingCycleType(BillingCycleType billingCycleType)"
+  nameWithType: "IOrderCollection.byBillingCycleType(BillingCycleType billingCycleType)"
+  summary: "Gets the order collection behavior given a billing cycle type."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The billing cycle type."
+    name: "billingCycleType"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.offers.BillingCycleType?alt=com.microsoft.store.partnercenter.models.offers.BillingCycleType&text=BillingCycleType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IOrderCollectionByBillingCycleType byBillingCycleType(BillingCycleType billingCycleType)"
+  returns:
+    description: "The order collection by billing cycle type."
+    type: "<xref href=\"com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType?alt=com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType&text=IOrderCollectionByBillingCycleType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.orders.IOrderCollection.get(java.lang.Boolean)"
+  fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection.get(Boolean includePrice)"
+  name: "get(Boolean includePrice)"
+  nameWithType: "IOrderCollection.get(Boolean includePrice)"
+  summary: "Gets a collection of orders."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "A flag indicating whether to include pricing details in the order information or not."
+    name: "includePrice"
+    type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ResourceCollection<Order> get(Boolean includePrice)"
+  returns:
+    description: "The collection of orders including pricing details (based on access permissions) when requested."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

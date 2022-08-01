@@ -6,7 +6,17 @@ nameWithType: "IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
 summary: "A generic interface which represents operations for getting an entire collection of entities. The entity type.The entity collection type."
 syntax: "public interface IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>"
 methods:
-- "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()"
+  name: "get()"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()"
+  summary: "Retrieves all entities."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract TResourceCollection get()"
+  returns:
+    description: "The entities."
+    type: "<xref href=\"TResourceCollection?alt=TResourceCollection&text=TResourceCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
 - name: "T"

@@ -6,8 +6,39 @@ nameWithType: "IRelationshipCollection"
 summary: "This interface represents the operations that can be done on a partner's relationships."
 syntax: "public interface IRelationshipCollection extends IPartnerComponentString"
 methods:
-- "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.Query(com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType,com.microsoft.store.partnercenter.models.query.IQuery)"
-- "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.get(com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType)"
+- uid: "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.Query(com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType,com.microsoft.store.partnercenter.models.query.IQuery)"
+  fullName: "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.Query(PartnerRelationshipType partnerRelationshipType, IQuery query)"
+  name: "Query(PartnerRelationshipType partnerRelationshipType, IQuery query)"
+  nameWithType: "IRelationshipCollection.Query(PartnerRelationshipType partnerRelationshipType, IQuery query)"
+  summary: "Queries partner relationships associated to the partner."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The type of partner relationship."
+    name: "partnerRelationshipType"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType?alt=com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType&text=PartnerRelationshipType\" data-throw-if-not-resolved=\"False\" />"
+  - description: "A query to apply onto partner relationships."
+    name: "query"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ResourceCollection<PartnerRelationship> Query(PartnerRelationshipType partnerRelationshipType, IQuery query)"
+  returns:
+    description: "TThe partner relationships that match the given query."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.relationships.PartnerRelationship?alt=com.microsoft.store.partnercenter.models.relationships.PartnerRelationship&text=PartnerRelationship\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.get(com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType)"
+  fullName: "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.get(PartnerRelationshipType partnerRelationshipType)"
+  name: "get(PartnerRelationshipType partnerRelationshipType)"
+  nameWithType: "IRelationshipCollection.get(PartnerRelationshipType partnerRelationshipType)"
+  summary: "Retrieves all the partner relationships."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The type of partner relationship."
+    name: "partnerRelationshipType"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType?alt=com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType&text=PartnerRelationshipType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ResourceCollection<PartnerRelationship> get(PartnerRelationshipType partnerRelationshipType)"
+  returns:
+    description: "The available partner relationships."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.relationships.PartnerRelationship?alt=com.microsoft.store.partnercenter.models.relationships.PartnerRelationship&text=PartnerRelationship\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

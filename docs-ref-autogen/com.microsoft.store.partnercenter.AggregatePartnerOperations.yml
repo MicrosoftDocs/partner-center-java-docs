@@ -5,8 +5,8 @@ name: "AggregatePartnerOperations"
 nameWithType: "AggregatePartnerOperations"
 summary: "Aggregate partner implementation."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.PartnerOperations\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.PartnerOperations?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.PartnerOperations.getAgreementDetails()"
 - "com.microsoft.store.partnercenter.PartnerOperations.getAnalytics()"
@@ -45,9 +45,30 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class AggregatePartnerOperations extends PartnerOperations implements IAggregatePartner"
 constructors:
-- "com.microsoft.store.partnercenter.AggregatePartnerOperations.AggregatePartnerOperations(com.microsoft.store.partnercenter.IPartnerCredentials)"
+- uid: "com.microsoft.store.partnercenter.AggregatePartnerOperations.AggregatePartnerOperations(com.microsoft.store.partnercenter.IPartnerCredentials)"
+  fullName: "com.microsoft.store.partnercenter.AggregatePartnerOperations.AggregatePartnerOperations(IPartnerCredentials credentials)"
+  name: "AggregatePartnerOperations(IPartnerCredentials credentials)"
+  nameWithType: "AggregatePartnerOperations.AggregatePartnerOperations(IPartnerCredentials credentials)"
+  summary: "Initializes a new instance of the AggregatePartnerOperations class."
+  parameters:
+  - description: "The partner credentials."
+    name: "credentials"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartnerCredentials?alt=com.microsoft.store.partnercenter.IPartnerCredentials&text=IPartnerCredentials\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AggregatePartnerOperations(IPartnerCredentials credentials)"
 methods:
-- "com.microsoft.store.partnercenter.AggregatePartnerOperations.with(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+- uid: "com.microsoft.store.partnercenter.AggregatePartnerOperations.with(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+  fullName: "com.microsoft.store.partnercenter.AggregatePartnerOperations.with(IRequestContext context)"
+  name: "with(IRequestContext context)"
+  nameWithType: "AggregatePartnerOperations.with(IRequestContext context)"
+  summary: "Returns a partner operations object which uses the provided context when executing operations."
+  parameters:
+  - description: "An operation context object."
+    name: "context"
+    type: "<xref href=\"com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public IPartner with(IRequestContext context)"
+  returns:
+    description: "A partner operations object which uses the provided operation context."
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IAggregatePartner?alt=com.microsoft.store.partnercenter.IAggregatePartner&text=IAggregatePartner\" data-throw-if-not-resolved=\"False\" />"

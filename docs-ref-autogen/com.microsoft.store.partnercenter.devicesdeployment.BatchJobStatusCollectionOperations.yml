@@ -5,9 +5,9 @@ name: "BatchJobStatusCollectionOperations"
 nameWithType: "BatchJobStatusCollectionOperations"
 summary: "Cart collection operations implementation class."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -24,9 +24,33 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class BatchJobStatusCollectionOperations extends BasePartnerComponentString implements IBatchJobStatusCollection"
 constructors:
-- "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations.BatchJobStatusCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations.BatchJobStatusCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations.BatchJobStatusCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+  name: "BatchJobStatusCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+  nameWithType: "BatchJobStatusCollectionOperations.BatchJobStatusCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+  summary: "Initializes a new instance of the BatchJobStatusCollectionOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Identifier for the customer."
+    name: "customerId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public BatchJobStatusCollectionOperations(IPartner rootPartnerOperations, String customerId)"
 methods:
-- "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations.byId(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations.byId(String trackingId)"
+  name: "byId(String trackingId)"
+  nameWithType: "BatchJobStatusCollectionOperations.byId(String trackingId)"
+  summary: "Retrieves a specific customer's devices batch upload status operations."
+  parameters:
+  - description: "The device collection upload tracking id."
+    name: "trackingId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public IBatchJobStatus byId(String trackingId)"
+  returns:
+    description: "The customer's devices batch upload status operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus?alt=com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus&text=IBatchJobStatus\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection?alt=com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection&text=IBatchJobStatusCollection\" data-throw-if-not-resolved=\"False\" />"

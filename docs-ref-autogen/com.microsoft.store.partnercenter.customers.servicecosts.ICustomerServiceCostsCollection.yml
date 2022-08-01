@@ -6,7 +6,21 @@ nameWithType: "ICustomerServiceCostsCollection"
 summary: "Holds customer service costs behavior."
 syntax: "public interface ICustomerServiceCostsCollection extends IPartnerComponentString"
 methods:
-- "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod(com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod(com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  name: "byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  nameWithType: "ICustomerServiceCostsCollection.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  summary: "Obtains the service cost operations by billing period."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The billing period."
+    name: "billingPeriod"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod?alt=com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod&text=ServiceCostsBillingPeriod\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IServiceCostsCollection byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  returns:
+    description: "The service cost operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection?alt=com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection&text=IServiceCostsCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

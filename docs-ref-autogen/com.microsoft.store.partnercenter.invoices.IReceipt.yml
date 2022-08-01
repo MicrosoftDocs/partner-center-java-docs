@@ -6,7 +6,17 @@ nameWithType: "IReceipt"
 summary: "Represents the available receipt operations."
 syntax: "public interface IReceipt extends IPartnerComponent<Tuple<String,String>>"
 methods:
-- "com.microsoft.store.partnercenter.invoices.IReceipt.getDocuments()"
+- uid: "com.microsoft.store.partnercenter.invoices.IReceipt.getDocuments()"
+  fullName: "com.microsoft.store.partnercenter.invoices.IReceipt.getDocuments()"
+  name: "getDocuments()"
+  nameWithType: "IReceipt.getDocuments()"
+  summary: "Gets the available document operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IReceiptDocuments getDocuments()"
+  returns:
+    description: "The available document operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IReceiptDocuments?alt=com.microsoft.store.partnercenter.invoices.IReceiptDocuments&text=IReceiptDocuments\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

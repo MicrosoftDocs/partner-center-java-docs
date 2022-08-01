@@ -6,7 +6,21 @@ nameWithType: "IBatchJobStatusCollection"
 summary: "Represents the operations that can be done on the partner's batch upload status collection."
 syntax: "public interface IBatchJobStatusCollection extends IPartnerComponentString, IEntitySelector<String,IBatchJobStatus>"
 methods:
-- "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId(String trackingId)"
+  name: "byId(String trackingId)"
+  nameWithType: "IBatchJobStatusCollection.byId(String trackingId)"
+  summary: "Retrieves a specific customer's devices batch upload status behavior."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The tracking identifier."
+    name: "trackingId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IBatchJobStatus byId(String trackingId)"
+  returns:
+    description: "The customer's devices batch upload status operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus?alt=com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus&text=IBatchJobStatus\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

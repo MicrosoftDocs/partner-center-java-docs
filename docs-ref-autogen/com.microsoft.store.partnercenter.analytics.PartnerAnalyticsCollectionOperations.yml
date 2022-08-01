@@ -5,9 +5,9 @@ name: "PartnerAnalyticsCollectionOperations"
 nameWithType: "PartnerAnalyticsCollectionOperations"
 summary: "Implements the operations on partner analytics collection."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -24,9 +24,26 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class PartnerAnalyticsCollectionOperations extends BasePartnerComponentString implements IPartnerAnalyticsCollection"
 constructors:
-- "com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations.PartnerAnalyticsCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+- uid: "com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations.PartnerAnalyticsCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+  fullName: "com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations.PartnerAnalyticsCollectionOperations(IPartner rootPartnerOperations)"
+  name: "PartnerAnalyticsCollectionOperations(IPartner rootPartnerOperations)"
+  nameWithType: "PartnerAnalyticsCollectionOperations.PartnerAnalyticsCollectionOperations(IPartner rootPartnerOperations)"
+  summary: "Initializes a new instance of the PartnerAnalyticsCollectionOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PartnerAnalyticsCollectionOperations(IPartner rootPartnerOperations)"
 methods:
-- "com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations.getLicenses()"
+- uid: "com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations.getLicenses()"
+  fullName: "com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations.getLicenses()"
+  name: "getLicenses()"
+  nameWithType: "PartnerAnalyticsCollectionOperations.getLicenses()"
+  summary: "Gets the operations on partner's licenses' analytics collection."
+  syntax: "public IPartnerLicensesAnalyticsCollection getLicenses()"
+  returns:
+    description: "The operations on partner's licenses' analytics collection."
+    type: "<xref href=\"com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection?alt=com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection&text=IPartnerLicensesAnalyticsCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection?alt=com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection&text=IPartnerAnalyticsCollection\" data-throw-if-not-resolved=\"False\" />"

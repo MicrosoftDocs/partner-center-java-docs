@@ -6,7 +6,24 @@ nameWithType: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
 summary: "A generic interface which represents paged entity retrieval operations. The entity type.The entity collection type."
 syntax: "public interface IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
 methods:
-- "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get(int,int)"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get(int,int)"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get(int offset, int size)"
+  name: "get(int offset, int size)"
+  nameWithType: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get(int offset, int size)"
+  summary: "Retrieves a subset of entities."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The starting index."
+    name: "offset"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The maximum number of entities to return."
+    name: "size"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract TResourceCollection get(int offset, int size)"
+  returns:
+    description: "The requested entities subset."
+    type: "<xref href=\"TResourceCollection?alt=TResourceCollection&text=TResourceCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
 - name: "T"

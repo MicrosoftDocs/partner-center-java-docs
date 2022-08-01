@@ -6,7 +6,17 @@ nameWithType: "IServiceCostSummary"
 summary: "Holds the operations related to a customer's service costs."
 syntax: "public interface IServiceCostSummary extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<ServiceCostsSummary>"
 methods:
-- "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get()"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get()"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get()"
+  name: "get()"
+  nameWithType: "IServiceCostSummary.get()"
+  summary: "Retrieves the customer's service cost summary."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ServiceCostsSummary get()"
+  returns:
+    description: "The customer's service cost summary."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary?alt=com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary&text=ServiceCostsSummary\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

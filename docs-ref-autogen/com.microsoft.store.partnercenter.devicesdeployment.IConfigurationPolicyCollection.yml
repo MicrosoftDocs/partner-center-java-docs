@@ -6,8 +6,32 @@ nameWithType: "IConfigurationPolicyCollection"
 summary: "RRepresents the operations that can be done on the partner's configuration policies."
 syntax: "public interface IConfigurationPolicyCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<ConfigurationPolicy,ResourceCollection<ConfigurationPolicy>>, IEntityCreateOperations<ConfigurationPolicy,ConfigurationPolicy>, IEntitySelector<String,IConfigurationPolicy>"
 methods:
-- "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.byId(java.lang.String)"
-- "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.get()"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.byId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.byId(String policyId)"
+  name: "byId(String policyId)"
+  nameWithType: "IConfigurationPolicyCollection.byId(String policyId)"
+  summary: "Retrieves a specific customer's devices batch upload status behavior."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The policy identifier."
+    name: "policyId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IConfigurationPolicy byId(String policyId)"
+  returns:
+    description: "The customer's devices batch upload status operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy?alt=com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy&text=IConfigurationPolicy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.get()"
+  name: "get()"
+  nameWithType: "IConfigurationPolicyCollection.get()"
+  summary: "Retrieves all configuration policies."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<ConfigurationPolicy> get()"
+  returns:
+    description: "The collection of configuration policies."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy?alt=com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy&text=ConfigurationPolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

@@ -5,8 +5,8 @@ name: "DevicePolicyUpdateRequest"
 nameWithType: "DevicePolicyUpdateRequest"
 summary: "Represents the list of devices to be updated with a policy."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -22,10 +22,27 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class DevicePolicyUpdateRequest extends ResourceBase"
 constructors:
-- "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest.DevicePolicyUpdateRequest()"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest.DevicePolicyUpdateRequest()"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest.DevicePolicyUpdateRequest()"
+  name: "DevicePolicyUpdateRequest()"
+  nameWithType: "DevicePolicyUpdateRequest.DevicePolicyUpdateRequest()"
+  syntax: "public DevicePolicyUpdateRequest()"
 methods:
-- "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest.getSetDevices()"
-- "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest.setDevices(java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>)"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest.getSetDevices()"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest.getSetDevices()"
+  name: "getSetDevices()"
+  nameWithType: "DevicePolicyUpdateRequest.getSetDevices()"
+  syntax: "public List<Device> getSetDevices()"
+  returns:
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.Device?alt=com.microsoft.store.partnercenter.models.devicesdeployment.Device&text=Device\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest.setDevices(java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>)"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest.setDevices(List<Device> value)"
+  name: "setDevices(List<Device> value)"
+  nameWithType: "DevicePolicyUpdateRequest.setDevices(List<Device> value)"
+  parameters:
+  - name: "value"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.Device?alt=com.microsoft.store.partnercenter.models.devicesdeployment.Device&text=Device\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public void setDevices(List<Device> value)"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.devicesdeployment"

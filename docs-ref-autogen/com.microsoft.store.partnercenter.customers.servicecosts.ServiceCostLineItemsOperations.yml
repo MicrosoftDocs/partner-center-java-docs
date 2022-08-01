@@ -5,8 +5,8 @@ name: "ServiceCostLineItemsOperations"
 nameWithType: "ServiceCostLineItemsOperations"
 summary: "Represents the behavior of the customer service cost line items as a whole."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -23,9 +23,29 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class ServiceCostLineItemsOperations extends BasePartnerComponent<Tuple<String,String>> implements IServiceCostLineItemsCollection"
 constructors:
-- "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(com.microsoft.store.partnercenter.IPartner,com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>)"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(com.microsoft.store.partnercenter.IPartner,com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>)"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
+  name: "ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
+  nameWithType: "ServiceCostLineItemsOperations.ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
+  summary: "Initializes a new instance of the ServiceCostLineItemsOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context, including customer id and billing period.."
+    name: "context"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public ServiceCostLineItemsOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
 methods:
-- "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get()"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get()"
+  name: "get()"
+  nameWithType: "ServiceCostLineItemsOperations.get()"
+  summary: "Retrieves a customer's service cost line items."
+  syntax: "public ResourceCollection<ServiceCostLineItem> get()"
+  returns:
+    description: "The service cost line items."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem?alt=com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem&text=ServiceCostLineItem\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection?alt=com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection&text=IServiceCostLineItemsCollection\" data-throw-if-not-resolved=\"False\" />"

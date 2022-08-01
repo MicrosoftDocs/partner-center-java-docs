@@ -6,8 +6,32 @@ nameWithType: "IValidationOperations"
 summary: "Represents the behavior of a validation operations."
 syntax: "public interface IValidationOperations extends IPartnerComponentString"
 methods:
-- "com.microsoft.store.partnercenter.validations.IValidationOperations.getValidationCodes()"
-- "com.microsoft.store.partnercenter.validations.IValidationOperations.isAddressValid(com.microsoft.store.partnercenter.models.Address)"
+- uid: "com.microsoft.store.partnercenter.validations.IValidationOperations.getValidationCodes()"
+  fullName: "com.microsoft.store.partnercenter.validations.IValidationOperations.getValidationCodes()"
+  name: "getValidationCodes()"
+  nameWithType: "IValidationOperations.getValidationCodes()"
+  summary: "Gets validation code which is used for Government Community Cloud customers qualification."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<ValidationCode> getValidationCodes()"
+  returns:
+    description: "List of validation codes."
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.validationcodes.ValidationCode?alt=com.microsoft.store.partnercenter.models.validationcodes.ValidationCode&text=ValidationCode\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.store.partnercenter.validations.IValidationOperations.isAddressValid(com.microsoft.store.partnercenter.models.Address)"
+  fullName: "com.microsoft.store.partnercenter.validations.IValidationOperations.isAddressValid(Address address)"
+  name: "isAddressValid(Address address)"
+  nameWithType: "IValidationOperations.isAddressValid(Address address)"
+  summary: "Checks if the address is valid or not."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The address to be validated."
+    name: "address"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.Address?alt=com.microsoft.store.partnercenter.models.Address&text=Address\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Boolean isAddressValid(Address address)"
+  returns:
+    description: "true if the address is valid, false otherwise."
+    type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

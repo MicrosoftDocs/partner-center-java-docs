@@ -6,8 +6,32 @@ nameWithType: "ICustomerUserLicenseCollection"
 summary: "Represents the behavior of the customers user's directory roles."
 syntax: "public interface ICustomerUserLicenseCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<License,ResourceCollection<License>>"
 methods:
-- "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get()"
-- "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get(java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>)"
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get()"
+  name: "get()"
+  nameWithType: "ICustomerUserLicenseCollection.get()"
+  summary: "Retrieves the assigned licenses to a customer user."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<License> get()"
+  returns:
+    description: "The customer user's directory roles."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.licenses.License?alt=com.microsoft.store.partnercenter.models.licenses.License&text=License\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get(java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>)"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get(List<LicenseGroupId> licenseGroupIds)"
+  name: "get(List<LicenseGroupId> licenseGroupIds)"
+  nameWithType: "ICustomerUserLicenseCollection.get(List<LicenseGroupId> licenseGroupIds)"
+  summary: "Retrieves the assigned licenses to a customer user."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "License group identifier"
+    name: "licenseGroupIds"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.licenses.LicenseGroupId?alt=com.microsoft.store.partnercenter.models.licenses.LicenseGroupId&text=LicenseGroupId\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract ResourceCollection<License> get(List<LicenseGroupId> licenseGroupIds)"
+  returns:
+    description: "The customer user's directory roles."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.licenses.License?alt=com.microsoft.store.partnercenter.models.licenses.License&text=License\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

@@ -4,8 +4,8 @@ fullName: "com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations
 name: "ReceiptStatementOperations"
 nameWithType: "ReceiptStatementOperations"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -22,9 +22,32 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class ReceiptStatementOperations extends BasePartnerComponent<Tuple<String,String>> implements IReceiptStatement"
 constructors:
-- "com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations.ReceiptStatementOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations.ReceiptStatementOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations.ReceiptStatementOperations(IPartner rootPartnerOperations, String invoiceId, String receiptId)"
+  name: "ReceiptStatementOperations(IPartner rootPartnerOperations, String invoiceId, String receiptId)"
+  nameWithType: "ReceiptStatementOperations.ReceiptStatementOperations(IPartner rootPartnerOperations, String invoiceId, String receiptId)"
+  summary: "Initializes a new instance of the ReceiptStatementOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The invoice identifier."
+    name: "invoiceId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The receipt identifier."
+    name: "receiptId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ReceiptStatementOperations(IPartner rootPartnerOperations, String invoiceId, String receiptId)"
 methods:
-- "com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations.get()"
+- uid: "com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations.get()"
+  name: "get()"
+  nameWithType: "ReceiptStatementOperations.get()"
+  summary: "Retrieves the invoice statement. This operation is currently only supported for user based credentials."
+  syntax: "public InputStream get()"
+  returns:
+    description: "The invoice statement."
+    type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.invoices.IReceiptStatement?alt=com.microsoft.store.partnercenter.invoices.IReceiptStatement&text=IReceiptStatement\" data-throw-if-not-resolved=\"False\" />"

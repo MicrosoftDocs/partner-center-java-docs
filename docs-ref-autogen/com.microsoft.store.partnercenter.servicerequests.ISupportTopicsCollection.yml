@@ -6,7 +6,17 @@ nameWithType: "ISupportTopicsCollection"
 summary: "Represents the behavior of support topics. Support Topics operations are localizable."
 syntax: "public interface ISupportTopicsCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<SupportTopic,ResourceCollection<SupportTopic>>"
 methods:
-- "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.get()"
+- uid: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.get()"
+  name: "get()"
+  nameWithType: "ISupportTopicsCollection.get()"
+  summary: "Retrieves all the support topics."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<SupportTopic> get()"
+  returns:
+    description: "The support topics."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.servicerequests.SupportTopic?alt=com.microsoft.store.partnercenter.models.servicerequests.SupportTopic&text=SupportTopic\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"

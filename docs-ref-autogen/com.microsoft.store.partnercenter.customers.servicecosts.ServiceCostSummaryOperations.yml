@@ -5,8 +5,8 @@ name: "ServiceCostSummaryOperations"
 nameWithType: "ServiceCostSummaryOperations"
 summary: "This class implements the operations for a customer's service costs summary."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -23,9 +23,29 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class ServiceCostSummaryOperations extends BasePartnerComponent<Tuple<String,String>> implements IServiceCostSummary"
 constructors:
-- "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostSummaryOperations.ServiceCostSummaryOperations(com.microsoft.store.partnercenter.IPartner,com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>)"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostSummaryOperations.ServiceCostSummaryOperations(com.microsoft.store.partnercenter.IPartner,com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>)"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostSummaryOperations.ServiceCostSummaryOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
+  name: "ServiceCostSummaryOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
+  nameWithType: "ServiceCostSummaryOperations.ServiceCostSummaryOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
+  summary: "Initializes a new instance of the ServiceCostSummaryOperations class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context, including customer id and billing period.."
+    name: "context"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public ServiceCostSummaryOperations(IPartner rootPartnerOperations, Tuple<String,String> context)"
 methods:
-- "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostSummaryOperations.get()"
+- uid: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostSummaryOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostSummaryOperations.get()"
+  name: "get()"
+  nameWithType: "ServiceCostSummaryOperations.get()"
+  summary: "Retrieves a customer's service cost line items."
+  syntax: "public ServiceCostsSummary get()"
+  returns:
+    description: "The service cost line items."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary?alt=com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary&text=ServiceCostsSummary\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary?alt=com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary&text=IServiceCostSummary\" data-throw-if-not-resolved=\"False\" />"

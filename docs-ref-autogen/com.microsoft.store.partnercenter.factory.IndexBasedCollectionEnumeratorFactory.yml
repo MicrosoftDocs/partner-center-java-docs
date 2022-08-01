@@ -5,9 +5,9 @@ name: "IndexBasedCollectionEnumeratorFactory<T,TResourceCollection>"
 nameWithType: "IndexBasedCollectionEnumeratorFactory<T,TResourceCollection>"
 summary: "Factory method for creating a new instance of index based collection enumerator."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -24,9 +24,33 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class IndexBasedCollectionEnumeratorFactory<T,TResourceCollection> extends BasePartnerComponentString implements IResourceCollectionEnumeratorFactory<TResourceCollection>"
 constructors:
-- "com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory.IndexBasedCollectionEnumeratorFactory(com.microsoft.store.partnercenter.IPartner,com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>)"
+- uid: "com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory.IndexBasedCollectionEnumeratorFactory(com.microsoft.store.partnercenter.IPartner,com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>)"
+  fullName: "com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory<T,TResourceCollection>.IndexBasedCollectionEnumeratorFactory(IPartner rootPartnerOperations, TypeReference<TResourceCollection> responseType)"
+  name: "IndexBasedCollectionEnumeratorFactory(IPartner rootPartnerOperations, TypeReference<TResourceCollection> responseType)"
+  nameWithType: "IndexBasedCollectionEnumeratorFactory<T,TResourceCollection>.IndexBasedCollectionEnumeratorFactory(IPartner rootPartnerOperations, TypeReference<TResourceCollection> responseType)"
+  summary: "Initializes a new instance of the IndexBasedCollectionEnumeratorFactory class."
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The type of resource."
+    name: "responseType"
+    type: "<xref href=\"com.fasterxml.jackson.core.type.TypeReference?alt=com.fasterxml.jackson.core.type.TypeReference&text=TypeReference\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"TResourceCollection?alt=TResourceCollection&text=TResourceCollection\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public IndexBasedCollectionEnumeratorFactory(IPartner rootPartnerOperations, TypeReference<TResourceCollection> responseType)"
 methods:
-- "com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory.create(TResourceCollection)"
+- uid: "com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory.create(TResourceCollection)"
+  fullName: "com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory<T,TResourceCollection>.create(TResourceCollection resourceCollection)"
+  name: "create(TResourceCollection resourceCollection)"
+  nameWithType: "IndexBasedCollectionEnumeratorFactory<T,TResourceCollection>.create(TResourceCollection resourceCollection)"
+  summary: "Creates a index based collection enumerator capable of traversing resources that uses offset and page size for pagination."
+  parameters:
+  - description: "The initial resource collection to start from."
+    name: "resourceCollection"
+    type: "<xref href=\"TResourceCollection?alt=TResourceCollection&text=TResourceCollection\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public IResourceCollectionEnumerator<TResourceCollection> create(TResourceCollection resourceCollection)"
+  returns:
+    description: "A customer collection enumerator capable of traversing customers."
+    type: "<xref href=\"com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator?alt=com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator&text=IResourceCollectionEnumerator\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"TResourceCollection?alt=TResourceCollection&text=TResourceCollection\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 typeParameters:
 - name: "T"

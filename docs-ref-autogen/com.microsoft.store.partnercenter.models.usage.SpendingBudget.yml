@@ -5,8 +5,8 @@ name: "SpendingBudget"
 nameWithType: "SpendingBudget"
 summary: "The spending budget allocated to the customer by the partner."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -22,10 +22,27 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class SpendingBudget extends ResourceBase"
 constructors:
-- "com.microsoft.store.partnercenter.models.usage.SpendingBudget.SpendingBudget()"
+- uid: "com.microsoft.store.partnercenter.models.usage.SpendingBudget.SpendingBudget()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.SpendingBudget.SpendingBudget()"
+  name: "SpendingBudget()"
+  nameWithType: "SpendingBudget.SpendingBudget()"
+  syntax: "public SpendingBudget()"
 methods:
-- "com.microsoft.store.partnercenter.models.usage.SpendingBudget.getAmount()"
-- "com.microsoft.store.partnercenter.models.usage.SpendingBudget.setAmount(java.lang.Double)"
+- uid: "com.microsoft.store.partnercenter.models.usage.SpendingBudget.getAmount()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.SpendingBudget.getAmount()"
+  name: "getAmount()"
+  nameWithType: "SpendingBudget.getAmount()"
+  syntax: "public Double getAmount()"
+  returns:
+    type: "<xref href=\"java.lang.Double?alt=java.lang.Double&text=Double\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.usage.SpendingBudget.setAmount(java.lang.Double)"
+  fullName: "com.microsoft.store.partnercenter.models.usage.SpendingBudget.setAmount(Double value)"
+  name: "setAmount(Double value)"
+  nameWithType: "SpendingBudget.setAmount(Double value)"
+  parameters:
+  - name: "value"
+    type: "<xref href=\"java.lang.Double?alt=java.lang.Double&text=Double\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void setAmount(Double value)"
 type: "class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.usage"
